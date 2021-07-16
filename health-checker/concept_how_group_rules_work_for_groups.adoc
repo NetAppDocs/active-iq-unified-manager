@@ -1,0 +1,109 @@
+---
+permalink: health-checker/concept_how_group_rules_work_for_groups.html
+sidebar: sidebar
+keywords: 
+summary: 'A group rule is a criterion that you define to enable storage objects \(volumes, clusters, or SVMs\) to be included in a specific group. You can use condition groups or conditions for defining group rule for a group.'
+---
+= How group rules work for groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A group rule is a criterion that you define to enable storage objects (volumes, clusters, or SVMs) to be included in a specific group. You can use condition groups or conditions for defining group rule for a group.
+
+* You must associate a group rule to a group.
+* You must associate an object type for a group rule; only one object type is associated for a group rule.
+* Storage objects are added or removed from the group after each monitoring cycle or when a rule is created, edited, or deleted.
+* A group rule can have one or more condition groups, and each condition group can have one or more conditions.
+* Storage objects can belong to multiple groups based on group rules you create.
+
+== Conditions
+
+You can create multiple condition groups, and each condition group can have one or more conditions. You can apply all the defined condition groups in a group rule for groups in order to specify which storage objects are included in the group.
+
+Conditions within a condition group are executed using logical AND. All the conditions in a condition group must be met. When you create or modify a group rule, a condition is created that applies, selects, and groups only those storage objects that satisfy all conditions in the condition group. You can use multiple conditions within a condition group when you want to narrow the scope of which storage objects to include in a group.
+
+You can create conditions with storage objects by using the following operands and operator and specifying the required value.
+
+|===
+| Storage object type| Applicable operands
+a|
+Volume
+a|
+
+* Object name
+* Owning cluster name
+* Owning SVM name
+* Annotations
+
+a|
+SVM
+a|
+
+* Object name
+* Owning cluster name
+* Annotations
+
+a|
+Cluster
+a|
+
+* Object name
+* Annotations
+
+|===
+When you select annotation as an operand for any storage object, the "`Is`" operator is available. For all other operands, you can select either "`Is`" or "`Contains`" as operator.
+
+* Operand
++
+The list of operands in Unified Manager changes based on the selected object type. The list includes the object name, owning cluster name, owning SVM name, and annotations that you define in Unified Manager.
+
+* Operator
++
+The list of operators changes based on the selected operand for a condition. The operators supported in Unified Manager are "`Is`" and "`Contains`".
++
+When you select the "`Is`" operator, the condition is evaluated for exact match of operand value to the value provided for the selected operand.
++
+When you select the "`Contains`" operator, the condition is evaluated to meet one of the following criteria:
+
+ ** The operand value is an exact match to the value provided for the selected operand
+ ** The operand value contains the value provided for the selected operand
+
+* Value
++
+The value field changes based on the operand selected.
+
+== Example of a group rule with conditions
+
+Consider a condition group for a volume with the following two conditions:
+
+* Name contains "`vol`"
+* SVM name is "`data_svm`"
+
+This condition group selects all volumes that include "`vol`" in their names and that are hosted on SVMs with the name "`data_svm`".
+
+== Condition groups
+
+Condition groups are executed using logical OR, and then applied to storage objects. The storage objects must satisfy one of the condition groups to be included in a group. The storage objects of all the condition groups are combined. You can use condition groups to increase the scope of storage objects to include in a group.
+
+== Example of a group rule with condition groups
+
+Consider two condition groups for a volume, with each group containing the following two conditions:
+
+* Condition group 1
+ ** Name contains "`vol`"
+ ** SVM name is "`data_svm`"
+Condition group 1 selects all volumes that include "`vol`" in their names and that are hosted on SVMs with the name "`data_svm`".
+* Condition group 2
+ ** Name contains "`vol`"
+ ** The annotation value of data-priority is "`critical`"
+Condition group 2 selects all volumes that include "`vol`" in their names and that are annotated with the data-priority annotation value as "`critical`".
+
+When a group rule containing these two condition groups is applied on storage objects, then the following storage objects are added to a selected group:
+
+* All volumes that include "`vol`" in their names and that are hosted on the SVM with the name "`data_svm`".
+* All volumes that include "`vol`" in their names and that are annotated with the data-priority annotation value "`critical`".
+
+*Related information*
+
+xref:concept_managing_and_monitoring_groups.adoc[Managing and monitoring groups]

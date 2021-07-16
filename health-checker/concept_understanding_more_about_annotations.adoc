@@ -1,0 +1,12 @@
+---
+permalink: health-checker/concept_understanding_more_about_annotations.html
+sidebar: sidebar
+keywords: 
+summary: 'Understanding the concepts about annotations helps you to manage the events related to the storage objects in your environment.'
+---
+= Understanding more about annotations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Understanding the concepts about annotations helps you to manage the events related to the storage objects in your environment.

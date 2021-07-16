@@ -1,0 +1,25 @@
+---
+permalink: performance-checker/concept_analyzing_events_from_system_defined_performance_thresholds.html
+sidebar: sidebar
+keywords: 
+summary: 'Events generated from system-defined performance thresholds indicate that a performance counter, or set of performance counters, for a certain storage object has crossed the threshold from a system-defined policy. This indicates that the storage object, for example, an aggregate or node, is experiencing a performance issue.'
+---
+= Analyzing events from system-defined performance thresholds
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Events generated from system-defined performance thresholds indicate that a performance counter, or set of performance counters, for a certain storage object has crossed the threshold from a system-defined policy. This indicates that the storage object, for example, an aggregate or node, is experiencing a performance issue.
+
+You use the Event details page to analyze the performance event and take corrective action, if necessary, to return performance back to normal.
+
+[NOTE]
+====
+System-defined threshold policies are not enabled on Cloud Volumes ONTAP, ONTAP Edge, or ONTAP Select systems.
+====
+
+*Related information*
+
+xref:reference_performance_event_severity_types.adoc[Performance event severity types]
+
+xref:reference_types_of_system_defined_performance_threshold_policies.adoc[Types of system-defined performance threshold policies]

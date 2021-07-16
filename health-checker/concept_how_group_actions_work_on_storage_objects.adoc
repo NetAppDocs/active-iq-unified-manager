@@ -1,0 +1,27 @@
+---
+permalink: health-checker/concept_how_group_actions_work_on_storage_objects.html
+sidebar: sidebar
+keywords: 
+summary: 'A group action is an operation that is performed on all the storage objects in a group. For example, you can configure volume threshold group action to simultaneously change the volume threshold values of all volumes in a group.'
+---
+= How group actions work on storage objects
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A group action is an operation that is performed on all the storage objects in a group. For example, you can configure volume threshold group action to simultaneously change the volume threshold values of all volumes in a group.
+
+Groups support unique group action types. You can have a group with only one volume health threshold group action type. However, you can configure a different type of group action, if available, for the same group. The rank of a group action determines the order in which the action is applied to storage objects. The details page of a storage object provides information about which group action is applied on the storage object.
+
+== Example of unique group actions
+
+Consider a volume A that belongs to groups G1 and G2, and the following volume health threshold group actions are configured for these groups:
+
+* `Change_capacity_threshold` group action with rank 1, for configuring the capacity of the volume
+* `Change_snapshot_copies` group action with rank 2, for configuring the Snapshot copies of the volume
+
+The `Change_capacity_threshold` group action always takes priority over the `Change_snapshot_copies` group action and is applied to volume A. When Unified Manager completes one cycle of monitoring, the health threshold related events of volume A are re-evaluated per the `Change_capacity_threshold` group action. You cannot configure another volume threshold type of group action for either G1 or G2 group.
+
+*Related information*
+
+xref:concept_managing_and_monitoring_groups.adoc[Managing and monitoring groups]

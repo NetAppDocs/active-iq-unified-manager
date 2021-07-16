@@ -1,0 +1,12 @@
+---
+permalink: performance-checker/concept_monitoring_cluster_performance_from_the_cluster_landing_page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Performance Cluster Landing page displays the high-level performance status of a selected cluster that is being monitored by an instance of Unified Manager. This page enables you to assess the overall performance of a specific cluster, and to quickly note, locate, or assign for resolution any cluster-specific events that are identified.'
+---
+= Monitoring cluster performance from the Performance Cluster Landing page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Performance Cluster Landing page displays the high-level performance status of a selected cluster that is being monitored by an instance of Unified Manager. This page enables you to assess the overall performance of a specific cluster, and to quickly note, locate, or assign for resolution any cluster-specific events that are identified.

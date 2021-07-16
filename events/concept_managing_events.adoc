@@ -1,0 +1,12 @@
+---
+permalink: events/concept_managing_events.html
+sidebar: sidebar
+keywords: 
+summary: 'Events help you to identify issues in the clusters that are monitored.'
+---
+= Managing events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Events help you to identify issues in the clusters that are monitored.

@@ -1,0 +1,52 @@
+---
+permalink: api-automation/index.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= API Developer's Guide
+:icons: font
+:imagesdir: ../media/
+
+* xref:concept_getting_strated_with_getting_started_with_um_apis.adoc[Getting started with Active IQ Unified Manager]
+ ** xref:reference_intended_audience_for_this_guide.adoc[Audience for this guide]
+ ** xref:concept_api_url_and_categories.adoc[Active IQ Unified Manager API access and categories]
+ ** xref:concept_rest_services_offered_in_oncommand_api_services.adoc[REST services offered in Active IQ Unified Manager]
+ ** xref:concept_rest_api_versioning_in_oncommand_api_services.adoc[API version in Active IQ Unified Manager]
+ ** xref:concept_the_storage_resource_model.adoc[Storage resources in ONTAP]
+* xref:concept_rest_api_access_and_authentication_in_oncommand_api_services.adoc[REST API access and authentication in Active IQ Unified Manager]
+ ** xref:reference_authentication_errors.adoc[HTTP status codes used in Active IQ Unified Manager]
+ ** xref:reference_recommendations_to_use_the_apis.adoc[Recommendations for using the APIs for Active IQ Unified Manager]
+ ** xref:concept_api_logs.adoc[Logs for troubleshooting]
+ ** xref:concept_async_run.adoc[Job objects asynchronous processes]
+ ** xref:concept_hello_api_server.adoc[Hello API server]
+* xref:concept_um_apis_list_intro.adoc[Unified Manager REST APIs]
+ ** xref:concept_data_center_apis.adoc[Managing storage objects in a data center]
+ ** xref:concept_gateway_apis.adoc[Accessing ONTAP APIs through proxy access]
+ ** xref:concept_administration_apis.adoc[Performing administrative tasks]
+ ** xref:concept_security_apis.adoc[Managing users]
+ ** xref:concept_metrics_apis.adoc[Viewing performance metrics]
+ ** xref:concept_job_api.adoc[Viewing Jobs]
+ ** xref:concept_events_api.adoc[Viewing events and system details]
+ ** xref:concept_managing_storage_workloads.adoc[Managing workloads]
+  *** xref:concept_viewing_workloads.adoc[Viewing storage workloads]
+  *** xref:concept_managing_access_endpoint.adoc[Managing access endpoints]
+  *** xref:concept_managing_active_directory.adoc[Managing Active Directory mapping]
+  *** xref:concept_managing_fileshares_api.adoc[Managing file shares]
+  *** xref:concept_managing_lun.adoc[Managing LUNs]
+  *** xref:concept_managing_psl.adoc[Managing Performance Service Levels]
+  *** xref:concept_managing_sep.adoc[Managing Storage Efficiency Policies]
+* xref:concept_workflow_intro.adoc[Common workflows for storage management]
+ ** xref:concept_workflow_space_issue.adoc[Determining space issues in aggregates]
+ ** xref:concept_events_workflows.adoc[Determining issues in storage objects using events]
+ ** xref:concept_ontap_troubleshooting_workflow.adoc[Troubleshooting ONTAP volumes by using gateway APIs]
+ ** xref:concept_provisioning_workflow.adoc[Workflows for workload management]
+  *** xref:concept_verifying_svm_workflow.adoc[Verifying SVMs on clusters]
+  *** xref:concept_provisioning_file_share.adoc[Provisioning CIFS and NFS file shares]
+  *** xref:concept_provisioning_luns.adoc[Provisioning LUNs]
+  *** xref:concept_modifying_workloads_workflow.adoc[Modifying storage workloads]
+   **** xref:task_modifying_fileshare_to_include_cifs_and_nfs.adoc[Modifying an NFS file share to support CIFS]
+* xref:reference_copyright_and_trademark.adoc[Copyright, trademark, and machine translation]
+ ** xref:reference_copyright.adoc[Copyright]
+ ** xref:reference_trademark.adoc[Trademark]
+ ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]

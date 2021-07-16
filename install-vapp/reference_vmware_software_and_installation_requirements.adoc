@@ -1,0 +1,41 @@
+---
+permalink: install-vapp/reference_vmware_software_and_installation_requirements.html
+sidebar: sidebar
+keywords: 
+summary: 'The VMware vSphere system on which you install Unified Manager requires specific versions of the operating system and supporting software.'
+---
+= VMware software and installation requirements
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The VMware vSphere system on which you install Unified Manager requires specific versions of the operating system and supporting software.
+
+== Operating system software
+
+The following versions of VMware ESXi are supported:
+
+* ESXi 6.5, 6.7, and 7.0.
+
+[NOTE]
+====
+For information about the versions of the virtual machine hardware that these versions of ESXi servers can support, refer to the VMware documentation.
+====
+
+The following versions of vSphere are supported:
+
+* VMware vCenter Server 6.5, 6.7, and 7.0.
+
+See the Interoperability Matrix for the complete and most current list of supported ESXi versions.
+
+http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
+
+The VMware ESXi server time should be the same as the NTP server time for the virtual appliance to function correctly. Synchronizing the VMware ESXi server time with the NTP server time prevents a time failure.
+
+== Installation requirements
+
+VMware High Availability for the Unified Manager virtual appliance is supported.
+
+If you deploy an NFS datastore on a storage system that is running ONTAP software, use the NetApp NFS Plug-in for VMware VAAI to use thick provisioning.
+
+If deployment fails using your High Availability-enabled environment because of insufficient resources, you might need to modify the Cluster Features Virtual Machine Options by disabling the VM Restart Priority, and leaving the Host Isolation Response powered on.

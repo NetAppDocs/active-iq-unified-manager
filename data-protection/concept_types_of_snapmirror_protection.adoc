@@ -1,0 +1,56 @@
+---
+permalink: data-protection/concept_types_of_snapmirror_protection.html
+sidebar: sidebar
+keywords: 
+summary: 'Depending on the deployment of your data storage topology, Unified Manager enables you to configure multiple types of SnapMirror protection relationships. All variations of SnapMirror protection offer failover disaster recovery protection, but offer differing capabilities in performance, version flexibility, and multiple backup copy protection.'
+---
+= Types of SnapMirror protection
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Depending on the deployment of your data storage topology, Unified Manager enables you to configure multiple types of SnapMirror protection relationships. All variations of SnapMirror protection offer failover disaster recovery protection, but offer differing capabilities in performance, version flexibility, and multiple backup copy protection.
+
+== Traditional SnapMirror Asynchronous protection relationships
+
+Traditional SnapMirror Asynchronous protection provides block replication mirror protection between source and destination volumes.
+
+In traditional SnapMirror relationships, mirror operations execute faster than they would in alternative SnapMirror relationships because the mirror operation is based on block replication. However, traditional SnapMirror protection requires that the destination volume run under the same or later minor version of ONTAP software as the source volume within the same major release (for example, version 8.x to 8.x, or 9.x to 9.x). Replication from a 9.1 source to a 9.0 destination is not supported because the destination is running an earlier major version.
+
+== SnapMirror Asynchronous protection with version-flexible replication
+
+SnapMirror Asynchronous protection with version-flexible replication provides logical replication mirror protection between source and destination volumes, even if those volumes are running under different versions of ONTAP 8.3 or later software (for example, version 8.3 to 8.3.1, or 8.3 to 9.1, or 9.2.2 to 9.2).
+
+In SnapMirror relationships with version-flexible replication, mirror operations do not execute as quickly as they would in traditional SnapMirror relationships.
+
+Because of slower execution, SnapMirror with version-flexible replication protection is not suitable to implement in either of the following circumstances:
+
+* The source object contains more than 10 million files to protect.
+* The recovery point objective for the protected data is two hours or less. (That is, the destination must always contain mirrored, recoverable data that is no more than two hours older than data at the source.)
+
+In either of the listed circumstances, the faster block-replication based execution of default SnapMirror protection is required.
+
+== SnapMirror Asynchronous protection with version-flexible replication and backup option
+
+SnapMirror Asynchronous protection with version-flexible replication and backup option provides mirror protection between source and destination volumes and the capability to store multiple copies of the mirrored data at the destination.
+
+The storage administrator can specify which Snapshot copies are mirrored from source to destination and can also specify how long to retain those copies at the destination, even if they are deleted at the source.
+
+In SnapMirror relationships with version-flexible replication and backup option, mirror operations do not execute as quickly as they would in traditional SnapMirror relationships.
+
+== SnapMirror Unified Replication (mirror and vault)
+
+SnapMirror unified replication allows you to configure disaster recovery and archiving on the same destination volume. As with SnapMirror, unified data protection performs a baseline transfer the first time you invoke it. A baseline transfer under the default unified data protection policy "`MirrorAndVault`" makes a Snapshot copy of the source volume, then transfers that copy and the data blocks it references to the destination volume. Like SnapVault, unified data protection does not include older Snapshot copies in the baseline.
+
+== SnapMirror Synchronous protection with strict synchronization
+
+SnapMirror Synchronous protection with "`strict`" synchronization ensures that the primary and secondary volumes are always a true copy of each other. If a replication failure occurs when attempting to write data to the secondary volume, then the client I/O to the primary volume is disrupted.
+
+== SnapMirror Synchronous protection with regular synchronization
+
+SnapMirror Synchronous protection with "`regular`" synchronization does not require that the primary and secondary volume are always a true copy of each other; thereby ensuring availability of the primary volume. If a replication failure occurs when attempting to write data to the secondary volume, the primary and secondary volumes fall out of sync and client I/O will continue to the primary volume.
+
+[NOTE]
+====
+The Restore button and the Relationship operation buttons are not available when monitoring synchronous protection relationships from the Health: All Volumes view or the Volume / Health details page.
+====

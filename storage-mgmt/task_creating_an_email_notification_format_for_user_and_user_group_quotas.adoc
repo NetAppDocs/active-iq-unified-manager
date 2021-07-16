@@ -1,0 +1,25 @@
+---
+permalink: storage-mgmt/task_creating_an_email_notification_format_for_user_and_user_group_quotas.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create a notification format for the emails that are sent to a user or a user group when there is a quota-related issue \(soft limit breached or hard limit reached\).'
+---
+= Creating an email notification format for user and user group quotas
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a notification format for the emails that are sent to a user or a user group when there is a quota-related issue (soft limit breached or hard limit reached).
+
+You must have the Application Administrator or Storage Administrator role.
+
+. In the left navigation pane, click *General* > *Quota Email Format*.
+. Enter or modify the details in the *From*, *Subject*, and *Email Details* fields.
+. Click *Preview* to preview the email notification.
+. Click *Close* to close the preview window.
+. Modify the content of the email notification, if required.
+. Click *Save*.
+
+*Related information*
+
+xref:task_creating_rules_to_generate_email_addresses.adoc[Creating rules to generate email addresses]

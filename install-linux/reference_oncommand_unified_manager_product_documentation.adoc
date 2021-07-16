@@ -1,0 +1,44 @@
+---
+permalink: install-linux/reference_oncommand_unified_manager_product_documentation.html
+sidebar: sidebar
+keywords: 
+summary: 'Active IQ Unified Manager is accompanied by a set of guides that describe how to install and use the product. Online help is also provided in the user interface.'
+---
+= Active IQ Unified Manager product documentation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager is accompanied by a set of guides that describe how to install and use the product. Online help is also provided in the user interface.
+
+* *Active IQ Unified Manager Installation Guide*
++
+Provides installation, upgrade, and setup instructions for Unified Manager on the VMware, Linux, and Windows platforms.
+
+* *http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide]*
++
+Provides initial setup and configuration instructions for Unified Manager. This includes adding clusters, adding users, configuring alerts, and setting up remote authentication.
+
+* *http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-ag/home.html[Active IQ Unified Manager Workflow Guide for Managing Cluster Health]*
++
+Provides information about using Unified Manager to manage and troubleshoot cluster storage health issues. This guide also describes how to use the Unified Manager maintenance console to perform special operations such as restoring a database backup and connecting to an external data provider to offload performance statistics.
+
+* *http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-perf-ag/home.html[Active IQ Unified Manager Workflow Guide for Managing Cluster Performance]*
++
+Provides information about using Unified Manager to manage and troubleshoot cluster storage performance issues. This includes identifying workloads that are overusing cluster components so that you can take corrective action to bring performance back to normal levels of operation.
+
+* *http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-protect/home.html[Active IQ Unified Manager Protection Guide]*
++
+Provides information about how to create protection relationships, monitor and troubleshoot SnapMirror and SnapVault relationships, and restore data when it is overwritten or lost.
+
+* *http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-report/home.html[Active IQ Unified Manager Reporting Guide]*
++
+Provides information about using Unified Manager to create custom reports about the capacity, health, performance, and protection status of your ONTAP storage objects. This includes scheduling the report for delivery to specified users on a regular schedule through email.
+
+* *http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-api-dev/home.html[Active IQ Unified Manager API Developer's Guide]*
++
+Provides information about the REST architecture in Unified Manager, conceptual and task information for using the REST APIs, and key workflows and sample code.
+
+* *https://library.netapp.com/ecmdocs/ECMLP2871266/html/frameset.html[Active IQ Unified Manager Online Help]*
++
+Provides information about using Unified Manager to manage and troubleshoot cluster storage health and performance issues. Additionally, it provides field level descriptions for every UI page in the product. The online help is included with the software, and is also available as a PDF document that you can review offline.

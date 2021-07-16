@@ -1,0 +1,14 @@
+---
+permalink: performance-checker/concept_refining_object_inventory_performance_page_content.html
+sidebar: sidebar
+keywords: 
+summary: 'The inventory pages for performance objects contain tools to help you refine object inventory data content, enabling you to locate specific data quickly and easily.'
+---
+= Refining Performance inventory page contents
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The inventory pages for performance objects contain tools to help you refine object inventory data content, enabling you to locate specific data quickly and easily.
+
+Information contained within the Performance object inventory pages can be extensive, often spanning multiple pages. This kind of comprehensive data is excellent for monitoring, tracking, and improving performance; however, locating specific data requires tools to enable you to quickly locate the data for which you are looking. Therefore, the Performance object inventory pages contain functionality for searching, sorting, and filtering. Additionally, searching and filtering can work together to further narrow your results.

@@ -1,0 +1,89 @@
+---
+permalink: health-checker/concept_how_annotation_rules_work_in_unified_manager.html
+sidebar: sidebar
+keywords: 
+summary: 'An annotation rule is a criterion that you define to annotate storage objects \(volumes, clusters, or storage virtual machines \(SVMs\)\). You can use either condition groups or conditions for defining annotation rules.'
+---
+= How annotation rules work in Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+An annotation rule is a criterion that you define to annotate storage objects (volumes, clusters, or storage virtual machines (SVMs)). You can use either condition groups or conditions for defining annotation rules.
+
+* You must associate an annotation rule to an annotation.
+* You must associate an object type for an annotation rule; only one object type can be associated for an annotation rule.
+* Unified Manager adds or removes annotations from storage objects after each monitoring cycle or when a rule is created, edited, deleted, or reordered.
+* An annotation rule can have one or more condition groups, and each condition group can have one or more conditions.
+* Storage objects can have multiple annotations. An annotation rule for a particular annotation can also use different annotations in the rule conditions to add another annotation to already annotated objects.
+
+== Conditions
+
+You can create multiple condition groups, and each condition group can have one or more conditions. You can apply all the defined condition groups in an annotation rule of an annotation in order to annotate storage objects.
+
+Conditions within a condition group are executed using logical AND. All the conditions in a condition group must be met. When you create or modify an annotation rule, a condition is created that applies, selects, and annotates only those storage objects that meet all the conditions in the condition group. You can use multiple conditions within a condition group when you want to narrow the scope of which storage objects to annotate.
+
+You can create conditions with storage objects by using the following operands and operator and specifying the required value.
+
+|===
+| Storage object type| Applicable operands
+a|
+Volume
+a|
+
+* Object name
+* Owning cluster name
+* Owning SVM name
+* Annotations
+
+a|
+SVM
+a|
+
+* Object name
+* Owning cluster name
+* Annotations
+
+a|
+Cluster
+a|
+
+* Object name
+* Annotations
+
+|===
+When you select annotation as an operand for any storage object, the "`Is`" operator is available. For all other operands, you can select either "`Is`" or "`Contains`" as operator. When you select the "`Is`" operator, the condition is evaluated for an exact match of the operand value with the value provided for the selected operand. When you select the "`Contains`" operator, the condition is evaluated to meet one of the following criteria:
+
+* The operand value is an exact match to the value of the selected operand.
+* The operand value contains the value provided for the selected operand.
+
+== Example of an annotation rule with conditions
+
+Consider an annotation rule with one condition group for a volume with the following two conditions:
+
+* Name contains "`vol`"
+* SVM name is "`data_svm`"
+
+This annotation rule annotates all volumes that include "`vol`" in their names and that are hosted on SVMs with the name "`data_svm`" with the selected annotation and the annotation type.
+
+== Condition groups
+
+Condition groups are executed using logical OR, and then applied to storage objects. The storage objects must meet the requirements of one of the condition groups to be annotated. The storage objects that meet the conditions of all the condition groups are annotated. You can use condition groups to increase the scope of storage objects to be annotated.
+
+== Example of an annotation rule with condition groups
+
+Consider an annotation rule with two condition groups for a volume; each group contains the following two conditions:
+
+* Condition group 1
+ ** Name contains "`vol`"
+ ** SVM name is "`data_svm`"
+This condition group annotates all volumes that include "`vol`" in their names and that are hosted on SVMs with the name "`data_svm`".
+* Condition group 2
+ ** Name contains "`vol`"
+ ** The annotation value of data-priority is "`critical`"
+This condition group annotates all volumes that include "`vol`" in their names and that are annotated with the data-priority annotation value as "`critical`".
+
+When an annotation rule containing these two condition groups is applied on storage objects, then the following storage objects are annotated:
+
+* All volumes that include "`vol`" in their names and that are hosted on SVM with the name "`data_svm`".
+* All volumes that include "`vol`" in their names and that are annotated with the data-priority annotation value as "`critical`".

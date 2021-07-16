@@ -1,0 +1,42 @@
+---
+permalink: health-checker/concept_managing_and_monitoring_groups.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create groups in Unified Manager to manage storage objects.'
+---
+= Managing and monitoring groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create groups in Unified Manager to manage storage objects.
+
+*Related information*
+
+xref:task_adding_groups.adoc[Adding groups]
+
+xref:task_editing_the_group_settings.adoc[Editing groups]
+
+xref:task_deleting_groups.adoc[Deleting groups]
+
+xref:task_adding_group_rules.adoc[Adding group rules]
+
+xref:task_editing_group_rules.adoc[Editing group rules]
+
+xref:task_deleting_group_rules.adoc[Deleting group rules]
+
+xref:task_adding_group_actions.adoc[Adding group actions]
+
+xref:task_editing_group_actions.adoc[Editing group actions]
+
+xref:task_configuring_volume_health_thresholds_for_groups.adoc[Configuring volume health thresholds for groups]
+
+xref:task_deleting_group_actions.adoc[Deleting group actions]
+
+xref:task_reordering_group_actions.adoc[Reordering group actions]
+
+xref:concept_understanding_groups.adoc[Understanding groups]
+
+xref:concept_how_group_rules_work_for_groups.adoc[How group rules work for groups]
+
+xref:concept_how_group_actions_work_on_storage_objects.adoc[How group actions work on storage objects]

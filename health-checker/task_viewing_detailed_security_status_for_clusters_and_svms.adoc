@@ -1,0 +1,25 @@
+---
+permalink: health-checker/task_viewing_detailed_security_status_for_clusters_and_svms.html
+sidebar: sidebar
+keywords: cluster security status,SVM security status,volume encryption status
+summary: 'The Security page shows high-level security status for all clusters, and detailed security status for individual clusters. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance.'
+---
+= Viewing detailed security status for clusters and SVMs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Security page shows high-level security status for all clusters, and detailed security status for individual clusters. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance.
+
+. In the left navigation pane, click Dashboard.
+. Depending on whether you want to view security status for all monitored clusters or for a single cluster, select All Clusters or select a single cluster from the drop-down menu.
+. Click the right-arrow in the Security panel.
++
+The Security page displays the following information:
+
+ ** the cluster security status (number of clusters that are compliant or not compliant)
+ ** the SVM security status (number of SVMs that are compliant or not compliant)
+ ** the volume encryption status (number of volumes that are encrypted or not encrypted)
+ ** the cluster authentication methods being used on each cluster
+
+. Refer to the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9] for instructions on how to make all of your clusters, SVMs, and volumes compliant with NetApp security recommendations.

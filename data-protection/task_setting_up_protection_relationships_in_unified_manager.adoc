@@ -1,0 +1,26 @@
+---
+permalink: data-protection/task_setting_up_protection_relationships_in_unified_manager.html
+sidebar: sidebar
+keywords: 
+summary: 'There are several steps that you must perform to use Unified Manager and OnCommand Workflow Automation to set up SnapMirror and SnapVault relationships to protect your data.'
+---
+= Setting up protection relationships in Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+There are several steps that you must perform to use Unified Manager and OnCommand Workflow Automation to set up SnapMirror and SnapVault relationships to protect your data.
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have established peer relationships between two clusters or two storage virtual machines (SVMs).
+* OnCommand Workflow Automation must be integrated with Unified Manager:
+ ** link:task_configuring_a_connection_between_workflow_automation_and_unified_manager.md#[Set up OnCommand Workflow Automation]
+ ** xref:task_verifying_unified_manager_data_source_caching_in_workflow_automation.adoc[Verifying Unified Manager data source caching in Workflow Automation]
+
+. Depending on the type of protection relationship you want to create, do one of the following:
+ ** xref:task_creating_a_snapmirror_protection_relationship_from_the_health_volume_details_page.adoc[Create a SnapMirror protection relationship].
+ ** link:task_creating_a_snapvault_protection_relationship_from_the_health_volume_details_page.md#[Create a SnapVault protection relationship].
+. If you want to create a policy for the relationship, depending on the relationship type you are creating, do one of the following:
+ ** xref:task_creating_a_snapvault_policy_to_maximize_transfer_efficiency.adoc[Create a SnapVault policy].
+ ** xref:task_creating_a_snapmirror_policy_to_maximize_transfer_efficiency.adoc[Create a SnapMirror policy].
+. xref:task_creating_snapmirror_and_snapvault_schedules.adoc[Create a SnapMirror or SnapVault schedule].

@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/concept_what_performance_events_are.html
+sidebar: sidebar
+keywords: 
+summary: 'Performance events are incidents related to workload performance on a cluster. They help you identify workloads with slow response times. Together with health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times.'
+---
+= What performance events are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Performance events are incidents related to workload performance on a cluster. They help you identify workloads with slow response times. Together with health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times.
+
+When Unified Manager detects multiple occurrences of the same event condition for the same cluster component, it treats all occurrences as a single event, not as separate events.
+
+*Related information*
+
+xref:concept_what_the_expected_range_of_performance_is.adoc[What the expected range of performance is]
+
+xref:reference_performance_event_analysis_and_notification.adoc[Performance event analysis and notification]
+
+xref:concept_cluster_configuration_changes_detected_by_unified_manager.adoc[Configuration changes detected by Unified Manager]
+
+xref:concept_roles_of_workloads_involved_in_a_performance_incident.adoc[Roles of workloads involved in a performance event]
+
+xref:concept_types_of_workloads_monitored_by_unified_manager.adoc[Types of workloads monitored by Unified Manager]
+
+xref:task_displaying_information_about_a_performance_event.adoc[Displaying information about performance events]

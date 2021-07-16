@@ -1,0 +1,14 @@
+---
+permalink: config/concept_managing_saml_authentication_settings_um.html
+sidebar: sidebar
+keywords: 
+summary: 'After you have configured remote authentication settings, you can enable Security Assertion Markup Language \(SAML\) authentication so that remote users are authenticated by a secure identity provider \(IdP\) before they can access the Unified Manager web UI.'
+---
+= Managing SAML authentication settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you have configured remote authentication settings, you can enable Security Assertion Markup Language (SAML) authentication so that remote users are authenticated by a secure identity provider (IdP) before they can access the Unified Manager web UI.
+
+Note that only remote users will have access to the Unified Manager graphical user interface after SAML authentication has been enabled. Local users and Maintenance users will not be able to access the UI. This configuration does not impact users who access the maintenance console.

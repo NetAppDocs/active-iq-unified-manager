@@ -1,0 +1,19 @@
+---
+permalink: performance-checker/concept_what_the_timestamp_means_in_collected_data_and_events.html
+sidebar: sidebar
+keywords: 
+summary: 'The timestamp that appears in collected health and performance data, or that appears as the detection time for an event, is based on the ONTAP cluster time, adjusted to the time zone set on the web browser.'
+---
+= What the timestamp means in collected data and events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The timestamp that appears in collected health and performance data, or that appears as the detection time for an event, is based on the ONTAP cluster time, adjusted to the time zone set on the web browser.
+
+It is highly recommended that you use a Network Time Protocol (NTP) server to synchronize the time on your Unified Manager servers, ONTAP clusters, and web browsers.
+
+[NOTE]
+====
+If you see timestamps that look incorrect for a particular cluster, you might want to check that the cluster time has been set correctly.
+====

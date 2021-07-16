@@ -1,0 +1,54 @@
+---
+permalink: performance-checker/concept_performance_capacity_used_threshold_conditions.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create user-defined performance threshold policies so that events are triggered when the performance capacity used value for a node or aggregate exceeds the defined performance capacity used threshold setting.'
+---
+= Performance capacity used performance threshold conditions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create user-defined performance threshold policies so that events are triggered when the performance capacity used value for a node or aggregate exceeds the defined performance capacity used threshold setting.
+
+Additionally, nodes can be configured with a "`Performance capacity used takeover`" threshold policy. This threshold policy totals the performance capacity used statistics for both nodes in an HA pair to determine whether either node would lack sufficient capacity if the other node fails. Because the workload during failover is the combination of the two partner nodes`' workloads, the same performance capacity used takeover policy can be applied to both nodes.
+
+[NOTE]
+====
+This performance capacity used equivalency is generally true between nodes. However, if there is significantly more cross-node traffic destined for one of the nodes through its failover partner, the total performance capacity used when running all workloads on one partner node versus the other partner node could be slightly different depending on which node has failed.
+====
+
+The performance capacity used conditions can also be used as secondary performance threshold settings to create a combination threshold policy when defining thresholds for LUNs and volumes. The performance capacity used condition is applied to the aggregate or node on which the volume or LUN resides. For example, you can create a combination threshold policy using the following criteria:
+
+|===
+| Storage object| Performance counter| Warning threshold| Critical threshold| Duration
+a|
+Volume
+a|
+Latency
+a|
+15 ms/op
+a|
+25 ms/op
+a|
+20 minutes
+a|
+Aggregate
+a|
+Performance capacity used
+a|
+80%
+a|
+95%
+|===
+Combination threshold policies cause an event to be generated only when both conditions are breached for the entire duration.
+
+*Related information*
+
+xref:task_creating_user_defined_performance_threshold_policies.adoc[Creating user-defined performance threshold policies]
+
+xref:task_assigning_performance_threshold_policies_to_storage_objects.adoc[Assigning performance threshold policies to storage objects]
+
+xref:reference_what_performance_metrics_can_be_monitored_using_thresholds.adoc[What performance counters can be tracked using thresholds]
+
+xref:reference_what_objects_and_metrics_can_be_used_in_combination_threshold_policies.adoc[What objects and counters can be used in combination threshold policies]

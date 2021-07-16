@@ -1,0 +1,21 @@
+---
+permalink: performance-checker/concept_understanding_the_root_object.html
+sidebar: sidebar
+keywords: 
+summary: 'The root object is the baseline against which other object comparisons are made. This enables you to view and compare the data from other objects to the root object, providing performance data analysis that helps you to troubleshoot and improve object performance.'
+---
+= Understanding the root object
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The root object is the baseline against which other object comparisons are made. This enables you to view and compare the data from other objects to the root object, providing performance data analysis that helps you to troubleshoot and improve object performance.
+
+The root object name displays at the top of the Comparing pane. Additional objects display below the root object. Although there is no limit to the number of additional objects you can add to the Comparing pane, only one root object is allowed. Data for the root object automatically displays in the graphs in the Counter Charts pane.
+
+You cannot change the root object; it is always set to the object page you are viewing. For example, if you open the Volume Performance Explorer page of Volume1, then Volume1 is the root object and cannot be changed. If you want to compare against a different root object, then you must click the link for an object and open its landing page.
+
+[NOTE]
+====
+Events and Thresholds are displayed only for root objects.
+====

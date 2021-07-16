@@ -1,0 +1,25 @@
+---
+permalink: health-checker/task_deleting_groups.html
+sidebar: sidebar
+keywords: 
+summary: 'You can delete a group from Unified Manager when the group is no longer required.'
+---
+= Deleting groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete a group from Unified Manager when the group is no longer required.
+
+* None of the storage objects (clusters, SVMs, or volumes) must be associated with any group rule that is associated with the group that you want to delete.
+* You must have the Application Administrator or Storage Administrator role.
+
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. In the Groups tab, select the group that you want to delete, and then click *Delete*.
+. In the Warning dialog box, confirm the deletion by clicking *Yes*.
++
+Deleting a group does not delete the group actions that are associated with the group. However, these group actions will be unmapped after the group is deleted.
+
+*Related information*
+
+xref:concept_managing_and_monitoring_groups.adoc[Managing and monitoring groups]

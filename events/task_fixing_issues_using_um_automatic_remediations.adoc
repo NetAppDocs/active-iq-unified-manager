@@ -1,0 +1,20 @@
+---
+permalink: events/task_fixing_issues_using_um_automatic_remediations.html
+sidebar: sidebar
+keywords: fix it,fix issues
+summary: 'There are certain events that Unified Manager can diagnose thoroughly and provide a single resolution using the Fix It button. When available, those resolutions are displayed in the Dashboard , from the Event details page, and from the Workload Analysis selection on the left-navigation menu.'
+---
+= Fixing issues using Unified Manager automatic remediations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+There are certain events that Unified Manager can diagnose thoroughly and provide a single resolution using the *Fix It* button. When available, those resolutions are displayed in the Dashboard, from the Event details page, and from the Workload Analysis selection on the left-navigation menu.
+
+Most events have a variety of possible resolutions that are displayed in the Event details page so you can implement the best solution using ONTAP System Manager or the ONTAP CLI. A *Fix It* action is available when Unified Manager has determined that there is a single resolution to fix the issue, and that it can be resolved using an ONTAP CLI command.
+
+. To view events that can be fixed from the Dashboard, click Dashboard.
++
+image::../media/management_actions.png[]
+
+. To resolve any of the issues that Unified Manager can fix, click the *Fix It* button. To fix an issue that exists on multiple objects, click the *Fix All* button.

@@ -1,0 +1,33 @@
+---
+permalink: install-linux/task_upgrading_mysql_on_linux.html
+sidebar: sidebar
+keywords: 
+summary: 'You can upgrade to a newer version of MySQL on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities. If the installed version of MySQL on your system is earlier than 8.0.25, the Unified Manager 9.9 upgrade process automatically upgrades MySQL to 8.0.25. You should not run a standalone upgrade of MySQL from an earlier version to 8.0.25.'
+---
+= Upgrading MySQL on Linux
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can upgrade to a newer version of MySQL on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities. If the installed version of MySQL on your system is earlier than 8.0.25, the Unified Manager 9.9 upgrade process automatically upgrades MySQL to 8.0.25. You should not run a standalone upgrade of MySQL from an earlier version to 8.0.25.
+
+You must have root privileges for the Linux system on which Unified Manager is installed.
+
+You can upgrade the base version of MySQL 8.0.25 to later versions for only minor updates.
+
+. Log in as a root user on the Unified Manager host machine.
+. Download the latest MySQL Community Server .rpm bundle on the target system.
+. Untar the bundle to a directory on the target system.
+. You get multiple .rpm packages in the directory after untarring the bundle, but Unified Manager only needs the following rpm packages:
+ ** mysql-community-client-8.0.25
+ ** mysql-community-libs-8.0.25
+ ** mysql-community-server-8.0.25
+ ** mysql-community-common-8.0.25
+ ** mysql-community-client-plugins-8.0.25
+Delete all other .rpm packages. However, installing all packages in an rpm bundle does not cause errors.
+. Stop the Unified Manager service and the associated MySQL software in the order shown: `systemctl stop ocieau``systemctl stop ocie``systemctl stop mysqld`
+. Invoke the upgrade of MySQL by using the following command: `yum install *.rpm`
++
+*.rpm refers to the .rpm packages in the directory where you downloaded the newer version of MySQL.
+
+. Start Unified Manager in the order shown: `systemctl start mysqld``systemctl start ocie``systemctl start ocieau`

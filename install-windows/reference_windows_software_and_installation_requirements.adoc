@@ -1,0 +1,89 @@
+---
+permalink: install-windows/reference_windows_software_and_installation_requirements.html
+sidebar: sidebar
+keywords: 
+summary: 'For the successful installation of Unified Manager on Windows, you should ensure that the system on which Unified Manager is being installed meets the software requirements.'
+---
+= Windows software and installation requirements
+:icons: font
+:imagesdir: ../media/
+:pp: {plus}{plus}
+
+[.lead]
+For the successful installation of Unified Manager on Windows, you should ensure that the system on which Unified Manager is being installed meets the software requirements.
+
+== Operating system software
+
+Unified Manager is supported on 64-bit Windows operating system for the following languages:
+
+* English
+* Japanese
+* Simplified Chinese
+
+You can install Unified Manager on the following Windows editions:
+
+* Microsoft Windows Server 2016 Standard and Datacenter Edition
+* Microsoft Windows Server 2019 Standard and Datacenter Edition
+
+Note that Windows Server 2012 is not supported as it was in earlier releases. See the Interoperability Matrix for the complete and most current list of supported Windows versions.
+
+http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
+
+The server should be dedicated to running Unified Manager. No other applications should be installed on the server.
+
+== Third-party software
+
+The following third-party packages are bundled with Unified Manager. If these third-party packages are not installed on your system, Unified Manager installs them as a part of the installation.
+
+* Microsoft Visual C{pp} 2015 Redistributable package version 14.26.28720.3
+* Microsoft Visual C{pp} Redistributable Packages for Visual Studio 2013 version 12.0.40660
+* MySQL Community Edition version 8.0.21
+[NOTE]
+====
+The installer of Unified Manager has been restricted to support only up to MySQL Community Edition 8.0.21, due to an interoperability issue. You *must not* upgrade MySQL to a release greater than 8.0.21.
+
+====
+
+* Python 3.6.x
+* OpenJDK version 11.0.9
+* p7zip version 18.05 or later
+
+[NOTE]
+====
+Starting with Unified Manager 9.5, OpenJDK is provided in the Unified Manager installation package and installed automatically. Oracle Java is not supported starting with Unified Manager 9.5.
+====
+
+If MySQL is pre-installed, you should ensure that:
+
+* It is using the default port.
+* The sample databases are not installed.
+* The service name is "`MYSQL8`".
+
+Unified Manager is deployed on a WildFly web server. WildFly17 is bundled and configured with Unified Manager.
+
+[NOTE]
+====
+You should shut down a running instance of Unified Manager before upgrading any third-party software. After the third-party software installation is complete, you can restart Unified Manager.
+====
+
+== Installation requirements
+
+* Microsoft .NET 4.5.2, or greater, should be installed.
+* The temp directory should be configured with 2 GB of disk space for extracting the installation files. To verify whether the directory is created, run the following command on the command-line interface: `echo %temp%`
+* You should reserve 2 GB of disk space in the Windows drive for caching the Unified Manager MSI files.
+* The Microsoft Windows Server on which you want to install Unified Manager should be configured with a fully qualified domain name (FQDN) such that ping responses to the host name and FQDN are successful.
+* You should disable Microsoft IIS worldwide web publishing service and ensure that ports 80 and 443 are free.
+* You should make sure that the Remote Desktop Session Host setting for "`Windows Installer RDS Compatibility`" is disabled during the installation.
+* UDP port 514 should be free, and should not be used by any other service.
+
+[NOTE]
+====
+The Unified Manager installation program configures the following exclusions in Windows Defender:
+
+* Unified Manager data directory
+* Unified Manager installation directory
+* MySQL data directory
+
+If your server has a different antivirus scanner installed, you should configure these exclusions manually.
+
+====
