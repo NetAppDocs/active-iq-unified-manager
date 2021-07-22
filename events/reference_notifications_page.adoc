@@ -62,10 +62,11 @@ Specifies the SNMP version you want to use depending on the type of security you
 * *Trap Destination Host*
 +
 Specifies the host name or IP address (IPv4 or IPv6) that receives the SNMP traps that are sent by the management server. To specify multiple trap destinations, separate each host with a comma.
-    [NOTE]
-    ====
-    All other SNMP settings, such as "`Version`" and "`Outbound Port`", must be the same for all hosts in the list.
-    ====
++
+[NOTE]
+====
+All other SNMP settings, such as "`Version`" and "`Outbound Port`", must be the same for all hosts in the list.
+====
 
 * *Outbound Trap Port*
 +

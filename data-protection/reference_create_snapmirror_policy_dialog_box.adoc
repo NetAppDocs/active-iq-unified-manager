@@ -57,4 +57,4 @@ Applies your selections and begins the protection process.
 
 *Related information*
 
-xref:task_creating_a_snapmirror_policy_to_maximize_transfer_efficiency.adoc[Creating a SnapMirror policy to maximize transfer efficiency]
+xref:task_create_snapmirror_policy_to_maximize_transfer_efficiency.adoc[Creating a SnapMirror policy to maximize transfer efficiency]

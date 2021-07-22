@@ -24,7 +24,7 @@ Some of the panels listed below will not appear on the page based on your config
 +
 There are certain issues that Unified Manager can diagnose thoroughly and provide a single resolution. When available, those resolutions are displayed in this panel with a *Fix It* or *Fix All* button. You can fix these issues immediately from Unified Manager instead of having to use ONTAP System Manager or the ONTAP CLI. For viewing all the issues, click on
 +
-See link:concept_fixing_ontap_issues_directly_from_unified_manager.md#[Fixing ONTAP issues directly from Unified Manager] for more information.
+See link:concept_fix_ontap_issues_directly_from_unified_manager.md#[Fixing ONTAP issues directly from Unified Manager] for more information.
 
 * *Capacity panel*
 +
@@ -80,4 +80,4 @@ link:[Monitoring cluster performance from the Performance Cluster Landing page]
 
 link:[Monitoring performance using the Performance Inventory pages]
 
-xref:concept_provisioning_and_managing_workloads.adoc[Provisioning and managing workloads]
+xref:concept_provision_and_manage_workloads.adoc[Provisioning and managing workloads]

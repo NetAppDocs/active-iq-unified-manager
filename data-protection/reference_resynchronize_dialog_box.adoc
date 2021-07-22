@@ -57,6 +57,6 @@ Cancels your selections and closes the Resynchronize dialog box.
 
 xref:reference_select_source_snapshot_copy_dialog_box.adoc[Select Source Snapshot Copy dialog box]
 
-xref:task_resynchronizing_protection_relationships_from_the_health_volume_details_page.adoc[Resynchronizing protection relationships from the Volume / Health details page]
+xref:task_resynchronize_protection_relationships_voldtls.adoc[Resynchronizing protection relationships from the Volume / Health details page]
 
-xref:task_resynchronizing_protection_relationships.adoc[Resynchronizing protection relationships from the Volume Relationships page]
+xref:task_resynchronize_protection_relationships.adoc[Resynchronizing protection relationships from the Volume Relationships page]

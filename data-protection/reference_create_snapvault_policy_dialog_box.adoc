@@ -69,4 +69,4 @@ Displays the number of Snapshot copies with the specified label that are retaine
 
 *Related information*
 
-xref:task_creating_a_snapvault_policy_to_maximize_transfer_efficiency.adoc[Creating a SnapVault policy to maximize transfer efficiency]
+xref:task_create_snapvault_policy_to_maximize_transfer_efficiency.adoc[Creating a SnapVault policy to maximize transfer efficiency]

@@ -33,4 +33,4 @@ These thresholds are enabled by default, and you might see events after three da
 
 *Related information*
 
-xref:concept_managing_performance_thresholds.adoc[Managing performance thresholds]
+xref:concept_manage_performance_thresholds.adoc[Managing performance thresholds]

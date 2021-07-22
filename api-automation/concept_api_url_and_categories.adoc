@@ -63,8 +63,8 @@ This category contains APIs for managing Unified Manager users.
 
 *Related information*
 
-xref:concept_rest_api_access_and_authentication_in_oncommand_api_services.adoc[REST API access and authentication in Active IQ Unified Manager]
+xref:concept_rest_api_access_and_authentication_in_um_apis.adoc[REST API access and authentication in Active IQ Unified Manager]
 
-xref:concept_rest_services_offered_in_oncommand_api_services.adoc[REST services offered in Active IQ Unified Manager]
+xref:concept_rest_services_offered_in_unified_manager_apis.adoc[REST services offered in Active IQ Unified Manager]
 
 xref:concept_um_apis_list_intro.adoc[Unified Manager REST APIs]

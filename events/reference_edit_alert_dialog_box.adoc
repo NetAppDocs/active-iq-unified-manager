@@ -38,10 +38,11 @@ Enables you to include the resources for which you want to trigger alerts. You c
 * *Exclude*
 +
 Enables you to exclude resources for which you do not want to trigger alerts. For example, you can exclude all volumes whose name contains the "`xyz`" string.
-    [NOTE]
-    ====
-    The Exclude tab is displayed only when you select all resources of a particular resource type--for example, <<All Volumes>> or <<All Volumes whose name contains '_xyz_'>>.
-    ====
++
+[NOTE]
+====
+The Exclude tab is displayed only when you select all resources of a particular resource type--for example, <<All Volumes>> or <<All Volumes whose name contains '_xyz_'>>.
+====
 
 == Events
 

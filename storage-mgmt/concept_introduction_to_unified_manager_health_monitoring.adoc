@@ -21,6 +21,6 @@ You can also plan the storage requirements of your cluster objects using the inf
 
 *Related information*
 
-xref:concept_what_the_unified_manager_server_does.adoc[What the Unified Manager server does]
+xref:concept_what_unified_manager_server_does.adoc[What the Unified Manager server does]
 
 xref:concept_introduction_to_unified_manager_performance_monitoring.adoc[Introduction to Active IQ Unified Manager performance monitoring]

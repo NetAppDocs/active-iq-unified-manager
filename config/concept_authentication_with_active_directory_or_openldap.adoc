@@ -14,10 +14,12 @@ You can enable remote authentication on the management server and configure the 
 You can use one of the following predefined authentication services or specify your own authentication service:
 
 * Microsoft Active Directory
++
 [NOTE]
 ====
 You cannot use Microsoft Lightweight Directory Services.
 ====
+
 * OpenLDAP
 
 You can select the required authentication service and add the appropriate authentication servers to enable the remote users in the authentication server to access Unified Manager. The credentials for remote users or groups are maintained by the authentication server. The management server uses the Lightweight Directory Access Protocol (LDAP) to authenticate remote users within the configured authentication server.

@@ -228,12 +228,12 @@ xref:reference_advanced_secondary_setting_dialog_box.adoc[Advanced Secondary Set
 
 xref:reference_advanced_destination_settings_dialog_box.adoc[Advanced Destination Settings dialog box]
 
-xref:task_creating_a_snapvault_protection_relationship_from_the_health_volumes_page.adoc[Creating a SnapVault protection relationship from the Health: All Volumes view]
+xref:task_create_snapvault_protection_relationship.adoc[Creating a SnapVault protection relationship from the Health: All Volumes view]
 
-xref:task_creating_a_snapvault_protection_relationship_from_the_health_volume_details_page.adoc[Creating a SnapVault protection relationship from the Volume / Health details page]
+xref:task_create_snapvault_protection_relationship_from_health_volume_details.adoc[Creating a SnapVault protection relationship from the Volume / Health details page]
 
-xref:task_creating_a_snapmirror_protection_relationship_from_the_health_volumes_page.adoc[Creating a SnapMirror protection relationship from the Health: All Volumes view]
+xref:task_create_snapmirror_relationship_from_health_volumes.adoc[Creating a SnapMirror protection relationship from the Health: All Volumes view]
 
-xref:task_creating_a_snapmirror_protection_relationship_from_the_health_volume_details_page.adoc[Creating a SnapMirror protection relationship from the Volume / Health details page]
+xref:task_create_snapmirror_relationship_from_health_volume.adoc[Creating a SnapMirror protection relationship from the Volume / Health details page]
 
-xref:task_creating_cascade_or_fanout_relationships_to_extend_protection_from_an_existing_destination_or_secondary_volume.adoc[Creating cascade or fanout relationships to extend protection from an existing protection relationship]
+xref:task_create_cascade_or_fanout_relationships_to_extend_protection.adoc[Creating cascade or fanout relationships to extend protection from an existing protection relationship]

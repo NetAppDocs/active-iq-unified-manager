@@ -67,4 +67,4 @@ If you plan to allow users to access Unified Manager by using the short name ins
 
 *Related information*
 
-xref:task_selinux_requirements_for_mounting_opt_netapp_or_opt_netapp_data_on_an_nfs_or_cifs_share.adoc[SELinux requirements for mounting /opt/netapp or /opt/netapp/data on an NFS or CIFS share]
+xref:task_selinux_requirements_for_mounting_opt_netapp.adoc[SELinux requirements for mounting /opt/netapp or /opt/netapp/data on an NFS or CIFS share]

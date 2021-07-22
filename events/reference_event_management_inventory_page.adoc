@@ -49,11 +49,11 @@ Displays the Assign Owner dialog box, which enables you to assign or reassign th
 Acknowledges the selected events.
 +
 When you acknowledge an event, your user name and the time when you acknowledged the event are added in the events list for the selected events. When you acknowledge an event, you are responsible for managing that event.
-
- [NOTE]
- ====
- You cannot acknowledge Information events.
- ====
++
+[NOTE]
+====
+You cannot acknowledge Information events.
+====
 
 * *Mark As Resolved*
 +

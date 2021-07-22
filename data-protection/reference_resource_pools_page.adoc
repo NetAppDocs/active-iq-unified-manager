@@ -200,6 +200,6 @@ By default, this column is hidden.
 
 *Related information*
 
-xref:task_viewing_resource_pool_inventory.adoc[Viewing resource pools inventory]
+xref:task_view_resource_pool_inventory.adoc[Viewing resource pools inventory]
 
-xref:task_deleting_resource_pools.adoc[Deleting resource pools]
+xref:task_delete_resource_pools.adoc[Deleting resource pools]

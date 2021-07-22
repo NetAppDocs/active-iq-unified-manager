@@ -51,6 +51,6 @@ Closes the Reverse Resync dialog box without initiating a reverse resync operati
 
 *Related information*
 
-xref:task_reversing_protection_relationships_from_the_health_volume_details_page.adoc[Reversing protection relationships from the Volume / Health details page]
+xref:task_reverse_protection_relationships_from_health_volume_details.adoc[Reversing protection relationships from the Volume / Health details page]
 
-xref:task_reversing_protection_relationships.adoc[Reversing protection relationships from the Volume Relationships page]
+xref:task_reverse_protection_relationships.adoc[Reversing protection relationships from the Volume Relationships page]

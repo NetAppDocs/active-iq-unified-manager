@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_delete_group_actions.html
+sidebar: sidebar
+keywords: 
+summary: 'You can delete a group action from Unified Manager when the group action is no longer required.'
+---
+= Deleting group actions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete a group action from Unified Manager when the group action is no longer required.
+
+You must have the Application Administrator or Storage Administrator role.
+
+When you delete the group action for the volume health threshold, global thresholds are applied to the storage objects in that group. Any object-level health thresholds that are set on the storage object are not impacted.
+
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. In the Group Actions tab, select the group action that you want to delete, and then click *Delete*.
+. In the Warning dialog box, confirm the deletion by clicking *Yes*.
+
+*Related information*
+
+xref:concept_manage_and_monitor_groups.adoc[Managing and monitoring groups]
+
+xref:task_add_group_rules.adoc[Adding group rules]
+
+xref:task_edit_group_rules.adoc[Editing group rules]
+
+xref:task_edit_group_actions.adoc[Editing group actions]

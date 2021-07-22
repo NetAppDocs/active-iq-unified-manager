@@ -139,6 +139,6 @@ xref:reference_resynchronize_dialog_box.adoc[Resynchronize dialog box]
 
 xref:reference_initialize_update_relationship_dialog_box.adoc[Initialize/Update dialog box]
 
-xref:task_resynchronizing_protection_relationships_from_the_health_volume_details_page.adoc[Resynchronizing protection relationships from the Volume / Health details page]
+xref:task_resynchronize_protection_relationships_voldtls.adoc[Resynchronizing protection relationships from the Volume / Health details page]
 
-xref:task_resynchronizing_protection_relationships.adoc[Resynchronizing protection relationships from the Volume Relationships page]
+xref:task_resynchronize_protection_relationships.adoc[Resynchronizing protection relationships from the Volume Relationships page]

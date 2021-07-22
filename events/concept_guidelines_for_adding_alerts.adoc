@@ -22,11 +22,11 @@ You should provide a description for the alert so that it helps you track your a
 You should decide which physical or logical resource requires an alert. You can include and exclude resources, as required. For example, if you want to closely monitor your aggregates by configuring an alert, you must select the required aggregates from the list of resources.
 +
 If you select a category of resources, for example, *<<All User or Group Quotas>>*, then you will receive alerts for all objects in that category.
-
- [NOTE]
- ====
- Selecting a cluster as the resource does not automatically select the storage objects within that cluster. For example, if you create an alert for all critical events for all clusters you will receive alerts only for cluster critical events. You will not receive alerts for critical events on nodes, aggregates, and so forth.
- ====
++
+[NOTE]
+====
+Selecting a cluster as the resource does not automatically select the storage objects within that cluster. For example, if you create an alert for all critical events for all clusters you will receive alerts only for cluster critical events. You will not receive alerts for critical events on nodes, aggregates, and so forth.
+====
 
 * Event severity
 +

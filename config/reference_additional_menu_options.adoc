@@ -50,4 +50,4 @@ Exits the maintenance console menu.
 
 *Related information*
 
-xref:task_changing_the_ports_um_uses_for_http_and_https_protocols.adoc[Changing the ports Unified Manager uses for HTTP and HTTPS protocols]
+xref:task_change_ports_um_uses_for_http_and_https_protocols.adoc[Changing the ports Unified Manager uses for HTTP and HTTPS protocols]

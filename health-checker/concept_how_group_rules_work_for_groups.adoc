@@ -106,4 +106,4 @@ When a group rule containing these two condition groups is applied on storage ob
 
 *Related information*
 
-xref:concept_managing_and_monitoring_groups.adoc[Managing and monitoring groups]
+xref:concept_manage_and_monitor_groups.adoc[Managing and monitoring groups]

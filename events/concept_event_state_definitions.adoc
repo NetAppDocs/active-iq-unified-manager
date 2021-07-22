@@ -28,10 +28,11 @@ The state of an event when it is marked as resolved.
 * *Obsolete*
 +
 The state of an event when it is automatically corrected or when the cause of the event is no longer valid.
-    [NOTE]
-    ====
-    You cannot acknowledge or resolve an obsolete event.
-    ====
++
+[NOTE]
+====
+You cannot acknowledge or resolve an obsolete event.
+====
 
 == Example of different states of an event
 

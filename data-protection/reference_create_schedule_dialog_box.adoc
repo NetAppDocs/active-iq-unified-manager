@@ -64,4 +64,4 @@ A comma-separated numerical list representing the minutes in an hour. Valid valu
 
 *Related information*
 
-xref:task_creating_snapmirror_and_snapvault_schedules.adoc[Creating SnapMirror and SnapVault schedules]
+xref:task_create_snapmirror_and_snapvault_schedules.adoc[Creating SnapMirror and SnapVault schedules]

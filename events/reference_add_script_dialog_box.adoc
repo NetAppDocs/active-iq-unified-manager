@@ -23,4 +23,4 @@ Enables you to specify a description for the script.
 
 *Related information*
 
-xref:task_adding_scripts.adoc[Adding scripts]
+xref:task_add_scripts.adoc[Adding scripts]

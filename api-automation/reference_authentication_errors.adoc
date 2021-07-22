@@ -79,6 +79,6 @@ Internal server error. Failed to get the response from server. This internal ser
 |===
 *Related information*
 
-xref:concept_rest_api_access_and_authentication_in_oncommand_api_services.adoc[REST API access and authentication in Active IQ Unified Manager]
+xref:concept_rest_api_access_and_authentication_in_um_apis.adoc[REST API access and authentication in Active IQ Unified Manager]
 
-xref:reference_recommendations_to_use_the_apis.adoc[Recommendations for using the APIs for Active IQ Unified Manager]
+xref:reference_recommendations_to_use_um_apis.adoc[Recommendations for using the APIs for Active IQ Unified Manager]

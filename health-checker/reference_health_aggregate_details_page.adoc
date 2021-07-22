@@ -107,10 +107,11 @@ Displays the used and free Snapshot capacity of the aggregate.
  ** Overcommitted Capacity
 +
 Displays the aggregate overcommitment. Aggregate overcommitment enables you to provide more storage than is actually available from a given aggregate, as long as not all of that storage is currently being used. When thin provisioning is in use, the total size of volumes in the aggregate can exceed the total capacity of the aggregate.
-        [NOTE]
-        ====
-        If you have overcommitted your aggregate, you must monitor its available space carefully and add storage as required to avoid write errors due to insufficient space.
-        ====
++
+[NOTE]
+====
+If you have overcommitted your aggregate, you must monitor its available space carefully and add storage as required to avoid write errors due to insufficient space.
+====
 
  ** Cloud Tier
 +
@@ -119,10 +120,11 @@ Displays the space used by data in the cloud tier for FabricPool-enabled aggrega
  ** Total Cache Space
 +
 Displays the total space of the solid-state drives (SSDs) or allocation units that are added to a Flash Pool aggregate. If you have enabled Flash Pool for an aggregate but have not added any SSDs, then the cache space is displayed as 0 KB.
-        [NOTE]
-        ====
-        This field is hidden if Flash Pool is disabled for an aggregate.
-        ====
++
+[NOTE]
+====
+This field is hidden if Flash Pool is disabled for an aggregate.
+====
 
  ** Aggregate Thresholds
 +
@@ -219,10 +221,11 @@ Displays the number and capacity of the shared data disks that are assigned to a
  ** *Spare Disks*
 +
 Displays the disk effective type, number, and capacity of the spare data disks that are available for the node in the selected aggregate.
-        [NOTE]
-        ====
-        When an aggregate is failed over to the partner node, Unified Manager does not display all of the spare disks that are compatible with the aggregate.
-        ====
++
+[NOTE]
+====
+When an aggregate is failed over to the partner node, Unified Manager does not display all of the spare disks that are compatible with the aggregate.
+====
 
 * *SSD Cache*
 +
@@ -257,10 +260,11 @@ Displays the number and capacity of the parity disks that are assigned to an agg
  ** *Spare Disks*
 +
 Displays the disk effective type, number, and capacity of the spare disks that are available for the node in the selected aggregate for cache.
-        [NOTE]
-        ====
-        When an aggregate is failed over to the partner node, Unified Manager does not display all of the spare disks that are compatible with the aggregate.
-        ====
++
+[NOTE]
+====
+When an aggregate is failed over to the partner node, Unified Manager does not display all of the spare disks that are compatible with the aggregate.
+====
 
 +
 Provides the following details for the shared cache:
@@ -446,4 +450,4 @@ The Related Alerts pane enables you to view the list of alerts that are created 
 
 link:[Storage Pool dialog box]
 
-xref:task_performing_suggested_remedial_actions_for_a_full_volume.adoc[Performing suggested remedial actions for a full volume]
+xref:task_perform_suggested_remedial_actions_for_full_volume.adoc[Performing suggested remedial actions for a full volume]

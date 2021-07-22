@@ -24,10 +24,11 @@ Configures storage management operations within Unified Manager. This role enabl
 * *Application Administrator*
 +
 Configures settings unrelated to storage management. This role enables the management of users, security certificates, database access, and administrative options, including authentication, SMTP, networking, and AutoSupport.
-    [NOTE]
-    ====
-    When Unified Manager is installed on Linux systems, the initial user with the Application Administrator role is automatically named "`umadmin`".
-    ====
++
+[NOTE]
+====
+When Unified Manager is installed on Linux systems, the initial user with the Application Administrator role is automatically named "`umadmin`".
+====
 
 * *Integration Schema*
 +

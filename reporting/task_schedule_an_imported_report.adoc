@@ -27,8 +27,8 @@ image::../media/message_non_scehduled_reports.png[]
 image::../media/importedreport1.png[]
 
 . Click the more icon image:../media/more_icon.gif[], click *Edit*, define the report schedule details, and save the report.
-
- [NOTE]
- ====
- You can also delete any unwanted reports from the more icon ![](../media/more_icon.gif).
- ====
++
+[NOTE]
+====
+You can also delete any unwanted reports from the more icon image:../media/more_icon.gif[].
+====

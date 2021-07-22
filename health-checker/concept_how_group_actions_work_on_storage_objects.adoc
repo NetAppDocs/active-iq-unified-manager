@@ -24,4 +24,4 @@ The `Change_capacity_threshold` group action always takes priority over the `Cha
 
 *Related information*
 
-xref:concept_managing_and_monitoring_groups.adoc[Managing and monitoring groups]
+xref:concept_manage_and_monitor_groups.adoc[Managing and monitoring groups]

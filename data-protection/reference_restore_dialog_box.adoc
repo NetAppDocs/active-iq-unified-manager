@@ -85,8 +85,8 @@ Applies your selections and begins the restore process.
 
 *Related information*
 
-xref:task_restoring_data_using_the_health_volumes_page.adoc[Restoring data using the Health: All Volumes view]
+xref:task_restore_data_use_health_volumes_page.adoc[Restoring data using the Health: All Volumes view]
 
-xref:task_restoring_data_using_the_health_volume_details_page.adoc[Restoring data using the Volume / Health details page]
+xref:task_restore_data_use_health_volume_details_page.adoc[Restoring data using the Volume / Health details page]
 
 xref:reference_browse_directories_dialog_box.adoc[Browse Directories dialog box]

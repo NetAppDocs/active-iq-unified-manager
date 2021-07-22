@@ -27,4 +27,4 @@ xref:reference_cluster_summary_page_opm.adoc[Performance Cluster Summary page]
 
 xref:reference_top_performers_page.adoc[Top Performers page]
 
-xref:concept_components_of_the_performance_explorer_page.adoc[Components of the Performance Explorer page]
+xref:concept_components_of_performance_explorer_page.adoc[Components of the Performance Explorer page]

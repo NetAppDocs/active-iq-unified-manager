@@ -55,13 +55,13 @@ See the Red Hat documentation for information about the Red Hat Subscription Man
 +
 If the EPEL repository is not configured on your system, you must manually download and configure the repository.
 +
-link:task_manually_configuring_the_epel_repository.md#[Manually configuring the EPEL repository]
+link:task_manually_configure_epel_repository.md#[Manually configuring the EPEL repository]
 
 * If the correct version of MySQL is not installed, you must enable the MySQL repository to successfully install MySQL software on your system.
 +
 If the MySQL repository is not configured on your system, you must manually download and configure the repository.
 +
-xref:task_manually_configuring_the_mysql_repository.adoc[Manually configuring the MySQL repository]
+xref:task_manually_configure_mysql_repository.adoc[Manually configuring the MySQL repository]
 
 If your system does not have internet access, and the repositories are not mirrored from an internet-connected system to the unconnected system, you should follow the installation instructions to determine the external software dependencies of your system. Then you can download the required software to the internet-connected system, and copy the .rpm files to the system on which you plan to install Unified Manager. To download the artifacts and packages, you must use the yum install command. You must ensure that the two systems are running the same operating system version and that the subscription license is for the appropriate Red Hat Enterprise Linux or CentOS version.
 

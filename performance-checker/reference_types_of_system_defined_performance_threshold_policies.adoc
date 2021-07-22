@@ -55,10 +55,11 @@ It does this by looking at the performance capacity used value for the two nodes
 Identifies situations in which a disk or disks in an aggregate are fragmented, slowing key system services and potentially affecting workload latencies on a node.
 +
 It does this by looking at certain read and write operation ratios across all aggregates on a node. This policy might also be triggered during SyncMirror resynchronization or when errors are found during disk scrub operations. This is a warning event.
-    [NOTE]
-    ====
-    The "`Node disk fragmentation`" policy analyzes HDD-only aggregates; Flash Pool, SSD, and FabricPool aggregates are not analyzed.
-    ====
++
+[NOTE]
+====
+The "`Node disk fragmentation`" policy analyzes HDD-only aggregates; Flash Pool, SSD, and FabricPool aggregates are not analyzed.
+====
 
 == Aggregate threshold policies
 
@@ -108,13 +109,15 @@ When multiple workloads share a single QoS policy, it does this by adding the IO
 Identifies volumes that have exceeded their adaptive QoS peak IOPS/TB throughput limit (or IOPS/TB with Block Size limit), and that are affecting workload latency. This is a warning event.
 +
 It does this by converting the peak IOPS/TB threshold defined in the adaptive QoS policy into a QoS maximum IOPS value based on the size of each volume, and then it looks for volumes that have exceeded the QoS max IOPS during each performance collection period for the previous hour.
-    [NOTE]
-    ====
-    This policy is applied to volumes only when the cluster is installed with ONTAP 9.3 and later software.
-    ====
++
+[NOTE]
+====
+This policy is applied to volumes only when the cluster is installed with ONTAP 9.3 and later software.
+====
 +
 When the "`block size`" element has been defined in the adaptive QoS policy, the threshold is converted into a QoS maximum MB/s value based on the size of each volume. Then it looks for volumes that have exceeded the QoS max MB/s during each performance collection period for the previous hour.
-    [NOTE]
-    ====
-    This policy is applied to volumes only when the cluster is installed with ONTAP 9.5 and later software.
-    ====
++
+[NOTE]
+====
+This policy is applied to volumes only when the cluster is installed with ONTAP 9.5 and later software.
+====

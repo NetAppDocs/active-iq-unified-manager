@@ -43,6 +43,6 @@ You can view performance information about a workload to help with troubleshooti
 
 *Related information*
 
-xref:task_creating_and_editing_psls.adoc[Creating and editing Performance Service Levels]
+xref:task_create_and_edit_psls.adoc[Creating and editing Performance Service Levels]
 
-xref:task_creating_and_editing_seps.adoc[Creating and editing Storage Efficiency Policies]
+xref:task_create_and_edit_seps.adoc[Creating and editing Storage Efficiency Policies]

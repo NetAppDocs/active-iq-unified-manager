@@ -37,10 +37,11 @@ Displays the impact of the event to the latency of the workload during the last 
  ** *Component Usage column*
 +
 Displays details about the workload usage of the cluster component in contention. In the graphs, the actual usage is a blue line. A red bar highlights the event duration, from the detection time to the last analyzed time. For more information, see _Workload performance measurements_.
-        [NOTE]
-        ====
-        For the network component, because network performance statistics come from activity off the cluster, this column is not displayed.
-        ====
++
+[NOTE]
+====
+For the network component, because network performance statistics come from activity off the cluster, this column is not displayed.
+====
 
  ** *Component Usage*
 +

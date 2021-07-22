@@ -47,10 +47,12 @@ Because some types of support data can use a large amount of cluster resources o
 . In the On-Demand Support Bundle section, click *Generate and Send Support Bundle*.
 . To send a light support bundle to technical support, in the Generate and Send Support Bundle pop-up, select the**Generate light support bundle** check box.
 . Alternately, to send a full support bundle, select the *Generate full support bundle* check box. Select the specific data types to include or exclude in the support bundle.
++
 [NOTE]
 ====
 Even if you do not select any data type, the support bundle is still generated with other Unified Manager data.
 ====
+
 . Select the *Send the bundle to technical support* check box to generate and send the bundle to technical support. If you do not select this check box, the bundle is generated and stored locally in the Unified Manager server. The generated support bundle is available for later use in the /support directory on VMware systems, in /opt/netapp/data/support/ on Linux systems, and in ProgramData\NetApp\OnCommandAppData\ocum\support on Windows systems.
 . Click *Send*.
 

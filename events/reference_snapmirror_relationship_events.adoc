@@ -14,6 +14,7 @@ SnapMirror relationship events provide you with information about the status of 
 == Impact area: protection
 
 An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
+
 [NOTE]
 ====
 The SnapMirror relationships events are generated for Storage VMs that are protected by Storage VM disaster recovery but not for any constituent object relationships.

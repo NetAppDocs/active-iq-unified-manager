@@ -57,10 +57,11 @@ You can click the graph of an object to view a filtered list of the objects. For
 * *Availability Issues*
 +
 Graphically displays the total number of objects, including objects that have availability issues and objects that do not have any availability-related issues. The colors in the graph represent the different severity levels of the issues. The information below the graph provides details about availability issues that can impact or have already impacted the availability of data in the cluster. For example, information is displayed about disk shelves that are down and aggregates that are offline.
-    [NOTE]
-    ====
-    The data displayed for the SFO bar graph is based on the HA state of the nodes. The data displayed for all other bar graphs is calculated based on the events generated.
-    ====
++
+[NOTE]
+====
+The data displayed for the SFO bar graph is based on the HA state of the nodes. The data displayed for all other bar graphs is calculated based on the events generated.
+====
 
 * *Capacity Issues*
 +
@@ -163,11 +164,11 @@ You can move the pointer over the status to view more information about the even
 If the status of the aggregate is determined by a single event, you can view information such as the event name, time and date when the event was triggered, the name of the administrator to whom the event is assigned, and the cause of the event. You can click the *View Details* button to view more information about the event.
 +
 If the status of the aggregate is determined by multiple events of the same severity, the top three events are displayed with information such as the event name, time and date when the events are triggered, and the name of the administrator to whom the event is assigned. You can view more details about each of these events by clicking the event name. You can also click the *View All Events* link to view the list of generated events.
-
-     [NOTE]
-     ====
-     An aggregate can have multiple capacity-related events of the same severity or different severities. However, only the highest severity is displayed. For example, if an aggregate has two events with severity levels of Error and Critical, only the Critical severity is displayed.
-     ====
++
+[NOTE]
+====
+An aggregate can have multiple capacity-related events of the same severity or different severities. However, only the highest severity is displayed. For example, if an aggregate has two events with severity levels of Error and Critical, only the Critical severity is displayed.
+====
 
  ** Aggregate
 +
@@ -253,10 +254,11 @@ Displays the MetroCluster configuration, which can have the following values:
   *** Stretch Configuration with FC-SAS bridge
   *** Fabric Configuration with FC switches
 
- [NOTE]
- ====
- For a four-node MetroCluster, only Fabric Configuration with FC switches is supported.
- ====
++
+[NOTE]
+====
+For a four-node MetroCluster, only Fabric Configuration with FC switches is supported.
+====
 
  ** Automated Unplanned Switch Over (AUSO)
 +
@@ -628,6 +630,6 @@ The Related Alerts pane enables you to view the list of alerts for the selected 
 
 *Related information*
 
-xref:task_viewing_the_cluster_list_and_details.adoc[Viewing the cluster list and details]
+xref:task_view_cluster_list_and_details.adoc[Viewing the cluster list and details]
 
 link:[Storage Pool dialog box]

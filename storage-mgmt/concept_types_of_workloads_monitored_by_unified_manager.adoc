@@ -14,10 +14,11 @@ You can use Unified Manager to monitor the performance of two types of workloads
 * *User-defined workloads*
 +
 The I/O throughput from applications to the cluster. These are processes involved in read and write requests. A volume, LUN, NFS share, SMB/CIFS share, and a workload is a user-defined workload.
-    [NOTE]
-    ====
-    Unified Manager only monitors the workload activity on the cluster. It does not monitor the applications, the clients, or the paths between the applications and the cluster.
-    ====
++
+[NOTE]
+====
+Unified Manager only monitors the workload activity on the cluster. It does not monitor the applications, the clients, or the paths between the applications and the cluster.
+====
 +
 If one or more of the following is true for a workload, it cannot be monitored by Unified Manager:
 

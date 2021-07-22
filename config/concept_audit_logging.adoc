@@ -47,6 +47,7 @@ The Audit Log page includes the following command buttons:
 * Download
 
 The *DELETE* button enables you to delete any of the audit logs listed in the Audit Logs view. You can delete an audit log and optionally provide a reason to delete the file which helps in future to determine a valid delete. The REASON column lists the reason along with the name of the user who performed the delete operation.
+
 [NOTE]
 ====
 Deleting a log file will cause deletion of file from the system but the entry in the DB table will not be deleted.

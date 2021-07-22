@@ -67,14 +67,14 @@ Represents the software component in the cluster involved with replicating user 
 
 xref:reference_performance_event_analysis_and_notification.adoc[Performance event analysis and notification]
 
-xref:concept_collecting_data_and_monitoring_workload_performance.adoc[Collecting data and monitoring workload performance]
+xref:concept_collect_data_and_monitor_workload_performance.adoc[Collecting data and monitoring workload performance]
 
-xref:concept_roles_of_workloads_involved_in_a_performance_incident.adoc[Roles of workloads involved in a performance event]
+xref:concept_roles_of_workloads_involved_in_performance_incident.adoc[Roles of workloads involved in a performance event]
 
 xref:concept_types_of_workloads_monitored_by_unified_manager.adoc[Types of workloads monitored by Unified Manager]
 
-xref:task_displaying_information_about_a_performance_event.adoc[Displaying information about performance events]
+xref:task_display_information_about_performance_event.adoc[Displaying information about performance events]
 
-xref:task_identifying_victim_workloads_involved_in_a_performance_event.adoc[Identifying victim workloads involved in a dynamic performance event]
+xref:task_identify_victim_workloads_involved_in_performance_event.adoc[Identifying victim workloads involved in a dynamic performance event]
 
-xref:task_identifying_bully_workloads_involved_in_a_performance_event.adoc[Identifying bully workloads involved in a dynamic performance event]
+xref:task_identify_bully_workloads_involved_in_performance_event.adoc[Identifying bully workloads involved in a dynamic performance event]

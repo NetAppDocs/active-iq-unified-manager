@@ -70,11 +70,11 @@ a|
 ONTAP API: /storage/volumes/\{uuid}
 +
 |===
-
- [NOTE]
- ====
- In /gateways/\{uuid\}/\{path\}, the value for \{uuid\} must be replaced with the cluster UUID on which the REST operation is to be performed. \{path\} must be replaced by the ONTAP REST URL /storage/volumes/\{uuid\}.
- ====
++
+[NOTE]
+====
+In /gateways/\{uuid}/\{path}, the value for \{uuid} must be replaced with the cluster UUID on which the REST operation is to be performed. \{path} must be replaced by the ONTAP REST URL /storage/volumes/\{uuid}.
+====
 +
 The appended URL is: /gateways/\{cluster_uuid}/storage/volumes/\{volume_uuid}
 +
@@ -104,11 +104,11 @@ a|
 ONTAP API: /storage/volumes/\{uuid}
 +
 |===
-
- [NOTE]
- ====
- Along with the cluster UUID and volume UUID, you must enter a value for the size parameter for resizing the volume. Ensure to enter the value *in bytes*. For example, if you want to increase the size of a volume from 100 GB to 120 GB, enter the value for parameter size at the end of the query: `-d {\"size\": 128849018880}"`
- ====
++
+[NOTE]
+====
+Along with the cluster UUID and volume UUID, you must enter a value for the size parameter for resizing the volume. Ensure to enter the value _in bytes_. For example, if you want to increase the size of a volume from 100 GB to 120 GB, enter the value for parameter size at the end of the query: `-d {\"size\": 128849018880}"`
+====
 +
 *Sample cURL command*
 +

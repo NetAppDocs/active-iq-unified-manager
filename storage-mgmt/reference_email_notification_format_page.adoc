@@ -74,6 +74,6 @@ Saves the changes made to the notification format.
 
 *Related information*
 
-xref:task_creating_rules_to_generate_email_addresses.adoc[Creating rules to generate email addresses]
+xref:task_create_rules_to_generate_email_addresses.adoc[Creating rules to generate email addresses]
 
-xref:reference_rules_to_generate_user_and_group_quota_email_address_dialog_box.adoc[Rules to Generate User and Group Quota Email Address page]
+xref:reference_rules_to_generate_user_and_group_quota.adoc[Rules to Generate User and Group Quota Email Address page]

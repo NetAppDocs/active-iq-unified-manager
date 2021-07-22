@@ -110,11 +110,11 @@ You can move the pointer over the status to view more information about the capa
 If the status of the volume is determined by a single event, you can view information such as the event name, time and date when the event was triggered, the name of the administrator to whom the event is assigned, and the cause of the event. You can use the *View Details* button to view more information about the event.
 +
 If the status of the volume is determined by multiple events of the same severity, the top three events are displayed with information such as the event name, time and date when the events were triggered, and the name of the administrator to whom the event is assigned. You can view more details about each of these events by clicking the event name. You can also click the *View All Events* link to view the list of generated events.
-
-     [NOTE]
-     ====
-     A volume can have multiple events of the same severity or different severities. However, only the highest severity is displayed. For example, if a volume has two events with severities of Error and Warning, only the Error severity is displayed.
-     ====
++
+[NOTE]
+====
+A volume can have multiple events of the same severity or different severities. However, only the highest severity is displayed. For example, if a volume has two events with severities of Error and Warning, only the Error severity is displayed.
+====
 
  ** Volume
 +
@@ -278,11 +278,11 @@ You can move the pointer over the status icon to view more information about the
 If the status of the qtree is determined by a single event, you can view information such as the event name, time and date when the event was triggered, the name of the administrator to whom the event is assigned, and the cause of the event. You can use *View Details* to view more information about the event.
 +
 If the status of the qtree is determined by multiple events of the same severity, the top three events are displayed with information such as the event name, time and date when the events were triggered, and the name of the administrator to whom the event is assigned. You can view more details about each of these events by clicking the event name. You can also use *View All Events* to view the list of generated events.
-
- [NOTE]
- ====
- A qtree can have multiple events of the same severity or different severities. However, only the highest severity is displayed. For example, if a qtree has two events with severities of Error and Warning, only the Error severity is displayed.
- ====
++
+[NOTE]
+====
+A qtree can have multiple events of the same severity or different severities. However, only the highest severity is displayed. For example, if a qtree has two events with severities of Error and Warning, only the Error severity is displayed.
+====
 
 * *Qtree*
 +
@@ -365,11 +365,11 @@ You can move the pointer over the status icon to view more information about the
 If the status of the quota is determined by a single event, you can view information such as the event name, time and date when the event was triggered, the name of the administrator to whom the event is assigned, and the cause of the event. You can use *View Details* to view more information about the event.
 +
 If the status of the quota is determined by multiple events of the same severity, the top three events are displayed with information such as the event name, time and date when the events were triggered, and the name of the administrator to whom the event is assigned. You can view more details about each of these events by clicking the event name. You can also use *View All Events* to view the list of generated events.
-
- [NOTE]
- ====
- A quota can have multiple events of the same severity or different severities. However, only the highest severity is displayed. For example, if a quota has two events with severities of Error and Warning, only the Error severity is displayed.
- ====
++
+[NOTE]
+====
+A quota can have multiple events of the same severity or different severities. However, only the highest severity is displayed. For example, if a quota has two events with severities of Error and Warning, only the Error severity is displayed.
+====
 
 * *User or Group*
 +

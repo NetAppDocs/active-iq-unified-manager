@@ -59,6 +59,6 @@ Applies your selections and closes the Edit Relationship dialog box.
 
 *Related information*
 
-xref:task_editing_protection_relationships_from_the_protection_volume_relationships_page.adoc[Editing protection relationships from the Volume Relationships page]
+xref:task_edit_protection_relationships_from_protection_volume.adoc[Editing protection relationships from the Volume Relationships page]
 
-xref:task_editing_protection_relationships_from_the_health_volume_details_page.adoc[Editing protection relationships from the Volume / Health details page]
+xref:task_edit_protection_relationships_from_health_volume.adoc[Editing protection relationships from the Volume / Health details page]

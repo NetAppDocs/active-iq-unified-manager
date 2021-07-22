@@ -23,4 +23,4 @@ image::../media/um_email_alert.gif[]
 
 xref:concept_sources_of_performance_events.adoc[Sources of performance events]
 
-xref:task_adding_alerts.adoc[Adding alerts]
+xref:task_add_alerts.adoc[Adding alerts]

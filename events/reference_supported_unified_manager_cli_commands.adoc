@@ -202,6 +202,6 @@ Displays the corresponding message.
 |===
 *Related information*
 
-xref:task_adding_scripts.adoc[Adding scripts]
+xref:task_add_scripts.adoc[Adding scripts]
 
 xref:concept_how_scripts_work_with_alerts.adoc[How scripts work with alerts]

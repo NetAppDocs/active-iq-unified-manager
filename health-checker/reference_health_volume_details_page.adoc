@@ -92,6 +92,7 @@ Enables you to reestablish a previously broken protection relationship, reversin
  ** Restore
 +
 Enables you to restore data from one volume to another volume.
+
 +
 [NOTE]
 ====
@@ -188,6 +189,7 @@ Full size of the volume is guaranteed.
  ** Partial
 +
 The FlexCache volume reserves space based on its size. If the FlexCache volume's size is 100 MB or more, the minimum space guarantee is set to 100 MB by default. If the FlexCache volume's size is less than 100 MB, the minimum space guarantee is set to the FlexCache volume's size. If the FlexCache volume's size is grown later, the minimum space guarantee is not incremented.
+
 +
 [NOTE]
 ====
@@ -310,11 +312,11 @@ Displays the type of the selected volume. The volume type can be Read-write, Loa
  ** RAID Type
 +
 Displays the RAID type of the selected volume. The RAID type can be RAID0, RAID4, RAID-DP, or RAID-TEC.
-
-     [NOTE]
-     ====
-     Multiple RAID types may display for FlexGroup volumes because the constituent volumes for FlexGroups can be on aggregates of different types.
-     ====
++
+[NOTE]
+====
+Multiple RAID types may display for FlexGroup volumes because the constituent volumes for FlexGroups can be on aggregates of different types.
+====
 
  ** SnapLock Type
 +
@@ -555,18 +557,20 @@ Displays seconds, minutes, or hours on the vertical (y) axis, and displays days,
  ** *Relationship Transfer Duration*
 +
 Displays seconds, minutes, or hours on the vertical (y) axis, and displays days, months, or years on the horizontal (x) axis, depending on the selected duration period. The upper value on the y axis indicates the maximum transfer duration reached in the duration period shown in the x axis. You can view the details of specific points on the graph by positioning your cursor over the area of interest.
-        [NOTE]
-        ====
-        This chart is not available for volumes that are in synchronous protection relationships.
-        ====
++
+[NOTE]
+====
+This chart is not available for volumes that are in synchronous protection relationships.
+====
 
  ** *Relationship Transferred Size*
 +
 Displays bytes, kilobytes, megabytes, and so on, on the vertical (y) axis depending on the transfer size, and displays days, months, or years on the horizontal (x) axis depending on the selected time period. The upper value on the y axis indicates the maximum transfer size reached in the duration period shown in the x axis. You can view the details for specific points on the graph by positioning your cursor over an area of interest.
-        [NOTE]
-        ====
-        This chart is not available for volumes that are in synchronous protection relationships.
-        ====
++
+[NOTE]
+====
+This chart is not available for volumes that are in synchronous protection relationships.
+====
 
 == History area
 
@@ -668,6 +672,6 @@ The Related Alerts pane enables you to view the list of alerts that are created 
 
 *Related information*
 
-xref:task_performing_diagnotstic_actions_for_volume_offline_conditions.adoc[Performing diagnostic actions for volume offline conditions]
+xref:task_perform_diagnotstic_actions_for_volume_offline_conditions.adoc[Performing diagnostic actions for volume offline conditions]
 
-xref:task_performing_suggested_remedial_actions_for_a_full_volume.adoc[Performing suggested remedial actions for a full volume]
+xref:task_perform_suggested_remedial_actions_for_full_volume.adoc[Performing suggested remedial actions for a full volume]

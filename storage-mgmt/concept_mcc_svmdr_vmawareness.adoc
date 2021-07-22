@@ -22,7 +22,7 @@ Note the following prerequisites before viewing datastores in a MetroCluster con
 * In an event of switchover and switchback, the discovery of the primary and secondary clusters of the HA pair, and vCenter Servers should be complete.
 * The primary and secondary clusters of the HA pair, and vCenter Servers must be managed by Unified Manager. For information about MetroCluster support, see
 +
-xref:concept_managing_and_monitoring_metrocluster_configurations.adoc[Managing and monitoring MetroCluster configurations]
+xref:concept_manage_and_monitor_metrocluster_configurations.adoc[Managing and monitoring MetroCluster configurations]
 
 * The required setup must be completed on ONTAP and vCenter Server. For information, see ONTAP and vCenter documentation.
 +
