@@ -1,0 +1,30 @@
+---
+permalink: performance-checker/reference_performance_event_severity_types.html
+sidebar: sidebar
+keywords: 
+summary: 'Each performance event is associated with a severity type to help you prioritize the events that require immediate corrective action.'
+---
+= Performance event severity types
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Each performance event is associated with a severity type to help you prioritize the events that require immediate corrective action.
+
+* *Critical*
++
+A performance event occurred that might lead to service disruption if corrective action is not taken immediately.
++
+Critical events are sent from user-defined thresholds only.
+
+* *Warning*
++
+A performance counter for a cluster object is out of normal range and should be monitored to make sure it does not reach the critical severity. Events of this severity do not cause service disruption, and immediate corrective action might not be required.
++
+Warning events are sent from user-defined, system-defined, or dynamic thresholds.
+
+* *Information*
++
+The event occurs when a new object is discovered, or when a user action is performed. For example, when any storage object is deleted or when there are any configuration changes, the event with severity type Information is generated.
++
+Information events are sent directly from ONTAP when it detects a configuration change.

@@ -1,0 +1,20 @@
+---
+permalink: health-checker/concept_introduction_to_unified_manager_health_monitoring.html
+sidebar: sidebar
+keywords: 
+summary: 'Active IQ Unified Manager \(formerly OnCommand Unified Manager\) helps you to monitor a large number of systems running ONTAP software through a centralized user interface. The Unified Manager server infrastructure delivers scalability, supportability, and enhanced monitoring and notification capabilities.'
+---
+= Introduction to Active IQ Unified Manager health monitoring
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager (formerly OnCommand Unified Manager) helps you to monitor a large number of systems running ONTAP software through a centralized user interface. The Unified Manager server infrastructure delivers scalability, supportability, and enhanced monitoring and notification capabilities.
+
+The key capabilities of Unified Manager include monitoring, alerting, managing availability and capacity of clusters, managing protection capabilities, and bundling of diagnostic data and sending it to technical support.
+
+You can use Unified Manager to monitor your clusters. When issues occur in the cluster, Unified Manager notifies you about the details of such issues through events. Some events also provide you with a remedial action that you can take to rectify the issues. You can configure alerts for events so that when issues occur, you are notified through email, and SNMP traps.
+
+You can use Unified Manager to manage storage objects in your environment by associating them with annotations. You can create custom annotations and dynamically associate clusters, storage virtual machines (SVMs), and volumes with the annotations through rules.
+
+You can also plan the storage requirements of your cluster objects using the information provided in the capacity and health charts, for the respective cluster object.

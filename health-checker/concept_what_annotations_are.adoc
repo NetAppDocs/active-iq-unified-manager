@@ -1,0 +1,16 @@
+---
+permalink: health-checker/concept_what_annotations_are.html
+sidebar: sidebar
+keywords: 
+summary: 'An annotation is a text string \(the name\) that is assigned to another text string \(the value\). Each annotation name-value pair can be dynamically associated with storage objects using annotation rules. When you associate storage objects with predefined annotations, you can filter and view the events that are related to them. You can apply annotations to clusters, volumes, and storage virtual machines \(SVMs\).'
+---
+= What annotations are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+An annotation is a text string (the name) that is assigned to another text string (the value). Each annotation name-value pair can be dynamically associated with storage objects using annotation rules. When you associate storage objects with predefined annotations, you can filter and view the events that are related to them. You can apply annotations to clusters, volumes, and storage virtual machines (SVMs).
+
+Each annotation name can have multiple values; each name-value pair can be associated with a storage object through rules.
+
+For example, you can create an annotation named "`data-center`" with the values "`Boston`" and "`Canada`". You can then apply the annotation "`data-center`" with the value "`Boston`" to volume v1. When an alert is generated for any event on a volume v1 that is annotated with "`data-center`", the generated email indicates the location of the volume, "`Boston`", and this enables you to prioritize and resolve the issue.

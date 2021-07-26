@@ -1,0 +1,107 @@
+---
+permalink: api-automation/concept_gateway_apis.html
+sidebar: sidebar
+keywords: 
+summary: 'The gateway APIs provide you with the advantage of using the Active IQ Unified Manager credentials to run ONTAP REST APIs and managing storage objects. These APIs are available when the API Gateway feature is enabled from the Unified Manager web UI.'
+---
+= Accessing ONTAP APIs through proxy access
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The gateway APIs provide you with the advantage of using the Active IQ Unified Manager credentials to run ONTAP REST APIs and managing storage objects. These APIs are available when the API Gateway feature is enabled from the Unified Manager web UI.
+
+Unified Manager REST APIs support only a select set of actions to be performed on the Unified Manager datasources, that is ONTAP clusters. You can avail the other features through ONTAP APIs. The gateway APIs allow Unified Manager to be a pass-through interface for tunneling all API requests to be performed on ONTAP clusters, without logging in to each data center cluster individually. It performs as a single point of management for running the APIs across the ONTAP clusters managed by your Unified Manager instance. The API Gateway feature allows Unified Manager to be a single control plane from which you can manage multiple ONTAP clusters, without logging in to them individually. The gateway APIs enable you to remain logged in to Unified Manager and manage the ONTAP clusters by running ONTAP REST API operations.
+
+[NOTE]
+====
+All users can run a query by using the GET operation. Application Administrators can run all ONTAP REST operations.
+====
+
+The gateway acts as a proxy to tunnel the API requests by maintaining the header and body requests in the same format as in the ONTAP APIs. You can use your Unified Manager credentials and execute the specific operations to access and manage the ONTAP clusters without passing individual cluster credentials. It continues to manage the cluster authentication and cluster management, but redirects the API requests to run directly on the specific cluster. The response returned by the APIs is the same as the response returned by the respective ONTAP REST APIs executed directly from ONTAP.
+
+|===
+| HTTP verb| Path (URL)| Description
+a|
+GET
+a|
+/gateways
+a|
+This GET method retrieves the list of all the clusters managed by Unified Manager that support ONTAP REST calls. You can verify the cluster details and choose to run other methods based on the cluster UUID or universal unique identifier (UUID).
+
+[NOTE]
+====
+The gateway APIs retrieve only those clusters supported by ONTAP 9.5 or later, and added to Unified Manager over HTTPS.
+====
+
+a|
+GET
+
+POST
+
+DELETE
+
+PATCH
+
+OPTIONS (not available on Swagger)
+
+HEAD (not available on Swagger)
+
+a|
+/gateways/\{uuid}/\{path}
+
+[NOTE]
+====
+The value for \{uuid} must be replaced with the cluster UUID on which the REST operation is to be performed. Also, ensure that the UUID is of the cluster supported by ONTAP 9.5 or later, and added to Unified Manager over HTTPS. \{path} must be replaced by the ONTAP REST URL. You must remove /api/ from the URL.
+====
+
+a|
+This is a single point proxy API, supporting POST, DELETE, PATCH operations and GET for all the ONTAP REST APIs. No restrictions apply on any of the API as long as it is supported by ONTAP. The tunnelling or proxy functionality cannot be disabled.
+
+The OPTIONS method returns all the operations supported by an ONTAP REST API. For example, if an ONTAP API supports only the GET operation, running the OPTIONS method by using this gateway API returns GET as the response. This method is not supported on Swagger, but can be performed on other API tools.
+
+The OPTIONS method determines whether a resource is available. This operation can be used to view the metadata about a resource in the HTTP response headers. This method is not supported on Swagger, but can be performed on other API tools.
+
+|===
+
+== Understanding the API Gateway tunneling
+
+The gateway APIs enable you to manage ONTAP objects through Unified Manager. Unified Manager manages the clusters and authentication details and redirects the requests to the ONTAP REST endpoint. The gateway API transforms the URL and Hypermedia as the Engine of Application State (HATEOAS) links in the header and response body with the API gateway base URL. The gateway API acts as the proxy base URL to which you append the ONTAP REST URL and execute the required ONTAP REST endpoint.
+
+In this example, the gateway API (proxy base URL) is: `+/gateways/{uuid}/+`
+
+The ONTAP API taken is: `/storage/volumes`. You need to add the ONTAP API REST URL as the value for the path parameter.
+
+[NOTE]
+====
+While adding the path, ensure that you have removed the "`/`" symbol at the beginning of the URL. For the API /storage/volumes, add storage/volumes.
+====
+
+The appended URL is: `+/gateways/{uuid}/storage/volumes+`
+
+On running the GET operation, the generated URL is the following: `GEThttps://<hostname\>/api/gateways/<cluster_UUID\>/storage/volumes`
+
+The /api tag of the ONTAP REST URL is removed in the appended URL and that for the gateway API is retained.
+
+*Sample cURL command*
+
+----
+curl -X GET "https://<hostname>/api/gateways/1cd8a442-86d1-11e0-ae1c-9876567890123/storage/volumes" -H "accept: application/hal+json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+
+The API returns the list of storage volumes in that cluster. The response format is the same as you receive when you run the same API from ONTAP. The status codes returned are the ONTAP REST status codes.
+
+== Setting API scope
+
+All APIs have a context set within the scope of the cluster. APIs that operate on the basis of storage VMs also have the cluster as the scope, that is, the API operations are performed on a particular storage VM within a managed cluster. When you run the /gateways/\{uuid}/\{path} API, ensure that you enter the cluster UUID (Unified Manager datasource UUID) for the cluster on which you run the operation. For setting the context to a particular storage VM within that cluster, enter the storage VM key as the X-Dot-SVM-UUID parameter or the storage VM name as the X-Dot-SVM-Name parameter. The parameter is added as the filter in the string header and the operation is run within the scope of that storage VM inside that cluster.
+
+*Sample cURL command*
+
+----
+curl -X GET "https://<hostname>/api/gateways/e4f33f90-f75f-11e8-9ed9-00a098e3215f/storage/volume" -H "accept: application/hal+json" -H "X-Dot-SVM-UUID: d9c33ec0-5b61-11e9-8760-00a098e3215f"
+-H "Authorization: Basic <Base64EncodedCredentials>"
+----
+
+For more information about using ONTAP REST APIs, see the ONTAP REST API Developers guide.
+
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-rest-api/home.html[ONTAP REST API Developers guide]

@@ -1,0 +1,20 @@
+---
+permalink: install-vapp/task_upgrade_unified_manager_vapp.html
+sidebar: sidebar
+keywords: 
+summary: 'You can upgrade to Unified Manager 9.9 only from instances of 9.7 or 9.8.'
+---
+= Upgrading Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can upgrade to Unified Manager 9.9 only from instances of 9.7 or 9.8.
+
+During the upgrade process, Unified Manager is unavailable. You should complete any running operations before upgrading Unified Manager.
+
+If Unified Manager is paired with an instance of OnCommand Workflow Automation, and there are new versions of software available for both products, you must disconnect the two products and then set up a new Workflow Automation connection after performing the upgrades. If you are performing an upgrade to only one of the products, then you should log into Workflow Automation after the upgrade and verify that it is still acquiring data from Unified Manager.
+
+*Related information*
+
+xref:task_remove_unified_manager_vapp.adoc[Removing Unified Manager]

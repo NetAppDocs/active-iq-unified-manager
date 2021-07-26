@@ -1,0 +1,12 @@
+---
+permalink: performance-checker/concept_graphical_interface_and_navigational_paths.html
+sidebar: sidebar
+keywords: 
+summary: 'Unified Manager has great flexibility and enables you to accomplish multiple tasks in various ways. There are many navigation paths you will discover as you work in Unified Manager. While not all of the possible combinations of navigations can be shown, you should be familiar with a few of the more common scenarios.'
+---
+= Graphical interface and navigational paths
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager has great flexibility and enables you to accomplish multiple tasks in various ways. There are many navigation paths you will discover as you work in Unified Manager. While not all of the possible combinations of navigations can be shown, you should be familiar with a few of the more common scenarios.

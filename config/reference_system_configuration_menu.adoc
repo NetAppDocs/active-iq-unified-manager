@@ -1,0 +1,75 @@
+---
+permalink: config/reference_system_configuration_menu.html
+sidebar: sidebar
+keywords: 
+summary: 'The System Configuration menu enables you to manage your virtual appliance by providing various options, such as viewing the server status, and rebooting and shutting down the virtual machine.'
+---
+= System Configuration menu
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The System Configuration menu enables you to manage your virtual appliance by providing various options, such as viewing the server status, and rebooting and shutting down the virtual machine.
+
+[NOTE]
+====
+When Unified Manager is installed on a Linux or Microsoft Windows system, only the "`Restore from a Unified Manager Backup`" option is available from this menu.
+====
+
+The following menu choices are available:
+
+* *Display Server Status*
++
+Displays the current server status. Status options include Running and Not Running.
++
+If the server is not running, you might need to contact technical support.
+
+* *Reboot Virtual Machine*
++
+Reboots the virtual machine, stopping all services. After rebooting, the virtual machine and services restart.
+
+* *Shut Down Virtual Machine*
++
+Shuts down the virtual machine, stopping all services.
++
+You can select this option only from the virtual machine console.
+
+* *Change <logged in user> User Password*
++
+Changes the password of the user that is currently logged in, which can only be the maintenance user.
+
+* *Increase Data Disk Size*
++
+Increases the size of the data disk (disk 3) in the virtual machine.
+
+* *Increase Swap Disk Size*
++
+Increases the size of the swap disk (disk 2) in the virtual machine.
+
+* *Change Time Zone*
++
+Changes the time zone to your location.
+
+* *Change NTP Server*
++
+Changes the NTP Server settings, such as IP address or fully qualified domain name (FQDN).
+
+* *Restore from a Unified Manager Backup*
++
+Restores the Unified Manager database and configuration settings from a previously backed up version.
+
+* *Reset Server Certificate*
++
+Resets the server security certificate.
+
+* *Change hostname*
++
+Changes the name of the host on which the virtual appliance is installed.
+
+* *Back*
++
+Exits the System Configuration menu and returns to the Main Menu.
+
+* *Exit*
++
+Exits the maintenance console menu.
