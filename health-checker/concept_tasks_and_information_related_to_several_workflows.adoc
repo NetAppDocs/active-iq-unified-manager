@@ -1,0 +1,12 @@
+---
+permalink: health-checker/concept_tasks_and_information_related_to_several_workflows.html
+sidebar: sidebar
+keywords: 
+summary: 'Some tasks and reference texts that can help you understand and complete a workflow are common to many of the workflows in Unified Manager, including adding and reviewing notes about an event, assigning an event, acknowledging and resolving events, and details about volumes, storage virtual machines \(SVMs\), aggregates, and so on.'
+---
+= Tasks and information related to several workflows
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Some tasks and reference texts that can help you understand and complete a workflow are common to many of the workflows in Unified Manager, including adding and reviewing notes about an event, assigning an event, acknowledging and resolving events, and details about volumes, storage virtual machines (SVMs), aggregates, and so on.

@@ -1,0 +1,33 @@
+---
+permalink: health-checker/task_edit_group_rules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can edit group rules to modify the condition groups and the conditions within a condition group to add or remove storage objects to or from a specific group.'
+---
+= Editing group rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit group rules to modify the condition groups and the conditions within a condition group to add or remove storage objects to or from a specific group.
+
+You must have the Application Administrator or Storage Administrator role.
+
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. In the Group Rules tab, select the group rule that you want to edit, and then click *Edit*.
+. In the Edit Group Rule dialog box, change the group rule name, associated group name, condition groups, and conditions as required.
++
+[NOTE]
+====
+You cannot change the target object type for a group rule.
+====
+
+. Click *Save*.
+
+*Related information*
+
+xref:concept_manage_and_monitor_groups.adoc[Managing and monitoring groups]
+
+xref:task_add_group_rules.adoc[Adding group rules]
+
+xref:task_delete_group_actions.adoc[Deleting group actions]

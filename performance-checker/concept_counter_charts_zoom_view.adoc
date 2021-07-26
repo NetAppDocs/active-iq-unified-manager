@@ -1,0 +1,19 @@
+---
+permalink: performance-checker/concept_counter_charts_zoom_view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Counter Charts provide a Zoom View that enables you to zoom in on performance details over your specified time period. This enables you to see performance details and events with much higher granularity, which is beneficial when troubleshooting performance issues.'
+---
+= Counter Charts Zoom View
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Counter Charts provide a Zoom View that enables you to zoom in on performance details over your specified time period. This enables you to see performance details and events with much higher granularity, which is beneficial when troubleshooting performance issues.
+
+When displayed in Zoom View, some of the breakdown charts provide additional information than what appears when the chart is not in Zoom View. For example, the IOPS, IOPS/TB, and MBps Breakdown chart Zoom View pages display QoS policy values for volumes and LUNs if they have been set in ONTAP.
+
+[NOTE]
+====
+For system-defined performance threshold policies, only the "`Node resources over-utilized`" and "`QoS throughput limit breached`" policies are available from the *Policies* list. The other system-defined threshold policies are not available at this time.
+====

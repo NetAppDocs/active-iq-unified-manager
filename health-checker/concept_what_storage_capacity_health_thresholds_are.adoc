@@ -1,0 +1,14 @@
+---
+permalink: health-checker/concept_what_storage_capacity_health_thresholds_are.html
+sidebar: sidebar
+keywords: 
+summary: 'A storage capacity health threshold is the point at which the Unified Manager server generates events to report any capacity problem with storage objects. You can configure alerts to send notification whenever such events occurs.'
+---
+= What storage capacity health thresholds are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A storage capacity health threshold is the point at which the Unified Manager server generates events to report any capacity problem with storage objects. You can configure alerts to send notification whenever such events occurs.
+
+The storage capacity health thresholds for all aggregates, volumes, and qtrees are set to default values. You can change the settings as required for an object or a group of objects.
