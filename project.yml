@@ -1,5 +1,23 @@
 sidebar:
-
+  entries:
+    - title: Home
+      url: "/index.html"
+    - section: install-vapp
+    - section: install-linux
+    - section: install-windows
+    - section: config
+    - section: storage-mgmt
+    - section: events
+    - section: performance-checker
+    - section: health-checker
+    - section: data-protection
+    - section: reporting
+    - section: api-automation
 
 homepage:
   tiles:
+  - title: This is the title of a tile
+    links:
+    - title: This is the title of a link
+      summary: This is the description of the link target
+      url: install-vapp/index.html
