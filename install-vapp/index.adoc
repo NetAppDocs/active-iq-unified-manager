@@ -1,34 +1,9 @@
 ---
 permalink: install-vapp/index.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: ''
 ---
 = Installation Guide
 :icons: font
 :imagesdir: ../media/
-
-* xref:concept_introduction_to_unified_manager.adoc[Introduction to Active IQ Unified Manager]
- ** xref:concept_what_unified_manager_server_does.adoc[What the Unified Manager server does]
- ** xref:reference_unified_manager_product_documentation.adoc[Active IQ Unified Manager product documentation]
- ** xref:concept_overview_of_installation_sequence_um.adoc[Overview of the installation sequence]
-* xref:concept_requirements_for_installing_unified_manager.adoc[Requirements for installing Unified Manager]
- ** xref:concept_virtual_infrastructure_or_hardware_system_requirements.adoc[Virtual infrastructure and hardware system requirements]
- ** xref:reference_vmware_software_and_installation_requirements.adoc[VMware software and installation requirements]
- ** xref:concept_browser_and_platform_requirements.adoc[Supported browsers]
- ** xref:reference_protocol_and_port_requirements.adoc[Protocol and port requirements]
- ** xref:reference_complete_worksheet_um.adoc[Completing the worksheet]
-* xref:concept_install_upgrade_remove_unified_manage_on_vmware.adoc[Installing, upgrading, and removing Unified Manager software]
- ** xref:concept_overview_of_deployment_process.adoc[Overview of the deployment process]
- ** xref:task_deploy_unified_manager_vapp.adoc[Deploying Unified Manager]
-  *** xref:task_download_unified_manager_ova_file.adoc[Downloading the Unified Manager installation file]
-  *** xref:task_deploy_unified_manager_virtual_appliance_vapp.adoc[Deploying the Unified Manager virtual appliance]
- ** xref:task_upgrade_unified_manager_vapp.adoc[Upgrading Unified Manager]
-  *** xref:task_download_unified_manager_iso_image_vapp.adoc[Downloading the Unified Manager upgrade file]
-  *** xref:task_upgrade_unified_manager_virtual_appliance_vapp.adoc[Upgrading the Unified Manager virtual appliance]
- ** xref:task_restart_unified_manager_virtual_machine.adoc[Restarting the Unified Manager virtual machine]
- ** xref:task_remove_unified_manager_vapp.adoc[Removing Unified Manager]
-* xref:reference_copyright_and_trademark.adoc[Copyright, trademark, and machine translation]
- ** xref:reference_copyright.adoc[Copyright]
- ** xref:reference_trademark.adoc[Trademark]
- ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]

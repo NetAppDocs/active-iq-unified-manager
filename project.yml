@@ -1,5 +1,18 @@
 sidebar:
-
+  entries:
+    - title: Home
+      url: "/index.html"
+    - section: install-vapp
+    - section: install-linux
+    - section: install-windows
+    - section: config
+    - section: storage-mgmt
+    - section: events
+    - section: performance-checker
+    - section: health-checker
+    - section: data-protection
+    - section: reporting
+    - section: api-automation
 
 homepage:
   tiles:
