@@ -16,3 +16,8 @@ sidebar:
 
 homepage:
   tiles:
+  - title: This is the title of a tile
+    links:
+    - title: This is the title of a link
+      summary: This is the description of the link target
+      url: install-vapp/index.html
