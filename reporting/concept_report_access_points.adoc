@@ -1,8 +1,8 @@
 ---
 permalink: reporting/concept_report_access_points.html
 sidebar: sidebar
-keywords: 
-summary: 'You can gather information in Unified Manager about your clusters to create reports from the UI, MySQL database queries, and REST APIs.'
+keywords: access, points, generating, reports
+summary: "You can gather information in Unified Manager about your clusters to create reports from the UI, MySQL database queries, and REST APIs."
 ---
 = Access points for generating reports
 :icons: font
