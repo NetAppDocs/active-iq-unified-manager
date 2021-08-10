@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_add_disks_and_reallocate_data.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add disks to an aggregate to increase the storage capacity and the performance of that aggregate. After adding the disks, you will see an improvement in read performance only after reallocating the data across the disks you added.'
+keywords: add, disks, reallocate, data
+summary: "You can add disks to an aggregate to increase the storage capacity and the performance of that aggregate. After adding the disks, you will see an improvement in read performance only after reallocating the data across the disks you added."
 ---
 = Add disks and reallocate data
 :icons: font

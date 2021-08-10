@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_cluster_components_and_why_they_can_be_in_contention.html
 sidebar: sidebar
-keywords: 
-summary: 'You can identify cluster performance issues when a cluster component goes into contention. The performance of workloads that use the component slow down and their response time \(latency\) for client requests increases, which triggers an event in Unified Manager.'
+keywords: cluster, components, why, contention
+summary: "You can identify cluster performance issues when a cluster component goes into contention. The performance of workloads that use the component slow down and their response time (latency) for client requests increases, which triggers an event in Unified Manager."
 ---
 = Cluster components and why they can be in contention
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can identify cluster performance issues when a cluster component g
 [.lead]
 You can identify cluster performance issues when a cluster component goes into contention. The performance of workloads that use the component slow down and their response time (latency) for client requests increases, which triggers an event in Unified Manager.
 
-A component that is in contention cannot perform at an optimal level. Its performance has declined, and the performance of other cluster components and workloads, called victims, might have increased latency. To bring a component out of contention, you must reduce its workload or increase its ability to handle more work, so that the performance can return to normal levels. Because Unified Manager collects and analyzes workload performance in five-minute intervals, it detects only when a cluster component is consistently overused. Transient spikes of overusage that last for only a short duration within the five-minute interval are not detected.
+A component that is in contention cannot perform at an optimal level. Its performance has declined, and the performance of other cluster components and workloads, called _victims_, might have increased latency. To bring a component out of contention, you must reduce its workload or increase its ability to handle more work, so that the performance can return to normal levels. Because Unified Manager collects and analyzes workload performance in five-minute intervals, it detects only when a cluster component is consistently overused. Transient spikes of overusage that last for only a short duration within the five-minute interval are not detected.
 
 For example, a storage aggregate might be under contention because one or more workloads on it are competing for their I/O requests to be fulfilled. Other workloads on the aggregate can be impacted, causing their performance to decrease. To reduce the amount of activity on the aggregate, there are different steps you can take, such as moving one or more workloads to a less busy aggregate or node, to lessen the overall workload demand on the current aggregate. For a QoS policy group, you can adjust the throughput limit, or move workloads to a different policy group, so that the workloads are no longer being throttled.
 
@@ -62,19 +62,3 @@ Represents the software component in the cluster involved with I/O processing be
 * *Sync SnapMirror*
 +
 Represents the software component in the cluster involved with replicating user data from the primary volume to the secondary volume in a SnapMirror Synchronous relationship. If the sync SnapMirror component is in contention, it means that the activity from SnapMirror Synchronous operations are impacting the latency of one or more workloads.
-
-*Related information*
-
-xref:reference_performance_event_analysis_and_notification.adoc[Performance event analysis and notification]
-
-xref:concept_collect_data_and_monitor_workload_performance.adoc[Collecting data and monitoring workload performance]
-
-xref:concept_roles_of_workloads_involved_in_performance_incident.adoc[Roles of workloads involved in a performance event]
-
-xref:concept_types_of_workloads_monitored_by_unified_manager.adoc[Types of workloads monitored by Unified Manager]
-
-xref:task_display_information_about_performance_event.adoc[Displaying information about performance events]
-
-xref:task_identify_victim_workloads_involved_in_performance_event.adoc[Identifying victim workloads involved in a dynamic performance event]
-
-xref:task_identify_bully_workloads_involved_in_performance_event.adoc[Identifying bully workloads involved in a dynamic performance event]

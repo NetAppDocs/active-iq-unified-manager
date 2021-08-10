@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_check_for_client_or_network_issues.html
 sidebar: sidebar
-keywords: 
-summary: 'When the clients that are connected to volumes on a cluster increase their I/O requests, the cluster must work harder to meet the demand. The increased demand on the cluster can put a component in contention, increase the latency of workloads that use it, and trigger an event in Unified Manager.'
+keywords: check, client, network, issues
+summary: "When the clients that are connected to volumes on a cluster increase their I/O requests, the cluster must work harder to meet the demand. The increased demand on the cluster can put a component in contention, increase the latency of workloads that use it, and trigger an event in Unified Manager."
 ---
 = Check for client or network issues
 :icons: font
