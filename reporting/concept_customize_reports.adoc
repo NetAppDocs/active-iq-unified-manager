@@ -1,8 +1,8 @@
 ---
 permalink: reporting/concept_customize_reports.html
 sidebar: sidebar
-keywords: 
-summary: 'There are many ways you can customize views so that you can create a report that contains all the information you need to manage your ONTAP clusters.'
+keywords: customize, reports
+summary: "There are many ways you can customize views so that you can create a report that contains all the information you need to manage your ONTAP clusters."
 ---
 = Customizing reports
 :icons: font
