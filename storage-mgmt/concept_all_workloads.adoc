@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_all_workloads.html
 sidebar: sidebar
-keywords: workloads,workloads
-summary: 'The All Workloads view displays the list of all the workloads available on the clusters in a data center.'
+keywords: view, workloads, add, provision, storage, filter, analyze, performance, capacity, criteria
+summary: "The All Workloads view displays the list of all the workloads available on the clusters in a data center."
 ---
 = Viewing workloads
 :icons: font
@@ -37,12 +37,7 @@ For each workload, information, such as the host cluster and storage VM is displ
 
 The page also enables you to view the performance details of a workload. You can view detailed information about the IOPS, capacity, and latency of the workload by clicking the *Choose / Order Columns* button and selecting specific columns to view. The Performance View column displays the average and peak IOPS for a workload, and you can click the workload analyser icon to view the detailed IOPS analysis. The *Analyze Workload* button on the IOPS Analysis pop-up takes you to the Workload Analysis page, where you can select a time range and view the latency, throughput, and capacity trends for the selected workload. For more information about workload analyzer, see _Troubleshooting workloads using the workload analyzer_
 
+
 == Analyzing performance and capacity criteria for a workload
 
 You can view performance information about a workload to help with troubleshooting by clicking the bar chart icon in the *Performance View* column. To view performance and capacity charts on the Workload Analysis page to analyze the object, click the *Analyze Workload* button.
-
-*Related information*
-
-xref:task_create_and_edit_psls.adoc[Creating and editing Performance Service Levels]
-
-xref:task_create_and_edit_seps.adoc[Creating and editing Storage Efficiency Policies]

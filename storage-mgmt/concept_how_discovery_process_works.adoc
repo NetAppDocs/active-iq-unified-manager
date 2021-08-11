@@ -23,7 +23,3 @@ After all the objects for a new cluster are discovered, Unified Manager starts t
 ====
 Because the collection of 15 days of performance data is CPU intensive, it is suggested that you stagger the addition of new clusters so that data continuity collection polls are not running on too many clusters at the same time.
 ====
-
-*Related information*
-
-xref:task_add_clusters.adoc[Adding clusters]
