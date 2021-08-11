@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_run_storage_efficiency_operations_at_less_busy_times.html
 sidebar: sidebar
-keywords: 
-summary: 'You can modify the policy or schedule that handles storage efficiency operations to run when the impacted volume workloads are less busy.'
+keywords: run, storage, efficiency, operations, less, busy, times
+summary: "You can modify the policy or schedule that handles storage efficiency operations to run when the impacted volume workloads are less busy."
 ---
 = Run storage efficiency operations at less busy times
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_performance_threshold_policies_when_object_is_moved.html
 sidebar: sidebar
-keywords: 
-summary: 'Because performance threshold policies are assigned to storage objects, if you move an object, all assigned threshold policies remain attached to the object after the move is completed. For example, if you move a volume or LUN to a different aggregate, the threshold policies are still active for the volume or LUN on the new aggregate.'
+keywords: happens, performance, threshold, policies, object, moved
+summary: "Because performance threshold policies are assigned to storage objects, if you move an object, all assigned threshold policies remain attached to the object after the move is completed. For example, if you move a volume or LUN to a different aggregate, the threshold policies are still active for the volume or LUN on the new aggregate."
 ---
 = What happens to performance threshold policies when an object is moved
 :icons: font
@@ -33,7 +33,7 @@ If both a takeover and giveback operation occur within the 15-minute configurati
 
 == Threshold policy functionality during aggregate relocation
 
-If you move an aggregate from one node to another node using the aggregate relocation start command, both single and combination threshold policies are retained on all objects, and the node portion of the threshold policy is applied to the new node.
+If you move an aggregate from one node to another node using the `aggregate relocation start` command, both single and combination threshold policies are retained on all objects, and the node portion of the threshold policy is applied to the new node.
 
 == Threshold policy functionality during MetroCluster switchover
 

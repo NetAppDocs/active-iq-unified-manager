@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_options_for_improving_workload_performance_from_client.html
 sidebar: sidebar
-keywords: 
-summary: 'You can check your client workloads, such as applications or databases, that are sending I/O to volumes involved in a performance event to determine if a client-side change might correct the event.'
+keywords: options, improving, workload, performance, client-side
+summary: "You can check your client workloads, such as applications or databases, that are sending I/O to volumes involved in a performance event to determine if a client-side change might correct the event."
 ---
 = Options for improving workload performance from the client-side
 :icons: font
