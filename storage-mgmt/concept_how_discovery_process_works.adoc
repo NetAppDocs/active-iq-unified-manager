@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_how_discovery_process_works.html
 sidebar: sidebar
-keywords: Unified Manager
-summary: 'After you have added a cluster to Unified Manager, the server discovers the cluster objects and adds them to its database. Understanding how the discovery process works helps you to manage your organization’s clusters and their objects.'
+keywords: cluster, discovery, process, works
+summary: "After you have added a cluster to Unified Manager, the server discovers the cluster objects and adds them to its database. Understanding how the discovery process works helps you to manage your organization’s clusters and their objects."
 ---
 = How the cluster discovery process works
 :icons: font
