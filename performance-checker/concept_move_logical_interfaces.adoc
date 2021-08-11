@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_move_logical_interfaces.html
 sidebar: sidebar
-keywords: 
-summary: 'Moving logical interfaces \(LIFs\) to a less busy port can help improve load balancing, assist with maintenance operations and performance tuning, and reduce indirect access.'
+keywords: move, logical, interfaces, lifs
+summary: "Moving logical interfaces (LIFs) to a less busy port can help improve load balancing, assist with maintenance operations and performance tuning, and reduce indirect access."
 ---
 = Move logical interfaces (LIFs)
 :icons: font
@@ -16,7 +16,6 @@ Indirect access can reduce system efficiency. It occurs when a volume workload i
 |===
 a|
 *Benefits*
-
 a|
 
 * Improve load balancing.
@@ -24,7 +23,6 @@ a|
 
 a|
 *Considerations*
-
 a|
 
 [NOTE]
