@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_understand_events_from_adaptive_qos_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'Adaptive QoS policy groups automatically scale a throughput ceiling or floor based on the volume size, maintaining the ratio of IOPS to TBs as the size of the volume changes. Starting with ONTAP 9.5 you can specify the block size in the QoS policy to effectively apply a MB/s threshold at the same time.'
+keywords: understand, events, adaptive, qos, policies, defined, block, size
+summary: "Adaptive QoS policy groups automatically scale a throughput ceiling or floor based on the volume size, maintaining the ratio of IOPS to TBs as the size of the volume changes. Starting with ONTAP 9.5 you can specify the block size in the QoS policy to effectively apply a MB/s threshold at the same time."
 ---
 = Understanding events from adaptive QoS policies that have a defined block size
 :icons: font
@@ -24,10 +24,10 @@ If a workload is averaging 3,000 IOPS and the block size on the client is set to
 Let's look at the following adaptive QoS policy that has a defined block size and how events are triggered based on the block size that is set on the client.
 
 Create a policy and set the peak throughput to 2,500 IOPS/TB with a block size of 32KB. This effectively sets the MB/s threshold to 80 MB/s ((2500 IOPS * 32KB) / 1000) for a volume with 1 TB used capacity. Note that Unified Manager generates a Warning event when the throughput value is 10% less than the defined threshold. Events are generated under the following situations:
-
+[options="header"]
 |===
-| Used Capacity| Event is generated when throughput exceeds this number of ...
-| IOPS| MB/s
+|Used Capacity 2+a| Event is generated when throughput exceeds this number of ...
+|| IOPS| MB/s
 a|
 1 TB
 a|

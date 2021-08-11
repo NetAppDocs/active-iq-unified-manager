@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_understand_performance_panels_on_dashboard.html
 sidebar: sidebar
-keywords: 
-summary: 'The Unified Manager Dashboard provides a few panels that display high-level performance status for all the clusters that are being monitored in your environment. You can choose to view status for all clusters or for an individual cluster.'
+keywords: understand, performance, panels, dashboard
+summary: "The Unified Manager Dashboard provides a few panels that display high-level performance status for all the clusters that are being monitored in your environment. You can choose to view status for all clusters or for an individual cluster."
 ---
 = Understanding performance panels on the Dashboard
 :icons: font
@@ -36,13 +36,3 @@ When workload active management is enabled, this panel displays the total number
 When viewing all clusters, you can choose to view clusters sorted by highest IOPS or throughput (MB/s).
 +
 When viewing a single cluster, you can choose to view workloads on that cluster sorted by highest IOPS or throughput (MB/s).
-
-*Related information*
-
-xref:concept_monitor_cluster_performance_from_cluster_landing_page.adoc[Monitoring cluster performance from the Performance Cluster Landing page]
-
-xref:concept_monitor_performance_using_object_performance.adoc[Monitoring performance using the Performance Inventory pages]
-
-xref:task_display_information_about_performance_event.adoc[Displaying information about performance events]
-
-xref:concept_manage_performance_using_perf_capacity_available_iops.adoc[Managing performance using performance capacity and available IOPS information]

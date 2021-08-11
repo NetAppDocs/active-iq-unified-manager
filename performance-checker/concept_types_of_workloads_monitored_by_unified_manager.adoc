@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use Unified Manager to monitor the performance of two types of workloads: user-defined and system-defined.'
+keywords: types, workloads, monitored, unified manager
+summary: "You can use Unified Manager to monitor the performance of two types of workloads: user-defined and system-defined."
 ---
 = Types of workloads monitored by Unified Manager
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use Unified Manager to monitor the performance of two types of
 [.lead]
 You can use Unified Manager to monitor the performance of two types of workloads: user-defined and system-defined.
 
-* *User-defined workloads*
+* *_User-defined workloads_*
 +
 The I/O throughput from applications to the cluster. These are processes involved in read and write requests. A volume, LUN, NFS share, SMB/CIFS share, and a workload is a user-defined workload.
 +
@@ -26,7 +26,7 @@ If one or more of the following is true for a workload, it cannot be monitored b
  ** It is an offline data clone.
  ** It is a mirrored volume in a MetroCluster configuration.
 
-* *System-defined workloads*
+* *_System-defined workloads_*
 +
 The internal processes involved with storage efficiency, data replication, and system health, including:
 
@@ -41,11 +41,3 @@ The internal processes involved with storage efficiency, data replication, and s
  ** Unmonitored volumes
 
 Performance data for system-defined workloads is displayed in the GUI only when the cluster component used by these workloads is in contention. For example, you cannot search for the name of a system-defined workload to view its performance data in the GUI.
-
-*Related information*
-
-xref:reference_performance_event_analysis_and_notification.adoc[Performance event analysis and notification]
-
-xref:concept_roles_of_workloads_involved_in_performance_incident.adoc[Roles of workloads involved in a performance event]
-
-xref:concept_cluster_components_and_why_they_can_be_in_contention.adoc[Cluster components and why they can be in contention]
