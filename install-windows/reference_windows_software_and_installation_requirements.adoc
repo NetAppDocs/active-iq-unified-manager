@@ -1,8 +1,8 @@
 ---
 permalink: install-windows/reference_windows_software_and_installation_requirements.html
 sidebar: sidebar
-keywords: 
-summary: 'For the successful installation of Unified Manager on Windows, you should ensure that the system on which Unified Manager is being installed meets the software requirements.'
+keywords: windows, software, installation, requirements, system
+summary: "For the successful installation of Unified Manager on Windows, you should ensure that the system on which Unified Manager is being installed meets the software requirements."
 ---
 = Windows software and installation requirements
 :icons: font
@@ -41,7 +41,7 @@ The following third-party packages are bundled with Unified Manager. If these th
 +
 [NOTE]
 ====
-    The installer of Unified Manager has been restricted to support only up to MySQL Community Edition 8.0.21, due to an interoperability issue. You *must not* upgrade MySQL to a release greater than 8.0.21.
+The installer of Unified Manager has been restricted to support only up to MySQL Community Edition 8.0.21, due to an interoperability issue. You *must not* upgrade MySQL to a release greater than 8.0.21.
 +
 ====
 
