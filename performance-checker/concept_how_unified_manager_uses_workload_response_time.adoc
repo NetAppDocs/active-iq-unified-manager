@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_how_unified_manager_uses_workload_response_time.html
 sidebar: sidebar
-keywords: 
-summary: 'The workload latency \(response time\) is the time it takes for a volume on a cluster to respond to I/O requests from client applications. Unified Manager uses the latency to detect and alert you to performance events.'
+keywords: unified manager, workload, latency, identify, performance, issues
+summary: "The workload latency (response time) is the time it takes for a volume on a cluster to respond to I/O requests from client applications. Unified Manager uses the latency to detect and alert you to performance events."
 ---
 = How Unified Manager uses workload latency to identify performance issues
 :icons: font
@@ -30,13 +30,3 @@ This example shows the Latency chart . The actual response time (latency) activi
 ====
 There can be gaps in the blue line if Unified Manager was unable to gather data. This can occur because the cluster or volume was unreachable, Unified Manager was turned off during that time, or the collection was taking longer than the 5 minute collection period.
 ====
-
-*Related information*
-
-xref:task_use_workload_analyzer.adoc[Using the workload analyzer]
-
-xref:concept_what_expected_range_of_performance_is.adoc[What the expected range of performance is]
-
-xref:reference_performance_event_analysis_and_notification.adoc[Performance event analysis and notification]
-
-xref:concept_how_cluster_operations_can_affect_workload_latency.adoc[How cluster operations can affect workload latency]

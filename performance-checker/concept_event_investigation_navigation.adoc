@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_event_investigation_navigation.html
 sidebar: sidebar
-keywords: 
-summary: 'The Unified Manager event detail pages provide you with an in-depth look at any performance event. This is beneficial when investigating performance events, when troubleshooting, and when fine-tuning system performance.'
+keywords: event, investigation, navigation
+summary: "The Unified Manager event detail pages provide you with an in-depth look at any performance event. This is beneficial when investigating performance events, when troubleshooting, and when fine-tuning system performance."
 ---
 = Event investigation navigation
 :icons: font
