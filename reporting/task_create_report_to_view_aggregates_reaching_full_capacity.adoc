@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to find the aggregates that are reaching full capacity so that you can add more capacity or move workloads to other aggregates.'
+keywords: create, report, view, aggregates, reaching, full capacity
+summary: "You can create a report to find the aggregates that are reaching full capacity so that you can add more capacity or move workloads to other aggregates."
 ---
 = Creating a report to view aggregates reaching full capacity
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to find the aggregates that are reaching full 
 [.lead]
 You can create a report to find the aggregates that are reaching full capacity so that you can add more capacity or move workloads to other aggregates.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view that displays aggregates reaching full capacity, then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Aggregates*.
 . In the View menu, select *Capacity* > *All Aggregates*.

@@ -2,7 +2,7 @@
 permalink: reporting/task_use_excel_to_customize_your_report.html
 sidebar: sidebar
 keywords: excel, customize, report
-summary: "After you have saved the view, you can download it in Excel Workbook format \(.xlsx\). When you open the Excel file, you can use advanced Excel features to customize your report."
+summary: "After you have saved the view, you can download it in Excel Workbook format (.xlsx). When you open the Excel file, you can use advanced Excel features to customize your report."
 ---
 = Using Excel to customize your report
 :icons: font
@@ -50,7 +50,3 @@ Do not move the file to a new location, or if you do your work in another locati
 The most recently downloaded file is uploaded from the same file location.
 
 . Send yourself a test report using the *Scheduled Reports* feature.
-
-*Related information*
-
-xref:concept_sample_microsoft_excel_reports.adoc[Sample Microsoft Excel reports]
