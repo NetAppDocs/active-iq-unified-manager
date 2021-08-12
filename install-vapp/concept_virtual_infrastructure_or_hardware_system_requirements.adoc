@@ -1,8 +1,8 @@
 ---
 permalink: install-vapp/concept_virtual_infrastructure_or_hardware_system_requirements.html
 sidebar: sidebar
-keywords: 
-summary: 'Installing Unified Manager on virtual infrastructure or a physical system should meet the minimum requirements for memory, CPU, and disk space.'
+keywords: virtual, infrastructure, hardware, system, requirements
+summary: "Installing Unified Manager on virtual infrastructure or a physical system should meet the minimum requirements for memory, CPU, and disk space."
 ---
 = Virtual infrastructure and hardware system requirements
 :icons: font
@@ -13,6 +13,7 @@ Installing Unified Manager on virtual infrastructure or a physical system should
 
 The following table displays the values that are recommended for memory, CPU, and disk space resources. These values have been qualified so that Unified Manager meets acceptable performance levels.
 
+[cols="2*",options="header"]
 |===
 | Hardware configuration| Recommended settings
 a|
