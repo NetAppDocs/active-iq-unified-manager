@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to analyze storage capacity and utilization of qtrees, and to view qtrees that are nearly full.'
+keywords: create, report, view, qtrees, full
+summary: "You can create a report to analyze storage capacity and utilization of qtrees, and to view qtrees that are nearly full."
 ---
 = Creating a report to view qtrees that are nearly full
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to analyze storage capacity and utilization of
 [.lead]
 You can create a report to analyze storage capacity and utilization of qtrees, and to view qtrees that are nearly full.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view that displays qtrees that are nearly full, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Qtrees*.
 . Select *Show/Hide* to remove any columns you do not want in the report.

@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_aggregates_with_most_available_iops.html
 sidebar: sidebar
-keywords: 
-summary: 'This report shows which aggregates have the most available IOPS per aggregate type on which you can provision new workloads.'
+keywords: create, report, view, aggregates, available, IOPS
+summary: "This report shows which aggregates have the most available IOPS per aggregate type on which you can provision new workloads."
 ---
 = Creating a report to view aggregates that have the most available IOPS
 :icons: font
@@ -11,9 +11,13 @@ summary: 'This report shows which aggregates have the most available IOPS per ag
 [.lead]
 This report shows which aggregates have the most available IOPS per aggregate type on which you can provision new workloads.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to open a Health: All Volumes view, download the view in Excel, create an available capacity chart, upload the customized Excel file, and schedule the final report.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Aggregates*.
 . Select *Performance: All Aggregates* from the *View* drop-down.

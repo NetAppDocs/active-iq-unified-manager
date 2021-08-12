@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to analyze storage capacity and use of aggregates, and to view aggregates that are overcommitted.'
+keywords: create, report, view, aggregates, overcommitted
+summary: "You can create a report to analyze storage capacity and use of aggregates, and to view aggregates that are overcommitted."
 ---
 = Creating a report to view aggregates that are overcommitted
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to analyze storage capacity and use of aggrega
 [.lead]
 You can create a report to analyze storage capacity and use of aggregates, and to view aggregates that are overcommitted.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view that displays aggregates that are exceeding the overcommitted threshold, then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Aggregates*.
 . In the View menu, select *Capacity* > *All Aggregates*.

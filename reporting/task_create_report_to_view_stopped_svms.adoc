@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_stopped_svms.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to display a list of all stopped SVMs.'
+keywords: create, report, view, stopped, storage VMs
+summary: "You can create a report to display a list of all stopped SVMs."
 ---
 = Creating a report to view stopped storage VMs
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to display a list of all stopped SVMs.'
 [.lead]
 You can create a report to display a list of all stopped SVMs.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following the steps to create a custom view that displays stopped storage VMs, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Storage VMs*.
 . In the View menu, select *Health* > *All Storage VMs*.

@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_capacity.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to analyze capacity in an Excel file by using summed totals and the clustered column chart format.'
+keywords: create, report, show, aggregate, capacity, table, chart
+summary: "You can create a report to analyze capacity in an Excel file by using summed totals and the clustered column chart format."
 ---
 = Creating a report to show an aggregate capacity table and chart
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to analyze capacity in an Excel file by using 
 [.lead]
 You can create a report to analyze capacity in an Excel file by using summed totals and the clustered column chart format.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to open a Health: All Aggregates view, download the view in Excel, create an available capacity chart, upload the customized Excel file, and schedule the final report.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Aggregates*.
 . Select *Reports* > *Download Excel*.

@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_svms_reaching_maximum_volume_limit.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to find SVMs that are reaching the maximum volume limit.'
+keywords: create, report, view, storage VMs, volume, limit
+summary: "You can create a report to find SVMs that are reaching the maximum volume limit."
 ---
 = Creating a report to view storage VMs reaching the maximum volume limit
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to find SVMs that are reaching the maximum vol
 [.lead]
 You can create a report to find SVMs that are reaching the maximum volume limit.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view that displays storage VMs that are reaching the maximum volume limit, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Storage VMs*.
 . Select *Show/Hide* to remove any columns you do not want in the report.

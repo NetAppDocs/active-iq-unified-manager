@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_capacity_by_cluster_model.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to analyze storage capacity and utilization of clusters based on storage system model.'
+keywords: create, report, view, capacity, cluster, model
+summary: "You can create a report to analyze storage capacity and utilization of clusters based on storage system model."
 ---
 = Creating a report to view capacity by cluster model
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to analyze storage capacity and utilization of
 [.lead]
 You can create a report to analyze storage capacity and utilization of clusters based on storage system model.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view that displays capacity by cluster model, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Clusters*.
 . In the View menu, select *Capacity* > *All Clusters*.
