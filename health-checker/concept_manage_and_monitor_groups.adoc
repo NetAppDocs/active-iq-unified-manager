@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_manage_and_monitor_groups.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create groups in Unified Manager to manage storage objects.'
+keywords: manage, monitor, groups
+summary: "You can create groups in Unified Manager to manage storage objects."
 ---
 = Managing and monitoring groups
 :icons: font
