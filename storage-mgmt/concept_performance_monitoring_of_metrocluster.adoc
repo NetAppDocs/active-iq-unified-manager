@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_performance_monitoring_of_metrocluster.html
 sidebar: sidebar
-keywords: 
-summary: 'Unified Manager enables you to monitor the write throughput between clusters in a MetroCluster configuration to identify workloads with a high amount of write throughput. If these high-performing workloads are causing other volumes on the local cluster to have high I/O response times, Unified Manager triggers performance events to notify you.'
+keywords: performance, monitor, metrocluster, configurations
+summary: "Unified Manager enables you to monitor the write throughput between clusters in a MetroCluster configuration to identify workloads with a high amount of write throughput. If these high-performing workloads are causing other volumes on the local cluster to have high I/O response times, Unified Manager triggers performance events to notify you."
 ---
 = Performance monitoring of MetroCluster configurations
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_monitor_vms.html
 sidebar: sidebar
-keywords: virtual machines
-summary: 'For any latency issue on the virtual machine \(VM\) applications, you might need to monitor the VMs to analyze and troubleshoot the cause. The VMs are available when their vCenter Server and the ONTAP clusters hosting the VM storage are added to Unified Manager.'
+keywords: monitor, virtual, machines, view, summary, topology, expand
+summary: "For any latency issue on the virtual machine (VM) applications, you might need to monitor the VMs to analyze and troubleshoot the cause. The VMs are available when their vCenter Server and the ONTAP clusters hosting the VM storage are added to Unified Manager."
 ---
 = Monitoring virtual machines
 :icons: font
@@ -11,7 +11,7 @@ summary: 'For any latency issue on the virtual machine \(VM\) applications, you 
 [.lead]
 For any latency issue on the virtual machine (VM) applications, you might need to monitor the VMs to analyze and troubleshoot the cause. The VMs are available when their vCenter Server and the ONTAP clusters hosting the VM storage are added to Unified Manager.
 
-You see the details of the VMs on the *VMWARE* > *** > **Virtual Machines* page. Information, such as the availability, status, used and allocated capacity, network latency, and the IOPS and latency of the VM, datastore, and host is displayed. For a VM supporting multiple datastores, the grid shows the metrics of the datastore with the worst latency, with an asterisk icon (*) indicating additional datastores. If you click on the icon, the metrics of the additional datastore is displayed. Some of these columns are not available for sorting and filtering.
+You see the details of the VMs on the *VMWARE* > > *Virtual Machines* page. Information, such as the availability, status, used and allocated capacity, network latency, and the IOPS and latency of the VM, datastore, and host is displayed. For a VM supporting multiple datastores, the grid shows the metrics of the datastore with the worst latency, with an asterisk icon (*) indicating additional datastores. If you click on the icon, the metrics of the additional datastore is displayed. Some of these columns are not available for sorting and filtering.
 
 [NOTE]
 ====
@@ -31,7 +31,7 @@ To determine performance issues by viewing the VMs in a summary topology
 +
 [NOTE]
 ====
-vCenter Servers allow special characters (such as %, &, *, $, #, @, !, \, /, :, *, ?, "`, <, >, |, ;, ') in the names of vSphere entities, such as VM, cluster, datastore, folder, or file. The VMware vCenter Server and ESX/ESXi Server do not escape special characters used in the display names. However, when the name is processed in Unified Manager, it is displayed differently. For example, a VM named as %$VC_AIQUM_clone_191124% in vCenter Server is displayed as %25$VC_AIQUM_clone_191124%25 in Unified Manager. You must keep a note of this issue when you query a VM with a name having a special characters in it.
+vCenter Servers allow special characters (such as %, &, *, $, #, @, !, \, /, :, *, ?, "`, <, >, |, ;, ') in the names of vSphere entities, such as VM, cluster, datastore, folder, or file. The VMware vCenter Server and ESX/ESXi Server do not escape special characters used in the display names. However, when the name is processed in Unified Manager, it is displayed differently. For example, a VM named as  `%$VC_AIQUM_clone_191124%` in vCenter Server is displayed as `%25$VC_AIQUM_clone_191124%25` in Unified Manager. You must keep a note of this issue when you query a VM with a name having a special characters in it.
 ====
 
 . Check the status of the VM. The VM statuses are retrieved from vCenter Server. The following statuses are available. For more information about these statuses, see VMware documentation.
