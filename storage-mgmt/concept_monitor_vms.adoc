@@ -57,4 +57,4 @@ Metrics are not reported for VMDKs. In the topology, only the VMDK names are dis
 
 *Related information*
 
-link:[Troubleshooting workloads using the workload Analyzer]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html[Troubleshooting workloads using the workload Analyzer]

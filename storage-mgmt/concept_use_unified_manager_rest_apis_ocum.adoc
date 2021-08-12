@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_use_unified_manager_rest_apis_ocum.html
 sidebar: sidebar
-keywords: REST APIs
-summary: 'Active IQ Unified Manager provides you with REST APIs to view the information about monitoring and managing your storage environment. APIs also allow provisioning and managing storage objects based on policies.'
+keywords: use, unified manager, rest, apis
+summary: "Active IQ Unified Manager provides you with REST APIs to view the information about monitoring and managing your storage environment. APIs also allow provisioning and managing storage objects based on policies."
 ---
 = Using Unified Manager REST APIs
 :icons: font

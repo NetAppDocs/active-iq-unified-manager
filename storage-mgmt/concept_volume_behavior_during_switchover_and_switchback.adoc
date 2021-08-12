@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html
 sidebar: sidebar
-keywords: 
-summary: 'Events that trigger a switchover or switchback cause active volumes to be moved from one cluster to the other cluster in the disaster recovery group. The volumes on the cluster that were active and serving data to clients are stopped, and the volumes on the other cluster are activated and start serving data. Unified Manager monitors only those volumes that are active and running.'
+keywords: volume, behavior, switchover, switchback
+summary: "Events that trigger a switchover or switchback cause active volumes to be moved from one cluster to the other cluster in the disaster recovery group. The volumes on the cluster that were active and serving data to clients are stopped, and the volumes on the other cluster are activated and start serving data. Unified Manager monitors only those volumes that are active and running."
 ---
 = Volume behavior during switchover and switchback
 :icons: font
@@ -46,6 +46,6 @@ image::../media/opm_mcc_volumes.gif[]
 ====
 
 * MetroCluster volumes that are inactive, for example, Vol3b on Cluster A after switchback, are identified with the message "`This volume was deleted`". The volume is not actually deleted, but it is not currently being monitored by Unified Manager because it is not the active volume.
-* If a single Unified Manager is monitoring both clusters in a MetroCluster configuration, volume search returns information for whichever volume is active at that time. For example, a search for "`Vol3`" would return statistics and events for Vol3b on Cluster A if a switchover has occurred and Vol3 has become active on Cluster A.
+* If a single Unified Manager is monitoring both clusters in a MetroCluster configuration, volume search returns information for whichever volume is active at that time. For example, a search for "Vol3" would return statistics and events for Vol3b on Cluster A if a switchover has occurred and Vol3 has become active on Cluster A.
 
 ====
