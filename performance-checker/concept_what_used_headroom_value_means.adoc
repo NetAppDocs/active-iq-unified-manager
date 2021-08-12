@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_what_used_headroom_value_means.html
 sidebar: sidebar
-keywords: 
-summary: 'The performance capacity used value helps you identify the nodes and aggregates that are currently being overutilized or underutilized. This enables you to redistribute workloads in order to make your storage resources more efficient.'
+keywords: performance, capacity, value, means
+summary: "The performance capacity used value helps you identify the nodes and aggregates that are currently being overutilized or underutilized. This enables you to redistribute workloads in order to make your storage resources more efficient."
 ---
 = What the performance capacity used value means
 :icons: font
