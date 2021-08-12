@@ -1,8 +1,8 @@
 ---
 permalink: reporting/reference_reporting_limitations.html
 sidebar: sidebar
-keywords: 
-summary: 'There are some limitations with the new Active IQ Unified Manager reporting functionality of which you should be aware.'
+keywords: reporting, limitations
+summary: "There are some limitations with the new Active IQ Unified Manager reporting functionality of which you should be aware."
 ---
 = Reporting limitations
 :icons: font

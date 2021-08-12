@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_group_volume_relationships_by_issue.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report that groups volume relationships by issue.'
+keywords: create, report, group, volume, relationships, issue
+summary: "You can create a report that groups volume relationships by issue."
 ---
 = Creating a report to group volume relationships by issue
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report that groups volume relationships by issue.'
 [.lead]
 You can create a report that groups volume relationships by issue.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view that groups volume relationships by issue, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Volumes*.
 . In the View menu, select *Relationship* > *All Relationships*.

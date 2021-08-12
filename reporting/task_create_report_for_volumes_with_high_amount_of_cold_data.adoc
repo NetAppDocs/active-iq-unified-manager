@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to display volumes with a high amount of cold data on a non-FabricPool aggregate. This can help you identify volumes that should be moved to a FabricPool aggregate.'
+keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify
+summary: "You can create a report to display volumes with a high amount of cold data on a non-FabricPool aggregate. This can help you identify volumes that should be moved to a FabricPool aggregate."
 ---
 = Creating a report to view volumes with a high amount of cold data on an aggregate that is not FabricPool-enabled
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to display volumes with a high amount of cold 
 [.lead]
 You can create a report to display volumes with a high amount of cold data on a non-FabricPool aggregate. This can help you identify volumes that should be moved to a FabricPool aggregate.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view for volumes with a high amount of cold data on a non-FabricPool-enabled aggregate, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Volumes*.
 . In the View menu, select *Performance* > *All Volumes*.

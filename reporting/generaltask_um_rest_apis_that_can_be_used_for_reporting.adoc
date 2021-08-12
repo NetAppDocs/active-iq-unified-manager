@@ -1,8 +1,8 @@
 ---
 permalink: reporting/generaltask_um_rest_apis_that_can_be_used_for_reporting.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use REST APIs to help manage your clusters by viewing the health, capacity, performance, and security information captured by Unified Manager.'
+keywords: unified manager ,rest api, reporting
+summary: "You can use REST APIs to help manage your clusters by viewing the health, capacity, performance, and security information captured by Unified Manager."
 ---
 = Unified Manager REST APIs that can be used for reporting
 :icons: font
