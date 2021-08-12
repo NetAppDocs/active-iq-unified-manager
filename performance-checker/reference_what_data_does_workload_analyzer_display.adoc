@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_what_data_does_workload_analyzer_display.html
 sidebar: sidebar
-keywords: workload analyzer charts
-summary: 'The workload analyzer page displays information about any current events that could be affecting the workload, recommendations to potentially fix the issue causing the event, and charts for analyzing performance and capacity history.'
+keywords: workload analyzer, charts, display, data
+summary: "The workload analyzer page displays information about any current events that could be affecting the workload, recommendations to potentially fix the issue causing the event, and charts for analyzing performance and capacity history."
 ---
 = What data does the workload analyzer display
 :icons: font
@@ -59,7 +59,3 @@ For volumes, you can click the View capacity details link to display the Health 
  ** *Snapshot View* displays the total space reserved for Snapshot copies, and the amount of space currently being used. Note that LUNs do not provide a Snapshot View.
  ** *Cloud Tier View* displays how much capacity is being used in the local performance tier and how much is being used in the cloud tier.
 These charts include an estimate of the amount of time remaining before the capacity is full for this workload. This information is based on historical usage and requires a minimum of 10 days of data. When less than 30 days of capacity remain, Unified Manager identifies the storage as "`almost full`".
-
-*Related information*
-
-xref:concept_how_qos_policies_are_displayed_in_throughput_charts.adoc[How different types of QoS policies are displayed in the throughput charts]

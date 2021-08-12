@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'Only some performance counters can be used together in combination policies. When primary and secondary performance counters are specified, both performance counters must exceed their maximum limits before an event is generated.'
+keywords: objects, counters, combination, threshold, policies
+summary: "Only some performance counters can be used together in combination policies. When primary and secondary performance counters are specified, both performance counters must exceed their maximum limits before an event is generated."
 ---
 = What objects and counters can be used in combination threshold policies
 :icons: font
@@ -10,10 +10,10 @@ summary: 'Only some performance counters can be used together in combination pol
 
 [.lead]
 Only some performance counters can be used together in combination policies. When primary and secondary performance counters are specified, both performance counters must exceed their maximum limits before an event is generated.
-
+[options="header"]
 |===
 | Primary storage object and counter| Secondary storage object and counter
-a|
+.7+a|
 Volume Latency
 a|
 Volume IOPS
@@ -29,7 +29,7 @@ a|
 Node Performance Capacity Used
 a|
 Node Performance Capacity Used - Takeover
-a|
+.7+a|
 LUN Latency
 a|
 LUN IOPS

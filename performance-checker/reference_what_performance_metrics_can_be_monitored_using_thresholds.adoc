@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html
 sidebar: sidebar
-keywords: 
-summary: 'Some common performance counters, such as IOPS and MB/s, can have thresholds set for all storage objects. There are other counters that can have thresholds set for only certain storage objects.'
+keywords: performance, counters, tracked, thresholds
+summary: "Some common performance counters, such as IOPS and MB/s, can have thresholds set for all storage objects. There are other counters that can have thresholds set for only certain storage objects."
 ---
 = What performance counters can be tracked using thresholds
 :icons: font
@@ -12,10 +12,10 @@ summary: 'Some common performance counters, such as IOPS and MB/s, can have thre
 Some common performance counters, such as IOPS and MB/s, can have thresholds set for all storage objects. There are other counters that can have thresholds set for only certain storage objects.
 
 == Available performance counters
-
+[options="header"]
 |===
 | Storage object| Performance counter| Description
-a|
+.2+a|
 Cluster
 a|
 IOPS
@@ -25,7 +25,7 @@ a|
 MB/s
 a|
 Average number of megabytes of data transferred to and from this cluster per second.
-a|
+.6+a|
 Node
 a|
 IOPS
@@ -51,7 +51,7 @@ a|
 Performance Capacity Used - Takeover
 a|
 Average percentage of performance capacity that is being consumed by the node, plus the performance capacity of its partner node.
-a|
+.5+a|
 Aggregate
 a|
 IOPS
@@ -73,7 +73,7 @@ a|
 Performance Capacity Used
 a|
 Average percentage of performance capacity that is being consumed by the aggregate.
-a|
+.3+a|
 Storage VM
 a|
 IOPS
@@ -87,7 +87,7 @@ a|
 Latency
 a|
 Average number of milliseconds the SVM takes to respond to application requests.
-a|
+.4+a|
 Volume
 a|
 IOPS
@@ -105,7 +105,7 @@ a|
 Cache miss ratio
 a|
 Average percentage of read requests from client applications that are returned from the volume instead of being returned from cache.
-a|
+.3+a|
 LUN
 a|
 IOPS
@@ -119,7 +119,7 @@ a|
 Latency
 a|
 Average number of milliseconds the LUN takes to respond to application requests.
-a|
+.3+a|
 Namespace
 a|
 IOPS
@@ -133,7 +133,7 @@ a|
 Latency
 a|
 Average number of milliseconds the namespace takes to respond to application requests.
-a|
+.2+a|
 Port
 a|
 Bandwidth utilization

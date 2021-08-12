@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_types_of_performance_counter_charts.html
 sidebar: sidebar
-keywords: 
-summary: 'There are standard performance charts that display the counter values for the selected storage object. Each of the Breakdown counter charts display the total values separated out into read, write, and other categories. Furthermore, some Breakdown counter charts display additional detail when the chart is displayed in Zoom view.'
+keywords: types, performance, counter, charts
+summary: "There are standard performance charts that display the counter values for the selected storage object. Each of the Breakdown counter charts display the total values separated out into read, write, and other categories. Furthermore, some Breakdown counter charts display additional detail when the chart is displayed in Zoom view."
 ---
 = Types of performance counter charts
 :icons: font
@@ -12,7 +12,7 @@ summary: 'There are standard performance charts that display the counter values 
 There are standard performance charts that display the counter values for the selected storage object. Each of the Breakdown counter charts display the total values separated out into read, write, and other categories. Furthermore, some Breakdown counter charts display additional detail when the chart is displayed in Zoom view.
 
 The following table shows the available performance counter charts.
-
+[options="header"]
 |===
 | Available charts| Chart description
 a|
@@ -27,7 +27,7 @@ Number of milliseconds required to respond to application requests.Note that the
 a|
 Latency - Breakdown
 a|
-The same information shown in Latency Total, but with the performance data separated into read, write, and other latency.This chart option applies only when the selected object is an SVM, node, aggregate, volume, LUN, or namespace.
+The same information shown in Latency Total, but with the performance data separated into read, write, and other latency. This chart option applies only when the selected object is an SVM, node, aggregate, volume, LUN, or namespace.
 
 a|
 Latency - Cluster Components
