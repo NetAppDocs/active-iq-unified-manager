@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_use_qos_policy_settings_to_prioritize_work_on_this_node.html
 sidebar: sidebar
-keywords: 
-summary: 'You can set a limit on a QoS policy group to control the I/O per second \(IOPS\) or MBps throughput limit for the workloads it contains. If workloads are in a policy group with no set limit, such as the default policy group, or the set limit does not meet your needs, you can increase the set limit or move the workloads to a new or existing policy group that has the desired limit.'
+keywords: qos, policy, settings, prioritize, work, node
+summary: "You can set a limit on a QoS policy group to control the I/O per second (IOPS) or MBps throughput limit for the workloads it contains. If workloads are in a policy group with no set limit, such as the default policy group, or the set limit does not meet your needs, you can increase the set limit or move the workloads to a new or existing policy group that has the desired limit."
 ---
 = Use QoS policy settings to prioritize the work on this node
 :icons: font

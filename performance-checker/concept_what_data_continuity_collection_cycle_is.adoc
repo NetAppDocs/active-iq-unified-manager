@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_what_data_continuity_collection_cycle_is.html
 sidebar: sidebar
-keywords: 
-summary: 'A data continuity collection cycle retrieves performance data outside of the real-time cluster performance collection cycle that runs, by default, every five minutes. Data continuity collections enable Unified Manager to fill in gaps of statistical data that occur when it was unable to collect real-time data.'
+keywords: data, continuity, collection, cycle
+summary: "A data continuity collection cycle retrieves performance data outside of the real-time cluster performance collection cycle that runs, by default, every five minutes. Data continuity collections enable Unified Manager to fill in gaps of statistical data that occur when it was unable to collect real-time data."
 ---
 = What a data continuity collection cycle is
 :icons: font
