@@ -1,8 +1,8 @@
 ---
 permalink: install-vapp/task_upgrade_unified_manager_virtual_appliance_vapp.html
 sidebar: sidebar
-keywords: 
-summary: 'You can upgrade the Unified Manager virtual appliance from the 9.7 and 9.8 releases to 9.9.'
+keywords: upgrade, unified manager, virtual, appliance
+summary: "You can upgrade the Unified Manager virtual appliance from the 9.7 and 9.8 releases to 9.9."
 ---
 = Upgrading the Unified Manager virtual appliance
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can upgrade the Unified Manager virtual appliance from the 9.7 and
 
 [.lead]
 You can upgrade the Unified Manager virtual appliance from the 9.7 and 9.8 releases to 9.9.
+
+*What you'll need*
 
 Ensure the following:
 
@@ -31,6 +33,8 @@ During the upgrade process, Unified Manager is unavailable. You should complete 
 
 If you have paired Workflow Automation and Unified Manager, you should manually update the host name in Workflow Automation.
 
+.Steps
+
 . In the vSphere Client, click *Home* > *Inventory* > *VMs and Templates*.
 . Select the virtual machine (VM) on which the Unified Manager virtual appliance is installed.
 . If the Unified Manager VM is running, navigate to *Summary* > *Commands* > *Shut Down Guest*.
@@ -38,7 +42,7 @@ If you have paired Workflow Automation and Unified Manager, you should manually 
 . From the vSphere Client, power on the Unified Manager VM.
 . Launch the VMware Remote Console.
 . Click the *CDROM* icon, and select *Connect to Disk Image File (.iso)*.
-. Select the ActiveIQUnifiedManager-<version>-virtual-update.iso file, and click *Open*.
+. Select the `ActiveIQUnifiedManager-<version>-virtual-update.iso` file, and click *Open*.
 . Click the *Console* tab.
 . Log in to the Unified Manager maintenance console.
 . In the Main Menu, select *Upgrade*.
@@ -57,6 +61,6 @@ The upgrade process and the restart of Unified Manager services can take several
 +
 You are automatically logged out of the maintenance console.
 
-. Log in to the maintenance console, and verify the version of Unified Manager.
+. *Optional:* Log in to the maintenance console, and verify the version of Unified Manager.
 
 You can log in to the web UI to use the upgraded version of Unified Manager. Note that you need to wait for the discovery process to finish before performing any task in the UI.

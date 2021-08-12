@@ -1,8 +1,8 @@
 ---
 permalink: install-vapp/task_deploy_unified_manager_virtual_appliance_vapp.html
 sidebar: sidebar
-keywords: 
-summary: 'After downloading the installation file, you deploy Unified Manager as a virtual appliance. Use the vSphere Web Client to deploy the virtual appliance on an ESXi server. When you deploy the virtual appliance, a virtual machine is created.'
+keywords: deploy, unified manager, virtual appliance
+summary: "After downloading the installation file, you deploy Unified Manager as a virtual appliance. Use the vSphere Web Client to deploy the virtual appliance on an ESXi server. When you deploy the virtual appliance, a virtual machine is created."
 ---
 = Deploying the Unified Manager virtual appliance
 :icons: font
@@ -10,6 +10,8 @@ summary: 'After downloading the installation file, you deploy Unified Manager as
 
 [.lead]
 After downloading the installation file, you deploy Unified Manager as a virtual appliance. Use the vSphere Web Client to deploy the virtual appliance on an ESXi server. When you deploy the virtual appliance, a virtual machine is created.
+
+*What you'll need*
 
 You should review the system requirements. make the necessary changes before deploying the Unified Manager virtual appliance.
 
@@ -34,11 +36,13 @@ Obtain the following information before deploying the virtual appliance:
  ** Primary and secondary DNS addresses
  ** Search domains
 
-Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM Tools (open-vm-tools). You do not have to install VMware Tools as part of the installation process because open-vm-tools is included with the Unified Manager installation package.
+Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM Tools (`open-vm-tools`). You do not have to install VMware Tools as part of the installation process because `open-vm-tools` is included with the Unified Manager installation package.
 
 When the virtual appliance is deployed, a unique self-signed certificate for HTTPS access is generated. When accessing the Unified Manager web UI, you might see a browser warning about untrusted certificates.
 
 VMware High Availability for the Unified Manager virtual appliance is supported.
+
+.Steps
 
 . In the vSphere Client, click *File* > *Deploy OVF Template*.
 . Complete the Deploy OVF Template wizard to deploy the Unified Manager virtual appliance.
@@ -66,13 +70,14 @@ All the date information that is displayed uses the time zone that is configured
 
 . If no DHCP services are available, or if there is an error in the details for the static network configuration, select one of the following options:
 +
+[cols="2*",options="header"]
 |===
 | If you use...| Then do this...
 a|
 DHCP
 a|
 Select *Retry DHCP*.    If you plan to use DHCP, you should ensure that it is configured correctly.
-+
+
 If you use a DHCP-enabled network, the FQDN and DNS server entries are given to the virtual appliance automatically. If DHCP is not properly configured with DNS, the host name "`UnifiedManager`" is automatically assigned and associated with the security certificate. If you have not set up a DHCP-enabled network, you should manually enter the networking configuration information.
 a|
 A static network configuration
@@ -83,7 +88,6 @@ a|
 The configuration process takes a few minutes to complete.
 
  .. Confirm the values that you entered, and select *Y*.
-
 +
 |===
 
@@ -97,4 +101,4 @@ The VM console displays the URL for the Unified Manager web UI.
 
 You can access the web UI to perform the initial setup of Unified Manager, as described in the _Active IQ Unified Manager System Configuration Guide_.
 
-http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/config/index.html[Active IQ Unified Manager System Configuration Guide]

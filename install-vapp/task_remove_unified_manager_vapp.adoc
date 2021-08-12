@@ -1,8 +1,8 @@
 ---
 permalink: install-vapp/task_remove_unified_manager_vapp.html
 sidebar: sidebar
-keywords: 
-summary: 'You can uninstall Unified Manager by removing the virtual machine \(VM\) on which the Unified Manager software is installed.'
+keywords: remove unified manager
+summary: "You can uninstall Unified Manager by removing the virtual machine (VM) on which the Unified Manager software is installed."
 ---
 = Removing Unified Manager
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can uninstall Unified Manager by removing the virtual machine \(VM
 [.lead]
 You can uninstall Unified Manager by removing the virtual machine (VM) on which the Unified Manager software is installed.
 
+*What you'll need*
+
 * You should have credentials for accessing VMware vCenter Server and vSphere Web Client.
 * Any active connection of the Unified Manager server to a Workflow Automation server should be closed.
 * All clusters (data sources) should be removed from the Unified Manager server before you remove the virtual machine (VM).
+
+.Steps
 
 . Use the Unified Managermaintenance console to verify that the Unified Manager server does not have an active connection to an external data provider.
 . In the vSphere Client, click *Home* > *Inventory* > *VMs and Templates*.
