@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_how_group_rules_work_for_groups.html
 sidebar: sidebar
-keywords: 
-summary: 'A group rule is a criterion that you define to enable storage objects \(volumes, clusters, or SVMs\) to be included in a specific group. You can use condition groups or conditions for defining group rule for a group.'
+keywords: group rules, work, groups
+summary: "A group rule is a criterion that you define to enable storage objects (volumes, clusters, or SVMs) to be included in a specific group. You can use condition groups or conditions for defining group rule for a group."
 ---
 = How group rules work for groups
 :icons: font
@@ -25,6 +25,7 @@ Conditions within a condition group are executed using logical AND. All the cond
 
 You can create conditions with storage objects by using the following operands and operator and specifying the required value.
 
+[cols="2*",options="header"]
 |===
 | Storage object type| Applicable operands
 a|

@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_how_annotation_rules_work_in_unified_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'An annotation rule is a criterion that you define to annotate storage objects \(volumes, clusters, or storage virtual machines \(SVMs\)\). You can use either condition groups or conditions for defining annotation rules.'
+keywords: annotation rules, work, unified manager
+summary: "An annotation rule is a criterion that you define to annotate storage objects (volumes, clusters, or storage virtual machines (SVMs)). You can use either condition groups or conditions for defining annotation rules.'
 ---
 = How annotation rules work in Unified Manager
 :icons: font
@@ -25,6 +25,7 @@ Conditions within a condition group are executed using logical AND. All the cond
 
 You can create conditions with storage objects by using the following operands and operator and specifying the required value.
 
+[cols="2*",options="header"]
 |===
 | Storage object type| Applicable operands
 a|

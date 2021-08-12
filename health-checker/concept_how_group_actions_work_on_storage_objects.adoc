@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_how_group_actions_work_on_storage_objects.html
 sidebar: sidebar
-keywords: 
-summary: 'A group action is an operation that is performed on all the storage objects in a group. For example, you can configure volume threshold group action to simultaneously change the volume threshold values of all volumes in a group.'
+keywords: group actions, work, storage, objects
+summary: "A group action is an operation that is performed on all the storage objects in a group. For example, you can configure volume threshold group action to simultaneously change the volume threshold values of all volumes in a group."
 ---
 = How group actions work on storage objects
 :icons: font

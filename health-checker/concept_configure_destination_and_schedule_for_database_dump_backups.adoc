@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_configure_destination_and_schedule_for_database_dump_backups.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure the Unified Manager database dump backup settings to set the database backup path, retention count, and backup schedule. You can enable daily or weekly scheduled backups. By default, scheduled backups are disabled, but you should set a backup schedule.'
+keywords: configure, destination, schedule, database dump, backups
+summary: "You can configure the Unified Manager database dump backup settings to set the database backup path, retention count, and backup schedule. You can enable daily or weekly scheduled backups. By default, scheduled backups are disabled, but you should set a backup schedule."
 ---
 = Configuring the destination and schedule for database dump backups
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can configure the Unified Manager database dump backup settings to
 
 [.lead]
 You can configure the Unified Manager database dump backup settings to set the database backup path, retention count, and backup schedule. You can enable daily or weekly scheduled backups. By default, scheduled backups are disabled, but you should set a backup schedule.
+
+*What you'll need*
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * You must have a minimum of 150 GB of space available in the location you define as the backup path.
@@ -31,6 +33,8 @@ More time is required the first time a backup is performed than for subsequent b
 * Backup taken during initial 15 days of a new cluster addition might not be accurate enough to get the historical performance data.
 
 ====
+
+.Steps
 
 . In the left navigation pane, click *General* > *Database Backup*.
 . In the Database Backup page, click *Backup Settings*.
