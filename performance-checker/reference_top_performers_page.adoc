@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_top_performers_page.html
 sidebar: sidebar
-keywords: 
-summary: 'The Top Performers page displays the storage objects that have the highest performance or the lowest performance, based on the performance counter you select. For example, in the Storage VMs category, you can display the SVMs that have the highest IOPS, or the highest latency, or the lowest MB/s. This page also shows if any of the top performers have any active performance events \(New or Acknowledged\).'
+keywords: top, performers, page
+summary: "The Top Performers page displays the storage objects that have the highest performance or the lowest performance, based on the performance counter you select. For example, in the Storage VMs category, you can display the SVMs that have the highest IOPS, or the highest latency, or the lowest MB/s. This page also shows if any of the top performers have any active performance events (New or Acknowledged)."
 ---
 = Top Performers page
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_resolve_performance_events.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the suggested actions to try and resolve performance events on your own. The first three suggestions are always displayed, and the actions under the fourth suggestion are specific to the type of event displayed.'
+keywords: resolving, performance, events
+summary: "You can use the suggested actions to try and resolve performance events on your own. The first three suggestions are always displayed, and the actions under the fourth suggestion are specific to the type of event displayed."
 ---
 = Resolving performance events
 :icons: font

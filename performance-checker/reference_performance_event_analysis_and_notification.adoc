@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_performance_event_analysis_and_notification.html
 sidebar: sidebar
-keywords: 
-summary: 'Performance events notify you about I/O performance issues on a workload caused by contention on a cluster component. Unified Manager analyzes the event to identify all workloads involved, the component in contention, and whether the event is still an issue that you might need to resolve.'
+keywords:  performance, event, analysis, notification
+summary: "Performance events notify you about I/O performance issues on a workload caused by contention on a cluster component. Unified Manager analyzes the event to identify all workloads involved, the component in contention, and whether the event is still an issue that you might need to resolve."
 ---
 = Performance event analysis and notification
 :icons: font
@@ -66,21 +66,3 @@ If there are multiple events for the same time period, the message shows the num
 * Clicking a single event displays a dialog box that shows more detailed information about the event, including the cluster components that are involved.
 +
 The component in contention is circled and highlighted red. You can click *View full analysis* to view the full analysis on the Event details page. If there are multiple events for the same time period, the dialog box shows details about the three most recent events. You can click an event to view the event analysis on the Event details page.
-
-*Related information*
-
-xref:concept_collect_data_and_monitor_workload_performance.adoc[Collecting data and monitoring workload performance]
-
-xref:concept_how_um_determines_performance_impact_for_incident.adoc[How Unified Manager determines the performance impact for an event]
-
-xref:concept_roles_of_workloads_involved_in_performance_incident.adoc[Roles of workloads involved in a performance event]
-
-xref:concept_cluster_components_and_why_they_can_be_in_contention.adoc[Cluster components and why they can be in contention]
-
-xref:concept_types_of_workloads_monitored_by_unified_manager.adoc[Types of workloads monitored by Unified Manager]
-
-xref:task_display_information_about_performance_event.adoc[Displaying information about performance events]
-
-xref:task_identify_victim_workloads_involved_in_performance_event.adoc[Identifying victim workloads involved in a dynamic performance event]
-
-xref:task_identify_bully_workloads_involved_in_performance_event.adoc[Identifying bully workloads involved in a dynamic performance event]

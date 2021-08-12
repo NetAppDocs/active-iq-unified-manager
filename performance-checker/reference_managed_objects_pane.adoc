@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_managed_objects_pane.html
 sidebar: sidebar
-keywords: 
-summary: 'The Managed Objects pane in the Performance Summary tab provides a top-level overview of the storage object types and counts for the cluster. This pane enables you to track the status of the objects in each cluster.'
+keywords: managed, objects, pane
+summary: "The Managed Objects pane in the Performance Summary tab provides a top-level overview of the storage object types and counts for the cluster. This pane enables you to track the status of the objects in each cluster."
 ---
 = Managed Objects pane
 :icons: font

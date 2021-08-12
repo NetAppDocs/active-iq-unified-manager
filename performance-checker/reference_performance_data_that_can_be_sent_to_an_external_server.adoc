@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_performance_data_that_can_be_sent_to_an_external_server.html
 sidebar: sidebar
-keywords: 
-summary: 'Unified Manager collects a variety of performance data from all the clusters that it is monitoring. You can send specific groups of data to an external server.'
+keywords: performance, data, external, server
+summary: "Unified Manager collects a variety of performance data from all the clusters that it is monitoring. You can send specific groups of data to an external server."
 ---
 = Performance data that can be sent to an external server
 :icons: font
@@ -12,7 +12,7 @@ summary: 'Unified Manager collects a variety of performance data from all the cl
 Unified Manager collects a variety of performance data from all the clusters that it is monitoring. You can send specific groups of data to an external server.
 
 Depending on the performance data that you want to chart, you can choose to send one of the following groups of statistics:
-
+[options="header"]
 |===
 | Statistics group| Data included| Details
 a|

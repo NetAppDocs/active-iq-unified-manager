@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_how_enabling_flash_cache_improve_workload_performance.html
 sidebar: sidebar
-keywords: 
-summary: 'You can improve workload performance by enabling Flash Cache™ intelligent data caching on each node in the cluster.'
+keywords: enabling, flash cache, node, improve, workload, performance
+summary: "You can improve workload performance by enabling Flash Cache™ intelligent data caching on each node in the cluster."
 ---
 = How enabling Flash Cache on a node can improve workload performance
 :icons: font
