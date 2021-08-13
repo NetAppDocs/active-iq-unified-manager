@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/task_move_workloads_to_different_aggregate.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use Unified Manager to help identify an aggregate that is less busy than the aggregate where your workloads currently reside, and then you can move selected volumes or LUNs to that aggregate. Moving high performing workloads to a less busy aggregate, or an aggregate with flash storage enabled, allows the workload to perform more efficiently.'
+keywords: move, workloads, different, aggregate
+summary: "You can use Unified Manager to help identify an aggregate that is less busy than the aggregate where your workloads currently reside, and then you can move selected volumes or LUNs to that aggregate. Moving high performing workloads to a less busy aggregate, or an aggregate with flash storage enabled, allows the workload to perform more efficiently."
 ---
 = Moving workloads to a different aggregate
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can use Unified Manager to help identify an aggregate that is less
 
 [.lead]
 You can use Unified Manager to help identify an aggregate that is less busy than the aggregate where your workloads currently reside, and then you can move selected volumes or LUNs to that aggregate. Moving high performing workloads to a less busy aggregate, or an aggregate with flash storage enabled, allows the workload to perform more efficiently.
+
+*What you'll need*
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * You must have recorded the name of the aggregate that is currently having a performance issue.
@@ -21,12 +23,13 @@ These steps help you identify the following resources so that you can move high-
 * The aggregates on the same cluster that are less utilized
 * The highest-performing volumes on the current aggregate
 
+.Steps
 . Identify the aggregate in the cluster that is the least utilized:
- .. From the Event details page, click the name of the cluster on which the aggregate resides.
+ .. From the *Event* details page, click the name of the cluster on which the aggregate resides.
 +
 The cluster details are displayed in the Performance/Cluster Landing page.
 
- .. On the Summary page, click *Aggregates* from the Managed Objects pane.
+ .. On the *Summary* page, click *Aggregates* from the *Managed Objects* pane.
 +
 The list of aggregates on this cluster are displayed.
 
@@ -40,11 +43,11 @@ You can also identify those aggregates that have the greatest *Free Capacity*. T
 +
 The aggregate details are displayed in the Performance/Aggregate Explorer page.
 
- .. From the Time Range selector, select *Last 30 Days*, and then click *Apply Range*.
+ .. From the *Time Range* selector, select *Last 30 Days*, and then click *Apply Range*.
 +
 This enables you to view a longer performance history period than the default 72 hours. You want to move a volume that is using a lot of resources on a consistent basis, not just over the past 72 hours.
 
- .. From the View and Compare control, select *Volumes on this Aggregate*.
+ .. From the *View and Compare* control, select *Volumes on this Aggregate*.
 +
 A list of FlexVol volumes and FlexGroup constituent volumes on this aggregate are displayed.
 
