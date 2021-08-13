@@ -1,7 +1,7 @@
 ---
 permalink: storage-mgmt/reference_issue_with_ldap_using_other_authentication_services.html
 sidebar: sidebar
-keywords: 
+keywords: issue, addi, ldap, use, other, authentication, services
 summary: ''
 ---
 = Issue with adding LDAP using Other authentication services
@@ -10,7 +10,7 @@ summary: ''
 
 * *Issue*
 +
-When you select Others as the Authentication service, the user and groupObjectClass retain the values from the previously selected template. If the LDAP server does not use the same values, the operation might fail.
+When you select Others as the Authentication service, the user and group Object Class retain the values from the previously selected template. If the LDAP server does not use the same values, the operation might fail.
 
 * *Cause*
 +

@@ -1,7 +1,7 @@
 ---
 permalink: storage-mgmt/reference_unknown_authentication_error.html
 sidebar: sidebar
-keywords: 
+keywords: unknown, authentication, error
 summary: ''
 ---
 = Unknown authentication error
@@ -10,7 +10,7 @@ summary: ''
 
 * *Issue*
 +
-When you are performing an authentication-related operation such as adding, editing, deleting, or testing remote users or groups, the following error message might be displayed: Unknown authentication error.
+When you are performing an authentication-related operation such as adding, editing, deleting, or testing remote users or groups, the following error message might be displayed: `Unknown authentication error.`
 
 * *Cause*
 +

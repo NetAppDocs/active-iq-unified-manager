@@ -2,7 +2,7 @@
 permalink: storage-mgmt/task_add_clusters.html
 sidebar: sidebar
 keywords: add cluster
-summary: 'You can add a cluster to Active IQ Unified Manager so that you can monitor the cluster. This includes the ability to obtain cluster information such as the health, capacity, performance, and configuration of the cluster so that you can find and resolve any issues that might occur.'
+summary: "You can add a cluster to Active IQ Unified Manager so that you can monitor the cluster. This includes the ability to obtain cluster information such as the health, capacity, performance, and configuration of the cluster so that you can find and resolve any issues that might occur."
 ---
 = Adding clusters
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can add a cluster to Active IQ Unified Manager so that you can mon
 
 [.lead]
 You can add a cluster to Active IQ Unified Manager so that you can monitor the cluster. This includes the ability to obtain cluster information such as the health, capacity, performance, and configuration of the cluster so that you can find and resolve any issues that might occur.
+
+*What you'll need*
 
 * You must have the Application Administrator role or the Storage Administrator role.
 * You must have the host name or cluster management IP address (IPv4 or IPv6) for the cluster.
@@ -38,6 +40,8 @@ You can add clusters which are behind a NAT/firewall by using the Unified Manage
 * A single instance of Unified Manager can support a specific number of nodes. If you need to monitor an environment that exceeds the supported node count, you must install an additional instance of Unified Manager to monitor some of the clusters.
 * You can monitor a single cluster by two instances of Unified Manager provided that you have configured a second cluster-management LIF on the cluster so that each instance of Unified Manager connects through a different LIF.
 
+.Steps
+
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
 . On the Cluster Setup page, click *Add*.
 . In the Add Cluster dialog box, specify the values as required, and then click *Submit*.
@@ -64,6 +68,6 @@ If you receive an error message that you cannot add the cluster, check to see if
 
 *Related information*
 
-link:[Adding users]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/config/task_add_users.html:[Adding users]
 
 link:[Configuration/Cluster Data Sources page]

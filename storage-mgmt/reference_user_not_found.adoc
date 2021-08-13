@@ -1,7 +1,7 @@
 ---
 permalink: storage-mgmt/reference_user_not_found.html
 sidebar: sidebar
-keywords: 
+keywords: user, not, found
 summary: ''
 ---
 = User not found
@@ -10,7 +10,7 @@ summary: ''
 
 * *Issue*
 +
-When you are performing an authentication-related operation such as adding, editing, deleting, or testing remote users or groups, the following error message is displayed: User not found.
+When you are performing an authentication-related operation such as adding, editing, deleting, or testing remote users or groups, the following error message is displayed: `User not found.`
 
 * *Cause*
 +
