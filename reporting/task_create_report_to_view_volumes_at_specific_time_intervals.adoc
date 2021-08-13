@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_volumes_at_specific_time_intervals.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report that displays volume transfer trends at specific time intervals.'
+keywords: create, report, view, volume, transfer, trends, specific, time intervals
+summary: "You can create a report that displays volume transfer trends at specific time intervals."
 ---
 = Creating a report to view volume transfer trends at specific time intervals
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report that displays volume transfer trends at specif
 [.lead]
 You can create a report that displays volume transfer trends at specific time intervals.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view for volumes at specific time intervals, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Volumes*.
 . In the View menu, select *Relationship* > *Last 1 month Transfer Status*.

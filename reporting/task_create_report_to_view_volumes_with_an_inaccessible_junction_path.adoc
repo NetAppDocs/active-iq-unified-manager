@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_volumes_with_an_inaccessible_junction_path.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to find volumes that have an inaccessible mount path.'
+keywords: create, report, view, volumes, inaccessible, mount, path
+summary: "You can create a report to find volumes that have an inaccessible mount path."
 ---
 = Creating a report to view volumes that have an inaccessible mount path
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to find volumes that have an inaccessible moun
 [.lead]
 You can create a report to find volumes that have an inaccessible mount path.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view for volumes that have an inaccessible mount path, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *NFS Shares*.
 . Select *Show/Hide* to remove any columns that you do not want in the report.

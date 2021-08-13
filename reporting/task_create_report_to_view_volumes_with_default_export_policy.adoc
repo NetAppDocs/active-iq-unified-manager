@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_volumes_with_default_export_policy.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to find volumes that are using the default export policy.'
+keywords: create, report, view, volumes, default, export, policy
+summary: "You can create a report to find volumes that are using the default export policy."
 ---
 = Creating a report to view volumes that are using the default export policy
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to find volumes that are using the default exp
 [.lead]
 You can create a report to find volumes that are using the default export policy.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view for volumes that are using the default export policy, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *NFS Shares*.
 . Select *Show/Hide* to remove any columns that you do not want in the report.

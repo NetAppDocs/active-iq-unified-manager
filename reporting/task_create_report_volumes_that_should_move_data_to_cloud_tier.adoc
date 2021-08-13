@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report that contains the list of volumes that currently reside on FabricPool aggregates, that have a cloud recommendation of Tier, and that have a large amount of cold data. This report can help you decide if you should change the tiering policy for certain volumes to “auto” or “all” to offload more cold \(inactive\) data to the cloud tier.'
+keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud tier
+summary: "You can create a report that contains the list of volumes that currently reside on FabricPool aggregates, that have a cloud recommendation of Tier, and that have a large amount of cold data. This report can help you decide if you should change the tiering policy for certain volumes to “auto” or “all” to offload more cold (inactive) data to the cloud tier."
 ---
 = Creating a report to identify volumes on FabricPool aggregates that should move data to the cloud tier
 :icons: font
@@ -11,10 +11,14 @@ summary: 'You can create a report that contains the list of volumes that current
 [.lead]
 You can create a report that contains the list of volumes that currently reside on FabricPool aggregates, that have a cloud recommendation of Tier, and that have a large amount of cold data. This report can help you decide if you should change the tiering policy for certain volumes to "`auto`" or "`all`" to offload more cold (inactive) data to the cloud tier.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 * You must have configured FabricPool aggregates and have volumes on those aggregates.
 
 Follow the steps below to create a custom view that displays the required columns in the correct order, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Volumes*.
 . In the View menu, select *Performance* > *All Volumes*.

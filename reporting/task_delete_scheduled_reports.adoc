@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_delete_scheduled_reports.html
 sidebar: sidebar
-keywords: remove reports
-summary: 'After reports are scheduled, you can delete them from the Report Schedules page.'
+keywords: delete, reports
+summary: "After reports are scheduled, you can delete them from the Report Schedules page."
 ---
 = Deleting scheduled reports
 :icons: font
@@ -11,7 +11,11 @@ summary: 'After reports are scheduled, you can delete them from the Report Sched
 [.lead]
 After reports are scheduled, you can delete them from the Report Schedules page.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
+
+.Steps
 
 . In the left navigation pane, click *Storage Management* > *Report Schedules*.
 +
