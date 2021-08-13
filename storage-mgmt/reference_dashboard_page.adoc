@@ -1,19 +1,19 @@
 ---
 permalink: storage-mgmt/reference_dashboard_page.html
 sidebar: sidebar
-keywords: 
-summary: 'The Dashboard page has “panels” that display the high level capacity, performance, and security health of the clusters you are monitoring. This page also provides a Management Actions panel that lists fixes that Unified Manager can make to resolve certain events.'
+keywords: dashboard page,
+summary: "The Dashboard page has “panels” that display the high level capacity, performance, and security health of the clusters you are monitoring. This page also provides a Management Actions panel that lists fixes that Unified Manager can make to resolve certain events."
 ---
 = Dashboard page
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The Dashboard page has "`panels`" that display the high level capacity, performance, and security health of the clusters you are monitoring. This page also provides a Management Actions panel that lists fixes that Unified Manager can make to resolve certain events.
+The Dashboard page has "panels" that display the high level capacity, performance, and security health of the clusters you are monitoring. This page also provides a Management Actions panel that lists fixes that Unified Manager can make to resolve certain events.
 
 Most of the panels also display the number of active events in that category, and the number of new events added over the previous 24 hours. This information helps you decide which clusters you may need to analyze further to resolve events. Clicking on the events displays the top events and provides a link to the Event Management inventory page filtered to show the active events in that category.
 
-At the top of the dashboard you can select whether the panels show information for all monitored clusters ("`All Clusters`") or for an individual cluster. You can start by viewing the status of all clusters and then drill down to individual clusters when you want to view detailed information.
+At the top of the dashboard you can select whether the panels show information for all monitored clusters ("All Clusters") or for an individual cluster. You can start by viewing the status of all clusters and then drill down to individual clusters when you want to view detailed information.
 
 [NOTE]
 ====
@@ -24,17 +24,17 @@ Some of the panels listed below will not appear on the page based on your config
 +
 There are certain issues that Unified Manager can diagnose thoroughly and provide a single resolution. When available, those resolutions are displayed in this panel with a *Fix It* or *Fix All* button. You can fix these issues immediately from Unified Manager instead of having to use ONTAP System Manager or the ONTAP CLI. For viewing all the issues, click on
 +
-See link:concept_fix_ontap_issues_directly_from_unified_manager.md#[Fixing ONTAP issues directly from Unified Manager] for more information.
+See https://docs.netapp.com/us-en/active-iq-unified-manager_main/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html[Fixing ONTAP issues directly from Unified Manager] for more information.
 
 * *Capacity panel*
 +
-When viewing all clusters, this panel displays the physical used capacity (after applying storage efficiency savings) and physical available capacity (not including potential storage efficiency savings) for each cluster, the number of days until the disks are projected to be full, and the data reduction ratio based on configured ONTAP storage efficiency settings. It also lists the used capacity for any configured cloud tiers. Clicking the bar chart takes you to the Aggregates inventory page for that cluster. Clicking the "`Days To Full`" text displays a message that identifies the aggregate with the least number of capacity days remaining; click the aggregate name to see more details.
+When viewing all clusters, this panel displays the physical used capacity (after applying storage efficiency savings) and physical available capacity (not including potential storage efficiency savings) for each cluster, the number of days until the disks are projected to be full, and the data reduction ratio based on configured ONTAP storage efficiency settings. It also lists the used capacity for any configured cloud tiers. Clicking the bar chart takes you to the Aggregates inventory page for that cluster. Clicking the "Days To Full" text displays a message that identifies the aggregate with the least number of capacity days remaining; click the aggregate name to see more details.
 +
 When viewing a single cluster, this panel displays the physical used capacity and physical available capacity for the data aggregates sorted by each individual disk type on the local tier, and for the cloud tier. Clicking the bar chart for a disk type takes you to the Volumes inventory page for the volumes using that disk type.
 
 * *Performance Capacity panel*
 +
-When viewing all clusters, this panel displays the performance capacity value for each cluster (averaged over the previous 1 hour) and the number of days until performance capacity reaches the upper limit (based on daily growth rate). Clicking the bar chart takes you to the Nodes inventory page for that cluster. Note that the Nodes inventory page displays the performance capacity averaged over the previous 72 hours. Clicking the "`Days To Full`" text displays a message that identifies the node with the least number of performance capacity days remaining; click the node name to see more details.
+When viewing all clusters, this panel displays the performance capacity value for each cluster (averaged over the previous 1 hour) and the number of days until performance capacity reaches the upper limit (based on daily growth rate). Clicking the bar chart takes you to the Nodes inventory page for that cluster. Note that the Nodes inventory page displays the performance capacity averaged over the previous 72 hours. Clicking the "Days To Full" text displays a message that identifies the node with the least number of performance capacity days remaining; click the node name to see more details.
 +
 When viewing a single cluster, this panel displays the cluster performance capacity used percentage, total IOPS, and total throughput (MB/s) values, and the number of days until each of these three metrics are anticipated to reach their upper limit.
 
@@ -60,24 +60,22 @@ When viewing a single cluster, you can choose to view workloads sorted by highes
 
 *Related information*
 
-link:[Fixing issues using Unified Manager automatic remediations]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/events/task_fix_issues_using_um_automatic_remediations.html:[Fixing issues using Unified Manager automatic remediations]
 
-link:[Displaying information about performance events]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/performance-checker/task_display_information_about_performance_event.html:[Displaying information about performance events]
 
-link:[Managing performance using performance capacity and available IOPS information]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html:[Managing performance using performance capacity and available IOPS information]
 
 link:[What health events are]
 
-link:[Performance event analysis and notification]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/performance-checker/reference_performance_event_analysis_and_notification.html:[Performance event analysis and notification]
 
-link:[Description of event severity types]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/events/reference_description_of_event_severity_types.html:[Description of event severity types]
 
-link:[Sources of performance events]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/performance-checker/concept_sources_of_performance_events.html:[Sources of performance events]
 
-link:[Managing cluster security objectives]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/health-checker/concept_manage_cluster_security_objectives.html:[Managing cluster security objectives]
 
-link:[Monitoring cluster performance from the Performance Cluster Landing page]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html:[Monitoring cluster performance from the Performance Cluster Landing page]
 
-link:[Monitoring performance using the Performance Inventory pages]
-
-xref:concept_provision_and_manage_workloads.adoc[Provisioning and managing workloads]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/performance-checker/concept_monitor_performance_using_object_performance.html:[Monitoring performance using the Performance Inventory pages]

@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_why_you_use_quotas.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use quotas to limit resource usage in FlexVol volumes, to provide notification when resource usage reaches specific levels, or to track resource usage.'
+keywords: use, quotas
+summary: "You can use quotas to limit resource usage in FlexVol volumes, to provide notification when resource usage reaches specific levels, or to track resource usage."
 ---
 = Why you use quotas
 :icons: font
