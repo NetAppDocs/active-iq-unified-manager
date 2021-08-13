@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/task_expand_counter_charts_pane.html
 sidebar: sidebar
-keywords: 
-summary: 'You can expand the Counter Charts pane so that the charts are larger and more readable.'
+keywords: expand, counter, charts, pane
+summary: "You can expand the Counter Charts pane so that the charts are larger and more readable."
 ---
 = Expanding the Counter Charts pane
 :icons: font
@@ -13,8 +13,10 @@ You can expand the Counter Charts pane so that the charts are larger and more re
 
 After you have defined the comparison objects and the time range for counters, you can view a larger Counter Charts pane. You use the *<* button in the middle of the Performance Explorer window to expand the pane.
 
-. Expand or reduce the Counter Charts pane.
-+
+.Step
+. Expand or reduce the *Counter Charts* pane.
+
+[options="header"]
 |===
 | To...| Do this...
 a|

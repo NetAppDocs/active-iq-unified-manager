@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/task_log_in_to_gui.html
 sidebar: sidebar
-keywords: 
-summary: 'You can log in to the Unified Manager UI using a supported web browser.'
+keywords: log in, ui, unified manager
+summary: "You can log in to the Unified Manager UI using a supported web browser."
 ---
 = Logging in to the UI
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can log in to the Unified Manager UI using a supported web browser
 
 [.lead]
 You can log in to the Unified Manager UI using a supported web browser.
+
+*What you'll need*
 
 * The web browser must meet minimum requirements.
 +
@@ -19,6 +21,7 @@ See the Interoperability Matrix at http://mysupport.netapp.com/matrix[mysupport.
 
 You are automatically logged out of the session after 1 hour of inactivity. This timeframe can be configured under *General* > *Feature Settings*.
 
+.Steps
 . Enter the URL in your web browser, where URL is the IP address or fully qualified domain name (FQDN) of the Unified Manager server:
  ** For IPv4: `+https://URL/+`
  ** For IPv6: `https://[URL]/`
