@@ -1,7 +1,7 @@
 ---
 permalink: reporting/task_manage_report_schedules.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can manage your report schedules from the Report Schedules page. You can view, modify, or delete existing schedules.'
 ---
 = Managing report schedules
@@ -11,16 +11,20 @@ summary: 'You can manage your report schedules from the Report Schedules page. Y
 [.lead]
 You can manage your report schedules from the Report Schedules page. You can view, modify, or delete existing schedules.
 
+*What you'll need*
+
 [NOTE]
 ====
 You cannot schedule new reports from the Report Schedules page. You can only add scheduled reports from the object inventory pages.
 ====
-
 * You must have the Application Administrator or Storage Administrator role.
+
+.Steps
 
 . In the left navigation pane, click *Storage Management* > *Report Schedules*.
 . On the Report Schedules page:
 +
+[cols="2*",options="header"]
 |===
 | If you want to...| Then...
 a|

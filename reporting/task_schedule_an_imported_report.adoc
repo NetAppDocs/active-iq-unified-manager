@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_schedule_an_imported_report.html
 sidebar: sidebar
-keywords: 
-summary: 'You can schedule existing reports that were created and imported in an earlier release of Unified Manager.'
+keywords: schedule, imported, reports
+summary: "You can schedule existing reports that were created and imported in an earlier release of Unified Manager."
 ---
 = Scheduling imported .rptdesign reports
 :icons: font
@@ -17,6 +17,8 @@ Scheduling imported reports requires the following:
 * applicable when upgrading to Unified Manager 9.6 GA or later
 
 After upgrading to Unified Manager 9.6 GA or later, the Report Schedules page lists the imported reports. You can edit the schedule for these reports to specify the recipient email addresses, frequency, and format (PDF or CSV). Otherwise these reports cannot be edited or viewed in the Unified Manager UI.
+
+.Steps
 
 . Open the Report Schedules page. If you have imported reports, a message appears.
 +

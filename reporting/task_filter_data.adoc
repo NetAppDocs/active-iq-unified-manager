@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_filter_data.html
 sidebar: sidebar
-keywords: 
-summary: 'Filter the data to make sure the results match your report requirements. Filtering enables you to display only the data in which you are interested.'
+keywords: filtering, data
+summary: "Filter the data to make sure the results match your report requirements. Filtering enables you to display only the data in which you are interested."
 ---
 = Filtering data
 :icons: font
@@ -10,6 +10,8 @@ summary: 'Filter the data to make sure the results match your report requirement
 
 [.lead]
 Filter the data to make sure the results match your report requirements. Filtering enables you to display only the data in which you are interested.
+
+.Steps
 
 . Click the filter icon to add filters to focus the results you want to view, and then click *Apply Filter*.
 +

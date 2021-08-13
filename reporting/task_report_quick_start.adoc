@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_report_quick_start.html
 sidebar: sidebar
-keywords: sample report
-summary: 'Create a sample custom report to experience exploring views and scheduling reports. This quick start report finds a list of volumes that you might want to move to the cloud tier because there is a fair amount of inactive \(cold\) data. You will open the Performance: All Volumes view, customize the view using filters and columns, save the custom view as a report, and schedule the report to share once a week.'
+keywords: reporting, quick, start
+summary: "Create a sample custom report to experience exploring views and scheduling reports. This quick start report finds a list of volumes that you might want to move to the cloud tier because there is a fair amount of inactive (cold) data. You will open the Performance: All Volumes view, customize the view using filters and columns, save the custom view as a report, and schedule the report to share once a week."
 ---
 = Reporting quick start
 :icons: font
@@ -10,6 +10,8 @@ summary: 'Create a sample custom report to experience exploring views and schedu
 
 [.lead]
 Create a sample custom report to experience exploring views and scheduling reports. This quick start report finds a list of volumes that you might want to move to the cloud tier because there is a fair amount of inactive (cold) data. You will open the Performance: All Volumes view, customize the view using filters and columns, save the custom view as a report, and schedule the report to share once a week.
+
+*What you'll need*
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have configured FabricPool aggregates and have volumes on those aggregates.
@@ -20,6 +22,8 @@ Follow the steps below to:
 * Customize the columns by filtering and sorting the data
 * Save the view
 * Schedule a report to be generated for the custom view
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Volumes*.
 . In the View menu, select *Performance* > *All Volumes*.
