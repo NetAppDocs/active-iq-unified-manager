@@ -1,8 +1,8 @@
 ---
 permalink: install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html
 sidebar: sidebar
-keywords: 
-summary: 'The Linux system on which you install Unified Manager requires specific versions of the operating system and supporting software.'
+keywords: linux software, installation requirements, system, authorization,  requirements
+summary: "The Linux system on which you install Unified Manager requires specific versions of the operating system and supporting software."
 ---
 = Linux software and installation requirements
 :icons: font

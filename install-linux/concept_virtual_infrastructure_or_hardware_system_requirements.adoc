@@ -1,8 +1,8 @@
 ---
 permalink: install-linux/concept_virtual_infrastructure_or_hardware_system_requirements.html
 sidebar: sidebar
-keywords: 
-summary: 'Installing Unified Manager on virtual infrastructure or a physical system should meet the minimum requirements for memory, CPU, and disk space.'
+keywords: virtual, infrastructure, hardware, system, requirements, host, connectivity
+summary: "Installing Unified Manager on virtual infrastructure or a physical system should meet the minimum requirements for memory, CPU, and disk space."
 ---
 = Virtual infrastructure and hardware system requirements
 :icons: font
@@ -13,6 +13,7 @@ Installing Unified Manager on virtual infrastructure or a physical system should
 
 The following table displays the values that are recommended for memory, CPU, and disk space resources. These values have been qualified so that Unified Manager meets acceptable performance levels.
 
+[cols="2*",options="header"]
 |===
 | Hardware configuration| Recommended settings
 a|
@@ -33,11 +34,11 @@ a|
 150 GB, where the capacity is allocated as follows:
 
 * 50 GB allotted to the root partition
-* 100 GB of free disk space allotted to the /opt/netapp/data directory, which is mounted on an LVM drive or on a separate local disk attached to the target system
+* 100 GB of free disk space allotted to the ``/opt/netapp/data` directory, which is mounted on an LVM drive or on a separate local disk attached to the target system
 
 [NOTE]
 ====
-For separately mounted /opt and /var/log directories, ensure that /opt has 15 GB and /var/log has 16 GB of free space. The /tmp directory should have at least 10 GB of free space.
+For separately mounted `/opt` and `/var/log` directories, ensure that `/opt` has 15 GB and `/var/log` has 16 GB of free space. The `/tmp` directory should have at least 10 GB of free space.
 ====
 
 |===
@@ -64,7 +65,3 @@ The physical system or virtual system on which you install Unified Manager shoul
 You can use the host name (or the host IP address) to access the product web UI. If you configured a static IP address for your network during deployment, then you designated a name for the network host. If you configured the network using DHCP, you should obtain the host name from the DNS.
 
 If you plan to allow users to access Unified Manager by using the short name instead of using the fully qualified domain name (FQDN) or IP address, then your network configuration has to resolve this short name to a valid FQDN.
-
-*Related information*
-
-xref:task_selinux_requirements_for_mounting_opt_netapp.adoc[SELinux requirements for mounting /opt/netapp or /opt/netapp/data on an NFS or CIFS share]

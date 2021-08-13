@@ -1,8 +1,8 @@
 ---
 permalink: install-linux/concept_upgrade_third_party_products_on_linux_um.html
 sidebar: sidebar
-keywords: Data Center Manager
-summary: 'You can upgrade third-party products, such as JRE, on Unified Manager when installed on Linux systems.'
+keywords: data center manager, upgrade, third-party products
+summary: "You can upgrade third-party products, such as JRE, on Unified Manager when installed on Linux systems."
 ---
 = Upgrading third-party products
 :icons: font

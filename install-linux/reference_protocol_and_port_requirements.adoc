@@ -1,8 +1,8 @@
 ---
 permalink: install-linux/reference_protocol_and_port_requirements.html
 sidebar: sidebar
-keywords: Unified Manager
-summary: 'The required ports and protocols enable communication between the Unified Manager server and the managed storage systems, servers, and other components.'
+keywords: unified manager, port, requirements, protocol, server
+summary: "The required ports and protocols enable communication between the Unified Manager server and the managed storage systems, servers, and other components."
 ---
 = Protocol and port requirements
 :icons: font
@@ -13,10 +13,11 @@ The required ports and protocols enable communication between the Unified Manage
 
 == Connections to the Unified Manager server
 
-In typical installations you do not have to specify port numbers when connecting to the Unified Manager web UI, because default ports are always used. For example, because Unified Manager always attempts to run on its default port, you can enter https://<host> instead of https://<host>:443.
+In typical installations you do not have to specify port numbers when connecting to the Unified Manager web UI, because default ports are always used. For example, because Unified Manager always attempts to run on its default port, you can enter `https://<host>` instead of `https://<host>:443`.
 
 The Unified Manager server uses specific protocols to access the following interfaces:
 
+[cols="4*",options="header"]
 |===
 | Interface| Protocol| Port| Description
 a|
@@ -82,7 +83,7 @@ Used to access realtime REST API-based EMS events from authenticated ONTAP syste
 The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see the _Active IQ Unified Manager System Configuration Guide_.
 ====
 
-http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/config/index.html[Active IQ Unified Manager System Configuration Guide]
 
 == Connections from the Unified Manager server
 
@@ -92,6 +93,7 @@ Depending on your environment, you can choose to modify the ports and protocols 
 
 The Unified Manager server connects using the following protocols and ports to the managed storage systems, servers, and other components:
 
+[cols="4*",options="header"]
 |===
 | Destination| Protocol| Port| Description
 a|

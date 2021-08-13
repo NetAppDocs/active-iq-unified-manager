@@ -1,8 +1,8 @@
 ---
 permalink: install-linux/concept_browser_and_platform_requirements.html
 sidebar: sidebar
-keywords: 
-summary: 'To access the Unified Manager web UI, use a supported browser.'
+keywords: supported browsers
+summary: "To access the Unified Manager web UI, use a supported browser."
 ---
 = Supported browsers
 :icons: font
