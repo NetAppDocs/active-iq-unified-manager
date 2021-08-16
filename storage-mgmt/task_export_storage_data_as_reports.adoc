@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/task_export_storage_data_as_reports.html
 sidebar: sidebar
-keywords: 
-summary: 'You can export storage data in a variety of output formats and then use the exported data to build reports. For example, if there are 10 critical events that have not been resolved, you can export the data from the Event Management inventory page to create a report, and then send the report to admins who can resolve the issues.'
+keywords: export, storage, data, reports
+summary: "You can export storage data in a variety of output formats and then use the exported data to build reports. For example, if there are 10 critical events that have not been resolved, you can export the data from the Event Management inventory page to create a report, and then send the report to admins who can resolve the issues."
 ---
 = Exporting storage data as reports
 :icons: font
@@ -11,10 +11,13 @@ summary: 'You can export storage data in a variety of output formats and then us
 [.lead]
 You can export storage data in a variety of output formats and then use the exported data to build reports. For example, if there are 10 critical events that have not been resolved, you can export the data from the Event Management inventory page to create a report, and then send the report to admins who can resolve the issues.
 
-You can export data to a .csv file, .xlsx file, or .pdf document from the *Storage* and *Network* inventory pages and use the exported data to build reports. There are other locations in the product where only .csv or .pdf files can be generated.
+You can export data to a `.csv` file, `.xlsx` file, or `.pdf` document from the *Storage* and *Network* inventory pages and use the exported data to build reports. There are other locations in the product where only `.csv` or `.pdf` files can be generated.
+
+.Steps
 
 . Perform one of the following actions:
 +
+[options="header"]
 |===
 | If you want to export...| Do this...
 a|
@@ -52,4 +55,4 @@ The file is downloaded.
 
 link:[Health/Clusters inventory page]
 
-link:[Scheduling a report]
+https://docs.netapp.com/us-en/active-iq-unified-manager_main/reporting/task_schedule_report.html:[Scheduling a report]
