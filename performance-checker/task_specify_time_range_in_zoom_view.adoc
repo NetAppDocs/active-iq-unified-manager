@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/task_specify_time_range_in_zoom_view.html
 sidebar: sidebar
-keywords: 
-summary: 'The Time Range control in the Counter Charts Zoom View window enables you to specify a date and time range for the selected chart. This enables you to quickly locate specific data based on either a preset time range or your own custom time range.'
+keywords: specify, time range, zoom view
+summary: "The Time Range control in the Counter Charts Zoom View window enables you to specify a date and time range for the selected chart. This enables you to quickly locate specific data based on either a preset time range or your own custom time range."
 ---
 = Specifying the time range in Zoom View
 :icons: font
