@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_health_svm_details_page.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Storage VM / Health details page to view detailed information about the selected storage VM, such as its health, capacity, configuration, data policies, logical interfaces \(LIFs\), LUNs, qtrees, user, user group quotas, and protection details . You can also view information about the related objects and related alerts for the storage VM.'
+keywords: storage VM, health details page
+summary: "You can use the Storage VM / Health details page to view detailed information about the selected storage VM, such as its health, capacity, configuration, data policies, logical interfaces (LIFs), LUNs, qtrees, user, user group quotas, and protection details . You can also view information about the related objects and related alerts for the storage VM."
 ---
 = Storage VM / Health details page
 :icons: font

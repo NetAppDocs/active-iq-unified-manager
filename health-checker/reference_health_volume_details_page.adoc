@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_health_volume_details_page.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Volume / Health details page to view detailed information about a selected volume, such as capacity, storage efficiency, configuration, protection, annotation, and events generated. You can also view information about the related objects and related alerts for that volume.'
+keywords: volume, health details page
+summary: "You can use the Volume / Health details page to view detailed information about a selected volume, such as capacity, storage efficiency, configuration, protection, annotation, and events generated. You can also view information about the related objects and related alerts for that volume."
 ---
 = Volume / Health details page
 :icons: font

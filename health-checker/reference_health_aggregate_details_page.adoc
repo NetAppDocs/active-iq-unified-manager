@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_health_aggregate_details_page.html
 sidebar: sidebar
-keywords: Unified Manager
-summary: 'You can use the Aggregate / Health details page to view detailed information about the selected aggregate, such as the capacity, disk information, configuration details, and events generated. You can also view information about the related objects and related alerts for that aggregate.'
+keywords: unified manager, aggregate, health details page
+summary: "You can use the Aggregate / Health details page to view detailed information about the selected aggregate, such as the capacity, disk information, configuration details, and events generated. You can also view information about the related objects and related alerts for that aggregate."
 ---
 = Aggregate / Health details page
 :icons: font
