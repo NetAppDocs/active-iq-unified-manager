@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_unified_manager_health_monitoring_features.html
 sidebar: sidebar
-keywords: 
-summary: 'Unified Manager is built on a server infrastructure that delivers scalability, supportability, and enhanced monitoring and notification capabilities. Unified Manager supports monitoring of systems running ONTAP software.'
+keywords: unified manager, health, monitor, features
+summary: "Unified Manager is built on a server infrastructure that delivers scalability, supportability, and enhanced monitoring and notification capabilities. Unified Manager supports monitoring of systems running ONTAP software."
 ---
 = Unified Manager health monitoring features
 :icons: font
