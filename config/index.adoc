@@ -1,9 +1,0 @@
----
-permalink: config/index.html
-sidebar: sidebar
-keywords:
-summary: ''
----
-= System Configuration Guide
-:icons: font
-:imagesdir: ../media/

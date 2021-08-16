@@ -42,7 +42,6 @@ The following third-party packages are bundled with Unified Manager. If these th
 [NOTE]
 ====
 The installer of Unified Manager has been restricted to support only up to MySQL Community Edition 8.0.21, due to an interoperability issue. You *must not* upgrade MySQL to a release greater than 8.0.21.
-+
 ====
 
 * Python 3.6.x
@@ -70,9 +69,9 @@ You should shut down a running instance of Unified Manager before upgrading any 
 == Installation requirements
 
 * Microsoft .NET 4.5.2, or greater, should be installed.
-* The temp directory should be configured with 2 GB of disk space for extracting the installation files. To verify whether the directory is created, run the following command on the command-line interface: `echo %temp%`
+* The `temp` directory should be configured with 2 GB of disk space for extracting the installation files. To verify whether the directory is created, run the following command on the command-line interface: `echo %temp%`
 * You should reserve 2 GB of disk space in the Windows drive for caching the Unified Manager MSI files.
-* The Microsoft Windows Server on which you want to install Unified Manager should be configured with a fully qualified domain name (FQDN) such that ping responses to the host name and FQDN are successful.
+* The Microsoft Windows Server on which you want to install Unified Manager should be configured with a fully qualified domain name (FQDN) such that `ping` responses to the host name and FQDN are successful.
 * You should disable Microsoft IIS worldwide web publishing service and ensure that ports 80 and 443 are free.
 * You should make sure that the Remote Desktop Session Host setting for "`Windows Installer RDS Compatibility`" is disabled during the installation.
 * UDP port 514 should be free, and should not be used by any other service.
