@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_svm_compliance_categories.html
 sidebar: sidebar
-keywords: storage VM compliance
-summary: 'This table describes the storage virtual machine \(SVM\) security compliance criteria that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the SVM being complaint or not complaint.'
+keywords: storage vm, compliance, svm compliance, categories
+summary: "This table describes the storage virtual machine (SVM) security compliance criteria that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the SVM being complaint or not complaint."
 ---
 = SVM compliance categories
 :icons: font
@@ -11,6 +11,7 @@ summary: 'This table describes the storage virtual machine \(SVM\) security comp
 [.lead]
 This table describes the storage virtual machine (SVM) security compliance criteria that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the SVM being complaint or not complaint.
 
+[cols="4*",options="header"]
 |===
 | Parameter| Description| Recommendation| Affects SVM Compliance
 a|

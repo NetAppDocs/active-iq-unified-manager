@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_setup_autosupport_page.html
 sidebar: sidebar
-keywords: 
-summary: 'The AutoSupport page enables you to send predefined and on-demand AutoSupport messages to your technical support team to ensure a correct operation of your environment, and to assist you in maintaining the integrity of your environment. AutoSupport is enabled by default and it should not be disabled, for you to receive the benefits of NetAppActive IQ.'
+keywords: autosupport, messages, support bundles, technical support
+summary: "The AutoSupport page enables you to send predefined and on-demand AutoSupport messages to your technical support team to ensure a correct operation of your environment, and to assist you in maintaining the integrity of your environment. AutoSupport is enabled by default and it should not be disabled, for you to receive the benefits of NetAppActive IQ."
 ---
 = Sending AutoSupport messages and support bundles to technical support
 :icons: font
@@ -22,6 +22,7 @@ A user with a storage administrator role can generate and send on-demand AutoSup
 
 You can generate and send an on-demand message to technical support, or to a specified email recipient, or to both.
 
+.Steps
 . Navigate to *General* > *AutoSupport*, and perform one or both of the following actions:
 . If you want to send the AutoSupport message to technical support, select the *Send to Technical Support* check box.
 . If you want to send the AutoSupport message to a specific email recipient, select the *Send to Email Recipient* check box, and enter the email address of the recipient.
@@ -32,6 +33,7 @@ You can generate and send an on-demand message to technical support, or to a spe
 
 You can send specific, predefined messages to technical support for issue diagnosis and resolution periodically. This functionality is enabled by default. If disabled, an administrator or maintenance user can enable the settings.
 
+.Steps
 . Navigate to *General* > *AutoSupport*.
 . In the Periodic AutoSupport section, select the *Enable Sending AutoSupport Data Periodically to Active IQ* check box.
 . If required, define the name, port, and authentication information for the HTTP proxy server as described in <<GUID-B4107143-A8EF-47A4-99F4-4C034315BB49,Setting up HTTP proxy server>>.
@@ -43,6 +45,7 @@ You can generate and send a support bundle to technical support based on the req
 
 Because some types of support data can use a large amount of cluster resources or take a long time to complete, when you select the full support bundle, you can include or exclude specific data types to reduce the support bundle size. You also have the option to create a lightweight support bundle that contains just 30 days of logs and configuration database records -- it excludes performance data, acquisition recording files, and server heap dump.
 
+.Steps
 . Navigate to *General* > *AutoSupport*.
 . In the On-Demand Support Bundle section, click *Generate and Send Support Bundle*.
 . To send a light support bundle to technical support, in the Generate and Send Support Bundle pop-up, select the**Generate light support bundle** check box.
