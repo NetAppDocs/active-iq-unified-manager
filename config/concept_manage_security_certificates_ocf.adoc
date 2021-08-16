@@ -1,8 +1,8 @@
 ---
 permalink: config/concept_manage_security_certificates_ocf.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure HTTPS in the Unified Manager server to monitor and manage your clusters over a secure connection.'
+keywords: manage, security, certificates
+summary: "You can configure HTTPS in the Unified Manager server to monitor and manage your clusters over a secure connection."
 ---
 = Managing security certificates
 :icons: font
