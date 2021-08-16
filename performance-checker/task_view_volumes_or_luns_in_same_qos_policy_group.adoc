@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can display a list of the volumes and LUNs that have been assigned to the same QoS policy group.'
+keywords: view, volumes, luns, same. qos, policy, group
+summary: "You can display a list of the volumes and LUNs that have been assigned to the same QoS policy group."
 ---
 = Viewing volumes or LUNs that are in the same QoS policy group
 :icons: font
@@ -15,6 +15,7 @@ In the case of traditional QoS policy groups that are "`shared`" among multiple 
 
 In the case of adaptive QoS policies and Unified ManagerPerformance Service Levels policies, this can be helpful to view all the volumes or LUNs that are using a policy group so that you can see which objects would be affected if you changed the configuration settings for the QoS policy.
 
+.Steps
 . In the left navigation pane, click *Storage* > *QoS Policy Groups*.
 +
 The Performance: Traditional QoS Policy Groups view is displayed by default.
@@ -24,7 +25,3 @@ The Performance: Traditional QoS Policy Groups view is displayed by default.
 . Click the Volumes or the LUNs link to view the objects using this QoS policy.
 +
 The Performance inventory page for Volumes or LUNs is displayed with the sorted list of objects that are using the QoS policy.
-
-*Related information*
-
-xref:concept_troubleshooting_workloads_using_workload_analyzer.adoc[Troubleshooting workloads using the workload analyzer]

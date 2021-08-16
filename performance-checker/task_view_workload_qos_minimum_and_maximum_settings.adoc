@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/task_view_workload_qos_minimum_and_maximum_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view the ONTAP-defined quality of service \(QoS\) policy settings on a volume or LUN in the Performance Explorer charts. A throughput maximum setting limits the impact of competing workloads on system resources. A throughput minimum setting ensures that a critical workload meets minimum throughput targets regardless of demand by competing workloads.'
+keywords: view, workload, qos, minimum, maximum, settings, performance, explorer
+summary: "You can view the ONTAP-defined quality of service (QoS) policy settings on a volume or LUN in the Performance Explorer charts. A throughput maximum setting limits the impact of competing workloads on system resources. A throughput minimum setting ensures that a critical workload meets minimum throughput targets regardless of demand by competing workloads."
 ---
 = Viewing workload QoS minimum and maximum settings in the Performance Explorer
 :icons: font
@@ -17,8 +17,10 @@ Adaptive QoS policies are available starting with ONTAP 9.3 and are expressed us
 
 Unified Manager generates warning events for QoS policy breaches when workload throughput has exceeded the defined QoS maximum policy setting during each performance collection period for the previous hour. Workload throughput may exceed the QoS threshold for only a short period of time during each collection period, but Unified Manager displays the "`average`" throughput during the collection period on the chart. For this reason you may see QoS events while the throughput for a workload might not have crossed the policy threshold shown in the chart.
 
-. In the Performance Explorer page for your selected volume or LUN, perform the following actions to view the QoS ceiling and floor settings:
+.Steps
+. In the *Performance Explorer* page for your selected volume or LUN, perform the following actions to view the QoS ceiling and floor settings:
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -51,7 +53,3 @@ If you notice that certain volumes or LUNs have very high IOPS or MB/s and are s
 For more information on adjusting QoS settings, see the _ONTAP 9 Performance Monitoring Power Guide_.
 
 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html[ONTAP 9 Performance Monitoring Power Guide]
-
-*Related information*
-
-xref:concept_how_qos_policies_are_displayed_in_throughput_charts.adoc[How different types of QoS policies are displayed in the throughput charts]
