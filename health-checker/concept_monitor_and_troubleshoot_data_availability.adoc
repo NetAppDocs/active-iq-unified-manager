@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_monitor_and_troubleshoot_data_availability.html
 sidebar: sidebar
-keywords: 
-summary: 'Unified Manager monitors the reliability with which authorized users can access your stored data, alerts you to conditions that block or impede that access, and enables you to diagnose those conditions and assign and track their resolution.'
+keywords: monitor, troubleshoot, data availability
+summary: "Unified Manager monitors the reliability with which authorized users can access your stored data, alerts you to conditions that block or impede that access, and enables you to diagnose those conditions and assign and track their resolution."
 ---
 = Monitoring and troubleshooting data availability
 :icons: font
