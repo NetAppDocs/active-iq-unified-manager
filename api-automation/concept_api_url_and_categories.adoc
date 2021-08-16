@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/concept_api_url_and_categories.html
 sidebar: sidebar
-keywords: 
-summary: 'The Active IQ Unified Manager APIs enable you to manage and provision storage objects in your environment. You can also access the Unified Manager web UI to perform some of these functions.'
+keywords: active iq, unified manager, api, access, categories
+summary: "The Active IQ Unified Manager APIs enable you to manage and provision storage objects in your environment. You can also access the Unified Manager web UI to perform some of these functions."
 ---
 = Active IQ Unified Manager API access and categories
 :icons: font
@@ -60,11 +60,3 @@ Unified Manager enables you to invoke ONTAP REST APIs through the APIs under the
 * *security*
 +
 This category contains APIs for managing Unified Manager users.
-
-*Related information*
-
-xref:concept_rest_api_access_and_authentication_in_um_apis.adoc[REST API access and authentication in Active IQ Unified Manager]
-
-xref:concept_rest_services_offered_in_unified_manager_apis.adoc[REST services offered in Active IQ Unified Manager]
-
-xref:concept_um_apis_list_intro.adoc[Unified Manager REST APIs]

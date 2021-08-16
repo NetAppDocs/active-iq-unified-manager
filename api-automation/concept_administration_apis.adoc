@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/concept_administration_apis.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the APIs under the administration category to modify backup settings, verify the backup file information and cluster certificates, and also manage ONTAP clusters as Active IQ Unified Manager datasources.'
+keywords: perform, administrative, tasks
+summary: "You can use the APIs under the administration category to modify backup settings, verify the backup file information and cluster certificates, and also manage ONTAP clusters as Active IQ Unified Manager datasources."
 ---
 = Performing administrative tasks
 :icons: font
@@ -15,7 +15,7 @@ You can use the APIs under the administration category to modify backup settings
 ====
 You must have the Application Administrator role for running these operations. You can also use the Unified Manager web UI for configuring these settings.
 ====
-
+[cols="3*",options="header"]
 |===
 | HTTP verb| Path| Description
 a|

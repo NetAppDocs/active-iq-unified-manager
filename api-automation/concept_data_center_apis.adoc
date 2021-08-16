@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/concept_data_center_apis.html
 sidebar: sidebar
-keywords: 
-summary: 'The REST APIs under the datacenter category enable you to manage the storage objects in your data center, such as clusters, nodes, aggregates, storage VMs, volumes, LUNs, file shares, and namespaces. These APIs are available for querying the configuration of the objects, while some of them enable you to perform the operations of adding, deleting, or modifying these objects.'
+keywords: manage, storage, objects, data center
+summary: "The REST APIs under the datacenter category enable you to manage the storage objects in your data center, such as clusters, nodes, aggregates, storage VMs, volumes, LUNs, file shares, and namespaces. These APIs are available for querying the configuration of the objects, while some of them enable you to perform the operations of adding, deleting, or modifying these objects."
 ---
 = Managing storage objects in a data center
 :icons: font
@@ -23,15 +23,15 @@ curl -X GET "https://<hostname>/api/datacenter/cluster/clusters/4c6bf721-2e3f-11
 ====
 The CURL commands, examples, requests, and responses to the APIs, are available on your Swagger API interface. You can filter and order the results by specific parameters as indicated on Swagger. These APIs enable you to filter the results for specific storage objects, such as cluster, volume, or storage VM.
 ====
-
+[cols="3*",options="header"]
 |===
 | HTTP verb| Path| Description
 a|
 GET
 a|
-/datacenter/cluster/clusters
+`/datacenter/cluster/clusters`
 
-/datacenter/cluster/clusters/\{key}
+``/datacenter/cluster/clusters/\{key}`
 
 a|
 You can use this method to view the details of the ONTAP clusters across the data center. The API returns information, such as the IPv4 or IPv6 address of the cluster, information about the node, such as node health, performance capacity, and High Availability (HA) pair, and indicates whether the cluster is All SAN Array.
@@ -39,9 +39,9 @@ You can use this method to view the details of the ONTAP clusters across the dat
 a|
 GET
 a|
-/datacenter/cluster/nodes
+`/datacenter/cluster/nodes`
 
-/datacenter/cluster/nodes/\{key}
+`/datacenter/cluster/nodes/\{key}`
 
 a|
 You can use this method to view the details of the nodes in the data center. You can view information about the cluster, node health, performance capacity, and High Availability (HA) pair for the node.
@@ -49,9 +49,9 @@ You can use this method to view the details of the nodes in the data center. You
 a|
 GET
 a|
-/datacenter/protocols/cifs/shares
+`/datacenter/protocols/cifs/shares`
 
-/datacenter/protocols/cifs/shares/\{key}
+`/datacenter/protocols/cifs/shares/\{key}`
 
 a|
 You can use this method to view the details of the CIFS shares in the data center. Apart from cluster, SVM, and volume details, information about Access Control List (ACL) is also returned.
@@ -59,9 +59,9 @@ You can use this method to view the details of the CIFS shares in the data cente
 a|
 GET
 a|
-/datacenter/protocols/nfs/export-policies
+`/datacenter/protocols/nfs/export-policies`
 
-/datacenter/protocols/nfs/export-policies/\{key}
+`/datacenter/protocols/nfs/export-policies/\{key}`
 
 a|
 You can use this method to view the details of the export policies for the supported NFS services.
@@ -71,9 +71,9 @@ You can query the export policies for a cluster or storage VM and reuse the expo
 a|
 GET
 a|
-/datacenter/storage/aggregates
+`/datacenter/storage/aggregates`
 
-/datacenter/storage/aggregates/\{key}
+`/datacenter/storage/aggregates/\{key}`
 
 a|
 You can use this method to view the collection of aggregates in the data center or a specific aggregate for provisioning workloads on them or monitoring. Information, such as cluster and node details, performance capacity used, available and used space, and storage efficiency is returned.
@@ -81,9 +81,9 @@ You can use this method to view the collection of aggregates in the data center 
 a|
 GET
 a|
-/datacenter/storage/luns
+`/datacenter/storage/luns`
 
-/datacenter/storage/luns/\{key}
+`/datacenter/storage/luns/\{key}`
 
 a|
 You can use this method to view the collection of LUNs in the entire data center. You can view information about the LUN, such as cluster and SVM details, QoS policies, and igroups.
@@ -91,9 +91,9 @@ You can use this method to view the collection of LUNs in the entire data center
 a|
 GET
 a|
-/datacenter/storage/qos/policies
+`/datacenter/storage/qos/policies`
 
-/datacenter/storage/qos/policies/\{key}
+`/datacenter/storage/qos/policies/\{key}`
 
 a|
 You can use this method to view the details of all the QoS policies applicable for the storage objects in the data center. Information, such as the cluster and SVM details, the fixed or adaptive policy details,and number of objects applicable for that policy is returned.
@@ -101,9 +101,9 @@ You can use this method to view the details of all the QoS policies applicable f
 a|
 GET
 a|
-/datacenter/storage/qtrees
+`/datacenter/storage/qtrees`
 
-/datacenter/storage/qtrees/\{key}
+`/datacenter/storage/qtrees/\{key}`
 
 a|
 You can use this method to view the qtree details across the data center for all FlexVol volumes or FlexGroup volumes. Information, such as the cluster and SVM details, FlexVol volume, and export policy are returned.
@@ -111,9 +111,9 @@ You can use this method to view the qtree details across the data center for all
 a|
 GET
 a|
-/datacenter/storage/volumes
+`/datacenter/storage/volumes`
 
-/datacenter/storage/volumes/\{key}
+`/datacenter/storage/volumes/\{key}`
 
 a|
 You can use this method to view the collection of volumes in the data center. Information about the volumes, such as SVM and cluster details, QoS and export policies, whether the volume is of type read-write, data-protection, or load-sharing, is returned.
@@ -130,9 +130,9 @@ DELETE
 PATCH
 
 a|
-/datacenter/protocols/san/igroups
+`/datacenter/protocols/san/igroups`
 
-/datacenter/protocols/san/igroups/\{key}
+`/datacenter/protocols/san/igroups/\{key}`
 
 a|
 You can assign initiator groups (igroups) authorized to access particular LUN targets. If there is an existing igroup, you can assign it. You can also create igroups and assign them to the LUNs.
@@ -155,9 +155,9 @@ DELETE
 PATCH
 
 a|
-/datacenter/svm/svms
+`/datacenter/svm/svms`
 
-/datacenter/svm/svms/\{key}
+`/datacenter/svm/svms/\{key}`
 
 a|
 You can use these methods to view, create, delete, and modify Storage Virtual Machines (storage VMs).
@@ -181,10 +181,3 @@ If you have enabled SLO-based workload provisioning on your environment, you can
 * PATCH: You need to provide the storage VM key to modify a particular storage VM. You also need to enter the properties that you want to update, along with their values.
 
 |===
-*Related information*
-
-xref:concept_workflow_space_issue.adoc[Determining space issues in aggregates]
-
-xref:concept_provision_luns.adoc[Provisioning LUNs]
-
-xref:concept_provision_file_share.adoc[Provisioning CIFS and NFS file shares]

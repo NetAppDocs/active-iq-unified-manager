@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/concept_hello_api_server.html
 sidebar: sidebar
-keywords: 
-summary: 'The Hello API server is a sample program that demonstrates how to invoke a REST API in Active IQ Unified Manager using a simple REST client. The sample program provides you basic details about the API server in the JSON format \(the server supports only application/json format\).'
+keywords: hello, api, server
+summary: "The Hello API server is a sample program that demonstrates how to invoke a REST API in Active IQ Unified Manager using a simple REST client. The sample program provides you basic details about the API server in the JSON format (the server supports only application/json format)."
 ---
 = Hello API server
 :icons: font
@@ -11,7 +11,7 @@ summary: 'The Hello API server is a sample program that demonstrates how to invo
 [.lead]
 The Hello API server is a sample program that demonstrates how to invoke a REST API in Active IQ Unified Manager using a simple REST client. The sample program provides you basic details about the API server in the JSON format (the server supports only `application/json` format).
 
-The URI used is: https://<hostname>/api/datacenter/svm/svms. This sample code takes the following input parameters:
+The URI used is: `https://<hostname>/api/datacenter/svm/svms.` This sample code takes the following input parameters:
 
 * The API server IP address or FQDN
 * Optional: Port number (default: 443)
@@ -24,8 +24,8 @@ To invoke REST APIs, you can also use other scripts such as Jersey and RESTEasy 
 * Uses an HTTPS connection to Active IQ Unified Manager to invoke the specified REST URI
 * Ignores the certificate provided by Active IQ Unified Manager
 * Skips the host name verification during the handshake
-* Usesjavax.net.ssl.HttpsURLConnection for a URI connection
-* Uses a third-party library (org.apache.commons.codec.binary.Base64) for constructing the Base64 encoded string used in the HTTP basic authentication
+* Uses `javax.net.ssl.HttpsURLConnection` for a URI connection
+* Uses a third-party library (`org.apache.commons.codec.binary.Base64`) for constructing the Base64 encoded string used in the HTTP basic authentication
 
 To compile and execute the sample code, you must use Java compiler 1.8 or later.
 
