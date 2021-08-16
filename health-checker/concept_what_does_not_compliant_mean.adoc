@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_what_does_not_compliant_mean.html
 sidebar: sidebar
-keywords: not compliant,compliant
-summary: 'Clusters and storage virtual machines \(SVMs\) are considered not compliant when any of the security criteria that is being evaluated against the recommendations defined in the NetApp Security Hardening Guide for ONTAP 9 are not met. Additionally, a cluster is considered not compliant when any SVM is flagged as being not compliant.'
+keywords: not compliant, compliant
+summary: "Clusters and storage virtual machines (SVMs) are considered not compliant when any of the security criteria that is being evaluated against the recommendations defined in the NetApp Security Hardening Guide for ONTAP 9 are not met. Additionally, a cluster is considered not compliant when any SVM is flagged as being not compliant."
 ---
 = What does not compliant mean
 :icons: font
