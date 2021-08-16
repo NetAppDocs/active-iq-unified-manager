@@ -1,9 +1,0 @@
----
-permalink: storage-mgmt/index.html
-sidebar: sidebar
-keywords:
-summary: ''
----
-= Storage Monitoring Guide
-:icons: font
-:imagesdir: ../media/
