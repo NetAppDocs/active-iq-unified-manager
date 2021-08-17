@@ -13,7 +13,7 @@ The required ports and protocols enable communication between the Unified Manage
 
 == Connections to the Unified Manager server
 
-In typical installations you do not have to specify port numbers when connecting to the Unified Manager web UI, because default ports are always used. For example, because Unified Manager always attempts to run on its default port, you can enter `https://<host>` instead of `https://<host>:443`.
+In typical installations you do not have to specify port numbers when connecting to the Unified Manager web UI, because default ports are always used. For example, because Unified Manager always attempts to run on its default port, you can enter `+https://<host>+` instead of `+https://<host>:443+`.
 
 The Unified Manager server uses specific protocols to access the following interfaces:
 
