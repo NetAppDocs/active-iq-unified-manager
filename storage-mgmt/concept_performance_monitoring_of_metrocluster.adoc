@@ -13,7 +13,7 @@ Unified Manager enables you to monitor the write throughput between clusters in 
 
 When a local cluster in a MetroCluster configuration mirrors its data to its partner cluster, the data is written to NVRAM and then transferred over the interswitch links (ISLs) to the remote aggregates. Unified Manager analyzes the NVRAM to identify the workloads whose high write throughput is overutilizing the NVRAM, placing the NVRAM in contention.
 
-Workloads whose deviation in response time has exceeded the performance threshold are called victims and workloads whose deviation in write throughput to the NVRAM is higher than usual, causing the contention, are called bullies. Because only the write requests are mirrored to the partner cluster, Unified Manager does not analyze read throughput.
+Workloads whose deviation in response time has exceeded the performance threshold are called victims and workloads whose deviation in write throughput to the NVRAM is higher than usual, causing the contention, are called _bullies_. Because only the write requests are mirrored to the partner cluster, Unified Manager does not analyze read throughput.
 
 Unified Manager treats the clusters in a MetroCluster configuration as individual clusters. It does not distinguish between clusters that are partners or correlate the write throughput from each cluster.
 
