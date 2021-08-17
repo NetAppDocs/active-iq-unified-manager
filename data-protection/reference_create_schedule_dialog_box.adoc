@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_create_schedule_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Create Schedule dialog box enables you to create a basic or advanced protection schedule for SnapMirror and SnapVault relationship transfers. You might create a new schedule to increase the frequency of data transfers due to frequent data updates, or you might create a less frequent schedule when data changes infrequently.'
+keywords: create schedule, dialog box
+summary: "The Create Schedule dialog box enables you to create a basic or advanced protection schedule for SnapMirror and SnapVault relationship transfers. You might create a new schedule to increase the frequency of data transfers due to frequent data updates, or you might create a less frequent schedule when data changes infrequently."
 ---
 = Create Schedule dialog box
 :icons: font
@@ -61,7 +61,3 @@ A comma-separated numerical list representing the number of hours in a day. Vali
  ** Minutes
 +
 A comma-separated numerical list representing the minutes in an hour. Valid values are 0 through 59. This element is required.
-
-*Related information*
-
-xref:task_create_snapmirror_and_snapvault_schedules.adoc[Creating SnapMirror and SnapVault schedules]
