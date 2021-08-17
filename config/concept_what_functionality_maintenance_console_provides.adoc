@@ -1,8 +1,8 @@
 ---
 permalink: config/concept_what_functionality_maintenance_console_provides.html
 sidebar: sidebar
-keywords: 
-summary: 'The Unified Manager maintenance console enables you to maintain the settings on your Unified Manager system and to make any necessary changes to prevent issues from occurring.'
+keywords: functionality, maintenance, console
+summary: "The Unified Manager maintenance console enables you to maintain the settings on your Unified Manager system and to make any necessary changes to prevent issues from occurring."
 ---
 = What functionality the maintenance console provides
 :icons: font
@@ -21,7 +21,3 @@ Depending on the operating system on which you have installed Unified Manager, t
 * Connect to an external data provider to send performance statistics
 * Change the performance data collection internal
 * Restore the Unified Manager database and configuration settings from a previously backed up version.
-
-*Related information*
-
-xref:task_use_maintenance_console.adoc[Using the maintenance console]

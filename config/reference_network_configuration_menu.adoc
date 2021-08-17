@@ -1,8 +1,8 @@
 ---
 permalink: config/reference_network_configuration_menu.html
 sidebar: sidebar
-keywords: 
-summary: 'The Network Configuration menu enables you to manage the network settings. You should use this menu when the Unified Manager user interface is not available.'
+keywords: network configuration menu
+summary: "The Network Configuration menu enables you to manage the network settings. You should use this menu when the Unified Manager user interface is not available."
 ---
 = Network Configuration menu
 :icons: font

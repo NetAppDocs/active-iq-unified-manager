@@ -1,8 +1,8 @@
 ---
 permalink: config/reference_definitions_of_user_roles.html
 sidebar: sidebar
-keywords: 
-summary: 'The maintenance user or Application Administrator assigns a role to every user. Each role contains certain privileges. The scope of activities that you can perform in Unified Manager depends on the role you are assigned and which privileges the role contains.'
+keywords: definitions, user roles
+summary: "The maintenance user or Application Administrator assigns a role to every user. Each role contains certain privileges. The scope of activities that you can perform in Unified Manager depends on the role you are assigned and which privileges the role contains."
 ---
 = Definitions of user roles
 :icons: font
