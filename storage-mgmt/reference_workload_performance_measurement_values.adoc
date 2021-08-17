@@ -37,7 +37,7 @@ a|
 Deviation
 a|
 The change between the expected values and the actual values. It is the ratio of the actual value minus the expected value to the upper value of the expected range minus the expected value.
- 
+
 [NOTE]
 ====
 A negative deviation value indicates that workload performance is lower than expected, while a positive deviation value indicates that workload performance is higher than expected.
@@ -74,4 +74,4 @@ The amount of write throughput, in Megabytes per second (MB/s), from workloads o
 |===
 *Related information*
 
-https://docs.netapp.com/us-en/active-iq-unified-manager_main/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html:[Roles of workloads involved in a performance event]
+https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html:[Roles of workloads involved in a performance event]

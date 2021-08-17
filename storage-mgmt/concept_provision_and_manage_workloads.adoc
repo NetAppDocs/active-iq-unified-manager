@@ -39,4 +39,4 @@ You can perform the following functions by using these options:
 
 *Related information*
 
-https://docs.netapp.com/us-en/active-iq-unified-manager_main/config/concept_policy_based_storage_management.html:[Policy-based storage management]
+https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_policy_based_storage_management.html:[Policy-based storage management]

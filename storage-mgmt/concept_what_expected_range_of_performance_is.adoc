@@ -28,6 +28,6 @@ Daylight savings time (DST) changes the system time, which alters the latency fo
 
 *Related information*
 
-https://docs.netapp.com/us-en/active-iq-unified-manager_main/performance-checker/task_use_workload_analyzer.html:[Using the workload analyzer]
+https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/task_use_workload_analyzer.html:[Using the workload analyzer]
 
-https://docs.netapp.com/us-en/active-iq-unified-manager_main/performance-checker/reference_performance_event_analysis_and_notification.html:[Performance event analysis and notification]
+https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/reference_performance_event_analysis_and_notification.html:[Performance event analysis and notification]

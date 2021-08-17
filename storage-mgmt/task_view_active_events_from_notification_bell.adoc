@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/task_view_active_events_from_notification_bell.html
 sidebar: sidebar
-keywords: notification bell
-summary: 'The notification bell \(\) in the menu bar provides a fast way to view the most important active events that Unified Manager is tracking.'
+keywords: view, active, events, notification, bell
+summary: "The notification bell in the menu bar provides a fast way to view the most important active events that Unified Manager is tracking."
 ---
 = Viewing active events from the notification bell
 :icons: font
@@ -15,5 +15,7 @@ The list of active events provides a way to see the total number of critical, er
 
 Note that when a cluster is not reachable, Unified Manager displays this information in this page. You can view detailed information about a cluster that is unreachable by clicking the *Details* button. This action opens the Event details page. Scale monitoring issues, such as low space or RAM on the management station, are also displayed on this page.
 
+.Steps
+
 . From the menu bar, click image:../media/notification_bell.png[].
-. To view details for any of the active events, click the event text link, such as "`2 Capacity`" or "`4 Performance`".
+. To view details for any of the active events, click the event text link, such as "2 Capacity" or "4 Performance".
