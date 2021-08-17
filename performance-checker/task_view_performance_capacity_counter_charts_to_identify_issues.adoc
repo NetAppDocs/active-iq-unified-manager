@@ -18,7 +18,7 @@ The standard counter chart displays the performance capacity used values for the
 Because some background activities associated with system and data management are identified as user workloads and categorized as user protocols, the user protocols percentage may appear artificially high when those processes run. These processes typically run around midnight when cluster usage is low. If you see a spike in user protocol activity around midnight, verify if cluster backup jobs or other background activities are configured to run at that time.
 ====
 .Steps
-. Select the *Explorer* tab from a node or aggregate Landing page.
+. Select the *Explorer* tab from a node or aggregate *Landing* page.
 . In the *Counter Charts* pane, click *Choose charts*, and then select the *Perf. Capacity Used* chart.
 . Scroll down until you can view the chart.
 +

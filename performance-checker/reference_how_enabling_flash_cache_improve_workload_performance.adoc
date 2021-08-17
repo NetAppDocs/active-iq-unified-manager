@@ -15,7 +15,7 @@ A Flash Cache module, or Performance Acceleration Module PCIe-based memory modul
 
 In Unified Manager, on the Event details page, the cluster component icon that represents the aggregate in contention is highlighted red. Beneath the icon, in parentheses, is the name of the aggregate, which identifies the aggregate. You can enable Flash Cache on the node on which the aggregate resides.
 
-You can use ONTAP System Manager or the ONTAP commands to see whether Flash Cache is installed or enabled, and to enable it if not already enabled. The following command indicates whether Flash Cache is enabled on a specific node: `cluster::> run local options flexscale.enable`
+You can use ONTAP System Manager or the ONTAP commands to see whether Flash Cache is installed or enabled, and to enable it if not already enabled. The following command indicates whether Flash Cache is enabled on a specific node: `*cluster::> run local options flexscale.enable*`
 
 For more information about Flash Cache and the requirements for using it, see the following technical report:
 

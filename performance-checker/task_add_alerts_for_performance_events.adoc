@@ -27,9 +27,9 @@ Because no resources are selected, the alert is applied to all clusters, aggrega
 
 . Click *Events* and perform the following actions:
  .. In the Event Severity list, select *Critical*.
- .. In the Event Name Contains field, enter `latency` and then click the arrow to select all the matching events.
- .. In the Event Name Contains field, enter `iops` and then click the arrow to select all the matching events.
- .. In the Event Name Contains field, enter `mbps` and then click the arrow to select all the matching events.
-. Click *Actions* and then select the name of the user who will receive the alert email in the Alert these users field.
+ .. In the Event Name Contains field, enter `*latency*` and then click the arrow to select all the matching events.
+ .. In the Event Name Contains field, enter `*iops*` and then click the arrow to select all the matching events.
+ .. In the Event Name Contains field, enter `*mbps*` and then click the arrow to select all the matching events.
+. Click *Actions* and then select the name of the user who will receive the alert email in the *Alert these users* field.
 . Configure any other options on this page for issuing SNMP taps and executing a script.
 . Click *Save*.

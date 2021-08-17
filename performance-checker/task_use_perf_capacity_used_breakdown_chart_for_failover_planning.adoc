@@ -25,7 +25,7 @@ This additional level of detail enables you to determine whether a performance i
 The counter charts with statistics for the Primary node, Partner node, and Estimated Takeover node are displayed.
 
 . From the *Choose charts* list, select *Perf. Capacity Used*.
-. In the Perf. Capacity Used chart, select *Breakdown* and click *Zoom View*.
+. In the *Perf. Capacity Used* chart, select *Breakdown* and click *Zoom View*.
 +
 The detailed chart for Perf. Capacity Used is displayed.
 +
