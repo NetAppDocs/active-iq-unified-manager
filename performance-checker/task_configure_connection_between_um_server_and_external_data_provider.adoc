@@ -46,15 +46,15 @@ The External Server Connection menu is displayed.
 +
 The current server connection information is displayed.
 
-. When prompted, type `y` to continue.
+. When prompted, type `*y*` to continue.
 . When prompted, enter the IP address or name of the destination server and the server port information (if different from the default port 2003).
-. When prompted, type `y` to verify that the information you entered is correct.
+. When prompted, type `*y*` to verify that the information you entered is correct.
 . Press any key to return to the External Server Connection menu.
 . Type the number of the *Modify Server Configuration* menu option.
 +
 The current server configuration information is displayed.
 
-. When prompted, type `y` to continue.
+. When prompted, type `*y*` to continue.
 . When prompted, enter the type of statistics to send, the time interval at which the statistics are sent, and whether you want to enable the transmission of statistics now:
 +
 [options="header"]
@@ -63,32 +63,32 @@ The current server configuration information is displayed.
 a|
 Statistics group ID
 a|
-`0` - PERFORMANCE_INDICATOR (default)
+`*0*` - PERFORMANCE_INDICATOR (default)
 
-`1` - RESOURCE_UTILIZATION
+`*1*` - RESOURCE_UTILIZATION
 
-`2` - DRILL_DOWN
+`*2*` - DRILL_DOWN
 a|
 Vendor tag
 a|
 A descriptive name for the folder where the statistics will be stored on the external server. "`netapp-performance`" is the default name, but you can enter another value.
 
-By using dotted notation you can define a hierarchical folder structure. For example, by entering `stats.performance.netapp` the statistics will be located in *stats* > *performance* > *netapp*.
+By using dotted notation you can define a hierarchical folder structure. For example, by entering `*stats.performance.netapp*` the statistics will be located in *stats* > *performance* > *netapp*.
 a|
 Transmit interval
 a|
-`5` (default), `10`, or `15` minutes
+`*5*` (default), `*10*`, or `*15*` minutes
 a|
 Enable/disable
 a|
-`0` - Disable
+`*0*` - Disable
 
-`1` - Enable (default)
+`*1*` - Enable (default)
 
 |===
 
-. When prompted, type `y` to verify that the information you entered is correct.
+. When prompted, type `*y*` to verify that the information you entered is correct.
 . Press any key to return to the External Server Connection menu.
-. Type `x` to exit the maintenance console.
+. Type `*x*` to exit the maintenance console.
 
 After you have configured the connection, the selected performance data is sent to the destination server at the time interval you specified. It takes a few minutes before the metrics start to appear in the external tool. You might need to refresh your browser to see the new metrics in the metric hierarchy.
