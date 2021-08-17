@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/concept_what_jobs_are.html
 sidebar: sidebar
-keywords: 
-summary: 'A job is a series of tasks that you can monitor using Unified Manager. Viewing jobs and their associated tasks enables you to determine if they have completed successfully.'
+keywords: jobs
+summary: "A job is a series of tasks that you can monitor using Unified Manager. Viewing jobs and their associated tasks enables you to determine if they have completed successfully."
 ---
 = What jobs are
 :icons: font

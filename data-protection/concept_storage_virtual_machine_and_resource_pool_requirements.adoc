@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html
 sidebar: sidebar
-keywords: 
-summary: 'You can better ensure conformance in partner applications if you observe some SVM association and resource pool requirements that are specific to storage services: for example, when you associate SVM and create resource pools in Unified Manager to support a protection topology in a storage service provided by a partner application.'
+keywords: svm, resource pool requirements, support, storage services
+summary: "You can better ensure conformance in partner applications if you observe some SVM association and resource pool requirements that are specific to storage services: for example, when you associate SVM and create resource pools in Unified Manager to support a protection topology in a storage service provided by a partner application."
 ---
 = SVM and resource pool requirements to support storage services
 :icons: font
@@ -24,9 +24,3 @@ In this example, any SnapMirror association or SnapVault backup association betw
 * The resource pools must include cluster aggregate resources available to the associated SVMs.
 +
 You configure resource pools through the Unified Manager web UI and then assign through the partner application the storage service secondary target and tertiary target nodes.
-
-*Related information*
-
-xref:task_create_resource_pools.adoc[Creating resource pools]
-
-xref:task_create_storage_virtual_machine_svm_associations.adoc[Creating Storage VM Peers]

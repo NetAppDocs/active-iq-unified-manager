@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_aggregates_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Aggregates dialog box to select the aggregates that you want to add to your resource pool.'
+keywords: aggregates, dialog box
+summary: "You can use the Aggregates dialog box to select the aggregates that you want to add to your resource pool."
 ---
 = Aggregates dialog box
 :icons: font

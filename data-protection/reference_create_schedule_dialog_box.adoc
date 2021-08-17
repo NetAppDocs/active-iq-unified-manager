@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/reference_create_schedule_dialog_box.html
 sidebar: sidebar
-keywords: create schedule, dialog box
+keywords: create, schedule, dialog box
 summary: "The Create Schedule dialog box enables you to create a basic or advanced protection schedule for SnapMirror and SnapVault relationship transfers. You might create a new schedule to increase the frequency of data transfers due to frequent data updates, or you might create a less frequent schedule when data changes infrequently."
 ---
 = Create Schedule dialog box

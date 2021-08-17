@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_advanced_secondary_setting_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Advanced Secondary Settings dialog box to enable version-flexible replication, multiple copy backup, and space-related settings on a secondary volume. You might use the Advanced Secondary Settings dialog box when you want to change enable or disable the current settings.'
+keywords: advanced, secondary, settings, dialog box
+summary: "You can use the Advanced Secondary Settings dialog box to enable version-flexible replication, multiple copy backup, and space-related settings on a secondary volume. You might use the Advanced Secondary Settings dialog box when you want to change enable or disable the current settings."
 ---
 = Advanced Secondary Settings dialog box
 :icons: font
@@ -70,7 +70,3 @@ Saves the selected efficiency settings and applies them when you click *Apply* i
 * *Cancel*
 +
 Discards your selections and closes the Advanced Destination Settings dialog box.
-
-*Related information*
-
-xref:reference_configure_protection_dialog_box.adoc[Configure Protection dialog box]
