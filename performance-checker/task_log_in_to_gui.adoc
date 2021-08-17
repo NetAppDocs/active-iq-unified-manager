@@ -24,7 +24,7 @@ You are automatically logged out of the session after 1 hour of inactivity. This
 .Steps
 . Enter the URL in your web browser, where URL is the IP address or fully qualified domain name (FQDN) of the Unified Manager server:
  ** For IPv4: `+https://URL/+`
- ** For IPv6: `*https://[URL]/*`
+ ** For IPv6: `https://[URL]/`
 If the server uses a self-signed digital certificate, the browser might display a warning indicating that the certificate is not trusted. You can either acknowledge the risk to continue the access or install a Certificate Authority (CA) signed digital certificate for server authentication.
 . At the login screen, enter your user name and password.
 +
