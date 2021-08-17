@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_configure_conditions_for_annotation_rules.html
 sidebar: sidebar
-keywords: Unified Manager
-summary: 'You can configure one or more conditions to create annotation rules that Unified Manager applies on the storage objects. The storage objects that satisfy the annotation rule are annotated with the value specified in the rule.'
+keywords: unified manager, configure, conditions, annotation rules
+summary: "You can configure one or more conditions to create annotation rules that Unified Manager applies on the storage objects. The storage objects that satisfy the annotation rule are annotated with the value specified in the rule."
 ---
 = Configuring conditions for annotation rules
 :icons: font
@@ -11,8 +11,11 @@ summary: 'You can configure one or more conditions to create annotation rules th
 [.lead]
 You can configure one or more conditions to create annotation rules that Unified Manager applies on the storage objects. The storage objects that satisfy the annotation rule are annotated with the value specified in the rule.
 
+*What you'll need*
+
 You must have the Application Administrator or Storage Administrator role.
 
+.Steps
 . In the left navigation pane, click *Storage Management* > *Annotations*.
 . In the Annotation Rules tab, click *Add*.
 . In the Add Annotation Rule dialog box, enter a name for the rule.
@@ -26,6 +29,7 @@ Consider a condition for the object type SVM, where the object name contains "`s
 
 Perform the following steps in the Add Annotation Rule dialog box to configure the condition:
 
+.Steps
 . Enter a name for the annotation rule.
 . Select the target object type as SVM.
 . Select an annotation from the list of annotations and a value.
