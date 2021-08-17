@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_configure_global_health_threshold_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure global health threshold conditions for capacity, growth, Snapshot reserve, quotas, and inodes to monitor your aggregate, volume, and qtree size effectively. You can also edit the settings for generating events for exceeding lag thresholds.'
+keywords: configure, global health, threshold settings
+summary: "You can configure global health threshold conditions for capacity, growth, Snapshot reserve, quotas, and inodes to monitor your aggregate, volume, and qtree size effectively. You can also edit the settings for generating events for exceeding lag thresholds."
 ---
 = Configuring global health threshold settings
 :icons: font
