@@ -19,5 +19,5 @@ This example shows the IOPS chart. The actual operations statistics is a blue li
 
 [NOTE]
 ====
-In some cases where a cluster is overloaded, Unified Manager might display the message `Data collection is taking too long on Cluster cluster_name`. This means that not enough statistics have been collected for Unified Manager to analyze. You need to reduce the resources the cluster is using so that statistics can be collected.
+In some cases where a cluster is overloaded, Unified Manager might display the message `Data collection is taking too long on Cluster _cluster_name_`. This means that not enough statistics have been collected for Unified Manager to analyze. You need to reduce the resources the cluster is using so that statistics can be collected.
 ====
