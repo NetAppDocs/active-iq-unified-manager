@@ -62,7 +62,7 @@ Perform the following steps in the Add Alert dialog box:
 . Click *Name*, and enter `HealthTest` in the *Alert Name* field.
 . Click *Resources*, and in the Include tab, select *Volumes* from the drop-down list.
  .. Enter `abc` in the *Name contains* field to display the volumes whose name contains "`abc`".
- .. Select *<<All Volumes whose name contains 'abc'>>* from the Available Resources area, and move it to the Selected Resources area.
+ .. Select << All Volumes whose name contains 'abc'>> from the Available Resources area, and move it to the Selected Resources area.
  .. Click *Exclude*, and enter `xyz` in the *Name contains* field, and then click *Add*.
 . Click *Events*, and select *Critical* from the Event Severity field.
 . Select *All Critical Events* from the Matching Events area, and move it to the Selected Events area.
