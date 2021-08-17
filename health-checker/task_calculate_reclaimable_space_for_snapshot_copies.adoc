@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_calculate_reclaimable_space_for_snapshot_copies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted.'
+keywords: calculate, reclaimable space, snapshot copies
+summary: "You can calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted."
 ---
 = Calculating reclaimable space for Snapshot copies
 :icons: font
@@ -11,10 +11,13 @@ summary: 'You can calculate the amount of disk space that can be reclaimed if on
 [.lead]
 You can calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted.
 
+*What you'll need*
+
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * The volume must be online.
 * The volume must be a FlexVol volume; this capability is not supported with FlexGroup volumes.
 
+.Steps
 . In the left navigation pane, click *Storage* > *Volumes*.
 . In the Health: All Volumes view, select the volume that contains the Snapshot copies you want to view.
 +
