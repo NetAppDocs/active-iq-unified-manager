@@ -1,8 +1,8 @@
 ---
 permalink: config/task_change_unified_manager_host_name_on_vmware.html
 sidebar: sidebar
-keywords: 
-summary: 'The network host is assigned a name when the Unified Manager virtual appliance is first deployed. You can change the host name after deployment. If you change the host name, you must also regenerate the HTTPS certificate.'
+keywords: change, unified manager, virtual, appliance, host name
+summary: "The network host is assigned a name when the Unified Manager virtual appliance is first deployed. You can change the host name after deployment. If you change the host name, you must also regenerate the HTTPS certificate."
 ---
 = Changing the Unified Manager virtual appliance host name
 :icons: font
@@ -10,6 +10,8 @@ summary: 'The network host is assigned a name when the Unified Manager virtual a
 
 [.lead]
 The network host is assigned a name when the Unified Manager virtual appliance is first deployed. You can change the host name after deployment. If you change the host name, you must also regenerate the HTTPS certificate.
+
+*What you'll need*
 
 You must be logged in to Unified Manager as the maintenance user, or have the Application Administrator role assigned to you to perform these tasks.
 
@@ -22,6 +24,8 @@ If you access the web UI by using the server's IP address instead of the host na
 If you change the host name in Unified Manager, you must manually update the host name in OnCommand Workflow Automation (WFA). The host name is not updated automatically in WFA.
 
 The new certificate does not take effect until the Unified Manager virtual machine is restarted.
+
+.Steps
 
 . xref:task_generate_an_https_security_certificate_ocf.adoc[Generate an HTTPS security certificate]
 +
