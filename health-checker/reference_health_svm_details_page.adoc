@@ -348,7 +348,7 @@ Displays details about the user and user group quotas for the selected storage V
 
 * *Edit Email Address command button*
 +
-Opens the Edit Email Address dialog box, which displays the current email address of the selected user or user group. You can modify the email address. If the**Edit Email Address** field is blank, the default rule is used to generate an email address for the selected user or user group.
+Opens the Edit Email Address dialog box, which displays the current email address of the selected user or user group. You can modify the email address. If the **Edit Email Address** field is blank, the default rule is used to generate an email address for the selected user or user group.
 +
 If more than one user has the same quota, the names of the users are displayed as comma-separated values. Also, the default rule is not used to generate the email address; therefore, you must provide the required email address for notifications to be sent.
 
