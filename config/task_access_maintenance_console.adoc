@@ -1,8 +1,8 @@
 ---
 permalink: config/task_access_maintenance_console.html
 sidebar: sidebar
-keywords: 
-summary: 'If the Unified Manager user interface is not in operation, or if you need to perform functions that are not available in the user interface, you can access the maintenance console to manage your Unified Manager system.'
+keywords: access, maintenance console
+summary: "If the Unified Manager user interface is not in operation, or if you need to perform functions that are not available in the user interface, you can access the maintenance console to manage your Unified Manager system."
 ---
 = Accessing the maintenance console
 :icons: font
@@ -10,6 +10,8 @@ summary: 'If the Unified Manager user interface is not in operation, or if you n
 
 [.lead]
 If the Unified Manager user interface is not in operation, or if you need to perform functions that are not available in the user interface, you can access the maintenance console to manage your Unified Manager system.
+
+*What you'll need*
 
 You must have installed and configured Unified Manager.
 
@@ -20,8 +22,11 @@ After 15 minutes of inactivity, the maintenance console logs you out.
 When installed on VMware, if you have already logged in as the maintenance user through the VMware console, you cannot simultaneously log in using Secure Shell.
 ====
 
+.Step
+
 . Follow these steps to access the maintenance console:
 +
+[cols="2*",options="header"]
 |===
 | On this operating system...| Follow these steps...
 a|
@@ -46,11 +51,6 @@ a|
  .. Log in to the Unified Manager system with administrator credentials.
  .. Launch PowerShell as a Windows administrator.
  .. Enter the command `maintenance_console` and press Enter.
-
 +
 |===
 The Unified Manager maintenance console menu is displayed.
-
-*Related information*
-
-xref:task_use_maintenance_console.adoc[Using the maintenance console]

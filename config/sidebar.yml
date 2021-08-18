@@ -1,6 +1,5 @@
 section: config
 title: Perform configuration and administrative tasks
-url: "/config/index.html"
 entries:
   - title: Configuring Active IQ Unified Manager
     url: "/config/concept_configure_unified_manager.html"

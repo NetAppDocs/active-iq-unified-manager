@@ -2,7 +2,7 @@
 permalink: config/task_add_clusters.html
 sidebar: sidebar
 keywords: add cluster
-summary: 'You can add a cluster to Active IQ Unified Manager so that you can monitor the cluster. This includes the ability to obtain cluster information such as the health, capacity, performance, and configuration of the cluster so that you can find and resolve any issues that might occur.'
+summary: "You can add a cluster to Active IQ Unified Manager so that you can monitor the cluster. This includes the ability to obtain cluster information such as the health, capacity, performance, and configuration of the cluster so that you can find and resolve any issues that might occur."
 ---
 = Adding clusters
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can add a cluster to Active IQ Unified Manager so that you can mon
 
 [.lead]
 You can add a cluster to Active IQ Unified Manager so that you can monitor the cluster. This includes the ability to obtain cluster information such as the health, capacity, performance, and configuration of the cluster so that you can find and resolve any issues that might occur.
+
+*What you'll need*
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have the following information:
@@ -41,6 +43,8 @@ You can add clusters which are behind a NAT/firewall by using the Unified Manage
 For a MetroCluster configuration, you must add both the local and remote clusters, and the clusters must be configured correctly.
 
 You can monitor a single cluster by two instances of Unified Manager provided that you have configured a second cluster-management LIF on the cluster so that each instance of Unified Manager connects through a different LIF.
+
+.Steps
 
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
 . On the Cluster Setup page, click *Add*.

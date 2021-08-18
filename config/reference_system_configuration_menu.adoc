@@ -1,8 +1,8 @@
 ---
 permalink: config/reference_system_configuration_menu.html
 sidebar: sidebar
-keywords: 
-summary: 'The System Configuration menu enables you to manage your virtual appliance by providing various options, such as viewing the server status, and rebooting and shutting down the virtual machine.'
+keywords: system, configuration, menu
+summary: "The System Configuration menu enables you to manage your virtual appliance by providing various options, such as viewing the server status, and rebooting and shutting down the virtual machine."
 ---
 = System Configuration menu
 :icons: font

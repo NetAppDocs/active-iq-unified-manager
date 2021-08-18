@@ -1,8 +1,8 @@
 ---
 permalink: config/reference_regenerate_https_certificate_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Regenerate HTTPS Certificate dialog box enables you to customize the security information and then generate a new HTTPS certificate with that information.'
+keywords: regenerate, https certificate, dialog, box
+summary: "The Regenerate HTTPS Certificate dialog box enables you to customize the security information and then generate a new HTTPS certificate with that information."
 ---
 = Regenerate HTTPS Certificate dialog box
 :icons: font
