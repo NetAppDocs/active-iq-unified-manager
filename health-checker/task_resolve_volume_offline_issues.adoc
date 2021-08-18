@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_resolve_volume_offline_issues.html
 sidebar: sidebar
-keywords: 
-summary: 'This workflow provides an example of how you might evaluate and resolve a volume offline event that Unified Manager might display in the Event Management inventory page. In this scenario, you are an administrator using Unified Manager to troubleshoot one or more volume offline events.'
+keywords: resolve, volume, offline issues
+summary: "This workflow provides an example of how you might evaluate and resolve a volume offline event that Unified Manager might display in the Event Management inventory page. In this scenario, you are an administrator using Unified Manager to troubleshoot one or more volume offline events."
 ---
 = Resolving volume offline issues
 :icons: font
@@ -10,6 +10,8 @@ summary: 'This workflow provides an example of how you might evaluate and resolv
 
 [.lead]
 This workflow provides an example of how you might evaluate and resolve a volume offline event that Unified Manager might display in the Event Management inventory page. In this scenario, you are an administrator using Unified Manager to troubleshoot one or more volume offline events.
+
+*What you'll need*
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
@@ -22,6 +24,7 @@ Volumes might be reported offline for several reasons:
 
 You can use the Event Management inventory page and the Cluster/Health, Storage VM/Health, and Volume/Health details pages to confirm or eliminate one or more of these possibilities.
 
+.Steps
 . In the left navigation pane, click *Event Management*.
 . In the Event Management inventory page, select *Active Availability events*.
 . Click the hypertext link displayed for the Volume Offline event.

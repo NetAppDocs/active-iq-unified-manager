@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_resolve_storage_failover_interconnect_link_down_condition.html
 sidebar: sidebar
-keywords: 
-summary: 'This workflow provides an example of how you might scan for, evaluate, and resolve downed storage failover interconnect link conditions. In this scenario, you are an administrator using Unified Manager to scan for storage failover risks before starting an ONTAP version upgrade on your nodes.'
+keywords: scan, resolve, storage, failover, interconnect link, conditions
+summary: "This workflow provides an example of how you might scan for, evaluate, and resolve downed storage failover interconnect link conditions. In this scenario, you are an administrator using Unified Manager to scan for storage failover risks before starting an ONTAP version upgrade on your nodes."
 ---
 = Scanning for and resolving storage failover interconnect link down conditions
 :icons: font
@@ -11,10 +11,13 @@ summary: 'This workflow provides an example of how you might scan for, evaluate,
 [.lead]
 This workflow provides an example of how you might scan for, evaluate, and resolve downed storage failover interconnect link conditions. In this scenario, you are an administrator using Unified Manager to scan for storage failover risks before starting an ONTAP version upgrade on your nodes.
 
+*What you'll need*
+
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
 If storage failover interconnections between HA pair nodes fail during a nondisruptive upgrade attempt, the upgrade fails. Therefore, common practice is for the administrator to monitor and confirm storage failover reliability on the cluster nodes targeted for upgrade before the start of an upgrade.
 
+.Steps
 . In the left navigation pane, click *Event Management*.
 . In the Event Management inventory page, select *Active Availability events*.
 . At the top of the Event Management inventory pageName column, click image:../media/filtericon_um60.png[Icon for column filter] and enter `*failover` in the text box to limit the event to display to storage failover-related events.
