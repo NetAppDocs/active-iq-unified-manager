@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_perform_diagnotstic_actions_for_volume_offline_conditions.html
 sidebar: sidebar
-keywords: 
-summary: 'After navigating to the Volume / Health details page of a volume reported to be offline, you can search for additional information helpful to diagnosing the volume offline condition.'
+keywords: perform, diagnostic actions, volume, offline, conditions
+summary: "After navigating to the Volume / Health details page of a volume reported to be offline, you can search for additional information helpful to diagnosing the volume offline condition."
 ---
 = Performing diagnostic actions for volume offline conditions
 :icons: font
@@ -10,6 +10,8 @@ summary: 'After navigating to the Volume / Health details page of a volume repor
 
 [.lead]
 After navigating to the Volume / Health details page of a volume reported to be offline, you can search for additional information helpful to diagnosing the volume offline condition.
+
+*What you'll need*
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
