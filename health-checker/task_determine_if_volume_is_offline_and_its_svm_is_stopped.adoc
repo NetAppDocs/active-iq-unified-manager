@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_determine_if_volume_is_offline_and_its_svm_is_stopped.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host storage virtual machine \(SVM\) is stopped due to the node hosting the root volume of that SVM being down.'
+keywords: determine, volume, offline, svm, node
+summary: "You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host storage virtual machine (SVM) is stopped due to the node hosting the root volume of that SVM being down."
 ---
 = Determining if a volume is offline and its SVM is stopped because a node is down
 :icons: font
@@ -11,10 +11,13 @@ summary: 'You can use the Unified Manager web UI to confirm or eliminate the pos
 [.lead]
 You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host storage virtual machine (SVM) is stopped due to the node hosting the root volume of that SVM being down.
 
+*What you'll need*
+
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
 To determine if the volume offline condition is caused its host SVM being stopped because the node hosting the root volume of that SVM is down, perform the following actions:
 
+.Steps
 . Locate and click the hypertext link displayed under the SVM in the Related Devices pane of the offline volume's Volume / Health details page.
 +
 The Storage VM / Health details page displays the "`running`" or the "`stopped`" status of the hosting SVM. If the SVM status is running, then the volume offline condition is not caused by the node hosting the root volume of that SVM being down.

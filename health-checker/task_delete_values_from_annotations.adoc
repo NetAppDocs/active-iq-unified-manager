@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_delete_values_from_annotations.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete values associated with custom annotations when that value no longer applies to the annotation.'
+keywords: delete, values, annotations
+summary: "You can delete values associated with custom annotations when that value no longer applies to the annotation."
 ---
 = Deleting values from annotations
 :icons: font
@@ -11,11 +11,14 @@ summary: 'You can delete values associated with custom annotations when that val
 [.lead]
 You can delete values associated with custom annotations when that value no longer applies to the annotation.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 * The annotation value must not be associated with any annotation rules or group rules.
 
 You cannot delete values from predefined annotations.
 
+.Steps
 . In the left navigation pane, click *Storage Management* > *Annotations*.
 . In the annotations list in the Annotations tab, select the annotation from which you want to delete a value.
 . In the Values area of the Annotations tab, select the value you want to delete, and then click *Delete*.

@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_delete_snapshot_copies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a Snapshot copy to conserve space or to free disk space, or you can delete the Snapshot copy if it is no longer required.'
+keywords: delete, snapshot copies
+summary: "You can delete a Snapshot copy to conserve space or to free disk space, or you can delete the Snapshot copy if it is no longer required."
 ---
 = Deleting Snapshot copies
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can delete a Snapshot copy to conserve space or to free disk space
 
 [.lead]
 You can delete a Snapshot copy to conserve space or to free disk space, or you can delete the Snapshot copy if it is no longer required.
+
+*What you'll need*
 
 You must have the Application Administrator or Storage Administrator role.
 
@@ -25,6 +27,7 @@ The base Snapshot copy is the Snapshot copy that is used to create the FlexClone
 +
 The Snapshot copy is locked and is required for the next update.
 
+.Steps
 . In the left navigation pane, click *Storage* > *Volumes*.
 . In the Health: All Volumes view, select the volume that contains the Snapshot copies you want to view.
 +

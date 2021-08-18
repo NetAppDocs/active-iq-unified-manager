@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_determine_if_volume_is_offline_because_of_broken_disks.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because RAID disk problems have taken its host aggregate offline.'
+keywords: determine, volume, offline, broken disks, aggregate
+summary: "You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because RAID disk problems have taken its host aggregate offline."
 ---
 = Determining if a volume is offline because of broken disks in an aggregate
 :icons: font
@@ -11,10 +11,13 @@ summary: 'You can use the Unified Manager web UI to confirm or eliminate the pos
 [.lead]
 You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because RAID disk problems have taken its host aggregate offline.
 
+*What you'll need*
+
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
 To determine if the volume offline condition is caused by RAID disk problems that are taking the hosting aggregate offline, perform the following actions:
 
+.Steps
 . Locate and click the hypertext link displayed under Aggregate in the Related Devices pane of the Volume / Health details page.
 +
 The Aggregate / Health details page displays the online or offline status of the hosting aggregate. If the aggregate status is online, then RAID disk problems are not the cause of the volume being offline.
