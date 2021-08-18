@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_generate_and_upload_support_bundle.html
 sidebar: sidebar
-keywords: 
-summary: 'You can generate a support bundle, containing diagnostic information, so that you can send it to technical support for troubleshooting help. Starting with Unified Manager 9.8, if your Unified Manager server is connected to the internet, you can also upload the support bundle to NetApp from the maintenance console.'
+keywords: generate, upload, support bundle
+summary: "You can generate a support bundle, containing diagnostic information, so that you can send it to technical support for troubleshooting help. Starting with Unified Manager 9.8, if your Unified Manager server is connected to the internet, you can also upload the support bundle to NetApp from the maintenance console."
 ---
 = Generating and uploading a support bundle
 :icons: font
@@ -11,12 +11,15 @@ summary: 'You can generate a support bundle, containing diagnostic information, 
 [.lead]
 You can generate a support bundle, containing diagnostic information, so that you can send it to technical support for troubleshooting help. Starting with Unified Manager 9.8, if your Unified Manager server is connected to the internet, you can also upload the support bundle to NetApp from the maintenance console.
 
+*What you'll need*
+
 You must have access to the maintenance console as the maintenance user.
 
 Because some types of support data can use a large amount of cluster resources or take a long time to complete, when you select the full support bundle you can specify data types to include or exclude to reduce the support bundle size. You also have the option to create a lightweight support bundle that contains just 30 days of logs and configuration database records -- it excludes performance data, acquisition recording files, and server heap dump.
 
 Unified Manager stores only the two most recently generated support bundles. Older support bundles are deleted from the system.
 
+.Steps
 . In the maintenance console Main Menu, select *Support/Diagnostics*.
 . Select *Generate Light Support Bundle* or *Generate Support Bundle* depending on the level of details you want to have in the support bundle.
 . If you choose the full support bundle, select or deselect the following data types to include or exclude in the support bundle:
