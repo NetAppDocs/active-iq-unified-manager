@@ -1,6 +1,5 @@
 section: data-protection
 title: Protect and restore data
-url: "/data-protection/index.html"
 entries:
   - title: Creating, monitoring, and troubleshooting protection relationships
     url: "/data-protection/concept_create_and_monitor_protection_relationships.html"

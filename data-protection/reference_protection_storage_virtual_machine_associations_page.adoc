@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_protection_storage_virtual_machine_associations_page.html
 sidebar: sidebar
-keywords: 
-summary: 'The SVM Peers page enables you to view existing storage VM peers between source and destination storage VM and to create new storage VM for use by partner applications to create SnapMirror and SnapVault relationships.'
+keywords: svm, peers, page
+summary: "The SVM Peers page enables you to view existing storage VM peers between source and destination storage VM and to create new storage VM for use by partner applications to create SnapMirror and SnapVault relationships."
 ---
 = SVM Peers page
 :icons: font

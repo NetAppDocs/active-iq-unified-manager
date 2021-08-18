@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_protection_jobs_page.html
 sidebar: sidebar
-keywords: 
-summary: 'The Jobs page enables you to view the current status and other information about all partner application protection jobs that are currently running, as well as jobs that have completed. You can use this information to see which jobs are still running and whether a job has succeeded or failed.'
+keywords: jobs, page
+summary: "The Jobs page enables you to view the current status and other information about all partner application protection jobs that are currently running, as well as jobs that have completed. You can use this information to see which jobs are still running and whether a job has succeeded or failed."
 ---
 = Jobs page
 :icons: font

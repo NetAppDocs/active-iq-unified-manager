@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_edit_relationship_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You can edit an existing protection relationship to change the maximum transfer rate, the protection policy, or the protection schedule.'
+keywords: edit, relationship, dialog box
+summary: "You can edit an existing protection relationship to change the maximum transfer rate, the protection policy, or the protection schedule."
 ---
 = Edit Relationship dialog box
 :icons: font

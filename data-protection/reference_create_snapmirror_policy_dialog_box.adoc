@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/reference_create_snapmirror_policy_dialog_box.html
 sidebar: sidebar
-keywords: create snapmirror Policy dialog box
+keywords: create, snapmirror, policy, dialog box
 summary: "The Create SnapMirror Policy dialog box enables you to create a policy to set the priority for SnapMirror transfers. You use policies to maximize the efficiency of transfers from the source to the destination."
 ---
 = Create SnapMirror Policy dialog box
