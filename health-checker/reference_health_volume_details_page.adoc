@@ -523,7 +523,7 @@ Clicking another volume in the topology selects and displays information for tha
 
 +
 The topology displays information about volume capacity, lag, Snapshot copies, and last successful data transfer if it conforms to one of several common topology templates. If a topology does not conform to one of those templates, information about volume lag and last successful data transfer is displayed in a relationship table under the topology. In that case, the highlighted row in the table indicates the selected volume, and, in the topology view, bold lines with a blue dot indicate the relationship between the selected volume and its source volume.
-+
+
 Topology views include the following information:
 
  ** Capacity
