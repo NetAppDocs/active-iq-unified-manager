@@ -1,8 +1,8 @@
 ---
 permalink: events/concept_event_state_definitions.html
 sidebar: sidebar
-keywords: 
-summary: 'The state of an event helps you identify whether an appropriate corrective action is required. An event can be New, Acknowledged, Resolved, or Obsolete. Note that both New and Acknowledged events are considered to be active events.'
+keywords: event, state, definitions
+summary: "The state of an event helps you identify whether an appropriate corrective action is required. An event can be New, Acknowledged, Resolved, or Obsolete. Note that both New and Acknowledged events are considered to be active events."
 ---
 = Event state definitions
 :icons: font
