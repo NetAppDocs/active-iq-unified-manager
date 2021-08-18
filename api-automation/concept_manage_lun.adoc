@@ -1,22 +1,22 @@
 ---
 permalink: api-automation/concept_manage_lun.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the /storage-provider/luns API to view, add, modify, and delete the LUNs in your data center environment.'
+keywords: manage, lun
+summary: "You can use the /storage-provider/luns API to view, add, modify, and delete the LUNs in your data center environment."
 ---
 = Managing LUNs
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the /storage-provider/luns API to view, add, modify, and delete the LUNs in your data center environment.
+You can use the `/storage-provider/luns` API to view, add, modify, and delete the LUNs in your data center environment.
 
 Before provisioning the LUNs, ensure that the SVM has been created and provisioned with the supported protocols. If you are assigning Performance Service Levels (PSLs) or Storage Efficiency Policies (SEPs), while provisioning, the PSLs or SEPs should be created before creating the LUN.
 
 == View LUNs
 
 You can use the following method to view the LUNs in your Unified Manager environment. When you have added an ONTAP cluster as a datasource on Active IQ Unified Manager, the storage workloads for those clusters are automatically added to your Unified Manager instance. This API retrieves all the LUNs automatically and manually added to your Unified Manager instance. You can view the details of a specific LUN by running this API with the LUN key.
-
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -24,16 +24,16 @@ storage-provider
 a|
 GET
 a|
-/storage-provider/luns
+`/storage-provider/luns`
 
-/storage-provider/luns/\{key}
+`/storage-provider/luns/\{key}`
 
 |===
 
 == Add LUNs
 
 You can use the following method to add LUNs to your SVMs.
-
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -41,7 +41,7 @@ storage-provider
 a|
 POST
 a|
-/storage-provider/luns
+`/storage-provider/luns`
 |===
 
 [NOTE]
@@ -57,7 +57,7 @@ You can use the following method to delete a specific LUN. You need to provide t
 ====
 If you have created a volume in ONTAP and then provisioned LUNs through Unified Manager on that volume, when you delete all of the LUNs by using this API, the volume also gets deleted from the ONTAP cluster.
 ====
-
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -65,7 +65,7 @@ storage-provider
 a|
 DELETE
 a|
-/storage-provider/luns/\{key}
+`/storage-provider/luns/\{key}`
 |===
 
 == Modify LUNs
@@ -84,10 +84,5 @@ storage-provider
 a|
 PATCH
 a|
-/storage-provider/luns/\{key}
+`/storage-provider/luns/\{key}`
 |===
-*Related information*
-
-xref:concept_provision_luns.adoc[Provisioning LUNs]
-
-xref:concept_modify_workloads_workflow.adoc[Modifying storage workloads]

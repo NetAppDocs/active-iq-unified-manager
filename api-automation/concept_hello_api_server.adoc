@@ -1,7 +1,7 @@
 ---
 permalink: api-automation/concept_hello_api_server.html
 sidebar: sidebar
-keywords: hello, api, server
+keywords: hello, api server
 summary: "The Hello API server is a sample program that demonstrates how to invoke a REST API in Active IQ Unified Manager using a simple REST client. The sample program provides you basic details about the API server in the JSON format (the server supports only application/json format)."
 ---
 = Hello API server
