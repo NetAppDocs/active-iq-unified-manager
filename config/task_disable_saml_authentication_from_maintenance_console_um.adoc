@@ -1,8 +1,8 @@
 ---
 permalink: config/task_disable_saml_authentication_from_maintenance_console_um.html
 sidebar: sidebar
-keywords: 
-summary: 'You may need to disable SAML authentication from the maintenance console when there is no access to the Unified Manager GUI. This could happen in cases of misconfiguration or if the IdP is not accessible.'
+keywords: disable, saml authentication, maintenance, console
+summary: "You may need to disable SAML authentication from the maintenance console when there is no access to the Unified Manager GUI. This could happen in cases of misconfiguration or if the IdP is not accessible."
 ---
 = Disabling SAML authentication from the maintenance console
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You may need to disable SAML authentication from the maintenance conso
 
 [.lead]
 You may need to disable SAML authentication from the maintenance console when there is no access to the Unified Manager GUI. This could happen in cases of misconfiguration or if the IdP is not accessible.
+
+*What you'll need*
 
 You must have access to the maintenance console as the maintenance user.
 
@@ -21,6 +23,8 @@ You can also disable SAML authentication from the Setup/Authentication page in t
 ====
 Unified Manager is restarted automatically after SAML authentication is disabled.
 ====
+
+.Steps
 
 . Log into the maintenance console.
 . In the Main Menu, enter the number for the *Disable SAML authentication* option.

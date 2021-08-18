@@ -1,8 +1,8 @@
 ---
 permalink: config/task_enable_and_disable_policy_based_storage_management.html
 sidebar: sidebar
-keywords: provisioning,performance service levels
-summary: 'Starting with Unified Manager 9.7, you can provision storage workloads \(volumes and LUNs\) on your ONTAP clusters, and manage those workloads based on assigned performance service levels. This functionality is similar to creating workloads in ONTAP System Manager and attaching QoS policies, but when applied using Unified Manager you can provision and manage workloads across all clusters that your Unified Manager instance is monitoring.'
+keywords: provisioning, performance service levels, storage management, enable, disable, policy-based
+summary: "Starting with Unified Manager 9.7, you can provision storage workloads (volumes and LUNs) on your ONTAP clusters, and manage those workloads based on assigned performance service levels. This functionality is similar to creating workloads in ONTAP System Manager and attaching QoS policies, but when applied using Unified Manager you can provision and manage workloads across all clusters that your Unified Manager instance is monitoring."
 ---
 = Enabling and disabling policy-based storage management
 :icons: font
@@ -17,6 +17,7 @@ This option is enabled by default, but you can disable it if you do not want to 
 
 When enabled, this option provides many new items in the user interface:
 
+[cols="2*",options="header"]
 |===
 | New Content| Location
 a|
@@ -38,9 +39,12 @@ Available from the Dashboard
 |===
 See the online help in the product for more information on these pages and on this functionality.
 
+.Steps
+
 . In the left navigation pane, click *General* > *Feature Settings*.
 . In the Feature Settings page, disable or enable policy-based storage management by choosing one of the following options:
 +
+[cols="2*",options="header"]
 |===
 | If you want to...| Then do this...
 a|

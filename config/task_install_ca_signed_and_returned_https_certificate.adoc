@@ -1,8 +1,8 @@
 ---
 permalink: config/task_install_ca_signed_and_returned_https_certificate.html
 sidebar: sidebar
-keywords: 
-summary: 'You can upload and install a security certificate after a Certificate Authority has signed and returned it. The file that you upload and install must be a signed version of the existing self-signed certificate. A CA-signed certificate helps prevent man-in-the middle attacks and provides better security protection than a self-signed certificate.'
+keywords: install, ca signed, returned, https, certificate
+summary: "You can upload and install a security certificate after a Certificate Authority has signed and returned it. The file that you upload and install must be a signed version of the existing self-signed certificate. A CA-signed certificate helps prevent man-in-the middle attacks and provides better security protection than a self-signed certificate."
 ---
 = Installing a CA signed and returned HTTPS certificate
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can upload and install a security certificate after a Certificate 
 
 [.lead]
 You can upload and install a security certificate after a Certificate Authority has signed and returned it. The file that you upload and install must be a signed version of the existing self-signed certificate. A CA-signed certificate helps prevent man-in-the middle attacks and provides better security protection than a self-signed certificate.
+
+*What you'll need*
 
 You must have completed the following actions:
 
@@ -24,12 +26,14 @@ You must have the Application Administrator role.
 If the validity of certificate for which a CSR was created is more than 397 days, then the validity will be reduced to 397 days by the CA before signing and returning the certificate
 ====
 
+.Steps
+
 . In the left navigation pane, click *General* > *HTTPS Certificate*.
 . Click *Install HTTPS Certificate*.
 . In the dialog box that is displayed, click *Choose file...* to locate the file to upload.
 . Select the file, and then click *Install* to install the file.
 +
-link:concept_install_https_certificate_generated_using_external_tools.dita[concept_install_https_certificate_generated_using_external_tools.dita]
+link:concept_install_https_certificate_generated_using_external_tools.adoc[Installing a HTTPS certificate generated using external tools]
 
 == Example certificate chain
 
