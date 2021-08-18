@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_determine_if_volume_offline_condition_is_by_down_cluster_node.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host node is down and that storage failover to its HA pair partner is unsuccessful.'
+keywords: determine, volume, offline, host, node
+summary: "You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host node is down and that storage failover to its HA pair partner is unsuccessful."
 ---
 = Determining if a volume is offline because its host node is down
 :icons: font
@@ -11,10 +11,13 @@ summary: 'You can use the Unified Manager web UI to confirm or eliminate the pos
 [.lead]
 You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host node is down and that storage failover to its HA pair partner is unsuccessful.
 
+*What you'll need*
+
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
 To determine if the volume offline condition is caused by failure of the hosting node and subsequent unsuccessful storage failover, perform the following actions:
 
+.Steps
 . Locate and click the hypertext link displayed under SVM in the Related Devices pane of the offline volume's Volume / Health details page.
 +
 The Storage VM / Health details page displays information about the offline volume's hosting storage virtual machine (SVM).
