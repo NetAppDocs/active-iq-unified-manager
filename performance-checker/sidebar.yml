@@ -1,6 +1,5 @@
 section: performance-checker
 title: Monitor and manage cluster performance
-url: "/performance-checker/index.html"
 entries:
   - title: Introduction to Active IQ Unified Manager performance monitoring
     url: "/performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html"
