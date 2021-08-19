@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/task_create_storage_virtual_machine_svm_associations.html
 sidebar: sidebar
-keywords: 
-summary: 'The Create Storage Virtual Machine Peers wizard enables partner protection applications to associate a source storage VM with a destination storage VM for use with SnapMirror and SnapVault relationships. Partner applications use these associations at the time of initial provisioning of destination volumes to determine which resources to select.'
+keywords: create, storage, vm, peers
+summary: "The Create Storage Virtual Machine Peers wizard enables partner protection applications to associate a source storage VM with a destination storage VM for use with SnapMirror and SnapVault relationships. Partner applications use these associations at the time of initial provisioning of destination volumes to determine which resources to select."
 ---
 = Creating Storage VM Peers
 :icons: font
@@ -11,6 +11,8 @@ summary: 'The Create Storage Virtual Machine Peers wizard enables partner protec
 [.lead]
 The Create Storage Virtual Machine Peers wizard enables partner protection applications to associate a source storage VM with a destination storage VM for use with SnapMirror and SnapVault relationships. Partner applications use these associations at the time of initial provisioning of destination volumes to determine which resources to select.
 
+*What you'll need*
+
 * The storage VM you are associating must already exist.
 * You must have the Application Administrator or Storage Administrator role.
 
@@ -18,8 +20,10 @@ For any source storage VM and relationship type, you can choose only one destina
 
 Changing associations using the delete and create functions affects only future provisioning operations. It does not move existing destination volumes.
 
+.Steps
+
 . In the left navigation pane, click *Protection* > *Storage VM Peers*.
-. In the SVM Peers page, click *Create*.
+. In the *SVM Peers* page, click *Create*.
 +
 The Create Storage Virtual Machine Peers wizard is launched.
 
