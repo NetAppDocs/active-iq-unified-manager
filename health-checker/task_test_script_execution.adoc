@@ -43,9 +43,3 @@ a|
 . In the Alert Setup page, select the alert that you added or modified, and then click *Test*.
 +
 The script is executed with the "`-test`" argument, and a notification alert is sent to the email addresses that were specified when the alert was created.
-
-*Related information*
-
-xref:concept_manage_scripts.adoc[Managing scripts]
-
-xref:task_add_scripts.adoc[Adding scripts]

@@ -48,7 +48,3 @@ After you restore the backup, if the OnCommand Workflow Automation server does n
 .Steps
 . On the Workflow Automation server, change the IP address of the Unified Manager server to point to the latest machine.
 . On the Unified Manager server, reset the database password if the acquisition fails in step 1.
-
-*Related information*
-
-xref:concept_what_database_restore_is.adoc[What a database restore is]

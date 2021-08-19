@@ -38,8 +38,4 @@ You decide to resize the volume.
 
 *Related information*
 
-link:[Event details page]
-
-xref:reference_health_volume_details_page.adoc[Volume / Health details page]
-
-xref:reference_health_aggregate_details_page.adoc[Aggregate / Health details page]
+link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_event_details_page.html[Event details page]

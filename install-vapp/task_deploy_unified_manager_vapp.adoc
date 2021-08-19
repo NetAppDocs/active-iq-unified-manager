@@ -1,7 +1,7 @@
 ---
 permalink: install-vapp/task_deploy_unified_manager_vapp.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Deploying Unified Manager includes downloading software, deploying the virtual appliance, creating a maintenance user name and password, and performing the initial setup in the web UI.'
 ---
 = Deploying Unified Manager
@@ -32,7 +32,3 @@ Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM T
 ====
 
 After finishing the deployment and initial setup, you can either add clusters, or configure additional network settings in the maintenance console, and then access the web UI.
-
-*Related information*
-
-xref:concept_requirements_for_installing_unified_manager.adoc[Requirements for installing Unified Manager]

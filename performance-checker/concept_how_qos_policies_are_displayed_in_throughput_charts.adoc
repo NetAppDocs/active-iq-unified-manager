@@ -1,7 +1,7 @@
 ---
 permalink: performance-checker/concept_how_qos_policies_are_displayed_in_throughput_charts.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can view the ONTAP-defined quality of service \(QoS\) policy settings that have been applied to a volume or LUN in the Performance Explorer and Workload Analysis IOPS, IOPS/TB, and MB/s charts. The information displayed in the charts is different depending on the type of QoS policy that has been applied to the workload.'
 ---
 = How different types of QoS policies are displayed in the throughput charts
@@ -50,9 +50,3 @@ When an adaptive QoS policy that has been defined in IOPS/TB appears in the IOPS
 ====
 The IOPS/TB chart displays performance data only when the logical capacity used by the volume is greater than or equal to 128 GB. Gaps are displayed in the chart when the used capacity falls below 128 GB during the selected timeframe.
 ====
-
-*Related information*
-
-xref:reference_what_data_does_workload_analyzer_display.adoc[What data does the workload analyzer display]
-
-xref:task_view_workload_qos_minimum_and_maximum_settings.adoc[Viewing workload QoS minimum and maximum settings in the Performance Explorer]

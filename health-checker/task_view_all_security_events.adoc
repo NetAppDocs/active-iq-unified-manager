@@ -23,9 +23,3 @@ By default, New and Acknowledged events are displayed on the Event Management in
 . From the View menu, select *Active security events*.
 +
 The page displays all New and Acknowledged Security events that have been generated in the past 7 days.
-
-*Related information*
-
-xref:task_add_alerts_for_security_events.adoc[Adding alerts for security events]
-
-xref:task_disable_specific_security_events.adoc[Disabling specific security events]

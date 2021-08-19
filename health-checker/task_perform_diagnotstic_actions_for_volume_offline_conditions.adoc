@@ -33,10 +33,4 @@ See xref:task_determine_if_volume_is_offline_because_of_broken_disks.adoc[Determ
 
 *Related information*
 
-link:[Unified Manager user roles and capabilities]
-
-xref:reference_health_volume_details_page.adoc[Volume / Health details page]
-
-xref:reference_health_svm_details_page.adoc[Storage VM / Health details page]
-
-xref:reference_health_cluster_details_page.adoc[Cluster / Health details page]
+link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]
