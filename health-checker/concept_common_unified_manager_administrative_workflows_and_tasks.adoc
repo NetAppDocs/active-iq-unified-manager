@@ -25,7 +25,7 @@ If hardware failure or storage resource configuration issues cause the display o
 
 * Configuring and monitoring performance incidents
 +
-The Administrator can monitor and manage the performance of the storage system resources that are being monitored. See the http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-perf-ag/home.html[Active IQ Unified Manager Workflow Guide for Managing Cluster Performance] for more information.
+The Administrator can monitor and manage the performance of the storage system resources that are being monitored. See the https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html[Active IQ Unified Manager Workflow Guide for Managing Cluster Performance] for more information.
 
 * Diagnosing and managing volume capacity issues
 +
@@ -33,14 +33,14 @@ If volume storage capacity issues are displayed in the Dashboard page, storage a
 
 * Configuring, monitoring, and diagnosing protection relationship issues
 +
-After creating and configuring protection relationships, storage administrators can view the potential issues related to protection relationships, the current state of the protection relationships, the current and historical protection job success information about the affected relationships, and troubleshooting advice. See the http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-protect/home.html[Active IQ Unified Manager Protection Guide] for more information.
+After creating and configuring protection relationships, storage administrators can view the potential issues related to protection relationships, the current state of the protection relationships, the current and historical protection job success information about the affected relationships, and troubleshooting advice. See the https://docs.netapp.com/us-en/active-iq-unified-manager/data-protection/concept_create_and_monitor_protection_relationships.html[Active IQ Unified Manager Protection Guide] for more information.
 
 * Creating backup files and restoring data from backup files.
 * Associating storage objects with annotations
 +
 By associating storage objects with annotations, storage administrators can filter and view the events that are related to the storage objects, which enables storage administrators to prioritize and resolve the issues that are associated with the events.
 
-* Using REST APIs to help manage your clusters by viewing the health, capacity, and performance information captured by Unified Manager. See the http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-api-dev/home.html[Active IQ Unified Manager API Developer's Guide] for more information.
+* Using REST APIs to help manage your clusters by viewing the health, capacity, and performance information captured by Unified Manager. See the https://docs.netapp.com/us-en/active-iq-unified-manager/api-automation/concept_get_strated_with_um_apis.html[Active IQ Unified Manager API Developer's Guide] for more information.
 * Sending a support bundle to technical support
 +
 Storage administrators can retrieve and send a support bundle to technical support by using the maintenance console. Support bundles must be sent to technical support when the issue requires more detailed diagnosis and troubleshooting than what an AutoSupport message provides.
