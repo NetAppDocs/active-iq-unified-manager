@@ -34,7 +34,7 @@ a|
 150 GB, where the capacity is allocated as follows:
 
 * 50 GB allotted to the root partition
-* 100 GB of free disk space allotted to the ``/opt/netapp/data` directory, which is mounted on an LVM drive or on a separate local disk attached to the target system
+* 100 GB of free disk space allotted to the `/opt/netapp/data` directory, which is mounted on an LVM drive or on a separate local disk attached to the target system
 
 [NOTE]
 ====

@@ -16,5 +16,9 @@ The standard Unified Manager uninstallation does not remove a custom-defined uma
 .Steps
 
 . Log in as the root user to the Red Hat Enterprise Linux server.
-. Delete the umadmin user:``userdel umadmin``
-. Delete the maintenance group:``groupdel maintenance``
+. Delete the umadmin user:
++
+`userdel umadmin`
+. Delete the maintenance group:
++
+`groupdel maintenance`

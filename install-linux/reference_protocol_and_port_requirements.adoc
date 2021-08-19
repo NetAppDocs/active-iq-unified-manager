@@ -83,7 +83,7 @@ Used to access realtime REST API-based EMS events from authenticated ONTAP syste
 The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see the _Active IQ Unified Manager System Configuration Guide_.
 ====
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_configure_unified_manager.html[Active IQ Unified Manager System Configuration Guide]
+link:../config/concept_configure_unified_manager.html[Active IQ Unified Manager System Configuration Guide]
 
 == Connections from the Unified Manager server
 

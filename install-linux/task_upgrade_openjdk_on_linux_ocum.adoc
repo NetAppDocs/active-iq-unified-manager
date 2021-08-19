@@ -21,6 +21,14 @@ You can update OpenJDK releases within release families. For example, you can up
 
 . Log in as a root user on the Unified Manager host machine.
 . Download the appropriate version of OpenJDK (64-bit) to the target system.
-. Stop the Unified Manager services: `systemctl stop ocieau``systemctl stop ocie`
+. Stop the Unified Manager services:
++
+`systemctl stop ocieau`
++
+`systemctl stop ocie`
 . Install the latest OpenJDK on the system.
-. Start the Unified Manager services: `systemctl start ocie``systemctl start ocieau`
+. Start the Unified Manager services:
++
+`systemctl start ocie`
++
+`systemctl start ocieau`

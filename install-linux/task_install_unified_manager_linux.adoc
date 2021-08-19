@@ -47,15 +47,22 @@ a|
 rpm -qa \| grep p7zip
 |===
 
-. If the installed version of MySQL is earlier than MySQL 8.0.25 Community Edition, enter the following command to uninstall it:``rpm -e <mysql_package_name>``
+. If the installed version of MySQL is earlier than MySQL 8.0.25 Community Edition, enter the following command to uninstall it:
++
+`rpm -e <mysql_package_name>`
 +
 If you receive dependency errors, you must add the `--nodeps` option to uninstall the component.
 
-. Navigate to the directory where you downloaded the installation `.zip` file and expand the Unified Manager bundle: `unzip ActiveIQUnifiedManager-<version\>.zip`
+. Navigate to the directory where you downloaded the installation `.zip` file and expand the Unified Manager bundle:
++
+`unzip ActiveIQUnifiedManager-<version\>.zip`
 +
 The required `.rpm` modules for Unified Manager are unzipped to the target directory.
 
-. Verify that the following module is available in the directory: `ls *.rpm`
+. Verify that the following module is available in the directory:
++
+`ls *.rpm`
+ +
  ** `netapp-um<version>.x86_64.rpm`
 . Run the pre-installation script to ensure that there are no system configuration settings or any installed software that might conflict with the installation of Unified Manager: `sudo ./pre_install_check.sh`
 +
@@ -67,12 +74,14 @@ For Red Hat Enterprise Linux 8 system, if you have internal repositories with JD
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
 ----
 
-. *Optional:* You must perform <<STEP_EFB6C72C92504ED68EFE5AE44E710D98,step 7>> only if your system is not connected to the internet and you have to manually download the packages that are required for your installation. If your system has Internet access and all the required packages are available, go to <<STEP_84638F64625B460D9B39BB07971C2480,step 8>>. For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages, and then download those packages:
+. *Optional:* You must perform step 7 only if your system is not connected to the internet and you have to manually download the packages that are required for your installation. If your system has Internet access and all the required packages are available, go to step 8. For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages, and then download those packages:
  .. On the system on which you are installing Unified Manager, view the list of available and unavailable packages: `yum install netapp-um<version\>.x86_64.rpm --assumeno`
 +
 The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
 
- .. On a system that has Internet access, download the missing packages: `yum install <package_name\> --downloadonly --downloaddir=.`
+ .. On a system that has Internet access, download the missing packages:
++
+`yum install <package_name\> --downloadonly --downloaddir=.`
 +
 [NOTE]
 ====
@@ -110,6 +119,8 @@ Log in to Unified Manager in a web browser by using following details:
 ----
 
 . Record the IP address or URL, the assigned user name (umadmin), and the current password.
-. If you created a umadmin user account with a custom home directory prior to installing Unified Manager, then you must specify the umadmin user login shell:``usermod -s /bin/maintenance-user-shell.sh umadmin``
+. If you created a umadmin user account with a custom home directory prior to installing Unified Manager, then you must specify the umadmin user login shell:
++
+`usermod -s /bin/maintenance-user-shell.sh umadmin`
 
-Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in the https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_configure_unified_manager.html[Active IQ Unified Manager System Configuration Guide].
+Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in the link:../config/concept_configure_unified_manager.html[Active IQ Unified Manager System Configuration Guide].

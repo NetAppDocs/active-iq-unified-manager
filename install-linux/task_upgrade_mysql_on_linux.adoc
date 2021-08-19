@@ -29,9 +29,23 @@ You can upgrade the base version of MySQL 8.0.25 to later versions for only mino
  ** mysql-community-common-8.0.25
  ** mysql-community-client-plugins-8.0.25
 Delete all other `.rpm` packages. However, installing all packages in an rpm bundle does not cause errors.
-. Stop the Unified Manager service and the associated MySQL software in the order shown: `systemctl stop ocieau``systemctl stop ocie``systemctl stop mysqld`
-. Invoke the upgrade of MySQL by using the following command: `yum install *.rpm`
+. Stop the Unified Manager service and the associated MySQL software in the order shown:
++
+`systemctl stop ocieau`
++
+`systemctl stop ocie`
++
+`systemctl stop mysqld`
+. Invoke the upgrade of MySQL by using the following command:
++
+`yum install *.rpm`
 +
 *`.rpm` refers to the `.rpm` packages in the directory where you downloaded the newer version of MySQL.
 
-. Start Unified Manager in the order shown: `systemctl start mysqld``systemctl start ocie``systemctl start ocieau`
+. Start Unified Manager in the order shown:
++
+`systemctl start mysqld`
++
+`systemctl start ocie`
++
+`systemctl start ocieau`

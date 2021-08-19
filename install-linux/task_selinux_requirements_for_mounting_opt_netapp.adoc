@@ -20,7 +20,9 @@ If are planning to mount `/opt/netapp` or `/opt/netapp/data` from anywhere other
 
 If you have mounted `/opt/netapp/data` in your system and SELinux is set to `Enforcing`, ensure that the SELinux context type for `/opt/netapp/data` is set to mysqld_db_t, which is the default context element for the location of the database files.
 
-. Run this command to check the context: `ls -dZ /opt/netapp/data`
+. Run this command to check the context:
++
+`ls -dZ /opt/netapp/data`
 +
 A sample output:
 +
@@ -31,11 +33,21 @@ drwxr-xr-x. mysql root unconfined_u:object_r:default_t:s0 /opt/netapp/data
 In this output, the context is default_t that must be changed to mysqld_db_t.
 
 . Perform these steps to set the context based on how you have mounted `/opt/netapp/data`.
- .. Run the following commands to set the context to mysqld_db_t: `semanage fcontext -a -t mysqld_db_t "/opt/netapp/data"``restorecon -R -v /opt/netapp/data`
- .. If you have configured `/opt/netapp/data` in `/etc/fstab`, you must edit the `/etc/fstab` file. For the `/opt/netapp/data/` mount option, add the MySQL label as: `context=system_u:object_r:mysqld_db_t:s0`
+ .. Run the following commands to set the context to mysqld_db_t:
++
+`semanage fcontext -a -t mysqld_db_t "/opt/netapp/data"`
++
+`restorecon -R -v /opt/netapp/data`
+ .. If you have configured `/opt/netapp/data` in `/etc/fstab`, you must edit the `/etc/fstab` file. For the `/opt/netapp/data/` mount option, add the MySQL label as:
++
+`context=system_u:object_r:mysqld_db_t:s0`
  .. Unmount and remount `/opt/netapp/data/` for enabling the context.
- .. If you have a direct NFS mount, run the following command to set the context to mysqld_db_t: `mount <nfsshare>:/<mountpoint> /opt/netapp/data -o context=system_u:object_r:mysqld_db_t:s0`
-. Verify whether the context is set correctly: `ls -dZ /opt/netapp/data/`
+ .. If you have a direct NFS mount, run the following command to set the context to mysqld_db_t:
++
+`mount <nfsshare>:/<mountpoint> /opt/netapp/data -o context=system_u:object_r:mysqld_db_t:s0`
+. Verify whether the context is set correctly:
++
+`ls -dZ /opt/netapp/data/`
 +
 ----
 drwxr-xr-x. mysql root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/data/
@@ -45,7 +57,9 @@ drwxr-xr-x. mysql root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/data/
 
 After setting the correct context for `/opt/netapp/data/`, ensure that the parent directory `/opt/netapp` does not have the SELinux context set to file_t.
 
-. Run this command to check the context: `ls -dZ /opt/netapp`
+. Run this command to check the context:
++
+`ls -dZ /opt/netapp`
 +
 A sample output:
 +
@@ -56,11 +70,21 @@ drwxr-xr-x. mysql root unconfined_u:object_r:file_t:s0 /opt/netapp
 In this output, the context is file_t that must be changed. The following commands set the context to usr_t. You can set the context to any value other than file_t based on your security requirements.
 
 . Perform these steps to set the context, based on how you have mounted `/opt/netapp`.
- .. Run the following commands to set the context: `semanage fcontext -a -t usr_t "/opt/netapp"``restorecon -v /opt/netapp`
- .. If you have configured `/opt/netapp` in `/etc/fstab`, you must edit the `/etc/fstab` file. For the `/opt/netapp` mount option, add the MySQL label as: `context=system_u:object_r:usr_t:s0`
+ .. Run the following commands to set the context:
++
+`semanage fcontext -a -t usr_t "/opt/netapp"`
++
+`restorecon -v /opt/netapp`
+ .. If you have configured `/opt/netapp` in `/etc/fstab`, you must edit the `/etc/fstab` file. For the `/opt/netapp` mount option, add the MySQL label as:
++
+`context=system_u:object_r:usr_t:s0`
  .. Unmount and remount `/opt/netapp` for enabling the context.
- .. If you have a direct NFS mount, run the following command to set the context: `mount <nfsshare>:/<mountpoint> /opt/netapp -o context=system_u:object_r:usr_t:s0`
-. Verify whether the context is set correctly: `ls -dZ /opt/netapp`
+ .. If you have a direct NFS mount, run the following command to set the context:
++
+`mount <nfsshare>:/<mountpoint> /opt/netapp -o context=system_u:object_r:usr_t:s0`
+. Verify whether the context is set correctly:
++
+`ls -dZ /opt/netapp`
 +
 ----
 drwxr-xr-x. mysql root unconfined_u:object_r:usr_t:s0 /opt/netapp

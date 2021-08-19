@@ -38,9 +38,15 @@ This command should return the appropriate status of the ocie service without an
 .Steps
 
 . Log in as the root user to the server.
-. Create the umadmin group account called "`maintenance`":``groupadd maintenance``
-. Create the user account "`umadmin`" in the maintenance group under a home directory of your choice:``adduser --home <home_directory\> -g maintenance umadmin``
-. Define the umadmin password:``passwd umadmin``
+. Create the umadmin group account called "`maintenance`":
++
+`groupadd maintenance`
+. Create the user account "`umadmin`" in the maintenance group under a home directory of your choice:
++
+`adduser --home <home_directory\> -g maintenance umadmin`
+. Define the umadmin password:
++
+`passwd umadmin`
 +
 The system prompts you to enter a new password string for the umadmin user.
 
