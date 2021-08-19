@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_send_asup_to_technical_support.html
 sidebar: sidebar
-keywords: 
-summary: 'You should send a support bundle when the issue that you have requires more detailed diagnosis and troubleshooting than an AutoSupport message provides. You can send a support bundle to technical support using the Unified Manager web Ui and maintenance console.'
+keywords: support bundle, web ui, maintenance console
+summary: "You should send a support bundle when the issue that you have requires more detailed diagnosis and troubleshooting than an AutoSupport message provides. You can send a support bundle to technical support using the Unified Manager web Ui and maintenance console."
 ---
 = Sending a support bundle through web UI and maintenance console
 :icons: font

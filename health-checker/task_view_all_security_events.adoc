@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_view_all_security_events.html
 sidebar: sidebar
-keywords: view security events
-summary: 'You can view all the active security events and then assign each of them to a user who can resolve the issue. Additionally, if there are certain security events that you do not want to receive, this list can help you identify the events that you want to disable.'
+keywords: view, active, security events
+summary: "You can view all the active security events and then assign each of them to a user who can resolve the issue. Additionally, if there are certain security events that you do not want to receive, this list can help you identify the events that you want to disable."
 ---
 = Viewing all active security events
 :icons: font
@@ -11,8 +11,11 @@ summary: 'You can view all the active security events and then assign each of th
 [.lead]
 You can view all the active security events and then assign each of them to a user who can resolve the issue. Additionally, if there are certain security events that you do not want to receive, this list can help you identify the events that you want to disable.
 
+*What you'll need*
+
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
+.Steps
 . In the left navigation pane, click *Event Management*.
 +
 By default, New and Acknowledged events are displayed on the Event Management inventory page.

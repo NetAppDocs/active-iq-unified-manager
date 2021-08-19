@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_specify_destination_location_for_windows_snapshot_backups.html
 sidebar: sidebar
-keywords: 
-summary: 'You should configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters and use maintenance console to define the location.'
+keywords: specify, destination location, windows, snapshot, backups
+summary: "You should configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters and use maintenance console to define the location."
 ---
 = Specifying the destination location for Windows Snapshot backups
 :icons: font

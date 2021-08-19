@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_test_script_execution.html
 sidebar: sidebar
-keywords: 
-summary: 'You can verify that your script is executed correctly when an alert is generated for a storage object.'
+keywords: test, script, execution
+summary: "You can verify that your script is executed correctly when an alert is generated for a storage object."
 ---
 = Testing script execution
 :icons: font
@@ -19,6 +19,7 @@ You can verify that your script is executed correctly when an alert is generated
 . In the left navigation pane, click *Storage Management* > *Alert Setup*.
 . In the Alert Setup page, perform one of the following actions:
 +
+[cols="2*",options="header"]
 |===
 | To...| Do this...
 a|
