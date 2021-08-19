@@ -104,7 +104,3 @@ When a group rule containing these two condition groups is applied on storage ob
 
 * All volumes that include "`vol`" in their names and that are hosted on the SVM with the name "`data_svm`".
 * All volumes that include "`vol`" in their names and that are annotated with the data-priority annotation value "`critical`".
-
-*Related information*
-
-xref:concept_manage_and_monitor_groups.adoc[Managing and monitoring groups]

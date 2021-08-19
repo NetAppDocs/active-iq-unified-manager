@@ -1,6 +1,5 @@
 section: health-checker
 title: Monitor and manage cluster health
-url: "/health-checker/index.html"
 entries:
   - title: Introduction to Active IQ Unified Manager health monitoring
     url: "/health-checker/concept_introduction_to_unified_manager_health_monitoring.html"

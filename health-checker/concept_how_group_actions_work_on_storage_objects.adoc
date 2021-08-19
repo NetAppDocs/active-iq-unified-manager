@@ -21,7 +21,3 @@ Consider a volume A that belongs to groups G1 and G2, and the following volume h
 * `Change_snapshot_copies` group action with rank 2, for configuring the Snapshot copies of the volume
 
 The `Change_capacity_threshold` group action always takes priority over the `Change_snapshot_copies` group action and is applied to volume A. When Unified Manager completes one cycle of monitoring, the health threshold related events of volume A are re-evaluated per the `Change_capacity_threshold` group action. You cannot configure another volume threshold type of group action for either G1 or G2 group.
-
-*Related information*
-
-xref:concept_manage_and_monitor_groups.adoc[Managing and monitoring groups]
