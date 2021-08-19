@@ -1,17 +1,17 @@
 ---
 permalink: api-automation/concept_metrics_apis.html
 sidebar: sidebar
-keywords: 
-summary: 'Active IQ Unified Manager provides you with a set of APIs under the /datacenter category that enable you to view the performance data of your clusters and storage objects in a data center. These APIs retrieve the performance data of the different storage objects, such as clusters, nodes, LUNs, volumes, aggregates, and storage VMs.'
+keywords: view, performance, metrics
+summary: "Active IQ Unified Manager provides you with a set of APIs under the /datacenter category that enable you to view the performance data of your clusters and storage objects in a data center. These APIs retrieve the performance data of the different storage objects, such as clusters, nodes, LUNs, volumes, aggregates, and storage VMs."
 ---
 = Viewing performance metrics
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Active IQ Unified Manager provides you with a set of APIs under the /datacenter category that enable you to view the performance data of your clusters and storage objects in a data center. These APIs retrieve the performance data of the different storage objects, such as clusters, nodes, LUNs, volumes, aggregates, and storage VMs.
+Active IQ Unified Manager provides you with a set of APIs under the `/datacenter` category that enable you to view the performance data of your clusters and storage objects in a data center. These APIs retrieve the performance data of the different storage objects, such as clusters, nodes, LUNs, volumes, aggregates, and storage VMs.
 
-The /metrics and /analytics APIs give different views of the performance metrics, using which, you can drill down to different levels of details for the following storage objects in your data center:
+The `/metrics` and `/analytics` APIs give different views of the performance metrics, using which, you can drill down to different levels of details for the following storage objects in your data center:
 
 * clusters
 * nodes
@@ -20,14 +20,14 @@ The /metrics and /analytics APIs give different views of the performance metrics
 * volumes
 * LUNs
 
-The following table draws a comparison between the /metrics and /analytics APIs with respect to the particulars of the performance data retrieved.
-
+The following table draws a comparison between the `/metrics` and `/analytics` APIs with respect to the particulars of the performance data retrieved.
+[cols="2*",options="header"]
 |===
 | Metrics| Analytics
 a|
-Performance details for a single object. For example, the /datacenter/cluster/clusters/\{key}/metrics API requires the cluster key to be entered as the path parameter for retrieving the metrics for that specific cluster.
+Performance details for a single object. For example, the `/datacenter/cluster/clusters/\{key}/metrics` API requires the cluster key to be entered as the path parameter for retrieving the metrics for that specific cluster.
 a|
-Performance details for multiple objects of the same type in a data center. For example, the /datacenter/cluster/clusters/analytics API retrieves the collective metrics of all the clusters in a data center.
+Performance details for multiple objects of the same type in a data center. For example, the `/datacenter/cluster/clusters/analytics` API retrieves the collective metrics of all the clusters in a data center.
 a|
 Performance metrics sample for a storage object based on the time interval parameter for retrieval.
 a|
@@ -37,7 +37,7 @@ Basic details of the object are retrieved, such as details of a node or cluster.
 a|
 No specific details are retrieved.
 a|
-Accumulated counters, such as, minimum, maximum, and the average performance values over a period of time are retrieved for a single object, such as, read, write, total, and other counters. For example, the /datacenter/cluster/nodes/\{key}/metrics API retrieves the following details (among others) for a node :
+Accumulated counters, such as, minimum, maximum, and the average performance values over a period of time are retrieved for a single object, such as, read, write, total, and other counters. For example, the `/datacenter/cluster/nodes/\{key}/metrics` API retrieves the following details (among others) for a node :
 
 ----
  {
@@ -75,7 +75,7 @@ Accumulated counters, such as, minimum, maximum, and the average performance val
 ----
 
 a|
-A single aggregated value is displayed for all the objects of the same type. For example, the /datacenter/cluster/nodes/analytics API retrieves the following values (among others) for all the nodes:
+A single aggregated value is displayed for all the objects of the same type. For example, the `/datacenter/cluster/nodes/analytics` API retrieves the following values (among others) for all the nodes:
 
 ----
  {
@@ -112,19 +112,19 @@ Default value : 1h
 a|
 Above 72 hours, that is 3 days. The duration over which this sample is calculated are represented in the ISO-8601 standard format.
 |===
-The following table describes the /metrics and /analytics APIs in details.
+The following table describes the `/metrics` and `/analytics` APIs in details.
 
 [NOTE]
 ====
 The IOPS and performance metrics returned by these APIs are double values, for example `100.53`. Filtering these float values by the pipe (|) and wildcard (*) characters is not supported.
 ====
-
+[cols="3*",options="header"]
 |===
 | HTTP Verb| Path| Description
 a|
 GET
 a|
-/datacenter/cluster/clusters/\{key}/metrics
+`/datacenter/cluster/clusters/\{key}/metrics`
 
 a|
 Retrieves performance data (sample and summary) for a cluster specified by the input parameter of the cluster key. Information, such as the cluster key and UUID, time range, IOPS, throughput, and number of samples is returned.
@@ -132,44 +132,44 @@ Retrieves performance data (sample and summary) for a cluster specified by the i
 a|
 GET
 a|
-/datacenter/cluster/clusters/analytics
+`/datacenter/cluster/clusters/analytics`
 a|
 Retrieves high-level performance metrics for all the clusters in a data center. You can filter your results based on the required criteria. Values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
 
 a|
 GET
 a|
-/datacenter/cluster/nodes/\{key}/metrics
+`/datacenter/cluster/nodes/\{key}/metrics`
 a|
 Retrieves performance data (sample and summary) for a node specified by the input parameter of the node key. Information, such as the node UUID, time range, summary of the IOPS, throughput, latency, and performance, the number of samples collected, and percentage utilized is returned.
 
 a|
 GET
 a|
-/datacenter/cluster/nodes/analytics
+`/datacenter/cluster/nodes/analytics`
 a|
 Retrieves high-level performance metrics for all the nodes in a data center. You can filter your results based on the required criteria. Information, such as node and cluster keys, and values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
 
 a|
 GET
 a|
-/datacenter/storage/aggregates/\{key}/metrics
+`/datacenter/storage/aggregates/\{key}/metrics`
 a|
 Retrieves performance data (sample and summary) for an aggregate specified by the input parameter of the aggregate key. Information, such as the time range, summary of the IOPS, latency, throughput, and performance capacity, the number of samples collected for each counter, and percentage utilized is returned.
 
 a|
 GET
 a|
-/datacenter/storage/aggregates/analytics
+`/datacenter/storage/aggregates/analytics`
 a|
 Retrieves high-level performance metrics for all the aggregates in a data center. You can filter your results based on the required criteria. Information, such as aggregate and cluster keys, and values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
 
 a|
 GET
 a|
-/datacenter/storage/luns/\{key}/metrics
+`/datacenter/storage/luns/\{key}/metrics`
 
-/datacenter/storage/volumes/\{key}/metrics
+`/datacenter/storage/volumes/\{key}/metrics`
 
 a|
 Retrieves performance data (sample and summary) for a LUN or a file share (volume) specified by the input parameter of the LUN or volume key. Information, such as the summary of the minimum, maximum, and average of the read, write, and total IOPS, latency, and throughput, and the number of samples collected for each counter is returned.
@@ -177,9 +177,9 @@ Retrieves performance data (sample and summary) for a LUN or a file share (volum
 a|
 GET
 a|
-/datacenter/storage/luns/analytics
+`/datacenter/storage/luns/analytics`
 
-/datacenter/storage/volumes/analytics
+`/datacenter/storage/volumes/analytics`
 
 a|
 Retrieves high-level performance metrics for all the LUNs or volumes in a data center. You can filter your results based on the required criteria. Information, such as storage VM and cluster keys, and values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
@@ -187,22 +187,22 @@ Retrieves high-level performance metrics for all the LUNs or volumes in a data c
 a|
 GET
 a|
-/datacenter/svm/svms/\{key}/metrics
+`/datacenter/svm/svms/\{key}/metrics`
 
 a|
-Retrieves performance data (sample and summary) for a storage VM specified by the input parameter of the storage VM key. Summary of the IOPS based on each supported protocol, such as nvmf, fcp, iscsi, and nfs, throughput, latency, and the number of samples collected are returned.
+Retrieves performance data (sample and summary) for a storage VM specified by the input parameter of the storage VM key. Summary of the IOPS based on each supported protocol, such as `nvmf, fcp, iscsi,` and `nfs`, throughput, latency, and the number of samples collected are returned.
 
 a|
 GET
 a|
-/datacenter/svm/svms/analytics
+`/datacenter/svm/svms/analytics`
 a|
 Retrieves high-level performance metrics for all the storage VMs in a data center. You can filter your results based on the required criteria. Information, such as storage VM UUID, aggregated IOPS, latency, throughput, and the period of collection (in hours) are returned.
 
 a|
 GET
 a|
-/datacenter/cluster/licensing/licenses /datacenter/cluster/licensing/licenses/\{key}
+`/datacenter/cluster/licensing/licenses /datacenter/cluster/licensing/licenses/\{key}``
 
 a|
 Returns the details of the licenses installed on the clusters in your data center. You can filter your results based on the required criteria. Information, such as the license key, cluster key, expiry date, and license scope is returned.You can enter a license key to retrieve the details of a specific license.

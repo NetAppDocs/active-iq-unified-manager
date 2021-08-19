@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/concept_modify_workloads_workflow.html
 sidebar: sidebar
-keywords: 
-summary: 'Modifying storage workloads consists of updating LUNs or file shares with missing parameters, or changing the existing parameters.'
+keywords: modify, storage, workloads
+summary: "Modifying storage workloads consists of updating LUNs or file shares with missing parameters, or changing the existing parameters."
 ---
 = Modifying storage workloads
 :icons: font
@@ -38,6 +38,7 @@ This procedure describes adding a Performance Service Level to a file share. You
 
 . Obtain the CIFS share or NFS file share key of the file share that you want to update. This API queries all the file shares on your data center. Skip this step if you already know the file share key.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -51,6 +52,7 @@ a|
 
 . View the details of the file share by running the following API with the file share key that you obtained.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -75,6 +77,7 @@ View the details of the file share in the output.
 
 . Obtain the key for the Performance Service Level that you want to assign on this file share. Currently no policy is assigned to it.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -82,7 +85,7 @@ Performance Service Levels
 a|
 GET
 a|
-/storage-provider/performance-service-levels
+`/storage-provider/performance-service-levels`
 |===
 +
 [NOTE]
@@ -92,6 +95,7 @@ You can retrieve the details of the system-defined Performance Service Levels by
 
 . Apply the Performance Service Level on the file share.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -99,14 +103,14 @@ Storage Provider
 a|
 PATCH
 a|
-/storage-provider/file-shares/\{key}
+`/storage-provider/file-shares/\{key}`
 |===
 In the input, you must specify only the parameter that you want to update, along with the file share key. In this case, it is the key of the Performance Service Level.
 +
 *Sample cURL*
 +
 ----
-curl -X POST "https://<hostname>/api/storage-provider/file-shares" -H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" -d
+curl -X POST "https://<hostname>/api/storage-provider/file-shares"`-H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" -d
 "{
 \"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" },
 }"
@@ -116,6 +120,7 @@ The JSON output displays a Job object that you can use to verify the whether the
 
 . Verify whether the Performance Service Level has been added to the file share by using the Job object key displayed in your output.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -123,10 +128,11 @@ Management Server
 a|
 GET
 a|
-/management-server/jobs/\{key}
+`/management-server/jobs/\{key}`
 |===
 If you query by the ID of the Job object, you see whether the file share is updated successfully. In case of a failure, troubleshoot the failure and run the API again. On successful creation, query the file share to see the modified object:
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -134,7 +140,7 @@ storage-provider
 a|
 GET
 a|
-    /storage-provider/file-shares/\{key}
+    `/storage-provider/file-shares/\{key}`
 +
 |===
 View the details of the file share in the output.
@@ -171,6 +177,7 @@ This procedure describes adding a Performance Service Level to a LUN. You can us
 
 . Obtain the LUN key of the LUN that you want to update. This API returns details of all the LUNS in your data center. Skip this step if you already know the LUN key.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -178,11 +185,12 @@ Storage Provider
 a|
 GET
 a|
-/storage-provider/luns
+`/storage-provider/luns`
 |===
 
 . View the details of the LUN by running the following API with the LUN key that you obtained.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -190,7 +198,7 @@ Storage Provider
 a|
 GET
 a|
-/storage-provider/luns/\{key}
+`/storage-provider/luns/\{key}`
 |===
 View the details of the LUN in the output. You can see that there is no Performance Service Level assigned to this LUN.
 +
@@ -209,6 +217,7 @@ View the details of the LUN in the output. You can see that there is no Performa
 
 . Obtain the key for the Performance Service Level that you want to assign to the LUN.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -216,7 +225,7 @@ Performance Service Levels
 a|
 GET
 a|
-/storage-provider/performance-service-levels
+`/storage-provider/performance-service-levels`
 |===
 +
 [NOTE]
@@ -226,6 +235,7 @@ You can retrieve the details of the system-defined Performance Service Levels by
 
 . Apply the Performance Service Level on the LUN.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -233,7 +243,7 @@ Storage Provider
 a|
 PATCH
 a|
-/storage-provider/lun/\{key}
+`/storage-provider/lun/\{key}`
 |===
 In the input, you must specify only the parameter that you want to update, along with the LUN key. In this case it is the key of the Performance Service Level.
 +
@@ -248,6 +258,7 @@ The JSON output displays a Job object key that you can use to verify the LUN tha
 
 . View the details of the LUN by running the following API with the LUN key that you obtained.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -255,7 +266,7 @@ Storage Provider
 a|
 GET
 a|
-/storage-provider/luns/\{key}
+`/storage-provider/luns/\{key}`
 |===
 View the details of the LUN in the output. You can see that the Performance Service Level is assigned to this LUN.
 +
@@ -273,11 +284,3 @@ View the details of the LUN in the output. You can see that the Performance Serv
                 "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
             }
 ----
-
-*Related information*
-
-xref:concept_manage_psl.adoc[Managing Performance Service Levels]
-
-xref:concept_manage_fileshares_api.adoc[Managing file shares]
-
-xref:concept_manage_lun.adoc[Managing LUNs]
