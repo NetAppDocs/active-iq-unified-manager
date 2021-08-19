@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/task_restore_data_use_health_volume_details_page.html
 sidebar: sidebar
-keywords: 
-summary: 'You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Volume / Health details page.'
+keywords: restore, data, volume, health details page
+summary: "You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Volume / Health details page."
 ---
 = Restoring data using the Volume / Health details page
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can restore overwritten or deleted files, directories, or an entir
 
 [.lead]
 You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Volume / Health details page.
+
+*What you'll need*
 
 You must have the Application Administrator or Storage Administrator role.
 
@@ -20,7 +22,9 @@ The restore option is not available when:
 * The volume ID is unknown: for example, when you have an intercluster relationship and the destination cluster has not yet been discovered.
 * The volume is configured for SnapMirror Synchronous replication.
 
-. In the Protection tab of the Volume / Health details page, right-click in the topology view the name of the volume that you want to restore.
+.Steps
+
+. In the *Protection tab* of the *Volume / Health* details page, right-click in the topology view the name of the volume that you want to restore.
 . Select *Restore* from the menu.
 +
 Alternatively, select *Restore* from the *Actions* menu to protect the current volume for which you are viewing the details.
@@ -47,7 +51,3 @@ The restore process begins.
 ====
 If a restore operation fails between Cloud Volumes ONTAP HA clusters with an NDMP error, you may need to add an explicit AWS route in the destination cluster so that the destination can communicate with the source system's cluster management LIF. You perform this configuration step using OnCommand Cloud Manager.
 ====
-
-*Related information*
-
-xref:reference_restore_dialog_box.adoc[Restore dialog box]

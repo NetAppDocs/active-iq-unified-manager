@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/task_restore_data_use_health_volumes_page.html
 sidebar: sidebar
-keywords: 
-summary: 'You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Health: All Volumes view.'
+keywords: restore, data, health, volumes view
+summary: "You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Health: All Volumes view."
 ---
 = Restoring data using the Health: All Volumes view
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can restore overwritten or deleted files, directories, or an entir
 
 [.lead]
 You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Health: All Volumes view.
+
+*What you'll need*
 
 You must have the Application Administrator or Storage Administrator role.
 
@@ -20,7 +22,9 @@ The restore option is not available when:
 * The volume ID is unknown: for example, when you have an intercluster relationship and the destination cluster has not yet been discovered.
 * The volume is configured for SnapMirror Synchronous replication.
 
-. In the Health: All Volumes view, select a volume from which you want to restore data.
+.Steps
+
+. In the *Health: All Volumes* view, select a volume from which you want to restore data.
 . From the toolbar, click *Restore*.
 +
 The Restore dialog box is displayed. The dialog box is modified to have a two column layout to view and select multiple files. But you can only select 10 records at a time.
@@ -34,7 +38,3 @@ You can restore the entire volume, or you can specify folders and files you want
 . Click *Restore*.
 +
 The restore process begins.
-
-*Related information*
-
-xref:reference_restore_dialog_box.adoc[Restore dialog box]
