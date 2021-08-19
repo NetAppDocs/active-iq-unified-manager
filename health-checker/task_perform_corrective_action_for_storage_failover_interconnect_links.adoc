@@ -53,8 +53,6 @@ Using the node location information in the HA Details, request or personally com
 
 *Related information*
 
-link:[Event details page]
+link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_event_details_page.html[Event details page]
 
-xref:reference_health_cluster_details_page.adoc[Cluster / Health details page]
-
-link:[Unified Manager user roles and capabilities]
+link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]

@@ -22,9 +22,3 @@ You can define group rules to add or remove members from the group and to modify
 . In the Groups tab, click *Add*.
 . In the Add Group dialog box, enter a name and description for the group.
 . Click *Add*.
-
-*Related information*
-
-xref:concept_manage_and_monitor_groups.adoc[Managing and monitoring groups]
-
-xref:concept_what_group_is.adoc[What a group is]

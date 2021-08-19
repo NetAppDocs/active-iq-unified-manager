@@ -31,6 +31,4 @@ The default value of 1000 Snapshot copies is applicable only to FlexVol volumes 
 
 *Related information*
 
-xref:task_edit_individual_volume_health_threshold_settings.adoc[Editing individual volume health threshold settings]
-
-link:[Adding users]
+link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html[Adding users]

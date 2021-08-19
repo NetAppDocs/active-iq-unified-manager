@@ -28,7 +28,3 @@ The example below shows how to create an alert for the "`Telnet Protocol Enabled
 . Click *Actions* and then select the name of the user who will receive the alert email in the Alert these users field.
 . Configure any other options on this page for notification frequency, issuing SNMP taps, and executing a script.
 . Click *Save*.
-
-*Related information*
-
-xref:task_view_all_security_events.adoc[Viewing all active security events]

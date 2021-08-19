@@ -33,6 +33,4 @@ Health threshold values are not applicable to the root aggregate of the node.
 
 *Related information*
 
-xref:task_edit_individual_aggregate_health_threshold_settings.adoc[Editing individual aggregate health threshold settings]
-
-link:[Adding users]
+link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html[Adding users]

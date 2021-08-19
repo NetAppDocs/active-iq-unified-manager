@@ -24,7 +24,3 @@ The details of the selected annotation are displayed.
 
 . Click *Actions* > *Delete* to delete the selected annotation and its value.
 . In the warning dialog box, click *Yes* to confirm the deletion.
-
-*Related information*
-
-xref:task_delete_values_from_annotations.adoc[Deleting values from annotations]

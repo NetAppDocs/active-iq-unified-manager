@@ -25,7 +25,3 @@ You cannot add values to predefined annotations.
 The value that you specify must be unique for the selected annotation.
 
 . Click *Add*.
-
-*Related information*
-
-xref:task_add_annotations_dynamically.adoc[Adding annotations dynamically]

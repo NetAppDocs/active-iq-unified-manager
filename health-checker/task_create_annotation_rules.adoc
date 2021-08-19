@@ -69,13 +69,3 @@ Perform the following steps in the Add Annotation Rule dialog box to create an a
 . Click *Add condition*.
 . Repeat steps 8 through 10 by selecting *data-priority* as the operand in step 8, *Is* as the operator in step 9, and *mission-critical* as the value in step 10.
 . Click *Add*.
-
-*Related information*
-
-xref:concept_how_annotation_rules_work_in_unified_manager.adoc[How annotation rules work in Unified Manager]
-
-xref:task_edit_annotation_rules.adoc[Editing annotation rules]
-
-xref:task_reorder_annotation_rules.adoc[Reordering annotation rules]
-
-xref:task_delete_annotation_rules.adoc[Deleting annotation rules]

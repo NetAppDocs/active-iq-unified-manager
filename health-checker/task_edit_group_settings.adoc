@@ -22,7 +22,3 @@ When you edit a group to update the name, you must specify a unique name; you ca
 . In the Groups tab, select the group that you want to edit, and then click *Edit*.
 . In the Edit Group dialog box, change the name, description, or both for the group.
 . Click *Save*.
-
-*Related information*
-
-xref:concept_manage_and_monitor_groups.adoc[Managing and monitoring groups]

@@ -73,4 +73,4 @@ The generated support bundle resides in the /support directory on VMware systems
 
 *Related information*
 
-link:[Unified Manager user roles and capabilities]
+link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]

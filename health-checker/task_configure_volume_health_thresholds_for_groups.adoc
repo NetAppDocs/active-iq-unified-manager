@@ -26,9 +26,3 @@ The volume health threshold type of group action is applied only on volumes of a
 . Select the category for which you want to set the threshold.
 . Enter the required values for the health threshold.
 . Click *Add*.
-
-*Related information*
-
-xref:concept_manage_and_monitor_groups.adoc[Managing and monitoring groups]
-
-xref:task_add_group_actions.adoc[Adding group actions]

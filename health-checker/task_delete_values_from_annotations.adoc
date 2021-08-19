@@ -25,7 +25,3 @@ You cannot delete values from predefined annotations.
 . In the Warning dialog box, click *Yes*.
 +
 The value is deleted and no longer displayed in the list of values for the selected annotation.
-
-*Related information*
-
-xref:task_delete_annotations.adoc[Deleting annotations]

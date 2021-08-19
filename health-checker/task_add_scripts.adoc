@@ -57,9 +57,3 @@ If you do not see this capability available in the user interface it is because 
 . In the Add Script dialog box, click *Browse* to select your script file.
 . Enter a description for the script that you select.
 . Click *Add*.
-
-*Related information*
-
-xref:concept_manage_scripts.adoc[Managing scripts]
-
-xref:task_test_script_execution.adoc[Testing script execution]

@@ -26,15 +26,3 @@ The dialog box expands, enabling you to configure the selected action type with 
 
 . Enter appropriate values for the required parameters to configure a group action.
 . Click *Add*.
-
-*Related information*
-
-xref:concept_manage_and_monitor_groups.adoc[Managing and monitoring groups]
-
-xref:concept_what_group_is.adoc[What a group is]
-
-xref:task_edit_group_actions.adoc[Editing group actions]
-
-xref:task_configure_volume_health_thresholds_for_groups.adoc[Configuring volume health thresholds for groups]
-
-xref:task_reorder_group_actions.adoc[Reordering group actions]
