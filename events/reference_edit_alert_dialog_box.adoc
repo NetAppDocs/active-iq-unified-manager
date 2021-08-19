@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_edit_alert_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You can edit alert properties such as the resource with which the alert is associated, events, script, and notification options.'
+keywords: edit, alert, dialog box, name, resources, events, actions
+summary: "You can edit alert properties such as the resource with which the alert is associated, events, script, and notification options."
 ---
 = Edit Alert dialog box
 :icons: font

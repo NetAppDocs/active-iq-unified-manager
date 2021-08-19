@@ -1,9 +1,0 @@
----
-permalink: events/index.html
-sidebar: sidebar
-keywords:
-summary: ''
----
-= Events and Alerts Guide
-:icons: font
-:imagesdir: ../media/

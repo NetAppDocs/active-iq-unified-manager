@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_disable_events_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Disable Events dialog box displays the list of event types for which you can disable events. You can disable events for an event type based on a particular severity or for a set of events.'
+keywords: disable, events, dialog box, properties, area, command buttons
+summary: "The Disable Events dialog box displays the list of event types for which you can disable events. You can disable events for an event type based on a particular severity or for a set of events."
 ---
 = Disable Events dialog box
 :icons: font

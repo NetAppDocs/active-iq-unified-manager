@@ -1,6 +1,5 @@
 section: events
 title: Manage events and alerts
-url: "/events/index.html"
 entries:
   - title: Managing events
     url: "/events/concept_manage_events.html"
