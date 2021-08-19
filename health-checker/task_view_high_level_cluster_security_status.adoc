@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_view_high_level_cluster_security_status.html
 sidebar: sidebar
-keywords: cluster security status,SVM security status
-summary: 'The Security panel on the Unified Manager Dashboard shows high-level security status for all clusters or for a single cluster, depending on your current view.'
+keywords: view, cluster security status, svm security status, high-level
+summary: "The Security panel on the Unified Manager Dashboard shows high-level security status for all clusters or for a single cluster, depending on your current view."
 ---
 = Viewing high-level cluster security status
 :icons: font
@@ -11,6 +11,7 @@ summary: 'The Security panel on the Unified Manager Dashboard shows high-level s
 [.lead]
 The Security panel on the Unified ManagerDashboard shows high-level security status for all clusters or for a single cluster, depending on your current view.
 
+.Steps
 . In the left navigation pane, click Dashboard.
 . Depending on whether you want to view security status for all monitored clusters or for a single cluster, select All Clusters or select a single cluster from the drop-down menu.
 . View the Security panel to see the overall status.

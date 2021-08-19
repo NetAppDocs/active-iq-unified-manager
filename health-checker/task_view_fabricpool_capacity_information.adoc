@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_view_fabricpool_capacity_information.html
 sidebar: sidebar
-keywords: FabricPool,cloud tier,mirror tier
-summary: 'You can view FabricPool capacity information for clusters, aggregates, and volumes on the Capacity and Performance inventory and details pages for these objects. These pages also display FabricPool mirror information when a mirror tier has been configured.'
+keywords: view, fabricPool, cloud tier, mirror tier, capacity, information
+summary: "You can view FabricPool capacity information for clusters, aggregates, and volumes on the Capacity and Performance inventory and details pages for these objects. These pages also display FabricPool mirror information when a mirror tier has been configured."
 ---
 = Viewing FabricPool capacity information
 :icons: font
@@ -15,8 +15,10 @@ These pages display information such as the available capacity on the local perf
 
 When a cloud tier is mirrored to another cloud provider (the "`mirror tier`") then both cloud tiers are displayed in the Aggregate / Health details page.
 
+.Steps
 . Perform one of the following:
 +
+[cols="2*",options="header"]
 |===
 | To view capacity information for...| Do this...
 a|

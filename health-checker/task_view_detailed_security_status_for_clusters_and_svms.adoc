@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_view_detailed_security_status_for_clusters_and_svms.html
 sidebar: sidebar
-keywords: cluster security status,SVM security status,volume encryption status
-summary: 'The Security page shows high-level security status for all clusters, and detailed security status for individual clusters. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance.'
+keywords: view, cluster security status, svm security status, volume encryption status
+summary: "The Security page shows high-level security status for all clusters, and detailed security status for individual clusters. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance."
 ---
 = Viewing detailed security status for clusters and SVMs
 :icons: font
@@ -11,6 +11,7 @@ summary: 'The Security page shows high-level security status for all clusters, a
 [.lead]
 The Security page shows high-level security status for all clusters, and detailed security status for individual clusters. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance.
 
+.Steps
 . In the left navigation pane, click Dashboard.
 . Depending on whether you want to view security status for all monitored clusters or for a single cluster, select All Clusters or select a single cluster from the drop-down menu.
 . Click the right-arrow in the Security panel.
