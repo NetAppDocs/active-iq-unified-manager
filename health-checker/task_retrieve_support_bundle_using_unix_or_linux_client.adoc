@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_retrieve_support_bundle_using_unix_or_linux_client.html
 sidebar: sidebar
-keywords: 
-summary: 'If you are a UNIX or Linux user, you can retrieve the support bundle from your vApp by using the command-line interface \(CLI\) on your Linux client server. You can use either SCP or SFTP to retrieve the support bundle.'
+keywords: retrieve, support bundle, unix, linux, client
+summary: "If you are a UNIX or Linux user, you can retrieve the support bundle from your vApp by using the command-line interface (CLI) on your Linux client server. You can use either SCP or SFTP to retrieve the support bundle."
 ---
 = Retrieving the support bundle using a UNIX or Linux client
 :icons: font
@@ -11,14 +11,18 @@ summary: 'If you are a UNIX or Linux user, you can retrieve the support bundle f
 [.lead]
 If you are a UNIX or Linux user, you can retrieve the support bundle from your vApp by using the command-line interface (CLI) on your Linux client server. You can use either SCP or SFTP to retrieve the support bundle.
 
+*What you'll need*
+
 You must be the maintenance user to perform this task.
 
 You must have generated a support bundle using the maintenance console and have the support bundle name available.
 
+.Steps
 . Access the CLI through Telnet or the console, using your Linux client server.
 . Access the /support directory.
 . Retrieve the support bundle and copy it to the local directory using the following command:
 +
+[cols="2*",options="header"]
 |===
 | If you are using...| Then use the following command...
 a|

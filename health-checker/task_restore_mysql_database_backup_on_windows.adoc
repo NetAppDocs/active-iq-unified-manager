@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_restore_mysql_database_backup_on_windows.html
 sidebar: sidebar
-keywords: restore,windows
-summary: 'In case of data loss or data corruption, you can use the restore feature to restore Unified Manager to the previous stable state with minimal loss. You can restore the Unified Manager MySQL database to a local Windows system or a remote Windows system by using the Unified Manager maintenance console.'
+keywords: restore, windows, mysql, database, backup
+summary: "In case of data loss or data corruption, you can use the restore feature to restore Unified Manager to the previous stable state with minimal loss. You can restore the Unified Manager MySQL database to a local Windows system or a remote Windows system by using the Unified Manager maintenance console."
 ---
 = Restoring a MySQL database backup on Windows
 :icons: font
@@ -10,6 +10,8 @@ summary: 'In case of data loss or data corruption, you can use the restore featu
 
 [.lead]
 In case of data loss or data corruption, you can use the restore feature to restore Unified Manager to the previous stable state with minimal loss. You can restore the Unified Manager MySQL database to a local Windows system or a remote Windows system by using the Unified Manager maintenance console.
+
+*What you'll need*
 
 * You must have Windows administrator privileges.
 * You must have copied the Unified Manager backup file and the contents of the database repository directory to the system on which you will perform the restore operation.
@@ -25,6 +27,7 @@ The restore feature is platform-specific and version-specific. You can restore a
 If the folder names contain a space, you must include the absolute path or relative path of the backup file in double quotation marks.
 ====
 
+.Steps
 . If you are performing a restore onto a new server, after installing Unified Manager do not launch the UI or configure any clusters, users, or authentication settings when the installation is complete. The backup file populates this information during the restore process.
 . Log in to the Unified Manager system with administrator credentials.
 . Launch PowerShell as a Windows administrator.
@@ -41,6 +44,7 @@ After the restore operation is complete, you can log in to Unified Manager.
 
 After you restore the backup, if the OnCommand Workflow Automation server does not work, perform the following steps:
 
+.Steps
 . On the Workflow Automation server, change the IP address of the Unified Manager server to point to the latest machine.
 . On the Unified Manager server, reset the database password if the acquisition fails in step 1.
 
