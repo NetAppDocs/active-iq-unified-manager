@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_add_alert_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create alerts to notify you when a particular event is generated, so that you can address the issue quickly and thereby minimize impact to your environment. You can create alerts for a single resource or a set of resources, and for events of a particular severity type. You can also specify the notification method and frequency of the alerts.'
+keywords: add, alert, dialog, box, name, resources, events, actions, command buttons
+summary: "You can create alerts to notify you when a particular event is generated, so that you can address the issue quickly and thereby minimize impact to your environment. You can create alerts for a single resource or a set of resources, and for events of a particular severity type. You can also specify the notification method and frequency of the alerts."
 ---
 = Add Alert dialog box
 :icons: font
@@ -27,17 +27,17 @@ Enables you to specify a description for the alert.
 
 == Resources
 
-This area enables you to select an individual resource or group the resources based on a dynamic rule for which you want to trigger the alert. A dynamic rule is the set of resources filtered based on the text string you specify. You can search for resources by selecting a resource type from the drop-down list or you can specify the exact resource name to display a specific resource.
+This area enables you to select an individual resource or group the resources based on a dynamic rule for which you want to trigger the alert. A _dynamic rule_ is the set of resources filtered based on the text string you specify. You can search for resources by selecting a resource type from the drop-down list or you can specify the exact resource name to display a specific resource.
 
 If you are creating an alert from any of the storage object details pages, the storage object is automatically included in the alert.
 
 * *Include*
 +
-Enables you to include the resources for which you want to trigger alerts. You can specify a text string to group resources that match the string and select this group to be included in the alert. For example, you can group all volumes whose name contains the "`abc`" string.
+Enables you to include the resources for which you want to trigger alerts. You can specify a text string to group resources that match the string and select this group to be included in the alert. For example, you can group all volumes whose name contains the "abc" string.
 
 * *Exclude*
 +
-Enables you to exclude resources for which you do not want to trigger alerts. For example, you can exclude all volumes whose name contains the "`xyz`" string.
+Enables you to exclude resources for which you do not want to trigger alerts. For example, you can exclude all volumes whose name contains the "xyz" string.
 +
 The Exclude tab is displayed only when you select all resources of a particular resource type: for example, <<All Volumes>> or <<All Volumes whose name contains '_xyz_'>>.
 +
