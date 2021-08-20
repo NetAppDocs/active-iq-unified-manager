@@ -27,7 +27,7 @@ Use the following steps to test and schedule a report to be generated for a view
 +
 image::../media/view_save.gif[]
 
-. You can use the advanced features of Microsoft® Excel to customize your report. For details, see xref:task_use_excel_to_customize_your_report.adoc[Using Excel to customize your report].
+. You can use the advanced features of Microsoft® Excel to customize your report. For details, see link:task_use_excel_to_customize_your_report.html[Using Excel to customize your report].
 . To see the output before you schedule or share it:
 +
 [cols="2*",options="header"]
