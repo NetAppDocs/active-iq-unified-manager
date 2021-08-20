@@ -19,7 +19,9 @@ You download the same Unified Manager installation package for both Red Hat Ente
 
 .Steps
 
-. Log in to the NetApp Support Site, and navigate to the Download page for Unified Manager: https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site]
+. Log in to the NetApp Support Site, and navigate to the Download page for Unified Manager:
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site]
 . Select the required version of Unified Manager and accept the end-users license agreement (EULA).
 . Download the Unified Manager installer file for Linux, and save the `.zip` file to a directory on the target system.
 +

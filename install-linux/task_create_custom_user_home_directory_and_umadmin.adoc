@@ -13,7 +13,7 @@ You can create a custom home directory and define your own umadmin user password
 
 *What you'll need*
 
-* The system must meet the requirements described in xref:concept_virtual_infrastructure_or_hardware_system_requirements.adoc[Hardware system requirements].
+* The system must meet the requirements described in link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements].
 * You must be able to log in as the root user to the Red Hat Enterprise Linux or CentOS system.
 
 The default Unified Manager installation performs the following tasks:

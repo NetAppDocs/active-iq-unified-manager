@@ -39,7 +39,7 @@ You must shut down a running instance of Unified Manager before upgrading any th
 
 == User authorization requirements
 
-Installation of Unified Manager on a Linux system can be performed by the root user or by non-root users by using the sudo command.
+Installation of Unified Manager on a Linux system can be performed by the root user or by non-root users by using the `sudo` command.
 
 == Installation requirements
 
@@ -61,7 +61,7 @@ link:task_manually_configure_epel_repository.html[Manually configuring the EPEL 
 +
 If the MySQL repository is not configured on your system, you must manually download and configure the repository.
 +
-xref:task_manually_configure_mysql_repository.adoc[Manually configuring the MySQL repository]
+link:task_manually_configure_mysql_repository.html[Manually configuring the MySQL repository]
 
 If your system does not have internet access, and the repositories are not mirrored from an internet-connected system to the unconnected system, you should follow the installation instructions to determine the external software dependencies of your system. Then you can download the required software to the internet-connected system, and copy the `.rpm` files to the system on which you plan to install Unified Manager. To download the artifacts and packages, you must use the yum install command. You must ensure that the two systems are running the same operating system version and that the subscription license is for the appropriate Red Hat Enterprise Linux or CentOS version.
 

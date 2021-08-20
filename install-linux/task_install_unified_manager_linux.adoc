@@ -15,9 +15,9 @@ You can install Unified Manager on a physical or virtual Red Hat Enterprise Linu
 
 * The system on which you want to install Unified Manager must meet the system and software requirements.
 +
-xref:concept_virtual_infrastructure_or_hardware_system_requirements.adoc[Hardware system requirements]
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements]
 +
-xref:reference_red_hat_and_centos_software_and_installation_requirements.adoc[Red Hat and CentOS software and installation requirements]
+link:reference_red_hat_and_centos_software_and_installation_requirements.html[Red Hat and CentOS software and installation requirements]
 
 * You must have downloaded the Unified Manager `.zip` file from the NetApp Support Site to the target system.
 * You must have a supported web browser.
@@ -64,7 +64,9 @@ The required `.rpm` modules for Unified Manager are unzipped to the target direc
 `ls *.rpm`
  +
  ** `netapp-um<version>.x86_64.rpm`
-. Run the pre-installation script to ensure that there are no system configuration settings or any installed software that might conflict with the installation of Unified Manager: `sudo ./pre_install_check.sh`
+. Run the pre-installation script to ensure that there are no system configuration settings or any installed software that might conflict with the installation of Unified Manager:
++
+`sudo ./pre_install_check.sh`
 +
 The pre-installation script checks that the system has a valid Red Hat subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues prior to installing Unified Manager.
 +
@@ -75,7 +77,9 @@ For Red Hat Enterprise Linux 8 system, if you have internal repositories with JD
 ----
 
 . *Optional:* You must perform step 7 only if your system is not connected to the internet and you have to manually download the packages that are required for your installation. If your system has Internet access and all the required packages are available, go to step 8. For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages, and then download those packages:
- .. On the system on which you are installing Unified Manager, view the list of available and unavailable packages: `yum install netapp-um<version\>.x86_64.rpm --assumeno`
+ .. On the system on which you are installing Unified Manager, view the list of available and unavailable packages:
+ +
+ `yum install netapp-um<version\>.x86_64.rpm --assumeno`
 +
 The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
 
@@ -85,11 +89,15 @@ The items in the "`Installing:`" section are the packages that are available in 
 +
 [NOTE]
 ====
-Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat Enterprise Linux systems, you might need to enable the functionality to download a package without installing it: `yum install yum-plugin-downloadonly`
+Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat Enterprise Linux systems, you might need to enable the functionality to download a package without installing it:
++
+`yum install yum-plugin-downloadonly`
 ====
 
  .. Copy the missing packages from the Internet-connected system to your installation system.
-. As the root user, or using `sudo`, run the following command to install the software: `yum install netapp-um<version\>.x86_64.rpm`
+. As the root user, or using `sudo`, run the following command to install the software:
++
+`yum install netapp-um<version\>.x86_64.rpm`
 +
 This command installs the .rpm packages, all other necessary supporting software, and the Unified Manager software.
 +
