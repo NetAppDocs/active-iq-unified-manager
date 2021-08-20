@@ -30,4 +30,4 @@ The Event details page for the failed protection job displays.
 
 . Review the error message in the Cause field of the *Summary* area to determine the problem and evaluate potential corrective actions.
 +
-See xref:task_identify_problem_for_failed_protection_job.adoc[Identifying the problem and performing corrective actions for a failed protection job].
+See link:task_identify_problem_for_failed_protection_job.html[Identifying the problem and performing corrective actions for a failed protection job].

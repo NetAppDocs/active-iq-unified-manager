@@ -11,10 +11,6 @@ summary: "The Resource Pools page displays existing resource pools and their mem
 [.lead]
 The Resource Pools page displays existing resource pools and their members, and enables you to create, monitor, and manage resource pools for provisioning purposes.
 
-* <<GUID-4835FCED-B031-4154-84E2-392DBDEE3D89,Command buttons>>
-* <<GUID-D2479B68-5CFF-48C8-940A-5ADA46D2B803,Resource Pools list>>
-* <<GUID-B7CFEE61-86AB-45E9-A759-903267CCFAA5,Members list command buttons>>
-* <<GUID-5C546E74-4973-422A-BA11-5C2CFEEC7D2D,Members list>>
 
 == Command buttons
 

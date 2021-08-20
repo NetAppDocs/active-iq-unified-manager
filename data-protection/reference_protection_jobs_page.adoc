@@ -11,8 +11,6 @@ summary: "The Jobs page enables you to view the current status and other informa
 [.lead]
 The Jobs page enables you to view the current status and other information about all partner application protection jobs that are currently running, as well as jobs that have completed. You can use this information to see which jobs are still running and whether a job has succeeded or failed.
 
-* <<GUID-5E0B1F1D-5BD2-4464-B2DA-592D9F9A6D75,Command buttons>>
-* <<GUID-A9F3D6F2-BC05-4636-91AF-638BAA5EEE20,Jobs list>>
 
 == Command buttons
 

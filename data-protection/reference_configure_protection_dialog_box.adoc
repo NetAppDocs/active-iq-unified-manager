@@ -11,10 +11,6 @@ summary: "You can use the Configure Protection dialog box to create SnapMirror a
 [.lead]
 You can use the Configure Protection dialog box to create SnapMirror and SnapVault relationships for all read, write, and data protection volumes on clusters to ensure that the data on a source volume or primary volume is replicated.
 
-* <<GUID-161C9CA2-4BF8-4E63-B361-24994CA7DADE,Source tab>>
-* <<GUID-53D36872-E23D-455E-8F92-208BC9CC665A,SnapMirror tab>>
-* <<GUID-842CB5F6-2862-4FB6-AED2-0B0AA04F7D12,SnapVault tab>>
-* <<GUID-ADD1F622-94DA-44B0-98D9-36BE808FEC37,Command buttons>>
 
 == Source tab
 

@@ -11,8 +11,6 @@ summary: "You can use the Aggregates dialog box to select the aggregates that yo
 [.lead]
 You can use the Aggregates dialog box to select the aggregates that you want to add to your resource pool.
 
-* <<GUID-0570750C-7BC8-4082-A0D6-B5A7DCB393B9,Command buttons>>
-* <<GUID-CE6FC03C-C771-439D-865F-64EA8FC7931B,Aggregates list>>
 
 == Command buttons
 
