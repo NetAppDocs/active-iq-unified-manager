@@ -22,4 +22,4 @@ You must have the Operator, Application Administrator, or Storage Administrator 
 
 *Related information*
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html:[Adding users]
+link:../config/task_add_users.html[Adding users]

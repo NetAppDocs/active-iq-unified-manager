@@ -71,4 +71,4 @@ For polling vCenter Server configuration data, Unified Manager follows the same 
 
 *Related information*
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/concept_cluster_configuration_and_performance_data_collection_activity.html:[Cluster configuration and performance data collection activity]
+link:../performance-checker/concept_cluster_configuration_and_performance_data_collection_activity.html[Cluster configuration and performance data collection activity]

@@ -28,6 +28,6 @@ Starting with Unified Manager 9.7, clusters can be added using HTTPS only.
 
 *Related information*
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html:[Adding users]
+link:../config/task_add_users.html[Adding users]
 
 link:[Configuration/Cluster Data Sources page]

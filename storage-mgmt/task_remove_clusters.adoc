@@ -27,6 +27,6 @@ Removing a cluster also deletes all its storage objects, historical data, storag
 
 *Related information*
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html:[Adding users]
+link:../config/task_add_users.html[Adding users]
 
 link:[Configuration/Cluster Data Sources page]

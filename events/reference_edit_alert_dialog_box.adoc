@@ -41,7 +41,7 @@ Enables you to exclude resources for which you do not want to trigger alerts. Fo
 +
 [NOTE]
 ====
-The Exclude tab is displayed only when you select all resources of a particular resource type--for example, <<All Volumes>> or <<All Volumes whose name contains '_xyz_'>>.
+The Exclude tab is displayed only when you select all resources of a particular resource type--for example, +<<All Volumes>>+ or +<<All Volumes whose name contains '_xyz_'>>+.
 ====
 
 == Events

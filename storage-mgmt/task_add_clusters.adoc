@@ -68,6 +68,6 @@ If you receive an error message that you cannot add the cluster, check to see if
 
 *Related information*
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html:[Adding users]
+link:../config/task_add_users.html[Adding users]
 
 link:[Configuration/Cluster Data Sources page]

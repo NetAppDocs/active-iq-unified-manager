@@ -19,11 +19,11 @@ Unified Manager treats the clusters in a MetroCluster configuration as individua
 
 *Related information*
 
-link:https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/reference_performance_event_analysis_and_notification.html[Performance event analysis and notification]
+link:../performance-checker/reference_performance_event_analysis_and_notification.html[Performance event analysis and notification]
 
-link:https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html[Performance event analysis for a MetroCluster configuration]
+link:../performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html[Performance event analysis for a MetroCluster configuration]
 
-link:https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html[Roles of workloads involved in a performance event]
+link:../performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html[Roles of workloads involved in a performance event]
 
 link:[Identifying victim workloads involved in a performance event]
 

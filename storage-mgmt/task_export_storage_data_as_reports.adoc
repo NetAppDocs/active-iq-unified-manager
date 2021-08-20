@@ -55,4 +55,4 @@ The file is downloaded.
 
 link:[Health/Clusters inventory page]
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/reporting/task_schedule_report.html:[Scheduling a report]
+link:../reporting/task_schedule_report.html[Scheduling a report]

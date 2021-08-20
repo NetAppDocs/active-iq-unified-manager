@@ -24,7 +24,7 @@ Some of the panels listed below will not appear on the page based on your config
 +
 There are certain issues that Unified Manager can diagnose thoroughly and provide a single resolution. When available, those resolutions are displayed in this panel with a *Fix It* or *Fix All* button. You can fix these issues immediately from Unified Manager instead of having to use ONTAP System Manager or the ONTAP CLI. For viewing all the issues, click on
 +
-See https://docs.netapp.com/us-en/active-iq-unified-manager/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html[Fixing ONTAP issues directly from Unified Manager] for more information.
+See link:concept_fix_ontap_issues_directly_from_unified_manager.html[Fixing ONTAP issues directly from Unified Manager] for more information.
 
 * *Capacity panel*
 +
@@ -60,22 +60,22 @@ When viewing a single cluster, you can choose to view workloads sorted by highes
 
 *Related information*
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/events/task_fix_issues_using_um_automatic_remediations.html:[Fixing issues using Unified Manager automatic remediations]
+link:../events/task_fix_issues_using_um_automatic_remediations.html[Fixing issues using Unified Manager automatic remediations]
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/task_display_information_about_performance_event.html:[Displaying information about performance events]
+link:../performance-checker/task_display_information_about_performance_event.html[Displaying information about performance events]
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html:[Managing performance using performance capacity and available IOPS information]
+link:../performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html[Managing performance using performance capacity and available IOPS information]
 
 link:[What health events are]
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/reference_performance_event_analysis_and_notification.html:[Performance event analysis and notification]
+link:../performance-checker/reference_performance_event_analysis_and_notification.html[Performance event analysis and notification]
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_description_of_event_severity_types.html:[Description of event severity types]
+link:../events/reference_description_of_event_severity_types.html[Description of event severity types]
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/concept_sources_of_performance_events.html:[Sources of performance events]
+link:../performance-checker/concept_sources_of_performance_events.html[Sources of performance events]
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/health-checker/concept_manage_cluster_security_objectives.html:[Managing cluster security objectives]
+link:../health-checker/concept_manage_cluster_security_objectives.html[Managing cluster security objectives]
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html:[Monitoring cluster performance from the Performance Cluster Landing page]
+link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html[Monitoring cluster performance from the Performance Cluster Landing page]
 
-https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/concept_monitor_performance_using_object_performance.html:[Monitoring performance using the Performance Inventory pages]
+link:../performance-checker/concept_monitor_performance_using_object_performance.html[Monitoring performance using the Performance Inventory pages]
