@@ -15,9 +15,9 @@ After downloading the installation file, you deploy Unified Manager as a virtual
 
 You should review the system requirements. make the necessary changes before deploying the Unified Manager virtual appliance.
 
-xref:concept_virtual_infrastructure_or_hardware_system_requirements.adoc[Virtual infrastructure requirements]
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Virtual infrastructure requirements]
 
-xref:reference_vmware_software_and_installation_requirements.adoc[VMware software and installation requirements]
+link:reference_vmware_software_and_installation_requirements.html[VMware software and installation requirements]
 
 If you use Dynamic Host Configuration Protocol (DHCP), ensure that the DHCP server is available, and that the DHCP and virtual machine (VM) network adapter configurations are correct. DHCP is configured by default.
 

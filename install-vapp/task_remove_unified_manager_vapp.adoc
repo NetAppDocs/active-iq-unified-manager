@@ -19,7 +19,7 @@ You can uninstall Unified Manager by removing the virtual machine (VM) on which 
 
 .Steps
 
-. Use the Unified Managermaintenance console to verify that the Unified Manager server does not have an active connection to an external data provider.
+. Use the Unified Manager maintenance console to verify that the Unified Manager server does not have an active connection to an external data provider.
 . In the vSphere Client, click *Home* > *Inventory* > *VMs and Templates*.
 . Select the VM that you want to remove, and click the *Summary* tab.
 . If the VM is running, click *Power* > *Shut Down Guest*.

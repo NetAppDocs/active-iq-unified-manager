@@ -18,9 +18,9 @@ Ensure the following:
 * You have downloaded the upgrade file, the ISO image from the NetApp Support Site.
 * The system on which you are upgrading Unified Manager meet the system and software requirements.
 +
-xref:concept_virtual_infrastructure_or_hardware_system_requirements.adoc[Virtual infrastructure requirements]
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Virtual infrastructure requirements]
 +
-xref:reference_vmware_software_and_installation_requirements.adoc[VMware software and installation requirements]
+link:reference_vmware_software_and_installation_requirements.html[VMware software and installation requirements]
 
 * For vSphere 6.5 and later users, you have installed the VMware Remote Console (VMRC).
 * During upgrade, you may be prompted to confirm on whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data is purged after 6 months.

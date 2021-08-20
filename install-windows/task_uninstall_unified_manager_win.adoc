@@ -36,7 +36,9 @@ Command line
 a|
 
  .. Log in to the Windows command line using administrator privileges.
- .. Navigate to the Active IQ Unified Manager directory, and run the following command: `+msiexec /x {A78760DB-7EC0-4305-97DB-E4A89CDFF4E1} /qn /l*v %systemdrive%\UmUnInstall.log+`
+ .. Navigate to the Active IQ Unified Manager directory, and run the following command:
++
+`+msiexec /x {A78760DB-7EC0-4305-97DB-E4A89CDFF4E1} /qn /l*v %systemdrive%\UmUnInstall.log+`
 
 +
 |===

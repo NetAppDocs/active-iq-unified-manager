@@ -19,7 +19,9 @@ The installation file is an `OVA` file that contains the Unified Manager softwar
 
 .Steps
 
-. Log in to the NetApp Support Site, and navigate to the Download page for Unified Manager: https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site]
+. Log in to the NetApp Support Site, and navigate to the Download page for Unified Manager:
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site]
 . Select the required version of Unified Manager and accept the end-users license agreement (EULA).
-. Download and save the OVA file for VMware VSphere installation to a local directory or network directory that is accessible to your vSphere Client.
+. Download and save the `OVA` file for VMware VSphere installation to a local directory or network directory that is accessible to your vSphere Client.
 . Verify the checksum to ensure that the software downloaded correctly.

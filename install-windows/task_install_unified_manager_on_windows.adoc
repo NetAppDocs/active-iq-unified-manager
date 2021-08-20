@@ -15,9 +15,9 @@ You can install Unified Manager to monitor and troubleshoot data storage capacit
 
 * The system on which you plan to install Unified Manager should meet the system and software requirements.
 +
-xref:concept_virtual_infrastructure_or_hardware_system_requirements.adoc[Hardware system requirements]
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements]
 +
-xref:reference_windows_software_and_installation_requirements.adoc[Windows software and installation requirements]
+link:reference_windows_software_and_installation_requirements.html[Windows software and installation requirements]
 +
 [NOTE]
 ====
@@ -34,7 +34,9 @@ The following special characters are allowed: ~ ! @ # $ * - ? . + { }
 .Steps
 
 . Log in to Windows using the default local administrator account.
-. Log in to the NetApp Support Site, and navigate to the Download page for Unified Manager: https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site]
+. Log in to the NetApp Support Site, and navigate to the Download page for Unified Manager:
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site]
 . Select the required version of Unified Manager and accept the end-users license agreement (EULA).
 . Download the Unified Manager Windows installation file to a target directory on the Windows system.
 . Navigate to the directory where the installation file is located.

@@ -15,7 +15,7 @@ Deploying Unified Manager includes downloading software, deploying the virtual a
 
 * You should verify and complete the system requirements for deployment.
 +
-xref:concept_requirements_for_installing_unified_manager.adoc[System requirements]
+link:concept_requirements_for_installing_unified_manager.html[System requirements]
 
 * Ensure that you have the following information:
  ** Login credentials for the NetApp Support Site
