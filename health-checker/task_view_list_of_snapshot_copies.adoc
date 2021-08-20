@@ -18,9 +18,9 @@ You can view the list of Snapshot copies for a selected volume. You can use the 
 
 .Steps
 . In the left navigation pane, click *Storage* > *Volumes*.
-. In the Health: All Volumes view, select the volume that contains the Snapshot copies you want to view.
-. In the Volume / Health details page, click the Capacity tab.
-. In Details pane of the Capacity tab, in the Other Details section, click the link next to *Snapshot Copies*.
+. In the *Health: All Volumes* view, select the volume that contains the Snapshot copies you want to view.
+. In the *Volume / Health* details page, click the *Capacity* tab.
+. In *Details* pane of the *Capacity* tab, in the Other Details section, click the link next to *Snapshot Copies*.
 +
 The number of Snapshot copies is a link that displays the list of Snapshot copies.
 

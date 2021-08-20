@@ -15,4 +15,4 @@ Unified Manager stores a maximum of two full support bundles and three lightweig
 
 *Related information*
 
-link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]
+link:../config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]

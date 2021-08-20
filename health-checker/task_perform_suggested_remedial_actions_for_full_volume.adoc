@@ -38,4 +38,4 @@ You decide to resize the volume.
 
 *Related information*
 
-link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_event_details_page.html[Event details page]
+link:../events/reference_event_details_page.html[Event details page]

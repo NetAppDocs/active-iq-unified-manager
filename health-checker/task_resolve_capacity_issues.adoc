@@ -33,4 +33,4 @@ The Event details page for the error is displayed.
 
 *Related information*
 
-link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_event_details_page.html[Event details page]
+link:../events/reference_event_details_page.html[Event details page]

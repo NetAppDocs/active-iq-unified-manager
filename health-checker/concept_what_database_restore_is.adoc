@@ -24,8 +24,8 @@ Old backup files cannot be used to restore an image after Unified Manager has be
 
 *Related information*
 
-link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_generate_an_https_security_certificate_ocf.html[Generating an HTTPS security certificate]
+link:../config/task_generate_an_https_security_certificate_ocf.html[Generating an HTTPS security certificate]
 
-link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_enable_saml_authentication_um.html[Enabling SAML authentication]
+link:../config/task_enable_saml_authentication_um.html[Enabling SAML authentication]
 
 link:[Enabling IdP-based authentication]

@@ -16,21 +16,6 @@ You can use the Storage VM / Health details page to view detailed information ab
 You can monitor only data storage VM.
 ====
 
-* <<GUID-3025A576-2B23-4753-8289-5B12A97C9BF8,Command buttons>>
-* <<GUID-894ECEFC-8E65-47AB-90A3-27D08D7C8D19,Health tab>>
-* <<GUID-40F2AA3E-6BAE-472C-9292-72EED884C6AB,Capacity tab>>
-* <<GUID-C79EA5D2-C435-43B8-BE4D-690D1EDC1134,Configuration tab>>
-* <<GUID-1557C06E-F3FD-4E41-A4B8-07E0E65A2788,Network Interfaces tab>>
-* <<GUID-10AF6555-A8DF-432C-9649-09EBDF137A45,Qtrees tab>>
-* <<SECTION_C39C8DD776864136BE1E8D35DDEE9B92,User and Group Quotas tab>>
-* <<GUID-E60799D0-C4F9-4978-ADC7-4382F61E7989,NFS Shares tab>>
-* <<SECTION_C5F2F60E9A2943879A30026EB71B1FBB,SMB Shares tab>>
-* <<SECTION_D20C126DD9D14B17AE84A9F5E4EF045C,SAN tab>>
-* <<GUID-A9DC32CB-A419-4A70-B76C-73E431E6AED4,Related Annotations pane>>
-* <<GUID-3B378F0E-1C22-4D5C-AB7C-BF813999848E,Related Devices pane>>
-* <<SECTION_1AF58DB9D07C41D1939340A2BF9DDEAE,Related Groups pane>>
-* <<GUID-65B2B6DC-3489-402E-9C6F-E08A65640A02,Related Alerts pane>>
-
 == Command buttons
 
 The command buttons enable you to perform the following tasks for the selected storage VM:

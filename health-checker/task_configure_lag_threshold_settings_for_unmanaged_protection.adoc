@@ -27,4 +27,4 @@ The settings described in this task are applied globally to all unmanaged protec
 
 *Related information*
 
-link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html[Adding users]
+link:../config/task_add_users.html[Adding users]
