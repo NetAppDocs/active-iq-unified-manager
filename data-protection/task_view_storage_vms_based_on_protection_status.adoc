@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/task_view_storage_vms_based_on_protection_status.html
 sidebar: sidebar
-keywords: storage VMs,view protection status
-summary: 'You can use the Storage VMs page of the Inventory to view all the storage VMs in Active IQ Unified Manager and filter the storage VMs based on their protection status.'
+keywords: storage vm, view protection status
+summary: "You can use the Storage VMs page of the Inventory to view all the storage VMs in Active IQ Unified Manager and filter the storage VMs based on their protection status."
 ---
 = Viewing Storage VMs based on protection status
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can use the Storage VMs page of the Inventory to view all the stor
 
 [.lead]
 You can use the Storage VMs page of the Inventory to view all the storage VMs in Active IQ Unified Manager and filter the storage VMs based on their protection status.
+
+*What you'll need*
 
 You must have the Application Administrator or Storage Administrator role.
 
@@ -20,12 +22,15 @@ A new column Protection Role is added to the storage VMs view that provides info
 If a source cluster is not added to Active IQ Unified Manager, then all the information related to that cluster is unavailable in the grids.
 ====
 
+.Steps
+
 . In the left navigation pane, click *STORAGE* > *Storage VMs*.
-. From the VIEW menu, select *Health* > *All Storage VMs*.
+. From the *VIEW* menu, select *Health* > *All Storage VMs*.
 +
 The Health: All Storage VMs is displayed.
 
 . Click *Filter* to view one of the following storage VMs.
+[cols="2*",options="header"]
 +
 |===
 | To view| Filter value

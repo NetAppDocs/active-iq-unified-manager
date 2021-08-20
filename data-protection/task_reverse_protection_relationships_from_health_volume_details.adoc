@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/task_reverse_protection_relationships_from_health_volume_details.html
 sidebar: sidebar
-keywords: 
-summary: 'When a disaster disables the source volume in your protection relationship, you can use the destination volume to serve data by converting it to read/write while you repair or replace the source. When the source is again available to receive data, you can use the reverse resynchronization operation to establish the relationship in the reverse direction, synchronizing the data on the source with the data on the read/write destination.'
+keywords: reverse, protection, relationships volume, health details page
+summary: "When a disaster disables the source volume in your protection relationship, you can use the destination volume to serve data by converting it to read/write while you repair or replace the source. When the source is again available to receive data, you can use the reverse resynchronization operation to establish the relationship in the reverse direction, synchronizing the data on the source with the data on the read/write destination."
 ---
 = Reversing protection relationships from the Volume / Health details page
 :icons: font
@@ -10,6 +10,8 @@ summary: 'When a disaster disables the source volume in your protection relation
 
 [.lead]
 When a disaster disables the source volume in your protection relationship, you can use the destination volume to serve data by converting it to read/write while you repair or replace the source. When the source is again available to receive data, you can use the reverse resynchronization operation to establish the relationship in the reverse direction, synchronizing the data on the source with the data on the read/write destination.
+
+*What you'll need*
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up Workflow Automation.
@@ -23,25 +25,21 @@ When a disaster disables the source volume in your protection relationship, you 
 +
 If policies and schedules do not exist, they are created.
 
-. From the Protection tab of the Volume / Health details page, locate in the topology the SnapMirror relationship on which you want to reverse the source and destination, and right-click it.
+.Steps
+
+. From the *Protection* tab of the *Volume / Health* details page, locate in the topology the SnapMirror relationship on which you want to reverse the source and destination, and right-click it.
 . Select *Reverse Resync* from the menu.
 +
 The Reverse Resync dialog box is displayed.
 
-. Verify that the relationship displayed in the Reverse Resync dialog box is the one for which you want to perform the reverse resynchronization operation, and then click *Submit*.
+. Verify that the relationship displayed in the *Reverse Resync* dialog box is the one for which you want to perform the reverse resynchronization operation, and then click *Submit*.
 +
 The Reverse Resync dialog box is closed and a job link is displayed at the top of the Volume / Health details page.
 
-. Click *View Jobs* on the Volume / Health details page to track the status of each reverse resynchronization job.
+.  *Optional:* Click *View Jobs* on the *Volume / Health* details page to track the status of each reverse resynchronization job.
 +
 A filtered list of jobs is displayed.
 
-. Click the Back arrow on your browser to return to the Volume / Health details page.
+.  *Optional:* Click the Back arrow on your browser to return to the *Volume / Health* details page.
 +
 The reverse resynchronization operation is finished when all job tasks are completed successfully.
-
-*Related information*
-
-xref:reference_reverse_resync_dialog_box.adoc[Reverse Resync dialog box]
-
-xref:task_configure_connection_between_workflow_automation_um.adoc[Configuring a connection between Workflow Automation and Unified Manager]
