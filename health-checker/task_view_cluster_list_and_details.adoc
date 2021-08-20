@@ -21,8 +21,8 @@ The details in the Health: All Clusters view, Capacity: All Clusters view, and t
 
 .Steps
 . In the left navigation pane, click *Storage* > *Clusters*.
-. In the View menu, select Health: All Clusters view to view health information, or Capacity: All Clusters view to view details about storage capacity and utilization in all clusters.
-. Click the name of a cluster to view complete details of the cluster in the Cluster / Health details page.
+. In the View menu, select *Health: All Clusters* view to view health information, or *Capacity: All Clusters* view to view details about storage capacity and utilization in all clusters.
+. Click the name of a cluster to view complete details of the cluster in the *Cluster / Health* details page.
 
 *Related information*
 

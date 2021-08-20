@@ -12,9 +12,9 @@ summary: "The Security page shows high-level security status for all clusters, a
 The Security page shows high-level security status for all clusters, and detailed security status for individual clusters. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance.
 
 .Steps
-. In the left navigation pane, click Dashboard.
-. Depending on whether you want to view security status for all monitored clusters or for a single cluster, select All Clusters or select a single cluster from the drop-down menu.
-. Click the right-arrow in the Security panel.
+. In the left navigation pane, click *Dashboard*.
+. Depending on whether you want to view security status for all monitored clusters or for a single cluster, select *All Clusters* or select a single cluster from the drop-down menu.
+. Click the right-arrow in the *Security* panel.
 +
 The Security page displays the following information:
 

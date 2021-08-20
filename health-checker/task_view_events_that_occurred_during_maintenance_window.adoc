@@ -26,4 +26,4 @@ By default, all active (New and Acknowledged) events are displayed on the Event 
 +
 The list of events trigged during the last 7 days from all maintenance window sessions and from all clusters are displayed.
 
-. If there have been multiple maintenance windows for a single cluster, you can click the Triggered Time calendar icon and select the period of time for the maintenance window events that you are interested in viewing.
+. If there have been multiple maintenance windows for a single cluster, you can click the *Triggered Time* calendar icon and select the period of time for the maintenance window events that you are interested in viewing.

@@ -19,7 +19,7 @@ You can view details such as the node state, cluster that contains the node, agg
 
 .Steps
 . In the left navigation pane, click *Storage* > *Nodes*.
-. On the Health: All Nodes view, click the node whose details you want to view.
+. On the *Health: All Nodes* view, click the node whose details you want to view.
 +
 The detailed information for the selected node is displayed in the Cluster / Health details page. The left pane displays the list of HA pairs. By default, the HA Details is open, which displays HA state details and events related to the selected HA pair.
 

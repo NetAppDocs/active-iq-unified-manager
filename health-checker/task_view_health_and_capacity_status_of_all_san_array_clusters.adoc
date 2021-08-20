@@ -19,7 +19,7 @@ You can view overview information for All SAN Array clusters in the Health: All 
 
 .Steps
 . In the left navigation pane, click *Storage* > *Clusters*.
-. Make sure that the "`Personality`" column is displayed in the Health: All Clusters view, or add it using the *Show / Hide* control.
+. Make sure that the "`Personality`" column is displayed in the *Health: All Clusters* view, or add it using the *Show / Hide* control.
 +
 This column displays "`All SAN Array`" for your All SAN Array clusters.
 
