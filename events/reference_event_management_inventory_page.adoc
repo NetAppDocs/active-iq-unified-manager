@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_event_management_inventory_page.html
 sidebar: sidebar
-keywords: event inventory
-summary: 'The Event Management inventory page enables you to view a list of current events and their properties. You can perform tasks such as acknowledging, resolving, and assigning events. You can also add an alert for specific events.'
+keywords: event, management, inventory, page, filter, components, xommand buttons, list
+summary: "The Event Management inventory page enables you to view a list of current events and their properties. You can perform tasks such as acknowledging, resolving, and assigning events. You can also add an alert for specific events."
 ---
 = Event Management inventory page
 :icons: font
@@ -119,7 +119,7 @@ The name of the user to whom the event is assigned.
 
 * *Event Origin*
 +
-Whether the event originated from the "`Active IQ Portal`" or directly from "`Active IQ Unified Manager`".
+Whether the event originated from the "Active IQ Portal" or directly from "Active IQ Unified Manager".
 
 * *Annotation Name*
 +
