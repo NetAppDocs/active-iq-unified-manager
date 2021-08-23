@@ -15,7 +15,7 @@ The default collection interval for performance statistics is 5 minutes. You can
 
 You must have a user ID and password authorized to log in to the maintenance console of the Unified Manager server.
 
-The issue of performance statistics collections not finishing on time is indicated by the banner messages `Unable to consistently collect from cluster <cluster_name> or Data collection is taking too long on cluster <cluster_name>.`
+The issue of performance statistics collections not finishing on time is indicated by the banner messages `Unable to consistently collect from cluster <cluster_name>` or `Data collection is taking too long on cluster <cluster_name>.`
 
 You should change the collection interval only when required because of a statistics collections issue. Do not change this setting for any other reason.
 

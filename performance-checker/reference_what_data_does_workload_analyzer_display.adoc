@@ -40,7 +40,7 @@ Displays charts for latency, throughput (both IOPS and MB/s), and utilization (f
   *** *Total* latency
   *** *Breakdown* latency (broken out by reads, writes, and other processes)
   *** *Cluster Components* latency (broken out by cluster component)
-See xref:concept_cluster_components_and_why_they_can_be_in_contention.adoc[Cluster components and why they can be in contention] for a description of the cluster components that are displayed here.
+See link:concept_cluster_components_and_why_they_can_be_in_contention.html[Cluster components and why they can be in contention] for a description of the cluster components that are displayed here.
  ** *Throughput* displays both IOPS and MB/s throughput for the workload over the selected timeframe. The chart has four views that enable you to see:
   *** *Total* throughput
   *** *Breakdown* throughput (broken out by reads, writes, and other processes)

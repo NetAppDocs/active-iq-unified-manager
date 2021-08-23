@@ -12,17 +12,15 @@ summary: "Moving logical interfaces (LIFs) to a less busy port can help improve 
 Moving logical interfaces (LIFs) to a less busy port can help improve load balancing, assist with maintenance operations and performance tuning, and reduce indirect access.
 
 Indirect access can reduce system efficiency. It occurs when a volume workload is using different nodes for network processing and data processing. To reduce indirect access, you can rearrange LIFs, which involves moving LIFs to use the same node for network processing and data processing. You can configure load balancing to have ONTAP automatically move busy LIFs to a different port or you can move a LIF manually.
-
+[cols="2*",options="header"]
 |===
 a|
-*Benefits*
+*Benefits* | *Considerations*
 a|
 
 * Improve load balancing.
 * Reduce indirect access.
 
-a|
-*Considerations*
 a|
 
 [NOTE]
