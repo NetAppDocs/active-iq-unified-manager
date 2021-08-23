@@ -22,6 +22,7 @@ After 15 minutes of inactivity, the maintenance console logs you out.
 When installed on VMware, if you have already logged in as the maintenance user through the VMware console, you cannot simultaneously log in using Secure Shell.
 ====
 
+.Step
 . Follow these steps to access the maintenance console:
 +
 [cols="2*",options="header"]

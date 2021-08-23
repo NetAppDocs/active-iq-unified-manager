@@ -16,6 +16,7 @@ You configure the destination location for Active IQ Unified Manager Snapshot ba
 * You must have the Cluster Management IP address, the name of the storage VM, the name of the volume, and the storage system user name and password.
 * You must have mounted the volume to the Active IQ Unified Manager host, and you must have the mount path.
 
+.Steps
 . Use Secure Shell to connect to the IP address or FQDN of the Active IQ Unified Manager system.
 . Log in to the system with the maintenance user (umadmin) name and password.
 . Enter the command `maintenance_console` and press Enter.

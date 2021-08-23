@@ -16,6 +16,7 @@ You should configure the destination location for Active IQ Unified Manager Snap
 * You must have the Cluster Management IP address, the name of the storage VM, the name of the volume, LUN name, and the storage system user name and password.
 * You must have mounted the volume as a network drive to the Active IQ Unified Manager host, and you must have the mount drive.
 
+.Steps
 . Using Power Shell, connect to the IP address or fully qualified domain name of the Active IQ Unified Manager system.
 . Log in to the system with the maintenance user (umadmin) name and password.
 . Enter the command `maintenance_console` and press Enter.
