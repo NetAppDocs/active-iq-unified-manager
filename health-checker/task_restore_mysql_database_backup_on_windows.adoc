@@ -16,9 +16,9 @@ In case of data loss or data corruption, you can use the restore feature to rest
 * You must have Windows administrator privileges.
 * You must have copied the Unified Manager backup file and the contents of the database repository directory to the system on which you will perform the restore operation.
 +
-It is recommended that you copy the backup file to the default directory \ProgramData\NetApp\OnCommandAppData\ocum\backup. The database repository files must be copied to the \database_dumps_repo subdirectory under the \backup directory.
+It is recommended that you copy the backup file to the default directory `\ProgramData\NetApp\OnCommandAppData\ocum\backup`. The database repository files must be copied to the `\database_dumps_repo` subdirectory under the `\backup` directory.
 
-* The backup files must be of .7z type.
+* The backup files must be of `.7z` type.
 
 The restore feature is platform-specific and version-specific. You can restore a Unified Manager MySQL backup only on the same version of Unified Manager, and a Windows backup can be restored only on a Windows platform.
 
@@ -32,7 +32,7 @@ If the folder names contain a space, you must include the absolute path or relat
 . Log in to the Unified Manager system with administrator credentials.
 . Launch PowerShell as a Windows administrator.
 . Enter the command `maintenance_console` and press Enter.
-. In the maintenance console Main Menu, enter the number for the *Backup Restore* option.
+. In the maintenance console *Main Menu*, enter the number for the *Backup Restore* option.
 . Enter the number for the *Restore MySQL Backup*.
 . When prompted, enter the absolute path of the backup file.
 +

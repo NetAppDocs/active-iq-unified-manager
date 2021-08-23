@@ -26,13 +26,13 @@ You can use the Event Management inventory page and the Cluster/Health, Storage 
 
 .Steps
 . In the left navigation pane, click *Event Management*.
-. In the Event Management inventory page, select *Active Availability events*.
+. In the *Event Management* inventory page, select *Active Availability events*.
 . Click the hypertext link displayed for the Volume Offline event.
 +
 The Event details page for the availability incident is displayed.
 
 . On that page, check the notes for any indication that the SVM administrator has taken the volume in question offline.
-. On the Event details page, you can review the information for one or more of the following tasks:
+. On the *Event* details page, you can review the information for one or more of the following tasks:
  ** Review the information displayed in the Cause field for possible diagnostic guidance.
 +
 In this example, the information in the Cause field informs you only that the volume is offline.

@@ -17,9 +17,9 @@ If data loss or data corruption occurs, you can restore Unified Manager to the p
 * You must have a user ID and password authorized to log in to the maintenance console of the Unified Manager server.
 * You must have copied the Unified Manager backup file and the contents of the database repository directory to the system on which you will perform the restore operation.
 +
-It is recommended that you copy the backup file to the default directory /data/ocum-backup. The database repository files must be copied to the /database-dumps-repo subdirectory under the /ocum-backup directory.
+It is recommended that you copy the backup file to the default directory /`data/ocum`-backup. The database repository files must be copied to the /`database-dumps-repo` subdirectory under the /`ocum-backup` directory.
 
-* The backup files must be of .7z type.
+* The backup files must be of `.7z` type.
 
 The restore feature is platform-specific and version-specific. You can restore a Unified Manager backup only on the same version of Unified Manager. You can restore a Linux backup file or a virtual appliance backup file to a Red Hat Enterprise Linux or CentOS system.
 
@@ -33,7 +33,7 @@ If the backup folder name contains a space, you must include the absolute path o
 . Using Secure Shell, connect to the IP address or fully qualified domain name of the Unified Manager system.
 . Log in to the system with the maintenance user (umadmin) name and password.
 . Enter the command `maintenance_console` and press Enter.
-. In the maintenance console Main Menu, enter the number for the *Backup Restore* option.
+. In the maintenance console *Main Menu*, enter the number for the *Backup Restore* option.
 . Enter the number for the *Restore MySQL Backup*.
 . When prompted, enter the absolute path of the backup file.
 +

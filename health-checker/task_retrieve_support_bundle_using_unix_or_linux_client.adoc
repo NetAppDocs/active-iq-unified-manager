@@ -19,7 +19,7 @@ You must have generated a support bundle using the maintenance console and have 
 
 .Steps
 . Access the CLI through Telnet or the console, using your Linux client server.
-. Access the /support directory.
+. Access the /`support` directory.
 . Retrieve the support bundle and copy it to the local directory using the following command:
 +
 [cols="2*",options="header"]

@@ -34,7 +34,7 @@ Power Shell
 
 . Log in to the system with the maintenance user (umadmin) name and password.
 . Enter the command `maintenance_console` and press Enter.
-. In the maintenance console Main Menu, enter the number for the *Backup Restore* option.
+. In the maintenance console *Main Menu*, enter the number for the *Backup Restore* option.
 . Enter the number for *Backup and Restore using NetApp Snapshot*.
 +
 If you are performing a restore onto a new server, after installing Unified Manager do not launch the UI or configure any clusters, users, or authentication settings when the installation is complete. Enter the number for *Configure NetApp Snapshot Backup* and configure the Snapshot backup settings as they were configured on the original system.
