@@ -1,7 +1,7 @@
 ---
 permalink: events/reference_notifications_page.html
 sidebar: sidebar
-keywords: Notifications page, email, smtp, server, snmp
+keywords: notifications page, email, smtp, server, snmp
 summary: "You can configure the Unified Manager server to send notifications when an event is generated or when it is assigned to a user. You can also configure the notification mechanisms. For example, notifications can be sent as emails or SNMP traps."
 ---
 = Notifications page
