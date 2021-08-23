@@ -55,7 +55,7 @@ This example shows how to create an alert that meets the following requirements:
 * Alert name: HealthTest
 * Resources: includes all volumes whose name contains "`abc`" and excludes all volumes whose name contains "`xyz`"
 * Events: includes all critical health events
-* Actions: includes "`sample@domain.com`", a "`Test`" script, and the user has to be notified every 15 minutes
+* Actions: includes "+sample@domain.com+", a "`Test`" script, and the user has to be notified every 15 minutes
 
 Perform the following steps in the Add Alert dialog box:
 
