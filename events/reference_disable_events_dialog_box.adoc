@@ -13,9 +13,6 @@ The Disable Events dialog box displays the list of event types for which you can
 
 You must have the Application Administrator or Storage Administrator role.
 
-* <<SECTION_633FE839CA7D4BF8A59F7711DD8DB73B,Event properties area>>
-* <<GUID-49615DD0-0E3D-4657-B35B-172D41553139,Command buttons>>
-
 == Event Properties area
 
 The Event Properties area specifies the following event properties:

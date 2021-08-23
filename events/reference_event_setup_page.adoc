@@ -13,9 +13,6 @@ The Event Setup page displays the list of events that are disabled, and provides
 
 You can access this page only if you have the Application Administrator or Storage Administrator role.
 
-* <<GUID-49615DD0-0E3D-4657-B35B-172D41553139,Command buttons>>
-* <<SECTION_54BD4675CEC143A0BC102572F7562CE2,List view>>
-
 == Command buttons
 
 The command buttons enable you to perform the following tasks for selected events:

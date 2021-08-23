@@ -11,10 +11,6 @@ summary: "The Event Management inventory page enables you to view a list of curr
 [.lead]
 The Event Management inventory page enables you to view a list of current events and their properties. You can perform tasks such as acknowledging, resolving, and assigning events. You can also add an alert for specific events.
 
-* <<SECTION_AB0C3CC1646849C094190C8C632E9634,Filter components>>
-* <<SECTION_68BD42F2CFDD46689596A44124DF96A1,Command buttons>>
-* <<SECTION_85DA48158BDD404B8B928EB953CD0ACC,Events list>>
-
 The information on this page is refreshed automatically every 5 minutes to ensure that the most current new events are displayed.
 
 == Filter components

@@ -13,10 +13,6 @@ The Alert Setup page displays a list of alerts and provides information about th
 
 You must have the Application Administrator or Storage Administrator role.
 
-* <<GUID-53913221-F4EE-4973-81AC-B95A3C698045,Command buttons>>
-* <<SECTION_2956C1BFBE0A4CA49C38C518EEA5E3E1,List view>>
-* <<SECTION_8807F067EC2742EDAA8DCC1C0A2D713F,Details area>>
-
 == Command buttons
 
 * *Add*
