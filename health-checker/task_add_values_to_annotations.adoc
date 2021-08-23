@@ -19,8 +19,8 @@ You cannot add values to predefined annotations.
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Annotations*.
-. In the Annotations page, select the annotation to which you want to add a value and then click *Add* in the Values section.
-. In the Add Annotation Value dialog box, specify a value for the annotation.
+. In the *Annotations* page, select the annotation to which you want to add a value and then click *Add* in the *Values* section.
+. In the *Add Annotation Value* dialog box, specify a value for the annotation.
 +
 The value that you specify must be unique for the selected annotation.
 

@@ -17,7 +17,7 @@ You must have the Application Administrator or Storage Administrator role.
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Annotations*.
-. In the Annotations page, click *Add Annotation*.
-. In the Add Annotation dialog box, type a name and description for the annotation.
-. Optional: In the Annotation Values section, click *Add* to add values to the annotation.
+. In the *Annotations* page, click *Add Annotation*.
+. In the *Add Annotation* dialog box, type a name and description for the annotation.
+. Optional: In the *Annotation Values* section, click *Add* to add values to the annotation.
 . Click *Save*.

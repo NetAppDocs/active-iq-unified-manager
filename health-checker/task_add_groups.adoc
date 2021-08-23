@@ -19,6 +19,6 @@ You can define group rules to add or remove members from the group and to modify
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Groups*.
-. In the Groups tab, click *Add*.
-. In the Add Group dialog box, enter a name and description for the group.
+. In the *Groups* tab, click *Add*.
+. In the *Add Group* dialog box, enter a name and description for the group.
 . Click *Add*.

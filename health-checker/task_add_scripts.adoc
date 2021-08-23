@@ -14,7 +14,7 @@ You can add scripts in Unified Manager, and associate the scripts with alerts. T
 *What you'll need*
 
 * You must have created and saved the scripts that you want to add to the Unified Manager server.
-* The supported file formats for scripts are Perl, Shell, PowerShell, Python, and .bat files.
+* The supported file formats for scripts are Perl, Shell, PowerShell, Python, and `.bat` files.
 +
 [cols="2*",options="header"]
 |===
@@ -53,7 +53,7 @@ If you do not see this capability available in the user interface it is because 
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Scripts*.
-. In the Scripts page, click *Add*.
-. In the Add Script dialog box, click *Browse* to select your script file.
+. In the *Scripts* page, click *Add*.
+. In the *Add Script* dialog box, click *Browse* to select your script file.
 . Enter a description for the script that you select.
 . Click *Add*.

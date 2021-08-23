@@ -19,16 +19,16 @@ You can calculate the amount of disk space that can be reclaimed if one or more 
 
 .Steps
 . In the left navigation pane, click *Storage* > *Volumes*.
-. In the Health: All Volumes view, select the volume that contains the Snapshot copies you want to view.
+. In the *Health: All Volumes* view, select the volume that contains the Snapshot copies you want to view.
 +
 The list of Snapshot copies is displayed.
 
-. In the Volume / Health details page, click the Capacity tab.
-. In Details pane of the Capacity tab, in the Other Details section, click the link next to *Snapshot Copies*.
+. In the *Volume / Health* details page, click the *Capacity* tab.
+. In *Details* pane of the *Capacity* tab, in the Other Details section, click the link next to *Snapshot Copies*.
 +
 The number of Snapshot copies is a link that displays the list of Snapshot copies.
 
-. In the Snapshot Copies view, select the Snapshot copies for which you want to calculate the reclaimable space.
+. In the *Snapshot Copies* view, select the Snapshot copies for which you want to calculate the reclaimable space.
 . Click *Calculate*.
 +
 The reclaimable space (in percentage, and KB, MB, GB, and so on) on the volume is displayed.

@@ -25,7 +25,7 @@ Yes
 a|
 Insecure SSH Settings
 a|
-Indicates if SSH uses insecure ciphers, for example ciphers beginning with cbc*.
+Indicates if SSH uses insecure ciphers, for example ciphers beginning with `cbc*`.
 a|
 No
 a|

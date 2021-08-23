@@ -17,10 +17,10 @@ You must have the Application Administrator or Storage Administrator role.
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Groups*.
-. In the Group Actions tab, click *Add*.
-. In the Add Group Action dialog box, enter a name and description for the action.
-. From the Group menu, select a group for which you want to configure the action.
-. From the Action Type menu, select an action type.
+. In the *Group Actions* tab, click *Add*.
+. In the *Add Group Action* dialog box, enter a name and description for the action.
+. From the *Group* menu, select a group for which you want to configure the action.
+. From the *Action Type* menu, select an action type.
 +
 The dialog box expands, enabling you to configure the selected action type with required parameters.
 

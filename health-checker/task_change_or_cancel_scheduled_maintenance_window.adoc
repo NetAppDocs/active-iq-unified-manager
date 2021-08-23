@@ -19,7 +19,7 @@ Canceling a currently running maintenance window is useful if you have completed
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
-. In the Maintenance Mode column for the cluster:
+. In the *Maintenance Mode* column for the cluster:
 +
 [cols="2*",options="header"]
 |===

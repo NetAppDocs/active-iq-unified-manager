@@ -19,11 +19,11 @@ Storage objects that are currently monitored are added as soon as the group rule
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Groups*.
-. In the Group Rules tab, click *Add*.
-. In the Add Group Rule dialog box, specify a name for the group rule.
+. In the *Group Rules* tab, click *Add*.
+. In the *Add Group Rule* dialog box, specify a name for the group rule.
 . In the *Target Object Type* field, select the type of storage object that you want to group.
 . In the *Group* field, select the required group for which you want to create group rules.
-. In the Conditions section, perform the following steps to create a condition, a condition group, or both:
+. In the *Conditions* section, perform the following steps to create a condition, a condition group, or both:
 +
 [cols="2*",options="header"]
 |===
