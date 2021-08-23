@@ -17,6 +17,6 @@ You must have the Application Administrator or Storage Administrator role.
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Groups*.
-. In the Group Actions tab, select the group action that you want to edit, and then click *Edit*.
-. In the Edit Group Action dialog box, change the group action name, description, associated group name, and parameters of the action type, as required.
+. In the *Group Actions* tab, select the group action that you want to edit, and then click *Edit*.
+. In the *Edit Group Action* dialog box, change the group action name, description, associated group name, and parameters of the action type, as required.
 . Click *Save*.

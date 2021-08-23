@@ -19,7 +19,7 @@ When you disable events, the previously generated events in the system are marke
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Event Setup*.
-. In the Event Setup page, disable or enable events by choosing one of the following options:
+. In the *Event* Setup page, disable or enable events by choosing one of the following options:
 +
 [cols="2*",options="header"]
 |===

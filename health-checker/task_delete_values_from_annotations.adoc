@@ -20,8 +20,8 @@ You cannot delete values from predefined annotations.
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Annotations*.
-. In the annotations list in the Annotations tab, select the annotation from which you want to delete a value.
-. In the Values area of the Annotations tab, select the value you want to delete, and then click *Delete*.
-. In the Warning dialog box, click *Yes*.
+. In the annotations list in the *Annotations* tab, select the annotation from which you want to delete a value.
+. In the *Values* area of the *Annotations* tab, select the value you want to delete, and then click *Delete*.
+. In the *Warning* dialog box, click *Yes*.
 +
 The value is deleted and no longer displayed in the list of values for the selected annotation.

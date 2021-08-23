@@ -19,8 +19,8 @@ Annotations are dissociated from storage objects when you edit the associated an
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Annotations*.
-. In the Annotation Rules tab, select the annotation rule you want to edit, and then click *Actions* > *Edit*.
-. In the Edit Annotation Rule dialog box, change the rule name, annotation name and value, condition groups, and conditions as required.
+. In the *Annotation Rules* tab, select the annotation rule you want to edit, and then click *Actions* > *Edit*.
+. In the *Edit Annotation Rule* dialog box, change the rule name, annotation name and value, condition groups, and conditions as required.
 +
 You cannot change the target object type for an annotation rule.
 

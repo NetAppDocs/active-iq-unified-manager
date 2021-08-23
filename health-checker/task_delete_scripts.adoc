@@ -18,5 +18,5 @@ You can delete a script from Unified Manager when the script is no longer requir
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Scripts*.
-. In the Scripts page, select the script that you want to delete, and then click *Delete*.
-. In the Warning dialog box, confirm the deletion by clicking *Yes*.
+. In the *Scripts* page, select the script that you want to delete, and then click *Delete*.
+. In the *Warning* dialog box, confirm the deletion by clicking *Yes*.

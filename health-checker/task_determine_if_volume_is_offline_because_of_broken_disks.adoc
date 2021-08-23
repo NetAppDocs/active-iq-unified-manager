@@ -18,16 +18,16 @@ You must have the Operator, Application Administrator, or Storage Administrator 
 To determine if the volume offline condition is caused by RAID disk problems that are taking the hosting aggregate offline, perform the following actions:
 
 .Steps
-. Locate and click the hypertext link displayed under Aggregate in the Related Devices pane of the Volume / Health details page.
+. Locate and click the hypertext link displayed under Aggregate in the *Related Devices* pane of the *Volume / Health* details page.
 +
 The Aggregate / Health details page displays the online or offline status of the hosting aggregate. If the aggregate status is online, then RAID disk problems are not the cause of the volume being offline.
 
-. If the aggregate status is offline, then click *Disk Information* and look for broken disk events in the Events list on the Disk Information tab.
-. To further identify the broken disks, click the hypertext link displayed under Node in the Related Devices pane.
+. If the aggregate status is offline, then click *Disk Information* and look for broken disk events in the *Events* list on the *Disk Information* tab.
+. To further identify the broken disks, click the hypertext link displayed under Node in the *Related Devices* pane.
 +
 The Cluster / Health details page is displayed.
 
-. Click *Disks*, and then select *Broken* in the Filters pane to list all disks in the broken state.
+. Click *Disks*, and then select *Broken* in the *Filters* pane to list all disks in the broken state.
 +
 If the disks in the broken state caused the offline state of the host aggregate, the name of the aggregate is displayed in the Impacted Aggregate column.
 
