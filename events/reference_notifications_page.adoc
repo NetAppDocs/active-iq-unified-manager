@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_notifications_page.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure the Unified Manager server to send notifications when an event is generated or when it is assigned to a user. You can also configure the notification mechanisms. For example, notifications can be sent as emails or SNMP traps.'
+keywords: Notifications page, email, smtp, server, snmp
+summary: "You can configure the Unified Manager server to send notifications when an event is generated or when it is assigned to a user. You can also configure the notification mechanisms. For example, notifications can be sent as emails or SNMP traps."
 ---
 = Notifications page
 :icons: font
@@ -19,7 +19,7 @@ This area enables you to configure the following email settings for alert notifi
 
 * *From Address*
 +
-Specifies the email address from which the alert notification is sent. This value is also used as the from address for a report when shared. If the From Address is pre-filled with the address "`ActiveIQUnifiedManager@localhost.com`", you should change it to a real, working email address to make sure that all email notifications are delivered successfully.
+Specifies the email address from which the alert notification is sent. This value is also used as the from address for a report when shared. If the From Address is pre-filled with the address "ActiveIQUnifiedManager@localhost.com", you should change it to a real, working email address to make sure that all email notifications are delivered successfully.
 
 == SMTP Server
 
@@ -65,7 +65,7 @@ Specifies the host name or IP address (IPv4 or IPv6) that receives the SNMP trap
 +
 [NOTE]
 ====
-All other SNMP settings, such as "`Version`" and "`Outbound Port`", must be the same for all hosts in the list.
+All other SNMP settings, such as "Version" and "Outbound Port", must be the same for all hosts in the list.
 ====
 
 * *Outbound Trap Port*
