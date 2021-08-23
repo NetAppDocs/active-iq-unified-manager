@@ -35,9 +35,8 @@ More time is required the first time a backup is performed than for subsequent b
 ====
 
 .Steps
-
 . In the left navigation pane, click *General* > *Database Backup*.
-. In the Database Backup page, click *Backup Settings*.
+. In the *Database Backup* page, click *Backup Settings*.
 . Configure the appropriate values for a backup path, retention count, and schedule.
 +
 The default value for retention count is 10; you can use 0 for creating unlimited backups.
