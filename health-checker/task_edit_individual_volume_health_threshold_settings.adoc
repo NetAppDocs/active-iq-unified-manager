@@ -26,8 +26,8 @@ The default value of 1000 Snapshot copies is applicable only to FlexVol volumes 
 
 .Steps
 . In the left navigation pane, click *Storage* > *Volumes*.
-. In the Health: All Volumes view, select one or more volumes and then click *Edit Thresholds*.
-. In the Edit Volume Thresholds dialog box, edit the threshold settings of one of the following: capacity, Snapshot copies, qtree quota, growth, or inodes by selecting the appropriate check box and then modifying the settings.
+. In the *Health: All Volumes* view, select one or more volumes and then click *Edit Thresholds*.
+. In the *Edit Volume Thresholds* dialog box, edit the threshold settings of one of the following: capacity, Snapshot copies, qtree quota, growth, or inodes by selecting the appropriate check box and then modifying the settings.
 . Click *Save*.
 
 *Related information*

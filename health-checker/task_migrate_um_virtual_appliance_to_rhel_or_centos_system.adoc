@@ -26,7 +26,7 @@ These steps describe how to create a backup file on the virtual appliance, copy 
 
 .Steps
 . On the virtual appliance, click *Management* > *Database Backup*.
-. In the Database Backup page, click *Backup Settings*.
+. In the *Database Backup* page, click *Backup Settings*.
 . Change the backup path to /jail/support.
 . In the Schedule section, select *Scheduled Daily*, and enter a time a few minutes past the current time so that the backup is created shortly.
 . Click *Apply*.

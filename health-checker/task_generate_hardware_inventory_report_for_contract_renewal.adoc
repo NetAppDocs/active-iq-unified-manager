@@ -17,7 +17,7 @@ You must have the Operator, Application Administrator, or Storage Administrator 
 
 .Steps
 . In the left navigation pane, click *Storage* > *Nodes*.
-. Go to the Health: All Nodes view or Performance: All Nodes view.
+. Go to the *Health: All Nodes* view or *Performance: All Nodes* view.
 . Select *Reports* > *** > **Hardware Inventory Report*.
 +
 The hardware inventory report is downloaded as a .csv file with complete information as of the current date.

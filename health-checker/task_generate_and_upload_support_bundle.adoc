@@ -20,7 +20,7 @@ Because some types of support data can use a large amount of cluster resources o
 Unified Manager stores only the two most recently generated support bundles. Older support bundles are deleted from the system.
 
 .Steps
-. In the maintenance console Main Menu, select *Support/Diagnostics*.
+. In the maintenance console *Main Menu*, select *Support/Diagnostics*.
 . Select *Generate Light Support Bundle* or *Generate Support Bundle* depending on the level of details you want to have in the support bundle.
 . If you choose the full support bundle, select or deselect the following data types to include or exclude in the support bundle:
  ** *database dump*

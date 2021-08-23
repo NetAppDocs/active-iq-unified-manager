@@ -21,8 +21,8 @@ When Autogrow is enabled on volumes that reside on the aggregate, the aggregate 
 
 .Steps
 . In the left navigation pane, click *Storage* > *Aggregates*.
-. In the Health: All Aggregates view, select one or more aggregates and then click *Edit Thresholds*.
-. In the Edit Aggregate Thresholds dialog box, edit the threshold settings of one of the following: capacity, growth, or Snapshot copies by selecting the appropriate check box and then modifying the settings.
+. In the *Health: All Aggregates* view, select one or more aggregates and then click *Edit Thresholds*.
+. In the *Edit Aggregate Thresholds* dialog box, edit the threshold settings of one of the following: capacity, growth, or Snapshot copies by selecting the appropriate check box and then modifying the settings.
 . Click *Save*.
 
 *Related information*

@@ -17,8 +17,8 @@ You must have the Application Administrator or Storage Administrator role.
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Groups*.
-. In the Group Rules tab, select the group rule that you want to edit, and then click *Edit*.
-. In the Edit Group Rule dialog box, change the group rule name, associated group name, condition groups, and conditions as required.
+. In the *Group Rules* tab, select the group rule that you want to edit, and then click *Edit*.
+. In the *Edit Group Rule* dialog box, change the group rule name, associated group name, condition groups, and conditions as required.
 +
 [NOTE]
 ====

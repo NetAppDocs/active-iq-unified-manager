@@ -41,11 +41,11 @@ The example event information indicates that a storage failover interconnect lin
 However, to ensure against both links failing and storage failover protection being totally disabled, you decide to further diagnose the reason for Link1 going down.
 
 .Steps
-. From the Event details page, you can click the link to the event specified in the Source field to obtain further details of other events that might be related to the storage failover interconnection link down condition.
+. From the *Event* details page, you can click the link to the event specified in the Source field to obtain further details of other events that might be related to the storage failover interconnection link down condition.
 +
 In this example, the source of the event is the node named aardvark. Clicking that node name displays the HA Details for the affected HA pair, aardvark and bonobo, on the Nodes tab of the Cluster / Health details page, and displays other events that recently occurred on the affected HA pair.
 
-. Review the HA Details for more information relating to the event.
+. Review the *HA Details* for more information relating to the event.
 +
 In this example, the relevant information is in the Events table. The table shows the "`Storage Failover Connection One or More Link Down`" event, the time the event was generated, and, again, the node from which this event originated.
 

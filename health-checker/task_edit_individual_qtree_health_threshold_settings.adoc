@@ -19,8 +19,8 @@ Based on changes to the threshold values, events are generated or obsoleted in t
 
 .Steps
 . In the left navigation pane, click *Storage* > *Qtrees*.
-. In the Capacity: All Qtrees view, select one or more qtrees and then click *Edit Thresholds*.
-. In the Edit Qtree Thresholds dialog box, change the capacity thresholds for the selected qtree or qtrees and click *Save*.
+. In the *Capacity: All Qtrees* view, select one or more qtrees and then click *Edit Thresholds*.
+. In the *Edit Qtree Thresholds* dialog box, change the capacity thresholds for the selected qtree or qtrees and click *Save*.
 +
 [NOTE]
 ====
