@@ -13,7 +13,7 @@ The Performance: All Volumes view displays information related to the size of th
 
 [NOTE]
 ====
-FabricPool was introduced in ONTAP 9.2, so if you are using a version of ONTAP software prior to 9.2, the Unified Manager recommendation to tier data requires upgrading your ONTAP software. Additionally, the ``*auto*`` tiering policy was introduced in ONTAP 9.4, and the ``*all*`` tiering policy was introduced in ONTAP 9.6, so if the recommendation is to use the auto tiering policy, you must upgrade to ONTAP 9.4 or greater.
+FabricPool was introduced in ONTAP 9.2, so if you are using a version of ONTAP software prior to 9.2, the Unified Manager recommendation to tier data requires upgrading your ONTAP software. Additionally, the `*auto*` tiering policy was introduced in ONTAP 9.4, and the `*all*` tiering policy was introduced in ONTAP 9.6, so if the recommendation is to use the auto tiering policy, you must upgrade to ONTAP 9.4 or greater.
 ====
 
 The following three fields on Performance: All Volumes view provide information about whether you can improve your storage system's disk utilization and save space on the performance tier by moving inactive data to the cloud tier.
@@ -28,7 +28,7 @@ The value in this field indicates the tiering policy set on the volume, even if 
 +
 The cold data displays the size of the user data stored on the volume that is inactive (cold).
 +
-A value is displayed here only when using ONTAP 9.4 or greater software because it requires that the aggregate on which the volume is deployed has the ``*inactive data reporting parameter*`` set to ``*enabled*``, and that the minimum number of cooling days threshold has been met (for volumes that use the ``*snapshot-only*`` or ``*auto*`` tiering policy). Otherwise the value is listed as "`N/A`".
+A value is displayed here only when using ONTAP 9.4 or greater software because it requires that the aggregate on which the volume is deployed has the `*inactive data reporting parameter*` set to `*enabled*`, and that the minimum number of cooling days threshold has been met (for volumes that use the `*snapshot-only*` or `*auto*` tiering policy). Otherwise the value is listed as "`N/A`".
 
 * *Cloud Recommendation*
 +

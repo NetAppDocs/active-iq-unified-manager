@@ -20,7 +20,7 @@ The Unified Manager collection service has stopped and no performance data is be
 a|
 Restart Unified Manager to correct this issue. If this does not correct the issue, contact technical support.
 a|
-`More than x hour(s) of historical data is being collected from cluster _cluster_name_. Current data collections will start after all historical data is collected.``
+`More than x hour(s) of historical data is being collected from cluster _cluster_name_. Current data collections will start after all historical data is collected.`
 a|
 A data continuity collection cycle is currently running to retrieve performance data outside of the real-time cluster performance collection cycle.
 a|

@@ -22,7 +22,7 @@ The Health: All Volumes view is displayed by default.
 . Locate the volume that you want to review and scroll to the right until you see the *QoS Policy Group* column.
 . Click the QoS Policy Group name.
 +
-The corresponding Quality of Service page is displayed depending on whether it is a traditional QoS policy, an adaptive QoS policy, or a QoS policy that was created using Unified ManagerPerformance Service Levels.
+The corresponding Quality of Service page is displayed depending on whether it is a traditional QoS policy, an adaptive QoS policy, or a QoS policy that was created using Unified Manager Performance Service Levels.
 
 . View the detailed configuration settings for the QoS policy group.
 . Click the expand button (image:../media/chevron_down.gif[]) next to the QoS Policy Group name to view more details about the policy group.

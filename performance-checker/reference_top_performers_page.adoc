@@ -60,4 +60,4 @@ Navigates to the Event inventory page, which is filtered to display all events f
 
 * *Export button*
 +
-Creates a ``.csv`` file that contains the data that appears in the counter bar. You can choose to create the file for the single cluster you are viewing or for all clusters in the data center.
+Creates a `.csv` file that contains the data that appears in the counter bar. You can choose to create the file for the single cluster you are viewing or for all clusters in the data center.

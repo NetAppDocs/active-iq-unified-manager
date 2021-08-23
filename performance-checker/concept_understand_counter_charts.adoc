@@ -13,7 +13,7 @@ Charts in the Counter Charts pane enable you to view and compare performance dat
 
 Counter charts displayed by default are Events, Latency, IOPS, and MBps. Optional charts that you can choose to display are Utilization, Performance Capacity Used, Available IOPS, IOPS/TB, and Cache Miss Ratio. Additionally, you can choose to view total values or breakdown values for the Latency, IOPS, MBps, and Performance Capacity Used charts.
 
-The Performance Explorer displays certain counter charts by default; whether the storage object supports them all or not. When a counter is not supported, the counter chart is empty and the message ``Not applicable for <object>`` is displayed.
+The Performance Explorer displays certain counter charts by default; whether the storage object supports them all or not. When a counter is not supported, the counter chart is empty and the message `Not applicable for <object>` is displayed.
 
 The charts display performance trends for the root object and for all objects you have selected in the Comparing pane. Data in each chart is arranged as follows:
 

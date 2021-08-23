@@ -22,7 +22,7 @@ Displays critical, error, warning, and information events in correlation with th
 a|
 Latency - Total
 a|
-Number of milliseconds required to respond to application requests.Note that the average latency values are I/O weighted.
+Number of milliseconds required to respond to application requests. Note that the average latency values are I/O weighted.
 
 a|
 Latency - Breakdown
@@ -32,12 +32,12 @@ The same information shown in Latency Total, but with the performance data separ
 a|
 Latency - Cluster Components
 a|
-The same information shown in Latency Total, but with the performance data separated into latency by cluster component.This chart option applies only when the selected object is a volume.
+The same information shown in Latency Total, but with the performance data separated into latency by cluster component. This chart option applies only when the selected object is a volume.
 
 a|
 IOPS - Total
 a|
-Number of input/output operations processed per second.When displayed for a node, selecting "`Total`" displays the IOPS for data moving through this node that may reside on the local or the remote node, and selecting "`Total (Local)`" displays the IOPS for data that resides only on the current node.
+Number of input/output operations processed per second. When displayed for a node, selecting "`Total`" displays the IOPS for data moving through this node that may reside on the local or the remote node, and selecting "`Total (Local)`" displays the IOPS for data that resides only on the current node.
 
 a|
 IOPS - Breakdown
@@ -56,7 +56,7 @@ The same information shown in IOPS Total, but the performance data is separated 
 a|
 IOPS/TB - Total
 a|
-Number of input/output operations processed per second based on the total space that is being consumed by the workload, in terabytes. Also called I/O density, this counter measures how much performance can be delivered by a given amount of storage capacity.When displayed in Zoom view the volumes chart displays QoS expected and peak throughput values, if configured in ONTAP.
+Number of input/output operations processed per second based on the total space that is being consumed by the workload, in terabytes. Also called I/O density, this counter measures how much performance can be delivered by a given amount of storage capacity. When displayed in Zoom view the volumes chart displays QoS expected and peak throughput values, if configured in ONTAP.
 
 This chart option applies only when the selected object is a volume.
 
@@ -67,7 +67,7 @@ Number of megabytes of data transferred to and from the object per second.
 a|
 MB/s - Breakdown
 a|
-The same information shown in the MB/s chart, but with the throughput data separated into disk reads, Flash Cache reads, writes, and other.When displayed in Zoom view, the volumes chart displays QoS maximum throughput values, if configured in ONTAP.
+The same information shown in the MB/s chart, but with the throughput data separated into disk reads, Flash Cache reads, writes, and other. When displayed in Zoom view, the volumes chart displays QoS maximum throughput values, if configured in ONTAP.
 
 This chart option applies only when the selected object is an SVM, node, aggregate, volume, LUN, or namespace.
 
@@ -92,7 +92,7 @@ Number of input/output operations per second that are currently available (free)
 a|
 Utilization - Total
 a|
-Available resource percentage of the object that is being used. Utilization indicates node utilization for nodes, disk utilization for aggregates, and bandwidth utilization for ports.This chart option applies only when the selected object is a node, aggregate, or port.
+Available resource percentage of the object that is being used. Utilization indicates node utilization for nodes, disk utilization for aggregates, and bandwidth utilization for ports. This chart option applies only when the selected object is a node, aggregate, or port.
 
 a|
 Cache Miss Ratio - Total
