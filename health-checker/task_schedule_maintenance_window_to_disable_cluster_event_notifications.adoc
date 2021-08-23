@@ -21,7 +21,7 @@ The time you enter for the maintenance window is based on the time at the Unifie
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
-. In the Maintenance Mode column for the cluster, select the slider button and move it to the right.
+. In the *Maintenance Mode* column for the cluster, select the slider button and move it to the right.
 +
 The calendar window is displayed.
 

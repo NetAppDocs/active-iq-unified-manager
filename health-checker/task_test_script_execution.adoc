@@ -17,7 +17,7 @@ You can verify that your script is executed correctly when an alert is generated
 . In the left navigation pane, click *Storage Management* > *Scripts*.
 . In the Scripts page, add your test script.
 . In the left navigation pane, click *Storage Management* > *Alert Setup*.
-. In the Alert Setup page, perform one of the following actions:
+. In the *Alert Setup* page, perform one of the following actions:
 +
 [cols="2*",options="header"]
 |===
@@ -40,6 +40,6 @@ a|
 |===
 
 . Click *Save*.
-. In the Alert Setup page, select the alert that you added or modified, and then click *Test*.
+. In the *Alert Setup* page, select the alert that you added or modified, and then click *Test*.
 +
 The script is executed with the "`-test`" argument, and a notification alert is sent to the email addresses that were specified when the alert was created.

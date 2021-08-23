@@ -19,7 +19,7 @@ You configure the destination location for Active IQ Unified Manager Snapshot ba
 . Use Secure Shell to connect to the IP address or FQDN of the Active IQ Unified Manager system.
 . Log in to the system with the maintenance user (umadmin) name and password.
 . Enter the command `maintenance_console` and press Enter.
-. In the maintenance console Main Menu, enter the number for the *Backup Restore* option.
+. In the maintenance console *Main Menu*, enter the number for the *Backup Restore* option.
 . Enter the number for *Configure NetApp Snapshot Backup*.
 . Enter the number to configure NFS.
 . Review the information that you will need to provide and then enter the number for *Enter Backup Configuration Details*.
