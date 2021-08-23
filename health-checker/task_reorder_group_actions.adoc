@@ -19,6 +19,6 @@ You can select either a single row or multiple rows, and then perform multiple d
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Groups*.
-. In the Group Actions tab, click *Reorder*.
-. In the Reorder Group Actions dialog box, drag and drop the rows to rearrange the sequence of group actions as required.
+. In the *Group Actions* tab, click *Reorder*.
+. In the *Reorder Group Actions* dialog box, drag and drop the rows to rearrange the sequence of group actions as required.
 . Click *Save*.

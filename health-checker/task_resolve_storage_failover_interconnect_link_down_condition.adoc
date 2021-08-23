@@ -19,14 +19,14 @@ If storage failover interconnections between HA pair nodes fail during a nondisr
 
 .Steps
 . In the left navigation pane, click *Event Management*.
-. In the Event Management inventory page, select *Active Availability events*.
-. At the top of the Event Management inventory pageName column, click image:../media/filtericon_um60.png[Icon for column filter] and enter `*failover` in the text box to limit the event to display to storage failover-related events.
+. In the *Event Management* inventory page, select *Active Availability events*.
+. At the top of the *Event Management* inventory page *Name* column, click image:../media/filtericon_um60.png[Icon for column filter] and enter `*failover` in the text box to limit the event to display to storage failover-related events.
 +
 All past events related to storage failover conditions are displayed.
 +
 In this scenario, the Unified Manager displays the event, "`Storage Failover Interconnect One or More Links Down`" in its Availability Incidents section.
 
-. If one or more events related to storage failover are displayed on the Event Management inventory page, perform the following steps:
+. If one or more events related to storage failover are displayed on the *Event Management* inventory page, perform the following steps:
  .. Click the event title link to display event details for that event.
 +
 In this example, you click the event title "`Storage Failover Interconnect One or More Links Down`".

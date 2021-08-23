@@ -18,11 +18,11 @@ You must have the Operator, Application Administrator, or Storage Administrator 
 On the Dashboard page, you look for a "`Volume Space Full`" error event in the Capacity panel under the events drop-down list.
 
 .Steps
-. In the Capacity panel of the Dashboard page, click the name of the Volume Space Full error event.
+. In the *Capacity* panel of the *Dashboard* page, click the name of the Volume Space Full error event.
 +
 The Event details page for the error is displayed.
 
-. From the Event details page, you can perform one or more of the following tasks:
+. From the *Event* details page, you can perform one or more of the following tasks:
  ** Review the error message in the Cause field and click the suggestions under Suggested Remedial Actions to review descriptions of possible remediations.
  ** Click the object name, in this case a volume, in the Source field to get details about the object.
  ** Look for notes that might have been added about this event.

@@ -19,8 +19,8 @@ You can select either a single row or multiple rows and perform many drag-and-dr
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Annotations*.
-. In the Annotation Rules tab, click *Reorder*.
-. In the Reorder Annotation Rule dialog box, drag and drop single or multiple rows to rearrange the sequence of the annotation rules.
+. In the *Annotation Rules* tab, click *Reorder*.
+. In the *Reorder Annotation Rule* dialog box, drag and drop single or multiple rows to rearrange the sequence of the annotation rules.
 . Click *Save*.
 +
 You must save the changes for the reorder to be displayed.

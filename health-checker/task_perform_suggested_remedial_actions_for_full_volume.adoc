@@ -28,13 +28,13 @@ Possible remedial actions you might perform for a full volume include the follow
 Although all of these actions must be performed from either ONTAP System Manager or the ONTAP CLI, you can use Unified Manager to find information you might need to determine which actions to take.
 
 .Steps
-. From the Event details page, you click the volume name in the Source field to view details about the affected volume.
-. On the Volume / Health details page, you click *Configuration* and see that deduplication and compression are already enabled on the volume.
+. From the *Event* details page, you click the volume name in the Source field to view details about the affected volume.
+. On the *Volume / Health* details page, you click *Configuration* and see that deduplication and compression are already enabled on the volume.
 +
 You decide to resize the volume.
 
-. In the Related Devices pane, you click the name of the hosting aggregate to see if the aggregate can accommodate a larger volume.
-. On the Aggregate / Health details page, you see that the aggregate hosting the full volume does have enough uncommitted capacity, so you use ONTAP System Manager to resize the volume, giving it more capacity.
+. In the *Related Devices* pane, you click the name of the hosting aggregate to see if the aggregate can accommodate a larger volume.
+. On the *Aggregate / Health* details page, you see that the aggregate hosting the full volume does have enough uncommitted capacity, so you use ONTAP System Manager to resize the volume, giving it more capacity.
 
 *Related information*
 
