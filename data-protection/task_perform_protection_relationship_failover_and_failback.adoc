@@ -18,7 +18,7 @@ When a source volume in your protection relationship is disabled because of a ha
 
 .Steps
 
-link:task_break_snapmirror_relationship_from_health_volume_details.html[Break the SnapMirror relationship].
+. link:task_break_snapmirror_relationship_from_health_volume_details.html[Break the SnapMirror relationship].
 +
 You must break the relationship before you can convert the destination from a data protection volume to a read/write volume, and before you can reverse the relationship.
 
