@@ -17,10 +17,10 @@ You must have the Application Administrator or Storage Administrator role.
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Annotations*.
-. In the Annotation Rules tab, click *Add*.
-. In the Add Annotation Rule dialog box, enter a name for the rule.
+. In the *Annotation Rules* tab, click *Add*.
+. In the *Add Annotation Rule* dialog box, enter a name for the rule.
 . Select one object type from the Target Object Type list, and then select an annotation name and value from the list.
-. In the Conditions section of the dialog box, select an operand and an operator from the list and enter a condition value, or click *Add Condition* to create a new condition.
+. In the *Conditions* section of the dialog box, select an operand and an operator from the list and enter a condition value, or click *Add Condition* to create a new condition.
 . Click *Save and Add*.
 
 == Example of configuring a condition for an annotation rule

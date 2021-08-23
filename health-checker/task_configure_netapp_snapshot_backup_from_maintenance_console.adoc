@@ -22,16 +22,17 @@ You should have the following details for your system:
 * Mount path
 * Storage system credentials
 
+.Steps
 . Access the maintenance console of Unified Manager.
-. Enter 4 to select Backup Restore.
-. Enter 2 to select Backup and Restore using NetApp Snapshot.
+. Enter 4 to select *Backup Restore*.
+. Enter 2 to select *Backup and Restore using NetApp Snapshot*.
 +
 [NOTE]
 ====
 If you want to change the backup configuration, then enter 3 for Update NetApp Snapshot Backup Configuration. You can only update the password.
 ====
 
-. From the menu, enter 1 to select the Configure NetApp Snapshot Backup.
+. From the menu, enter 1 to select the *Configure NetApp Snapshot Backup*.
 . Enter 1 to provide the required information.
 . Provide the username and password for the maintenance console, and then provide the confirmation that LUN is mounted on host.
 +

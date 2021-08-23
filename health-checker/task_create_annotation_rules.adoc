@@ -19,8 +19,8 @@ Storage objects that are currently monitored are annotated as soon as the annota
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Annotations*.
-. In the Annotation Rules tab, click *Add*.
-. In the Add Annotation Rule dialog box, specify a name for the annotation rule.
+. In the *Annotation Rules* tab, click *Add*.
+. In the *Add Annotation Rule* dialog box, specify a name for the annotation rule.
 . In the *Target Object Type* field, select the type of storage object that you want to annotate.
 . In the *Apply Annotation* fields, select the annotation and annotation value that you want to use.
 . In the Conditions section, perform the appropriate action to create a condition, a condition group, or both:

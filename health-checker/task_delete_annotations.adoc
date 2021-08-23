@@ -18,7 +18,7 @@ You can delete custom annotations and their values when they are no longer requi
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Annotations*.
-. In the Annotations tab, select the annotation that you want to delete.
+. In the *Annotations* tab, select the annotation that you want to delete.
 +
 The details of the selected annotation are displayed.
 

@@ -19,9 +19,9 @@ The volume health threshold type of group action is applied only on volumes of a
 
 .Steps
 . In the left navigation pane, click *Storage Management* > *Groups*.
-. In the Group Actions tab, click *Add*.
+. In the *Group Actions* tab, click *Add*.
 . Enter a name and description for the group action.
-. From the Group drop-down box, select a group for which you want to configure group action.
+. From the *Group* drop-down box, select a group for which you want to configure group action.
 . Select *Action Type* as the volume health threshold.
 . Select the category for which you want to set the threshold.
 . Enter the required values for the health threshold.

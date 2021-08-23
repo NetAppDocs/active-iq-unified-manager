@@ -22,7 +22,7 @@ The settings described in this task are applied globally to all unmanaged protec
 .Steps
 . In the left navigation pane, click *Event Thresholds* > *Relationship*.
 . Increase or decrease the global default warning or error lag time percentage as required.
-. To disable a warning or error event from being triggered from any lag threshold amount, uncheck the box next to Enabled.
+. To disable a warning or error event from being triggered from any lag threshold amount, uncheck the box next to *Enabled*.
 . Click *Save*.
 
 *Related information*

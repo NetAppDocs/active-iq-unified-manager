@@ -25,8 +25,8 @@ Backup taken during initial 15 days of a new cluster addition might not be accur
 
 .Steps
 . In the left navigation pane, click *General* > *Database Backup*.
-. In the Database Backup page, click *Backup Settings*.
-. Enter the maximum number of Snapshot copies that you want to retain in the Retention Count field.
+. In the *Database Backup* page, click *Backup Settings*.
+. Enter the maximum number of Snapshot copies that you want to retain in the *Retention Count* field.
 +
 The default value for retention count is 10. The maximum number of Snapshot copies is determined by the version of ONTAP software on the cluster. You can leave this field blank to implement the maximum value regardless of ONTAP version.
 
