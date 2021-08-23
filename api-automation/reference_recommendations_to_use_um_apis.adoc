@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/reference_recommendations_to_use_um_apis.html
 sidebar: sidebar
-keywords: 
-summary: 'When using the APIs in Active IQ Unified Manager, you should follow certain recommended practices.'
+keywords: recommendations, apis, active iq, unified, manager
+summary: "When using the APIs in Active IQ Unified Manager, you should follow certain recommended practices."
 ---
 = Recommendations for using the APIs for Active IQ Unified Manager
 :icons: font

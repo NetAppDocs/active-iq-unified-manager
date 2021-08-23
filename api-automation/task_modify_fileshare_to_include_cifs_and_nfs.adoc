@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html
 sidebar: sidebar
-keywords: storage workloads,storage workloads
-summary: 'You can modify an NFS file share to support CIFS protocol. During file share creation, it is possible to specify both access control list \(ACL\) parameters and export policy rules for the same file share. However, if you want to enable CIFS on the same volume where you created an NFS file share, you can update the ACL parameters on that file share to support CIFS.'
+keywords: modify, nfs, file, share, support, cifs
+summary: "You can modify an NFS file share to support CIFS protocol. During file share creation, it is possible to specify both access control list (ACL) parameters and export policy rules for the same file share. However, if you want to enable CIFS on the same volume where you created an NFS file share, you can update the ACL parameters on that file share to support CIFS."
 ---
 = Modifying an NFS file share to support CIFS
 :icons: font
@@ -11,13 +11,18 @@ summary: 'You can modify an NFS file share to support CIFS protocol. During file
 [.lead]
 You can modify an NFS file share to support CIFS protocol. During file share creation, it is possible to specify both access control list (ACL) parameters and export policy rules for the same file share. However, if you want to enable CIFS on the same volume where you created an NFS file share, you can update the ACL parameters on that file share to support CIFS.
 
+*What you'll need*
+
 . An NFS file share must have been created with only the export policy details. For information, see _Managing file shares_ and _Modifying storage workloads_.
 . You must have the file share key to run this operation. For information about viewing file share details and retrieving the file share key by using the Job ID, see _Provisioning CIFS and NFS file shares_.
 
 This is applicable for an NFS file share that you created by adding only export policy rules and not ACL parameters. You modify the NFS file share to include the ACL parameters.
 
+.Steps
+
 . On the NFS file share, perform a PATCH operation with the ACL details for allowing CIFS access.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -25,7 +30,7 @@ storage-provider
 a|
 PATCH
 a|
-/storage-provider/file-shares
+`/storage-provider/file-shares`
 |===
 *Sample cURL*
 +
@@ -51,6 +56,7 @@ The operation returns the Job ID of the Job that runs the update.
 
 . Verify whether the parameters have been added correctly by querying the file share details for the same file share.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -58,7 +64,7 @@ storage-provider
 a|
 GET
 a|
-/storage-provider/file-shares/\{key}
+`/storage-provider/file-shares/\{key}`
 |===
 *Sample JSON output*
 +

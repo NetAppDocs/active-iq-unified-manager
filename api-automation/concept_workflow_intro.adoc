@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/concept_workflow_intro.html
 sidebar: sidebar
-keywords: 
-summary: 'The common workflows provide client application developers with examples of how Active IQ Unified Manager APIs can be called by a client application to execute common storage management functions. This section contains some of these sample workflows.'
+keywords: common, workflows, storage, management
+summary: "The common workflows provide client application developers with examples of how Active IQ Unified Manager APIs can be called by a client application to execute common storage management functions. This section contains some of these sample workflows."
 ---
 = Common workflows for storage management
 :icons: font

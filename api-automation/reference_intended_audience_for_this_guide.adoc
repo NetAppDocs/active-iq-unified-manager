@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/reference_intended_audience_for_this_guide.html
 sidebar: sidebar
-keywords: 
-summary: 'This guide is intended for developers creating applications that interface with the Active IQ Unified Manager software through REST APIs.'
+keywords: audience, guide
+summary: "This guide is intended for developers creating applications that interface with the Active IQ Unified Manager software through REST APIs."
 ---
 = Audience for this guide
 :icons: font

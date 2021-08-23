@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/concept_um_apis_list_intro.html
 sidebar: sidebar
-keywords: 
-summary: 'The REST APIs for Active IQ Unified Manager are listed in this section, based on their categories.'
+keywords: unified, manager, rest, api
+summary: "The REST APIs for Active IQ Unified Manager are listed in this section, based on their categories."
 ---
 = Unified Manager REST APIs
 :icons: font
