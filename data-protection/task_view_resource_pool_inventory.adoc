@@ -15,7 +15,7 @@ You can use the Resource Pools page to view the resource pool inventory and to m
 
 You must have the Application Administrator or Storage Administrator role.
 
-.Steps
+.Step
 
 . In the left navigation pane, click *Protection* > *Resource Pools*.
 +
