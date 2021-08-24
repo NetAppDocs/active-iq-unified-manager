@@ -54,7 +54,7 @@ If you plan to use the Unified Manager backup and restore feature, allocate addi
 
 == Requirements for host connectivity
 
-The physical system or virtual system on which you install Unified Manager should be configured in such a way that you can successfully ping the host name from the host itself. In case of IPv6 configuration, you should verify that ping6 to the host name is successful to ensure that the Unified Manager installation succeeds.
+The physical system or virtual system on which you install Unified Manager should be configured in such a way that you can successfully `ping` the host name from the host itself. In case of IPv6 configuration, you should verify that `ping6` to the host name is successful to ensure that the Unified Manager installation succeeds.
 
 You can use the host name (or the host IP address) to access the product web UI. If you configured a static IP address for your network during deployment, then you designated a name for the network host. If you configured the network using DHCP, you should obtain the host name from the DNS.
 

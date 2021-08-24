@@ -30,7 +30,11 @@ You should access the maintenance console by using the VMware console, and not b
 
 [NOTE]
 ====
-Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM Tools (open-vm-tools). You no longer have to install VMware Tools as part of the installation because open-vm-tools is included with the Unified Manager installation package.
+Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM Tools (`open-vm-tools`). You no longer have to install VMware Tools as part of the installation because `open-vm-tools` is included with the Unified Manager installation package.
 ====
 
 After finishing the deployment and initial setup, you can either add clusters, or configure additional network settings in the maintenance console, and then access the web UI.
+
+.Steps
+. link:task_download_unified_manager_ova_file.html[Download Unified Manager]
+. link:task_deploy_unified_manager_virtual_appliance_vapp.html[Deploy the Unified Manager virtual appliance]

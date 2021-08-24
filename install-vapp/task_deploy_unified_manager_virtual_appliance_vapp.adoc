@@ -36,7 +36,7 @@ Obtain the following information before deploying the virtual appliance:
  ** Primary and secondary DNS addresses
  ** Search domains
 
-Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM Tools (`open-vm-tools`). You do not have to install VMware Tools as part of the installation process because `open-vm-tools` is included with the Unified Manager installation package.
+Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM Tools (`_open-vm-tools_`). You do not have to install VMware Tools as part of the installation process because `_open-vm-tools_` is included with the Unified Manager installation package.
 
 When the virtual appliance is deployed, a unique self-signed certificate for HTTPS access is generated. When accessing the Unified Manager web UI, you might see a browser warning about untrusted certificates.
 

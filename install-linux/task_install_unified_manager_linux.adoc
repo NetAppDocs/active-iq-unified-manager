@@ -36,15 +36,15 @@ The Red Hat Enterprise Linux or CentOS system might have all the required versio
 a|
 OpenJDK version 11.0.9
 a|
-java -version
+`java -version`
 a|
 MySQL 8.0.25 Community Edition
 a|
-rpm -qa \| grep -i mysql
+`rpm -qa \| grep -i mysql`
 a|
 p7zip 16.02
 a|
-rpm -qa \| grep p7zip
+`rpm -qa \| grep p7zip`
 |===
 
 . If the installed version of MySQL is earlier than MySQL 8.0.25 Community Edition, enter the following command to uninstall it:
@@ -55,7 +55,7 @@ If you receive dependency errors, you must add the `--nodeps` option to uninstal
 
 . Navigate to the directory where you downloaded the installation `.zip` file and expand the Unified Manager bundle:
 +
-`unzip ActiveIQUnifiedManager-<version\>.zip`
+`unzip ActiveIQUnifiedManager-_<version>_.zip`
 +
 The required `.rpm` modules for Unified Manager are unzipped to the target directory.
 

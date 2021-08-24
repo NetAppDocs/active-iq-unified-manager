@@ -26,4 +26,4 @@ For version 8, download it from:
 +
 `yum install epel-release-latest-<version>.noarch.rpm`
 
-For Red Hat Enterprise Linux 8 systems, if you have internal repositories with modular RPM packages, for example, `javapackages-filesystem-<version>.module.rpm`, ensure that the metadata for the modular packages is also available in the same repository.
+For Red Hat Enterprise Linux 8 systems, if you have internal repositories with modular RPM packages, for example, `_javapackages-filesystem-<version>.module.rpm_`, ensure that the metadata for the modular packages is also available in the same repository.

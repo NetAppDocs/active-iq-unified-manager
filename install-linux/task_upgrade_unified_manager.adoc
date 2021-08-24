@@ -51,14 +51,14 @@ The required RPM modules for Unified Manager are unzipped to the target director
  ** `netapp-um<version>.x86_64.rpm`
 . *Optional:* For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages:
  .. View the list of available and unavailable packages:
- +
- `yum install netapp-um<version\>.x86_64.rpm --assumeno`
++
+`yum install netapp-um<version\>.x86_64.rpm --assumeno`
 +
 The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
 
  .. On a different system that has Internet access, run the following command to download the missing packages.
- +
- `yum install package_name --downloadonly --downloaddir=.`
++
+`yum install package_name --downloadonly --downloaddir=.`
 +
 The packages are downloaded in the directory specified as `--downloaddir=`.
 +
@@ -67,7 +67,9 @@ Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat
 `yum install yum-plugin-downloadonly`
 
  .. Create a new directory in the installation system and copy the downloaded packages from the Internet-connected system.
- .. Change directories to the new directory on the installation system and run the following command for installing MySQL Community Edition, along with its dependencies. `yum install *.rpm`
+ .. Change directories to the new directory on the installation system and run the following command for installing MySQL Community Edition, along with its dependencies.
++
+`yum install *.rpm`
 . Run the pre-installation script to ensure that there are no system configuration settings or any installed software that might conflict with the upgrade:
 +
 `sudo ./pre_install_check.sh`
