@@ -48,7 +48,8 @@ The required RPM modules for Unified Manager are unzipped to the target director
 . Verify that the following module is available in the directory:
 +
 `ls *.rpm`
- ** `netapp-um<version>.x86_64.rpm`
++
+** `netapp-um<version>.x86_64.rpm`
 . *Optional:* For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages:
  .. View the list of available and unavailable packages:
 +

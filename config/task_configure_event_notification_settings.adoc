@@ -33,5 +33,5 @@ You must have the Application Administrator or Storage Administrator role.
 +
 *Notes:*
 
- ** If the From Address is pre-filled with the address "`ActiveIQUnifiedManager@localhost.com`", you should change it to a real, working email address to make sure that all email notifications are delivered successfully.
+ ** If the From Address is pre-filled with the address "+ActiveIQUnifiedManager@localhost.com+", you should change it to a real, working email address to make sure that all email notifications are delivered successfully.
  ** If the host name of the SMTP server cannot be resolved, you can specify the IP address (IPv4 or IPv6) of the SMTP server instead of the host name.

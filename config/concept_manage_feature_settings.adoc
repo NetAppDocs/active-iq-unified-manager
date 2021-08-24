@@ -16,4 +16,4 @@ The Feature Settings page allows you to enable and disable specific features in 
 The Feature Settings page is only available for users with Application Administrator role.
 ====
 
-For information about Scripts Upload, see xref:task_enable_and_disable_ability_to_upload_scripts.adoc[Enabling and disabling scripts upload].
+For information about Scripts Upload, see link:task_enable_and_disable_ability_to_upload_scripts.html[Enabling and disabling scripts upload].
