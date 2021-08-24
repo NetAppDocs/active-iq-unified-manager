@@ -48,7 +48,7 @@ Data for the objects in the Comparing pane is displayed in the Counter Charts.
 
 * *View Statistics In*
 +
-For volume and LUNs, enables you to select whether the statistics are displayed after each collection cycle (default 5 minutes), or whether the statistics are shown as an hourly average. This functionality enables you to view the latency chart in support of the NetApp"`Performance Guarantee`" program.
+For volume and LUNs, enables you to select whether the statistics are displayed after each collection cycle (default 5 minutes), or whether the statistics are shown as an hourly average. This functionality enables you to view the latency chart in support of the NetApp "Performance Guarantee" program.
 
 * *Counter Charts*
 +
