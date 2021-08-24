@@ -20,6 +20,6 @@ You can also examine details of the protection relationships, including transfer
 .Steps
 
 . In the left navigation pane, click *STORAGE* > *Storage VMs*.
-. From the VIEW menu, select *Relationship* > *All Relationships*.
+. From the *VIEW* menu, select *Relationship* > *All Relationships*.
 +
 The Relationship: All Relationships view is displayed with all the configured storage VMs.

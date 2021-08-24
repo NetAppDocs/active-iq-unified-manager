@@ -19,7 +19,7 @@ You can create a new SnapVault policy to set the priority for a SnapVault transf
 
 .Steps
 
-. From the *SnapVault* tab of the *Configure Protection* dialog box, click the *Create Policy* link in the Relationship Settings area.
+. From the *SnapVault* tab of the *Configure Protection* dialog box, click the *Create Policy* link in the *Relationship Settings* area.
 +
 The SnapVault tab is displayed.
 

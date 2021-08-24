@@ -33,6 +33,6 @@ The Quiesce dialog box is displayed.
 The status of the quiesce job is displayed at the top of the Volume / Health details page, along with a link to the job details.
 
 . Click the *View details* link to go to the *Job* details page for additional details and job progress.
-.  *Optional:* Click the *Back* arrow on your browser to return to the Volume Relationships page.
+.  *Optional:* Click the *Back* arrow on your browser to return to the *Volume Relationships* page.
 +
 The quiesce job is finished when all job tasks are successfully completed.

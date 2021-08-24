@@ -34,4 +34,4 @@ The Abort Transfer dialog box is displayed.
 +
 The Abort Transfer dialog box is closed, and the status of the abort job displays at the top of the Volume Relationships page, along with a link to the job details.
 
-. *Optional:* Click the *View details* link to go to the Job details page for additional details and to view job progress.
+. *Optional:* Click the *View details* link to go to the *Job* details page for additional details and to view job progress.

@@ -40,10 +40,10 @@ You are returned to the Resynchronize dialog box.
 +
 The resynchronization job is started, you are returned to the Volume / Health details page and a jobs link is displayed at the top of the page.
 
-.  *Optional:* Click *View Jobs* on the Volume / Health details page to track the status of each resynchronization job.
+.  *Optional:* Click *View Jobs* on the *Volume / Health details* page to track the status of each resynchronization job.
 +
 A filtered list of jobs is displayed.
 
-.  *Optional:* Click the Back arrow on your browser to return to the Volume / Health details page.
+.  *Optional:* Click the *Back* arrow on your browser to return to the *Volume / Health* details page.
 +
 The resynchronization job is finished when all job tasks successfully complete.

@@ -41,6 +41,6 @@ The resynchronization job is started, you are returned to the Volume Relationshi
 +
 A filtered list of jobs is displayed.
 
-.  *Optional:* Click the *Back* arrow on your browser to return to the Volume Relationships page.
+.  *Optional:* Click the *Back* arrow on your browser to return to the *Volume Relationships* page.
 +
 The resynchronization operation is finished when all job tasks successfully finish.

@@ -23,9 +23,9 @@ You can select no more than 10 quiesced relationships on which to resume transfe
 . From the Volume *Relationships* page, select one or more volumes with quiesced relationships, and, on the toolbar, click *Resume*.
 . In the *Resume* dialog box, click *Continue*.
 +
-You are returned to the *Volume Relationships* page.
+You are returned to the Volume Relationships page.
 
-. To view the related job tasks and to track their progress, click the job link that is displayed at the top of the Volume Relationships page.
+. To view the related job tasks and to track their progress, click the job link that is displayed at the top of the *Volume Relationships* page.
 . Do one of the following:
  ** If only one job is displayed, in the Job details page click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
  ** If more than one job is displayed,
