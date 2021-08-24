@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_what_suggested_actions_section_displays.html
 sidebar: sidebar
-keywords: 
-summary: 'The Suggested Actions section of the Event details page provides possible reasons for the event and suggests a few actions so that you can try to resolve the event on your own. The suggested actions are customized based on the type of event or type of threshold that has been breached.'
+keywords: suggest, actions, section, displays
+summary: "The Suggested Actions section of the Event details page provides possible reasons for the event and suggests a few actions so that you can try to resolve the event on your own. The suggested actions are customized based on the type of event or type of threshold that has been breached."
 ---
 = What the Suggested Actions section displays
 :icons: font

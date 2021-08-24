@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_volume_events.html
 sidebar: sidebar
-keywords: 
-summary: 'Volume events provide information about the status of volumes which enables you to monitor for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity.'
+keywords: volume, events, impact area, availability, capacity, configuration, performance
+summary: "Volume events provide information about the status of volumes which enables you to monitor for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity."
 ---
 = Volume events
 :icons: font
@@ -14,11 +14,9 @@ Volume events provide information about the status of volumes which enables you 
 An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
 
 == Impact area: availability
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Volume Restricted(ocumEvtVolumeRestricted)
 
@@ -121,11 +119,9 @@ Information
 |===
 
 == Impact area: capacity
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Thin-Provisioned Volume Space At Risk(ocumThinProvisionVolumeSpaceAtRisk)
 
@@ -327,11 +323,9 @@ Information
 |===
 
 == Impact area: configuration
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Volume Renamed(Not applicable)
 
@@ -362,11 +356,9 @@ Information
 |===
 
 == Impact area: performance
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 QoS Volume Max IOPS Warning Threshold Breached(ocumQosVolumeMaxIopsWarning)
 
