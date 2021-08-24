@@ -28,8 +28,8 @@ Depending on your browser, you might need to click *OK* to save the file.
 
 . If needed, click *Enable Editing*.
 . In Excel, open the downloaded file.
-. On the data sheet, select the data that you want to use in the Volume and Available Data % columns.
-. On the *Insert* menu, select a 3-D piechart.
+. On the `data` sheet, select the data that you want to use in the `Volume` and `Available Data` % columns.
+. On the *Insert* menu, select a `3-D piechart.`
 +
 The chart shows which volumes have the largest available space. The chart appears on the data sheet.
 +
@@ -67,7 +67,7 @@ A check mark appears beside the *Reports* > *Upload Excel* menu item.
 image::../media/upload_excel.png[]
 
 . Click *Scheduled Reports*.
-. Click *Add Schedule* to add a new row to the Report Schedules page so that you can define the schedule characteristics for the new report.
+. Click *Add Schedule* to add a new row to the *Report Schedules* page so that you can define the schedule characteristics for the new report.
 . Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
 +
 [NOTE]
