@@ -31,7 +31,7 @@ Unified Manager is restarted automatically after you complete the SAML configura
 .Steps
 
 . In the left navigation pane, click *General* > *SAML Authentication*.
-. Select the Enable SAML authentication checkbox.
+. Select the *Enable SAML authentication* checkbox.
 +
 The fields required to configure the IdP connection are displayed.
 

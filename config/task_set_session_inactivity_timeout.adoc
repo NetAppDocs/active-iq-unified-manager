@@ -25,7 +25,7 @@ This option is not available if you have enabled Security Assertion Markup Langu
 .Steps
 
 . In the left navigation pane, click *General* > *Feature Settings*.
-. In the Feature Settings page, specify the inactivity timeout by choosing one of the following options:
+. In the *Feature Settings* page, specify the inactivity timeout by choosing one of the following options:
 +
 [cols="2*",options="header"]
 |===

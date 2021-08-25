@@ -17,7 +17,7 @@ The virtual appliance is powered on.
 
 You are logged in to the maintenance console as the maintenance user.
 
-You can also restart the virtual machine from vSphere by using the **Restart Guest**option. See the VMware documentation for more information.
+You can also restart the virtual machine from vSphere by using the *Restart Guest* option. See the VMware documentation for more information.
 
 .Steps
 

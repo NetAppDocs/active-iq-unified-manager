@@ -83,6 +83,6 @@ The system returns a confirmation similar to the following:
 . After the MySQL service is started, start the ocie and ocieau services in the order shown:
 +
 `systemctl start ocie ocieau`
-. After all of the services are started, delete the backup folder /backup-data:
+. After all of the services are started, delete the backup folder `/backup-data`:
 +
 `rm -rf /backup-data`

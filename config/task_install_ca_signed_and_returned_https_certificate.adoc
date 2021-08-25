@@ -44,10 +44,10 @@ The following example shows how the certificate chain file might appear:
 <*Server certificate*>
 -----END CERTIFICATE-----
 -----BEGIN CERTIFICATE-----
-<*Intermediate certificate \#1 \(if present\)*>
+<*Intermediate certificate \#1 (if present)*>
 -----END CERTIFICATE-----
 -----BEGIN CERTIFICATE-----
-<*Intermediate certificate \#2 \(if present\)*>
+<*Intermediate certificate \#2 (if present)*>
 -----END CERTIFICATE-----
 -----BEGIN CERTIFICATE-----
 <*Root signing certificate*>

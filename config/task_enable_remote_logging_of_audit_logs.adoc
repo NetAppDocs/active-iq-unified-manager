@@ -15,12 +15,12 @@ The remote logging of audit logs provides a tamper-proof backup in case the audi
 
 .Steps
 
-. In the Configure Audit Logs dialog box, select the *Enable Remote Logging* checkbox.
+. In the *Configure Audit Logs* dialog box, select the *Enable Remote Logging* checkbox.
 +
 Additional fields to configure remote logging are displayed.
 
 . Enter the *HOSTNAME* and *PORT* of the remote server you want to connect to.
-. In the SERVER CA CERTIFICATE field, click *BROWSE* to select a public certificate of the target server.
+. In the *SERVER CA CERTIFICATE* field, click *BROWSE* to select a public certificate of the target server.
 +
 The certificate should be uploaded in `.pem` format. This certificate should be obtained from the target Syslog server and should not have expired. The certificate should contain the selected "`hostname`" as part of the `SubjectAltName` (SAN) attribute.
 

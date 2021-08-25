@@ -16,12 +16,12 @@ After the security certificate is changed and the Unified Manager server is rest
 .Steps
 
 . Log into the maintenance console.
-. In the Main Menu, enter the number for the *Disable SAML authentication* option.
+. In the *Main Menu*, enter the number for the *Disable SAML authentication* option.
 +
 A message displays to confirm that you want to disable SAML authentication and restart Unified Manager.
 
 . Launch the Unified Manager user interface using the updated FQDN or IP address, accept the updated server certificate into your browser, and log in using the maintenance user credentials.
-. In the Setup/Authentication page, select the *SAML Authentication* tab and configure the IdP connection.
+. In the *Setup/Authentication* page, select the *SAML Authentication* tab and configure the IdP connection.
 . Copy the Unified Manager host metadata URI, or save the host metadata to an XML text file.
 . Click *Save*.
 +

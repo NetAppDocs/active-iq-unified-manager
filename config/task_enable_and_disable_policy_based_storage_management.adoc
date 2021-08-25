@@ -42,7 +42,7 @@ See the online help in the product for more information on these pages and on th
 .Steps
 
 . In the left navigation pane, click *General* > *Feature Settings*.
-. In the Feature Settings page, disable or enable policy-based storage management by choosing one of the following options:
+. In the *Feature Settings* page, disable or enable policy-based storage management by choosing one of the following options:
 +
 [cols="2*",options="header"]
 |===

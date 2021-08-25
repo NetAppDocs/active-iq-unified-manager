@@ -23,7 +23,7 @@ Unified Manager is restarted automatically after SAML authentication is disabled
 .Steps
 
 . In the left navigation pane, click *General* > *SAML Authentication*.
-. Uncheck the Enable SAML authentication checkbox.
+. Uncheck the *Enable SAML authentication* checkbox.
 . Click *Save*.
 +
 A message box displays to confirm that you want to complete the configuration and restart Unified Manager.
