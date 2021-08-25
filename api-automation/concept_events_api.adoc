@@ -9,7 +9,7 @@ summary: "The events and system APIs under the management-server category enable
 :imagesdir: ../media/
 
 [.lead]
-The events and system APIs under the management-server category enable you to retrieve the events that are generated for the monitored clusters in your data center and view the instance details in your Active IQ Unified Manager environment respectively.
+The `events` and `system` APIs under the `management-server` category enable you to retrieve the events that are generated for the monitored clusters in your data center and view the instance details in your Active IQ Unified Manager environment respectively.
 
 == Viewing events
 

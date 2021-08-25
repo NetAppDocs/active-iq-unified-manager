@@ -9,7 +9,7 @@ summary: "The Hello API server is a sample program that demonstrates how to invo
 :imagesdir: ../media/
 
 [.lead]
-The Hello API server is a sample program that demonstrates how to invoke a REST API in Active IQ Unified Manager using a simple REST client. The sample program provides you basic details about the API server in the JSON format (the server supports only `application/json` format).
+The _Hello API server_ is a sample program that demonstrates how to invoke a REST API in Active IQ Unified Manager using a simple REST client. The sample program provides you basic details about the API server in the JSON format (the server supports only `application/json` format).
 
 The URI used is: `https://<hostname>/api/datacenter/svm/svms.` This sample code takes the following input parameters:
 

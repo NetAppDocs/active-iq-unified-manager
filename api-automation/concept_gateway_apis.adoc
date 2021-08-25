@@ -23,9 +23,9 @@ The gateway acts as a proxy to tunnel the API requests by maintaining the header
 |===
 | HTTP verb| Path (URL)| Description
 a|
-GET
+`GET`
 a|
-/gateways
+`/gateways`
 a|
 This GET method retrieves the list of all the clusters managed by Unified Manager that support ONTAP REST calls. You can verify the cluster details and choose to run other methods based on the cluster UUID or universal unique identifier (UUID).
 
@@ -74,7 +74,7 @@ The ONTAP API taken is: `/storage/volumes`. You need to add the ONTAP API REST U
 
 [NOTE]
 ====
-While adding the path, ensure that you have removed the "`/`" symbol at the beginning of the URL. For the API /storage/volumes, add storage/volumes.
+While adding the path, ensure that you have removed the "`/`" symbol at the beginning of the URL. For the API `/storage/volumes,` add `storage/volumes.`
 ====
 
 The appended URL is: `+/gateways/{uuid}/storage/volumes+`
@@ -93,7 +93,7 @@ The API returns the list of storage volumes in that cluster. The response format
 
 == Setting API scope
 
-All APIs have a context set within the scope of the cluster. APIs that operate on the basis of storage VMs also have the cluster as the scope, that is, the API operations are performed on a particular storage VM within a managed cluster. When you run the /gateways/\{uuid}/\{path} API, ensure that you enter the cluster UUID (Unified Manager datasource UUID) for the cluster on which you run the operation. For setting the context to a particular storage VM within that cluster, enter the storage VM key as the X-Dot-SVM-UUID parameter or the storage VM name as the X-Dot-SVM-Name parameter. The parameter is added as the filter in the string header and the operation is run within the scope of that storage VM inside that cluster.
+All APIs have a context set within the scope of the cluster. APIs that operate on the basis of storage VMs also have the cluster as the scope, that is, the API operations are performed on a particular storage VM within a managed cluster. When you run the `/gateways/\{uuid}/\{path}` API, ensure that you enter the cluster UUID (Unified Manager datasource UUID) for the cluster on which you run the operation. For setting the context to a particular storage VM within that cluster, enter the storage VM key as the X-Dot-SVM-UUID parameter or the storage VM name as the X-Dot-SVM-Name parameter. The parameter is added as the filter in the string header and the operation is run within the scope of that storage VM inside that cluster.
 
 *Sample cURL command*
 

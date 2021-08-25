@@ -17,6 +17,8 @@ image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[
 
 Follow these steps to determine the issues in your volume before taking remedial steps.
 
+.Steps
+
 . Analyze the critical Active IQ Unified Manager events notifications for the volumes in your data center.
 . Query all the events for the volumes by using the following parameters in the /management-server/events API: `"resource_type": "volume"``"severity": "critical"`
 +
@@ -28,8 +30,7 @@ management-server
 a|
 GET
 a|
-    /management-server/events
-+
+/management-server/events
 |===
 
 . View the output and analyze the issues in the specific volumes.

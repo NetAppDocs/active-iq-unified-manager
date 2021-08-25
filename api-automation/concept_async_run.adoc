@@ -9,7 +9,7 @@ summary: "Active IQ Unified Manager provides the jobs API that retrieves informa
 :imagesdir: ../media/
 
 [.lead]
-Active IQ Unified Manager provides the jobs API that retrieves information about the Jobs performed while running other APIs. you must know how asynchronous processing works using the Job object.
+Active IQ Unified Manager provides the `jobs` API that retrieves information about the Jobs performed while running other APIs. you must know how asynchronous processing works using the Job object.
 
 Some of the API calls, particularly those that are used for adding or modifying resources, can take longer to complete than other calls. Unified Manager processes these long-running requests asynchronously.
 

@@ -122,7 +122,7 @@ The IOPS and performance metrics returned by these APIs are double values, for e
 |===
 | HTTP Verb| Path| Description
 a|
-GET
+`GET`
 a|
 `/datacenter/cluster/clusters/\{key}/metrics`
 
@@ -130,42 +130,42 @@ a|
 Retrieves performance data (sample and summary) for a cluster specified by the input parameter of the cluster key. Information, such as the cluster key and UUID, time range, IOPS, throughput, and number of samples is returned.
 
 a|
-GET
+`GET`
 a|
 `/datacenter/cluster/clusters/analytics`
 a|
 Retrieves high-level performance metrics for all the clusters in a data center. You can filter your results based on the required criteria. Values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
 
 a|
-GET
+`GET`
 a|
 `/datacenter/cluster/nodes/\{key}/metrics`
 a|
 Retrieves performance data (sample and summary) for a node specified by the input parameter of the node key. Information, such as the node UUID, time range, summary of the IOPS, throughput, latency, and performance, the number of samples collected, and percentage utilized is returned.
 
 a|
-GET
+`GET`
 a|
 `/datacenter/cluster/nodes/analytics`
 a|
 Retrieves high-level performance metrics for all the nodes in a data center. You can filter your results based on the required criteria. Information, such as node and cluster keys, and values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
 
 a|
-GET
+`GET`
 a|
 `/datacenter/storage/aggregates/\{key}/metrics`
 a|
 Retrieves performance data (sample and summary) for an aggregate specified by the input parameter of the aggregate key. Information, such as the time range, summary of the IOPS, latency, throughput, and performance capacity, the number of samples collected for each counter, and percentage utilized is returned.
 
 a|
-GET
+`GET`
 a|
 `/datacenter/storage/aggregates/analytics`
 a|
 Retrieves high-level performance metrics for all the aggregates in a data center. You can filter your results based on the required criteria. Information, such as aggregate and cluster keys, and values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
 
 a|
-GET
+`GET`
 a|
 `/datacenter/storage/luns/\{key}/metrics`
 
@@ -175,7 +175,7 @@ a|
 Retrieves performance data (sample and summary) for a LUN or a file share (volume) specified by the input parameter of the LUN or volume key. Information, such as the summary of the minimum, maximum, and average of the read, write, and total IOPS, latency, and throughput, and the number of samples collected for each counter is returned.
 
 a|
-GET
+`GET`
 a|
 `/datacenter/storage/luns/analytics`
 
@@ -185,7 +185,7 @@ a|
 Retrieves high-level performance metrics for all the LUNs or volumes in a data center. You can filter your results based on the required criteria. Information, such as storage VM and cluster keys, and values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
 
 a|
-GET
+`GET`
 a|
 `/datacenter/svm/svms/\{key}/metrics`
 
@@ -193,14 +193,14 @@ a|
 Retrieves performance data (sample and summary) for a storage VM specified by the input parameter of the storage VM key. Summary of the IOPS based on each supported protocol, such as `nvmf, fcp, iscsi,` and `nfs`, throughput, latency, and the number of samples collected are returned.
 
 a|
-GET
+`GET`
 a|
 `/datacenter/svm/svms/analytics`
 a|
 Retrieves high-level performance metrics for all the storage VMs in a data center. You can filter your results based on the required criteria. Information, such as storage VM UUID, aggregated IOPS, latency, throughput, and the period of collection (in hours) are returned.
 
 a|
-GET
+`GET`
 a|
 `/datacenter/cluster/licensing/licenses /datacenter/cluster/licensing/licenses/\{key}``
 

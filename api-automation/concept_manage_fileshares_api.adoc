@@ -9,7 +9,7 @@ summary: "You can use the /storage-provider/file-shares API to view, add, modify
 :imagesdir: ../media/
 
 [.lead]
-You can use the ``/storage-provider/file-shares` API to view, add, modify, and delete the CIFS and NFS file share volumes in your data center environment.
+You can use the `/storage-provider/file-shares` API to view, add, modify, and delete the CIFS and NFS file share volumes in your data center environment.
 
 Before provisioning the file share volumes, ensure that the SVM has been created and provisioned with the supported protocols. If you are assigning Performance Service Levels (PSLs) or Storage Efficiency Policies (SEPs), while provisioning, the PSLs or SEPs should be created before creating the file shares.
 
@@ -49,12 +49,12 @@ a|
 Depending on whether the access control list (ACL) parameters or the export policy parameters are provided, CIFS shares or NFS file shares are created. If you do not provide the values for the ACL parameters, CIFS shares are not created, and NFS shares are created by default, providing access to all.
 ====
 
-*Creating data-protection volumes*: When you add file shares to your SVM, the type of the volume that is mounted, by default, is rw (read-write). For creating data-protection (DP) volumes, specify dp as the value for the type parameter.
+*Creating data-protection volumes*: When you add file shares to your SVM, the type of the volume that is mounted, by default, is `rw` (read-write). For creating data-protection (DP) volumes, specify `dp` as the value for the `type` parameter.
 
 == Delete file shares
 
 You can use the following method to delete a specific file share. You need to enter the file share key as an input parameter to delete a particular file share.
-
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|

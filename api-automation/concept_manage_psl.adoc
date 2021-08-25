@@ -73,7 +73,7 @@ a|
 == Viewing aggregate capabilities based on Performance Service Levels
 
 You can use the following method to query the aggregate capabilities based on Performance Service Levels. This API returns the list of aggregates available in your data center and indicates the capabilities in terms of the Performance Service Levels that can be supported in those aggregates. While provisioning workloads on a volume, you can view the capability of an aggregate to support a particular Performance Service Level, and provision workloads based on that capability. Your ability to specify the aggregate is available only when you are provisioning a workload by using APIs. This functionality is not available on the Unified Manager web UI.
-
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
