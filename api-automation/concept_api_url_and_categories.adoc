@@ -16,7 +16,7 @@ The Active IQ Unified Manager APIs enable you to manage and provision storage ob
 
 You can access the REST APIs directly through a programming language, such as Python, C#, C{pp}, JavaScript, and so forth. Enter the host name or IP address and the URL to access the REST APIs in the format
 
-https://<hostname>/api
++https://<hostname>/api+
 
 [NOTE]
 ====
@@ -29,7 +29,7 @@ You can access the _API Documentation_ reference content page that is packaged a
 
 Alternatively, enter the host name or IP address and the URL to access the REST API page in the format
 
-https://<hostname>/docs/api/
++https://<hostname>/docs/api/+
 
 == Categories
 
