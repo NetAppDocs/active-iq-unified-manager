@@ -17,7 +17,7 @@ You can use any web browser or programming platform that can issue HTTP requests
 
 * *Request*
 +
-GET https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
+GET `https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters`
 
 * *Response*
 +
@@ -88,7 +88,7 @@ GET https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/cluste
     },
 ----
 
- ** IP address/hostname is the IP address or the fully qualified domain name (FQDN) of the API server.
+ ** `_IP address/hostname_` is the IP address or the fully qualified domain name (FQDN) of the API server.
  ** Port 443
 +
 443 is the default HTTPS port. You can customize the HTTPS port, if required.

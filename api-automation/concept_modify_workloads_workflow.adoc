@@ -46,8 +46,7 @@ storage-provider
 a|
 GET
 a|
-    /storage-provider/file-shares
-+
+`/storage-provider/file-shares`
 |===
 
 . View the details of the file share by running the following API with the file share key that you obtained.
@@ -60,8 +59,7 @@ storage-provider
 a|
 GET
 a|
-    /storage-provider/file-shares/\{key}
-+
+`/storage-provider/file-shares/\{key}`
 |===
 View the details of the file share in the output.
 +
@@ -140,8 +138,7 @@ storage-provider
 a|
 GET
 a|
-    `/storage-provider/file-shares/\{key}`
-+
+`/storage-provider/file-shares/\{key}`
 |===
 View the details of the file share in the output.
 +

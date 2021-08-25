@@ -36,6 +36,7 @@ a|
 
 . Using the cluster key as the filter parameter, query the aggregates on that cluster.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -47,7 +48,7 @@ a|
 |===
 
 . From the response, analyze the space usage of the aggregates and determine which aggregates have space issues. For each aggregate with space issue, obtain the aggregate key from the same JSON output.
-. Using each aggregate key, filter all the volumes that have the value for the autosize.mode parameter as grow.
+. Using each aggregate key, filter all the volumes that have the value for the autosize.mode parameter as `grow.`
 +
 [cols="3*",options="header"]
 |===

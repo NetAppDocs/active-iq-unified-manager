@@ -36,10 +36,8 @@ storage-provider
 a|
 GET
 a|
-  `/storage-provider/access-endpoints`
-+
+`/storage-provider/access-endpoints`
 `/storage-provider/access-endpoints/\{key}`
-+
 |===
 *Sample cURL*
 +
@@ -94,8 +92,7 @@ management-server
 a|
 GET
 a|
-    /management-server/jobs/\{key}
-+
+`/management-server/jobs/\{key}`
 |===
 
 . Determine whether you have to create a CIFS share or an NFS file share. For creating CIFS shares, follow these substeps:
@@ -109,8 +106,7 @@ storage-provider
 a|
 GET
 a|
-        /storage-provider/active-directories-mappings
-+
+`/storage-provider/active-directories-mappings`
 |===
 
  .. If the Active Directory mapping is created, take the key, else create the Active Directory mapping on the SVM.
@@ -151,8 +147,7 @@ storage-provider
 a|
 GET
 a|
-    /storage-provider/performance-service-levels
-+
+`/storage-provider/performance-service-levels`
 |===
 +
 [NOTE]
@@ -170,8 +165,7 @@ storage-provider
 a|
 GET
 a|
-    /storage-provider/storage-efficiency-policies
-+
+`/storage-provider/storage-efficiency-policies`
 |===
 
 . Create the file share. You can create a file share that supports both CIFS and NFS by specifying the access control list and export policy. The following substeps provide information if you want to create a file share for supporting only one of the protocols on the volume. You can also update an NFS file share to include the access control list after you have created the NFS share. For information, see the _Modifying storage workloads_ topic.

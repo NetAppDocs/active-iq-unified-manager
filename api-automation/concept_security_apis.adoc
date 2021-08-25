@@ -21,9 +21,9 @@ The APIs under the `security` category use the users parameter, that is the user
 |===
 | HTTP verb| Path| Description
 a|
-GET
+`GET`
 
-POST
+`POST`
 
 a|
 `/security/users`
@@ -36,11 +36,11 @@ You can use these methods to get the details of users or add new user to Unified
 You can add specific roles to the users based on their user types. While adding users, you must provide passwords for the local user, maintenance user, and database user.
 
 a|
-GET
+`GET`
 
-PATCH
+`PATCH`
 
-DELETE
+`DELETE`
 
 a|
 `/security/users/\{name}`

@@ -56,6 +56,7 @@ a|
 +
 For running the ONTAP APIs through API gateway, the Unified Manager credentials are passed internally for authentication, and you do not need to run an additional authentication step for individual cluster access.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|

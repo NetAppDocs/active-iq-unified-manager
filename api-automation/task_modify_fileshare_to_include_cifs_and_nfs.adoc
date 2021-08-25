@@ -20,7 +20,7 @@ This is applicable for an NFS file share that you created by adding only export 
 
 .Steps
 
-. On the NFS file share, perform a PATCH operation with the ACL details for allowing CIFS access.
+. On the NFS file share, perform a `PATCH` operation with the ACL details for allowing CIFS access.
 +
 [cols="3*",options="header"]
 |===

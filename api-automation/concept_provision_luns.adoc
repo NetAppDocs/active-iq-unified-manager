@@ -161,7 +161,7 @@ storage-provider
 a|
 POST
 a|
-/storage-provider/access-endpoints
+`/storage-provider/access-endpoints`
 |===
 *Sample cURL*
 +
