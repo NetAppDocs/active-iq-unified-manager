@@ -27,8 +27,6 @@ entries:
         url: "/config/task_add_authentication_servers.html"
       - title: Testing the configuration of authentication servers
         url: "/config/task_test_configuration_of_authentication_servers_um_6_0.html"
-      - title: Adding users
-        url: "/config/task_add_users.html"
       - title: Adding alerts
         url: "/config/task_add_alerts.html"
     - title: EMS events that are added automatically to Unified Manager
@@ -162,8 +160,6 @@ entries:
       url: "/config/task_delete_authentication_servers.html"
     - title: Authentication with Active Directory or OpenLDAP
       url: "/config/concept_authentication_with_active_directory_or_openldap.html"
-    - title: Identity provider requirements
-      url: "/config/reference_identity_provider_requirements_um.html"
     - title: Audit Logging
       url: "/config/concept_audit_logging.html"
       entries:
@@ -178,11 +174,6 @@ entries:
     entries:
     - title: Viewing the HTTPS security certificate
       url: "/config/task_view_https_security_certificate_ocf.html"
-    - title: Generating an HTTPS security certificate
-      url: "/config/task_generate_an_https_security_certificate_ocf.html"
-      entries:
-      - title: Restarting the Unified Manager virtual machine
-        url: "/config/task_restart_unified_manager_virtual_machine.html"
     - title: Downloading an HTTPS certificate signing request
       url: "/config/task_download_an_https_certificate_sign_request_ocf.html"
     - title: Installing a CA signed and returned HTTPS certificate
