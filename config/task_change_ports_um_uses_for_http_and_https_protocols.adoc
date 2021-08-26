@@ -37,4 +37,4 @@ You are prompted whether you want to change the ports and restart Unified Manage
 . Type *y* to change the ports and restart Unified Manager.
 . Exit out of the maintenance console.
 
-After this change, users must include the new port number in the URL to access the Unified Manager web UI, for example _https://host.company.com:1234_, _https://12.13.14.15:1122_, or _https://[2001:db8:0:1]:2123_.
+After this change, users must include the new port number in the URL to access the Unified Manager web UI, for example +https://host.company.com:1234+, +https://12.13.14.15:1122+, or +https://[2001:db8:0:1]:2123+.
