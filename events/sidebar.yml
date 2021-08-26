@@ -152,15 +152,6 @@ entries:
         url: "/events/reference_event_setup_page.html"
       - title: Disable Events dialog box
         url: "/events/reference_disable_events_dialog_box.html"
-  - title: What a Unified Manager maintenance window is
-    url: "/events/concept_what_um_maintenance_window_is.html"
-    entries:
-    - title: Scheduling a maintenance window to disable cluster event notifications
-      url: "/events/task_schedule_maintenance_window_to_disable_cluster_notifications.html"
-    - title: Changing or canceling a scheduled maintenance window
-      url: "/events/task_change_or_cancel_scheduled_maintenance_window.html"
-    - title: Viewing events that occurred during a maintenance window
-      url: "/events/task_view_events_that_occurred_during_maintenance_window.html"
   - title: Managing alerts
     url: "/events/concept_manage_alerts.html"
     entries:
