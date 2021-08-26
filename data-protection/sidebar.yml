@@ -40,12 +40,6 @@ entries:
         url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
     - title: Resolving lag issues
       url: "/data-protection/task_resolve_lag_issues.html"
-  - title: Resolving a protection job failure
-    url: "/data-protection/task_resolve_protection_job_failure.html"
-    entries:
-    - title: Identifying the problem and performing corrective actions for a failed
-        protection job
-      url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
   - title: Managing and monitoring protection relationships
     url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
     entries:
@@ -96,12 +90,8 @@ entries:
       url: "/data-protection/task_quiesce_protection_relationship_from_health_volume_details.html"
     - title: Breaking a SnapMirror relationship from the Volume Relationships page
       url: "/data-protection/task_break_snapmirror_relationship.html"
-    - title: Breaking a SnapMirror relationship from the Volume / Health details page
-      url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
     - title: Removing a protection relationship from the Volume Relationships page
       url: "/data-protection/task_remove_protection_relationship.html"
-    - title: Removing a protection relationship from the Volume / Health details page
-      url: "/data-protection/task_remove_protection_relationship_voldtls.html"
     - title: Resuming scheduled transfers on a quiesced relationship from the Volume
         Relationships page
       url: "/data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html"
@@ -117,13 +107,8 @@ entries:
     - title: Resynchronizing protection relationships from the Volume Relationships
         page
       url: "/data-protection/task_resynchronize_protection_relationships.html"
-    - title: Resynchronizing protection relationships from the Volume / Health details
-        page
-      url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
     - title: Reversing protection relationships from the Volume Relationships page
       url: "/data-protection/task_reverse_protection_relationships.html"
-    - title: Reversing protection relationships from the Volume / Health details page
-      url: "/data-protection/task_reverse_protection_relationships_from_health_volume_details.html"
     - title: 'Restoring data using the Health: All Volumes view'
       url: "/data-protection/task_restore_data_use_health_volumes_page.html"
     - title: Restoring data using the Volume / Health details page
