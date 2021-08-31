@@ -16,7 +16,7 @@ Asynchronous Mirror and Vault relationship events provide you with information a
 [NOTE]
 ====
 
-* The SnapMirror and Vault relationships events are also generated for Storage VMs that are protected by Storage VM disaster recovery but not for any constituent object relationships.
+The SnapMirror and Vault relationships events are also generated for Storage VMs that are protected by Storage VM disaster recovery but not for any constituent object relationships.
 
 ====
 [options="header"]
