@@ -1,7 +1,7 @@
 ---
 permalink: install-linux/task_install_unified_manager_linux.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can install Unified Manager on a physical or virtual Red Hat Enterprise Linux or CentOS platform.'
 ---
 = Installing Unified Manager
@@ -108,7 +108,3 @@ Log in to Unified Manager in a web browser by using following details:
 . If you created a umadmin user account with a custom home directory prior to installing Unified Manager, then you must specify the umadmin user login shell:``usermod -s /bin/maintenance-user-shell.sh umadmin``
 
 Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in the http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide].
-
-*Related information*
-
-xref:task_create_custom_user_home_directory_and_umadmin.adoc[Creating a custom user home directory and umadmin password prior to installation]

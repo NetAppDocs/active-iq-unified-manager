@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_what_database_restore_is.html
 sidebar: sidebar
-keywords: Unified Manager
-summary: 'A MySQL database restore is the process of restoring an existing Unified Manager backup file to the same or a different Unified Manager server. You perform the restore operation from the Unified Manager maintenance console.'
+keywords: unified manager, database, restore
+summary: "A MySQL database restore is the process of restoring an existing Unified Manager backup file to the same or a different Unified Manager server. You perform the restore operation from the Unified Manager maintenance console."
 ---
 = What a database restore is
 :icons: font
@@ -24,12 +24,8 @@ Old backup files cannot be used to restore an image after Unified Manager has be
 
 *Related information*
 
-xref:task_restore_mysql_db_on_linux_or_centos.adoc[Restoring a MySQL database backup on a Linux system]
+link:../config/task_generate_an_https_security_certificate_ocf.html[Generating an HTTPS security certificate]
 
-xref:task_restore_mysql_database_backup_on_windows.adoc[Restoring a MySQL database backup on Windows]
-
-link:[Generating an HTTPS security certificate]
-
-link:[Enabling SAML authentication]
+link:../config/task_enable_saml_authentication_um.html[Enabling SAML authentication]
 
 link:[Enabling IdP-based authentication]

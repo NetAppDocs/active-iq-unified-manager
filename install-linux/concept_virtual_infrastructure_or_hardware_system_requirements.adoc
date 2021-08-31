@@ -1,7 +1,7 @@
 ---
 permalink: install-linux/concept_virtual_infrastructure_or_hardware_system_requirements.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Installing Unified Manager on virtual infrastructure or a physical system should meet the minimum requirements for memory, CPU, and disk space.'
 ---
 = Virtual infrastructure and hardware system requirements
@@ -64,7 +64,3 @@ The physical system or virtual system on which you install Unified Manager shoul
 You can use the host name (or the host IP address) to access the product web UI. If you configured a static IP address for your network during deployment, then you designated a name for the network host. If you configured the network using DHCP, you should obtain the host name from the DNS.
 
 If you plan to allow users to access Unified Manager by using the short name instead of using the fully qualified domain name (FQDN) or IP address, then your network configuration has to resolve this short name to a valid FQDN.
-
-*Related information*
-
-xref:task_selinux_requirements_for_mounting_opt_netapp.adoc[SELinux requirements for mounting /opt/netapp or /opt/netapp/data on an NFS or CIFS share]

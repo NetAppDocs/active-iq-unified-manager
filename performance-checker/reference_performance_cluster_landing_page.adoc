@@ -1,7 +1,7 @@
 ---
 permalink: performance-checker/reference_performance_cluster_landing_page.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'The Performance Cluster Landing page displays the high-level performance status of a selected cluster. The page enables you to access complete details of each performance counter for the storage objects on the selected cluster.'
 ---
 = Performance Cluster Landing page
@@ -20,11 +20,3 @@ The Performance Cluster Landing page includes four tabs that separate the cluste
 * Top Performers page
 * Explorer page
 * Information page
-
-*Related information*
-
-xref:reference_cluster_summary_page_opm.adoc[Performance Cluster Summary page]
-
-xref:reference_top_performers_page.adoc[Top Performers page]
-
-xref:concept_components_of_performance_explorer_page.adoc[Components of the Performance Explorer page]

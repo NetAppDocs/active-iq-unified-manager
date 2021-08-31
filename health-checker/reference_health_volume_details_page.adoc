@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_health_volume_details_page.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Volume / Health details page to view detailed information about a selected volume, such as capacity, storage efficiency, configuration, protection, annotation, and events generated. You can also view information about the related objects and related alerts for that volume.'
+keywords: volume, health details page
+summary: "You can use the Volume / Health details page to view detailed information about a selected volume, such as capacity, storage efficiency, configuration, protection, annotation, and events generated. You can also view information about the related objects and related alerts for that volume."
 ---
 = Volume / Health details page
 :icons: font
@@ -12,17 +12,6 @@ summary: 'You can use the Volume / Health details page to view detailed informat
 You can use the Volume / Health details page to view detailed information about a selected volume, such as capacity, storage efficiency, configuration, protection, annotation, and events generated. You can also view information about the related objects and related alerts for that volume.
 
 You must have the Application Administrator or Storage Administrator role.
-
-* <<GUID-089C9EC1-7D18-46DC-9F23-2DA66F6EB777,Command buttons>>
-* <<GUID-32B6ED1C-0B27-4C2A-868D-BB8B780158CF,Capacity tab>>
-* <<GUID-A435CA83-FC2F-4489-98CB-E25FFA7FA697,Configuration tab>>
-* <<GUID-7A514962-CD72-4FAF-980F-331A01ECD5CD,Protection tab>>
-* <<GUID-A22106EF-9DC3-47BA-ABEF-638B373CB4BB,History area>>
-* <<GUID-DDDDAC4B-0346-4FE9-A140-DB7808DA9155,Events list>>
-* <<GUID-B59FCC28-E696-40B9-89B4-508C96378EC6,Related Annotations pane>>
-* <<GUID-B88E55CC-8110-4949-88F5-8C6B91952C67,Related Devices pane>>
-* <<reference_health_volume_details_page,Related Groups pane>>
-* <<GUID-968F0038-8BD6-4A0E-B63E-5D78ECE628A0,Related Alerts pane>>
 
 == Command buttons
 
@@ -523,7 +512,7 @@ Clicking another volume in the topology selects and displays information for tha
 
 +
 The topology displays information about volume capacity, lag, Snapshot copies, and last successful data transfer if it conforms to one of several common topology templates. If a topology does not conform to one of those templates, information about volume lag and last successful data transfer is displayed in a relationship table under the topology. In that case, the highlighted row in the table indicates the selected volume, and, in the topology view, bold lines with a blue dot indicate the relationship between the selected volume and its source volume.
-+
+
 Topology views include the following information:
 
  ** Capacity
@@ -669,9 +658,3 @@ The Related Groups pane enables you to view the list of groups associated with t
 == Related Alerts pane
 
 The Related Alerts pane enables you to view the list of alerts that are created for the selected volume. You can also add an alert by clicking the Add Alert link or edit an existing alert by clicking the alert name.
-
-*Related information*
-
-xref:task_perform_diagnotstic_actions_for_volume_offline_conditions.adoc[Performing diagnostic actions for volume offline conditions]
-
-xref:task_perform_suggested_remedial_actions_for_full_volume.adoc[Performing suggested remedial actions for a full volume]

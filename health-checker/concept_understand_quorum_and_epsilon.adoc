@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_understand_quorum_and_epsilon.html
 sidebar: sidebar
-keywords: 
-summary: 'Quorum and epsilon are important measures of cluster health and function that together indicate how clusters address potential communications and connectivity challenges.'
+keywords: understand, quorum, epsilon
+summary: "Quorum and epsilon are important measures of cluster health and function that together indicate how clusters address potential communications and connectivity challenges."
 ---
 = Understanding quorum and epsilon
 :icons: font
@@ -11,7 +11,7 @@ summary: 'Quorum and epsilon are important measures of cluster health and functi
 [.lead]
 Quorum and epsilon are important measures of cluster health and function that together indicate how clusters address potential communications and connectivity challenges.
 
-Quorum is a precondition for a fully functioning cluster. When a cluster is in quorum, a simple majority of nodes are healthy and can communicate with each other. When quorum is lost, the cluster loses the ability to accomplish normal cluster operations. Only one collection of nodes can have quorum at any one time because all of the nodes collectively share a single view of the data. Therefore, if two non-communicating nodes are permitted to modify the data in divergent ways, it is no longer possible to reconcile the data into a single data view.
+_Quorum_ is a precondition for a fully functioning cluster. When a cluster is in quorum, a simple majority of nodes are healthy and can communicate with each other. When quorum is lost, the cluster loses the ability to accomplish normal cluster operations. Only one collection of nodes can have quorum at any one time because all of the nodes collectively share a single view of the data. Therefore, if two non-communicating nodes are permitted to modify the data in divergent ways, it is no longer possible to reconcile the data into a single data view.
 
 Each node in the cluster participates in a voting protocol that elects one node master; each remaining node is a secondary. The master node is responsible for synchronizing information across the cluster. When quorum is formed, it is maintained by continual voting. If the master node goes offline and the cluster is still in quorum, a new master is elected by the nodes that remain online.
 
