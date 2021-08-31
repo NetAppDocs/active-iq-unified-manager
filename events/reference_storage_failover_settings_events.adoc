@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_storage_failover_settings_events.html
 sidebar: sidebar
-keywords: 
-summary: 'Storage failover \(SFO\) settings events provide you with information about whether your storage failover is disabled or not configured so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.'
+keywords: storage, failover, settings, events, impact area, availability
+summary: "Storage failover (SFO) settings events provide you with information about whether your storage failover is disabled or not configured so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
 = Storage failover settings events
 :icons: font
@@ -12,11 +12,9 @@ summary: 'Storage failover \(SFO\) settings events provide you with information 
 Storage failover (SFO) settings events provide you with information about whether your storage failover is disabled or not configured so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
 
 == Impact area: availability
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name) | Impact level| Source type| Severity
 a|
 Storage Failover Interconnect One Or More Links Down(ocumEvtSfoInterconnectOneOrMoreLinksDown)
 

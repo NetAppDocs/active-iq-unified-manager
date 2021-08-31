@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_provision_and_manage_workloads.html
 sidebar: sidebar
-keywords: configuration
-summary: 'The active management feature of Active IQ Unified Manager provides Performance Service Levels, Storage Efficiency Policies, and storage provider APIs for provisioning, monitoring, and managing storage workloads in a data center.'
+keywords: provision, manage, workloads
+summary: "The active management feature of Active IQ Unified Manager provides Performance Service Levels, Storage Efficiency Policies, and storage provider APIs for provisioning, monitoring, and managing storage workloads in a data center."
 ---
 = Provisioning and managing workloads
 :icons: font
@@ -39,6 +39,4 @@ You can perform the following functions by using these options:
 
 *Related information*
 
-xref:reference_dashboard_page.adoc[Dashboard page]
-
-link:[Policy-based storage management]
+link:../config/concept_policy_based_storage_management.html[Policy-based storage management]

@@ -1,8 +1,8 @@
 ---
 permalink: events/concept_guidelines_for_adding_alerts.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add alerts based on a resource, such as a cluster, node, aggregate, or volume, and events of a particular severity type. As a best practice, you can add an alert for any of your critical objects after you have added the cluster to which the object belongs.'
+keywords: guidelines, adding, alerts
+summary: "You can add alerts based on a resource, such as a cluster, node, aggregate, or volume, and events of a particular severity type. As a best practice, you can add an alert for any of your critical objects after you have added the cluster to which the object belongs."
 ---
 = Guidelines for adding alerts
 :icons: font
@@ -21,7 +21,7 @@ You should provide a description for the alert so that it helps you track your a
 +
 You should decide which physical or logical resource requires an alert. You can include and exclude resources, as required. For example, if you want to closely monitor your aggregates by configuring an alert, you must select the required aggregates from the list of resources.
 +
-If you select a category of resources, for example, *<<All User or Group Quotas>>*, then you will receive alerts for all objects in that category.
+If you select a category of resources, for example, *+<<All User or Group Quotas>>+*, then you will receive alerts for all objects in that category.
 +
 [NOTE]
 ====
@@ -36,7 +36,7 @@ You should decide if an event of a specified severity type (Critical, Error, War
 +
 If you add an alert based on the type of event generated, you should decide which events require an alert.
 +
-If you select an event severity, but do not select any individual events (if you leave the "`Selected Events`" column empty) then you will receive alerts for all events in the category.
+If you select an event severity, but do not select any individual events (if you leave the "Selected Events" column empty) then you will receive alerts for all events in the category.
 
 * Actions
 +

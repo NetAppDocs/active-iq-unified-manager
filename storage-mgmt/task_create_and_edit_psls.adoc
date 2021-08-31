@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/task_create_and_edit_psls.html
 sidebar: sidebar
-keywords: 
-summary: 'When the system-defined Performance Service Levels do not match your workload requirements, you can create your own Performance Service Levels that are optimized for your workloads.'
+keywords: create, edit, performance, service, Levels
+summary: "When the system-defined Performance Service Levels do not match your workload requirements, you can create your own Performance Service Levels that are optimized for your workloads."
 ---
 = Creating and editing Performance Service Levels
 :icons: font
@@ -10,6 +10,8 @@ summary: 'When the system-defined Performance Service Levels do not match your w
 
 [.lead]
 When the system-defined Performance Service Levels do not match your workload requirements, you can create your own Performance Service Levels that are optimized for your workloads.
+
+*What you'll need*
 
 * You must have the Application Administrator role.
 * The Performance Service Level name must be unique, and you cannot use the following reserved keywords:
@@ -22,10 +24,12 @@ You create and edit custom Performance Service Levels from the Performance Servi
 ====
 You cannot modify a Performance Service Level if it is currently assigned to a workload.
 ====
+.Steps
 
 . In the left navigation pane under *Settings*, select *Policies* > *Performance Service Levels*.
-. In the Performance Service Levels page, click the appropriate button depending on whether you want to create a new Performance Service Level or if you want to edit an existing Performance Service Level.
+. In the *Performance Service Levels* page, click the appropriate button depending on whether you want to create a new Performance Service Level or if you want to edit an existing Performance Service Level.
 +
+[options="header"]
 |===
 | To...| Follow these steps...
 a|
@@ -42,13 +46,3 @@ The page to add or edit a Performance Service Level is displayed.
 . Customize the Performance Service Level by specifying the performance objectives, and then click *Submit* to save the Performance Service Level.
 
 You can apply the new or changed Performance Service Level to workloads (LUNs, NFS File Shares, CIFS Shares) from the Workloads page or when provisioning a new workload.
-
-*Related information*
-
-xref:concept_manage_performance_service_levels.adoc[Managing Performance Service Levels]
-
-xref:concept_all_workloads.adoc[Viewing workloads]
-
-xref:task_provision_luns.adoc[Provisioning LUNs]
-
-xref:task_provision_fileshares.adoc[Provisioning file share volumes]

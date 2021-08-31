@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_mcc_svmdr_vmawareness.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view the configuration and performance metrics of the datastores hosted in a MetroCluster configuration or storage virtual machine \(storage VM\) disaster recovery \(SVM DR\) setup.'
+keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration
+summary: "You can view the configuration and performance metrics of the datastores hosted in a MetroCluster configuration or storage virtual machine (storage VM) disaster recovery (SVM DR) setup."
 ---
 = Viewing virtual infrastructure in a disaster recovery setup
 :icons: font
@@ -20,9 +20,8 @@ You can also view the NAS volumes or LUNs in a storage VM disaster recovery conf
 Note the following prerequisites before viewing datastores in a MetroCluster configuration:
 
 * In an event of switchover and switchback, the discovery of the primary and secondary clusters of the HA pair, and vCenter Servers should be complete.
-* The primary and secondary clusters of the HA pair, and vCenter Servers must be managed by Unified Manager. For information about MetroCluster support, see
+* The primary and secondary clusters of the HA pair, and vCenter Servers must be managed by Unified Manager.
 +
-xref:concept_manage_and_monitor_metrocluster_configurations.adoc[Managing and monitoring MetroCluster configurations]
 
 * The required setup must be completed on ONTAP and vCenter Server. For information, see ONTAP and vCenter documentation.
 +
@@ -62,7 +61,7 @@ Follow these steps for viewing datastores:
 == Unsupported scenarios
 
 * For a MetroCluster configuration, note the following limitations:
- ** Clusters in only the NORMAL and SWITCHOVER states are taken up. Other states, such as PARTIAL_SWITCHOVER, PARTIAL_SWITCHBACK, and NOT_REACHABLE are not supported.
+ ** Clusters in only the `NORMAL` and `SWITCHOVER` states are taken up. Other states, such as `PARTIAL_SWITCHOVER, PARTIAL_SWITCHBACK`, and `NOT_REACHABLE` are not supported.
  ** Unless Automatic Switch Over (ASO) is enabled, if the primary cluster goes down, the secondary cluster cannot be discovered, and the topology continues to point to the volume or LUN in the primary cluster.
 * For a storage VM disaster recovery configuration, note the following limitation:
  ** A configuration with Site Recovery Manager (SRM) or Storage Replication Adapter (SRA) enabled for a SAN storage environment is not supported.

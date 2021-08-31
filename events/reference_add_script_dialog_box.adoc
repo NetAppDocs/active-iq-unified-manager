@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_add_script_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Add Script dialog box enables you to add scripts to Unified Manager. You can configure alerts with your scripts to automatically resolve events that are generated for storage objects.'
+keywords: add, script, dialog, box
+summary: "The Add Script dialog box enables you to add scripts to Unified Manager. You can configure alerts with your scripts to automatically resolve events that are generated for storage objects."
 ---
 = Add Script dialog box
 :icons: font
@@ -20,7 +20,3 @@ Enables you to select a script for the alert.
 * *Description*
 +
 Enables you to specify a description for the script.
-
-*Related information*
-
-xref:task_add_scripts.adoc[Adding scripts]

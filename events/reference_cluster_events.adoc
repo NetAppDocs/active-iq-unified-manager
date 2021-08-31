@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_cluster_events.html
 sidebar: sidebar
-keywords: 
-summary: 'Cluster events provide information about the status of clusters, which enables you to monitor the clusters for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity.'
+keywords: cluster events, impact, area, availability, capacity, configuration, performance, security
+summary: "Cluster events provide information about the status of clusters, which enables you to monitor the clusters for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity."
 ---
 = Cluster events
 :icons: font
@@ -11,12 +11,12 @@ summary: 'Cluster events provide information about the status of clusters, which
 [.lead]
 Cluster events provide information about the status of clusters, which enables you to monitor the clusters for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity.
 
+== Impact area: availability
+
 An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Cluster Lacks Spare Disks(ocumEvtDisksNoSpares)
 
@@ -119,11 +119,9 @@ Warning
 |===
 
 == Impact area: capacity
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Cluster Capacity Imbalance Threshold Breached(ocumConformanceNodeImbalanceWarning)
 
@@ -163,11 +161,9 @@ Error
 |===
 
 == Impact area: configuration
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Node Added(Not applicable)
 
@@ -317,11 +313,9 @@ Informational
 |===
 
 == Impact area: performance
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Cluster Load Imbalance Threshold Breached()
 
@@ -379,11 +373,9 @@ Warning
 |===
 
 == Impact area: security
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 AutoSupport HTTPS Transport Disabled(ocumClusterASUPHttpsConfiguredDisabled)
 

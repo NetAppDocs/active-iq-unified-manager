@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_what_event_information_section_displays.html
 sidebar: sidebar
-keywords: 
-summary: 'You use the Event Information section on the Event details page to view the details about a selected event, such as the event severity, impact level, impact area, and event source.'
+keywords: event, information, section, displays
+summary: "You use the Event Information section on the Event details page to view the details about a selected event, such as the event severity, impact level, impact area, and event source."
 ---
 = What the Event Information section displays
 :icons: font

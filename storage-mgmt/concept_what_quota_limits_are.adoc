@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_what_quota_limits_are.html
 sidebar: sidebar
-keywords: 
-summary: 'User quota limits are values that the Unified Manager server uses to evaluate whether space consumption by a user is nearing the limit or has reached the limit that is set by the user’s quota. If the soft limit is crossed or if the hard limit is reached, the Unified Manager server generates user quota events.'
+keywords: quota, limits
+summary: "User quota limits are values that the Unified Manager server uses to evaluate whether space consumption by a user is nearing the limit or has reached the limit that is set by the user’s quota. If the soft limit is crossed or if the hard limit is reached, the Unified Manager server generates user quota events."
 ---
 = What quota limits are
 :icons: font

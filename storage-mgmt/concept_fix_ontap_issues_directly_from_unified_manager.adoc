@@ -1,7 +1,7 @@
 ---
 permalink: storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html
 sidebar: sidebar
-keywords: fix it,fix all
+keywords: fix, ontap, issues, directly, unified, manager
 summary: 'You can fix certain ONTAP issues directly from the Unified Manager user interface instead of having to use ONTAP System Manager or the ONTAP CLI. The “Management Actions” option provides fixes to a number of ONTAP issues that have triggered Unified Manager events.'
 ---
 = Fixing ONTAP issues directly from Unified Manager
@@ -17,4 +17,4 @@ There are certain issues that Unified Manager can diagnose thoroughly and provid
 
 Unified Manager sends ONTAP commands to the cluster to make the requested fix. When the fix is complete the event is obsoleted.
 
-Some management actions enable you to fix the same issue on multiple storage objects using the *Fix All* button. For example, there may be 5 volumes that have the "`Volume Space Full`" event that could be resolved by clicking the *Fix All* management action for "`Enable volume autogrow`". One click enables you to fix this issue on 5 volumes.
+Some management actions enable you to fix the same issue on multiple storage objects using the *Fix All* button. For example, there may be 5 volumes that have the "Volume Space Full" event that could be resolved by clicking the *Fix All* management action for "Enable volume autogrow". One click enables you to fix this issue on 5 volumes.
