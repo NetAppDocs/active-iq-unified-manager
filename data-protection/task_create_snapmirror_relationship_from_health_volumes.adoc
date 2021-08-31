@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/task_create_snapmirror_relationship_from_health_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'Using the Health: All Volumes view enables you to create several SnapMirror protection relationships at one time by selecting more than one volume on the same storage VM.'
+keywords: create, snapmirror, protection, relationship, health, volumes view
+summary: "Using the Health: All Volumes view enables you to create several SnapMirror protection relationships at one time by selecting more than one volume on the same storage VM."
 ---
 = Creating a SnapMirror protection relationship from the Health: All Volumes view
 :icons: font
@@ -10,6 +10,8 @@ summary: 'Using the Health: All Volumes view enables you to create several SnapM
 
 [.lead]
 Using the Health: All Volumes view enables you to create several SnapMirror protection relationships at one time by selecting more than one volume on the same storage VM.
+
+*What you'll need*
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up Workflow Automation.
@@ -19,20 +21,22 @@ The *Protect* menu does not display in the following instances:
 * If RBAC settings do not allow this action: for example, if you have only operator privileges
 * When the volume ID is unknown: for example, when you have an intercluster relationship and the destination cluster has not yet been discovered
 
-. In the Health: All Volumes view, select a volume that you want to protect.
+.Steps
+
+. In the *Health: All Volumes* view, select a volume that you want to protect.
 +
 Alternatively, to create multiple protection relationships on the same SVM, select one or more volumes in the Health: All Volumes view, and click *Protect* > *SnapMirror* on the toolbar.
 +
 The Configure Protection dialog box is displayed.
 
-. Click *SnapMirror* to view the SnapMirror tab and to configure the destination information.
+. Click *SnapMirror* to view the *SnapMirror* tab and to configure the destination information.
 . Click *Advanced* to set the space guarantee, as needed, and then click *Apply*.
-. Complete the Destination Information area and the Relationship Settings area in the SnapMirror tab.
+. Complete the *Destination Information* area and the *Relationship Settings* area in the *SnapMirror* tab.
 . Click *Apply*.
 +
 You are returned to the Health: All Volumes view.
 
-. Click the protection configuration job link at the top of the Health: All Volumes view.
+. Click the protection configuration job link at the top of the *Health: All Volumes view*.
 +
 If you are creating only one protection relationship, the Job details page is displayed; however, if you are creating more than one protection relationship, a list of all the jobs associated with the protection operation is displayed.
 
@@ -48,9 +52,3 @@ Depending on the destination SVM you specified during configuration or on the op
 * If you specified a destination SVM that runs under the same or a newer version of ONTAP compared to that of the source volume, a block-replication-based SnapMirror relationship is the default result.
 * If you specified a destination SVM that runs under the same or a newer version of ONTAP compared to that of the source volume, but you enabled version-flexible replication in the Advanced settings, a SnapMirror relationship with version-flexible replication is the result.
 * If you specified a destination SVM that runs under an earlier version of ONTAP than that of the source volume, and the earlier version supports version-flexible replication, a SnapMirror relationship with version-flexible replication is the automatic result.
-
-*Related information*
-
-xref:reference_configure_protection_dialog_box.adoc[Configure Protection dialog box]
-
-xref:reference_advanced_destination_settings_dialog_box.adoc[Advanced Destination Settings dialog box]

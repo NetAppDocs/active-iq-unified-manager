@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_cluster_compliance_categories.html
 sidebar: sidebar
-keywords: cluster compliance
-summary: 'This table describes the cluster security compliance parameters that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the cluster being complaint or not complaint.'
+keywords: cluster compliance, categories
+summary: "This table describes the cluster security compliance parameters that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the cluster being complaint or not complaint."
 ---
 = Cluster compliance categories
 :icons: font
@@ -15,6 +15,7 @@ Having non-compliant SVMs on a cluster will affect the compliance value for the 
 
 Note that not every parameter listed below appears for all installations. For example, if you have no peered clusters, or if you have disabled AutoSupport on a cluster, then you will not see the Cluster Peering or AutoSupport HTTPS Transport items in the UI page.
 
+[cols="4*",options="header"]
 |===
 | Parameter| Description| Recommendation| Affects Cluster Compliance
 a|

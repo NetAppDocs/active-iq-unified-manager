@@ -1,8 +1,8 @@
 ---
 permalink: events/task_view_event_details.html
 sidebar: sidebar
-keywords: events,event details
-summary: 'You can view details about an event that is triggered by Unified Manager to take corrective action. For example, if there is a health event Volume Offline, you can click that event to view the details and perform corrective actions.'
+keywords: view, events, details
+summary: "You can view details about an event that is triggered by Unified Manager to take corrective action. For example, if there is a health event Volume Offline, you can click that event to view the details and perform corrective actions."
 ---
 = Viewing events and event details
 :icons: font
@@ -11,10 +11,13 @@ summary: 'You can view details about an event that is triggered by Unified Manag
 [.lead]
 You can view details about an event that is triggered by Unified Manager to take corrective action. For example, if there is a health event Volume Offline, you can click that event to view the details and perform corrective actions.
 
+*What you'll need*
+
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
 The event details include information such as the source of the event, cause of the event, and any notes related to the event.
 
+.Steps
 . In the left navigation pane, click *Event Management*.
 +
 By default, the All active events view displays the New and Acknowledged (active) events that have been generated over the previous 7 days that have an Impact Level of Incident or Risk.

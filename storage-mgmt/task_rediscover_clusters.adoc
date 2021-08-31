@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/task_rediscover_clusters.html
 sidebar: sidebar
-keywords: rediscover cluster,refresh cluster
-summary: 'You can manually rediscover a cluster from the Cluster Setup page in order to obtain the latest information about the health, monitoring status, and performance status of the cluster.'
+keywords: rediscover clusters,
+summary: "You can manually rediscover a cluster from the Cluster Setup page in order to obtain the latest information about the health, monitoring status, and performance status of the cluster."
 ---
 = Rediscovering clusters
 :icons: font
@@ -15,8 +15,10 @@ You can manually rediscover a cluster when you want to update the cluster--such 
 
 When Unified Manager is paired with OnCommand Workflow Automation (WFA), the pairing triggers the reacquisition of the data cached by WFA.
 
+.Steps
+
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
-. On the Cluster Setup page, click *Rediscover*.
+. On the *Cluster Setup* page, click *Rediscover*.
 +
 Unified Manager rediscovers the selected cluster and displays the latest health and performance status.
 

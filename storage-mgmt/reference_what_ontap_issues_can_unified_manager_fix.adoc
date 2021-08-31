@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html
 sidebar: sidebar
-keywords: fix it,fix all
-summary: 'This table describes the ONTAP issues that Unified Manager can resolve directly from the Unified Manager user interface by clicking the Fix It or Fix All button.'
+keywords: ontap, issues, unified manager, fix
+summary: "This table describes the ONTAP issues that Unified Manager can resolve directly from the Unified Manager user interface by clicking the Fix It or Fix All button."
 ---
 = What ONTAP issues can Unified Manager fix
 :icons: font
@@ -10,9 +10,9 @@ summary: 'This table describes the ONTAP issues that Unified Manager can resolve
 
 [.lead]
 This table describes the ONTAP issues that Unified Manager can resolve directly from the Unified Manager user interface by clicking the *Fix It* or *Fix All* button.
-
+[options="header"]
 |===
-| Event Name and Description| Management Action| "`Fix It`" Operation
+| Event Name and Description| Management Action| "Fix It" Operation
 a|
 Volume Space Full
 
@@ -34,21 +34,21 @@ Increases the number of inodes on the volume by 2 percent.
 a|
 Storage Tier Policy Mismatch Detected
 
-The volume has lots of inactive data and the current tiering policy is set to "`snapshot-only`" or "`none`".
+The volume has lots of inactive data and the current tiering policy is set to "snapshot-only" or "none".
 
 a|
 Enable automatic cloud tiering
 a|
-Since the volume already resides on a FabricPool, it changes the tiering policy to "`auto`" so that inactive data is moved to the lower cost cloud tier.
+Since the volume already resides on a FabricPool, it changes the tiering policy to "auto" so that inactive data is moved to the lower cost cloud tier.
 a|
 Storage Tier Mismatch Detected
 
 The volume has lots of inactive data, but it does not reside on a cloud-enabled storage tier (FabricPool).
 
 a|
-Change volumes`' storage tier
+Change volumes' storage tier
 a|
-Moves the volume to cloud-enabled storage tier and sets the tiering policy to "`auto`" to move inactive data to the cloud tier.
+Moves the volume to cloud-enabled storage tier and sets the tiering policy to "auto" to move inactive data to the cloud tier.
 a|
 Audit Log Disabled
 
@@ -78,11 +78,11 @@ The login banner for the storage VM should be enabled to increase security by ma
 a|
 Set login banner for the storage VM
 a|
-Sets the storage VM login banner to "`Access restricted to authorized users`".
+Sets the storage VM login banner to "Access restricted to authorized users".
 a|
 SSH is Using Insecure Ciphers
 
-Ciphers with the suffix "`-cbc`" are considered insecure.
+Ciphers with the suffix "-cbc" are considered insecure.
 
 a|
 Remove insecure ciphers from the cluster
@@ -91,7 +91,7 @@ Removes the insecure ciphers -- such as aes192-cbc and aes128-cbc -- from the cl
 a|
 SSH is Using Insecure Ciphers
 
-Ciphers with the suffix "`-cbc`" are considered insecure.
+Ciphers with the suffix "-cbc" are considered insecure.
 
 a|
 Remove insecure ciphers from the storage VM
@@ -154,7 +154,7 @@ Unified Manager sends the appropriate command to enable failover on all nodes in
 a|
 Option Cf.takeover.on_panic is Configured OFF
 
-The nodeshell option "`cf.takeover.on_panic`" is set to *off*, which could cause an issue on HA-configured systems.
+The nodeshell option "cf.takeover.on_panic" is set to *off*, which could cause an issue on HA-configured systems.
 
 a|
 Enable takeover on panic
@@ -163,7 +163,7 @@ Unified Manager sends the appropriate command to the cluster to change this sett
 a|
 Disable nodeshell option snapmirror.enable
 
-The old nodeshell option "`snapmirror.enable`" is set to *on*, which could cause an issue during boot after upgrading to ONTAP 9.3 or greater.
+The old nodeshell option "snapmirror.enable" is set to *on*, which could cause an issue during boot after upgrading to ONTAP 9.3 or greater.
 
 a|
 Set snapmirror.enable option to off

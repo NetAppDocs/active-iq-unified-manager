@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_define_schedule_for_snapshot_backups.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure the schedule at which Unified Manager Snapshot backups are created by using the Unified Manager UI.'
+keywords: define, backup, schedule, linux, windows
+summary: "You can configure the schedule at which Unified Manager Snapshot backups are created by using the Unified Manager UI."
 ---
 = Defining a backup schedule for Linux and Windows
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can configure the schedule at which Unified Manager Snapshot backu
 
 [.lead]
 You can configure the schedule at which Unified Manager Snapshot backups are created by using the Unified Manager UI.
+
+*What you'll need*
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * You must have configured the NetApp Snapshot backup settings from the maintenance console to identify the destination where the snapshots will be created.
@@ -21,9 +23,10 @@ Snapshot backups are created in just a few minutes and the Unified Manager datab
 Backup taken during initial 15 days of a new cluster addition might not be accurate enough to get the historical performance data.
 ====
 
+.Steps
 . In the left navigation pane, click *General* > *Database Backup*.
-. In the Database Backup page, click *Backup Settings*.
-. Enter the maximum number of Snapshot copies that you want to retain in the Retention Count field.
+. In the *Database Backup* page, click *Backup Settings*.
+. Enter the maximum number of Snapshot copies that you want to retain in the *Retention Count* field.
 +
 The default value for retention count is 10. The maximum number of Snapshot copies is determined by the version of ONTAP software on the cluster. You can leave this field blank to implement the maximum value regardless of ONTAP version.
 

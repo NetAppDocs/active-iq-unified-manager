@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/reference_email_notification_format_page.html
 sidebar: sidebar
-keywords: 
-summary: 'The Email Notification Format page displays the rules of the email that is sent to a user or a user group when there is a quota-related issue \(soft limit breached or hard limit reached\).'
+keywords: email, notification, format, page
+summary: "The Email Notification Format page displays the rules of the email that is sent to a user or a user group when there is a quota-related issue (soft limit breached or hard limit reached)."
 ---
 = Email Notification Format page
 :icons: font
@@ -71,9 +71,3 @@ Enables you to restore the notification format to the factory default values.
 * *Save*
 +
 Saves the changes made to the notification format.
-
-*Related information*
-
-xref:task_create_rules_to_generate_email_addresses.adoc[Creating rules to generate email addresses]
-
-xref:reference_rules_to_generate_user_and_group_quota.adoc[Rules to Generate User and Group Quota Email Address page]

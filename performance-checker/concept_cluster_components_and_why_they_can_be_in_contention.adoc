@@ -1,7 +1,7 @@
 ---
 permalink: performance-checker/concept_cluster_components_and_why_they_can_be_in_contention.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can identify cluster performance issues when a cluster component goes into contention. The performance of workloads that use the component slow down and their response time \(latency\) for client requests increases, which triggers an event in Unified Manager.'
 ---
 = Cluster components and why they can be in contention
@@ -62,19 +62,3 @@ Represents the software component in the cluster involved with I/O processing be
 * *Sync SnapMirror*
 +
 Represents the software component in the cluster involved with replicating user data from the primary volume to the secondary volume in a SnapMirror Synchronous relationship. If the sync SnapMirror component is in contention, it means that the activity from SnapMirror Synchronous operations are impacting the latency of one or more workloads.
-
-*Related information*
-
-xref:reference_performance_event_analysis_and_notification.adoc[Performance event analysis and notification]
-
-xref:concept_collect_data_and_monitor_workload_performance.adoc[Collecting data and monitoring workload performance]
-
-xref:concept_roles_of_workloads_involved_in_performance_incident.adoc[Roles of workloads involved in a performance event]
-
-xref:concept_types_of_workloads_monitored_by_unified_manager.adoc[Types of workloads monitored by Unified Manager]
-
-xref:task_display_information_about_performance_event.adoc[Displaying information about performance events]
-
-xref:task_identify_victim_workloads_involved_in_performance_event.adoc[Identifying victim workloads involved in a dynamic performance event]
-
-xref:task_identify_bully_workloads_involved_in_performance_event.adoc[Identifying bully workloads involved in a dynamic performance event]

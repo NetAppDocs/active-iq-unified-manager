@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_assign_policies_on_workloads.html
 sidebar: sidebar
-keywords: 
-summary: 'You can assign Storage Efficiency Policies \(SEPs\) and Performance Service Levels \(PSLs\) to storage workloads from the All Workloads page by using the different navigation options.'
+keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls
+summary: "You can assign Storage Efficiency Policies (SEPs) and Performance Service Levels (PSLs) to storage workloads from the All Workloads page by using the different navigation options."
 ---
 = Assigning policies to workloads
 :icons: font
@@ -46,7 +46,7 @@ Applying policies on workloads in bulk might take some time depending on the num
 
 You can assign system-recommended PSLs to those storage workloads in a data center that have no PSLs assigned, or the assigned PSLs do not match the system recommendation. To use this functionality, click the *Assign System Recommended PSLs* button. You do not have to select specific workloads.
 
-The recommendation is internally determined by system analytics, and is skipped for those workloads whose IOPS and other parameters do not coincide with the definitions of any available PSL. Storage workloads with Waiting for I/O and Learning statuses are also excluded.
+The recommendation is internally determined by system analytics, and is skipped for those workloads whose IOPS and other parameters do not coincide with the definitions of any available PSL. Storage workloads with `Waiting for I/O` and Learning statuses are also excluded.
 
 [NOTE]
 ====

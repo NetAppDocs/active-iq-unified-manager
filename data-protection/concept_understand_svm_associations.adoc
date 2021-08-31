@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/concept_understand_svm_associations.html
 sidebar: sidebar
-keywords: 
-summary: 'Storage VM peers are mappings from a source storage VM to a destination storage VM that are used by partner applications for resource selection and secondary volume provisioning.'
+keywords: understand storage vm peers
+summary: "Storage VM peers are mappings from a source storage VM to a destination storage VM that are used by partner applications for resource selection and secondary volume provisioning."
 ---
 = Understanding Storage VM Peers
 :icons: font

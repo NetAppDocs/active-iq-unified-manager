@@ -1,7 +1,7 @@
 ---
 permalink: performance-checker/concept_performance_capacity_used_threshold_conditions.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can create user-defined performance threshold policies so that events are triggered when the performance capacity used value for a node or aggregate exceeds the defined performance capacity used threshold setting.'
 ---
 = Performance capacity used performance threshold conditions
@@ -42,13 +42,3 @@ a|
 95%
 |===
 Combination threshold policies cause an event to be generated only when both conditions are breached for the entire duration.
-
-*Related information*
-
-xref:task_create_user_defined_performance_threshold_policies.adoc[Creating user-defined performance threshold policies]
-
-xref:task_assign_performance_threshold_policies_to_storage_objects.adoc[Assigning performance threshold policies to storage objects]
-
-xref:reference_what_performance_metrics_can_be_monitored_using_thresholds.adoc[What performance counters can be tracked using thresholds]
-
-xref:reference_what_objects_can_be_used_in_threshold_policies.adoc[What objects and counters can be used in combination threshold policies]

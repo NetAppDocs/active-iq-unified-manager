@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_health_aggregate_details_page.html
 sidebar: sidebar
-keywords: Unified Manager
-summary: 'You can use the Aggregate / Health details page to view detailed information about the selected aggregate, such as the capacity, disk information, configuration details, and events generated. You can also view information about the related objects and related alerts for that aggregate.'
+keywords: unified manager, aggregate, health details page
+summary: "You can use the Aggregate / Health details page to view detailed information about the selected aggregate, such as the capacity, disk information, configuration details, and events generated. You can also view information about the related objects and related alerts for that aggregate."
 ---
 = Aggregate / Health details page
 :icons: font
@@ -10,15 +10,6 @@ summary: 'You can use the Aggregate / Health details page to view detailed infor
 
 [.lead]
 You can use the Aggregate / Health details page to view detailed information about the selected aggregate, such as the capacity, disk information, configuration details, and events generated. You can also view information about the related objects and related alerts for that aggregate.
-
-* <<SECTION_72FBC5D3FCE84BB1B19CCF124464E6A3,Command buttons>>
-* <<GUID-CF12CF98-1C35-4A24-8CDA-C031D6A5B061,Capacity tab>>
-* <<GUID-64DCE80B-9CC8-4786-A010-E3DDCE190EC7,Disk Information tab>>
-* <<SECTION_AE763E63A1E1499FB9E36E4CD956F69A,Configuration tab>>
-* <<GUID-A4801FF5-298F-4E09-8EDB-A97CD75E51F3,History area>>
-* <<GUID-CDB985C6-591E-4CE5-9E92-9E84A49C6783,Events list>>
-* <<GUID-D40864B1-44E3-4388-82AF-3AF3B0256921,Related Devices pane>>
-* <<SECTION_A6C6B0CA1EB04BBC940C7FE90FA13E88,Related Alerts pane>>
 
 == Command buttons
 
@@ -449,5 +440,3 @@ The Related Alerts pane enables you to view the list of alerts that are created 
 *Related information*
 
 link:[Storage Pool dialog box]
-
-xref:task_perform_suggested_remedial_actions_for_full_volume.adoc[Performing suggested remedial actions for a full volume]

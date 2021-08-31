@@ -1,7 +1,7 @@
 ---
 permalink: performance-checker/reference_components_of_node_failover_planning_page.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'The components of the Performance/Node Failover Planning page are displayed in a grid and in the Comparing pane. These sections enable you to assess the impact of a node failover on the performance of the takeover node.'
 ---
 = Components of the Node Failover Planning page
@@ -63,13 +63,3 @@ You can customize the Comparing pane in the same way as you do in the Performanc
 
 * Click a node name to show or hide the node's statistics in the Counter charts.
 * Click *Zoom View* to display a detailed chart for a particular counter in a new window.
-
-*Related information*
-
-xref:concept_understand_root_object.adoc[Understanding the root object]
-
-xref:task_specify_time_range_in_zoom_view.adoc[Specifying the time range in Zoom View]
-
-xref:concept_understand_counter_charts.adoc[Understanding counter charts]
-
-xref:task_view_event_details_in_performance_explorer_events_timeline.adoc[Viewing event details in the Events Timeline]

@@ -1,7 +1,7 @@
 ---
 permalink: performance-checker/concept_how_user_defined_performance_threshold_policies_work.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You set performance threshold policies on storage objects \(for example, on aggregates and volumes\) so that an event can be sent to the storage administrator to inform the administrator that the cluster is experiencing a performance issue.'
 ---
 = How user-defined performance threshold policies work
@@ -83,8 +83,3 @@ a|
 a|
 A Critical event is reported.
 |===
-*Related information*
-
-xref:reference_what_performance_metrics_can_be_monitored_using_thresholds.adoc[What performance counters can be tracked using thresholds]
-
-xref:reference_what_objects_can_be_used_in_threshold_policies.adoc[What objects and counters can be used in combination threshold policies]

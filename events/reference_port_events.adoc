@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_port_events.html
 sidebar: sidebar
-keywords: 
-summary: 'Port events provide you with status about cluster ports so that you can monitor changes or problems on the port, like whether the port is down.'
+keywords: port, events, impact area, availability, performance
+summary: "Port events provide you with status about cluster ports so that you can monitor changes or problems on the port, like whether the port is down."
 ---
 = Port events
 :icons: font
@@ -12,11 +12,9 @@ summary: 'Port events provide you with status about cluster ports so that you ca
 Port events provide you with status about cluster ports so that you can monitor changes or problems on the port, like whether the port is down.
 
 == Impact area: availability
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Port Status Down(ocumEvtPortStatusDown)
 
@@ -29,11 +27,9 @@ Critical
 |===
 
 == Impact area: performance
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Network Port MB/s Critical Threshold Breached(ocumNetworkPortMbpsIncident)
 

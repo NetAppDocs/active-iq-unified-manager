@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_restore_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Restore dialog box to restore data to a volume from a specific Snapshot copy.'
+keywords: restore, dialog box
+summary: "You can use the Restore dialog box to restore data to a volume from a specific Snapshot copy."
 ---
 = Restore dialog box
 :icons: font
@@ -82,11 +82,3 @@ Discards your selections and closes the Restore dialog box.
 * *Restore*
 +
 Applies your selections and begins the restore process.
-
-*Related information*
-
-xref:task_restore_data_use_health_volumes_page.adoc[Restoring data using the Health: All Volumes view]
-
-xref:task_restore_data_use_health_volume_details_page.adoc[Restoring data using the Volume / Health details page]
-
-xref:reference_browse_directories_dialog_box.adoc[Browse Directories dialog box]

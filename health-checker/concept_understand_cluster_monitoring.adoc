@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_understand_cluster_monitoring.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add clusters to the Unified Manager database to monitor clusters for availability, capacity, and other details, such as CPU usage, interface statistics, free disk space, qtree usage, and chassis environmental.'
+keywords: understand, cluster, monitor
+summary: "You can add clusters to the Unified Manager database to monitor clusters for availability, capacity, and other details, such as CPU usage, interface statistics, free disk space, qtree usage, and chassis environmental."
 ---
 = Understanding cluster monitoring
 :icons: font

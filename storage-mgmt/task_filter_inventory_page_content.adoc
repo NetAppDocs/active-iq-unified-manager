@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/task_filter_inventory_page_content.html
 sidebar: sidebar
-keywords: 
-summary: 'You can filter inventory page data in Unified Manager to quickly locate data based on specific criteria. You can use filtering to narrow the contents of the Unified Manager pages to show only the results in which you are interested. This provides a very efficient method of displaying only the data in which you are interested.'
+keywords: filter, inventory, page, content, example
+summary: "You can filter inventory page data in Unified Manager to quickly locate data based on specific criteria. You can use filtering to narrow the contents of the Unified Manager pages to show only the results in which you are interested. This provides a very efficient method of displaying only the data in which you are interested."
 ---
 = Filtering inventory page content
 :icons: font
@@ -14,7 +14,7 @@ You can filter inventory page data in Unified Manager to quickly locate data bas
 Use *Filtering* to customize the grid view based on your preferences. Available filter options are based on the object type being viewed in the grid. If filters are currently applied, the number of applied filters displays at the right of the Filter button.
 
 Three types of filter parameters are supported.
-
+[options="header"]
 |===
 | Parameter| Validation
 a|

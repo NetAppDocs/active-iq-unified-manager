@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_workloads_dashboard.html
 sidebar: sidebar
-keywords: dashboard
-summary: 'A workload represents the input/output \(I/O\) operations of a storage object, such as a volume or LUN. The way the storage is provisioned is based on the expected workload requirements. Workload statistics are tracked by Active IQ Unified Manager only after there is traffic to and from the storage object. For example, the workload IOPS and latency values are available after users start using a database or email application.'
+keywords: workloads, overview, data center, sections
+summary: "A workload represents the input/output (I/O) operations of a storage object, such as a volume or LUN. The way the storage is provisioned is based on the expected workload requirements. Workload statistics are tracked by Active IQ Unified Manager only after there is traffic to and from the storage object. For example, the workload IOPS and latency values are available after users start using a database or email application."
 ---
 = Workloads overview
 :icons: font
@@ -11,14 +11,14 @@ summary: 'A workload represents the input/output \(I/O\) operations of a storage
 [.lead]
 A workload represents the input/output (I/O) operations of a storage object, such as a volume or LUN. The way the storage is provisioned is based on the expected workload requirements. Workload statistics are tracked by Active IQ Unified Manager only after there is traffic to and from the storage object. For example, the workload IOPS and latency values are available after users start using a database or email application.
 
-The Workloads pagedisplays a summary of the storage workloads of the ONTAP clusters managed by Unified Manager. It provides cumulative at-a-glance information about the storage workloads that conform to the Performance Service Level, as well as the non-conforming storage workloads. It also enables you to assess the total, available, and used capacity and performance (IOPS) of the clusters across your data center.
+The Workloads page displays a summary of the storage workloads of the ONTAP clusters managed by Unified Manager. It provides cumulative at-a-glance information about the storage workloads that conform to the Performance Service Level, as well as the non-conforming storage workloads. It also enables you to assess the total, available, and used capacity and performance (IOPS) of the clusters across your data center.
 
 [NOTE]
 ====
 It is recommended that you assess the number of storage workloads that are non-conforming, unavailable, or not managed by any Performance Service Level, and take the necessary actions to ensure their conformance, capacity usage, and IOPS.
 ====
 
-The Workloads pagehas the following two sections:
+The Workloads page has the following two sections:
 
 * Workloads overview: Provides an overview of the number of storage workloads on the ONTAP clusters managed by Unified Manager.
 * Data center overview: Provides an overview of the capacity and IOPS of the storage workloads in the data center. The relevant data is displayed at a data center level and for individual .

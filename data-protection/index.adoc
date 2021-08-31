@@ -1,9 +1,0 @@
----
-permalink: data-protection/index.html
-sidebar: sidebar
-keywords:
-summary: ''
----
-= Protection Guide
-:icons: font
-:imagesdir: ../media/

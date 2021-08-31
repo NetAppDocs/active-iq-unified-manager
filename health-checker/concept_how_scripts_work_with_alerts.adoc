@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_how_scripts_work_with_alerts.html
 sidebar: sidebar
-keywords: 
-summary: 'You can associate an alert with your script so that the script is executed when an alert is raised for an event in Unified Manager. You can use the scripts to resolve issues with storage objects or identify which storage objects are generating the events.'
+keywords: scripts, work, alerts
+summary: "You can associate an alert with your script so that the script is executed when an alert is raised for an event in Unified Manager. You can use the scripts to resolve issues with storage objects or identify which storage objects are generating the events."
 ---
 = How scripts work with alerts
 :icons: font
@@ -21,14 +21,14 @@ If you have created a custom script and associated it with an alert for a specif
 
 The script uses the following arguments for execution:
 
-* -eventID
-* -eventName
-* -eventSeverity
-* -eventSourceID
-* -eventSourceName
-* -eventSourceType
-* -eventState
-* -eventArgs
+* `-eventID`
+* `-eventName`
+* `-eventSeverity`
+* `-eventSourceID`
+* `-eventSourceName`
+* `-eventSourceType`
+* `-eventState`
+* `-eventArgs`
 
 You can use the arguments in your scripts and gather related event information or modify storage objects.
 
@@ -45,7 +45,3 @@ When an alert is generated, this script is executed and the following output is 
 -eventID : 290
 -eventSourceID : 4138
 ----
-
-*Related information*
-
-xref:concept_manage_scripts.adoc[Managing scripts]

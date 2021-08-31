@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_reverse_resync_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'When you have a protection relationship that is broken because the source volume is disabled and the destination is made a read/write volume, reverse resynchronization enables you to reverse the direction of the relationship so that the destination becomes the new source and the source becomes the new destination.'
+keywords: reverse, resync, dialog box
+summary: "When you have a protection relationship that is broken because the source volume is disabled and the destination is made a read/write volume, reverse resynchronization enables you to reverse the direction of the relationship so that the destination becomes the new source and the source becomes the new destination."
 ---
 = Reverse Resync dialog box
 :icons: font
@@ -48,9 +48,3 @@ Begins the reverse resynchronization process.
 * *Cancel*
 +
 Closes the Reverse Resync dialog box without initiating a reverse resync operation.
-
-*Related information*
-
-xref:task_reverse_protection_relationships_from_health_volume_details.adoc[Reversing protection relationships from the Volume / Health details page]
-
-xref:task_reverse_protection_relationships.adoc[Reversing protection relationships from the Volume Relationships page]

@@ -13,8 +13,10 @@ The Management Actions page provides you with the *Fix It* or *Fix All* button t
 
 We recommend that you click the buttons to fix an issue, as required. However, if you are not sure that you want to resolve the issue as recommended by Unified Manager, you can perform the following actions:
 
+
+[options="header"]
 |===
-| What do you want to do?| Action
+| What do you want to do?| *Action*
 a|
 Have Unified Manager fix the issue on all identified objects.
 a|
@@ -29,6 +31,8 @@ a|
 Click the name of the management action to expand the list and show all individual *Fix It* actions.Then follow the steps for fixing or dismissing individual management actions.
 
 |===
+[options="header"]
+
 |===
 | What do you want to do?| Action
 a|
