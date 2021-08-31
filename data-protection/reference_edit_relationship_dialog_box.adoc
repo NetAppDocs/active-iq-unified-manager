@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_edit_relationship_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You can edit an existing protection relationship to change the maximum transfer rate, the protection policy, or the protection schedule.'
+keywords: edit, relationship, dialog box
+summary: "You can edit an existing protection relationship to change the maximum transfer rate, the protection policy, or the protection schedule."
 ---
 = Edit Relationship dialog box
 :icons: font
@@ -56,9 +56,3 @@ Discards the selections and closes the Configure Protection dialog box.
 * *Submit*
 +
 Applies your selections and closes the Edit Relationship dialog box.
-
-*Related information*
-
-xref:task_edit_protection_relationships_from_protection_volume.adoc[Editing protection relationships from the Volume Relationships page]
-
-xref:task_edit_protection_relationships_from_health_volume.adoc[Editing protection relationships from the Volume / Health details page]

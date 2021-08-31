@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/concept_types_of_snapmirror_protection.html
 sidebar: sidebar
-keywords: 
-summary: 'Depending on the deployment of your data storage topology, Unified Manager enables you to configure multiple types of SnapMirror protection relationships. All variations of SnapMirror protection offer failover disaster recovery protection, but offer differing capabilities in performance, version flexibility, and multiple backup copy protection.'
+keywords: types, snapmirror, protection
+summary: "Depending on the deployment of your data storage topology, Unified Manager enables you to configure multiple types of SnapMirror protection relationships. All variations of SnapMirror protection offer failover disaster recovery protection, but offer differing capabilities in performance, version flexibility, and multiple backup copy protection."
 ---
 = Types of SnapMirror protection
 :icons: font

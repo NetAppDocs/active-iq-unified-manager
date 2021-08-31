@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_browse_directories_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Browse Directories dialog box when you want to restore data to a directory on a cluster and SVM that is different from the original source. The original source cluster and volume are selected by default.'
+keywords: browse, directories, dialog box
+summary: "You can use the Browse Directories dialog box when you want to restore data to a directory on a cluster and SVM that is different from the original source. The original source cluster and volume are selected by default."
 ---
 = Browse Directories dialog box
 :icons: font
@@ -44,7 +44,3 @@ Applies your selections and closes the Browse Directories dialog box. If no dire
 * *Cancel*
 +
 Discards your selections and closes the Browse Directories dialog box.
-
-*Related information*
-
-xref:reference_restore_dialog_box.adoc[Restore dialog box]

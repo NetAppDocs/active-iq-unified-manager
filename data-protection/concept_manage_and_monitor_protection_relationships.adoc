@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/concept_manage_and_monitor_protection_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'Active IQ Unified Manager enables you to create protection relationships, to monitor and troubleshoot SnapMirror and SnapVault relationships on managed clusters, and to restore data when it is overwritten or lost.'
+keywords: manage, monitor, protection, relationships
+summary: "Active IQ Unified Manager enables you to create protection relationships, to monitor and troubleshoot SnapMirror and SnapVault relationships on managed clusters, and to restore data when it is overwritten or lost."
 ---
 = Managing and monitoring protection relationships
 :icons: font
