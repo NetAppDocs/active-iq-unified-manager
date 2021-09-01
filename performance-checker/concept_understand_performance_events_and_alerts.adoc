@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_understand_performance_events_and_alerts.html
 sidebar: sidebar
-keywords: 
-summary: 'Performance events are notifications that Unified Manager generates automatically when a predefined condition occurs, or when a performance counter value crosses a threshold. Events help you identify performance issues in the clusters that are monitored.'
+keywords: understand, performance, events, alerts
+summary: "Performance events are notifications that Unified Manager generates automatically when a predefined condition occurs, or when a performance counter value crosses a threshold. Events help you identify performance issues in the clusters that are monitored."
 ---
 = Understanding performance events and alerts
 :icons: font

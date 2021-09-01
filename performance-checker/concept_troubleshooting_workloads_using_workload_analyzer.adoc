@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html
 sidebar: sidebar
-keywords: workload analyzer
-summary: 'The workload analyzer provides a way to view important health and performance criteria for a single workload on a single page to assist in troubleshooting. By viewing all current and past events for a workload you can get a better idea why the workload may be having a performance or capacity issue now.'
+keywords: workload analyzer, troubleshoot
+summary: "The workload analyzer provides a way to view important health and performance criteria for a single workload on a single page to assist in troubleshooting. By viewing all current and past events for a workload you can get a better idea why the workload may be having a performance or capacity issue now."
 ---
 = Troubleshooting workloads using the workload analyzer
 :icons: font

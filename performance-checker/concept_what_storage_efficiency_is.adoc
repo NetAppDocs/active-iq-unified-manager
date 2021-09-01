@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_what_storage_efficiency_is.html
 sidebar: sidebar
-keywords: 
-summary: 'Storage efficiency enables you to store the maximum amount of data for the lowest cost and accommodates rapid data growth while consuming less space. NetApp strategy for storage efficiency is based on the built-in foundation of storage virtualization and unified storage provided by its core ONTAP operating system and Write Anywhere File Layout \(WAFL\) file system.'
+keywords: storage, efficiency
+summary: "Storage efficiency enables you to store the maximum amount of data for the lowest cost and accommodates rapid data growth while consuming less space. NetApp strategy for storage efficiency is based on the built-in foundation of storage virtualization and unified storage provided by its core ONTAP operating system and Write Anywhere File Layout (WAFL) file system."
 ---
 = What storage efficiency is
 :icons: font

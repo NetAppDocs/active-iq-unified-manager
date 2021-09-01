@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_what_happens_when_an_event_is_received.html
 sidebar: sidebar
-keywords: 
-summary: 'When Unified Manager receives an event, it is displayed in the Dashboard page, in the Event Management inventory page, in the Summary and Explorer tabs of the Cluster/Performance page, and in the object-specific inventory page \(for example, the Volumes/Health inventory page\).'
+keywords: happens, event, received
+summary: "When Unified Manager receives an event, it is displayed in the Dashboard page, in the Event Management inventory page, in the Summary and Explorer tabs of the Cluster/Performance page, and in the object-specific inventory page (for example, the Volumes/Health inventory page)."
 ---
 = What happens when an event is received
 :icons: font

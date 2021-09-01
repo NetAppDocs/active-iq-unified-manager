@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_summary_page_opm.html
 sidebar: sidebar
-keywords: 
-summary: 'The Summary page displays counter charts that contain details about the events and performance per object for the preceding 72-hour period. This data is not automatically refreshed, but is current as of the last page load. The charts in the Summary page answer the question Do I need to look further?'
+keywords: summary page, charts, counter, statistics
+summary: "The Summary page displays counter charts that contain details about the events and performance per object for the preceding 72-hour period. This data is not automatically refreshed, but is current as of the last page load. The charts in the Summary page answer the question Do I need to look further?"
 ---
 = Summary page
 :icons: font

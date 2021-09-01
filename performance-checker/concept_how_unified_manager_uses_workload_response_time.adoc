@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_how_unified_manager_uses_workload_response_time.html
 sidebar: sidebar
-keywords:
-summary: 'The workload latency \(response time\) is the time it takes for a volume on a cluster to respond to I/O requests from client applications. Unified Manager uses the latency to detect and alert you to performance events.'
+keywords: unified manager, workload, latency, identify, performance, issues
+summary: "The workload latency (response time) is the time it takes for a volume on a cluster to respond to I/O requests from client applications. Unified Manager uses the latency to detect and alert you to performance events."
 ---
 = How Unified Manager uses workload latency to identify performance issues
 :icons: font

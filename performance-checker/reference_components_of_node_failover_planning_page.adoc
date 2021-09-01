@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_components_of_node_failover_planning_page.html
 sidebar: sidebar
-keywords:
-summary: 'The components of the Performance/Node Failover Planning page are displayed in a grid and in the Comparing pane. These sections enable you to assess the impact of a node failover on the performance of the takeover node.'
+keywords: components, node, failover, planning page, performance, statistics, grid
+summary: "The components of the Performance/Node Failover Planning page are displayed in a grid and in the Comparing pane. These sections enable you to assess the impact of a node failover on the performance of the takeover node."
 ---
 = Components of the Node Failover Planning page
 :icons: font

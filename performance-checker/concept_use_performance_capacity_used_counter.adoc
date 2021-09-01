@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_use_performance_capacity_used_counter.html
 sidebar: sidebar
-keywords: 
-summary: 'Typically, organizations want to operate with a performance capacity used percentage below 100 so that resources are being efficiently used while reserving some additional performance capacity to support peak period demands. You can use threshold policies to customize when alerts are sent for high performance capacity used values.'
+keywords: performance, capacity, counter, manage, performance
+summary: "Typically, organizations want to operate with a performance capacity used percentage below 100 so that resources are being efficiently used while reserving some additional performance capacity to support peak period demands. You can use threshold policies to customize when alerts are sent for high performance capacity used values."
 ---
 = Using the performance capacity used counter to manage performance
 :icons: font

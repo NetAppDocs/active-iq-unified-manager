@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html
 sidebar: sidebar
-keywords:
-summary: 'When a counter value exceeds its defined performance threshold value for the amount of time specified in the duration, the threshold is breached and an event is reported.'
+keywords: happens, performance, threshold, policy, breached
+summary: "When a counter value exceeds its defined performance threshold value for the amount of time specified in the duration, the threshold is breached and an event is reported."
 ---
 = What happens when a performance threshold policy is breached
 :icons: font

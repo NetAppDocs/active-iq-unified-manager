@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_how_user_defined_performance_threshold_policies_work.html
 sidebar: sidebar
-keywords:
-summary: 'You set performance threshold policies on storage objects \(for example, on aggregates and volumes\) so that an event can be sent to the storage administrator to inform the administrator that the cluster is experiencing a performance issue.'
+keywords: user-defined, performance, threshold, policies, work
+summary: "You set performance threshold policies on storage objects (for example, on aggregates and volumes) so that an event can be sent to the storage administrator to inform the administrator that the cluster is experiencing a performance issue."
 ---
 = How user-defined performance threshold policies work
 :icons: font
@@ -32,7 +32,7 @@ image::../media/opm2_threshold_breach.gif[]
 A threshold breach must occur continuously for the specified duration. If the threshold dips below the limit values for any reason, a subsequent breach is considered the start of a new duration.
 
 Some cluster objects and performance counters enable you to create a combination threshold policy that requires two performance counters to exceed their maximum limits before an event is generated. For example, you can create a threshold policy using the following criteria:
-
+[options="header"]
 |===
 | Cluster object| Performance counter| Warning threshold| Critical threshold| Duration
 a|
@@ -53,9 +53,10 @@ a|
 65%
 a|
 85%
+a|
 |===
 Threshold policies that use two cluster objects cause an event to be generated only when both conditions are breached. For example, using the threshold policy defined in the table:
-
+[options="header"]
 |===
 | If volume latency is averaging...| And aggregate disk utilization is...| Then...
 a|

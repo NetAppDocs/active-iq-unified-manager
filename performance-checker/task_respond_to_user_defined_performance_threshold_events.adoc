@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/task_respond_to_user_defined_performance_threshold_events.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use Unified Manager to investigate performance events caused by a performance counter crossing a user-defined warning or critical threshold. You can also use Unified Manager to check the health of the cluster component to see whether recent health events detected on the component contributed to the performance event.'
+keywords: user-defined, performance, threshold, events
+summary: "You can use Unified Manager to investigate performance events caused by a performance counter crossing a user-defined warning or critical threshold. You can also use Unified Manager to check the health of the cluster component to see whether recent health events detected on the component contributed to the performance event."
 ---
 = Responding to user-defined performance threshold events
 :icons: font
@@ -11,11 +11,14 @@ summary: 'You can use Unified Manager to investigate performance events caused b
 [.lead]
 You can use Unified Manager to investigate performance events caused by a performance counter crossing a user-defined warning or critical threshold. You can also use Unified Manager to check the health of the cluster component to see whether recent health events detected on the component contributed to the performance event.
 
+*What you'll need*
+
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * There must be new or obsolete performance events.
 
-. Display the Event details page to view information about the event.
-. Review the Description, which describes the threshold breach that caused the event.
+.Steps
+. Display the *Event details* page to view information about the event.
+. Review the *Description*, which describes the threshold breach that caused the event.
 +
 For example, the message "`Latency value of 456 ms/op has triggered a WARNING event based on threshold setting of 400 ms/op`" indicates that a latency warning event occurred for the object.
 
@@ -23,9 +26,10 @@ For example, the message "`Latency value of 456 ms/op has triggered a WARNING ev
 +
 This includes the policy name, the performance counter being evaluated, the counter value that must be breached to be considered a critical or warning event, and the duration by which the counter must exceed the value.
 
-. Make a note of the Event Trigger Time so you can investigate whether other events might have occurred at the same time that could have contributed to this event.
+. Make a note of the *Event Trigger Time* so you can investigate whether other events might have occurred at the same time that could have contributed to this event.
 . Follow one of the options below to further investigate the event, to determine whether you need to perform any actions to resolve the performance problem:
 +
+[options="header"]
 |===
 | Option| Possible investigation actions
 a|

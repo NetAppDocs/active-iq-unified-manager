@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_what_performance_events_are.html
 sidebar: sidebar
-keywords:
-summary: 'Performance events are incidents related to workload performance on a cluster. They help you identify workloads with slow response times. Together with health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times.'
+keywords: performance, events
+summary: "Performance events are incidents related to workload performance on a cluster. They help you identify workloads with slow response times. Together with health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times."
 ---
 = What performance events are
 :icons: font

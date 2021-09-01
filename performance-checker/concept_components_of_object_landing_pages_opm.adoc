@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_components_of_object_landing_pages_opm.html
 sidebar: sidebar
-keywords:
-summary: 'The Object Landing pages provide details about all critical, warning, and informational events. They provide a detailed view into the performance of all cluster objects, enabling you to select and compare individual objects across various time periods.'
+keywords: components, object, landing pages
+summary: "The Object Landing pages provide details about all critical, warning, and informational events. They provide a detailed view into the performance of all cluster objects, enabling you to select and compare individual objects across various time periods."
 ---
 = Components of the Object Landing pages
 :icons: font

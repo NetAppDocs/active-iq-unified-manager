@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_sources_of_performance_events.html
 sidebar: sidebar
-keywords:
-summary: 'Performance events are issues related to workload performance on a cluster. They help you identify storage objects with slow response times, also known as high latency. Together with other health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times.'
+keywords: sources, performance, events
+summary: "Performance events are issues related to workload performance on a cluster. They help you identify storage objects with slow response times, also known as high latency. Together with other health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times."
 ---
 = Sources of performance events
 :icons: font

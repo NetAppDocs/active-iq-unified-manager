@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_understand_performance_panels_on_dashboard.html
 sidebar: sidebar
-keywords:
-summary: 'The Unified Manager Dashboard provides a few panels that display high-level performance status for all the clusters that are being monitored in your environment. You can choose to view status for all clusters or for an individual cluster.'
+keywords: understand, performance, panels, dashboard
+summary: "The Unified Manager Dashboard provides a few panels that display high-level performance status for all the clusters that are being monitored in your environment. You can choose to view status for all clusters or for an individual cluster."
 ---
 = Understanding performance panels on the Dashboard
 :icons: font

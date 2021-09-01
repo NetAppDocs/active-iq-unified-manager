@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_metrocluster_configuration_verification.html
 sidebar: sidebar
-keywords: 
-summary: 'You can prevent performance issues for mirrored workloads in a MetroCluster configuration by ensuring that the MetroCluster configuration is set up correctly. You can also improve workload performance by changing the configuration or upgrading software or hardware components.'
+keywords: metrocluster, configuration, verification
+summary: "You can prevent performance issues for mirrored workloads in a MetroCluster configuration by ensuring that the MetroCluster configuration is set up correctly. You can also improve workload performance by changing the configuration or upgrading software or hardware components."
 ---
 = MetroCluster configuration verification
 :icons: font

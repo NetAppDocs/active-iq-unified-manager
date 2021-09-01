@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_performance_capacity_used_threshold_conditions.html
 sidebar: sidebar
-keywords:
-summary: 'You can create user-defined performance threshold policies so that events are triggered when the performance capacity used value for a node or aggregate exceeds the defined performance capacity used threshold setting.'
+keywords: performance, capacity, threshold, conditions
+summary: "You can create user-defined performance threshold policies so that events are triggered when the performance capacity used value for a node or aggregate exceeds the defined performance capacity used threshold setting."
 ---
 = Performance capacity used performance threshold conditions
 :icons: font
@@ -19,7 +19,7 @@ This performance capacity used equivalency is generally true between nodes. Howe
 ====
 
 The performance capacity used conditions can also be used as secondary performance threshold settings to create a combination threshold policy when defining thresholds for LUNs and volumes. The performance capacity used condition is applied to the aggregate or node on which the volume or LUN resides. For example, you can create a combination threshold policy using the following criteria:
-
+[options="header"]
 |===
 | Storage object| Performance counter| Warning threshold| Critical threshold| Duration
 a|
@@ -40,5 +40,6 @@ a|
 80%
 a|
 95%
+a|
 |===
 Combination threshold policies cause an event to be generated only when both conditions are breached for the entire duration.

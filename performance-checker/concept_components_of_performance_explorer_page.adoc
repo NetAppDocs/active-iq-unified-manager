@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_components_of_performance_explorer_page.html
 sidebar: sidebar
-keywords:
-summary: 'The Performance Explorer page enables you to compare the performance of similar objects in a cluster—for example, all the volumes in a cluster. This is beneficial when troubleshooting performance events and fine-tuning object performance. You can also compare objects with the root object, which is the baseline against which other object comparisons are made.'
+keywords: components, performance, explorer, page
+summary: "The Performance Explorer page enables you to compare the performance of similar objects in a cluster—for example, all the volumes in a cluster. This is beneficial when troubleshooting performance events and fine-tuning object performance. You can also compare objects with the root object, which is the baseline against which other object comparisons are made."
 ---
 = Components of the Performance Explorer page
 :icons: font
@@ -48,7 +48,7 @@ Data for the objects in the Comparing pane is displayed in the Counter Charts.
 
 * *View Statistics In*
 +
-For volume and LUNs, enables you to select whether the statistics are displayed after each collection cycle (default 5 minutes), or whether the statistics are shown as an hourly average. This functionality enables you to view the latency chart in support of the NetApp"`Performance Guarantee`" program.
+For volume and LUNs, enables you to select whether the statistics are displayed after each collection cycle (default 5 minutes), or whether the statistics are shown as an hourly average. This functionality enables you to view the latency chart in support of the NetApp "Performance Guarantee" program.
 
 * *Counter Charts*
 +

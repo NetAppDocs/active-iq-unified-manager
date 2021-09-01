@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_unified_manager_performance_monitoring_features.html
 sidebar: sidebar
-keywords: 
-summary: 'Unified Manager collects and analyzes performance statistics from systems running ONTAP software. It uses dynamic performance thresholds and user-defined performance thresholds to monitor a variety of performance counters over many cluster components.'
+keywords: unified manager, performance, monitoring, features
+summary: "Unified Manager collects and analyzes performance statistics from systems running ONTAP software. It uses dynamic performance thresholds and user-defined performance thresholds to monitor a variety of performance counters over many cluster components."
 ---
 = Unified Manager performance monitoring features
 :icons: font

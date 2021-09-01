@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_performance_cluster_landing_page.html
 sidebar: sidebar
-keywords:
-summary: 'The Performance Cluster Landing page displays the high-level performance status of a selected cluster. The page enables you to access complete details of each performance counter for the storage objects on the selected cluster.'
+keywords: performance, cluster, landing page
+summary: "The Performance Cluster Landing page displays the high-level performance status of a selected cluster. The page enables you to access complete details of each performance counter for the storage objects on the selected cluster."
 ---
 = Performance Cluster Landing page
 :icons: font

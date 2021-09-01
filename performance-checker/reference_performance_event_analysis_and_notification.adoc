@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_performance_event_analysis_and_notification.html
 sidebar: sidebar
-keywords:
-summary: 'Performance events notify you about I/O performance issues on a workload caused by contention on a cluster component. Unified Manager analyzes the event to identify all workloads involved, the component in contention, and whether the event is still an issue that you might need to resolve.'
+keywords:  performance, event, analysis, notification
+summary: "Performance events notify you about I/O performance issues on a workload caused by contention on a cluster component. Unified Manager analyzes the event to identify all workloads involved, the component in contention, and whether the event is still an issue that you might need to resolve."
 ---
 = Performance event analysis and notification
 :icons: font

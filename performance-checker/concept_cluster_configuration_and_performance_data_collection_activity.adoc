@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_cluster_configuration_and_performance_data_collection_activity.html
 sidebar: sidebar
-keywords: 
-summary: 'The collection interval for cluster configuration data is 15 minutes. For example, after you have added a cluster, it takes 15 minutes to display the cluster details in the Unified Manager UI. This interval applies when making changes to a cluster too.'
+keywords: cluster, configuration, performance, data, collection, activity
+summary: "The collection interval for cluster configuration data is 15 minutes. For example, after you have added a cluster, it takes 15 minutes to display the cluster details in the Unified Manager UI. This interval applies when making changes to a cluster too."
 ---
 = Cluster configuration and performance data collection activity
 :icons: font
@@ -18,7 +18,7 @@ Unified Manager collects current _performance statistics_ from all monitored clu
 The collection polls are offset by a few minutes so that data from every cluster is not sent at the same time, which could affect performance.
 
 The following table describes the collection activities that Unified Manager performs:
-
+[options="header"]
 |===
 | Activity| Time interval| Description
 a|

@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_how_expected_range_is_used_in_performance_analysis.html
 sidebar: sidebar
-keywords:
-summary: 'Unified Manager uses the latency forecast to represent the typical I/O latency \(response time\) activity for your monitored workloads. It alerts you when the actual latency for a workload is above the upper bounds of the latency forecast, which triggers a dynamic performance event, so that you can analyze the performance issue and take corrective action for resolving it.'
+keywords: latency, forecast, performance, analysis
+summary: "Unified Manager uses the latency forecast to represent the typical I/O latency (response time) activity for your monitored workloads. It alerts you when the actual latency for a workload is above the upper bounds of the latency forecast, which triggers a dynamic performance event, so that you can analyze the performance issue and take corrective action for resolving it."
 ---
 = How the latency forecast is used in performance analysis
 :icons: font

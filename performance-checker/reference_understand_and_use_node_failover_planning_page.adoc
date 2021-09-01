@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_understand_and_use_node_failover_planning_page.html
 sidebar: sidebar
-keywords:
-summary: 'The Performance/Node Failover Planning page estimates the performance impact on a node if the node’s high-availability \(HA\) partner node fails. Unified Manager bases the estimates on the historical performance of the nodes in the HA pair.'
+keywords: understanding, node, failover, planning page
+summary: "The Performance/Node Failover Planning page estimates the performance impact on a node if the node’s high-availability (HA) partner node fails. Unified Manager bases the estimates on the historical performance of the nodes in the HA pair."
 ---
 = Understanding and using the Node Failover Planning page
 :icons: font
