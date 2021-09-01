@@ -1,8 +1,8 @@
 ---
 permalink: config/concept_maintenance_console_menu.html
 sidebar: sidebar
-keywords: 
-summary: 'The maintenance console consists of different menus that enable you to maintain and manage special features and configuration settings of the Unified Manager server.'
+keywords: maintenance, console, menus
+summary: "The maintenance console consists of different menus that enable you to maintain and manage special features and configuration settings of the Unified Manager server."
 ---
 = Maintenance console menus
 :icons: font

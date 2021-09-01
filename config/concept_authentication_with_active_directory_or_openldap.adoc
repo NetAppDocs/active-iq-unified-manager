@@ -1,8 +1,8 @@
 ---
 permalink: config/concept_authentication_with_active_directory_or_openldap.html
 sidebar: sidebar
-keywords: 
-summary: 'You can enable remote authentication on the management server and configure the management server to communicate with your authentication servers so that users within the authentication servers can access Unified Manager.'
+keywords: authentication, active directory, openldap
+summary: "You can enable remote authentication on the management server and configure the management server to communicate with your authentication servers so that users within the authentication servers can access Unified Manager."
 ---
 = Authentication with Active Directory or OpenLDAP
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: config/concept_configure_um_backup.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure the backup capability on Unified Manager through a set of configuration steps to be performed on the host systems and the through maintenance console.'
+keywords: configure, unified manager, backup
+summary: "You can configure the backup capability on Unified Manager through a set of configuration steps to be performed on the host systems and the through maintenance console."
 ---
 = Configuring Unified Manager backup
 :icons: font

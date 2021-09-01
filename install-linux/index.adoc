@@ -1,9 +1,0 @@
----
-permalink: install-linux/index.html
-sidebar: sidebar
-keywords:
-summary: ''
----
-= Installation Guide
-:icons: font
-:imagesdir: ../media/

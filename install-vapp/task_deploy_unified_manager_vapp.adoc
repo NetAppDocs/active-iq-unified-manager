@@ -1,8 +1,8 @@
 ---
 permalink: install-vapp/task_deploy_unified_manager_vapp.html
 sidebar: sidebar
-keywords:
-summary: 'Deploying Unified Manager includes downloading software, deploying the virtual appliance, creating a maintenance user name and password, and performing the initial setup in the web UI.'
+keywords: deploy, unified manager
+summary: "Deploying Unified Manager includes downloading software, deploying the virtual appliance, creating a maintenance user name and password, and performing the initial setup in the web UI."
 ---
 = Deploying Unified Manager
 :icons: font
@@ -11,9 +11,11 @@ summary: 'Deploying Unified Manager includes downloading software, deploying the
 [.lead]
 Deploying Unified Manager includes downloading software, deploying the virtual appliance, creating a maintenance user name and password, and performing the initial setup in the web UI.
 
+*What you'll need*
+
 * You should verify and complete the system requirements for deployment.
 +
-xref:concept_requirements_for_installing_unified_manager.adoc[System requirements]
+link:concept_requirements_for_installing_unified_manager.html[System requirements]
 
 * Ensure that you have the following information:
  ** Login credentials for the NetApp Support Site
@@ -28,7 +30,12 @@ You should access the maintenance console by using the VMware console, and not b
 
 [NOTE]
 ====
-Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM Tools (open-vm-tools). You no longer have to install VMware Tools as part of the installation because open-vm-tools is included with the Unified Manager installation package.
+Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM Tools (`open-vm-tools`). You no longer have to install VMware Tools as part of the installation because `open-vm-tools` is included with the Unified Manager installation package.
 ====
 
 After finishing the deployment and initial setup, you can either add clusters, or configure additional network settings in the maintenance console, and then access the web UI.
+
+.Steps
+. link:task_download_unified_manager_ova_file.html[Download Unified Manager]
+. link:task_deploy_unified_manager_virtual_appliance_vapp.html[Deploy the Unified Manager virtual appliance]
+

@@ -1,8 +1,8 @@
 ---
 permalink: install-linux/task_upgrade_unified_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'You can upgrade from Unified Manager 9.7 or 9.8 to 9.9 by downloading and running the installation file on the Red Hat platform.'
+keywords: upgrade, unified manager
+summary: "You can upgrade from Unified Manager 9.7 or 9.8 to 9.9 by downloading and running the installation file on the Red Hat platform."
 ---
 = Upgrading Unified Manager
 :icons: font
@@ -11,54 +11,75 @@ summary: 'You can upgrade from Unified Manager 9.7 or 9.8 to 9.9 by downloading 
 [.lead]
 You can upgrade from Unified Manager 9.7 or 9.8 to 9.9 by downloading and running the installation file on the Red Hat platform.
 
+*What you'll need*
+
 * The system on which you are upgrading Unified Manager must meet the system and software requirements.
 +
-xref:concept_virtual_infrastructure_or_hardware_system_requirements.adoc[Hardware system requirements]
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements]
 +
-xref:reference_red_hat_and_centos_software_and_installation_requirements.adoc[Red Hat and CentOS software and installation requirements]
+link:reference_red_hat_and_centos_software_and_installation_requirements.html[Red Hat and CentOS software and installation requirements]
 
 * You must install, or upgrade to the correct version of OpenJDK prior to upgrading Unified Manager.
 +
-xref:task_upgrade_openjdk_on_linux_ocum.adoc[Upgrading JRE on Linux]
+link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux]
 
 * MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.25, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.25.
 +
 However, you may want to upgrade MySQL to the latest minor version on your system. Before an upgrade to the next minor version, ensure that the base version of MySQL on your system is 8.0.25.
 
 * You must have a subscription to the Red Hat Enterprise Linux Subscription Manager.
-* To avoid data loss, you must have created a backup of the Unified Manager database in case there is an issue during the upgrade. It is also recommended that you move the backup file from the /opt/netapp/data directory to an external location.
+* To avoid data loss, you must have created a backup of the Unified Manager database in case there is an issue during the upgrade. It is also recommended that you move the backup file from the `/opt/netapp/data` directory to an external location.
 * During upgrade, you may be prompted to confirm whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data after 6 months is purged.
 * You should have completed any running operations, because Unified Manager is unavailable during the upgrade process.
+
+.Steps
 
 . Log in to the target Red Hat Enterprise Linux or CentOS server.
 . Download the Unified Manager bundle to the server.
 +
-xref:task_download_unified_manager.adoc[Downloading Unified Manager for Red Hat or CentOS]
+link:task_download_unified_manager.html[Downloading Unified Manager for Red Hat or CentOS]
 
-. Navigate to the target directory and expand the Unified Manager bundle: `unzip ActiveIQUnifiedManager-<version\>.zip`
+. Navigate to the target directory and expand the Unified Manager bundle:
++
+`unzip ActiveIQUnifiedManager-<version\>.zip`
 +
 The required RPM modules for Unified Manager are unzipped to the target directory.
 
-. Verify that the following module is available in the directory: `ls *.rpm`
- ** netapp-um<version>.x86_64.rpm
-. For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages:
- .. View the list of available and unavailable packages: `yum install netapp-um<version\>.x86_64.rpm --assumeno`
+. Verify that the following module is available in the directory:
++
+`ls *.rpm`
++
+** `netapp-um<version>.x86_64.rpm`
+. *Optional:* For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages:
+ .. View the list of available and unavailable packages:
++
+`yum install netapp-um<version\>.x86_64.rpm --assumeno`
 +
 The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
 
- .. On a different system that has Internet access, run the following command to download the missing packages. `yum install package_name --downloadonly --downloaddir=.`
+ .. On a different system that has Internet access, run the following command to download the missing packages.
 +
-The packages are downloaded in the directory specified as --downloaddir=.
+`yum install package_name --downloadonly --downloaddir=.`
 +
-Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat Enterprise Linux systems, you might need to enable the functionality to download a package without installing it:``yum install yum-plugin-downloadonly``
+The packages are downloaded in the directory specified as `--downloaddir=`.
++
+Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat Enterprise Linux systems, you might need to enable the functionality to download a package without installing it:
++
+`yum install yum-plugin-downloadonly`
 
  .. Create a new directory in the installation system and copy the downloaded packages from the Internet-connected system.
- .. Change directories to the new directory on the installation system and run the following command for installing MySQL Community Edition, along with its dependencies. `yum install *.rpm`
-. Run the pre-installation script to ensure that there are no system configuration settings or any installed software that might conflict with the upgrade: `sudo ./pre_install_check.sh`
+ .. Change directories to the new directory on the installation system and run the following command for installing MySQL Community Edition, along with its dependencies.
++
+`yum install *.rpm`
+. Run the pre-installation script to ensure that there are no system configuration settings or any installed software that might conflict with the upgrade:
++
+`sudo ./pre_install_check.sh`
 +
 The pre-installation script checks that the system has a valid Red Hat subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues before upgrading Unified Manager.
 
-. Upgrade Unified Manager using the following script: `upgrade.sh`
+. Upgrade Unified Manager using the following script:
++
+`upgrade.sh`
 +
 This script automatically executes the RPM modules, upgrading the necessary supporting software and the Unified Manager modules that run on them. Additionally, the upgrade script checks whether there are any system configuration settings or any installed software that might conflict with the upgrade. If the script identifies any issues, you must fix the issues before upgrading Unified Manager.
 

@@ -1,8 +1,8 @@
 ---
 permalink: install-vapp/concept_requirements_for_installing_unified_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you begin the installation process, ensure that the server on which you want to install Unified Manager meets the specific software, hardware, CPU, and memory requirements.'
+keywords: requirements, installing, unified, manager
+summary: "Before you begin the installation process, ensure that the server on which you want to install Unified Manager meets the specific software, hardware, CPU, and memory requirements."
 ---
 = Requirements for installing Unified Manager
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: config/concept_inactivity_timeout.html
 sidebar: sidebar
-keywords: inactivity timeout,feature settings
-summary: 'You can specify the inactivity timeout value for Active IQ Unified Manager. After an inactivity of the specified time, the application is automatically logged out. This option is enabled by default.'
+keywords: inactivity timeout, feature settings
+summary: "You can specify the inactivity timeout value for Active IQ Unified Manager. After an inactivity of the specified time, the application is automatically logged out. This option is enabled by default."
 ---
 = Inactivity timeout
 :icons: font

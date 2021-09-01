@@ -1,8 +1,8 @@
 ---
 permalink: install-linux/reference_users_created_in_unified_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'When you install Unified Manager on Red Hat Enterprise Linux or CentOS, the following users are created by Unified Manager and third-party utilities: umadmin, jboss, and mysql.'
+keywords: users, created, unified manager, installation
+summary: "When you install Unified Manager on Red Hat Enterprise Linux or CentOS, the following users are created by Unified Manager and third-party utilities: umadmin, jboss, and mysql."
 ---
 = Users created during Unified Manager installation
 :icons: font

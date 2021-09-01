@@ -1,8 +1,8 @@
 ---
 permalink: config/reference_definitions_of_user_types.html
 sidebar: sidebar
-keywords: 
-summary: 'A user type specifies the kind of account the user holds and includes remote users, remote groups, local users, database users, and maintenance users. Each of these types has its own role, which is assigned by a user with the role of Administrator.'
+keywords: definitions, user types
+summary: "A user type specifies the kind of account the user holds and includes remote users, remote groups, local users, database users, and maintenance users. Each of these types has its own role, which is assigned by a user with the role of Administrator."
 ---
 = Definitions of user types
 :icons: font

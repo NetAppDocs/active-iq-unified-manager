@@ -2,6 +2,8 @@ sidebar:
   entries:
     - title: Home
       url: "/index.html"
+    - title: Release notes
+      url: /reference_release_notes.html
     - section: install-vapp
     - section: install-linux
     - section: install-windows
