@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html
 sidebar: sidebar
-keywords: 
-summary: 'If you adjust the counter value or duration of an existing performance threshold policy, the policy change is applied to all storage objects that use the policy. The new setting takes place immediately, and Unified Manager begins to compare performance counter values to the new threshold settings for all newly collected performance data.'
+keywords: happens, performance, threshold, policy, changed
+summary: "If you adjust the counter value or duration of an existing performance threshold policy, the policy change is applied to all storage objects that use the policy. The new setting takes place immediately, and Unified Manager begins to compare performance counter values to the new threshold settings for all newly collected performance data."
 ---
 = What happens when a performance threshold policy is changed
 :icons: font

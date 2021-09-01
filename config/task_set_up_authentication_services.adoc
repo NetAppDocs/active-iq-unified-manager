@@ -1,8 +1,8 @@
 ---
 permalink: config/task_set_up_authentication_services.html
 sidebar: sidebar
-keywords: 
-summary: 'Authentication services enable the authentication of remote users or remote groups in an authentication server before providing them access to Unified Manager. You can authenticate users by using predefined authentication services \(such as Active Directory or OpenLDAP\), or by configuring your own authentication mechanism.'
+keywords: set up, authentication, services
+summary: "Authentication services enable the authentication of remote users or remote groups in an authentication server before providing them access to Unified Manager. You can authenticate users by using predefined authentication services (such as Active Directory or OpenLDAP), or by configuring your own authentication mechanism."
 ---
 = Setting up authentication services
 :icons: font
@@ -11,12 +11,17 @@ summary: 'Authentication services enable the authentication of remote users or r
 [.lead]
 Authentication services enable the authentication of remote users or remote groups in an authentication server before providing them access to Unified Manager. You can authenticate users by using predefined authentication services (such as Active Directory or OpenLDAP), or by configuring your own authentication mechanism.
 
+*What you'll need*
+
 * You must have enabled remote authentication.
 * You must have the Application Administrator role.
+
+.Steps
 
 . In the left navigation pane, click *General* > *Remote Authentication*.
 . Select one of the following authentication services:
 +
+[cols="2*",options="header"]
 |===
 | If you select...| Then do this...
 a|
@@ -26,7 +31,7 @@ a|
  .. Enter the administrator name and password.
  .. Specify the base distinguished name of the authentication server.
 +
-For example, if the domain name of the authentication server is ou@domain.com, then the base distinguished name is cn=ou,dc=domain,dc=com.
+For example, if the domain name of the authentication server is +ou@domain.com+, then the base distinguished name is *cn=ou,dc=domain,dc=com*.
 
 a|
 OpenLDAP
@@ -35,7 +40,7 @@ a|
  .. Enter the bind distinguished name and bind password.
  .. Specify the base distinguished name of the authentication server.
 +
-For example, if the domain name of the authentication server is ou@domain.com, then the base distinguished name is cn=ou,dc=domain,dc=com.
+For example, if the domain name of the authentication server is +ou@domain.com+, then the base distinguished name is *cn=ou,dc=domain,dc=com*.
 
 a|
 Others
@@ -44,7 +49,7 @@ a|
  .. Enter the bind distinguished name and bind password.
  .. Specify the base distinguished name of the authentication server.
 +
-For example, if the domain name of the authentication server is ou@domain.com, then the base distinguished name is cn=ou,dc=domain,dc=com.
+For example, if the domain name of the authentication server is +ou@domain.com+, then the base distinguished name is *cn=ou,dc=domain,dc=com*.
 
  .. Specify the LDAP protocol version that is supported by the authentication server.
  .. Enter the user name, group membership, user group, and member attributes.

@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_health_cluster_details_page.html
 sidebar: sidebar
-keywords: 
-summary: 'The Cluster / Health details page provides detailed information about a selected cluster, such as health, capacity, and configuration details. You can also view information about the network interfaces \(LIFs\), nodes, disks, related devices, and related alerts for the cluster.'
+keywords: cluster, health details page
+summary: "The Cluster / Health details page provides detailed information about a selected cluster, such as health, capacity, and configuration details. You can also view information about the network interfaces (LIFs), nodes, disks, related devices, and related alerts for the cluster."
 ---
 = Cluster / Health details page
 :icons: font
@@ -12,20 +12,6 @@ summary: 'The Cluster / Health details page provides detailed information about 
 The Cluster / Health details page provides detailed information about a selected cluster, such as health, capacity, and configuration details. You can also view information about the network interfaces (LIFs), nodes, disks, related devices, and related alerts for the cluster.
 
 The status next to the cluster name, for example (Good), represents the communication status; whether Unified Manager can communicate with the cluster. It does not represent the failover status or overall status of the cluster.
-
-* <<GUID-AC4D8044-E514-46C5-B3FF-C67131B2705A,Command buttons>>
-* <<SECTION_A94ACD04F5754B579673914DD271949E,Health tab>>
-* <<SECTION_0AF3B04627E04A7E834376E728B2851B,Capacity tab>>
-* <<SECTION_508CD6597CAF468F8052CDCE735D634C,Configuration tab>>
-* <<SECTION_1437ACED881C4A90A08B841E63A25D42,MetroCluster Connectivity tab>>
-* <<GUID-0C8A5878-48C5-424D-9882-AB376B397342,MetroCluster Replication tab>>
-* <<SECTION_183E24B6BF14404C9C3ED9DE550A9A52,Network Interfaces tab>>
-* <<SECTION_0110A1E1AC9E41CABE998C23DD7CCD69,Nodes tab>>
-* <<SECTION_9E192CEFC5CD4DF8B1B11C6A748CE34B,Disks tab>>
-* <<GUID-48F8ABA7-2056-4FCB-A38D-7A2A7677DF60,Related Annotations pane>>
-* <<SECTION_C9191DFC55884936B5AE70E0C11E2F25,Related Devices pane>>
-* <<SECTION_CCDDBB0DF63E46C598EA3E2ABA4E2CF8,Related Groups pane>>
-* <<SECTION_A6C6B0CA1EB04BBC940C7FE90FA13E88,Related Alerts pane>>
 
 == Command buttons
 
@@ -405,13 +391,13 @@ The node has taken over the partner node or the node is facing some environmenta
 +
 The node is down.
 
-+
+
 You can view information about the availability of the HA pair and take required action to prevent any risks. For example, in the case of a possible takeover operation, the following message is displayed: Storage failover possible.
-+
+
 You can view a list of the events related to the HA pair and its environment, such as fans, power supplies, NVRAM battery, flash cards, service processor, and connectivity of disk shelves. You can also view the time when the events were triggered.
-+
+
 You can view other node-related information, such as the model number and the serial number.
-+
+
 If there are single-node clusters, you can also view details about the nodes.
 
 * *Disk Shelves*
@@ -629,7 +615,5 @@ Enables you to view the list of groups that includes the selected cluster.
 The Related Alerts pane enables you to view the list of alerts for the selected cluster. You can also add an alert by clicking the Add Alert link or edit an existing alert by clicking the alert name.
 
 *Related information*
-
-xref:task_view_cluster_list_and_details.adoc[Viewing the cluster list and details]
 
 link:[Storage Pool dialog box]

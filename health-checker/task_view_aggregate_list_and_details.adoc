@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_view_aggregate_list_and_details.html
 sidebar: sidebar
-keywords: 
-summary: 'From the Health: All Aggregates view, you can monitor your inventory of aggregates. The Capacity: All Aggregates view enables you to view information about the capacity and utilization of aggregates in all clusters.'
+keywords: view, aggregate list, details
+summary: "From the Health: All Aggregates view, you can monitor your inventory of aggregates. The Capacity: All Aggregates view enables you to view information about the capacity and utilization of aggregates in all clusters."
 ---
 = Viewing the aggregate list and details
 :icons: font
@@ -11,10 +11,13 @@ summary: 'From the Health: All Aggregates view, you can monitor your inventory o
 [.lead]
 From the Health: All Aggregates view, you can monitor your inventory of aggregates. The Capacity: All Aggregates view enables you to view information about the capacity and utilization of aggregates in all clusters.
 
+*What you'll need*
+
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
 You can view details such as aggregate capacity and configuration, and disk information from the Aggregate / Health details page. You can use these details before you configure the threshold settings if required.
 
+.Steps
 . In the left navigation pane, click *Storage* > *Aggregates*.
 . Choose one of the following ways to view the aggregate details:
  ** To view information about the health of all aggregates in all clusters, in the View menu, select Health: All Aggregates view.

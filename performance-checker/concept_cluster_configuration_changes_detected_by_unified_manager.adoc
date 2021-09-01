@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html
 sidebar: sidebar
-keywords: Unified Manager
-summary: 'Unified Manager monitors your clusters for configuration changes to help you determine whether a change might have caused or contributed to a performance event. The Performance Explorer pages display a change event icon \(\) to indicate the date and time when the change was detected.'
+keywords: unified manager, configuration, changes, detected
+summary: "Unified Manager monitors your clusters for configuration changes to help you determine whether a change might have caused or contributed to a performance event. The Performance Explorer pages display a change event icon () to indicate the date and time when the change was detected."
 ---
 = Configuration changes detected by Unified Manager
 :icons: font

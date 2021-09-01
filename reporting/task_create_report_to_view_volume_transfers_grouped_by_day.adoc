@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_volume_transfers_grouped_by_day.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to view volume transfers grouped by day.'
+keywords: create, report, view, volume, transfers, day
+summary: "You can create a report to view volume transfers grouped by day."
 ---
 = Creating a report to view volume transfers grouped by day
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to view volume transfers grouped by day.'
 [.lead]
 You can create a report to view volume transfers grouped by day.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view for volume transfers grouped by day, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Volumes*.
 . In the View menu, select *Relationship* > *Last 1 month Transfer Rate*.

@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_description_of_event_severity_types.html
 sidebar: sidebar
-keywords: 
-summary: 'Each event is associated with a severity type to help you prioritize the events that require immediate corrective action.'
+keywords: description, event, severity, types
+summary: "Each event is associated with a severity type to help you prioritize the events that require immediate corrective action."
 ---
 = Description of event severity types
 :icons: font

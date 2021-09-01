@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_monitor_cluster_performance_navigation.html
 sidebar: sidebar
-keywords: 
-summary: 'You can monitor the performance of all clusters managed by Unified Manager. Monitoring your clusters provides you with an overview of cluster and object performance and includes performance event monitoring. You can view performance and events at a high level, or you can further investigate any details of cluster and object performance and performance events.'
+keywords: monitor, cluster, performance, navigation
+summary: "You can monitor the performance of all clusters managed by Unified Manager. Monitoring your clusters provides you with an overview of cluster and object performance and includes performance event monitoring. You can view performance and events at a high level, or you can further investigate any details of cluster and object performance and performance events."
 ---
 = Monitor cluster performance navigation
 :icons: font

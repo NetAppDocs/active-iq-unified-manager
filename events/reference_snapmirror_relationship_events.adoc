@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_snapmirror_relationship_events.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapMirror relationship events provide you with information about the status of your Asynchronous and Synchronous SnapMirror relationships so that you can monitor for potential problems. Asynchronous SnapMirror relationship events are generated for both Storage VMs and volumes but Synchronous SnapMirror relationship events are generated only for volume relationships. There are no events generated for constituent volumes that are part of Storage VM disaster recovery relationships. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.'
+keywords: snapmirror, relationship, events, impact area, protection
+summary: "SnapMirror relationship events provide you with information about the status of your Asynchronous and Synchronous SnapMirror relationships so that you can monitor for potential problems. Asynchronous SnapMirror relationship events are generated for both Storage VMs and volumes but Synchronous SnapMirror relationship events are generated only for volume relationships. There are no events generated for constituent volumes that are part of Storage VM disaster recovery relationships. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
 = SnapMirror relationship events
 :icons: font
@@ -19,11 +19,9 @@ An asterisk (*) identifies EMS events that have been converted to Unified Manage
 ====
 The SnapMirror relationships events are generated for Storage VMs that are protected by Storage VM disaster recovery but not for any constituent object relationships.
 ====
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Mirror Replication Unhealthy(ocumEvtSnapmirrorRelationshipUnhealthy)
 

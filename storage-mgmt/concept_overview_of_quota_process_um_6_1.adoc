@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_overview_of_quota_process_um_6_1.html
 sidebar: sidebar
-keywords: 
-summary: 'Quotas can be soft or hard. Soft quotas cause ONTAP to send a notification when specified limits are exceeded, and hard quotas prevent a write operation from succeeding when specified limits are exceeded.'
+keywords: overview, quota, process
+summary: "Quotas can be soft or hard. Soft quotas cause ONTAP to send a notification when specified limits are exceeded, and hard quotas prevent a write operation from succeeding when specified limits are exceeded."
 ---
 = Overview of the quota process
 :icons: font
@@ -24,9 +24,3 @@ If yes, the write operation succeeds when the soft limit is breached and the sof
 * Whether a write operation will not exceed the soft limit
 +
 If yes, the write operation succeeds and no notification is sent.
-
-*Related information*
-
-xref:concept_about_quotas.adoc[About quotas]
-
-xref:concept_why_you_use_quotas.adoc[Why you use quotas]

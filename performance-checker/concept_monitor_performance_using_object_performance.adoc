@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_monitor_performance_using_object_performance.html
 sidebar: sidebar
-keywords: 
-summary: 'The object inventory performance pages display performance information, performance events, and object health for all objects within an object type category. This provides you with an at-a-glance overview of the performance status of each object within a cluster, for example, for all nodes or all volumes.'
+keywords: monitoring, performance, inventory, pages
+summary: "The object inventory performance pages display performance information, performance events, and object health for all objects within an object type category. This provides you with an at-a-glance overview of the performance status of each object within a cluster, for example, for all nodes or all volumes."
 ---
 = Monitoring performance using the Performance Inventory pages
 :icons: font

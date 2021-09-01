@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_add_group_rules.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create group rules for a group to dynamically add storage objects such as volumes, clusters, or storage virtual machines \(SVMs\) to the group. You must configure at least one condition group with at least one condition to create a group rule.'
+keywords: add, group rules
+summary: "You can create group rules for a group to dynamically add storage objects such as volumes, clusters, or storage virtual machines (SVMs) to the group. You must configure at least one condition group with at least one condition to create a group rule."
 ---
 = Adding group rules
 :icons: font
@@ -11,17 +11,21 @@ summary: 'You can create group rules for a group to dynamically add storage obje
 [.lead]
 You can create group rules for a group to dynamically add storage objects such as volumes, clusters, or storage virtual machines (SVMs) to the group. You must configure at least one condition group with at least one condition to create a group rule.
 
+*What you'll need*
+
 You must have the Application Administrator or Storage Administrator role.
 
 Storage objects that are currently monitored are added as soon as the group rule is created. New objects are added only after the monitoring cycle is completed.
 
+.Steps
 . In the left navigation pane, click *Storage Management* > *Groups*.
-. In the Group Rules tab, click *Add*.
-. In the Add Group Rule dialog box, specify a name for the group rule.
+. In the *Group Rules* tab, click *Add*.
+. In the *Add Group Rule* dialog box, specify a name for the group rule.
 . In the *Target Object Type* field, select the type of storage object that you want to group.
 . In the *Group* field, select the required group for which you want to create group rules.
-. In the Conditions section, perform the following steps to create a condition, a condition group, or both:
+. In the *Conditions* section, perform the following steps to create a condition, a condition group, or both:
 +
+[cols="2*",options="header"]
 |===
 | To create....| Do this...
 a|
@@ -51,6 +55,7 @@ a|
 
 Perform the following steps in the Add Group Rule dialog box to create a group rule, including configuring a condition and adding a condition group:
 
+.Steps
 . Specify a name for the group rule.
 . Select the object type as storage virtual machine (SVM).
 . Select a group from the list of groups.
@@ -64,13 +69,3 @@ Perform the following steps in the Add Group Rule dialog box to create a group r
 . Click *Add condition*.
 . Repeat steps 8 through 10 by selecting *data-priority* as the operand in step 8, *Is* as the operator in step 9, and *critical* as the value in step 10.
 . Click *Add* to create the condition for the group rule.
-
-*Related information*
-
-xref:concept_manage_and_monitor_groups.adoc[Managing and monitoring groups]
-
-xref:concept_what_group_is.adoc[What a group is]
-
-xref:task_edit_group_rules.adoc[Editing group rules]
-
-xref:task_delete_group_actions.adoc[Deleting group actions]

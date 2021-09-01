@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_event_setup_page.html
 sidebar: sidebar
-keywords: 
-summary: 'The Event Setup page displays the list of events that are disabled, and provides information such as the associated object type and severity of the event. You can also perform tasks such as disabling or enabling events globally.'
+keywords: event, setup, page, command, buttons, list, view
+summary: "The Event Setup page displays the list of events that are disabled, and provides information such as the associated object type and severity of the event. You can also perform tasks such as disabling or enabling events globally."
 ---
 = Event Setup page
 :icons: font
@@ -12,9 +12,6 @@ summary: 'The Event Setup page displays the list of events that are disabled, an
 The Event Setup page displays the list of events that are disabled, and provides information such as the associated object type and severity of the event. You can also perform tasks such as disabling or enabling events globally.
 
 You can access this page only if you have the Application Administrator or Storage Administrator role.
-
-* <<GUID-49615DD0-0E3D-4657-B35B-172D41553139,Command buttons>>
-* <<SECTION_54BD4675CEC143A0BC102572F7562CE2,List view>>
 
 == Command buttons
 

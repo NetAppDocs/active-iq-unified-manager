@@ -1,15 +1,15 @@
 ---
 permalink: api-automation/concept_storage_resource_model.html
 sidebar: sidebar
-keywords: 
-summary: 'The storage resources in ONTAP can be broadly classified into physical storage resources and logical storage resources. To effectively manage your ONTAP systems using the APIs provided in Active IQ Unified Manager, you must understand the storage resource model and the relationship between various storage resources.'
+keywords: storage, resource, ONTAP
+summary: "The storage resources in ONTAP can be broadly classified into physical storage resources and logical storage resources. To effectively manage your ONTAP systems using the APIs provided in Active IQ Unified Manager, you must understand the storage resource model and the relationship between various storage resources."
 ---
 = Storage resources in ONTAP
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The storage resources in ONTAP can be broadly classified into physical storage resources and logical storage resources. To effectively manage your ONTAP systems using the APIs provided in Active IQ Unified Manager, you must understand the storage resource model and the relationship between various storage resources.
+The storage resources in ONTAP can be broadly classified into _physical storage resources_ and _logical storage resources._ To effectively manage your ONTAP systems using the APIs provided in Active IQ Unified Manager, you must understand the storage resource model and the relationship between various storage resources.
 
 * *Physical storage resources*
 +

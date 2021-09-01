@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_logical_interface_events.html
 sidebar: sidebar
-keywords: 
-summary: 'Network interface events provide information about the status of your network interface \(LIFs\), so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.'
+keywords: network, interface, (lif) events, impact area, availability, configuration, performance
+summary: "Network interface events provide information about the status of your network interface (LIFs), so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
 = Network interface (LIF) events
 :icons: font
@@ -12,11 +12,9 @@ summary: 'Network interface events provide information about the status of your 
 Network interface events provide information about the status of your network interface (LIFs), so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
 
 == Impact area: availability
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Network Interface Status Down(ocumEvtLifStatusDown)
 
@@ -56,11 +54,9 @@ Warning
 |===
 
 == Impact area: configuration
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Network Interface Route Not Configured(Not applicable)
 
@@ -73,11 +69,9 @@ Information
 |===
 
 == Impact area: performance
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Network Interface MB/s Critical Threshold Breached(ocumNetworkLifMbpsIncident)
 

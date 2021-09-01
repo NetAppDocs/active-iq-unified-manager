@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_cluster_performance_events_pane.html
 sidebar: sidebar
-keywords: 
-summary: 'The Cluster performance events pane displays performance statistics and all active events for the cluster. This is most helpful when monitoring your clusters and all cluster-related performance and events.'
+keywords: cluster, performance, events, pane, counter
+summary: "The Cluster performance events pane displays performance statistics and all active events for the cluster. This is most helpful when monitoring your clusters and all cluster-related performance and events."
 ---
 = Cluster performance events pane
 :icons: font

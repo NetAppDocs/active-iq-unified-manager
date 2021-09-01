@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/concept_rest_api_access_and_authentication_in_um_apis.html
 sidebar: sidebar
-keywords: 
-summary: 'The Active IQ Unified Manager REST API is accessible by using any web browser or programming platform that can issue HTTP requests. Unified Manager supports basic HTTP authentication mechanism. Before you call the Unified Manager REST API, you must authenticate a user.'
+keywords: rest api, access, authentication, active iq, unified, manager
+summary: "The Active IQ Unified Manager REST API is accessible by using any web browser or programming platform that can issue HTTP requests. Unified Manager supports basic HTTP authentication mechanism. Before you call the Unified Manager REST API, you must authenticate a user."
 ---
 = REST API access and authentication in Active IQ Unified Manager
 :icons: font
@@ -17,7 +17,7 @@ You can use any web browser or programming platform that can issue HTTP requests
 
 * *Request*
 +
-GET https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
+GET `https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters`
 
 * *Response*
 +
@@ -88,7 +88,7 @@ GET https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/cluste
     },
 ----
 
- ** IP address/hostname is the IP address or the fully qualified domain name (FQDN) of the API server.
+ ** `_IP address/hostname_` is the IP address or the fully qualified domain name (FQDN) of the API server.
  ** Port 443
 +
 443 is the default HTTPS port. You can customize the HTTPS port, if required.
@@ -101,11 +101,3 @@ To issue POST, PATCH, and DELETE HTTP requests from a web browser, you have to u
 Unified Manager supports the basic HTTP authentication scheme for APIs. For secure information flow (request and response), the REST APIs are accessible only over HTTPS. The API server provides a self-signed SSL certificate to all clients for server verification. This certificate can be replaced by a custom certificate (or CA certificate).
 
 You must configure user access to the API server for invoking the REST APIs. The users can be local users (user profiles stored in the local database) or LDAP users (if you have configured the API server to authenticate over LDAP). You can manage user access by logging in to the Unified Manager Administration Console user interface.
-
-*Related information*
-
-xref:concept_api_url_and_categories.adoc[Active IQ Unified Manager API access and categories]
-
-xref:reference_recommendations_to_use_um_apis.adoc[Recommendations for using the APIs for Active IQ Unified Manager]
-
-xref:reference_authentication_errors.adoc[HTTP status codes used in Active IQ Unified Manager]

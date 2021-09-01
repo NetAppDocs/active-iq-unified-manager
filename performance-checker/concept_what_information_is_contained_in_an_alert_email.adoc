@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_what_information_is_contained_in_an_alert_email.html
 sidebar: sidebar
-keywords: 
-summary: 'Unified Manager alert emails provide the type of event, the severity of the event, the name of the policy or threshold that was breached to cause the event, and a description of the event. The email message also provides a hyperlink for each event that enables you to view the details page for the event in the UI.'
+keywords: information, contained, alert, email
+summary: "Unified Manager alert emails provide the type of event, the severity of the event, the name of the policy or threshold that was breached to cause the event, and a description of the event. The email message also provides a hyperlink for each event that enables you to view the details page for the event in the UI."
 ---
 = What information is contained in an alert email
 :icons: font
@@ -18,9 +18,3 @@ If a performance counter or capacity value has a large change during a collectio
 A sample alert email is shown below:
 
 image::../media/um_email_alert.gif[]
-
-*Related information*
-
-xref:concept_sources_of_performance_events.adoc[Sources of performance events]
-
-xref:task_add_alerts.adoc[Adding alerts]

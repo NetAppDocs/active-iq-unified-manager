@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/task_filter_on_object_inventory_performance_pages.html
 sidebar: sidebar
-keywords: 
-summary: 'You can filter data in the Object Inventory Performance pages to quickly locate data based on specific criteria. You can use filtering to narrow the contents of the Object Inventory Performance pages to show only the results you have specified. This provides a very efficient method of displaying only the performance data in which you are interested.'
+keywords: filter, data, object, inventory, performance, pages
+summary: "You can filter data in the Object Inventory Performance pages to quickly locate data based on specific criteria. You can use filtering to narrow the contents of the Object Inventory Performance pages to show only the results you have specified. This provides a very efficient method of displaying only the performance data in which you are interested."
 ---
 = Filtering data in the Object Inventory Performance pages
 :icons: font
@@ -14,7 +14,7 @@ You can filter data in the Object Inventory Performance pages to quickly locate 
 You can use the Filtering panel to customize the grid view based on your preferences. Available filter options are based on the object type being viewed in the grid. If filters are currently applied, the number of applied filters displays at the right of the Filter button.
 
 Three types of filter parameters are supported.
-
+[options="header"]
 |===
 | Parameter| Validation
 a|

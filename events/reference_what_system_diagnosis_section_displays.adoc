@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_what_system_diagnosis_section_displays.html
 sidebar: sidebar
-keywords: 
-summary: 'The System Diagnosis section of the Event details page provides information that can help you diagnose issues that may have been responsible for the event.'
+keywords: system, diagnosis, section, displays
+summary: "The System Diagnosis section of the Event details page provides information that can help you diagnose issues that may have been responsible for the event."
 ---
 = What the System Diagnosis section displays
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_dynamic_performance_event_chart_details.html
 sidebar: sidebar
-keywords: 
-summary: 'For dynamic performance events, the System Diagnosis section of the Event details page lists the top workloads with the highest latency or usage of the cluster component that is in contention. The performance statistics are based on the time the performance event was detected up to the last time the event was analyzed. The charts also display historical performance statistics for the cluster component that is in contention.'
+keywords: dynamic, performance, event, chart, details
+summary: "For dynamic performance events, the System Diagnosis section of the Event details page lists the top workloads with the highest latency or usage of the cluster component that is in contention. The performance statistics are based on the time the performance event was detected up to the last time the event was analyzed. The charts also display historical performance statistics for the cluster component that is in contention."
 ---
 = Dynamic performance event chart details
 :icons: font
@@ -13,7 +13,7 @@ For dynamic performance events, the System Diagnosis section of the Event detail
 
 For example, you can identify workloads with high utilization of a component to determine which workload to move to a less-utilized component. Moving the workload would reduce the amount of work on the current component, possibly bringing the component out of contention. At the of this section is the time and date range when an event was detected and last analyzed. For active events (new or acknowledged), the last analyzed time continues to update.
 
-The latency and activity charts display the names of the top workloads when you hover your cursor over the chart. Clicking the Workload Type menu at the right of the chart enables you to sort the workloads based on their role in the event, including sharks, bullies, or victims, and displays details about their latency and their usage on the cluster component in contention. You can compare the actual value to the expected value to see when the workload was outside its expected range of latency or usage. See _Workloads monitored by Unified Manager_.
+The latency and activity charts display the names of the top workloads when you hover your cursor over the chart. Clicking the Workload Type menu at the right of the chart enables you to sort the workloads based on their role in the event, including _sharks_, _bullies_, or _victims_, and displays details about their latency and their usage on the cluster component in contention. You can compare the actual value to the expected value to see when the workload was outside its expected range of latency or usage. See _Workloads monitored by Unified Manager_.
 
 [NOTE]
 ====

@@ -1,8 +1,8 @@
 ---
 permalink: install-windows/task_install_unified_manager_on_windows.html
 sidebar: sidebar
-keywords: 
-summary: 'You can install Unified Manager to monitor and troubleshoot data storage capacity, availability, performance, and protection issues.'
+keywords: install, unified manager
+summary: "You can install Unified Manager to monitor and troubleshoot data storage capacity, availability, performance, and protection issues."
 ---
 = Installing Unified Manager
 :icons: font
@@ -11,11 +11,13 @@ summary: 'You can install Unified Manager to monitor and troubleshoot data stora
 [.lead]
 You can install Unified Manager to monitor and troubleshoot data storage capacity, availability, performance, and protection issues.
 
+*What you'll need*
+
 * The system on which you plan to install Unified Manager should meet the system and software requirements.
 +
-xref:concept_virtual_infrastructure_or_hardware_system_requirements.adoc[Hardware system requirements]
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements]
 +
-xref:reference_windows_software_and_installation_requirements.adoc[Windows software and installation requirements]
+link:reference_windows_software_and_installation_requirements.html[Windows software and installation requirements]
 +
 [NOTE]
 ====
@@ -29,8 +31,12 @@ Starting with Unified Manager 9.5, OpenJDK is provided in the installation packa
 +
 The following special characters are allowed: ~ ! @ # $ * - ? . + { }
 
+.Steps
+
 . Log in to Windows using the default local administrator account.
-. Log in to the NetApp Support Site, and navigate to the Download page for Unified Manager: https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site]
+. Log in to the NetApp Support Site, and navigate to the Download page for Unified Manager:
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site]
 . Select the required version of Unified Manager and accept the end-users license agreement (EULA).
 . Download the Unified Manager Windows installation file to a target directory on the Windows system.
 . Navigate to the directory where the installation file is located.
@@ -53,18 +59,18 @@ The installation creates multiple directories:
 
 * Installation directory
 +
-This is the root directory for Unified Manager, which you specified during installation. Example: C:\Program Files\NetApp\
+This is the root directory for Unified Manager, which you specified during installation. Example: `C:\Program Files\NetApp\`
 
 * MySQL data directory
 +
-This is the directory where the MySQL databases are stored, which you specified during installation. Example: C:\ProgramData\MySQL\MySQLServerData\
+This is the directory where the MySQL databases are stored, which you specified during installation. Example: `C:\ProgramData\MySQL\MySQLServerData\`
 
 * Java directory
 +
-This is the directory where OpenJDK is installed. Example: C:\Program Files\NetApp\JDK\
+This is the directory where OpenJDK is installed. Example: `C:\Program Files\NetApp\JDK\`
 
 * Unified Manager application data directory (appDataDir)
 +
-This is the directory where all the application-generated data is stored. This includes logs, support bundles, backup, and all other additional data. Example: C:\ProgramData\NetApp\OnCommandAppData\
+This is the directory where all the application-generated data is stored. This includes logs, support bundles, backup, and all other additional data. Example: `C:\ProgramData\NetApp\OnCommandAppData\`
 
-You can access the web UI to perform the initial setup of Unified Manager, as described in the http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide].
+You can access the web UI to perform the initial setup of Unified Manager, as described in the link:../config/concept_configure_unified_manager.html[Active IQ Unified Manager System Configuration Guide].

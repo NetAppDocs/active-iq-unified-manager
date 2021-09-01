@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_workload_performance_measurement_values.html
 sidebar: sidebar
-keywords: 
-summary: 'Unified Manager measures the performance of workloads on a cluster based on historical and expected statistical values, which form the latency forecast of values for the workloads. It compares the actual workload statistical values to the latency forecast to determine when workload performance is too high or too low. A workload that is not performing as expected triggers a dynamic performance event to notify you.'
+keywords: workload, performance, measurement, values
+summary: "Unified Manager measures the performance of workloads on a cluster based on historical and expected statistical values, which form the latency forecast of values for the workloads. It compares the actual workload statistical values to the latency forecast to determine when workload performance is too high or too low. A workload that is not performing as expected triggers a dynamic performance event to notify you."
 ---
 = Workload performance measurement values
 :icons: font
@@ -16,7 +16,7 @@ In the following illustration, the actual value, in red, represents the actual p
 image::../media/opm_wrkld_perf_measurement_png.gif[Unified Manager workload performance measurements]
 
 The following table lists the workload performance measurement values.
-
+[options="header"]
 |===
 | Measurement| Description
 a|
@@ -72,8 +72,3 @@ Write Throughput
 a|
 The amount of write throughput, in Megabytes per second (MB/s), from workloads on a local cluster to the partner cluster in a MetroCluster configuration.
 |===
-*Related information*
-
-xref:concept_what_expected_range_of_performance_is.adoc[What the expected range of performance is]
-
-xref:concept_roles_of_workloads_involved_in_performance_incident.adoc[Roles of workloads involved in a performance event]

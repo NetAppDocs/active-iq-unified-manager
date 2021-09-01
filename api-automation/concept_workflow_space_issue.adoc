@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/concept_workflow_space_issue.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the data center APIs in Active IQ Unified Manager to monitor the availability and utilization of space in your volumes. You can determine space issues in your volume and identify storage resources that are overutilized or underutilized.'
+keywords: determine, space, issue, aggregate
+summary: "You can use the data center APIs in Active IQ Unified Manager to monitor the availability and utilization of space in your volumes. You can determine space issues in your volume and identify storage resources that are overutilized or underutilized."
 ---
 = Determining space issues in aggregates
 :icons: font
@@ -23,6 +23,7 @@ This flow assumes that the clusters have already been created in ONTAP and added
 
 . Obtain the cluster key, unless you know the value:
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -30,12 +31,12 @@ datacenter
 a|
 GET
 a|
-    /datacenter/cluster/clusters
-+
+`/datacenter/cluster/clusters`
 |===
 
 . Using the cluster key as the filter parameter, query the aggregates on that cluster.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -43,13 +44,13 @@ datacenter
 a|
 GET
 a|
-    /datacenter/storage/aggregates
-+
+`/datacenter/storage/aggregates`
 |===
 
 . From the response, analyze the space usage of the aggregates and determine which aggregates have space issues. For each aggregate with space issue, obtain the aggregate key from the same JSON output.
-. Using each aggregate key, filter all the volumes that have the value for the autosize.mode parameter as grow.
+. Using each aggregate key, filter all the volumes that have the value for the autosize.mode parameter as `grow.`
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -57,13 +58,8 @@ datacenter
 a|
 GET
 a|
-    /datacenter/storage/volumes
-+
+`/datacenter/storage/volumes`
 |===
 
 . Analyze which volumes are being over-utilized.
 . Perform any necessary corrective action, such as moving the volume across aggregates, to address the space issues in your volume. You can perform these actions from ONTAP or Unified Manager web UI.
-
-*Related information*
-
-xref:concept_data_center_apis.adoc[Managing storage objects in a data center]

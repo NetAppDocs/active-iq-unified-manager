@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/concept_api_url_and_categories.html
 sidebar: sidebar
-keywords: 
-summary: 'The Active IQ Unified Manager APIs enable you to manage and provision storage objects in your environment. You can also access the Unified Manager web UI to perform some of these functions.'
+keywords: active iq, unified manager, api, access, categories
+summary: "The Active IQ Unified Manager APIs enable you to manage and provision storage objects in your environment. You can also access the Unified Manager web UI to perform some of these functions."
 ---
 = Active IQ Unified Manager API access and categories
 :icons: font
@@ -16,7 +16,7 @@ The Active IQ Unified Manager APIs enable you to manage and provision storage ob
 
 You can access the REST APIs directly through a programming language, such as Python, C#, C{pp}, JavaScript, and so forth. Enter the host name or IP address and the URL to access the REST APIs in the format
 
-https://<hostname>/api
++https://<hostname>/api+
 
 [NOTE]
 ====
@@ -29,7 +29,7 @@ You can access the _API Documentation_ reference content page that is packaged a
 
 Alternatively, enter the host name or IP address and the URL to access the REST API page in the format
 
-https://<hostname>/docs/api/
++https://<hostname>/docs/api/+
 
 == Categories
 
@@ -43,7 +43,7 @@ This category contains the APIs that help you in datacenter storage management a
 
 * *management-server*
 +
-The APIs under the *management-server* category contain the jobs, system, and events APIs. Jobs are operations that are scheduled for asynchronous execution related to managing of storage objects or workloads on Unified Manager. The events API returns events in your data center, and the system API returns the Unified Manager instance details.
+The APIs under the *management-server* category contain the `jobs, system,` and `events` APIs. Jobs are operations that are scheduled for asynchronous execution related to managing of storage objects or workloads on Unified Manager. The `events` API returns events in your data center, and the `system` API returns the Unified Manager instance details.
 
 * *storage-provider*
 +
@@ -60,11 +60,3 @@ Unified Manager enables you to invoke ONTAP REST APIs through the APIs under the
 * *security*
 +
 This category contains APIs for managing Unified Manager users.
-
-*Related information*
-
-xref:concept_rest_api_access_and_authentication_in_um_apis.adoc[REST API access and authentication in Active IQ Unified Manager]
-
-xref:concept_rest_services_offered_in_unified_manager_apis.adoc[REST services offered in Active IQ Unified Manager]
-
-xref:concept_um_apis_list_intro.adoc[Unified Manager REST APIs]

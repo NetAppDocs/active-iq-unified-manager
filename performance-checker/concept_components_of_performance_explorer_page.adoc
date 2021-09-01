@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_components_of_performance_explorer_page.html
 sidebar: sidebar
-keywords: 
-summary: 'The Performance Explorer page enables you to compare the performance of similar objects in a cluster—for example, all the volumes in a cluster. This is beneficial when troubleshooting performance events and fine-tuning object performance. You can also compare objects with the root object, which is the baseline against which other object comparisons are made.'
+keywords: components, performance, explorer, page
+summary: "The Performance Explorer page enables you to compare the performance of similar objects in a cluster—for example, all the volumes in a cluster. This is beneficial when troubleshooting performance events and fine-tuning object performance. You can also compare objects with the root object, which is the baseline against which other object comparisons are made."
 ---
 = Components of the Performance Explorer page
 :icons: font
@@ -48,7 +48,7 @@ Data for the objects in the Comparing pane is displayed in the Counter Charts.
 
 * *View Statistics In*
 +
-For volume and LUNs, enables you to select whether the statistics are displayed after each collection cycle (default 5 minutes), or whether the statistics are shown as an hourly average. This functionality enables you to view the latency chart in support of the NetApp"`Performance Guarantee`" program.
+For volume and LUNs, enables you to select whether the statistics are displayed after each collection cycle (default 5 minutes), or whether the statistics are shown as an hourly average. This functionality enables you to view the latency chart in support of the NetApp "Performance Guarantee" program.
 
 * *Counter Charts*
 +
@@ -59,19 +59,3 @@ Typically, only three or four charts are displayed by default. The Choose charts
 * *Events Timeline*
 +
 Displays performance and health events occurring across the timeline that you selected in the Time Range component.
-
-*Related information*
-
-xref:task_select_predefined_time_range.adoc[Selecting a predefined time range]
-
-xref:task_specify_custom_time_range.adoc[Specifying a custom time range]
-
-xref:task_filter_inventory_page_content.adoc[Filtering inventory page content]
-
-xref:task_view_event_details_in_performance_explorer_events_timeline.adoc[Viewing event details in the Events Timeline]
-
-xref:task_define_list_of_correlated_objects_for_comparison_graphing.adoc[Defining the list of correlated objects for comparison graphing]
-
-xref:concept_understand_counter_charts.adoc[Understanding counter charts]
-
-xref:task_select_performance_charts_to_display.adoc[Selecting performance charts to display]

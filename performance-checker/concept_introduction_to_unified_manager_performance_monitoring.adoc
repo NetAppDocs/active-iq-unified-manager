@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html
 sidebar: sidebar
-keywords: 
-summary: 'Active IQ Unified Manager \(formerly OnCommand Unified Manager\) provides performance monitoring capabilities and event root-cause analysis for systems that are running NetApp ONTAP software.'
+keywords: introduction, active iq, unified manager, performance, monitor
+summary: "Active IQ Unified Manager (formerly OnCommand Unified Manager) provides performance monitoring capabilities and event root-cause analysis for systems that are running NetApp ONTAP software."
 ---
 = Introduction to Active IQ Unified Manager performance monitoring
 :icons: font

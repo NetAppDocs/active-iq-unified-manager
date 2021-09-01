@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_add_disk_space_to_um_database_directory.html
 sidebar: sidebar
-keywords: 
-summary: 'The Unified Manager database directory contains all of the health and performance data collected from ONTAP systems. Some circumstances may require that you increase the size of the database directory.'
+keywords: add, disk, space, unified manager, database, directory
+summary: "The Unified Manager database directory contains all of the health and performance data collected from ONTAP systems. Some circumstances may require that you increase the size of the database directory."
 ---
 = Adding disk space to the Unified Manager database directory
 :icons: font

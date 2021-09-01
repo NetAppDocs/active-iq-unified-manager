@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/concept_what_happens_when_wfa_is_reinstalled_or_upgraded.html
 sidebar: sidebar
-keywords: 
-summary: 'Before reinstalling or upgrading OnCommand Workflow Automation, you must first remove the connection between OnCommand Workflow Automation and Unified Manager, and ensure that all OnCommand Workflow Automation currently running or scheduled jobs are stopped.'
+keywords: what happens, oncommand, workflow automation, reinstalled, upgraded
+summary: "Before reinstalling or upgrading OnCommand Workflow Automation, you must first remove the connection between OnCommand Workflow Automation and Unified Manager, and ensure that all OnCommand Workflow Automation currently running or scheduled jobs are stopped."
 ---
 = What happens when OnCommand Workflow Automation is reinstalled or upgraded
 :icons: font

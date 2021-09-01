@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_understand_performance_cluster_landing_page.html
 sidebar: sidebar
-keywords: 
-summary: 'The Performance Cluster Landing page provides a high-level performance overview of a selected cluster, with an emphasis on the performance status of the top 10 objects within the cluster. Performance issues are displayed at the top of the page, in the All Events on this Cluster panel.'
+keywords: understand, performance, cluster, landing page
+summary: "The Performance Cluster Landing page provides a high-level performance overview of a selected cluster, with an emphasis on the performance status of the top 10 objects within the cluster. Performance issues are displayed at the top of the page, in the All Events on this Cluster panel."
 ---
 = Understanding the Performance Cluster Landing page
 :icons: font

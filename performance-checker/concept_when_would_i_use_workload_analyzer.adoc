@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_when_would_i_use_workload_analyzer.html
 sidebar: sidebar
-keywords: workload analyzer
-summary: 'You would typically use the workload analyzer to troubleshoot a latency issue reported by a user, to more thoroughly analyze a reported event or alert, or to explore a workload that you see is operating abnormally.'
+keywords: workload analyzer, use
+summary: "You would typically use the workload analyzer to troubleshoot a latency issue reported by a user, to more thoroughly analyze a reported event or alert, or to explore a workload that you see is operating abnormally."
 ---
 = When would I use the workload analyzer
 :icons: font

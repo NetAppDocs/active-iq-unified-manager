@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_what_expected_range_of_performance_is.html
 sidebar: sidebar
-keywords: 
-summary: 'The latency forecast is a prediction of what the upper and lower performance values are expected to be at a specific time. For the workload latency, the upper values form the performance threshold. When the actual value crosses the performance threshold, Unified Manager triggers a dynamic performance event.'
+keywords: expected, range, performance, latency, forecast, formed
+summary: "The latency forecast is a prediction of what the upper and lower performance values are expected to be at a specific time. For the workload latency, the upper values form the performance threshold. When the actual value crosses the performance threshold, Unified Manager triggers a dynamic performance event."
 ---
 = What the expected range of performance is
 :icons: font
@@ -25,15 +25,3 @@ Unified Manager must collect a minimum of 3 days of workload activity before it 
 ====
 Daylight savings time (DST) changes the system time, which alters the latency forecast of performance statistics for monitored workloads. Unified Manager immediately begins to correct the latency forecast, which takes approximately 15 days to complete. During this time you can continue to use Unified Manager, but, since Unified Manager uses the latency forecast to detect dynamic events, some events might not be accurate. Events detected prior to the time change are not affected.
 ====
-
-*Related information*
-
-xref:task_use_workload_analyzer.adoc[Using the workload analyzer]
-
-xref:concept_collect_data_and_monitor_workload_performance.adoc[Collecting data and monitoring workload performance]
-
-xref:reference_how_expected_range_is_used_in_performance_analysis.adoc[How the latency forecast is used in performance analysis]
-
-xref:reference_performance_event_analysis_and_notification.adoc[Performance event analysis and notification]
-
-xref:reference_workload_performance_measurement_values.adoc[Workload performance measurement values]

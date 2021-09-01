@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_understand_capacity_events_and_thresholds_for_node.html
 sidebar: sidebar
-keywords: 
-summary: 'You can monitor the node root aggregate by using Unified Manager. The best practice is to thickly provision the root volume in the root aggregate to prevent the node from halting.'
+keywords: understand, events, thresholds, node, root, aggregates
+summary: "You can monitor the node root aggregate by using Unified Manager. The best practice is to thickly provision the root volume in the root aggregate to prevent the node from halting."
 ---
 = Understanding events and thresholds for node root aggregates
 :icons: font

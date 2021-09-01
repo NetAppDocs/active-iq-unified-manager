@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/task_specify_correlated_objects_time_range.html
 sidebar: sidebar
-keywords: 
-summary: 'The Time Range selector on the Performance Explorer page enables you to specify the time range for object data comparison. Specifying a time range refines the contents of the Performance Explorer pages to show only the object data within the time range you have specified.'
+keywords: specify, time range, correlated objects
+summary: "The Time Range selector on the Performance Explorer page enables you to specify the time range for object data comparison. Specifying a time range refines the contents of the Performance Explorer pages to show only the object data within the time range you have specified."
 ---
 = Specifying a time range for correlated objects
 :icons: font

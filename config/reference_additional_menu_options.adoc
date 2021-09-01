@@ -1,8 +1,8 @@
 ---
 permalink: config/reference_additional_menu_options.html
 sidebar: sidebar
-keywords: 
-summary: 'The following menu options enable you to perform various administrative tasks on the Unified Manager server.'
+keywords: additional menu, options
+summary: "The following menu options enable you to perform various administrative tasks on the Unified Manager server."
 ---
 = Additional menu options
 :icons: font
@@ -47,7 +47,3 @@ Provides an option to change the default ports that Unified Manager uses for HTT
 * *Exit*
 +
 Exits the maintenance console menu.
-
-*Related information*
-
-xref:task_change_ports_um_uses_for_http_and_https_protocols.adoc[Changing the ports Unified Manager uses for HTTP and HTTPS protocols]

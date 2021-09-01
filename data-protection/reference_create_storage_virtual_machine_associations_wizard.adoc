@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_create_storage_virtual_machine_associations_wizard.html
 sidebar: sidebar
-keywords: 
-summary: 'The Create Storage Virtual Machine Peers wizard enables you to peer source and destination storage VM for use in SnapMirror and SnapVault protection relationships.'
+keywords: create, storage, virtual machine, peers, wizard
+summary: "The Create Storage Virtual Machine Peers wizard enables you to peer source and destination storage VM for use in SnapMirror and SnapVault protection relationships."
 ---
 = Create Storage Virtual Machine Peers wizard
 :icons: font

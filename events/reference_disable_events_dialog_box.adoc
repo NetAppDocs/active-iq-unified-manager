@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_disable_events_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Disable Events dialog box displays the list of event types for which you can disable events. You can disable events for an event type based on a particular severity or for a set of events.'
+keywords: disable, events, dialog box, properties, area, command buttons
+summary: "The Disable Events dialog box displays the list of event types for which you can disable events. You can disable events for an event type based on a particular severity or for a set of events."
 ---
 = Disable Events dialog box
 :icons: font
@@ -12,9 +12,6 @@ summary: 'The Disable Events dialog box displays the list of event types for whi
 The Disable Events dialog box displays the list of event types for which you can disable events. You can disable events for an event type based on a particular severity or for a set of events.
 
 You must have the Application Administrator or Storage Administrator role.
-
-* <<SECTION_633FE839CA7D4BF8A59F7711DD8DB73B,Event properties area>>
-* <<GUID-49615DD0-0E3D-4657-B35B-172D41553139,Command buttons>>
 
 == Event Properties area
 

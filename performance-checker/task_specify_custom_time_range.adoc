@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/task_specify_custom_time_range.html
 sidebar: sidebar
-keywords: 
-summary: 'The Performance Explorer page enables you to specify the date and time range for your performance data. Specifying a custom time range provides greater flexibility than using predefined time ranges when refining cluster object data.'
+keywords: specify, custom, time range
+summary: "The Performance Explorer page enables you to specify the date and time range for your performance data. Specifying a custom time range provides greater flexibility than using predefined time ranges when refining cluster object data."
 ---
 = Specifying a custom time range
 :icons: font

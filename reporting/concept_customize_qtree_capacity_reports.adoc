@@ -1,8 +1,8 @@
 ---
 permalink: reporting/concept_customize_qtree_capacity_reports.html
 sidebar: sidebar
-keywords: 
-summary: 'These sample custom reports are used to help you identify and respond to potential problems related to Qtree capacity.'
+keywords: customize, qtree, capacity, reports
+summary: "These sample custom reports are used to help you identify and respond to potential problems related to Qtree capacity."
 ---
 = Customizing Qtree capacity reports
 :icons: font

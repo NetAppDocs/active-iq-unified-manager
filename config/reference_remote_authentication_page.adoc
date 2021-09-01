@@ -1,8 +1,8 @@
 ---
 permalink: config/reference_remote_authentication_page.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Remote Authentication page to configure Unified Manager to communicate with your authentication server to authenticate remote users who attempt to log into the Unified Manager web UI.'
+keywords: remote authentication, page
+summary: "You can use the Remote Authentication page to configure Unified Manager to communicate with your authentication server to authenticate remote users who attempt to log into the Unified Manager web UI."
 ---
 = Remote Authentication page
 :icons: font
@@ -30,7 +30,7 @@ Specifies the password to access the authentication server.
 
   *** Base Distinguished Name
 +
-Specifies the location of the remote users in the authentication server. For example, if the domain name of the authentication server is ou@domain.com, then the base distinguished name is cn=ou,dc=domain,dc=com.
+Specifies the location of the remote users in the authentication server. For example, if the domain name of the authentication server is +ou@domain.com+, then the base distinguished name is *cn=ou,dc=domain,dc=com*.
 
   *** Disable Nested Group Lookup
 +
@@ -50,7 +50,7 @@ Specifies the password to access the authentication server.
 
   *** Base Distinguished Name
 +
-Specifies the location of the remote users in the authentication server. For example, if the domain name of the authentication server is ou@domain.com, then the base distinguished name is cn=ou,dc=domain,dc=com.
+Specifies the location of the remote users in the authentication server. For example, if the domain name of the authentication server is +ou@domain.com+, then the base distinguished name is *cn=ou,dc=domain,dc=com*.
 
   *** Use Secure Connection
 +
@@ -66,7 +66,7 @@ Specifies the password to access the authentication server.
 
   *** Base Distinguished Name
 +
-Specifies the location of the remote users in the authentication server. For example, if the domain name of the authentication server is ou@domain.com, then the base distinguished name is cn=ou,dc=domain,dc=com.
+Specifies the location of the remote users in the authentication server. For example, if the domain name of the authentication server is +ou@domain.com+, then the base distinguished name is *cn=ou,dc=domain,dc=com*.
 
   *** Protocol Version
 +

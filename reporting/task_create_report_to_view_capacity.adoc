@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_capacity.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to analyze capacity in an Excel file by using summed totals and the clustered column chart format.'
+keywords: create, report, show, aggregate, capacity, table, chart
+summary: "You can create a report to analyze capacity in an Excel file by using summed totals and the clustered column chart format."
 ---
 = Creating a report to show an aggregate capacity table and chart
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to analyze capacity in an Excel file by using 
 [.lead]
 You can create a report to analyze capacity in an Excel file by using summed totals and the clustered column chart format.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to open a Health: All Aggregates view, download the view in Excel, create an available capacity chart, upload the customized Excel file, and schedule the final report.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Aggregates*.
 . Select *Reports* > *Download Excel*.
@@ -24,7 +28,7 @@ Depending on your browser, you might need to click *OK* to save the file.
 
 . If needed, click *Enable Editing*.
 . In Excel, open the downloaded file.
-. Create a new sheet (image:../media/excel_new_sheet_icon.png[]) after the data sheet and name it *Total Data Capacity*.
+. Create a new sheet (image:../media/excel_new_sheet_icon.png[]) after the `data` sheet and name it *Total Data Capacity*.
 . Add the following columns on the new Total Data Capacity sheet:
  .. Total Data Capacity (GB)
  .. Committed Capacity (GB)
@@ -42,7 +46,7 @@ The formula totals each column based on the current data.
 image::../media/capacitysums.png[]
 . On the data sheet, select the *Total Data Capacity (GB)* and *Committed Capacity (GB)* columns.
 . Select *Recommended Charts* from the *Insert* menu and select the *Clustered Column* chart.
-. Right-click the chart and select *Move chart* to move the chart to the Total Data Capacity sheet.
+. Right-click the chart and select *Move chart* to move the chart to the `Total Data Capacity` sheet.
 . Using the *Design* and *Format* menus, which are available when the chart is selected, you can customize how the chart looks.
 . When satisfied, save the file with your changes. Do not change the file name or location.
 +

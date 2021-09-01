@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_review_impact_of_configuration_changes.html
 sidebar: sidebar
-keywords: 
-summary: 'Configuration changes on the cluster, such as a failed disk, HA failover, or a moved volume, could negatively impact volume performance and cause increased latency.'
+keywords: review, impact, configuration, changes, workload, performance
+summary: "Configuration changes on the cluster, such as a failed disk, HA failover, or a moved volume, could negatively impact volume performance and cause increased latency."
 ---
 = Review the impact of configuration changes on workload performance
 :icons: font

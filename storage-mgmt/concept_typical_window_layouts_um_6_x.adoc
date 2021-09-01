@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_typical_window_layouts_um_6_x.html
 sidebar: sidebar
-keywords: 
-summary: 'Understanding the typical window layouts helps you to navigate and use Active IQ Unified Manager effectively. Most Unified Manager windows are similar to one of two general layouts: object list or details. The recommended display setting is at least 1280 by 1024 pixels.'
+keywords: typical, window, layouts, object, list, details
+summary: "Understanding the typical window layouts helps you to navigate and use Active IQ Unified Manager effectively. Most Unified Manager windows are similar to one of two general layouts: object list or details. The recommended display setting is at least 1280 by 1024 pixels."
 ---
 = Typical window layouts
 :icons: font
@@ -20,7 +20,3 @@ image::../media/object_list.png[]
 == Object details window layout
 
 image::../media/object_details.gif[]
-
-*Related information*
-
-xref:reference_window_layout_customization.adoc[Window layout customization]

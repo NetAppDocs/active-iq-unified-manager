@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_what_security_criteria_is_being_evaluated.html
 sidebar: sidebar
-keywords: 
-summary: 'In general, security criteria for your ONTAP clusters, storage virtual machines \(SVMs\), and volumes are being evaluated against the recommendations defined in the NetApp Security Hardening Guide for ONTAP 9.'
+keywords: security criteria, evaluated
+summary: "In general, security criteria for your ONTAP clusters, storage virtual machines (SVMs), and volumes are being evaluated against the recommendations defined in the NetApp Security Hardening Guide for ONTAP 9."
 ---
 = What security criteria is being evaluated
 :icons: font

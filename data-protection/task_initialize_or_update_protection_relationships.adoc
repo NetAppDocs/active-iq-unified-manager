@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/task_initialize_or_update_protection_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'From the Volume Relationships page, you can perform a first-time baseline transfer on a new protection relationship, or update a relationship if it is already initialized and you want to perform a manual, unscheduled incremental update to transfer immediately.'
+keywords: initialize, update, protection, relationships, volume, page
+summary: "From the Volume Relationships page, you can perform a first-time baseline transfer on a new protection relationship, or update a relationship if it is already initialized and you want to perform a manual, unscheduled incremental update to transfer immediately."
 ---
 = Initializing or updating protection relationships from the Volume Relationships page
 :icons: font
@@ -11,15 +11,19 @@ summary: 'From the Volume Relationships page, you can perform a first-time basel
 [.lead]
 From the Volume Relationships page, you can perform a first-time baseline transfer on a new protection relationship, or update a relationship if it is already initialized and you want to perform a manual, unscheduled incremental update to transfer immediately.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up OnCommand Workflow Automation.
 
-. From the Volume Relationships page, right-click a volume and select one or more volumes with relationships that you want to update or initialize, and then, on the toolbar, click *Initialize/Update*.
+.Steps
+
+. From the *Volume Relationships* page, right-click a volume and select one or more volumes with relationships that you want to update or initialize, and then, on the toolbar, click *Initialize/Update*.
 +
 The Initialize/Update dialog box is displayed.
 
-. In the Transfer Options tab, select a transfer priority and the maximum transfer rate.
-. Click *Source Snapshot Copies*; then, in the Snapshot Copy column, click *Default*.
+. In the *Transfer Options* tab, select a transfer priority and the maximum transfer rate.
+. Click *Source Snapshot Copies*; then, in the *Snapshot Copy* column, click *Default*.
 +
 The Select Source Snapshot Copy dialog box is displayed.
 
@@ -33,11 +37,11 @@ You are returned to the Initialize/Update dialog box.
 +
 The initialization or update job is started, you are returned to the Volume Relationships page, and a jobs link is displayed at the top of the page.
 
-. Click *View Jobs* on the Health: All Volumes view to track the status of each initialization or update job.
+. *Optional:* Click *View Jobs* on the *Health: All Volumes* view to track the status of each initialization or update job.
 +
 A filtered list of jobs is displayed.
 
-. Click each job to see its details.
-. Click the *Back* arrow on your browser to return to the Volume Relationships page.
+.  *Optional:* Click each job to see its details.
+.  *Optional:* Click the *Back* arrow on your browser to return to the *Volume Relationships* page.
 +
 The initialization or update operation is finished when all tasks successfully finish.

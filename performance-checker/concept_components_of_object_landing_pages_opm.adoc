@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_components_of_object_landing_pages_opm.html
 sidebar: sidebar
-keywords: 
-summary: 'The Object Landing pages provide details about all critical, warning, and informational events. They provide a detailed view into the performance of all cluster objects, enabling you to select and compare individual objects across various time periods.'
+keywords: components, object, landing pages
+summary: "The Object Landing pages provide details about all critical, warning, and informational events. They provide a detailed view into the performance of all cluster objects, enabling you to select and compare individual objects across various time periods."
 ---
 = Components of the Object Landing pages
 :icons: font
@@ -47,19 +47,3 @@ For nodes: Displays the estimate of the performance impact on a node if the HA p
 * Details
 +
 For volumes: Displays detailed performance statistics for all I/O activity and operations for the selected volume workload. This tab is available for FlexVol volumes, FlexGroup volumes, and constituents of FlexGroups.
-
-*Related information*
-
-xref:task_view_event_details_in_performance_explorer_events_timeline.adoc[Viewing event details in the Events Timeline]
-
-xref:concept_sources_of_performance_events.adoc[Sources of performance events]
-
-xref:reference_summary_page_opm.adoc[Summary page]
-
-xref:reference_cluster_summary_page_opm.adoc[Performance Cluster Summary page]
-
-xref:concept_components_of_performance_explorer_page.adoc[Components of the Performance Explorer page]
-
-xref:reference_top_performers_page.adoc[Top Performers page]
-
-xref:reference_understand_and_use_node_failover_planning_page.adoc[Understanding and using the Node Failover Planning page]

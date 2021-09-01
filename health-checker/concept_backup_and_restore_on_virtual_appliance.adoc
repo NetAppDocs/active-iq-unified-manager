@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_backup_and_restore_on_virtual_appliance.html
 sidebar: sidebar
-keywords: 
-summary: 'The backup and restore model for Unified Manager when installed on a virtual appliance is to capture and restore an image of the full virtual application.'
+keywords: backup, restore, unified manager, virtual, appliance
+summary: "The backup and restore model for Unified Manager when installed on a virtual appliance is to capture and restore an image of the full virtual application."
 ---
 = Backup and restore for Unified Manager on virtual appliance
 :icons: font

@@ -1,6 +1,5 @@
 section: reporting
 title: Generate custom reports
-url: "/reporting/index.html"
 entries:
   - title: Unified Manager reporting
     url: "/reporting/concept_unified_manager_reporting.html"

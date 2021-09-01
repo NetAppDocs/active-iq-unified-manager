@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html
 sidebar: sidebar
-keywords: 
-summary: 'Active IQ Unified Manager provides visibility into the virtual machines \(VMs\) in your virtual infrastructure, and enables monitoring and troubleshooting storage and performance issues in your virtual environment. You can use this feature to determine any latency issues in your storage environment or when there is a reported performance event on your vCenter Server.'
+keywords: monitor, vmware, virtual, infrastructure, not, supported
+summary: "Active IQ Unified Manager provides visibility into the virtual machines (VMs) in your virtual infrastructure, and enables monitoring and troubleshooting storage and performance issues in your virtual environment. You can use this feature to determine any latency issues in your storage environment or when there is a reported performance event on your vCenter Server." 
 ---
 = Monitoring VMware virtual infrastructure
 :icons: font

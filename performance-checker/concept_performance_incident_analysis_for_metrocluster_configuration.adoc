@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use Unified Manager to analyze a performance event for a MetroCluster configuration. You can identify the workloads involved in the event and review the suggested actions for resolving it.'
+keywords: performance, event, analysis, metrocluster, configuration
+summary: "You can use Unified Manager to analyze a performance event for a MetroCluster configuration. You can identify the workloads involved in the event and review the suggested actions for resolving it."
 ---
 = Performance event analysis for a MetroCluster configuration
 :icons: font
@@ -11,16 +11,6 @@ summary: 'You can use Unified Manager to analyze a performance event for a Metro
 [.lead]
 You can use Unified Manager to analyze a performance event for a MetroCluster configuration. You can identify the workloads involved in the event and review the suggested actions for resolving it.
 
-MetroCluster performance events might be due to bully workloads that are over-utilizing the interswitch links (ISLs) between the clusters, or due to link health issues. Unified Manager monitors each cluster in a MetroCluster configuration independently, without consideration of performance events on a partner cluster.
+MetroCluster performance events might be due to _bully_ workloads that are over-utilizing the interswitch links (ISLs) between the clusters, or due to link health issues. Unified Manager monitors each cluster in a MetroCluster configuration independently, without consideration of performance events on a partner cluster.
 
-Performance events from both clusters in the MetroCluster configuration are also displayed on the Unified ManagerDashboard page. You can also view the Health pages of Unified Manager to check the health of each cluster and to view their relationship.
-
-*Related information*
-
-xref:concept_performance_monitor_of_metrocluster_configurations.adoc[Performance monitoring of MetroCluster configurations]
-
-xref:task_analyze_performance_incident_on_cluster_in_metrocluster.adoc[Analyzing a dynamic performance event on a cluster in a MetroCluster configuration]
-
-xref:reference_performance_event_analysis_and_notification.adoc[Performance event analysis and notification]
-
-xref:concept_roles_of_workloads_involved_in_performance_incident.adoc[Roles of workloads involved in a performance event]
+Performance events from both clusters in the MetroCluster configuration are also displayed on the Unified Manager Dashboard page. You can also view the Health pages of Unified Manager to check the health of each cluster and to view their relationship.

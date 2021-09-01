@@ -1,8 +1,8 @@
 ---
 permalink: config/reference_support_and_diagnostics_menu.html
 sidebar: sidebar
-keywords: 
-summary: 'The Support and Diagnostics menu enables you to generate a support bundle that you can send to technical support for troubleshooting assistance.'
+keywords: support and diagnostics, menu
+summary: "The Support and Diagnostics menu enables you to generate a support bundle that you can send to technical support for troubleshooting assistance."
 ---
 = Support and Diagnostics menu
 :icons: font

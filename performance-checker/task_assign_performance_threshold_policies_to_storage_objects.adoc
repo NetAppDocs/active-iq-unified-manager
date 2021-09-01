@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html
 sidebar: sidebar
-keywords: 
-summary: 'You assign a user-defined performance threshold policy to a storage object so that Unified Manager reports an event if the value of the performance counter exceeds the policy setting.'
+keywords: assign, performance, threshold, policies, storage, objects
+summary: "You assign a user-defined performance threshold policy to a storage object so that Unified Manager reports an event if the value of the performance counter exceeds the policy setting."
 ---
 = Assigning performance threshold policies to storage objects
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You assign a user-defined performance threshold policy to a storage ob
 
 [.lead]
 You assign a user-defined performance threshold policy to a storage object so that Unified Manager reports an event if the value of the performance counter exceeds the policy setting.
+
+*What you'll need*
 
 You must have the Application Administrator role.
 
@@ -23,8 +25,10 @@ You can assign a maximum of three threshold policies to each storage object. Whe
 * Ignores the objects that have reached the maximum number of policies
 * Displays a message that the policy was not assigned to all objects
 
+.Steps
 . From the Performance inventory page of any storage object, select the object or objects to which you want to assign a threshold policy:
 +
+[options="header"]
 |===
 | To assign thresholds to...| Click...
 a|
@@ -56,15 +60,3 @@ The Assign Performance Threshold Policy page is displayed, showing a list of thr
 A success message at the top of the page confirms that the threshold policy was assigned to the object or objects, and provides a link to the Alerting page so that you can configure alert settings for this object and policy.
 
 If you want to have alerts sent over email, or as an SNMP trap, to notify you that a particular performance event has been generated, you must configure the alert settings in the Alert Setup page.
-
-*Related information*
-
-xref:task_add_alerts_for_performance_events.adoc[Adding alerts for performance events]
-
-xref:task_view_performance_threshold_policies.adoc[Viewing performance threshold policies]
-
-xref:task_create_user_defined_performance_threshold_policies.adoc[Creating user-defined performance threshold policies]
-
-xref:task_filter_on_object_inventory_performance_pages.adoc[Filtering data in the Object Inventory Performance pages]
-
-xref:task_sort_on_object_inventory_performance_pages.adoc[Sorting on the Object Inventory Performance pages]

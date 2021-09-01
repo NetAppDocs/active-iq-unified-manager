@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_view_node_and_aggregate_performance_capacity_used_values.html
 sidebar: sidebar
-keywords: 
-summary: 'You can monitor the performance capacity used values for all nodes or for all aggregates in a cluster, or you can view details for a single node or aggregate.'
+keywords: view, node, aggregate, performance, capacity, used, values
+summary: "You can monitor the performance capacity used values for all nodes or for all aggregates in a cluster, or you can view details for a single node or aggregate."
 ---
 = Viewing node and aggregate performance capacity used values
 :icons: font

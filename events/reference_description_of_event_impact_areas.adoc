@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_description_of_event_impact_areas.html
 sidebar: sidebar
-keywords: 
-summary: 'Events are categorized into six impact areas \(availability, capacity, configuration, performance, protection, and security\) to enable you to concentrate on the types of events for which you are responsible.'
+keywords: description, event, impact, areas
+summary: "Events are categorized into six impact areas (availability, capacity, configuration, performance, protection, and security) to enable you to concentrate on the types of events for which you are responsible."
 ---
 = Description of event impact areas
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: config/task_add_additional_network_interfaces.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add new network interfaces if you need to separate network traffic.'
+keywords: add, network, interfaces
+summary: "You can add new network interfaces if you need to separate network traffic."
 ---
 = Adding network interfaces
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can add new network interfaces if you need to separate network tra
 
 [.lead]
 You can add new network interfaces if you need to separate network traffic.
+
+*What you'll need*
 
 You must have added the network interface to the virtual appliance using vSphere.
 
@@ -19,6 +21,8 @@ The virtual appliance must be powered on.
 ====
 You cannot perform this operation if Unified Manager is installed on Red Hat Enterprise Linux or on Microsoft Windows.
 ====
+
+.Steps
 
 . In the vSphere console Main Menu, select *System Configuration* > *Reboot Operating System*.
 +
@@ -40,7 +44,3 @@ After entering the network settings, you automatically return to the *Network Co
 . Select *Commit Changes*.
 +
 You must commit the changes to add the network interface.
-
-*Related information*
-
-xref:task_access_maintenance_console_using_vsphere.adoc[Accessing the maintenance console using the vSphere VM console]

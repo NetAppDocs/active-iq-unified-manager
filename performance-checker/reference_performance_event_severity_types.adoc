@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/reference_performance_event_severity_types.html
 sidebar: sidebar
-keywords: 
-summary: 'Each performance event is associated with a severity type to help you prioritize the events that require immediate corrective action.'
+keywords: performance, event, severity, types
+summary: "Each performance event is associated with a severity type to help you prioritize the events that require immediate corrective action."
 ---
 = Performance event severity types
 :icons: font

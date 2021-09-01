@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_manage_backup_and_restore_operations.html
 sidebar: sidebar
-keywords: backup types
-summary: 'You can create backups of Active IQ Unified Manager and use the restore feature to restore the backup to the same \(local\) system or a new \(remote\) system in case of a system failure or data loss.'
+keywords: backup, types, manage, restore, operations
+summary: "You can create backups of Active IQ Unified Manager and use the restore feature to restore the backup to the same (local) system or a new (remote) system in case of a system failure or data loss."
 ---
 = Managing backup and restore operations
 :icons: font
@@ -13,6 +13,7 @@ You can create backups of Active IQ Unified Manager and use the restore feature 
 
 There are three backup and restore methods depending on the operating system on which you have installed Unified Manager, and based on the number of clusters and nodes being managed:
 
+[cols="3*",options="header"]
 |===
 | Operating System| Size of Deployment| Recommended Backup Method
 a|
@@ -28,7 +29,7 @@ Small
 a|
 Unified Manager MySQL database dump
 a|
- 
+
 a|
 Large
 a|
@@ -40,7 +41,7 @@ Small
 a|
 Unified Manager MySQL database dump
 a|
- 
+
 a|
 Large
 a|

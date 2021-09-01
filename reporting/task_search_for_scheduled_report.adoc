@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_search_for_scheduled_report.html
 sidebar: sidebar
-keywords: find
-summary: 'You can search for scheduled reports by name, view name, object type, or recipients.'
+keywords: search, schedule, report
+summary: "You can search for scheduled reports by name, view name, object type, or recipients."
 ---
 = Searching for a scheduled report
 :icons: font
@@ -14,6 +14,7 @@ You can search for scheduled reports by name, view name, object type, or recipie
 . In the left navigation pane, click *Storage Management* > *Report Schedules*.
 . Use the *Search Scheduled Reports* text field.
 +
+[cols="2*",options="header"]
 |===
 | To find reports by ...| Try ...
 a|

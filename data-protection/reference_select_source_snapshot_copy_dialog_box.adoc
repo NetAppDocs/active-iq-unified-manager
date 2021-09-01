@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_select_source_snapshot_copy_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You use the Select Source Snapshot Copy dialog box to select a specific Snapshot copy to transfer data between protection relationships, or you select the default behavior, which varies depending on whether you are initializing, updating, or resynchronizing a relationship, and whether the relationship is a SnapMirror or SnapVault.'
+keywords: select, source, snapshot, copy, dialog box
+summary: "You use the Select Source Snapshot Copy dialog box to select a specific Snapshot copy to transfer data between protection relationships, or you select the default behavior, which varies depending on whether you are initializing, updating, or resynchronizing a relationship, and whether the relationship is a SnapMirror or SnapVault."
 ---
 = Select Source Snapshot Copy dialog box
 :icons: font
@@ -17,6 +17,7 @@ Enables you to select the default behavior for determining which Snapshot copy i
 
 If you are performing a SnapVault transfer, the default behavior for each operation is as follows:
 
+[cols="3*",options="header"]
 |===
 | Operation| Default SnapVault behavior when source is read/write| Default SnapVault behavior when source is Data Protection (DP)
 a|
@@ -40,6 +41,7 @@ Transfers the newest labeled Snapshot copy.
 |===
 If you are performing a SnapMirror transfer, the default behavior for each operation is as follows:
 
+[cols="3*",options="header"]
 |===
 | Operation| Default SnapMirror behavior| Default SnapMirror behavior when relationship is second hop in a SnapMirror to SnapMirror cascade
 a|
@@ -76,6 +78,7 @@ Displays the date and time the Snapshot copy was created. Snapshot copies are li
 
 If you are performing a SnapVault transfer and you want to select an existing Snapshot copy to transfer from a source to a destination, the behavior for each operation is as follows:
 
+[cols="3*",options="header"]
 |===
 | Operation| SnapVault behavior when specifying a Snapshot copy| SnapVault behavior when specifying a Snapshot copy in a cascade
 a|
@@ -99,6 +102,7 @@ Source Snapshot copy selection is not supported for data protection volumes.
 |===
 If you are performing a SnapMirror transfer and you want to select an existing Snapshot copy to transfer from a source to a destination, the behavior for each operation is as follows:
 
+[cols="3*",options="header"]
 |===
 | Operation| SnapMirror behavior when specifying a Snapshot copy| SnapMirror behavior when specifying a Snapshot copy in a cascade
 a|
@@ -132,13 +136,3 @@ Submits your selections and closes the Select Source Snapshot Copy dialog box.
 * *Cancel*
 +
 Discards your selections and closes the Select Source Snapshot Copy dialog box.
-
-*Related information*
-
-xref:reference_resynchronize_dialog_box.adoc[Resynchronize dialog box]
-
-xref:reference_initialize_update_relationship_dialog_box.adoc[Initialize/Update dialog box]
-
-xref:task_resynchronize_protection_relationships_voldtls.adoc[Resynchronizing protection relationships from the Volume / Health details page]
-
-xref:task_resynchronize_protection_relationships.adoc[Resynchronizing protection relationships from the Volume Relationships page]

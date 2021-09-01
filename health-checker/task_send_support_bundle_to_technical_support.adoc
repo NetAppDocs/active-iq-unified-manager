@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_send_support_bundle_to_technical_support.html
 sidebar: sidebar
-keywords: 
-summary: 'When an issue requires more detailed diagnosis and troubleshooting information than an AutoSupport message provides, you can send a support bundle to technical support.'
+keywords: support bundle, technical support
+summary: "When an issue requires more detailed diagnosis and troubleshooting information than an AutoSupport message provides, you can send a support bundle to technical support."
 ---
 = Sending a support bundle to technical support
 :icons: font
@@ -11,10 +11,13 @@ summary: 'When an issue requires more detailed diagnosis and troubleshooting inf
 [.lead]
 When an issue requires more detailed diagnosis and troubleshooting information than an AutoSupport message provides, you can send a support bundle to technical support.
 
+*What you'll need*
+
 You must have access to the support bundle to send it to technical support.
 
 You must have a case number generated through the technical support web site.
 
+.Steps
 . Log in to the NetApp Support Site.
 . Upload the file.
 +

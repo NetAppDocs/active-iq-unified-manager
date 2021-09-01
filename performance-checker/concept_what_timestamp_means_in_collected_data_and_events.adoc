@@ -1,8 +1,8 @@
 ---
 permalink: performance-checker/concept_what_timestamp_means_in_collected_data_and_events.html
 sidebar: sidebar
-keywords: 
-summary: 'The timestamp that appears in collected health and performance data, or that appears as the detection time for an event, is based on the ONTAP cluster time, adjusted to the time zone set on the web browser.'
+keywords: timestamp, means, collected, data, events
+summary: "The timestamp that appears in collected health and performance data, or that appears as the detection time for an event, is based on the ONTAP cluster time, adjusted to the time zone set on the web browser."
 ---
 = What the timestamp means in collected data and events
 :icons: font
