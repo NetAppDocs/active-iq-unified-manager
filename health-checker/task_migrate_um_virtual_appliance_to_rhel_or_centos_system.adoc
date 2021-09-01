@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html
 sidebar: sidebar
-keywords: Unidied Manager
-summary: 'You can restore a Unified Manager MySQL database dump backup from a virtual appliance to a Red Hat Enterprise Linux or CentOS Linux system if you want to change the host operating system on which Unified Manager is running.'
+keywords: unified manager, migrate, virtual, appliance, linux system
+summary: "You can restore a Unified Manager MySQL database dump backup from a virtual appliance to a Red Hat Enterprise Linux or CentOS Linux system if you want to change the host operating system on which Unified Manager is running."
 ---
 = Migrating a Unified Manager virtual appliance to a Linux system
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can restore a Unified Manager MySQL database dump backup from a vi
 
 [.lead]
 You can restore a Unified Manager MySQL database dump backup from a virtual appliance to a Red Hat Enterprise Linux or CentOS Linux system if you want to change the host operating system on which Unified Manager is running.
+
+*What you'll need*
 
 * On the virtual appliance:
  ** You must have the Operator, Application Administrator, or Storage Administrator role.
@@ -22,8 +24,9 @@ You can restore a Unified Manager MySQL database dump backup from a virtual appl
 
 These steps describe how to create a backup file on the virtual appliance, copy the backup files to the Red Hat Enterprise Linux or CentOS system, and then restore the database backup to the new system.
 
+.Steps
 . On the virtual appliance, click *Management* > *Database Backup*.
-. In the Database Backup page, click *Backup Settings*.
+. In the *Database Backup* page, click *Backup Settings*.
 . Change the backup path to /jail/support.
 . In the Schedule section, select *Scheduled Daily*, and enter a time a few minutes past the current time so that the backup is created shortly.
 . Click *Apply*.

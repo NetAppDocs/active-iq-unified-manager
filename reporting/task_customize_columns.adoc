@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_customize_columns.html
 sidebar: sidebar
-keywords: 
-summary: 'Use Show/Hide to choose the columns you want to use in your report. Drag the columns on the inventory page to rearrange them.'
+keywords: customize, columns
+summary: "Use Show/Hide to choose the columns you want to use in your report. Drag the columns on the inventory page to rearrange them."
 ---
 = Customizing columns
 :icons: font
@@ -10,6 +10,8 @@ summary: 'Use Show/Hide to choose the columns you want to use in your report. Dr
 
 [.lead]
 Use *Show/Hide* to choose the columns you want to use in your report. Drag the columns on the inventory page to rearrange them.
+
+.Steps
 
 . Click *Show/Hide* to add or remove columns.
 +

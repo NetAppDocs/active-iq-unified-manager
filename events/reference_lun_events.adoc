@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_lun_events.html
 sidebar: sidebar
-keywords: 
-summary: 'LUN events provide you with information about the status of your LUNs, so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.'
+keywords: lun, events, impact area, availability, capacity, configuration, performance
+summary: "LUN events provide you with information about the status of your LUNs, so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
 = LUN events
 :icons: font
@@ -14,11 +14,9 @@ LUN events provide you with information about the status of your LUNs, so that y
 == Impact area: availability
 
 An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 LUN Offline(ocumEvtLunOffline)
 
@@ -94,11 +92,9 @@ Error
 |===
 
 == Impact area: capacity
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Insufficient Space For LUN Snapshot Copy(ocumEvtLunSnapshotNotPossible)
 
@@ -111,11 +107,9 @@ Warning
 |===
 
 == Impact area: configuration
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 LUN mapped with unsupported operating system in igroup(igroupUnsupportedOsType)
 
@@ -128,11 +122,9 @@ Warning
 |===
 
 == Impact area: performance
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 LUN IOPS Critical Threshold Breached(ocumLunIopsIncident)
 

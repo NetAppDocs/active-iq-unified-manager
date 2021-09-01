@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_specify_destination_location_for_windows_snapshot_backups.html
 sidebar: sidebar
-keywords: 
-summary: 'You should configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters and use maintenance console to define the location.'
+keywords: specify, destination location, windows, snapshot, backups
+summary: "You should configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters and use maintenance console to define the location."
 ---
 = Specifying the destination location for Windows Snapshot backups
 :icons: font
@@ -16,10 +16,11 @@ You should configure the destination location for Active IQ Unified Manager Snap
 * You must have the Cluster Management IP address, the name of the storage VM, the name of the volume, LUN name, and the storage system user name and password.
 * You must have mounted the volume as a network drive to the Active IQ Unified Manager host, and you must have the mount drive.
 
+.Steps
 . Using Power Shell, connect to the IP address or fully qualified domain name of the Active IQ Unified Manager system.
 . Log in to the system with the maintenance user (umadmin) name and password.
 . Enter the command `maintenance_console` and press Enter.
-. In the maintenance console Main Menu, enter the number for the *Backup Restore* option.
+. In the maintenance console *Main Menu*, enter the number for the *Backup Restore* option.
 . Enter the number for *Configure NetApp Snapshot Backup*.
 . Enter the number to configure iSCSI.
 . Review the information that you will need to provide and then enter the number for *Enter Backup Configuration Details*.

@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_relationship_all_relationships_view.html
 sidebar: sidebar
-keywords: volume relationships
-summary: 'The Relationship: All Relationships view displays information about protection relationships on the storage system.'
+keywords: volume, relationships
+summary: "The Relationship: All Relationships view displays information about protection relationships on the storage system."
 ---
 = Relationship: All Relationships view
 :icons: font
@@ -31,7 +31,7 @@ When a SVM exists on the cluster but has not yet been added to the Unified Manag
 +
 Displays either the source volume or source storage VM being protected based on your selection. You can view more details about the source volume or storage VM by clicking the volume or storage VM name.
 +
-If the message Resource-key not discovered is displayed, this might indicate that the volume exists on the cluster but has not yet been added to the Unified Manager inventory, or that the volume was created after the cluster's last refresh. You must ensure that the volume exists, or perform a rediscovery on the cluster to refresh the list of resources.
+If the message `Resource-key not discovered` is displayed, this might indicate that the volume exists on the cluster but has not yet been added to the Unified Manager inventory, or that the volume was created after the cluster's last refresh. You must ensure that the volume exists, or perform a rediscovery on the cluster to refresh the list of resources.
 
 * *Destination Storage VM*
 +

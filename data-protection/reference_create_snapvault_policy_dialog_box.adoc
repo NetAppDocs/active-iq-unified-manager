@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_create_snapvault_policy_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Create SnapVault Policy dialog box enables you to create a policy to set the priority for SnapVault transfers. You use policies to maximize the efficiency of transfers from the primary to the secondary volume.'
+keywords: create, snapvault, policy, dialog box
+summary: "The Create SnapVault Policy dialog box enables you to create a policy to set the priority for SnapVault transfers. You use policies to maximize the efficiency of transfers from the primary to the secondary volume."
 ---
 = Create SnapVault Policy dialog box
 :icons: font
@@ -66,7 +66,3 @@ Displays the schedule associated with each Snapshot copy label. If a label has m
  ** Destination Retention Count
 +
 Displays the number of Snapshot copies with the specified label that are retained on the SnapVault secondary. Retention counts for labels with multiple schedules displays the sum of retention counts of each label and schedule pair. If you select multiple volumes with two or more local Snapshot copy policies, the retention count is empty.
-
-*Related information*
-
-xref:task_create_snapvault_policy_to_maximize_transfer_efficiency.adoc[Creating a SnapVault policy to maximize transfer efficiency]

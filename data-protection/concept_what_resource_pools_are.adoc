@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/concept_what_resource_pools_are.html
 sidebar: sidebar
-keywords: 
-summary: 'Resource pools are groups of aggregates that are created by a storage administrator using Unified Manager to provide provisioning to partner applications for backup management.'
+keywords: resource pools
+summary: "Resource pools are groups of aggregates that are created by a storage administrator using Unified Manager to provide provisioning to partner applications for backup management."
 ---
 = What resource pools are
 :icons: font

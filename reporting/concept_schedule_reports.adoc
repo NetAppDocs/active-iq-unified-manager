@@ -1,8 +1,8 @@
 ---
 permalink: reporting/concept_schedule_reports.html
 sidebar: sidebar
-keywords: 
-summary: 'After you have a view you want to reuse and share as a report, you can schedule it using Active IQ Unified Manager. You can manage scheduled reports, changing the recipients and distribution frequency for each report schedule.'
+keywords: scheduling, reports
+summary: "After you have a view you want to reuse and share as a report, you can schedule it using Active IQ Unified Manager. You can manage scheduled reports, changing the recipients and distribution frequency for each report schedule."
 ---
 = Scheduling reports
 :icons: font

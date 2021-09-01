@@ -1,8 +1,8 @@
 ---
 permalink: reporting/concept_unified_manager_databases_accessible_for_reporting.html
 sidebar: sidebar
-keywords: 
-summary: 'Unified Manager uses a MySQL database to store data from the clusters that it is monitoring. Data is persisted into various schemas in the MySQL database.'
+keywords: unified manager, databases, access, custom, reporting
+summary: "Unified Manager uses a MySQL database to store data from the clusters that it is monitoring. Data is persisted into various schemas in the MySQL database."
 ---
 = Unified Manager databases accessible for custom reporting
 :icons: font
@@ -13,6 +13,7 @@ Unified Manager uses a MySQL database to store data from the clusters that it is
 
 All table data from the following databases are available:
 
+[cols="2*",options="header"]
 |===
 | Database| Description
 a|

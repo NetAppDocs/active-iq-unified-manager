@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_initialize_update_relationship_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Initialize/Update dialog box enables you to perform a first-time baseline transfer on a new protection relationship, or to update a relationship if it is already initialized and you want to perform a manual, unscheduled, incremental update.'
+keywords: initialize, update, dialog box
+summary: "The Initialize/Update dialog box enables you to perform a first-time baseline transfer on a new protection relationship, or to update a relationship if it is already initialized and you want to perform a manual, unscheduled, incremental update."
 ---
 = Initialize/Update dialog box
 :icons: font
@@ -66,11 +66,3 @@ Discards your selections and closes the Initialize/Update dialog box.
 * *Submit*
 +
 Saves your selections and starts the initialize or update job.
-
-*Related information*
-
-xref:reference_select_source_snapshot_copy_dialog_box.adoc[Select Source Snapshot Copy dialog box]
-
-xref:task_update_protection_voldtls_page.adoc[Initializing or updating protection relationships from the Volume / Health details page]
-
-xref:task_initialize_or_update_protection_relationships.adoc[Initializing or updating protection relationships from the Volume Relationships page]

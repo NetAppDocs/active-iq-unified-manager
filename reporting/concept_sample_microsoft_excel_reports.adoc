@@ -1,8 +1,8 @@
 ---
 permalink: reporting/concept_sample_microsoft_excel_reports.html
 sidebar: sidebar
-keywords: 
-summary: 'These sample Microsoft Excel reports are intended to introduce reporting options available using Excel advanced features.'
+keywords: sample, microsoft, excel, reports
+summary: "These sample Microsoft Excel reports are intended to introduce reporting options available using Excel advanced features."
 ---
 = Sample Microsoft Excel reports
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_description_of_predefined_annotation_values.html
 sidebar: sidebar
-keywords: 
-summary: 'Data-priority is a predefined annotation that has the values Mission critical, High, and Low. These values enable you to annotate storage objects based on the priority of data that they contain. You cannot edit or delete the predefined annotation values.'
+keywords: description, predefined, annotation values
+summary: "Data-priority is a predefined annotation that has the values Mission critical, High, and Low. These values enable you to annotate storage objects based on the priority of data that they contain. You cannot edit or delete the predefined annotation values."
 ---
 = Description of predefined annotation values
 :icons: font

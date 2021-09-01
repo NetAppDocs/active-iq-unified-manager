@@ -1,9 +1,0 @@
----
-permalink: health-checker/index.html
-sidebar: sidebar
-keywords:
-summary: ''
----
-= Workflow Guide for Managing Cluster Health
-:icons: font
-:imagesdir: ../media/

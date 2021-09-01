@@ -1,8 +1,8 @@
 ---
 permalink: config/task_view_https_security_certificate_ocf.html
 sidebar: sidebar
-keywords: 
-summary: 'You can compare the HTTPS certificate details to the retrieved certificate in your browser to ensure that your browser’s encrypted connection to Unified Manager is not being intercepted.'
+keywords: view, https, security, certificate
+summary: "You can compare the HTTPS certificate details to the retrieved certificate in your browser to ensure that your browser’s encrypted connection to Unified Manager is not being intercepted."
 ---
 = Viewing the HTTPS security certificate
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can compare the HTTPS certificate details to the retrieved certifi
 [.lead]
 You can compare the HTTPS certificate details to the retrieved certificate in your browser to ensure that your browser's encrypted connection to Unified Manager is not being intercepted.
 
+*What you'll need*
+
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
 Viewing the certificate enables you to verify the content of a regenerated certificate, or to view Subject Alt Names (SAN) from which you can access Unified Manager.
+
+.Step
 
 . In the left navigation pane, click *General* > *HTTPS Certificate*.
 +

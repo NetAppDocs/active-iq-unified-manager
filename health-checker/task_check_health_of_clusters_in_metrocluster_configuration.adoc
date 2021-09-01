@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use Unified Manager to check the operational health of clusters, and their components, in a MetroCluster configuration. If the clusters were involved in a performance event detected by Unified Manager, the health status can help you determine whether a hardware or software issue contributed to the event.'
+keywords: check, health, clusters, metrocluster, configuration
+summary: "You can use Unified Manager to check the operational health of clusters, and their components, in a MetroCluster configuration. If the clusters were involved in a performance event detected by Unified Manager, the health status can help you determine whether a hardware or software issue contributed to the event."
 ---
 = Checking the health of clusters in a MetroCluster configuration
 :icons: font
@@ -11,10 +11,13 @@ summary: 'You can use Unified Manager to check the operational health of cluster
 [.lead]
 You can use Unified Manager to check the operational health of clusters, and their components, in a MetroCluster configuration. If the clusters were involved in a performance event detected by Unified Manager, the health status can help you determine whether a hardware or software issue contributed to the event.
 
+*What you'll need*
+
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * You must have analyzed a performance event for a MetroCluster configuration and obtained the name of the cluster involved.
 * Both clusters in the MetroCluster configuration must be monitored by the same instance of Unified Manager.
 
+.Steps
 . In the left navigation pane, click *Event Management* to display the event list.
 . In the filter panel, select all MetroCluster filters under the *Source Type* category.
 . Next to a MetroCluster event, click the name of the cluster.

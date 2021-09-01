@@ -1,8 +1,8 @@
 ---
 permalink: config/reference_ems_events_that_are_added_automatically_to_um.html
 sidebar: sidebar
-keywords: 
-summary: 'The following ONTAP EMS events are added automatically to Unified Manager. These events will be generated when triggered on any cluster that Unified Manager is monitoring.'
+keywords: ems events, automatically, added, unified manager
+summary: "The following ONTAP EMS events are added automatically to Unified Manager. These events will be generated when triggered on any cluster that Unified Manager is monitoring."
 ---
 = EMS events that are added automatically to Unified Manager
 :icons: font
@@ -12,7 +12,7 @@ summary: 'The following ONTAP EMS events are added automatically to Unified Mana
 The following ONTAP EMS events are added automatically to Unified Manager. These events will be generated when triggered on any cluster that Unified Manager is monitoring.
 
 The following EMS events are available when monitoring clusters running ONTAP 9.5 or greater software:
-
+[cols="4*",options="header"]
 |===
 | Unified Manager Event name| EMS Event name| Affected resource| Unified Manager severity
 a|

@@ -1,8 +1,8 @@
 ---
 permalink: config/concept_install_https_certificate_generated_using_external_tools.html
 sidebar: sidebar
-keywords: install HTTPS certificate,generated from external tools
-summary: 'You can install certificates that are self signed or CA signed and are generated using an external tool like OpenSSL, BoringSSL, LetsEncrypt.'
+keywords: install, HTTPS, certificate, generated from external tools
+summary: "You can install certificates that are self signed or CA signed and are generated using an external tool like OpenSSL, BoringSSL, LetsEncrypt."
 ---
 = Installing a HTTPS certificate generated using external tools
 :icons: font

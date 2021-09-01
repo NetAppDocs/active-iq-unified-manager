@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/task_view_user_and_user_group_quotas.html
 sidebar: sidebar
-keywords: 
-summary: 'The Storage VM / Health details page displays information about the user and user group quotas that are configured on the SVM. You can view the name of the user or user group, limits set on the disks and files, used disk and file space, and email address for notification.'
+keywords: view, user, user, group, quotas
+summary: "The Storage VM / Health details page displays information about the user and user group quotas that are configured on the SVM. You can view the name of the user or user group, limits set on the disks and files, used disk and file space, and email address for notification."
 ---
 = Viewing user and user group quotas
 :icons: font
@@ -11,13 +11,15 @@ summary: 'The Storage VM / Health details page displays information about the us
 [.lead]
 The Storage VM / Health details page displays information about the user and user group quotas that are configured on the SVM. You can view the name of the user or user group, limits set on the disks and files, used disk and file space, and email address for notification.
 
+*What you'll need*
+
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
+.Steps
+
 . In the left navigation pane, click *Storage* > *Storage VMs*.
-. In the Health: All Storage VMs view, select a Storage VM and then click the *User and Group Quotas* tab.
+. In the *Health: All Storage VMs* view, select a Storage VM and then click the *User and Group Quotas* tab.
 
 *Related information*
 
-link:[Adding users]
-
-xref:concept_overview_of_quota_process_um_6_1.adoc[Overview of the quota process]
+link:../config/task_add_users.html[Adding users]

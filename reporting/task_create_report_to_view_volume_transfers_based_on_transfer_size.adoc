@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_volume_transfers_based_on_transfer_size.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to view volume transfers based on transfer size.'
+keywords: create, report, view, volume, transfers, transfer size
+summary: "You can create a report to view volume transfers based on transfer size."
 ---
 = Creating a report to view volume transfers based on transfer size
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to view volume transfers based on transfer siz
 [.lead]
 You can create a report to view volume transfers based on transfer size.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view for volume transfers based on transfer size, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Volumes*.
 . In the View menu, select *Relationship* > *Last 1 month Transfer Rate*.

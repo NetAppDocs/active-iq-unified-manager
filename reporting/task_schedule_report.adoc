@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_schedule_report.html
 sidebar: sidebar
-keywords: sample report schedule
-summary: 'After you have a view or Excel file that you want to schedule for regular generation and distribution, you can schedule the report.'
+keywords: report, schedule
+summary: "After you have a view or Excel file that you want to schedule for regular generation and distribution, you can schedule the report."
 ---
 = Scheduling a report
 :icons: font
@@ -11,11 +11,15 @@ summary: 'After you have a view or Excel file that you want to schedule for regu
 [.lead]
 After you have a view or Excel file that you want to schedule for regular generation and distribution, you can schedule the report.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 * You must have configured the SMTP server settings in the *General* > *Notifications* page so that the reporting engine can send reports as email attachments to the list of recipients from the Unified Manager server.
 * The email server must be configured to allow attachments to be sent with the generated emails.
 
 Use the following steps to test and schedule a report to be generated for a view. Select or customize the view you want to use. The following procedure uses a network view that shows the performance of your network interfaces, but you can use any view you want.
+
+.Steps
 
 . Open your view. This example uses the default network view that shows LIF performance. In the left navigation pane, click**Network** > *Network Interfaces*.
 . Customize the view as needed using the built-in Unified Manager features.
@@ -23,11 +27,13 @@ Use the following steps to test and schedule a report to be generated for a view
 +
 image::../media/view_save.gif[]
 
-. You can use the advanced features of Microsoft® Excel to customize your report. For details, see xref:task_use_excel_to_customize_your_report.adoc[Using Excel to customize your report].
+. You can use the advanced features of Microsoft® Excel to customize your report. For details, see link:task_use_excel_to_customize_your_report.html[Using Excel to customize your report].
 . To see the output before you schedule or share it:
 +
+[cols="2*",options="header"]
 |===
-    a|
+a| Option| Description
+a|
 *If you used Excel to customize the report*
 a|
 View the existing downloaded Excel file.

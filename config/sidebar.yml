@@ -1,6 +1,5 @@
 section: config
 title: Perform configuration and administrative tasks
-url: "/config/index.html"
 entries:
   - title: Configuring Active IQ Unified Manager
     url: "/config/concept_configure_unified_manager.html"
@@ -28,8 +27,6 @@ entries:
         url: "/config/task_add_authentication_servers.html"
       - title: Testing the configuration of authentication servers
         url: "/config/task_test_configuration_of_authentication_servers_um_6_0.html"
-      - title: Adding users
-        url: "/config/task_add_users.html"
       - title: Adding alerts
         url: "/config/task_add_alerts.html"
     - title: EMS events that are added automatically to Unified Manager
@@ -71,8 +68,6 @@ entries:
       url: "/config/concept_security_dashboard.html"
     - title: Enabling and disabling scripts upload
       url: "/config/task_enable_and_disable_ability_to_upload_scripts.html"
-  - title: Enabling and disabling scripts upload
-    url: "/config/task_enable_and_disable_ability_to_upload_scripts.html"
   - title: Using the maintenance console
     url: "/config/task_use_maintenance_console.html"
     entries:
@@ -114,17 +109,6 @@ entries:
         url: "/config/task_add_space_to_data_disk_of_vmware_virtual_machine.html"
       - title: Adding space to the logical drive of the Microsoft Windows server
         url: "/config/task_add_space_to_data_disk_of_windows_server.html"
-  - title: Maintenance console menus
-    url: "/config/concept_maintenance_console_menu.html"
-    entries:
-    - title: Network Configuration menu
-      url: "/config/reference_network_configuration_menu.html"
-    - title: System Configuration menu
-      url: "/config/reference_system_configuration_menu.html"
-    - title: Support and Diagnostics menu
-      url: "/config/reference_support_and_diagnostics_menu.html"
-    - title: Additional menu options
-      url: "/config/reference_additional_menu_options.html"
   - title: Managing user access
     url: "/config/concept_manage_user_access.html"
     entries:
@@ -139,8 +123,6 @@ entries:
       url: "/config/task_view_users.html"
     - title: Deleting users or groups
       url: "/config/task_delete_users_or_groups.html"
-    - title: What the maintenance user does
-      url: "/config/concept_what_maintenance_user_does.html"
     - title: What RBAC is
       url: "/config/concept_what_rbac_is.html"
     - title: What role-based access control does
@@ -178,8 +160,6 @@ entries:
       url: "/config/task_delete_authentication_servers.html"
     - title: Authentication with Active Directory or OpenLDAP
       url: "/config/concept_authentication_with_active_directory_or_openldap.html"
-    - title: Identity provider requirements
-      url: "/config/reference_identity_provider_requirements_um.html"
     - title: Audit Logging
       url: "/config/concept_audit_logging.html"
       entries:
@@ -194,11 +174,6 @@ entries:
     entries:
     - title: Viewing the HTTPS security certificate
       url: "/config/task_view_https_security_certificate_ocf.html"
-    - title: Generating an HTTPS security certificate
-      url: "/config/task_generate_an_https_security_certificate_ocf.html"
-      entries:
-      - title: Restarting the Unified Manager virtual machine
-        url: "/config/task_restart_unified_manager_virtual_machine.html"
     - title: Downloading an HTTPS certificate signing request
       url: "/config/task_download_an_https_certificate_sign_request_ocf.html"
     - title: Installing a CA signed and returned HTTPS certificate

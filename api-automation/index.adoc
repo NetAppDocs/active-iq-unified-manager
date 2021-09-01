@@ -1,9 +1,0 @@
----
-permalink: api-automation/index.html
-sidebar: sidebar
-keywords: 
-summary: ''
----
-= API Developer's Guide
-:icons: font
-:imagesdir: ../media/

@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/reference_configure_protection_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Configure Protection dialog box to create SnapMirror and SnapVault relationships for all read, write, and data protection volumes on clusters to ensure that the data on a source volume or primary volume is replicated.'
+keywords: configure, protection, dialog box
+summary: "You can use the Configure Protection dialog box to create SnapMirror and SnapVault relationships for all read, write, and data protection volumes on clusters to ensure that the data on a source volume or primary volume is replicated."
 ---
 = Configure Protection dialog box
 :icons: font
@@ -11,10 +11,6 @@ summary: 'You can use the Configure Protection dialog box to create SnapMirror a
 [.lead]
 You can use the Configure Protection dialog box to create SnapMirror and SnapVault relationships for all read, write, and data protection volumes on clusters to ensure that the data on a source volume or primary volume is replicated.
 
-* <<GUID-161C9CA2-4BF8-4E63-B361-24994CA7DADE,Source tab>>
-* <<GUID-53D36872-E23D-455E-8F92-208BC9CC665A,SnapMirror tab>>
-* <<GUID-842CB5F6-2862-4FB6-AED2-0B0AA04F7D12,SnapVault tab>>
-* <<GUID-ADD1F622-94DA-44B0-98D9-36BE808FEC37,Command buttons>>
 
 == Source tab
 
@@ -221,19 +217,3 @@ Discards your selections, and closes the Configure Protection dialog box.
 * *Apply*
 +
 Applies your selections, and begins the protection process.
-
-*Related information*
-
-xref:reference_advanced_secondary_setting_dialog_box.adoc[Advanced Secondary Settings dialog box]
-
-xref:reference_advanced_destination_settings_dialog_box.adoc[Advanced Destination Settings dialog box]
-
-xref:task_create_snapvault_protection_relationship.adoc[Creating a SnapVault protection relationship from the Health: All Volumes view]
-
-xref:task_create_snapvault_protection_relationship_from_health_volume_details.adoc[Creating a SnapVault protection relationship from the Volume / Health details page]
-
-xref:task_create_snapmirror_relationship_from_health_volumes.adoc[Creating a SnapMirror protection relationship from the Health: All Volumes view]
-
-xref:task_create_snapmirror_relationship_from_health_volume.adoc[Creating a SnapMirror protection relationship from the Volume / Health details page]
-
-xref:task_create_cascade_or_fanout_relationships_to_extend_protection.adoc[Creating cascade or fanout relationships to extend protection from an existing protection relationship]

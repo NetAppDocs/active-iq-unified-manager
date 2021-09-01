@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/task_monitor_metrocluster_configurations.html
 sidebar: sidebar
-keywords: 
-summary: 'You can monitor connectivity issues in your MetroCluster configuration. The details include the status of the components and connectivity within a cluster and the connectivity status between the clusters in the MetroCluster configuration.'
+keywords: monitor, metrocluster, configurations
+summary: "You can monitor connectivity issues in your MetroCluster configuration. The details include the status of the components and connectivity within a cluster and the connectivity status between the clusters in the MetroCluster configuration."
 ---
 = Monitoring MetroCluster configurations
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can monitor connectivity issues in your MetroCluster configuration
 
 [.lead]
 You can monitor connectivity issues in your MetroCluster configuration. The details include the status of the components and connectivity within a cluster and the connectivity status between the clusters in the MetroCluster configuration.
+
+*What you'll need*
 
 * Both the local and remote clusters in the MetroCluster configuration must be added to Active IQ Unified Manager.
 * You must have the Operator, Application Administrator, or Storage Administrator role.
@@ -24,12 +26,14 @@ Unified Manager uses system health alerts to monitor the status of the component
 
 The MetroCluster Connectivity tab is displayed only for clusters in a MetroCluster configuration.
 
+.Steps
+
 . In the left navigation pane, click *Storage* > *Clusters*.
 +
 A list of all of the monitored clusters is displayed.
 
-. From the Health: All Clusters view, click the name of the cluster for which you want to view MetroCluster configuration details.
-. In the Cluster / Health details page, click the *MetroCluster Connectivity* tab.
+. From the *Health: All Clusters* view, click the name of the cluster for which you want to view MetroCluster configuration details.
+. In the *Cluster / Health* details page, click the *MetroCluster Connectivity* tab.
 +
 The topology of the MetroCluster configuration is displayed in the corresponding cluster object area.
 
@@ -40,5 +44,3 @@ If you discover connectivity issues in your MetroCluster configuration, you must
 link:[Health/Clusters page]
 
 link:[Health/Cluster details page]
-
-xref:reference_cluster_connectivity_status_definitions.adoc[Cluster connectivity status definitions]

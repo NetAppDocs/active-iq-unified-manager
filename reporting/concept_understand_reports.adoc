@@ -1,8 +1,8 @@
 ---
 permalink: reporting/concept_understand_reports.html
 sidebar: sidebar
-keywords: 
-summary: 'Reports display detailed information about storage, network, quality of service, and protection relationships, helping you to identify and solve potential problems before they occur.'
+keywords: understanding, reports
+summary: "Reports display detailed information about storage, network, quality of service, and protection relationships, helping you to identify and solve potential problems before they occur."
 ---
 = Understanding reports
 :icons: font

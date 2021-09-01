@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_manage_performance_service_levels.html
 sidebar: sidebar
-keywords: 
-summary: 'A Performance Service Level enables you to define the performance and storage objectives for a workload. You can assign a Performance Service Level to a workload when initially creating the workload, or afterwards by editing the workload.'
+keywords: manage, performance, service, levels
+summary: "A Performance Service Level enables you to define the performance and storage objectives for a workload. You can assign a Performance Service Level to a workload when initially creating the workload, or afterwards by editing the workload."
 ---
 = Managing Performance Service Levels
 :icons: font
@@ -20,8 +20,9 @@ You can access the PSLs from the *Policies* > *Performance Service Levels* page 
 You cannot modify a PSL that is system-defined or that is currently assigned to a workload. You cannot delete a PSL that is assigned to a workload, or if it is the only available PSL.
 
 The Performance Service Levels page lists the available PSL policies and enables you to add, edit, and delete them. This page displays the following information:
-
+[options="header"]
 |===
+
 | Field| Description
 a|
 Name
@@ -81,10 +82,10 @@ For information about how the peak IOPS and expected IOPs help in achieving cons
 
 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F[What is Performance Budgeting?]
 
-Note that if workloads exceed the expected latency value for 30% of the time during the previous hour, Unified Manager will generate one of the following events to notify you of a potential performance issue: "`Workload Volume Latency Threshold Breached as defined by Performance Service Level Policy`" or "`Workload LUN Latency Threshold Breached as defined by Performance Service Level Policy`". You may want to analyze the workload to see what may be causing the higher latency values.
+Note that if workloads exceed the expected latency value for 30% of the time during the previous hour, Unified Manager will generate one of the following events to notify you of a potential performance issue: "Workload Volume Latency Threshold Breached as defined by Performance Service Level Policy" or "Workload LUN Latency Threshold Breached as defined by Performance Service Level Policy". You may want to analyze the workload to see what may be causing the higher latency values.
 
 The following table provides information about the system-defined PSLs:
-
+[options="header"]
 |===
 | Performance Service Level| Description and use case| Expected latency (ms/op)| Peak IOPS| Expected IOPS| Absolute minimum IOPS
 a|
@@ -178,6 +179,3 @@ a|
 a|
 2000
 |===
-*Related information*
-
-xref:task_create_and_edit_psls.adoc[Creating and editing Performance Service Levels]

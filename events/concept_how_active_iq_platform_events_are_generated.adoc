@@ -1,8 +1,8 @@
 ---
 permalink: events/concept_how_active_iq_platform_events_are_generated.html
 sidebar: sidebar
-keywords: Active IQ,event generation
-summary: 'Active IQ platform incidents and risks are converted to Unified Manager events as shown in the following diagram.'
+keywords: active IQ, platform, events, generated
+summary: "Active IQ platform incidents and risks are converted to Unified Manager events as shown in the following diagram."
 ---
 = How Active IQ platform events are generated
 :icons: font

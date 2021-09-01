@@ -1,8 +1,8 @@
 ---
 permalink: config/reference_https_dialog_box_ocf.html
 sidebar: sidebar
-keywords: 
-summary: 'The HTTPS Certificate page enables you to view the current security certificate, download a certificate signing request, generate a new HTTPS certificate, or install a new HTTPS certificate.'
+keywords: https certificate page
+summary: "The HTTPS Certificate page enables you to view the current security certificate, download a certificate signing request, generate a new HTTPS certificate, or install a new HTTPS certificate."
 ---
 = HTTPS Certificate page
 :icons: font

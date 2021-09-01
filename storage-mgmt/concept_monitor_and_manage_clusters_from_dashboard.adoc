@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_monitor_and_manage_clusters_from_dashboard.html
 sidebar: sidebar
-keywords: 
-summary: 'The dashboard provides cumulative at-a-glance information about the current health of your monitored ONTAP systems. The dashboard provides “panels” that enable you to assess the overall capacity, performance, and security health of the clusters you are monitoring.'
+keywords: monitor, manage, clusters, dashboard
+summary: "The dashboard provides cumulative at-a-glance information about the current health of your monitored ONTAP systems. The dashboard provides “panels” that enable you to assess the overall capacity, performance, and security health of the clusters you are monitoring."
 ---
 = Monitoring and managing clusters from the dashboard
 :icons: font
@@ -19,7 +19,7 @@ At the top of the dashboard you can select whether the panels show information f
 ====
 Some of the panels listed below may not appear on the page based on your configuration.
 ====
-
+[options="header"]
 |===
 | Panels| Description
 a|
@@ -55,6 +55,3 @@ Usage Overview
 a|
 Displays clusters sorted by highest IOPS, highest throughput (MBps), or highest used physical capacity.
 |===
-*Related information*
-
-xref:reference_dashboard_page.adoc[Dashboard page]

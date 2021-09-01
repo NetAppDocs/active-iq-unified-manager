@@ -1,8 +1,8 @@
 ---
 permalink: config/concept_security_dashboard.html
 sidebar: sidebar
-keywords: 
-summary: 'You can enable or disable the Security panel on the Active IQ Unified Manager dashboard. When enabled, you can also customize the settings for compliance monitoring and the relevant security events and management actions.'
+keywords: security dashboard
+summary: "You can enable or disable the Security panel on the Active IQ Unified Manager dashboard. When enabled, you can also customize the settings for compliance monitoring and the relevant security events and management actions."
 ---
 = Security Dashboard
 :icons: font

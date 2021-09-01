@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_configure_backup_for_linux.html
 sidebar: sidebar
-keywords: NetApp Snapshot,Linux operating system
-summary: 'If your Active IQ Unified Manager is installed on a Linux machine, then you can decide to configure your backup and restore using NetApp Snapshots.'
+keywords: netapp, snapshot, linux, operate, system, configure, backup
+summary: "If your Active IQ Unified Manager is installed on a Linux machine, then you can decide to configure your backup and restore using NetApp Snapshots."
 ---
 = Configuring backup on Linux
 :icons: font

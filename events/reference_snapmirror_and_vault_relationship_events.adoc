@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_snapmirror_and_vault_relationship_events.html
 sidebar: sidebar
-keywords: 
-summary: 'Asynchronous Mirror and Vault relationship events provide you with information about the status of your Asynchronous SnapMirror and Vault relationships so that you can monitor for potential problems. Asynchronous Mirror and Vault relationship events are supported for both volume and Storage VM protection relationships. But only Vault relationships are not supported for Storage VM disaster recovery. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.'
+keywords: asynchronous, mirror, vault, relationship, events, impact area, protection
+summary: "Asynchronous Mirror and Vault relationship events provide you with information about the status of your Asynchronous SnapMirror and Vault relationships so that you can monitor for potential problems. Asynchronous Mirror and Vault relationship events are supported for both volume and Storage VM protection relationships. But only Vault relationships are not supported for Storage VM disaster recovery. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
 = Asynchronous Mirror and Vault relationship events
 :icons: font
@@ -16,14 +16,12 @@ Asynchronous Mirror and Vault relationship events provide you with information a
 [NOTE]
 ====
 
-* The SnapMirror and Vault relationships events are also generated for Storage VMs that are protected by Storage VM disaster recovery but not for any constituent object relationships.
+The SnapMirror and Vault relationships events are also generated for Storage VMs that are protected by Storage VM disaster recovery but not for any constituent object relationships.
 
 ====
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name (Trap name)| Impact level| Source type| Severity
 a|
 Asynchronous Mirror and Vault Unhealthy(ocumEvtMirrorVaultRelationshipUnhealthy)
 

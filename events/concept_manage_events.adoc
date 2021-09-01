@@ -1,8 +1,8 @@
 ---
 permalink: events/concept_manage_events.html
 sidebar: sidebar
-keywords: 
-summary: 'Events help you to identify issues in the clusters that are monitored.'
+keywords: manage, events
+summary: "Events help you to identify issues in the clusters that are monitored."
 ---
 = Managing events
 :icons: font

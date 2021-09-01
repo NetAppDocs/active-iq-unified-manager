@@ -1,8 +1,8 @@
 ---
 permalink: install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html
 sidebar: sidebar
-keywords: 
-summary: 'You can upgrade Unified Manager 9.7 or 9.8 to 9.9 by downloading and running the installation file on the Windows platform.'
+keywords: upgrade, unified manager
+summary: "You can upgrade Unified Manager 9.7 or 9.8 to 9.9 by downloading and running the installation file on the Windows platform."
 ---
 = Upgrading Unified Manager
 :icons: font
@@ -11,11 +11,13 @@ summary: 'You can upgrade Unified Manager 9.7 or 9.8 to 9.9 by downloading and r
 [.lead]
 You can upgrade Unified Manager 9.7 or 9.8 to 9.9 by downloading and running the installation file on the Windows platform.
 
+*What you'll need*
+
 * The system on which you are upgrading Unified Manager should meet the system and software requirements.
 +
-xref:concept_virtual_infrastructure_or_hardware_system_requirements.adoc[Hardware system requirements]
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements]
 +
-xref:reference_windows_software_and_installation_requirements.adoc[Windows software and installation requirements]
+link:reference_windows_software_and_installation_requirements.html[Windows software and installation requirements]
 +
 [NOTE]
 ====
@@ -42,13 +44,17 @@ The installer of Unified Manager has been restricted to support only up to MySQL
 The available space on the installation drive should be 2.5 GB larger than the size of the data directory. The upgrade stops and displays an error message indicating the amount of space to be added if there is not enough free space.
 
 * During upgrade, you may be prompted to confirm whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data after 6 months is purged.
-* Before upgrading, you should close any open files or folder in <InstallDir>\JDK and MySQL Data Directory.
+* Before upgrading, you should close any open files or folder in _<InstallDir>\JDK_ and _MySQL Data Directory_.
 
 During the upgrade process, Unified Manager is unavailable. You should complete any running operations before upgrading Unified Manager.
 
 If Unified Manager is paired with an instance of OnCommand Workflow Automation, and there are new versions of software available for both products, you must disconnect the two products and then set up a new Workflow Automation connection after performing the upgrades. If you are performing an upgrade to only one of the products, then you should log into Workflow Automation after the upgrade and verify that it is still acquiring data from Unified Manager.
 
-. Log in to the NetApp Support Site, and navigate to the Download page for Unified Manager: https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site]
+.Steps
+
+. Log in to the NetApp Support Site, and navigate to the Download page for Unified Manager:
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site]
 . Select the required version of Unified Manager and accept the end-users license agreement (EULA).
 . Download the Unified Manager Windows installation file to a target directory on the Windows system.
 . Right-click and run the Unified Manager installer executable (.exe) file as an administrator.
@@ -65,5 +71,6 @@ This setup will perform an upgrade of Unified Manager. Do you want to continue?
 
 [NOTE]
 ====
-To perform a silent upgrade of Unified Manager, run the following command: `ActiveIQUnifiedManager-<version\>.exe /s /v"MYSQL_PASSWORD=netapp21! /qn /l*v C:\install.log`
+To perform a silent upgrade of Unified Manager, run the following command:
+`ActiveIQUnifiedManager-<version\>.exe /s /v"MYSQL_PASSWORD=netapp21! /qn /l*v C:\install.log`
 ====

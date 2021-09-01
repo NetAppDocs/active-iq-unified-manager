@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/concept_prioritize_storage_objects_using_annotations.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create and apply annotation rules to storage objects so that you can identify and filter those objects based on the type of annotation applied and its priority.'
+keywords: prioritize, storage, object, events, annotations
+summary: "You can create and apply annotation rules to storage objects so that you can identify and filter those objects based on the type of annotation applied and its priority."
 ---
 = Prioritizing storage object events using annotations
 :icons: font
@@ -10,29 +10,3 @@ summary: 'You can create and apply annotation rules to storage objects so that y
 
 [.lead]
 You can create and apply annotation rules to storage objects so that you can identify and filter those objects based on the type of annotation applied and its priority.
-
-*Related information*
-
-xref:task_add_annotations_dynamically.adoc[Adding annotations dynamically]
-
-xref:task_add_values_to_annotations.adoc[Adding values to annotations]
-
-xref:task_delete_annotations.adoc[Deleting annotations]
-
-xref:task_view_annotation_list_and_details.adoc[Viewing the annotation list and details]
-
-xref:task_delete_values_from_annotations.adoc[Deleting values from annotations]
-
-xref:task_create_annotation_rules.adoc[Creating annotation rules]
-
-xref:task_add_annotations_manually_to_individual_storage_objects.adoc[Adding annotations manually to individual storage objects]
-
-xref:task_edit_annotation_rules.adoc[Editing annotation rules]
-
-xref:task_configure_conditions_for_annotation_rules.adoc[Configuring conditions for annotation rules]
-
-xref:task_delete_annotation_rules.adoc[Deleting annotation rules]
-
-xref:task_reorder_annotation_rules.adoc[Reordering annotation rules]
-
-xref:concept_understand_more_about_annotations.adoc[Understanding more about annotations]

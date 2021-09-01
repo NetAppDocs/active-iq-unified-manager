@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_configure_ontap_cluster.html
 sidebar: sidebar
-keywords: NetApp Snapshot backup for Windows,configuring ONTAP cluster
-summary: 'Before configuring Active IQ Unified Manager for Snapshot backup and restore for Windows, you should perform few pre-configurations for ONTAP and Windows host machine.'
+keywords: netapp, snapshot, backup, windows, configure, ontap, cluster
+summary: "Before configuring Active IQ Unified Manager for Snapshot backup and restore for Windows, you should perform few pre-configurations for ONTAP and Windows host machine."
 ---
 = Configuring ONTAP cluster
 :icons: font
@@ -20,6 +20,7 @@ You should have a dedicated volume and a LUN for backup configuration. The selec
 
 You need to perform the following configuration:
 
+.Steps
 . Configure a iSCSI enabled storage VM or use an existing storage VM that has the same configuration.
 . Configure a network route for the configured storage VM.
 . Configure a volume of appropriate capacity and a single LUN inside ensuring that the volume is dedicated only for this LUN.

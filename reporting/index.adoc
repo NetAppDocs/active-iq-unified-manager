@@ -1,9 +1,0 @@
----
-permalink: reporting/index.html
-sidebar: sidebar
-keywords:
-summary: ''
----
-= Reporting Guide
-:icons: font
-:imagesdir: ../media/

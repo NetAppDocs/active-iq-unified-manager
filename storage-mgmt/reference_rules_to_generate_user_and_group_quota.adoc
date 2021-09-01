@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/reference_rules_to_generate_user_and_group_quota.html
 sidebar: sidebar
-keywords: 
-summary: 'The Rules to Generate User and Group Quota Email Address page enables you to create rules to specify email addresses based on the user quota associated with clusters, SVMs, volumes, qtrees, users, or user groups. A notification is sent to the specified email address when a quota is breached.'
+keywords: rules, generate, user, group, quota, email, address, page, area, define, add comments, syntax, command buttons
+summary: "The Rules to Generate User and Group Quota Email Address page enables you to create rules to specify email addresses based on the user quota associated with clusters, SVMs, volumes, qtrees, users, or user groups. A notification is sent to the specified email address when a quota is breached."
 ---
 = Rules to Generate User and Group Quota Email Address page
 :icons: font
@@ -38,11 +38,11 @@ You can add comments to explain the rules. You should use # at the start of each
 
 The syntax of the rule must be one of the following:
 
-* if ( valid variableoperator *) then email ID@domain name
+* if ( `valid variableoperator` *) then `email ID@domain name`
 +
 if is a keyword and is in lowercase. The operator is ==. The email ID can contain any character, the valid variables $USER_OR_GROUP, $USER, or $GROUP, or a combination of any character and the valid variables $USER_OR_GROUP, $USER, or $GROUP. The domain name can contain any character, the valid variable $DOMAIN, or a combination of any character and the valid variable $DOMAIN. Valid variables can be in uppercase or lowercase but must not be a combination of both. For example, $domain and $DOMAIN are valid, but $Domain is not a valid variable.
 
-* if ( valid variableoperator 'string ') then email ID@domain name
+* if ( `valid variableoperator 'string '``) then `email ID@domain name`
 +
 if is a keyword and is lowercase. The operator can be contains or ==. The email ID can contain any character, the valid variables $USER_OR_GROUP, $USER, or $GROUP, or a combination of any character and the valid variables $USER_OR_GROUP, $USER, or $GROUP. The domain name can contain any character, the valid variable $DOMAIN, or a combination of any character and the valid variable $DOMAIN. Valid variables can be in uppercase or lowercase but must not be a combination of both. For example, $domain and $DOMAIN are valid, but $Domain is not a valid variable.
 
@@ -61,9 +61,3 @@ Enables you to restore the address rules to the factory default values.
 * *Save*
 +
 Validates the syntax of the rule and saves the rule if there are no errors. If there are errors during validation, the rule that generates the error is displayed along with an error message.
-
-*Related information*
-
-xref:task_create_rules_to_generate_email_addresses.adoc[Creating rules to generate email addresses]
-
-xref:reference_email_notification_format_page.adoc[Email Notification Format page]

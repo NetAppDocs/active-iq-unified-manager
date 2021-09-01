@@ -1,8 +1,8 @@
 ---
 permalink: install-vapp/reference_vmware_software_and_installation_requirements.html
 sidebar: sidebar
-keywords: 
-summary: 'The VMware vSphere system on which you install Unified Manager requires specific versions of the operating system and supporting software.'
+keywords: vmware, software, installation, requirements
+summary: "The VMware vSphere system on which you install Unified Manager requires specific versions of the operating system and supporting software."
 ---
 = VMware software and installation requirements
 :icons: font

@@ -1,14 +1,11 @@
 section: install-vapp
 title: Install Unified Manager on VMware vSphere systems
-url: "/install-vapp/index.html"
 entries:
   - title: Introduction to Active IQ Unified Manager
     url: "/install-vapp/concept_introduction_to_unified_manager.html"
     entries:
     - title: What the Unified Manager server does
       url: "/install-vapp/concept_what_unified_manager_server_does.html"
-    - title: Active IQ Unified Manager product documentation
-      url: "/install-vapp/reference_unified_manager_product_documentation.html"
     - title: Overview of the installation sequence
       url: "/install-vapp/concept_overview_of_installation_sequence_um.html"
   - title: Requirements for installing Unified Manager

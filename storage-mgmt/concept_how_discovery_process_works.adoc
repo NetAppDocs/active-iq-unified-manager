@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/concept_how_discovery_process_works.html
 sidebar: sidebar
-keywords: Unified Manager
-summary: 'After you have added a cluster to Unified Manager, the server discovers the cluster objects and adds them to its database. Understanding how the discovery process works helps you to manage your organization’s clusters and their objects.'
+keywords: cluster, discovery, process, works
+summary: "After you have added a cluster to Unified Manager, the server discovers the cluster objects and adds them to its database. Understanding how the discovery process works helps you to manage your organization’s clusters and their objects."
 ---
 = How the cluster discovery process works
 :icons: font
@@ -23,7 +23,3 @@ After all the objects for a new cluster are discovered, Unified Manager starts t
 ====
 Because the collection of 15 days of performance data is CPU intensive, it is suggested that you stagger the addition of new clusters so that data continuity collection polls are not running on too many clusters at the same time.
 ====
-
-*Related information*
-
-xref:task_add_clusters.adoc[Adding clusters]

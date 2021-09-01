@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/task_configure_connection_between_workflow_automation_um.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure a secure connection between OnCommand Workflow Automation \(WFA\) and Unified Manager. Connecting to Workflow Automation enables you to use protection features such as SnapMirror and SnapVault configuration workflows, as well as commands for managing SnapMirror relationships.'
+keywords: configure, connection, workflow, automation, unified manager
+summary: "You can configure a secure connection between OnCommand Workflow Automation (WFA) and Unified Manager. Connecting to Workflow Automation enables you to use protection features such as SnapMirror and SnapVault configuration workflows, as well as commands for managing SnapMirror relationships."
 ---
 = Configuring a connection between Workflow Automation and Unified Manager
 :icons: font
@@ -10,6 +10,8 @@ summary: 'You can configure a secure connection between OnCommand Workflow Autom
 
 [.lead]
 You can configure a secure connection between OnCommand Workflow Automation (WFA) and Unified Manager. Connecting to Workflow Automation enables you to use protection features such as SnapMirror and SnapVault configuration workflows, as well as commands for managing SnapMirror relationships.
+
+*What you'll need*
 
 * The installed version of Workflow Automation must be 5.1 or greater.
 +
@@ -27,9 +29,11 @@ This database user must have been assigned the Integration Schema user role.
 * You must have the host address, port number 443, user name, and password for the Workflow Automation setup.
 * You must have the Application Administrator or Storage Administrator role.
 
+.Steps
+
 . In the left navigation pane, click *General* > *Workflow Automation*.
-. In the Database User area of the Workflow Automation page, select the name, and enter the password for the database user that you created to support Unified Manager and Workflow Automation connections.
-. In the Workflow Automation Credentials area of the page, enter the host name or IP address (IPv4 or IPv6), and the user name and password for the Workflow Automation setup.
+. In the *Database User* area of the *Workflow Automation page*, select the name, and enter the password for the database user that you created to support Unified Manager and Workflow Automation connections.
+. In the *Workflow Automation Credentials* area of the page, enter the host name or IP address (IPv4 or IPv6), and the user name and password for the Workflow Automation setup.
 +
 You must use the Unified Manager server port (port 443).
 

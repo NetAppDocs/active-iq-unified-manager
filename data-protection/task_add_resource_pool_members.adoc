@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/task_add_resource_pool_members.html
 sidebar: sidebar
-keywords: 
-summary: 'A resource pool consists of a number of member aggregates. You can add aggregates to existing resource pools to increase the amount of space available for secondary volume provisioning.'
+keywords: add, resource, pool, members
+summary: "A resource pool consists of a number of member aggregates. You can add aggregates to existing resource pools to increase the amount of space available for secondary volume provisioning."
 ---
 = Adding resource pool members
 :icons: font
@@ -11,12 +11,16 @@ summary: 'A resource pool consists of a number of member aggregates. You can add
 [.lead]
 A resource pool consists of a number of member aggregates. You can add aggregates to existing resource pools to increase the amount of space available for secondary volume provisioning.
 
+*What you'll need*
+
 You must have the Application Administrator or Storage Administrator role.
 
 You can add no more than 200 aggregates to a resource pool at one time. Aggregates shown in the Aggregates dialog box do not belong to any other resource pool.
 
+.Steps
+
 . In the left navigation pane, click *Protection* > *Resource Pools*.
-. Select a resource pool from the Resource Pools list.
+. Select a resource pool from the *Resource Pools* list.
 +
 The resource pool members are displayed in the area below the resource pool list.
 

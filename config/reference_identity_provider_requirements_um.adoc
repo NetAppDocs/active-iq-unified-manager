@@ -1,8 +1,8 @@
 ---
 permalink: config/reference_identity_provider_requirements_um.html
 sidebar: sidebar
-keywords: 
-summary: 'When configuring Unified Manager to use an identity provider \(IdP\) to perform SAML authentication for all remote users, you need to be aware of some required configuration settings so that the connection to Unified Manager is successful.'
+keywords: identity, provider, requirements
+summary: "When configuring Unified Manager to use an identity provider (IdP) to perform SAML authentication for all remote users, you need to be aware of some required configuration settings so that the connection to Unified Manager is successful."
 ---
 = Identity provider requirements
 :icons: font
@@ -27,6 +27,7 @@ You must enter the Unified Manager URI and metadata into the IdP server. You can
 
 * You must define three claim rules in the following order that are required for Unified Manager to parse ADFS SAML responses for this relying party trust entry.
 +
+[cols="2*",options="header"]
 |===
 | Claim rule| Value
 a|

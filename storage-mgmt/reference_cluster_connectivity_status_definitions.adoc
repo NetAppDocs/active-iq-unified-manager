@@ -1,8 +1,8 @@
 ---
 permalink: storage-mgmt/reference_cluster_connectivity_status_definitions.html
 sidebar: sidebar
-keywords: 
-summary: 'Connectivity between the clusters in a MetroCluster configuration can be one of the following statuses: Optimal, Impacted, or Down. Understanding the connectivity statuses enables you to manage your MetroCluster configurations effectively.'
+keywords: cluster, connectivity, status, definitions
+summary: "Connectivity between the clusters in a MetroCluster configuration can be one of the following statuses: Optimal, Impacted, or Down. Understanding the connectivity statuses enables you to manage your MetroCluster configurations effectively."
 ---
 = Cluster connectivity status definitions
 :icons: font
@@ -10,7 +10,7 @@ summary: 'Connectivity between the clusters in a MetroCluster configuration can 
 
 [.lead]
 Connectivity between the clusters in a MetroCluster configuration can be one of the following statuses: Optimal, Impacted, or Down. Understanding the connectivity statuses enables you to manage your MetroCluster configurations effectively.
-
+[options="header"]
 |===
 | Connectivity status| Description| Icon displayed
 a|

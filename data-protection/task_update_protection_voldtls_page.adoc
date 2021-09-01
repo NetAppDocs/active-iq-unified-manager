@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/task_update_protection_voldtls_page.html
 sidebar: sidebar
-keywords: 
-summary: 'You can perform a first-time baseline transfer on a new protection relationship, or update a relationship if it is already initialized and you want to perform a manual, unscheduled incremental update to transfer data immediately.'
+keywords: initialize, update, protection, relationships, volume, health details page
+summary: "You can perform a first-time baseline transfer on a new protection relationship, or update a relationship if it is already initialized and you want to perform a manual, unscheduled incremental update to transfer data immediately."
 ---
 = Initializing or updating protection relationships from the Volume / Health details page
 :icons: font
@@ -11,18 +11,22 @@ summary: 'You can perform a first-time baseline transfer on a new protection rel
 [.lead]
 You can perform a first-time baseline transfer on a new protection relationship, or update a relationship if it is already initialized and you want to perform a manual, unscheduled incremental update to transfer data immediately.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up OnCommand Workflow Automation.
 
-. From the Protection tab of the Volume / Health details page, locate in the topology the protection relationship that you want to initialize or update, and then right-click it.
+.Steps
+
+. From the *Protection* tab of the *Volume / Health* details page, locate in the topology the protection relationship that you want to initialize or update, and then right-click it.
 . Select *Initialize/Update* from the menu.
 +
 Alternatively, from the *Actions* menu, select *Relationship* > *Initialize/Update* to initialize or update the relationship for which you are currently viewing the details.
 +
 The Initialize/Update dialog box is displayed.
 
-. In the Transfer Options tab, select a transfer priority and the maximum transfer rate.
-. Click *Source Snapshot Copies*; then, in the Snapshot Copy column, click *Default*.
+. In the *Transfer Options* tab, select a transfer priority and the maximum transfer rate.
+. Click *Source Snapshot Copies*; then, in the *Snapshot Copy* column, click *Default*.
 +
 The Select Source Snapshot Copy dialog box is displayed.
 
@@ -39,11 +43,11 @@ You cannot select a different Snapshot copy for data protection volumes.
 +
 The initialization or update job is started, you are returned to the Volume / Health details page, and a jobs link is displayed at the top of the page.
 
-. Click *View Jobs* on the Volume / Health details page to track the status of each initialization or update job.
+.  *Optional:* Click *View Jobs* on the *Volume / Health* details page to track the status of each initialization or update job.
 +
 A filtered list of jobs is displayed.
 
-. Click each job to see its details.
-. Click the Back arrow on your browser to return to the Volume / Health details page.
+.  *Optional:* Click each job to see its details.
+. *Optional:* Click the Back arrow on your browser to return to the *Volume / Health* details page.
 +
 The initialization or update operation is finished when all job tasks successfully complete.

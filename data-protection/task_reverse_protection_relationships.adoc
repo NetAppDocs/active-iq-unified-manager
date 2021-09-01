@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/task_reverse_protection_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'When a disaster disables the source volume in your protection relationship, you can use the destination volume to serve data by converting it to a read/write volume while you repair or replace the source. When the source is again available to receive data, you can use the reverse resynchronization operation to establish the relationship in the reverse direction, synchronizing the data on the source with the data on the read/write destination.'
+keywords: reverse, protection, relationships, volume, relationships page
+summary: "When a disaster disables the source volume in your protection relationship, you can use the destination volume to serve data by converting it to a read/write volume while you repair or replace the source. When the source is again available to receive data, you can use the reverse resynchronization operation to establish the relationship in the reverse direction, synchronizing the data on the source with the data on the read/write destination."
 ---
 = Reversing protection relationships from the Volume Relationships page
 :icons: font
@@ -10,6 +10,8 @@ summary: 'When a disaster disables the source volume in your protection relation
 
 [.lead]
 When a disaster disables the source volume in your protection relationship, you can use the destination volume to serve data by converting it to a read/write volume while you repair or replace the source. When the source is again available to receive data, you can use the reverse resynchronization operation to establish the relationship in the reverse direction, synchronizing the data on the source with the data on the read/write destination.
+
+*What you'll need*
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up Workflow Automation.
@@ -23,22 +25,20 @@ When a disaster disables the source volume in your protection relationship, you 
 +
 If policies and schedules do not exist, they are created.
 
-. From the Volume Relationships page, select one or more volumes with relationships that you want to reverse, and, on the toolbar, click *Reverse Resync*.
+.Steps
+
+. From the *Volume Relationships* page, select one or more volumes with relationships that you want to reverse, and, on the toolbar, click *Reverse Resync*.
 +
 The Reverse Resync dialog box is displayed.
 
-. Verify that the relationships displayed in the Reverse Resync dialog box are the ones for which you want to perform the reverse resynchronization operation, and then click *Submit*.
+. Verify that the relationships displayed in the *Reverse Resync* dialog box are the ones for which you want to perform the reverse resynchronization operation, and then click *Submit*.
 +
 The reverse resynchronization operation is started, you are returned to the Volume Relationships page, and a jobs link is displayed at the top of the page.
 
-. Click *View Jobs* on the Volume Relationships page to track the status of each reverse resynchronization job.
+.  *Optional:* Click *View Jobs* on the *Volume Relationships* page to track the status of each reverse resynchronization job.
 +
 A filtered list of jobs related to this operation is displayed.
 
-. Click the *Back* arrow on your browser to return to the Volume Relationships page.
+.  *Optional:* Click the *Back* arrow on your browser to return to the *Volume Relationships* page.
 +
 The reverse resynchronization operation is finished when all job tasks successfully complete.
-
-*Related information*
-
-xref:reference_reverse_resync_dialog_box.adoc[Reverse Resync dialog box]

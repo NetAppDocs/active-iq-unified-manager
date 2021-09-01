@@ -1,8 +1,8 @@
 ---
 permalink: reporting/concept_report_work_flow.html
 sidebar: sidebar
-keywords: 
-summary: 'Decision tree that describes the report workflow.'
+keywords: report, workflow
+summary: "Decision tree that describes the report workflow."
 ---
 = Report workflow
 :icons: font

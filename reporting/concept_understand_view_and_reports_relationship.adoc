@@ -1,8 +1,8 @@
 ---
 permalink: reporting/concept_understand_view_and_reports_relationship.html
 sidebar: sidebar
-keywords: 
-summary: 'Views and inventory pages become reports when you download or schedule them.'
+keywords: understand, view, report, relationship
+summary: "Views and inventory pages become reports when you download or schedule them."
 ---
 = Understanding the view and report relationship
 :icons: font
