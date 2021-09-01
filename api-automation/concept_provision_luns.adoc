@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/concept_provision_luns.html
 sidebar: sidebar
-keywords: 
-summary: 'You can provision LUNs on your Storage Virtual Machines \(SVMs\) by using the provisioning APIs provided as a part of Active IQ Unified Manager. This provisioning workflow details the steps for retrieving the keys of the SVMs, Performance Service Levels, and Storage Efficiency Policies before creating the LUN.'
+keywords: provision, luns
+summary: "You can provision LUNs on your Storage Virtual Machines (SVMs) by using the provisioning APIs provided as a part of Active IQ Unified Manager. This provisioning workflow details the steps for retrieving the keys of the SVMs, Performance Service Levels, and Storage Efficiency Policies before creating the LUN."
 ---
 = Provisioning LUNs
 :icons: font
@@ -23,6 +23,7 @@ This workflow assumes that the ONTAP clusters have been added to Unified Manager
 . Obtain the SVM key for the SVM on which you want to create the LUN, as described in the _Verifying SVMs on clusters_ workflow topic.
 . Obtain the key for the Performance Service Level by running the following API and retrieving the key from the response.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -30,7 +31,7 @@ storage-provider
 a|
 GET
 a|
-/storage-provider/performance-service-levels
+`/storage-provider/performance-service-levels`
 |===
 +
 [NOTE]
@@ -40,6 +41,7 @@ You can retrieve the details of the system-defined Performance Service Levels by
 
 . Optionally, obtain the Storage Efficiency Policy key for the Storage Efficiency Policy that you want to apply on the LUN by running the following API and retrieving the key from the response.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -47,11 +49,12 @@ storage-provider
 a|
 GET
 a|
-/storage-provider/storage-efficiency-policies
+`/storage-provider/storage-efficiency-policies`
 |===
 
 . Determine if initiator groups (igroups) have been created to grant access to the LUN target that you want to create.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -59,13 +62,13 @@ datacenter
 a|
 GET
 a|
-/datacenter/protocols/san/igroups     /datacenter/protocols/san/igroups/\{key}
-+
+`/datacenter/protocols/san/igroups`     `/datacenter/protocols/san/igroups/\{key}`
 |===
 You must enter the parameter value for indicating the SVM for which the igroup has authorized access. Additionally, if you want to query a particular igroup, enter the igroup name (key) as an input parameter.
 
 . In the output, if you can find the igroup that you want to grant access to, obtain the key. Otherwise create the igroup.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -73,12 +76,13 @@ datacenter
 a|
 POST
 a|
-/datacenter/protocols/san/igroups
+`/datacenter/protocols/san/igroups`
 |===
 You must enter the details of the igroup that you want to create, as the input parameters. This is a synchronous call and you can verify the igroup creation in the output. In case of an error, a message is displayed for you to troubleshoot and rerun the API.
 
 . Create the LUN.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -86,7 +90,7 @@ storage-provider
 a|
 POST
 a|
-/storage-provider/luns
+`/storage-provider/luns`
 |===
 For creating the LUN, ensure that you have added the retrieved values as mandatory input parameters.
 +
@@ -105,6 +109,7 @@ The JSON output displays a Job object key that you can use to verify the LUN tha
 
 . Verify the LUN creation by using the Job object key returned in querying the Job:
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -112,8 +117,7 @@ management-server
 a|
 GET
 a|
-    /management-server/jobs/\{key}
-+
+`/management-server/jobs/\{key}`
 |===
 At the end of the response, you see the key of the LUN created.
 +
@@ -121,6 +125,7 @@ Wombat: Extract # 2
 
 . Verify the creation of the LUN by running the following API with the returned key:
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -128,11 +133,11 @@ storage-provider
 a|
 GET
 a|
-/storage-provider/luns/\{key}
+`/storage-provider/luns/\{key}`
 |===
 *Sample JSON output*
 +
-You can see that the POST method of /storage-provider/luns internally invokes all the APIs required for each of the functions and creates the object. For example, it invokes the /storage-provider/performance-service-levels/ API for assigning the Performance Service Level on the LUN.
+You can see that the POST method of `/storage-provider/luns` internally invokes all the APIs required for each of the functions and creates the object. For example, it invokes the `/storage-provider/performance-service-levels/` API for assigning the Performance Service Level on the LUN.
 +
 Wombat: Extract # 3
 
@@ -148,6 +153,7 @@ Follow these troubleshooting steps to work around this failure.
 
 . Create an access endpoint supporting ISCSI/FCP protocol on the SVM on which you tried creating the LUN.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -155,7 +161,7 @@ storage-provider
 a|
 POST
 a|
-/storage-provider/access-endpoints
+`/storage-provider/access-endpoints`
 |===
 *Sample cURL*
 +
@@ -170,6 +176,7 @@ Wombat: Extract # 4
 
 . Query the job with the Job object key returned in the JSON output to verify that it has run successfully to add the access endpoints on the SVM and that the iSCSI/FCP services have been enabled on the SVM.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -177,7 +184,7 @@ management-server
 a|
 GET
 a|
-/management-server/jobs/\{key}
+`/management-server/jobs/\{key}`
 |===
 *Sample JSON output*
 +
@@ -187,6 +194,7 @@ Wombat: Extract # 5
 
 . Modify the LUN to update the igroup mapping. For more information about workflow modification, see "`Modifying storage workloads`".
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -194,7 +202,7 @@ storage-provider
 a|
 PATCH
 a|
-/storage-provider/lun/\{key}
+`/storage-provider/lun/\{key}`
 |===
 In the input, specify the igroup key with which you want to update the LUN mapping, along with the LUN key.
 +
@@ -206,6 +214,7 @@ The JSON output displays a Job object key that you can use to verify whether the
 
 . Verify the LUN mapping by querying with the LUN key.
 +
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -213,26 +222,10 @@ storage-provider
 a|
 GET
 a|
-/storage-provider/luns/\{key}
+`/storage-provider/luns/\{key}`
 |===
 *Sample JSON output*
 +
 In the output you can see the LUN has been successfully mapped with the igroup (key d19ec2fa-fec7-11e8-b23d-00a098e32c28) with which it was initially provisioned.
 +
 Wombat: Extract # 7
-
-*Related information*
-
-xref:concept_verify_svm_workflow.adoc[Verifying SVMs on clusters]
-
-xref:concept_job_api.adoc[Viewing Jobs]
-
-xref:concept_manage_lun.adoc[Managing LUNs]
-
-xref:concept_manage_psl.adoc[Managing Performance Service Levels]
-
-xref:concept_manage_sep.adoc[Managing Storage Efficiency Policies]
-
-xref:concept_manage_access_endpoint.adoc[Managing access endpoints]
-
-xref:concept_data_center_apis.adoc[Managing storage objects in a data center]

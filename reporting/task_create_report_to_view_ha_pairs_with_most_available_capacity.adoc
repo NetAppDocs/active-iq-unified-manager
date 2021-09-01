@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_ha_pairs_with_most_available_capacity.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to find the high availability \(HA\) pairs with the most capacity to provision new volumes and LUNs.'
+keywords: create, report, view, HA pairs, available, capacity
+summary: "You can create a report to find the high availability (HA) pairs with the most capacity to provision new volumes and LUNs."
 ---
 = Creating a report to view HA pairs with the most available capacity
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to find the high availability \(HA\) pairs wit
 [.lead]
 You can create a report to find the high availability (HA) pairs with the most capacity to provision new volumes and LUNs.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view that displays HA pairs sorted by the most available capacity to provision new volumes and LUNs, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Clusters*.
 . In the View menu, select *Capacity* > *All Clusters*.

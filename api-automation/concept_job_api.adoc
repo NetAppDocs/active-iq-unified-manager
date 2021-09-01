@@ -1,20 +1,20 @@
 ---
 permalink: api-automation/concept_job_api.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the jobs API under the management-server category to view the execution details of asynchronous operations.'
+keywords: jobs, view
+summary: "You can use the jobs API under the management-server category to view the execution details of asynchronous operations."
 ---
 = Viewing Jobs
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the jobs API under the management-server category to view the execution details of asynchronous operations.
+You can use the `jobs` API under the `management-server` category to view the execution details of asynchronous operations.
 
 In Active IQ Unified Manager, operations, such as adding and modifying resources are performed by synchronous and asynchronous API invocations. Invocations that are scheduled for asynchronous execution can be tracked by a Job object created for that invocation. Each Job object has a unique key for identification. Each Job object returns the Job object URI for you to access and track the progress of the job. You can use this API for retrieving the details of each execution.
 
 By using this API, you can query all the Job objects for you data center, including historical data. Querying all the jobs, by default, returns the details of the last 20 jobs triggered through the web UI and API interface. Use the inbuilt filters to view specific Jobs. You can also use the Job key to query the details of a specific job and run the next set of operations on the resources.
-
+[cols="4*",options="header"]
 |===
 | Category| HTTP verb| Path| Description
 a|
@@ -22,7 +22,7 @@ management-server
 a|
 GET
 a|
-/management-server/jobs
+`/management-server/jobs`
 
 a|
 Returns the job details of all the jobs. Without any sort order, the last submitted Job object is returned on top.
@@ -31,7 +31,7 @@ management-server
 a|
 GET
 a|
-/management-server/jobs/\{key}
+`/management-server/jobs/\{key}`
 
 Enter the job key of the Job object to view the specific details of that job.
 

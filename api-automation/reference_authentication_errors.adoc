@@ -1,8 +1,8 @@
 ---
 permalink: api-automation/reference_authentication_errors.html
 sidebar: sidebar
-keywords: 
-summary: 'While running the APIs or troubleshooting issues, you should be aware of the various HTTP status codes and error codes that are used by Active IQ Unified Manager APIs.'
+keywords: http, status, code, active iq, unified manager
+summary: "While running the APIs or troubleshooting issues, you should be aware of the various HTTP status codes and error codes that are used by Active IQ Unified Manager APIs."
 ---
 = HTTP status codes used in Active IQ Unified Manager
 :icons: font
@@ -12,7 +12,7 @@ summary: 'While running the APIs or troubleshooting issues, you should be aware 
 While running the APIs or troubleshooting issues, you should be aware of the various HTTP status codes and error codes that are used by Active IQ Unified Manager APIs.
 
 The following table lists the error codes related to authentication:
-
+[cols="3*",options="header"]
 |===
 | HTTP status code| Status code title| Description
 a|
@@ -74,11 +74,5 @@ a|
 a|
 Internal server error
 a|
-Internal server error. Failed to get the response from server. This internal server error may or may not be permanent. For example, if you run a GET or GET ALL operation and receive this error, it is recommended that you repeat this operation for a minimum of five retries. If it is a permanent error, then the status code returned continues to be 500. If the operation succeeds, the status code returned is 200.
-
+Internal server error. Failed to get the response from server. This internal server error may or may not be permanent. For example, if you run a `GET` or `GET ALL` operation and receive this error, it is recommended that you repeat this operation for a minimum of five retries. If it is a permanent error, then the status code returned continues to be 500. If the operation succeeds, the status code returned is 200.
 |===
-*Related information*
-
-xref:concept_rest_api_access_and_authentication_in_um_apis.adoc[REST API access and authentication in Active IQ Unified Manager]
-
-xref:reference_recommendations_to_use_um_apis.adoc[Recommendations for using the APIs for Active IQ Unified Manager]

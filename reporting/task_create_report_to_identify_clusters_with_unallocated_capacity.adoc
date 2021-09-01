@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_identify_clusters_with_unallocated_capacity.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to find the clusters with the most unallocated LUN capacity, greater than .5 TB, to help identify where you can add additional workloads.'
+keywords: clusters, unallocated, LUN, capacity, indentify, additional, workloads
+summary: "You can create a report to find the clusters with the most unallocated LUN capacity, greater than .5 TB, to help identify where you can add additional workloads."
 ---
 = Creating a report to identify clusters with the most unallocated LUN capacity
 :icons: font
@@ -11,9 +11,12 @@ summary: 'You can create a report to find the clusters with the most unallocated
 [.lead]
 You can create a report to find the clusters with the most unallocated LUN capacity, greater than .5 TB, to help identify where you can add additional workloads.
 
+*What you'll need*
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view that displays clusters with the most unallocated LUN capacity, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Clusters*.
 . In the View menu, select *Capacity* > *All Clusters*.

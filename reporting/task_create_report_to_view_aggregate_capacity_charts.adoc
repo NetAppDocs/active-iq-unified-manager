@@ -1,8 +1,8 @@
 ---
 permalink: reporting/task_create_report_to_view_aggregate_capacity_charts.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a report to analyze storage total and committed capacity in an Excel chart format.'
+keywords: create, report, show, aggregate, total, available, capacity, charts
+summary: "You can create a report to analyze storage total and committed capacity in an Excel chart format."
 ---
 = Creating a report to show aggregate total versus available capacity charts
 :icons: font
@@ -11,9 +11,13 @@ summary: 'You can create a report to analyze storage total and committed capacit
 [.lead]
 You can create a report to analyze storage total and committed capacity in an Excel chart format.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to open a Health: All Aggregates view, download the view in Excel, create a total and committed capacity chart, upload the customized Excel file, and schedule the final report.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Aggregates*.
 . Select *Reports* > *Download Excel*.
@@ -35,8 +39,8 @@ This will arrange your data by storage type, such as:
  ** SSD
  ** SSD (FabricPool)
 
-. Select the Type, Total Data Capacity, and Available Data Capacity columns.
-. On the *Insert* menu, select a 3-D columnchart.
+. Select the `Type, Total Data Capacity,` and `Available Data Capacity` columns.
+. On the *Insert* menu, select a `3-D column` chart.
 +
 The chart appears on the data sheet.
 +
@@ -72,7 +76,7 @@ A check mark appears beside the *Reports* > *Upload Excel* menu item.
 image::../media/upload_excel.png[]
 
 . Click *Scheduled Reports*.
-. Click *Add Schedule* to add a new row to the Report Schedules page so that you can define the schedule characteristics for the new report.
+. Click *Add Schedule* to add a new row to the *Report Schedules* page so that you can define the schedule characteristics for the new report.
 +
 [NOTE]
 ====

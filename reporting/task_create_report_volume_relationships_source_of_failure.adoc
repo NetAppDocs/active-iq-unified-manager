@@ -1,7 +1,7 @@
 ---
 permalink: reporting/task_create_report_volume_relationships_source_of_failure.html
 sidebar: sidebar
-keywords: 
+keywords: create, report, group, volume, relationships, source, failure
 summary: 'You can create a report that groups volumes by the reason the relationship is in an unhealthy state.'
 ---
 = Creating a report to group volume relationships by source of failure
@@ -11,9 +11,13 @@ summary: 'You can create a report that groups volumes by the reason the relation
 [.lead]
 You can create a report that groups volumes by the reason the relationship is in an unhealthy state.
 
+*What you'll need*
+
 * You must have the Application Administrator or Storage Administrator role.
 
 Use the following steps to create a custom view that groups volumes by source of failure, and then schedule a report to be generated for that view.
+
+.Steps
 
 . In the left navigation pane, click *Storage* > *Volumes*.
 . In the View menu, select *Relationship* > *All Relationships*.

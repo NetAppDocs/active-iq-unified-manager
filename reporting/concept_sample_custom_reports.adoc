@@ -1,8 +1,8 @@
 ---
 permalink: reporting/concept_sample_custom_reports.html
 sidebar: sidebar
-keywords: 
-summary: 'These sample custom reports are commonly used to help you identify potential problems and respond to potential issues before problems occur.'
+keywords: sample, custom, reports
+summary: "These sample custom reports are commonly used to help you identify potential problems and respond to potential issues before problems occur."
 ---
 = Sample custom reports
 :icons: font
