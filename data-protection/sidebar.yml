@@ -1,7 +1,7 @@
 section: data-protection
 title: Protect and restore data
 entries:
-  - title: Creating, monitoring, and troubleshooting protection relationships
+  - title: Creating and troubleshooting protection relationships
     url: "/data-protection/concept_create_and_monitor_protection_relationships.html"
     entries:
     - title: Types of SnapMirror protection
@@ -43,6 +43,8 @@ entries:
   - title: Managing and monitoring protection relationships
     url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
     entries:
+    - title: Viewing volume protection status
+      url: "data-protection/view-protection-status.html"
     - title: Viewing volume protection relationships
       url: "/data-protection/task_view_volume_protection_relationships.html"
     - title: 'Creating a SnapVault protection relationship from the Health: All Volumes
