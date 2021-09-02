@@ -2,14 +2,14 @@
 permalink: install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html
 sidebar: sidebar
 keywords: upgrade, unified manager
-summary: "You can upgrade Unified Manager 9.7 or 9.8 to 9.9 by downloading and running the installation file on the Windows platform."
+summary: "You can upgrade Unified Manager by downloading and running the installation file on the Windows platform."
 ---
 = Upgrading Unified Manager
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade Unified Manager 9.7 or 9.8 to 9.9 by downloading and running the installation file on the Windows platform.
+You can upgrade Unified Manager 9.8 or 9.9 to 9.10 by downloading and running the installation file on the Windows platform.
 
 *What you'll need*
 
@@ -72,5 +72,5 @@ This setup will perform an upgrade of Unified Manager. Do you want to continue?
 [NOTE]
 ====
 To perform a silent upgrade of Unified Manager, run the following command:
-`ActiveIQUnifiedManager-<version\>.exe /s /v"MYSQL_PASSWORD=netapp21! /qn /l*v C:\install.log`
+`ActiveIQUnifiedManager-<version\>.exe /s /v"MYSQL_PASSWORD=<password> /qn /l*v C:\install.log`
 ====

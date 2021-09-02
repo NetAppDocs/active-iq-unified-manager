@@ -36,7 +36,7 @@ The server should be dedicated to running Unified Manager. No other applications
 The following third-party packages are bundled with Unified Manager. If these third-party packages are not installed on your system, Unified Manager installs them as a part of the installation.
 
 * Microsoft Visual C{pp} 2015 Redistributable package version 14.26.28720.3
-* Microsoft Visual C{pp} Redistributable Packages for Visual Studio 2013 version 12.0.40660
+* Microsoft Visual C{pp} Redistributable Packages for Visual Studio 2013 version 12.0.40660.0
 * MySQL Community Edition version 8.0.21
 +
 [NOTE]
@@ -44,8 +44,8 @@ The following third-party packages are bundled with Unified Manager. If these th
 The installer of Unified Manager has been restricted to support only up to MySQL Community Edition 8.0.21, due to an interoperability issue. You *must not* upgrade MySQL to a release greater than 8.0.21.
 ====
 
-* Python 3.6.x
-* OpenJDK version 11.0.9
+* Python 3.9.x
+* OpenJDK version 11.0.12
 * p7zip version 18.05 or later
 
 [NOTE]
@@ -59,7 +59,7 @@ If MySQL is pre-installed, you should ensure that:
 * The sample databases are not installed.
 * The service name is "`MYSQL8`".
 
-Unified Manager is deployed on a WildFly web server. WildFly17 is bundled and configured with Unified Manager.
+Unified Manager is deployed on a WildFly web server. WildFly 19.0.0 is bundled and configured with Unified Manager.
 
 [NOTE]
 ====

@@ -15,7 +15,7 @@ You can upgrade to a newer version of OpenJDK on the Windows server on which Uni
 
 You must have Windows admin privileges for the system on which Unified Manager is installed.
 
-You can update OpenJDK releases within release families. For example, you can upgrade from OpenJDK 11.0.7 to OpenJDK 11.0.9, but you cannot update directly from OpenJDK 11 to OpenJDK 12.
+You can update OpenJDK releases within release families. For example, you can upgrade from OpenJDK 11.0.9 to OpenJDK 11.0.12, but you cannot update directly from OpenJDK 11 to OpenJDK 12.
 
 .Steps
 
@@ -28,7 +28,7 @@ For example, download `openjdk-11_windows-x64_bin.zip from http://jdk.java.net/1
  ** NetApp Active IQ Acquisition Service (Ocie-au)
  ** NetApp Active IQ Management Server Service (Oncommandsvc)
 . Expand the `zip` file.
-. Copy the directories and files from the resulting `jdk` directory (for example, `jdk-11.0.9` to the location where Java is installed. Example: `C:\Program Files\NetApp\JDK\`
+. Copy the directories and files from the resulting `jdk` directory (for example, `jdk-11.0.12` to the location where Java is installed. Example: `C:\Program Files\NetApp\JDK\`
 . Start the Unified Manager services by using the Windows Services console:
  ** NetApp Active IQ Management Server Service (Oncommandsvc)
  ** NetApp Active IQ Acquisition Service (Ocie-au)

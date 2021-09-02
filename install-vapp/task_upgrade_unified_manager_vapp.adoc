@@ -2,14 +2,14 @@
 permalink: install-vapp/task_upgrade_unified_manager_vapp.html
 sidebar: sidebar
 keywords: upgrade, unified manager
-summary: "You can upgrade to Unified Manager 9.9 only from instances of 9.7 or 9.8."
+summary: "You can upgrade to Unified Manager on VMware vSphere"
 ---
 = Upgrading Unified Manager
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade to Unified Manager 9.9 only from instances of 9.7 or 9.8.
+You can upgrade to Unified Manager 9.10 only from release 9.8 or 9.9.
 
 During the upgrade process, Unified Manager is unavailable. You should complete any running operations before upgrading Unified Manager.
 
