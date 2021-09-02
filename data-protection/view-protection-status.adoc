@@ -35,9 +35,6 @@ The Data Protection page displays the following panels for protected volumes for
 
 The individual cluster list displays the status of the SnapMirror relationships and Snapshot protection for a specific cluster.
 
-[NOTE]
-If the bar graphs of some of your clusters are marked in red, it indicates that those clusters require attention.
-
 * *Snapshot Copies Analysis* details the following information:
 ** Individual events for Snapshot copies, including the events raised in the last 24 hours.
 **	Detailed chart for volumes protected and not protected by Snapshot copies.

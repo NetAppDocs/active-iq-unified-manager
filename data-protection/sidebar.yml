@@ -44,7 +44,7 @@ entries:
     url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
     entries:
     - title: Viewing volume protection status
-      url: "data-protection/view-protection-status.html"
+      url: "/data-protection/view-protection-status.html"
     - title: Viewing volume protection relationships
       url: "/data-protection/task_view_volume_protection_relationships.html"
     - title: 'Creating a SnapVault protection relationship from the Health: All Volumes
