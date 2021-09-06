@@ -484,4 +484,95 @@ a|
 Cluster
 a|
 Warning
+a|
+Storage VM anti-ransomware monitoring is Enabled (Active Mode)
+(antiRansomwareSvmStateEnabled)
+
+a|
+Event
+a|
+Storage VM
+a|
+Information
+a|
+Storage VM anti-ransomware monitoring is Disabled
+(antiRansomwareSvmStateDisabled)
+
+a|
+Risk
+a|
+Storage VM
+a|
+Warning
+a|
+Storage VM anti-ransomware monitoring is Enabled (Learning Mode)
+(antiRansomwareSvmStateDryrun)
+
+a|
+Event
+a|
+Storage VM
+a|
+Information
+a|
+Volume anti-ransomware monitoring is Enabled (Active Mode)
+(antiRansomwareVolumeStateEnabled)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume anti-ransomware monitoring is Disabled
+(antiRansomwareVolumeStateDisabled)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume anti-ransomware monitoring is Enabled (Learning Mode)
+(antiRansomwareVolumeStateDryrun)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume anti-ransomware monitoring is Paused (Learning Mode)
+(antiRansomwareVolumeStateDryrunPaused)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume anti-ransomware monitoring is Paused (Active Mode)
+(antiRansomwareVolumeStateEnablePaused)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume anti-ransomware monitoring is Disabling
+(antiRansomwareVolumeStateDisableInProgress)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
 |===
