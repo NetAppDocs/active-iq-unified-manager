@@ -78,4 +78,28 @@ a|
 Enabled
 a|
 No
+a|
+NIS  Authentication
+a|
+Indicates if the use of NIS authentication is configured.
+a|
+Disabled
+a|
+No
+a|
+FPolicy
+a|
+Indicates if FPolicy is created or not.
+a|
+Disabled
+a|
+Disabled
+a|
+SMB Encryption
+a|
+Indicates if SMB -Signing & Sealing is not enabled.
+a|
+Enabled
+a|
+No
 |===

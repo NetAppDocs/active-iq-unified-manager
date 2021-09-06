@@ -138,4 +138,28 @@ a|
 No Recommendations
 a|
 No
+a|
+Remote Shell (RSH)
+a|
+Indicates if RSH is enabled.
+a|
+Disabled
+a|
+Yes
+a|
+MD5 Hashed password
+a|
+Indicates if ONTAP user accounts use less-secure MD5 Hash function.
+a|
+Change the account passwords using MD5 hash function to use the SHA512 solution or delete those accounts.
+a|
+Yes
+a|
+CA-signed digital certificate
+a|
+Indicates if CA-signed digital certificate is not used.
+a|
+Install a CA-signed digital certificate for use in authenticating the cluster or storage VM as a Secure Sockets Layer (SSL) server.
+a|
+No
 |===

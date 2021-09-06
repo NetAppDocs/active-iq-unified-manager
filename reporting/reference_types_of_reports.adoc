@@ -83,5 +83,13 @@ All relationships
 Last 1 month transfer status
 
 Last 1 month transfer rate
+a|
+Security
+
+a|
+Storage VMs
+
+Clusters
+a|
 
 |===
