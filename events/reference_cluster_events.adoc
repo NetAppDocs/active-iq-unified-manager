@@ -485,4 +485,28 @@ Cluster
 a|
 Warning
 a|
+Passwords of some ONTAP user accounts use the less secure MD5 hash function(ocumClusterMD5PasswordHashUsed)
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster uses self-signed Certificate(ocumClusterSelfSignedCertificate)
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster Remote Shell is Enabled(ocumClusterRshDisabled)
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
 |===
