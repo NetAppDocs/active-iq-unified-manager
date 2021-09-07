@@ -9,7 +9,7 @@ summary: "Storage VM events provide you with information about the status of you
 :imagesdir: ../media/
 
 [.lead]
-Storage VM events provide you with information about the status of your storage VMs (SVMs) so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+Storage VM (storage virtual machine, also known as SVM) events provide you with information about the status of your storage VMs (SVMs) so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
 
 An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
 
@@ -341,4 +341,35 @@ a|
 SVM
 a|
 Warning
+a|
+Storage VM anti-ransomware monitoring is Enabled (Active Mode)
+(antiRansomwareSvmStateEnabled)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+Storage VM anti-ransomware monitoring is Disabled
+(antiRansomwareSvmStateDisabled)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+Storage VM anti-ransomware monitoring is Enabled (Learning Mode)
+(antiRansomwareSvmStateDryrun)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
 |===
