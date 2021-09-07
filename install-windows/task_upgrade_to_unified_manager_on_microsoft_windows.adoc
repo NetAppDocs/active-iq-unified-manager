@@ -72,5 +72,5 @@ This setup will perform an upgrade of Unified Manager. Do you want to continue?
 [NOTE]
 ====
 To perform a silent upgrade of Unified Manager, run the following command:
-`ActiveIQUnifiedManager-<version\>.exe /s /v"MYSQL_PASSWORD=<password> /qn /l*v C:\install.log`
+`ActiveIQUnifiedManager-<version\>.exe /s /v"MYSQL_PASSWORD=<password> /qn /l*v <system_drive>:\install.log"`
 ====

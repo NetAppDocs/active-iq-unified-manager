@@ -66,8 +66,10 @@ entries:
       url: "/config/concept_active_iq_platform_events.html"
     - title: Security Dashboard
       url: "/config/concept_security_dashboard.html"
-    - title: Enabling and disabling scripts upload
+    - title: Script upload
       url: "/config/task_enable_and_disable_ability_to_upload_scripts.html"
+    - title: Login banner
+      url: "/config/concept_login_banner.html" 
   - title: Using the maintenance console
     url: "/config/task_use_maintenance_console.html"
     entries:
