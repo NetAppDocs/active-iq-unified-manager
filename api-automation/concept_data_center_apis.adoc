@@ -162,22 +162,15 @@ a|
 a|
 You can use these methods to view, create, delete, and modify Storage Virtual Machines (storage VMs).
 
-Points to note:
-
 * `POST:` You must enter the storage VM object that you want to create as an input parameter. You can create a custom storage VM, and then assign required properties to it.
-+
-[NOTE]
-====
-If you have enabled SLO-based workload provisioning on your environment, while creating the storage VM, ensure that it supports all of the protocols required for provisioning LUNs and file shares on them, for example, CIFS or SMB, NFS, FCP, and iSCSI. The provisioning workflows might fail if the storage VM does not support the required services. It is recommended that the services for the respective types of workloads are also enabled on the storage VM.
-====
-
 * `DELETE:` You need to provide the storage VM key to delete a particular storage VM.
-+
-[NOTE]
-====
-If you have enabled SLO-based workload provisioning on your environment, you cannot delete that storage VM on which storage workloads have been provisioned. When you delete a storage VM on which a CIFS or SMB server has been configured, this API also deletes the CIFS or SMB server, along with the local Active Directory configuration. However, the CIFS or SMB server name continues to be in the Active Directory configuration that you must delete manually from the Active Directory server.
-====
-
 * `PATCH:` You need to provide the storage VM key to modify a particular storage VM. You also need to enter the properties that you want to update, along with their values.
 
 |===
+
+[NOTE]
+Points to note:
+
+If you have enabled SLO-based workload provisioning on your environment, while creating the storage VM, ensure that it supports all of the protocols required for provisioning LUNs and file shares on them, for example, CIFS or SMB, NFS, FCP, and iSCSI. The provisioning workflows might fail if the storage VM does not support the required services. It is recommended that the services for the respective types of workloads are also enabled on the storage VM.
+
+If you have enabled SLO-based workload provisioning on your environment, you cannot delete that storage VM on which storage workloads have been provisioned. When you delete a storage VM on which a CIFS or SMB server has been configured, this API also deletes the CIFS or SMB server, along with the local Active Directory configuration. However, the CIFS or SMB server name continues to be in the Active Directory configuration that you must delete manually from the Active Directory server.
