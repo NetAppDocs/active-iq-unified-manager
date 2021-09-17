@@ -21,7 +21,7 @@ You use filters to view the storage VM disaster recovery relationships.
 
 . In the left navigation pane, click *PROTECTION* > *Relationships*.
 +
-The page displays all type of relationships: volume and storage VM relationships.
+The page displays all type of relationships: volume, consistency group, and storage VM relationships.
 
 . Click *Filter*, and then select *Relationship Object Type* and *Storage VM* to view only storage VM disaster recovery relationships.
 . Click *Apply Filter*.
