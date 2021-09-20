@@ -43,7 +43,7 @@ Displays the name of the destination volume or storage VM based on your selectio
 
 * *Relationship Object Type*
 +
-Displays the type of object used in the relationship.
+Displays the type of object used in the relationship. You can view Consistency Group as one of the types of relationship.
 
 * *Policy*
 +
@@ -241,15 +241,17 @@ Displays the name of the source cluster for the SnapMirror relationship.
 
 * *Source Node*
 +
-Displays the name of the source node name link for the SnapMirror relationship of a volume and displays the SnapMirror relationship node count link when the object is a Storage VM.
+Displays the name of the source node name link for the SnapMirror relationship of a volume and displays the SnapMirror relationship node count link when the object is a Storage VM or Consistency Group.
+
+In the custom view, when you click the node name link, you can view and extend protection for storage objects on which the volumes of those Consistency Groups that belong to SM-BC relationship.
 +
-When you click the node count link, it takes you to the node page with respective nodes associated with that relationships. When the node count is 0, there is no value displayed as there are no nodes associated with the relationship.
+When you click the node count link, it takes you to the node page with respective nodes associated with that relationship. When the node count is 0, there is no value displayed as there are no nodes associated with the relationship.
 
 * *Destination Node*
 +
-Displays the name of the destination node name link for the SnapMirror relationship of a volume and displays the SnapMirror relationship node count link when the object is a Storage VM.
+Displays the name of the destination node name link for the SnapMirror relationship of a volume and displays the SnapMirror relationship node count link when the object is a Storage VM or Consistency Group.
 +
-When you click the node count link, it takes you to the node page with respective nodes associated with that relationships. When the node count is 0, there is no value displayed as there are no nodes associated with the relationship.
+When you click the node count link, it takes you to the node page with respective nodes associated with that relationship. When the node count is 0, there is no value displayed as there are no nodes associated with the relationship.
 
 * *Destination Cluster*
 +
@@ -258,3 +260,14 @@ Displays the name of the destination cluster for the SnapMirror relationship.
 * *Destination Cluster FQDN*
 +
 Displays the FQDN, short name, or IP address of the destination cluster for the SnapMirror relationship.
+
+* *Protected By*
++
+Displays the different relationships. In this column, you can view volume and consistency group relationships for clusters and storage virtual machines order, including:
+
+ ** SnapMirror
+ ** Storage VM DR
+ ** SnapMirror, Storage VM DR
+ ** Consistency Group
+ ** SnapMirror, Consistency Group.
+You can view volumes enabled with SnapMirror Business Continuity (SM-BC) consistency group and the synchronous consistency group relationship as well.
