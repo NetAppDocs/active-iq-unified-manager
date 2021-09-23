@@ -43,7 +43,7 @@ Displays the name of the destination volume or storage VM based on your selectio
 
 * *Relationship Object Type*
 +
-Displays the type of object used in the relationship. You can view Consistency Group as one of the types of relationship.
+Displays the type of object used in the relationship, such as storage VM, volume, and Consistency Group. For objects in a Consistency Relationship, the relationship source and destinations display the Consistency Group, and clicking them takes you to the LUNs page to view the relationship.
 
 * *Policy*
 +

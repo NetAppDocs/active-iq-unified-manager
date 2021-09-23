@@ -26,7 +26,9 @@ On enabling this feature, you can customize the settings for compliance monitori
 
 [NOTE]
 ====
-The security parameters that you enable or disable will directly affect the default view of the security grid.
+The security parameters that you enable or disable will directly affect the default view, report, and scheduled report on the default view of the security grid.
+
+
 ====
 . To enable or disable the custom settings for your ONTAP clusters, expand the *General Settings* selection for Clusters. For information on the options for customizing cluster compliance, see _Cluster compliance categories_ in the _Workflow Guide for Managing Cluster Health_.
 . To enable or disable the custom settings for your storage VMs, expand the *General Settings* selection for Storage VMs. For information on the options for customizing storage VM compliance, see _Storage VM compliance categories_ in the _Workflow Guide for Managing Cluster Health_.

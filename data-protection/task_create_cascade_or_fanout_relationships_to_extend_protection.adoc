@@ -11,7 +11,7 @@ summary: "You can extend protection from an existing relationship by creating ei
 [.lead]
 You can extend protection from an existing relationship by creating either a fanout from the source volume or a cascade from the destination volume of an existing relationship. You might do this when you need to copy data from one site to many sites or to provide additional protection by creating more backups.
 
-You can extend protection to volumes using consistency group, which is a container that holds several volumes so that you can manage all of the volumes as one entity. You can view the SM-BC consistency group and the synchronous consistency group relationship in the Relationships page of Unified Manager.
+You can extend protection to volumes using consistency group, which is a container that holds several volumes so that you can manage all of the volumes as one entity. You can view the SnapMirror Business Continuity (SM-BC) Consistency Group and the synchronous consistency group relationship in the Relationships page of Unified Manager.
 
 
 *What you'll need*
