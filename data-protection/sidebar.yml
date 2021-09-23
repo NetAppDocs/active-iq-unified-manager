@@ -48,15 +48,15 @@ entries:
     - title: Viewing volume protection relationships
       url: "/data-protection/task_view_volume_protection_relationships.html"
     - title: Monitoring LUNs in a Consistency Group relationship
-      url: "/data-protection/view-lun-relationships.html"  
+      url: "/data-protection/view-lun-relationships.html"
     - title: Creating a SnapVault protection relationship from the Health: All Volumes
-        view'
+        view
       url: "/data-protection/task_create_snapvault_protection_relationship.html"
     - title: Creating a SnapVault protection relationship from the Volume / Health
         details page
       url: "/data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html"
     - title: Creating a SnapMirror protection relationship from the Health: All Volumes
-        view'
+        view
       url: "/data-protection/task_create_snapmirror_relationship_from_health_volumes.html"
     - title: Creating a SnapMirror protection relationship from the Volume / Health
         details page
@@ -205,9 +205,9 @@ entries:
         url: "/data-protection/reference_select_source_snapshot_copy_dialog_box.html"
       - title: Reverse Resync dialog box
         url: "/data-protection/reference_reverse_resync_dialog_box.html"
-      - title: 'Relationship: All Relationships view'
+      - title: Relationship: All Relationships view
         url: "/data-protection/reference_relationship_all_relationships_view.html"
-      - title: 'Relationship: Last 1 month Transfer Status view'
+      - title: Relationship: Last 1 month Transfer Status view
         url: "/data-protection/reference_relationship_last_1_month_transfer_status_view.html"
-      - title: 'Relationship: Last 1 month Transfer Rate view'
+      - title: Relationship: Last 1 month Transfer Rate view
         url: "/data-protection/reference_relationship_last_1_month_transfer_rate_view.html"
