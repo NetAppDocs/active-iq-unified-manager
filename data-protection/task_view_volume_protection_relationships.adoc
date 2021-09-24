@@ -9,7 +9,7 @@ summary: "From the Relationship: All Relationships view, and from the Volume Rel
 :imagesdir: ../media/
 
 [.lead]
-From the Relationship: All Relationships view, and from the Volume Relationships page, you can view the status of existing volume SnapMirror and SnapVault relationships. You can also examine details about protection relationships, including protected by, transfer and lag status, source and destination details, schedule and policy information, and so on.
+From the Relationship: All Relationships view, and from the Volume Relationships page, you can view the status of existing volume SnapMirror and SnapVault relationships. You can also examine details about protection relationships, including protected by consistency group, transfer and lag status, source and destination details, schedule and policy information, and so on.
 
 *What you'll need*
 

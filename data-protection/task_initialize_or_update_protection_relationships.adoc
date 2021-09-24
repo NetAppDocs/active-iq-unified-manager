@@ -20,7 +20,7 @@ From the Volume Relationships page, you can perform a first-time baseline transf
 
 . From the *Volume Relationships* page, right-click a volume and select one or more volumes with relationships that you want to update or initialize, and then, on the toolbar, click *Initialize/Update*.
 +
-The Initialize/Update dialog box is displayed.
+The *Initialize/Update* dialog box is displayed.
 
 . In the *Transfer Options* tab, select a transfer priority and the maximum transfer rate.
 . Click *Source Snapshot Copies*; then, in the *Snapshot Copy* column, click *Default*.
@@ -30,7 +30,7 @@ The Select Source Snapshot Copy dialog box is displayed.
 . If you want to specify an existing Snapshot copy rather than transferring the default Snapshot copy, click *Existing Snapshot Copy* and select a Snapshot copy from the list.
 . Click *Submit*.
 +
-You are returned to the Initialize/Update dialog box.
+You are returned to the *Initialize/Update* dialog box.
 
 . If you selected more than one source to initialize or update, click *Default* for the next source for which you want to specify an existing Snapshot copy.
 . Click *Submit* to begin the initialization or update job.
