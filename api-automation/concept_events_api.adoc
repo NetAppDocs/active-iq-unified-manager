@@ -18,7 +18,7 @@ By running the `GET` method for the `/management-server/events` API, you can que
 
 By running the PATCH operation for this API, you can enable the resolution workflow for the event. You can assign and unassigned event to yourself or another user and acknowledge the receipt of the event. On performing the steps on the resources to resolve the issue that triggered the event, you can use this API to mark the event as resolved.
 
-For more information about events, see link:../concept_what_event_management_system_events_are.html[What events are]
+For more information about events, see link:../events/concept_what_event_management_system_events_are.html[What events are]
 
 [cols="4*",options="header"]
 |===
@@ -29,7 +29,6 @@ a|
 GET
 a|
 `/management-server/events`
-
 a|
 The response body consists of the event details of the queried events in that data center.
 a|
