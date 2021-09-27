@@ -18,7 +18,7 @@ By running the `GET` method for the `/management-server/events` API, you can que
 
 By running the PATCH operation for this API, you can enable the resolution workflow for the event. You can assign and unassigned event to yourself or another user and acknowledge the receipt of the event. On performing the steps on the resources to resolve the issue that triggered the event, you can use this API to mark the event as resolved.
 
-For more information about events, see link:../events/concept_manage_events.html[Managing events]
+For more information about events, see link:../concept_what_event_management_system_events_are.html[What events are]
 
 [cols="4*",options="header"]
 |===
@@ -52,9 +52,9 @@ Run this API to assign an event or change the state to acknowledged or resolved.
 
 == Managing alerts
 
-Events are automatically and continuously generated. Unified Manager generates an alert only when an event meets certain filter criteria. You can select the events for which alerts should be generated. By using the `/management-server/alerts` API, you can configure alerts to send notifications automatically when specific events or events of certain severity types occur. By using the `/management-server/scripts` API, you can also associate an alert with a script that is executed when an alert is triggered.
+Events are automatically and continuously generated. Unified Manager generates an alert only when an event meets certain filter criteria. You can select the events for which alerts should be generated. By using the `/management-server/alerts` API, you can configure alerts to send notifications automatically when specific events or events of certain severity types occur.
 
-For more information about events, see link:../events/concept_manage_alerts.html[Managing alerts]
+For more information about events, see link:../events/concept_what_alerts_are.html[What alerts are]
 
 [cols="4*",options="header"]
 |===
@@ -76,11 +76,6 @@ a|
 `/management-server/alerts`
 a|
 These method enables you to add alerts for specific events. You must add the alert name, the physical or logical resource, or event on which the alert is applicable, whether the alert is enabled, and whether you are issuing SNMP traps. You can add additional details for which you want to generate the alert, such as the action, notification email ID, the script details, in case you are adding an alert script, and so forth.
-
-[NOTE]
-Selecting a cluster as the resource does not automatically select the storage objects
-within that cluster. For example, if you create an alert for all critical events for all clusters you will receive alerts only for cluster critical events. You will not receive alerts for critical events on nodes, aggregates, and so forth.
-
 a|
 management-server
 a|
@@ -93,10 +88,13 @@ You can use these methods to modify and delete specific alerts. You can modify d
 You can delete an alert when the alert is no longer required.
 |===
 
+[NOTE]
+While selecting a resource for adding an alert, note that selecting a cluster as the resource does not automatically select the storage objects within that cluster. For example, if you create an alert for all the critical events for all clusters, you will receive alerts only for cluster critical events. You will not receive alerts for critical events on nodes, aggregates, and so forth.
+
 == Managing scripts
 
-You can use scripts to automatically modify or update multiple storage objects in Unified
-Manager. The script is associated with an alert. When an event triggers an alert, the script is executed. You can upload custom scripts and test their execution when an alert is generated. You can associate an alert with your script so that the script is executed when an alert is raised for an event in Unified Manager.
+By using the `/management-server/scripts` API, you can also associate an alert with a script that is executed when an alert is triggered.
+You can use scripts to automatically modify or update multiple storage objects in Unified Manager. The script is associated with an alert. When an event triggers an alert, the script is executed. You can upload custom scripts and test their execution when an alert is  generated. You can associate an alert with your script so that the script is executed when an alert is raised for an event in Unified Manager.
 
 For more information about scripts and using them, see link:../events/concept_how_scripts_work_with_alerts.html[How scripts work with alerts]
 

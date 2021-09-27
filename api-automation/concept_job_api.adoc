@@ -56,4 +56,5 @@ a|
 
 a|
 No input parameter is required for running this API. The system details of the current Unified Manager instance are returned by default.
+
 |===
