@@ -117,7 +117,7 @@ Cluster
 a|
 Warning
 a|
-Cluster user password changed(cluster.passwd.changed)
+Cluster user password changed * (cluster.passwd.changed)
 
 a|
 Event
