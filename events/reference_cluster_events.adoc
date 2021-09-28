@@ -116,6 +116,15 @@ a|
 Cluster
 a|
 Warning
+a|
+Cluster user password changed(cluster.passwd.changed)
+
+a|
+Event
+a|
+Cluster
+a|
+Information
 |===
 
 == Impact area: capacity
