@@ -42,7 +42,7 @@ The individual cluster list displays the status of the SnapMirror relationships 
 ** Break-up of the volume counts in terms of the number of their Snapshot copies. The number of Snapshot copies returned is for only the volumes that are online and available.
 *	*SnapMirror Analysis* details the following information:
 **	Individual events raised for SnapMirror relationships, including the events raised in the last 24 hours
-**	The number of volumes protected by each of the SnapMirror policies, such as, volume SnapMirror relationships, storage VM disaster recovery (SVM-DR), and their combinations. The count includes the number of volumes with sources and destinations on the same or different clusters. For the calculations, the count at the source is considered.
+**	The number of volumes protected by each of the SnapMirror policies, such as, volume SnapMirror relationships, storage VM disaster recovery (SVM-DR), and their combinations. The count includes the number of volumes with sources and destinations on the same or different clusters. For the calculations, the count at the source volume, which is enabled for reading and writing, is considered.
 **	The number of volumes protected by the SnapMirror relationship types, such as Asynchronous Mirror, Asynchronous Vault, Asynchronous MirrorVault, StrictSync, SnapMirror Business Continuity (SMBC) consistency group, and Sync.
-**	The number of volumes with healthy or unhealthy relationship status.
+**	The number of volumes with healthy or unhealthy relationship status. A volume is considered healthy only if all its SnapMirror relationships are healthy.
 **	Break-up of the volume counts by the rate of their recovery point objective (RPO) lag duration.

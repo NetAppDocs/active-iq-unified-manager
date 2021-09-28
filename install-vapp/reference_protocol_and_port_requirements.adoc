@@ -96,6 +96,10 @@ a|
 443/TCP
 a|
 Used to monitor and manage storage systems.
+
+[NOTE]
+If you are using this port, or any other port to connect to the VMware vCenter Server or ESXi server, ensure that the port is available and can be connected in a secured site.  
+
 a|
 Storage system
 a|
