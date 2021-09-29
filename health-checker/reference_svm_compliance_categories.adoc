@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage vm, compliance, svm compliance, categories
 summary: "This table describes the storage virtual machine (SVM) security compliance criteria that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the SVM being complaint or not complaint."
 ---
-= SVM compliance categories
+= Storage VM compliance categories
 :icons: font
 :imagesdir: ../media/
 
