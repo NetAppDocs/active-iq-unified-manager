@@ -307,13 +307,13 @@ Retrieves the high-level performance metrics for all the FC ports in your data c
 a|
 `GET`
 a|
-``/datacenter/network/ip/interfaces/{key}/metrics`
+`/datacenter/network/ip/interfaces/{key}/metrics`
 a|
 Retrieves the performance metrics for a network IP interface as specified by the input parameter of the interface key. When an interval (time range) is provided from the supported range, the API returns information, such as the number of samples, accumulated counters, throughput, and the number of packets received and transmitted.
 a|
 `GET`
 a|
-``/datacenter/network/ip/interfaces/analytics`
+`/datacenter/network/ip/interfaces/analytics`
 a|
 Retrieves the high-level performance metrics for all the network IP interfaces in your data center environment. Information, such as the cluster and IP interface key and UUID, throughput, IOPS, and latency is returned. You can filter the result by the available parameters, such as the cluster and IP interface name and UUID, IOPS, latency, throughput, and so forth.
 
