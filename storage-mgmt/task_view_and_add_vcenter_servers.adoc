@@ -23,7 +23,7 @@ Before adding or viewing vCenter Servers, ensure the following:
 For more information, see "`Data Collection Levels`" section of _vSphere Monitoring and Performance Guide_ in VMware documentation.
 
 * The latency values in vCenter Server are configured in milliseconds, and not in microseconds, for successful calculations of the latency values.
-* In case you are adding FQDN, ensure that the domain name can be resolved by the Unified Manager server. For example, for a Linux installation, ensure that the domain name is added in the ``/etc/resolv.conf` file.
+* While adding the datastore to vCenter Server, you can use both the IP address of the host or the fully qualified domain name (FQDN). In case you are adding FQDN, ensure that the domain name can be resolved by the Unified Manager server. For example, for a Linux installation, ensure that the domain name is added in the ``/etc/resolv.conf` file.
 * The current time of vCenter Server is in sync with the vCenter Server time zone.
 * vCenter Server is reachable for a successful discovery.
 

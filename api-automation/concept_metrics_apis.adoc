@@ -9,7 +9,7 @@ summary: "Active IQ Unified Manager provides you with a set of APIs under the /d
 :imagesdir: ../media/
 
 [.lead]
-Active IQ Unified Manager provides you with a set of APIs under the `/datacenter` category that enable you to view the performance data of your clusters and storage objects in a data center. These APIs retrieve the performance data of the different storage objects, such as clusters, nodes, LUNs, volumes, aggregates, and storage VMs.
+Active IQ Unified Manager provides you with a set of APIs under the `/datacenter` category that enable you to view the performance data of your clusters and storage objects in a data center. These APIs retrieve the performance data of the different storage objects such as clusters, nodes, LUNs, volumes, aggregates, storage VMs, FC interfaces, FC ports, Ethernet ports, and IP interfaces.
 
 The `/metrics` and `/analytics` APIs give different views of the performance metrics, using which, you can drill down to different levels of details for the following storage objects in your data center:
 
@@ -22,6 +22,7 @@ The `/metrics` and `/analytics` APIs give different views of the performance met
 * FC interfaces
 * FC ports
 * Ethernet ports
+* IP interfaces
 
 
 The following table draws a comparison between the `/metrics` and `/analytics` APIs with respect to the particulars of the performance data retrieved.
@@ -35,15 +36,15 @@ Performance details for multiple objects of the same type in a data center. For 
 a|
 Performance metrics sample for a storage object based on the time interval parameter for retrieval.
 a|
-High-level aggregated value of performance for a certain type of storage object for a certain period (above 72 hours).
+The high-level aggregated value of performance for a certain type of storage object for a certain period (above 72 hours).
 a|
 Basic details of the object are retrieved, such as details of a node or cluster.
 a|
 No specific details are retrieved.
 a|
-Accumulated counters, such as, minimum, maximum, 95th percentile, and the average performance values over a period of time are retrieved for a single object, such as, read, write, total, and other counters. For example, the `/datacenter/cluster/nodes/\{key}/metrics` API retrieves the following details (among others) for a node :
+Accumulated counters, such as minimum, maximum, 95th percentile, and the average performance values over a period of time are retrieved for a single object, such as read, write, total, and other counters. For example, the `/datacenter/cluster/nodes/\{key}/metrics` API retrieves the following details (among others) for a node :
 [NOTE]
-The 95 percentile in the summary value indicates that 95% of the samples collected for the period has a counter value less than the value specified as the 95 percentile.
+The 95 percentile in the summary value indicates that 95% of the samples collected for the period have a counter value less than the value specified as the 95 percentile.
 
 ----
 {
@@ -175,7 +176,7 @@ Available values : 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1m, 2m, 3m, 6m
 Default value : 1h
 
 a|
-Above 72 hours, that is 3 days. The duration over which this sample is calculated are represented in the ISO-8601 standard format.
+Above 72 hours. The duration over which this sample is calculated are represented in the ISO-8601 standard format.
 |===
 The following table describes the `/metrics` and `/analytics` APIs in details.
 
@@ -192,7 +193,7 @@ a|
 `/datacenter/cluster/clusters/\{key}/metrics`
 
 a|
-Retrieves performance data (sample and summary) for a cluster specified by the input parameter of the cluster key. Information, such as the cluster key and UUID, time range, IOPS, throughput, and number of samples is returned.
+Retrieves performance data (sample and summary) for a cluster specified by the input parameter of the cluster key. Information, such as the cluster key and UUID, time range, IOPS, throughput, and the number of samples is returned.
 
 a|
 `GET`
@@ -269,12 +270,12 @@ a|
 a|
 `/datacenter/network/ethernet/ports/{key}/metrics`
 a|
-Retrieves the performance metrics for a specific ethernet port specified by the input parameter of the port key. When an interval (time range) is provided from the supported range, the API returns the accumulated counters, such as, minimum, maximum, and the average performance values over the period of time.
+Retrieves the performance metrics for a specific ethernet port specified by the input parameter of the port key. When an interval (time range) is provided from the supported range, the API returns the accumulated counters, such as minimum, maximum, and the average performance values over the period of time.
 
 a|
 `GET`
 a|
-`/datacenter/network/ethernet/ports/{key}/analytics`
+`/datacenter/network/ethernet/ports/analytics`
 a|
 Retrieves the high-level performance metrics for all the ethernet ports in your data center environment. Information, such as the cluster and node key and UUID, throughput, period of collection, and utilization percent for the ports is returned. You can filter the result by the available parameters, such as the port key, utilization percent, cluster and node name and UUID, and so forth.
 
@@ -283,12 +284,12 @@ a|
 a|
 ``/datacenter/network/fc/interfaces/{key}/metrics`
 a|
-Retrieves the performance metrics for a specific network FC interface specified by the input parameter of the interface key. When an interval (time range) is provided from the supported range, the API returns the accumulated counters, such as, minimum, maximum, and the average performance values over the period of time.
+Retrieves the performance metrics for a specific network FC interface specified by the input parameter of the interface key. When an interval (time range) is provided from the supported range, the API returns the accumulated counters, such as minimum, maximum, and the average performance values over the period of time.
 
 a|
 `GET`
 a|
-`/datacenter/network/fc/interfaces/{key}/analytics`
+`/datacenter/network/fc/interfaces/analytics`
 a|
 Retrieves the high-level performance metrics for all the ethernet ports in your data center environment. Information, such as the cluster and FC interface key and UUID, throughput, IOPS, latency, and storage VM is returned. You can filter the result by the available parameters, such as the cluster and FC interface name and UUID, storage VM, throughput, and so forth.
 
@@ -296,12 +297,25 @@ a|`GET`
 a|
 ``/datacenter/network/fc/ports/{key}/metrics`
 a|
-Retrieves the performance metrics for a specific FC port specified by the input parameter of the port key. When an interval (time range) is provided from the supported range, the API returns the accumulated counters, such as, minimum, maximum, and the average performance values over the period of time.
+Retrieves the performance metrics for a specific FC port specified by the input parameter of the port key. When an interval (time range) is provided from the supported range, the API returns the accumulated counters, such as minimum, maximum, and the average performance values over the period of time.
 a|
 `GET`
 a|
-`/datacenter/network/fc/ports/{key}/analytics`
+`/datacenter/network/fc/ports/analytics`
 a|
 Retrieves the high-level performance metrics for all the FC ports in your data center environment. Information, such as the cluster and node key and UUID, throughput, period of collection, and utilization percent for the ports is returned. You can filter the result by the available parameters, such as the port key, utilization percent, cluster and node name and UUID, and so forth.
+a|
+`GET`
+a|
+``/datacenter/network/ip/interfaces/{key}/metrics`
+a|
+Retrieves the performance metrics for a network IP interface as specified by the input parameter of the interface key. When an interval (time range) is provided from the supported range, the API returns information, such as the number of samples, accumulated counters, throughput, and the number of packets received and transmitted.
+a|
+`GET`
+a|
+``/datacenter/network/ip/interfaces/analytics`
+a|
+Retrieves the high-level performance metrics for all the network IP interfaces in your data center environment. Information, such as the cluster and IP interface key and UUID, throughput, IOPS, and latency is returned. You can filter the result by the available parameters, such as the cluster and IP interface name and UUID, IOPS, latency, throughput, and so forth.
+
 
 |===
