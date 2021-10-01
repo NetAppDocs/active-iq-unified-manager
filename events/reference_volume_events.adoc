@@ -320,6 +320,24 @@ a|
 Volume
 a|
 Information
+a|
+FlexGroup Volume Is Over 80% Utilized
+
+a|
+Risk
+a|
+Volume
+a|
+Error
+a|
+FlexGroup Volume Is Over 90% Utilized
+
+a|
+Risk
+a|
+Volume
+a|
+Error
 |===
 
 == Impact area: configuration
@@ -660,4 +678,13 @@ Volume
 a|
 Warning
 a|
+Ransomware Activity Seen
+(callHomeRansomwareActivitySeen)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
 |===

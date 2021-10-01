@@ -47,7 +47,7 @@ Displays the type of object used in the relationship, such as storage VM, volume
 
 * *Policy*
 +
-Displays the name of the protection policy for the volume. You can click the policy name to view details associated with that policy, including the following information:
+Displays the name of the protection policy for SnapMirror relationship. You can click the policy name to view details associated with that policy, including the following information:
 
  ** Transfer Priority
 +
@@ -270,4 +270,3 @@ Displays the different relationships. In this column, you can view volume and co
  ** SnapMirror, Storage VM DR
  ** Consistency Group
  ** SnapMirror, Consistency Group.
-You can view volumes enabled with SnapMirror Business Continuity (SM-BC) consistency group and the synchronous consistency group relationship as well.
