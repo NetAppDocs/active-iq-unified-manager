@@ -321,7 +321,7 @@ Volume
 a|
 Information
 a|
-FlexGroup Volume Is Over 80% Utilized
+FlexGroup Volume Is Over 80% Utilized(fgSpaceMemberNearlyFull)
 
 a|
 Risk
@@ -330,7 +330,7 @@ Volume
 a|
 Error
 a|
-FlexGroup Volume Is Over 90% Utilized
+FlexGroup Volume Is Over 90% Utilized(fgSpaceMemberFull)
 
 a|
 Risk
