@@ -312,7 +312,7 @@ Volume
 a|
 Error
 a|
-WAFL Volume AutoSize Done * (waflVolAutoSizeDone)
+WAFL Volume AutoSize Done *(waflVolAutoSizeDone)
 
 a|
 Event
@@ -321,23 +321,23 @@ Volume
 a|
 Information
 a|
-FlexGroup Volume Is Over 80% Utilized(fgSpaceMemberNearlyFull)
+FlexGroup Volume Is Over 80% Utilized *(fgSpaceMemberNearlyFull)
 
 a|
-Risk
+Incident
 a|
 Volume
 a|
 Error
 a|
-FlexGroup Volume Is Over 90% Utilized(fgSpaceMemberFull)
+FlexGroup Volume Is Over 90% Utilized *(fgSpaceMemberFull)
 
 a|
-Risk
+Incident
 a|
 Volume
 a|
-Error
+Critical
 |===
 
 == Impact area: configuration
