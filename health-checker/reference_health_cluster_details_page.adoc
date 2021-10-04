@@ -170,7 +170,7 @@ Displays the estimated number of days remaining before the aggregate reaches ful
 
 == Configuration tab
 
-Displays details about the selected cluster, such as IP address, serial number, contact, and location:
+Displays details about the selected cluster, such as IP address, contact, and location:
 
 * *Cluster Overview*
  ** Management Interface
@@ -189,11 +189,7 @@ Displays the fully qualified domain name (FQDN) of the cluster.
 +
 Displays the ONTAP version that the cluster is running. If the nodes in the cluster are running different versions of ONTAP, then the earliest ONTAP version is displayed.
 
- ** Serial Number
-+
-Displays the serial number of the cluster.
-
- ** Contact
+  ** Contact
 +
 Displays details about the administrator whom you should contact in case of issues with the cluster.
 
@@ -216,11 +212,7 @@ Displays the name of the remote cluster. You can click the cluster name to navig
 +
 Displays the FQDN, short name, or IP address of the remote cluster.
 
- ** Serial Number
-+
-Displays the serial number of the remote cluster.
-
- ** Location
+  ** Location
 +
 Displays the location of the remote cluster.
 
@@ -396,7 +388,7 @@ You can view information about the availability of the HA pair and take required
 
 You can view a list of the events related to the HA pair and its environment, such as fans, power supplies, NVRAM battery, flash cards, service processor, and connectivity of disk shelves. You can also view the time when the events were triggered.
 
-You can view other node-related information, such as the model number and the serial number.
+You can view other node-related information, such as the model number.
 
 If there are single-node clusters, you can also view details about the nodes.
 

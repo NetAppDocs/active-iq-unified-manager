@@ -38,7 +38,6 @@ The object types you can search for include:
 Entering a workload name returns the list of workloads under the appropriate Volumes or LUNs category.
 
 You can click any object in the search results to navigate to the Health details page for that object. If there is no direct health page for an object, then the Health page of the parent object is displayed. For example, when searching for a specific LUN, the SVM details page on which the LUN resides is displayed.
-You can search the Consistency Group (CG) relationships from the global search box.
 
 [NOTE]
 ====

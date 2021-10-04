@@ -21,12 +21,15 @@ You can extend protection to volumes using consistency group, which is a contain
 
 .Steps
 
-. Click *Protection* > *Volume Relationships*.
+. Click *Protection* > *Relationships*.
+Alternatively, you view the relationships from the Volume details page.
 . From the *Volume Relationships* page, select the SnapMirror relationship from which you want to extend protection.
 . On the action bar, click *Extend Protection*.
 . In the menu, select either *From Source* or *From Destination*, depending on whether you are creating a fanout relationship from the source or a cascade relationship from the destination.
-. Select either *With SnapMirror*, *With SnapVault*, or *Consistency Group* depending on the type of protection relationship you are creating.
+. Select either *With SnapMirror* or *With SnapVault* depending on the type of protection relationship you are creating.
 +
 The *Configure Protection* dialog box is displayed.
+
+*Note* This can be achieved from the unified relationship / Volume Relationship and Volume / Health details page.
 
 . Complete the information as indicated in the *Configure Protection* dialog box.

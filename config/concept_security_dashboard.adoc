@@ -24,12 +24,22 @@ On enabling this feature, you can customize the settings for compliance monitori
 
 . Click *Customize*. The Customize Security Dashboard Settings pop-up appears.
 
++
+
 [NOTE]
 ====
+<<<<<<< HEAD
 The security compliance parameters that you enable or disable can directly affect the default view, reports, and scheduled reports on the Clusters and Storage VMs screens. If you had uploaded an excel report from these screens before modifying the security parameters, the downloaded excel reports might be faulty.
 ====
 
 . To enable or disable the custom settings for your ONTAP clusters, expand the *General Settings* selection for Clusters. For information on the options for customizing cluster compliance, see link:../health-checker/reference_cluster_compliance_categories.html[Cluster compliance categories]
 . To enable or disable the custom settings for your storage VMs, expand the *General Settings* selection for Storage VMs. For information on the options for customizing storage VM compliance, see link:../health-checker/reference_svm_compliance_categories.html[Storage VM compliance categories].
+=======
+The security parameters that you enable or disable will directly affect the default view, report, and scheduled report on the default view of the security grid.
+====
+
+. To enable or disable the custom settings for your ONTAP clusters, expand the *General Settings* selection for Clusters. For information on the options for customizing cluster compliance, see _Cluster compliance categories_ in the _Workflow Guide for Managing Cluster Health_.
+. To enable or disable the custom settings for your storage VMs, expand the *General Settings* selection for Storage VMs. For information on the options for customizing storage VM compliance, see _Storage VM compliance categories_ in the _Workflow Guide for Managing Cluster Health_.
+>>>>>>> 98774fd74c3423c779097be0e6cc2189723c81a2
 . You can also specify whether HTTPS transport is to be used for sending AutoSupport messages from ONTAP.
 . If you enable the authentication settings, alerts are raised from Unified Manager for the default ONTAP administrator user.

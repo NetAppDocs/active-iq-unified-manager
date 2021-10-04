@@ -32,7 +32,7 @@ a|
 Power Shell
 |===
 
-. Log in to the system with the maintenance user (umadmin) name and password.
+. Log in to the system with the root user credentials.
 . Enter the command `maintenance_console` and press Enter.
 . In the maintenance console *Main Menu*, enter the number for the *Backup Restore* option.
 . Enter the number for *Backup and Restore using NetApp Snapshot*.
