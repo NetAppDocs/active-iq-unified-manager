@@ -342,16 +342,7 @@ SVM
 a|
 Warning
 a|
-Storage VM anti-ransomware monitoring is Enabled (Active Mode)
-(antiRansomwareSvmStateEnabled)
 
-a|
-Event
-a|
-SVM
-a|
-Information
-a|
 Storage VM anti-ransomware monitoring is Disabled
 (antiRansomwareSvmStateDisabled)
 
