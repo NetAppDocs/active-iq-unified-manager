@@ -363,4 +363,12 @@ SVM
 a|
 Information
 a|
+Storage VM suitable for anti-ransomware monitoring (Learning Mode) (ocumEvtSvmArwCandidate)
+
+a|
+Event
+a|
+SVM
+a|
+Information
 |===
