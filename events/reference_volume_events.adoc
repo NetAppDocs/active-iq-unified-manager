@@ -346,14 +346,6 @@ a|
 Volume
 a|
 Warning
-a|
-Volume storage efficiency anomaly (	ocumVolumeAbnormalStorageEfficiencyWarning)
-a|
-Risk
-a|
-Volume
-a|
-Warning
 |===
 
 == Impact area: configuration
