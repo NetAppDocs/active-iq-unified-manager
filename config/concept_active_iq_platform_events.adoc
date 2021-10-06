@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: feature settings, active iq, portal, events
 summary: "You can specify whether you want to enable or disable Active IQ portal events. This setting allows the Active IQ portal to discover and display additional events about system configuration, cabling, and so forth. This option is enabled by default."
 ---
-= Active IQ portal events
+= Enabling Active IQ portal events
 :icons: font
 :imagesdir: ../media/
 
