@@ -52,19 +52,19 @@ entries:
   - title: Managing feature settings
     url: "/config/concept_manage_feature_settings.html"
     entries:
-    - title: Policy-based storage management
+    - title: Enabling policy-based storage management
       url: "/config/concept_policy_based_storage_management.html"
-    - title: API Gateway
+    - title: Enabling API Gateway
       url: "/config/concept_api_gateway.html"
-    - title: Inactivity timeout
+    - title: Specifying inactivity timeout
       url: "/config/concept_inactivity_timeout.html"
-    - title: Active IQ portal events
+    - title: Enabling Active IQ portal events
       url: "/config/concept_active_iq_platform_events.html"
-    - title: Security Dashboard
+    - title: Enabling security dashboard and security settings
       url: "/config/concept_security_dashboard.html"
-    - title: Script upload
+    - title: Enabling and disabling scripts upload
       url: "/config/task_enable_and_disable_ability_to_upload_scripts.html"
-    - title: Login banner
+    - title: Adding login banner
       url: "/config/concept_login_banner.html"
   - title: Using the maintenance console
     url: "/config/task_use_maintenance_console.html"

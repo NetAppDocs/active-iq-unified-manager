@@ -39,14 +39,14 @@ entries:
     entries:
     - title: Dashboard page
       url: "/storage-mgmt/reference_dashboard_page.html"
-    - title: Fixing ONTAP issues directly from Unified Manager
+    - title: Fixing or managing ONTAP issues directly from Unified Manager
       url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
       entries:
       - title: What options do I have when I see the Fix It or Fix All button
         url: "/storage-mgmt/concept_what_options_do_i_have_in_fix_it_button.html"
       - title: Viewing the status of management actions you have chosen to fix
         url: "/storage-mgmt/task_view_status_of_management_actions_to_fix.html"
-      - title: What ONTAP issues can Unified Manager fix
+      - title: What issues can Unified Manager fix
         url: "/storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html"
       - title: Overriding management actions through scripts
         url: "/storage-mgmt/concept_override_management_actions_through_scripts.html"

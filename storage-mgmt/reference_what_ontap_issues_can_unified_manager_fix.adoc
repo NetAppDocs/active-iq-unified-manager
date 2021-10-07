@@ -187,29 +187,36 @@ Configure storage VM anti-ransomware learning
 
 Periodically checks for clusters with licenses for anti-ransomware monitoring. Validates whether a storage VM supports only NFS or SMB volumes in such a cluster.
 a|
-Put storage VMs in a `learning` mode for anti-ransomware monitoring
+Put storage VMs in a `learning` mode of anti-ransomware monitoring
 
 a|
-ss
+Unified Manager sets anti-ransomware monitoring to a `learning` state for the appropriate storage volumes through the cluster management console. Anti-ransomware monitoring on all the new volumes created on the storage VM are automatically moved to a learning mode. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks.
+
 a|
 Configure volume anti-ransomware learning
+
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Validates whether a volume supports only NFS or SMB services in such a cluster.
 a|
-ss
+Put volumes in a `learning` mode of anti-ransomware monitoring
 a|
-dd
+Unified Manager sets anti-ransomware monitoring to a `learning` state for the appropriate volumes through the cluster management console. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks.
 
 a|
 Enable volume anti-ransomware
+
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Determines whether the volumes are in a `learning` mode for anti-ransomware monitoring for about 45 days.
 a|
-dd
+Put volumes in an `active` mode of anti-ransomware monitoring
 a|
-ss
+Unified Manager determines the prospect of the volumes for active anti-ransomware monitoring and sets the mode to `active` through the cluster management console. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks, and create alerts for data protection actions.
 
 a|
 Disable volume anti-ransomware
+
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Determines whether the volumes are in a `learning` mode for anti-ransomware monitoring for about 45 days and the resultant notifications are dense (for example, multiple warnings of potential ransomware attacks are returned over 30 days).
 a|
-ss
+Disables anti-ransomware monitoring for the volume
 a|
-ss
+Unified Manager detects repetitious anti-ransomware notifications during the learning mode, and disables anti-ransomware monitoring on the volume through the cluster management console.
 
 |===
