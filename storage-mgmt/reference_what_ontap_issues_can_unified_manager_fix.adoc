@@ -190,32 +190,32 @@ a|
 Put storage VMs in a `learning` mode of anti-ransomware monitoring
 
 a|
-Unified Manager sets anti-ransomware monitoring to a `learning` state for the appropriate storage volumes through the cluster management console. Anti-ransomware monitoring on all the new volumes created on the storage VM are automatically moved to a learning mode. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks.
+Unified Manager sets anti-ransomware monitoring to `learning` state for the storage VMs through the cluster management console. Anti-ransomware monitoring on all the new volumes created on the storage VM are automatically moved to a learning mode. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks.
 
 a|
 Configure volume anti-ransomware learning
 
 Periodically checks for clusters with licenses for anti-ransomware monitoring. Validates whether a volume supports only NFS or SMB services in such a cluster.
 a|
-Put volumes in a `learning` mode of anti-ransomware monitoring
+Put volumes in `learning` mode of anti-ransomware monitoring
 a|
-Unified Manager sets anti-ransomware monitoring to a `learning` state for the appropriate volumes through the cluster management console. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks.
+Unified Manager sets anti-ransomware monitoring to `learning` state for the volumes through the cluster management console. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks.
 
 a|
 Enable volume anti-ransomware
 
-Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects whether the volumes are in the `learning` mode of anti-ransomware monitoring for about 45 days, and determines the prospect of putting them in an active mode.
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects whether the volumes are in the `learning` mode of anti-ransomware monitoring for about 45 days, and determines the prospect of putting them in active mode.
 a|
-Put volumes in an `active` mode of anti-ransomware monitoring
+Put volumes in `active` mode of anti-ransomware monitoring
 a|
 Unified Manager sets anti-ransomware monitoring to `active` on the volumes through the cluster management console. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks, and create alerts for data protection actions.
 
 a|
 Disable volume anti-ransomware
 
-Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects repetitious notifications during active anti-ransomware monitoring for the volumes (for example, multiple warnings of potential ransomware attacks are returned over 30 days).
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects repetitious notifications during active anti-ransomware monitoring on the volumes (for example, multiple warnings of potential ransomware attacks are returned over 30 days).
 a|
-Disable anti-ransomware monitoring for the volumes
+Disable anti-ransomware monitoring on volumes
 a|
 Unified Manager disables anti-ransomware monitoring on the volumes through the cluster management console.
 
