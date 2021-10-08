@@ -338,6 +338,14 @@ a|
 Volume
 a|
 Critical
+a|
+Volume storage efficiency anomaly (ocumVolumeAbnormalStorageEfficiencyWarning)
+a|
+Risk
+a|
+Volume
+a|
+Warning
 |===
 
 == Impact area: configuration
@@ -687,4 +695,31 @@ a|
 Volume
 a|
 Critical
+a|
+Volume suitable for anti-ransomware monitoring (Learning Mode) (ocumEvtVolumeArwCandidate)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume suitable for anti-ransomware monitoring (Active Mode) (ocumVolumeSuitedForActiveAntiRansomwareDetection)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume exhibits noisy anti-ransomware alerting (antiRansomwareFeatureNoisyVolume)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
 |===
