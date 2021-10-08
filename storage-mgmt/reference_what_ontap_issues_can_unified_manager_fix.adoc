@@ -204,19 +204,19 @@ Unified Manager sets anti-ransomware monitoring to a `learning` state for the ap
 a|
 Enable volume anti-ransomware
 
-Periodically checks for clusters with licenses for anti-ransomware monitoring. Determines whether the volumes are in a `learning` mode for anti-ransomware monitoring for about 45 days.
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects whether the volumes are in the `learning` mode of anti-ransomware monitoring for about 45 days, and determines the prospect of putting them in an active mode.
 a|
 Put volumes in an `active` mode of anti-ransomware monitoring
 a|
-Unified Manager determines the prospect of the volumes for active anti-ransomware monitoring and sets the mode to `active` through the cluster management console. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks, and create alerts for data protection actions.
+Unified Manager sets anti-ransomware monitoring to `active` on the volumes through the cluster management console. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks, and create alerts for data protection actions.
 
 a|
 Disable volume anti-ransomware
 
-Periodically checks for clusters with licenses for anti-ransomware monitoring. Determines whether the volumes are in a `learning` mode for anti-ransomware monitoring for about 45 days and the resultant notifications are dense (for example, multiple warnings of potential ransomware attacks are returned over 30 days).
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects repetitious notifications during active anti-ransomware monitoring for the volumes (for example, multiple warnings of potential ransomware attacks are returned over 30 days).
 a|
-Disables anti-ransomware monitoring for the volume
+Disable anti-ransomware monitoring for the volumes
 a|
-Unified Manager detects repetitious anti-ransomware notifications during the learning mode, and disables anti-ransomware monitoring on the volume through the cluster management console.
+Unified Manager disables anti-ransomware monitoring on the volumes through the cluster management console.
 
 |===
