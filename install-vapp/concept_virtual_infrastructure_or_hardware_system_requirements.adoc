@@ -58,16 +58,11 @@ You can use the host name (or the host IP address) to access the product web UI.
 
 If you plan to allow users to access Unified Manager by using the short name instead of using the fully qualified domain name (FQDN) or IP address, then your network configuration has to resolve this short name to a valid FQDN.
 
-== Considerations for hardware version upgrade for virtual appliances
-NetApp recommends you to avoid manually upgrading the hardware version of your existing virtual appliance. In case you need to upgrade the hardware version, follow these steps:
-
-. Take a backup of your current system.
-. Deploy an updated version of the Unified Manager virtual appliance (vApp). This creates a new VM with a more recent hardware version.
-+
-[NOTE]
-If you have the most recent version of the Unified Manager virtual appliance installed, you should wait for the next Unified Manager release before upgrading the hardware version.
-
-+
-. Restore the backup on the new VM to retain the data.
+//== Considerations for hardware version upgrade for virtual appliances
+//NetApp recommends you to avoid manually upgrading the hardware version of your existing virtual appliance. In case you need to upgrade the hardware version, follow these steps:
+//. Take a backup of your current system.
+//. Deploy an updated version of the Unified Manager virtual appliance (vApp). This creates a new VM with a more recent hardware version.
+//If you have the most recent version of the Unified Manager virtual appliance installed, you should wait for the next Unified Manager release before upgrading the hardware version.
+//. Restore the backup on the new VM to retain the data.
 
 //BURT 1429078

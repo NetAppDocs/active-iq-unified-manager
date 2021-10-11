@@ -204,7 +204,7 @@ Unified Manager sets anti-ransomware monitoring to `learning` state for the volu
 a|
 Enable volume anti-ransomware
 
-Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects whether the volumes are in the `learning` mode of anti-ransomware monitoring for about 45 days, and determines the prospect of putting them in active mode.
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects whether the volumes are in the `learning` mode of anti-ransomware monitoring for more than 45 days, and determines the prospect of putting them in active mode.
 a|
 Put volumes in `active` mode of anti-ransomware monitoring
 a|
