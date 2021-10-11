@@ -14,18 +14,16 @@ For the successful installation of Unified Manager on Windows, you should ensure
 
 == Operating system software
 
-Unified Manager is supported on 64-bit Windows operating system for the following languages:
-
-* English
-* Japanese
-* Simplified Chinese
-
 You can install Unified Manager on the following Windows editions:
-
 * Microsoft Windows Server 2016 Standard and Datacenter Edition
 * Microsoft Windows Server 2019 Standard and Datacenter Edition
 
-Note that Windows Server 2012 is not supported as it was in earlier releases. See the Interoperability Matrix for the complete and most current list of supported Windows versions.
+Unified Manager is supported on 64 bits Windows operating system for the following languages:
+ ** English
+ ** Japanese
+ ** Simplified Chinese
+
+See the Interoperability Matrix for the complete and most current list of supported Windows versions.
 
 http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
 

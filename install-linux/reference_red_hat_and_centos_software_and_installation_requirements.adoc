@@ -21,6 +21,11 @@ See the Interoperability Matrix for the complete and most current list of suppor
 
 http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
 
+[NOTE]
+"NetApp does not support installation of Unified Manager by using 3rd party tools, such as Microsoft System Center Configuration Manager (SCCM).
+
+//BURT-1413675
+
 == Third-party software
 
 Unified Manager is deployed on a WildFly web server. WildFly 19.0.0 is bundled and configured with Unified Manager.

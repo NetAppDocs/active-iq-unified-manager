@@ -5,12 +5,12 @@ sidebar:
     - title: Release notes
       url: /reference_release_notes.html
     - title: Get started
-      entires:
-        - title: Get started with Unified Manager installation on VMware vSphere
+      entries:
+        - title: Get started with installation on VMware vSphere
           url: /install-vapp/qsg-vapp.html
-        - title: Get started with Unified Manager installation on Linux
+        - title: Get started with installation on Linux
           url: install-linux/qsg-linux.html
-        - title: Get started with Unified Manager installation on Windows
+        - title: Get started with installation on Windows
           url: /install-windows/qsg-windows.html
     - section: install-vapp
     - section: install-linux
