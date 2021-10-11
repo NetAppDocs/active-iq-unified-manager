@@ -9,7 +9,7 @@ sidebar:
         - title: Get started with installation on VMware vSphere
           url: /install-vapp/qsg-vapp.html
         - title: Get started with installation on Linux
-          url: install-linux/qsg-linux.html
+          url: /install-linux/qsg-linux.html
         - title: Get started with installation on Windows
           url: /install-windows/qsg-windows.html
     - section: install-vapp

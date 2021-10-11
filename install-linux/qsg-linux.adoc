@@ -5,7 +5,7 @@ keywords: quick start guide, QSG, Linux QSG, RHEL QSG, quick installation
 summary: "Quick start guide for Unified Manager on Linux platform."
 ---
 
-= Active IQ Unified Manager 9.10 Quick Start Guide for Linux Installations
+= Quick start instructions for Linux installations
 
 = System requirements
 

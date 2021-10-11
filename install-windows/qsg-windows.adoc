@@ -5,7 +5,7 @@ keywords: quick start guide, QSG, Windows QSG, quick installation, Windows insta
 summary: "Quick start guide for Unified Manager on Linux platform."
 ---
 
-= Active IQ Unified Manager 9.10 Quick Start Guide for Windows Installations
+= Quick start instructions for Windows installations
 
 == System requirements
 

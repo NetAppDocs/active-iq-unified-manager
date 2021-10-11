@@ -5,7 +5,7 @@ keywords: quick start guide, QSG, VMWare QSG, vApp QSG, quick installation
 summary: "Quick start guide for Unified Manager on VMWare vSphere platform."
 ---
 
-= Active IQ Unified Manager 9.10 Quick Start Guide for VMWare Installations
+= Quick start instructions for VMWare installations
 
 == System requirements
 
