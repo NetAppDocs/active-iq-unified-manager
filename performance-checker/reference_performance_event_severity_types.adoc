@@ -28,3 +28,10 @@ Warning events are sent from user-defined, system-defined, or dynamic thresholds
 The event occurs when a new object is discovered, or when a user action is performed. For example, when any storage object is deleted or when there are any configuration changes, the event with severity type Information is generated.
 +
 Information events are sent directly from ONTAP when it detects a configuration change.
+
+For more information, see the following links:
+
+* link:../events/concept_what_happens_when_an_event_is_received.html[What happens when an event is received]
+* link:../events/concept_what_information_is_contained_in_an_alert_email.html[What information is contained in an alert email]
+* link:../events/task_add_alerts.html[Adding alerts]
+* link:../events/task_add_alerts_for_performance_events.html[Adding alerts for performance events]
