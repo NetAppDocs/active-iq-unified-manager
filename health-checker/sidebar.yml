@@ -266,15 +266,6 @@ entries:
         url: "/health-checker/task_delete_annotation_rules.html"
       - title: Reordering annotation rules
         url: "/health-checker/task_reorder_annotation_rules.html"
-    - title: What a Unified Manager maintenance window is
-      url: "/health-checker/concept_what_um_maintenance_window_is.html"
-      entries:
-      - title: Scheduling a maintenance window to disable cluster event notifications
-        url: "/health-checker/task_schedule_maintenance_window_to_disable_cluster_event_notifications.html"
-      - title: Changing or canceling a scheduled maintenance window
-        url: "/health-checker/task_change_or_cancel_scheduled_maintenance_window.html"
-      - title: Viewing events that occurred during a maintenance window
-        url: "/health-checker/task_view_events_that_occurred_during_maintenance_window.html"
     - title: Sending a support bundle through web UI and maintenance console
       url: "/health-checker/task_send_asup_to_technical_support.html"
       entries:
