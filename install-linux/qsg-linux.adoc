@@ -7,7 +7,7 @@ summary: "Quick start guide for Unified Manager on Linux platform."
 
 = Quick start instructions for Linux installations
 
-= System requirements
+== System requirements
 
 *	Operating system: Red Hat Enterprise Linux and CentOS version 7.x and 8.x based on x86_64 architecture, installed using the “Server with GUI” base environment from the *Software Selection* option of the OS installer
 *	RAM: 12 GB, CPU: 9572 MHz total
