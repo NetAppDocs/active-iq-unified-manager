@@ -98,21 +98,6 @@ entries:
       entries:
       - title: Creating and editing Storage Efficiency Policies
         url: "/storage-mgmt/task_create_and_edit_seps.html"
-  - title: Collecting data and monitoring workload performance
-    url: "/storage-mgmt/concept_collect_data_and_monitor_workload_performance.html"
-    entries:
-    - title: Types of workloads monitored by Unified Manager
-      url: "/storage-mgmt/concept_types_of_workloads_monitored_by_unified_manager.html"
-    - title: Workload performance measurement values
-      url: "/storage-mgmt/reference_workload_performance_measurement_values.html"
-    - title: What the expected range of performance is
-      url: "/storage-mgmt/concept_what_expected_range_of_performance_is.html"
-    - title: How the latency forecast is used in performance analysis
-      url: "/storage-mgmt/reference_how_expected_range_is_used.html"
-    - title: How Unified Manager uses workload latency to identify performance issues
-      url: "/storage-mgmt/concept_how_unified_manager_uses_workload_response_time.html"
-    - title: How cluster operations can affect workload latency
-      url: "/storage-mgmt/concept_how_cluster_operations_can_affect_workload_latency.html"
   - title: Managing and monitoring MetroCluster configurations
     url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
     entries:
