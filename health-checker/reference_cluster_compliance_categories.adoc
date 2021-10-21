@@ -139,7 +139,7 @@ No
 a|
 No
 a|
-Remote Shell (RSH)
+Remote Shell
 a|
 Indicates if RSH is enabled. For security reasons, RSH should be disabled. The Secure Shell (SSH) for secure remote access is preferred.
 a|
@@ -147,17 +147,17 @@ Disabled
 a|
 Yes
 a|
-MD5 Hashed password
+MD5 in Use
 a|
 Indicates if ONTAP user accounts use less-secure MD5 Hash function. The MD5 Hashed user accounts migration to the more secure cryptographic hash function like SHA-512 is preferred.
 a|
-Disabled/Enabled
+No
 a|
 Yes
 a|
-CA-signed digital certificate
+Certificate Issuer Type
 a|
-Indicates if CA-signed digital certificate is not used.
+Indicates the type of digital certificate used.
 a|
 CA-Signed
 a|
