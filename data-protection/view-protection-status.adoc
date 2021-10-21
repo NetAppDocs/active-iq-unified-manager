@@ -31,6 +31,9 @@ For the volume count of the Snapshot copies, both source and destination volumes
 
 * *Snapshot Overview*: An overview of the volumes protected by Snapshot copies, such as:
 ** The total number of volumes protected and not protected by Snapshot copies.
+[NOTE]
+For considering a volume as protected, the Snapshot schedule for the volume should be enabled.
+
 ** The total number of volumes that are using or exceeding the reserve space for the Snapshot copies. This value is important for viewing the amount of disk space utilized or calculating the space that can be reclaimed if one or more Snapshot copies are deleted.
 * *SnapMirror Overview*: An overview of the volumes protected by SnapMirror policies, such as:
 ** The number of volumes protected by the respective SnapMirror policies, such as, volume SnapMirror relationships, storage VM disaster recovery (SVM-DR), and their combinations.
