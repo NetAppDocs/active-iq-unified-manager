@@ -11,7 +11,7 @@ summary: "The Data Protection page presents a holistic view of the data protecti
 [.lead]
 The Data Protection page presents a holistic view of the data protection details for all the protected volumes in a single cluster, or all clusters in a data center.
 
-You can view these details when you click the right-arrow at the top of the Data Protection panel on the dashboard. There are two sections on this screen. When you select all clusters on the dashboard, the *All Clusters* section displays the status of SnapMirror relationships and Snapshot protection of all the clusters at a data center level. You can select a specific cluster in the *Individual Cluster* section to view the status of the protected volumes in that cluster.
+You can view these details when you click the right-arrow at the top of the Data Protection panel on the dashboard. There are two sections on this screen. When you select all clusters on the dashboard, the *All Clusters* section displays the protection status of all the clusters at a data center level protected by SnapMirror relationships and Snapshot copy. You can select a specific cluster in the *Individual Cluster* section to view the status of the protected volumes in that cluster.
 
 If you select a single cluster on the dashboard, this page displays the details of the protected volumes on that cluster.
 
@@ -32,7 +32,7 @@ For the volume count of the Snapshot copies, both source and destination volumes
 * *Snapshot Overview*: An overview of the volumes protected by Snapshot copies, such as:
 ** The total number of volumes protected and not protected by Snapshot copies.
 [NOTE]
-For considering a volume as protected, the Snapshot schedule for the volume should be enabled.
+For considering a volume as protected, the schedule for the Snapshot copy of the volume should be enabled.
 
 ** The total number of volumes that are using or exceeding the reserve space for the Snapshot copies. This value is important for viewing the amount of disk space utilized or calculating the space that can be reclaimed if one or more Snapshot copies are deleted.
 * *SnapMirror Overview*: An overview of the volumes protected by SnapMirror policies, such as:
