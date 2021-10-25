@@ -87,19 +87,27 @@ Disabled
 a|
 No
 a|
-FPolicy
+FPolicy Status Active
 a|
 Indicates if FPolicy is created or not.
 a|
-Disabled
+Yes
 a|
-Disabled
+No
 a|
-SMB Encryption
+SMB Encryption Enabled
 a|
 Indicates if SMB -Signing & Sealing is not enabled.
 a|
-Enabled
+Yes
+a|
+No
+a|
+SMB Signing Enabled
+a|
+Indicates if SMB -Signing is not enabled.
+a|
+Yes
 a|
 No
 |===
