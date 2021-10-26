@@ -25,7 +25,7 @@ You can uninstall Unified Manager by using the Programs and Features wizard, or 
 |===
 | To uninstall Unified Manager from the...| Then...
 a|
-Programs and Features wizard
+Programs and Features wizard :|:
 a|
 
  .. Navigate to *Control Panel* > *Program and Features*.

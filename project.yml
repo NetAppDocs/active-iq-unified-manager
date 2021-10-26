@@ -6,11 +6,11 @@ sidebar:
       url: /reference_release_notes.html
     - title: Get started
       entries:
-        - title: Get started with installation on VMware vSphere
+        - title: Quick start install for VMware vSphere
           url: /install-vapp/qsg-vapp.html
-        - title: Get started with installation on Linux
+        - title: Quick start install for Linux
           url: /install-linux/qsg-linux.html
-        - title: Get started with installation on Windows
+        - title: Quick start install for Windows
           url: /install-windows/qsg-windows.html
     - section: install-vapp
     - section: install-linux
