@@ -32,7 +32,7 @@ MySQL Community Edition is automatically upgraded during Unified Manager upgrade
 +
 However, you may want to upgrade MySQL to the latest minor version on your system. Before an upgrade to the next minor version, ensure that the base version of MySQL on your system is 8.0.25.
 +
-If your site does not have a repository configured with MySQL 8.0.25, you might not be able to upgrade Unified Manager. To configure the repository before upgrade, follow these steps:
+If your site does not have a repository configured with MySQL 8.0.25 or later, you might not be able to upgrade Unified Manager. To configure the repository before upgrade, follow these steps:
 
 . Download the MySQL RPM packages with the minimum version required (in this case 8.0.25), and save them in the same directory where `netapp-um<version>.x86_64.rpm` is stored.
 . Run this command to install the new version:
