@@ -1,50 +1,47 @@
-sudo: false
+os: linux
 dist: xenial
 language: ruby
 rvm:
 - 2.4.3
-if: repo =~ /-internal/
-before_install:
-- echo -e "machine github.com\n login $GH_TOKEN" >> ~/.netrc && chmod 600 ~/.netrc
-- git submodule add https://github.com/NetAppDocs/jekyll dependencies/jekyll
-- gem update --system && gem install bundler && gem update bundler
-- if [[ -z "$DEPLOY_BRANCH" ]]; then export DEPLOY_BRANCH=gh-pages; fi
-- cp -rl dependencies/jekyll/search.html ./install-vapp/search.html
-- sed -i 's/permalink\:\s*\/search\.html/permalink\:\ install-vapp\/search\.html/g' ./install-vapp/search.html
-- cp -rl dependencies/jekyll/search.html ./install-linux/search.html
-- sed -i 's/permalink\:\s*\/search\.html/permalink\:\ install-linux\/search\.html/g' ./install-linux/search.html
-- cp -rl dependencies/jekyll/search.html ./install-windows/search.html
-- sed -i 's/permalink\:\s*\/search\.html/permalink\:\ install-windows\/search\.html/g' ./install-windows/search.html
-- cp -rl dependencies/jekyll/search.html ./config/search.html
-- sed -i 's/permalink\:\s*\/search\.html/permalink\:\ config\/search\.html/g' ./config/search.html
-- cp -rl dependencies/jekyll/search.html ./storage-mgmt/search.html
-- sed -i 's/permalink\:\s*\/search\.html/permalink\:\ storage-mgmt\/search\.html/g' ./storage-mgmt/search.html
-- cp -rl dependencies/jekyll/search.html ./events/search.html
-- sed -i 's/permalink\:\s*\/search\.html/permalink\:\ events\/search\.html/g' ./events/search.html
-- cp -rl dependencies/jekyll/search.html ./performance-checker/search.html
-- sed -i 's/permalink\:\s*\/search\.html/permalink\:\ performance-checker\/search\.html/g' ./performance-checker/search.html
-- cp -rl dependencies/jekyll/search.html ./health-checker/search.html
-- sed -i 's/permalink\:\s*\/search\.html/permalink\:\ health-checker\/search\.html/g' ./health-checker/search.html
-- cp -rl dependencies/jekyll/search.html ./data-protection/search.html
-- sed -i 's/permalink\:\s*\/search\.html/permalink\:\ data-protection\/search\.html/g' ./data-protection/search.html
-- cp -rl dependencies/jekyll/search.html ./reporting/search.html
-- sed -i 's/permalink\:\s*\/search\.html/permalink\:\ reporting\/search\.html/g' ./reporting/search.html
-- cp -rl dependencies/jekyll/search.html ./api-automation/search.html
-- sed -i 's/permalink\:\s*\/search\.html/permalink\:\ api-automation\/search\.html/g' ./api-automation/search.html
-- mv dependencies/jekyll/prod-build.sh ./ && ./prod-build.sh
-- sudo apt-get -y install graphicsmagick graphicsmagick-libmagick-dev-compat libmagickwand-dev
-install: bundle install --quiet --jobs=3 --retry=3
-script:
-- if [[ "$FEATURE_FLAG" = true ]]; then bundle exec rake buildAll; fi
-- mkdir -p /tmp/output && bundle exec jekyll build --trace --destination /tmp/output --config _config.yml,project.yml
-- touch /tmp/output/.nojekyll
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GH_TOKEN
-  keep_history: false
-  local_dir: /tmp/output
-  target_branch: $DEPLOY_BRANCH
-  verbose: true
-  on:
-    all_branches: true
+env:
+  global:
+    - FRAMEWORK_BRANCH=main
+    - DEPLOY_VERSION=v2
+jobs:
+  include:
+    - stage: deploy
+      if: branch = main OR repo =~ /-internal/
+      before_install:
+      - echo -e "machine github.com\n login $GH_TOKEN" > ~/.netrc && chmod 600 ~/.netrc
+      - git submodule add -b $FRAMEWORK_BRANCH https://github.com/NetAppDocs/jekyll dependencies/jekyll
+      - source dependencies/jekyll/.ci/env/configure_travis.bash
+      - source dependencies/jekyll/.ci/deploy/before_install.bash
+      - sudo apt-get -y install graphicsmagick graphicsmagick-libmagick-dev-compat libmagickwand-dev ghostscript
+      install:
+      - source .ci/deploy/install.bash
+      script:
+      - source .ci/deploy/post_install.bash
+      deploy:
+        provider: pages
+        skip_cleanup: true
+        github_token: $GH_TOKEN
+        keep_history: false
+        local_dir: /tmp/output
+        target_branch: $DEPLOY_BRANCH
+        verbose: true
+        on:
+          all_branches: true
+    - stage: i18n
+      if: branch = main AND NOT repo =~ /-internal/
+      before_install:
+      - echo -e "machine github.com\n login $GH_TOKEN" >> ~/.netrc && chmod 600 ~/.netrc
+      - git submodule add -b $FRAMEWORK_BRANCH https://github.com/NetAppDocs/jekyll dependencies/jekyll
+      - git submodule add https://github.com/NetAppDocs/jekyll-harmony dependencies/jekyll-harmony
+      - source dependencies/jekyll/.ci/env/configure_travis.bash
+      - source dependencies/jekyll/.ci/i18n/before_install.bash
+      - cp -r dependencies/jekyll/.ci/ .ci/
+      - rm -Rf dependencies/jekyll/
+      install:
+      - source .ci/i18n/install.bash
+      script:
+      - source .ci/i18n/post_install.bash
