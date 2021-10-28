@@ -22,6 +22,7 @@ link:reference_red_hat_and_centos_software_and_installation_requirements.html[Re
 * You must install, or upgrade to the correct version of OpenJDK prior to upgrading Unified Manager.
 +
 link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux]
++
 
 * You must have a subscription to the Red Hat Enterprise Linux Subscription Manager.
 * To avoid data loss, you must have created a backup of the Unified Manager database in case there is an issue during the upgrade. It is also recommended that you move the backup file from the `/opt/netapp/data` directory to an external location.
@@ -32,7 +33,7 @@ MySQL Community Edition is automatically upgraded during Unified Manager upgrade
 +
 However, you may want to upgrade MySQL to the latest minor version on your system. Before an upgrade to the next minor version, ensure that the base version of MySQL on your system is 8.0.25.
 +
-If your site does not have a repository configured with MySQL 8.0.25 or later, you might not be able to upgrade Unified Manager. To configure the repository before upgrade, follow these steps:
+If your site does not have a repository configured with MySQL 8.0.25, you might not be able to upgrade Unified Manager. To configure the repository before upgrade, follow these steps:
 
 . Download the MySQL RPM packages with the minimum version required (in this case 8.0.25), and save them in the same directory where `netapp-um<version>.x86_64.rpm` is stored.
 . Run this command to install the new version:
@@ -50,7 +51,7 @@ link:task_download_unified_manager.html[Downloading Unified Manager for Red Hat 
 
 . Navigate to the target directory and expand the Unified Manager bundle:
 +
-`unzip ActiveIQUnifiedManager-<version\>.zip`
+`unzip ActiveIQUnifiedManager-<version>.zip`
 +
 The required RPM modules for Unified Manager are unzipped to the target directory.
 
@@ -58,11 +59,12 @@ The required RPM modules for Unified Manager are unzipped to the target director
 +
 `ls *.rpm`
 +
-** `netapp-um<version>.x86_64.rpm`
+`netapp-um<version>.x86_64.rpm`
++
 . *Optional:* For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages:
  .. View the list of available and unavailable packages:
 +
-`yum install netapp-um<version\>.x86_64.rpm --assumeno`
+`yum install netapp-um<version>.x86_64.rpm --assumeno`
 +
 The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
 

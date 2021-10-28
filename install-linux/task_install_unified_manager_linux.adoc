@@ -62,8 +62,9 @@ The required `.rpm` modules for Unified Manager are unzipped to the target direc
 . Verify that the following module is available in the directory:
 +
 `ls *.rpm`
- +
- ** `netapp-um<version>.x86_64.rpm`
++
+`netapp-um<version>.x86_64.rpm`
+
 . Run the pre-installation script to ensure that there are no system configuration settings or any installed software that might conflict with the installation of Unified Manager:
 +
 `sudo ./pre_install_check.sh`
@@ -78,32 +79,33 @@ For Red Hat Enterprise Linux 8 system, if you have internal repositories with JD
 
 . *Optional:* You must perform step 7 only if your system is not connected to the internet and you have to manually download the packages that are required for your installation. If your system has Internet access and all the required packages are available, go to step 8. For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages, and then download those packages:
  .. On the system on which you are installing Unified Manager, view the list of available and unavailable packages:
- +
- `yum install netapp-um<version\>.x86_64.rpm --assumeno`
 +
+ `yum install netapp-um<version>.x86_64.rpm --assumeno`
++
+
 The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
 
  .. On a system that has Internet access, download the missing packages:
 +
-`yum install <package_name\> --downloadonly --downloaddir=.`
+`yum install <package_name> --downloadonly --downloaddir=.`
 +
+
 [NOTE]
 ====
 Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat Enterprise Linux systems, you might need to enable the functionality to download a package without installing it:
-+
 `yum install yum-plugin-downloadonly`
 ====
 
  .. Copy the missing packages from the Internet-connected system to your installation system.
 . As the root user, or using `sudo`, run the following command to install the software:
 +
-`yum install netapp-um<version\>.x86_64.rpm`
+`yum install netapp-um<version>.x86_64.rpm`
 +
 This command installs the .rpm packages, all other necessary supporting software, and the Unified Manager software.
 +
 [NOTE]
 ====
-Do not attempt installation by using alternative commands (such as `rpm -ivh`). A successful installation of Unified Manager on a Red Hat Enterprise Linux or CentOS system requires that all Unified Manager files and related files are installed in a specific order into a specific directory structure that is enforced automatically by the yum install `netapp-um<version>.x86_64.rpm` command.
+Do not attempt installation by using alternative commands (such as `rpm -ivh`). A successful installation of Unified Manager on a Red Hat Enterprise Linux or CentOS system requires that all Unified Manager files and related files are installed in a specific order into a specific directory structure that is enforced automatically by the `yum install netapp-um<version>.x86_64.rpm` command.
 ====
 
 . Disregard the email notification that is displayed immediately after the installation messages.

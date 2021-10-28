@@ -57,13 +57,11 @@ entries:
         url: "/install-linux/task_upgrade_unified_manager.html"
       - title: Upgrading the host OS from Red Hat Enterprise Linux 7.x to 8.x
         url: "/install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html"
-    - title: Upgrading third-party products
+    - title: Upgrading third-party products post Unified Manager installation
       url: "/install-linux/concept_upgrade_third_party_products_on_linux_um.html"
       entries:
       - title: Upgrading OpenJDK on Linux
         url: "/install-linux/task_upgrade_openjdk_on_linux_ocum.html"
-      - title: Upgrading MySQL on Linux
-        url: "/install-linux/task_upgrade_mysql_on_linux.html"
     - title: Restarting Unified Manager
       url: "/install-linux/task_restart_unified_manager.html"
     - title: Removing Unified Manager
