@@ -31,11 +31,10 @@ a|
 a|
 Free disk space
 a|
-
 * 5 GB (thin provisioned)
 * 152 GB (thick provisioned)
-
 |===
+
 Unified Manager can be installed on systems with a small amount of memory, but the recommended 12 GB of RAM ensures that enough memory is available for optimal performance, and so that the system can accommodate additional clusters and storage objects as your configuration grows. You should not set any memory limits on the VM where Unified Manager is deployed, and should not enable any features (for example, ballooning) that hinder the software from utilizing the allocated memory on the system.
 
 Additionally, there is a limit to the number of nodes that a single instance of Unified Manager can monitor before you install a second instance of Unified Manager. For more information, see link:http://www.netapp.com/us/media/tr-4621.pdf[Unified Manager Best Practices Guide]
@@ -58,11 +57,4 @@ You can use the host name (or the host IP address) to access the product web UI.
 
 If you plan to allow users to access Unified Manager by using the short name instead of using the fully qualified domain name (FQDN) or IP address, then your network configuration has to resolve this short name to a valid FQDN.
 
-//== Considerations for hardware version upgrade for virtual appliances
-//NetApp recommends you to avoid manually upgrading the hardware version of your existing virtual appliance. In case you need to upgrade the hardware version, follow these steps:
-//. Take a backup of your current system.
-//. Deploy an updated version of the Unified Manager virtual appliance (vApp). This creates a new VM with a more recent hardware version.
-//If you have the most recent version of the Unified Manager virtual appliance installed, you should wait for the next Unified Manager release before upgrading the hardware version.
-//. Restore the backup on the new VM to retain the data.
-
-//BURT 1429078
+|===
