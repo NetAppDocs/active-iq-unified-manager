@@ -122,9 +122,9 @@ homepage:
           url: /storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html
     - title: More resources
       links:
-        - title: Unified Manage videos
+        - title: Unified Manager videos
           url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
-        - title: Unified Manage blogs
+        - title: Unified Manager blogs
           url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
-        - title: Support page
-          url: https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/guideme-tab     
+        - title: Documentation for earlier versions
+          url: https://docs.netapp.com/ocum-99/topic/com.netapp.ndc.ocum-vers/GUID-DA5B426C-61E1-45E3-B2BE-834636433934.html

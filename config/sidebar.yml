@@ -60,7 +60,7 @@ entries:
       url: "/config/concept_inactivity_timeout.html"
     - title: Enabling Active IQ portal events
       url: "/config/concept_active_iq_platform_events.html"
-    - title: Enabling security settings on Security dashboard
+    - title: Enabling and disabling security settings for compliance
       url: "/config/concept_security_dashboard.html"
     - title: Enabling and disabling scripts upload
       url: "/config/task_enable_and_disable_ability_to_upload_scripts.html"
