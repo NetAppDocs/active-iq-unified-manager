@@ -42,8 +42,9 @@ Depending on your browser, you might need to click *OK* to save the file.
 
 +
 The formula totals each column based on the current data.
-+
+
 image::../media/capacitysums.png[]
+
 . On the data sheet, select the *Total Data Capacity (GB)* and *Committed Capacity (GB)* columns.
 . Select *Recommended Charts* from the *Insert* menu and select the *Clustered Column* chart.
 . Right-click the chart and select *Move chart* to move the chart to the `Total Data Capacity` sheet.

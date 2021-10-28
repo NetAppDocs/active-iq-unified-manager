@@ -23,7 +23,7 @@ relationship 'cluster2_src_svm:cluster2_src_vol2->cluster3_dst_svm:
 managed_svc2_vol3' ended unsuccessfully. Last error reported by
 Data ONTAP: Failed to create Snapshot copy 0426cluster2_src_vol2snap
 on volume cluster2_src_svm:cluster2_src_vol2. (CSM: An operation
-failed due to an ONC RPC failure.).)
+failed due to an ONC RPC failure.)
 Job Details
 ----
 

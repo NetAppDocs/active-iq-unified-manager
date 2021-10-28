@@ -35,7 +35,7 @@ a|
 a|
 `/datacenter/cluster/clusters`
 
-``/datacenter/cluster/clusters/\{key}`
+`/datacenter/cluster/clusters/\{key}`
 
 a|
 You can use this method to view the details of the ONTAP clusters across the data center. The API returns information, such as the IPv4 or IPv6 address of the cluster, information about the node, such as node health, performance capacity, and High Availability (HA) pair, and indicates whether the cluster is All SAN Array.
@@ -46,7 +46,7 @@ a|
 `/datacenter/cluster/licensing/licenses /datacenter/cluster/licensing/licenses/\{key}``
 
 a|
-Returns the details of the licenses installed on the clusters in your data center. You can filter your results based on the required criteria. Information, such as the license key, cluster key, expiry date, and license scope is returned.You can enter a license key to retrieve the details of a specific license.
+Returns the details of the licenses installed on the clusters in your data center. You can filter your results based on the required criteria. Information, such as the license key, cluster key, expiry date, and license scope is returned. You can enter a license key to retrieve the details of a specific license.
 
 a|
 `GET`
@@ -199,7 +199,7 @@ a|
 a|
 `/datacenter/network/ethernet/ports`
 
-``/datacenter/network/ethernet/ports/{key}`
+`/datacenter/network/ethernet/ports/{key}`
 
 a|
 Retrieves information about all the ethernet ports in your data center environment. With a port key as an input parameter, you can view the information of that specific port. Information, such as cluster details, broadcast domain, port details, such as state, speed, and type, and whether the port is enabled, is retrieved.
@@ -209,7 +209,7 @@ a|
 a|
 `/datacenter/network/fc/interfaces`
 
-``/datacenter/network/fc/interfaces/{key}`
+`/datacenter/network/fc/interfaces/{key}`
 
 a|
 You can use this method to view the details of the FC interfaces in your data center environment. With an interface key as an input parameter, you can view the information of that specific interface. Information, such as cluster details, home node details, and home port details, is retrieved.
@@ -219,7 +219,7 @@ a|
 a|
 `/datacenter/network/fc/ports`
 
-``/datacenter/network/fc/ports/{key}`
+`/datacenter/network/fc/ports/{key}`
 
 a|
 Retrieves information about all the FC ports used in the nodes in your data center environment. With a port key as an input parameter, you can view the information of that specific port. Information, such as cluster details, port description, supported protocol, and the state of the port is retrieved.
@@ -229,7 +229,7 @@ a|
 a|
 `/datacenter/network/ip/interfaces`
 
-``/datacenter/network/ip/interfaces/{key}`
+`/datacenter/network/ip/interfaces/{key}`
 
 a|
 You can use this method to view the details of the IP interfaces in your data center environment. With an interface key as an input parameter, you can view the information of that specific interface. Information, such as cluster details, IPspace details, home node details, whether failover is enabled, is retrieved.
