@@ -30,6 +30,11 @@ Alternatively, you view the relationships from the Volume details page.
 +
 The *Configure Protection* dialog box is displayed.
 
-*Note* This can be achieved from the unified relationship / Volume Relationship and Volume / Health details page.
++
+[NOTE]
+====
+This can be achieved from the unified relationship / Volume Relationship and Volume / Health details page.
+====
++
 
 . Complete the information as indicated in the *Configure Protection* dialog box.

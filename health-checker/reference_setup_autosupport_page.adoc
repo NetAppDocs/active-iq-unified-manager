@@ -15,7 +15,7 @@ You can send diagnostic system information and detailed data about the Unified M
 
 [NOTE]
 ====
-A user with a storage administrator role can generate and send on-demand AutoSupport messages and support bundles to technical support. However, only an administrator or maintenance user can enable or disable periodic AutoSupport and configure the HTTP settings as described in link:reference_setup_autosupport_page.html#setting-up-http-proxy-server[Setting up HTTP proxy server]. In an environment that needs to use an HTTP proxy server, the configuration should be complete before a storage administrator can send on-demand AutoSupport messages and support bundles to technical support.
+A user with a storage administrator role can generate and send on-demand AutoSupport messages and support bundles to technical support. However, only an administrator or maintenance user can enable or disable periodic AutoSupport and configure the HTTP settings as described in the Setting up HTTP proxy server section. In an environment that needs to use an HTTP proxy server, the configuration should be complete before a storage administrator can send on-demand AutoSupport messages and support bundles to technical support.
 ====
 
 == Sending on-demand AutoSupport messages
@@ -36,7 +36,7 @@ You can send specific, predefined messages to technical support for issue diagno
 .Steps
 . Navigate to *General* > *AutoSupport*.
 . In the Periodic AutoSupport section, select the *Enable Sending AutoSupport Data Periodically to Active IQ* check box.
-. If required, define the name, port, and authentication information for the HTTP proxy server as described in link:reference_setup_autosupport_page.html#setting-up-http-proxy-server[Setting up HTTP proxy server].
+. If required, define the name, port, and authentication information for the HTTP proxy server as described in Setting up HTTP proxy server section.
 . Click *Save*.
 
 == Uploading on-demand support bundle

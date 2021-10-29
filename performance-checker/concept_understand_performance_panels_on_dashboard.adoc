@@ -11,7 +11,6 @@ summary: "The Unified Manager Dashboard provides a few panels that display high-
 [.lead]
 The Unified Manager Dashboard provides a few panels that display high-level performance status for all the clusters that are being monitored in your environment. You can choose to view status for all clusters or for an individual cluster.
 
-The following image shows an example of the Unified Manager Dashboard when viewing all clusters:
 
 In addition to showing performance information, most of the panels also display the number of active events in that category, and the number of new events added over the previous 24 hours. This information helps you decide which clusters you may need to analyze further to resolve reported events. Clicking on the events displays the top few events and provides a link to the Event Management inventory page filtered to show the events in that category.
 

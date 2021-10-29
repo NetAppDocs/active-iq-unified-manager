@@ -439,4 +439,4 @@ The Related Alerts pane enables you to view the list of alerts that are created 
 
 *Related information*
 
-link:[Storage Pool dialog box]
+link:../health-checker/task_view_storage_pool_details.html[Viewing storage pool details]
