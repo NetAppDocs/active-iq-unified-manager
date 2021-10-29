@@ -11,6 +11,12 @@ summary: "From the Volume Relationships page, you can perform a first-time basel
 [.lead]
 From the Volume Relationships page, you can perform a first-time baseline transfer on a new protection relationship, or update a relationship if it is already initialized and you want to perform a manual, unscheduled incremental update to transfer immediately.
 
+[NOTE]
+====
+You cannot initialize or update volumes protected by Consistency Groups.
+====
+
+
 *What you'll need*
 
 * You must have the Application Administrator or Storage Administrator role.

@@ -11,6 +11,11 @@ summary: "You can abort an active data protection transfer when you want to stop
 [.lead]
 You can abort an active data protection transfer when you want to stop a SnapMirror replication that is in progress. You can also clear the restart checkpoint for a transfer if it is not a baseline transfer. You might abort a transfer when it conflicts with another operation, such as a volume move.
 
+[NOTE]
+====
+You cannot abort volumes relationships that are protected by the Consistency Group.
+====
+
 *What you'll need*
 
 * You must have the Application Administrator or Storage Administrator role.

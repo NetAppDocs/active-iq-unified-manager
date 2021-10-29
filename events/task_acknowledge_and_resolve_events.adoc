@@ -54,4 +54,4 @@ a|
 |===
 After the event is marked resolved, the event is moved to the resolved events list.
 
-. Optional: In the *Notes and Updates* area, add a note about how you addressed the event, and then click *Post*.
+. *Optional*: In the *Notes and Updates* area, add a note about how you addressed the event, and then click *Post*.

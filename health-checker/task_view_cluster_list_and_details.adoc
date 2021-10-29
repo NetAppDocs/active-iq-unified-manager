@@ -26,4 +26,4 @@ The details in the Health: All Clusters view, Capacity: All Clusters view, and t
 
 *Related information*
 
-link:[Health/Clusters Storage Summary page]
+link:../health-checker/reference_health_cluster_details_page.html[Cluster / Health details page]
