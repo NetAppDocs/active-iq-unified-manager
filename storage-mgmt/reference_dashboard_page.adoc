@@ -50,7 +50,11 @@ This panel displays the total number of conforming and non-conforming workloads 
 +
 When viewing all clusters, this panel displays the number of clusters that are compliant and not compliant, the number of storage VMs that are compliant and not compliant, and the number of volumes that are encrypted and not encrypted. Compliance is based on the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9]. Click the right-arrow at the top of the panel to view security details for all clusters in the Security page.
 +
-When viewing a single cluster, this panel displays whether the cluster is compliant or not compliant, the number of storage VMs that are compliant and not compliant, and the number of volumes that are encrypted and not encrypted. Click the right-arrow at the top of the panel to view security details for the cluster in the Security page.
+When viewing a single cluster, this panel displays whether the cluster is compliant or not compliant, the number of storage VMs that are compliant and not compliant, and the number of volumes that are encrypted and not encrypted. Click the right-arrow at the top of the panel to view security details for the cluster in the Security page. For more information, see link:../health-checker/concept_manage_cluster_security_objectives.html[Managing cluster security objectives].
+
+* *Data Protection panel*
++
+This panel displays the data protection summary for a single or all the clusters in a data center. It displays the total number of data protection events and number of active events raised in the last 24 hours in ONTAP. The panel displays the number of volumes in a cluster or all the clusters in a data center protected by Snapshot copies and SnapMirror relationships. It also displays the number of volumes with SnapMirror recovery point objective (RPO) lag. You can hover your mouse to view the respective counts and legends. Clicking the bar charts takes you to the Volumes screen with the respective volumes selected. Clicking the link from each of these events takes you to the Event details page. You can click the *View All* link to view all active protection events in the Event Management inventory page. For more information, see link:../data-protection/view-protection-status.html[Viewing volume protection status].
 
 * *Usage Overview panel*
 +
@@ -66,7 +70,7 @@ link:../performance-checker/task_display_information_about_performance_event.htm
 
 link:../performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html[Managing performance using performance capacity and available IOPS information]
 
-link:[What health events are]
+link:../health-checker/reference_health_volume_details_page.html[Volume / Health details page]
 
 link:../performance-checker/reference_performance_event_analysis_and_notification.html[Performance event analysis and notification]
 

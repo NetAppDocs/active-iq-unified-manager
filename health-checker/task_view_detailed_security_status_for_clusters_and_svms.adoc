@@ -4,12 +4,26 @@ sidebar: sidebar
 keywords: view, cluster security status, svm security status, volume encryption status
 summary: "The Security page shows high-level security status for all clusters, and detailed security status for individual clusters. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance."
 ---
-= Viewing detailed security status for clusters and SVMs
+= Viewing detailed security status for clusters and Storage VMs
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The Security page shows high-level security status for all clusters, and detailed security status for individual clusters. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance.
+The Security page shows high-level security status for all clusters, and detailed security status for individual clusters.
+
+As a system administrator, you can use the *Security* page to get visibility into the security strength of your ONTAP clusters and storage VMs at the datacenter and site levels.
+
+Based on the defined parameters, you can collect and analyze information to detect suspicious behavior or any unauthorized system changes on the monitored clusters and storage VMs.
+
+The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance.
+
+The Cluster / Security details page provides a default view of the clusters' security compliance by checking the security parameters, such as Global FIPS, Telnet, insecure SSH settings, login banner, network time protocol, AutoSupport HTTPS Transport, and default Admins.
+
+The Storage VMs/ Security details page provides a default view of the storage VMs' security compliance by checking the security parameters, such as storage VMs, cluster, login banner, audit log, and insecure SSH settings.
+
+You can generate, schedule, and download security compliance reports from the Cluster and Storage VMs details pages as well.
+
+From the *Security Dashboard*, click *View Reports* in the *Cluster Compliance* and *Storage VMs Compliance* cards.
 
 .Steps
 . In the left navigation pane, click *Dashboard*.

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage vm, compliance, svm compliance, categories
 summary: "This table describes the storage virtual machine (SVM) security compliance criteria that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the SVM being complaint or not complaint."
 ---
-= SVM compliance categories
+= Storage VM compliance categories
 :icons: font
 :imagesdir: ../media/
 
@@ -76,6 +76,38 @@ a|
 Indicates if Kerberos V5 authentication is enabled or disabled.
 a|
 Enabled
+a|
+No
+a|
+NIS  Authentication
+a|
+Indicates if the use of NIS authentication is configured.
+a|
+Disabled
+a|
+No
+a|
+FPolicy Status Active
+a|
+Indicates if FPolicy is created or not.
+a|
+Yes
+a|
+No
+a|
+SMB Encryption Enabled
+a|
+Indicates if SMB -Signing & Sealing is not enabled.
+a|
+Yes
+a|
+No
+a|
+SMB Signing Enabled
+a|
+Indicates if SMB -Signing is not enabled.
+a|
+Yes
 a|
 No
 |===

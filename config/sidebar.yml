@@ -29,10 +29,6 @@ entries:
         url: "/config/task_test_configuration_of_authentication_servers_um_6_0.html"
       - title: Adding alerts
         url: "/config/task_add_alerts.html"
-    - title: EMS events that are added automatically to Unified Manager
-      url: "/config/reference_ems_events_that_are_added_automatically_to_um.html"
-    - title: Subscribing to ONTAP EMS events
-      url: "/config/task_subscribe_to_ontap_ems_events.html"
     - title: Changing the local user password
       url: "/config/task_change_local_user_password.html"
     - title: Setting the session inactivity timeout
@@ -56,18 +52,20 @@ entries:
   - title: Managing feature settings
     url: "/config/concept_manage_feature_settings.html"
     entries:
-    - title: Policy-based storage management
+    - title: Enabling policy-based storage management
       url: "/config/concept_policy_based_storage_management.html"
-    - title: API Gateway
+    - title: Enabling API Gateway
       url: "/config/concept_api_gateway.html"
-    - title: Inactivity timeout
+    - title: Specifying inactivity timeout
       url: "/config/concept_inactivity_timeout.html"
-    - title: Active IQ portal events
+    - title: Enabling Active IQ portal events
       url: "/config/concept_active_iq_platform_events.html"
-    - title: Security Dashboard
+    - title: Enabling and disabling security settings for compliance
       url: "/config/concept_security_dashboard.html"
     - title: Enabling and disabling scripts upload
       url: "/config/task_enable_and_disable_ability_to_upload_scripts.html"
+    - title: Adding login banner
+      url: "/config/concept_login_banner.html"
   - title: Using the maintenance console
     url: "/config/task_use_maintenance_console.html"
     entries:

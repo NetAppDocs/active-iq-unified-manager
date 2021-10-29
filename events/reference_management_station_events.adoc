@@ -60,6 +60,70 @@ a|
 Management station
 a|
 Warning
+a|
+Total Audit Log Size Allocation is About to Get Full
+
+a|
+Risk
+a|
+Management station
+a|
+Warning
+a|
+Syslog Server Certificate About to Expire
+
+a|
+Risk
+a|
+Management station
+a|
+Warning
+a|
+Syslog Server Certificate Expired
+
+a|
+Risk
+a|
+Management station
+a|
+Error
+a|
+Audit Log File Tampered
+
+a|
+Risk
+a|
+Management station
+a|
+Warning
+a|
+Audit Log File Deleted
+
+a|
+Risk
+a|
+Management station
+a|
+Warning
+a|
+Syslog Server Connection Error
+
+a|
+Risk
+a|
+Management station
+a|
+Error
+a|
+Syslog Server Configuration Changed
+
+a|
+Event
+a|
+Management station
+a|
+Warning
+a|
 |===
 
 == Impact area: performance

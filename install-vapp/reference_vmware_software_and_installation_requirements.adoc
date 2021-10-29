@@ -39,3 +39,8 @@ VMware High Availability for the Unified Manager virtual appliance is supported.
 If you deploy an NFS datastore on a storage system that is running ONTAP software, use the NetApp NFS Plug-in for VMware VAAI to use thick provisioning.
 
 If deployment fails using your High Availability-enabled environment because of insufficient resources, you might need to modify the Cluster Features Virtual Machine Options by disabling the VM Restart Priority, and leaving the Host Isolation Response powered on.
+
+[NOTE]
+While installing or upgrading Unified Manager, the required third-party software and security patches are automatically installed or upgraded on a VMware vSphere system. Because the Unified Manager installation and upgrade processes control these components, you should not attempt a standalone install or upgrade of any third-party component.
+
+|===

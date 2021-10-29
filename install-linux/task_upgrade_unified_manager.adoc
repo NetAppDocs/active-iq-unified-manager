@@ -2,14 +2,14 @@
 permalink: install-linux/task_upgrade_unified_manager.html
 sidebar: sidebar
 keywords: upgrade, unified manager
-summary: "You can upgrade from Unified Manager 9.7 or 9.8 to 9.9 by downloading and running the installation file on the Red Hat platform."
+summary: "You can upgrade Unified Manager by downloading and running the installation file on the Red Hat platform."
 ---
 = Upgrading Unified Manager
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade from Unified Manager 9.7 or 9.8 to 9.9 by downloading and running the installation file on the Red Hat platform.
+You can upgrade from Unified Manager 9.8 or 9.9 to 9.10 by downloading and running the installation file on the Red Hat platform.
 
 *What you'll need*
 
@@ -22,15 +22,25 @@ link:reference_red_hat_and_centos_software_and_installation_requirements.html[Re
 * You must install, or upgrade to the correct version of OpenJDK prior to upgrading Unified Manager.
 +
 link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux]
-
-* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.25, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.25.
 +
-However, you may want to upgrade MySQL to the latest minor version on your system. Before an upgrade to the next minor version, ensure that the base version of MySQL on your system is 8.0.25.
 
 * You must have a subscription to the Red Hat Enterprise Linux Subscription Manager.
 * To avoid data loss, you must have created a backup of the Unified Manager database in case there is an issue during the upgrade. It is also recommended that you move the backup file from the `/opt/netapp/data` directory to an external location.
 * During upgrade, you may be prompted to confirm whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data after 6 months is purged.
 * You should have completed any running operations, because Unified Manager is unavailable during the upgrade process.
+* *MySQL Requirement*:
+MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.25, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.25.
++
+However, you may want to upgrade MySQL to the latest minor version on your system. Before an upgrade to the next minor version, ensure that the base version of MySQL on your system is 8.0.25.
++
+If your site does not have a repository configured with MySQL 8.0.25, you might not be able to upgrade Unified Manager. To configure the repository before upgrade, follow these steps:
+
+. Download the MySQL RPM packages with the minimum version required (in this case 8.0.25), and save them in the same directory where `netapp-um<version>.x86_64.rpm` is stored.
+. Run this command to install the new version:
+`yum install *.rpm`
+. Start the Unified Manager server. Run these commands:
+.. `systemctl start ocie`
+.. `systemctl start ocieau`
 
 .Steps
 
@@ -41,7 +51,7 @@ link:task_download_unified_manager.html[Downloading Unified Manager for Red Hat 
 
 . Navigate to the target directory and expand the Unified Manager bundle:
 +
-`unzip ActiveIQUnifiedManager-<version\>.zip`
+`unzip ActiveIQUnifiedManager-<version>.zip`
 +
 The required RPM modules for Unified Manager are unzipped to the target directory.
 
@@ -49,11 +59,12 @@ The required RPM modules for Unified Manager are unzipped to the target director
 +
 `ls *.rpm`
 +
-** `netapp-um<version>.x86_64.rpm`
+`netapp-um<version>.x86_64.rpm`
++
 . *Optional:* For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages:
  .. View the list of available and unavailable packages:
 +
-`yum install netapp-um<version\>.x86_64.rpm --assumeno`
+`yum install netapp-um<version>.x86_64.rpm --assumeno`
 +
 The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
 

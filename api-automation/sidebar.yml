@@ -40,9 +40,9 @@ entries:
       url: "/api-automation/concept_security_apis.html"
     - title: Viewing performance metrics
       url: "/api-automation/concept_metrics_apis.html"
-    - title: Viewing Jobs
+    - title: Viewing Jobs and system details
       url: "/api-automation/concept_job_api.html"
-    - title: Viewing events and system details
+    - title: Managing events and alerts
       url: "/api-automation/concept_events_api.html"
     - title: Managing workloads
       url: "/api-automation/concept_manage_storage_workloads.html"

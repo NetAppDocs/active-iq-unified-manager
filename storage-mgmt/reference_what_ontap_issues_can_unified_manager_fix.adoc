@@ -1,15 +1,18 @@
 ---
 permalink: storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html
 sidebar: sidebar
-keywords: ontap, issues, unified manager, fix
+keywords: ontap issues, fix it action, automatic remediation feature, remediation events, fix-it messages, fix-it events
 summary: "This table describes the ONTAP issues that Unified Manager can resolve directly from the Unified Manager user interface by clicking the Fix It or Fix All button."
 ---
-= What ONTAP issues can Unified Manager fix
+= What issues can Unified Manager fix
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This table describes the ONTAP issues that Unified Manager can resolve directly from the Unified Manager user interface by clicking the *Fix It* or *Fix All* button.
+By using the automatic remediation feature of Active IQ Unified Manager, you can choose to resolve certain ONTAP issues or manage certain ONTAP features, such as anti-ransomware monitoring, effectively through Unified Manager.
+
+This table describes these ONTAP issues or features that you can manage directly through the *Fix It* or *Fix All* button on the Unified Manager web UI.
+
 [options="header"]
 |===
 | Event Name and Description| Management Action| "Fix It" Operation
@@ -178,4 +181,42 @@ a|
 Disable Telnet
 a|
 Unified Manager sends the appropriate command to the cluster to disable Telnet.
+
+a|
+Configure storage VM anti-ransomware learning
+
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Validates whether a storage VM supports only NFS or SMB volumes in such a cluster.
+a|
+Put storage VMs in a `learning` mode of anti-ransomware monitoring
+
+a|
+Unified Manager sets anti-ransomware monitoring to `learning` state for the storage VMs through the cluster management console. Anti-ransomware monitoring on all the new volumes created on the storage VM are automatically moved to a learning mode. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks.
+
+a|
+Configure volume anti-ransomware learning
+
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Validates whether a volume supports only NFS or SMB services in such a cluster.
+a|
+Put volumes in `learning` mode of anti-ransomware monitoring
+a|
+Unified Manager sets anti-ransomware monitoring to `learning` state for the volumes through the cluster management console. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks.
+
+a|
+Enable volume anti-ransomware
+
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects whether the volumes are in the `learning` mode of anti-ransomware monitoring for more than 45 days, and determines the prospect of putting them in active mode.
+a|
+Put volumes in `active` mode of anti-ransomware monitoring
+a|
+Unified Manager sets anti-ransomware monitoring to `active` on the volumes through the cluster management console. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks, and create alerts for data protection actions.
+
+a|
+Disable volume anti-ransomware
+
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects repetitious notifications during active anti-ransomware monitoring on the volumes (for example, multiple warnings of potential ransomware attacks are returned over 30 days).
+a|
+Disable anti-ransomware monitoring on volumes
+a|
+Unified Manager disables anti-ransomware monitoring on the volumes through the cluster management console.
+
 |===

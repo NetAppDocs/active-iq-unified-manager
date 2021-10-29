@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: slo, storage efficiency policy, storage workloads
 summary: "The Policy-based storage management option allows storage management based on service level objectives (SLOs). This option is enabled by default."
 ---
-= Policy-based storage management
+= Enabling policy-based storage management
 :icons: font
 :imagesdir: ../media/
 

@@ -2,14 +2,14 @@
 permalink: install-vapp/task_upgrade_unified_manager_virtual_appliance_vapp.html
 sidebar: sidebar
 keywords: upgrade, unified manager, virtual, appliance
-summary: "You can upgrade the Unified Manager virtual appliance from the 9.7 and 9.8 releases to 9.9."
+summary: "You can upgrade the Unified Manager virtual appliance"
 ---
 = Upgrading the Unified Manager virtual appliance
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade the Unified Manager virtual appliance from the 9.7 and 9.8 releases to 9.9.
+You can upgrade the Unified Manager virtual appliance from the 9.8 and 9.9 releases to 9.10.
 
 *What you'll need*
 

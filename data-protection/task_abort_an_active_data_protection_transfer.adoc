@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/task_abort_an_active_data_protection_transfer.html
 sidebar: sidebar
-keywords: abort, active data protection, transfer, volume relationships page
+keywords: abort, active data protection, transfer, volume relationships page, smbc, sm-bc
 summary: "You can abort an active data protection transfer when you want to stop a SnapMirror replication that is in progress. You can also clear the restart checkpoint for transfers subsequent to the baseline transfer. You might abort a transfer when it conflicts with another operation, such as a volume move."
 ---
 = Aborting an active data protection transfer from the Volume Relationships page
@@ -10,6 +10,8 @@ summary: "You can abort an active data protection transfer when you want to stop
 
 [.lead]
 You can abort an active data protection transfer when you want to stop a SnapMirror replication that is in progress. You can also clear the restart checkpoint for transfers subsequent to the baseline transfer. You might abort a transfer when it conflicts with another operation, such as a volume move.
+
+*NOTE:* You cannot abort volumes relationships that are protected by the Consistency Group.
 
 *What you'll need*
 
@@ -22,6 +24,7 @@ The abort action does not display in the following instances:
 * When the volume ID is unknown: for example, when you have an intercluster relationship and the destination cluster has not yet been discovered
 
 You cannot clear the restart checkpoint for a baseline transfer.
+
 
 .Steps
 

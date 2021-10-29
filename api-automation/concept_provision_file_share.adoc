@@ -210,12 +210,12 @@ While provisioning the NFS share, you can either create an export policy by prov
 
 +
 After configuring access control list and export policy, provide the valid values for the mandatory input parameters for both CIFS and NFS file shares:
-+
+
 [NOTE]
 ====
 Storage Efficiency Policy is an optional parameter for creating file shares.
 ====
-+
+
 [cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
@@ -228,7 +228,7 @@ a|
 |===
 The JSON output displays a Job object key that you can use to verify the file share that you created.
 . Verify the file share creation by using the Job object key returned in querying the job:
-+
+
 [cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
@@ -240,7 +240,7 @@ a|
 `/management-server/jobs/\{key}`
 |===
 At the end of the response, you see the key of the file share created.
-+
+
 ----
 
     ],

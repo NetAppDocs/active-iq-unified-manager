@@ -24,4 +24,4 @@ Unified Manager rediscovers the selected cluster and displays the latest health 
 
 *Related information*
 
-link:[Configuration/Cluster Data Sources page]
+link:../health-checker/task_view_cluster_list_and_details.html[Viewing the cluster list and details]

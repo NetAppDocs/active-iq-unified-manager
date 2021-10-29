@@ -50,7 +50,7 @@ You can add clusters which are behind a NAT/firewall by using the Unified Manage
 +
 Unified Manager checks the certificate only when the cluster is added initially. Unified Manager does not check the certificate for each API call to ONTAP.
 
-After all the objects for a new cluster are discovered (about 15 minutes), Unified Manager starts to gather historical performance data for the previous 15 days. These statistics are collected using the data continuity collection functionality. This feature provides you with over two weeks of performance information for a cluster immediately after it is added. After the data continuity collection cycle is completed, real-time cluster performance data is collected, by default, every five minutes.
+After all the objects for a new cluster are discovered, Unified Manager starts to gather historical performance data for the previous 15 days. These statistics are collected using the data continuity collection functionality. This feature provides you with over two weeks of performance information for a cluster immediately after it is added. After the data continuity collection cycle is completed, real-time cluster performance data is collected, by default, every five minutes.
 
 [NOTE]
 ====
@@ -70,4 +70,4 @@ If you receive an error message that you cannot add the cluster, check to see if
 
 link:../config/task_add_users.html[Adding users]
 
-link:[Configuration/Cluster Data Sources page]
+link:../health-checker/task_view_cluster_list_and_details.html[Viewing the cluster list and details]

@@ -39,14 +39,14 @@ entries:
     entries:
     - title: Dashboard page
       url: "/storage-mgmt/reference_dashboard_page.html"
-    - title: Fixing ONTAP issues directly from Unified Manager
+    - title: Fixing or managing ONTAP issues directly from Unified Manager
       url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
       entries:
       - title: What options do I have when I see the Fix It or Fix All button
         url: "/storage-mgmt/concept_what_options_do_i_have_in_fix_it_button.html"
       - title: Viewing the status of management actions you have chosen to fix
         url: "/storage-mgmt/task_view_status_of_management_actions_to_fix.html"
-      - title: What ONTAP issues can Unified Manager fix
+      - title: What issues can Unified Manager fix
         url: "/storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html"
       - title: Overriding management actions through scripts
         url: "/storage-mgmt/concept_override_management_actions_through_scripts.html"
@@ -98,21 +98,6 @@ entries:
       entries:
       - title: Creating and editing Storage Efficiency Policies
         url: "/storage-mgmt/task_create_and_edit_seps.html"
-  - title: Collecting data and monitoring workload performance
-    url: "/storage-mgmt/concept_collect_data_and_monitor_workload_performance.html"
-    entries:
-    - title: Types of workloads monitored by Unified Manager
-      url: "/storage-mgmt/concept_types_of_workloads_monitored_by_unified_manager.html"
-    - title: Workload performance measurement values
-      url: "/storage-mgmt/reference_workload_performance_measurement_values.html"
-    - title: What the expected range of performance is
-      url: "/storage-mgmt/concept_what_expected_range_of_performance_is.html"
-    - title: How the latency forecast is used in performance analysis
-      url: "/storage-mgmt/reference_how_expected_range_is_used.html"
-    - title: How Unified Manager uses workload latency to identify performance issues
-      url: "/storage-mgmt/concept_how_unified_manager_uses_workload_response_time.html"
-    - title: How cluster operations can affect workload latency
-      url: "/storage-mgmt/concept_how_cluster_operations_can_affect_workload_latency.html"
   - title: Managing and monitoring MetroCluster configurations
     url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
     entries:

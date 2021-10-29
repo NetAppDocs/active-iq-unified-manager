@@ -11,10 +11,10 @@ entries:
       entries:
       - title: EMS events that are added automatically to Unified Manager
         url: "/events/reference_ems_events_that_are_added_automatically_to_um.html"
+      - title: Subscribing to ONTAP EMS events
+        url: "/events/task_subscribe_to_ontap_ems_events.html"
     - title: What happens when an event is received
       url: "/events/concept_what_happens_when_an_event_is_received.html"
-    - title: Configuring event notification settings
-      url: "/events/task_configure_event_notification_settings.html"
     - title: Viewing events and event details
       url: "/events/task_view_event_details.html"
     - title: Viewing unassigned events

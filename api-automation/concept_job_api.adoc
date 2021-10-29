@@ -4,12 +4,14 @@ sidebar: sidebar
 keywords: jobs, view
 summary: "You can use the jobs API under the management-server category to view the execution details of asynchronous operations."
 ---
-= Viewing Jobs
+= Viewing Jobs and system details
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the `jobs` API under the `management-server` category to view the execution details of asynchronous operations.
+You can use the `jobs` API under the `management-server` category to view the execution details of asynchronous operations. The `system` API under the `management-server` category enables you to view the instance details in your Active IQ Unified Manager environment.
+
+== Viewing Jobs
 
 In Active IQ Unified Manager, operations, such as adding and modifying resources are performed by synchronous and asynchronous API invocations. Invocations that are scheduled for asynchronous execution can be tracked by a Job object created for that invocation. Each Job object has a unique key for identification. Each Job object returns the Job object URI for you to access and track the progress of the job. You can use this API for retrieving the details of each execution.
 
@@ -37,4 +39,22 @@ Enter the job key of the Job object to view the specific details of that job.
 
 a|
 Returns the details of the specific Job object.
+|===
+
+== Viewing system details
+
+By using the `/management-server/system` API, you can query the instance-specific details of your Unified Manager environment. The API returns information about the product and services, such as the version of Unified Manager installed on your system, UUID, vendor name, host OS, and the name, description, and status of the services running on the Unified Manager instance.
+[cols="4*",options="header"]
+|===
+| Category| HTTP verb| Path| Description
+a|
+management-server
+a|
+GET
+a|
+`/management-server/system`
+
+a|
+No input parameter is required for running this API. The system details of the current Unified Manager instance are returned by default.
+
 |===

@@ -2,11 +2,11 @@
 layout: astra
 sidebar: sidebar
 permalink: index.html
-lead: Fix this in index.adoc (repo root). While you are there, fix the summary that is on the next line.
-summary: Fix this too.
+lead: Active IQ Unified Manager (Unified Manager, and formerly OnCommand Unified Manager) enables you to monitor and manage the health and performance of your ONTAP storage systems from a single interface.
+summary: Documentation for Active IQ Unified Manager, AIQUM docs, UM docs
 ---
 
-= Active IQ Unified Manager Docs
+= Active IQ Unified Manager Documentation
 :hardbreaks:
 :nofooter:
 :icons: font

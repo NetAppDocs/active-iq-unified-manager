@@ -21,6 +21,11 @@ After you have installed Unified Manager, you can access the web UI to set up Un
 
 . Start the Unified Manager web UI from your browser by using the URL displayed at the end of the installation. The URL is the IP address or fully qualified domain name (FQDN) of the Unified Manager server.
 +
-The link is in the following format: +https://URL+.
+The link is in the following format: `\https://URL`.
 
 . Log in to the Unified Manager web UI using your maintenance user credentials.
+
+[NOTE]
+If you make three consecutive unsuccessful attempts to log into the web UI within an hour, you will be locked out of the system, and will need to contact your system administrator. This is applicable for only local users.
+
+//BURT 1388944

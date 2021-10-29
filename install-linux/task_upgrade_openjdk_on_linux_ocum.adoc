@@ -15,7 +15,7 @@ You can upgrade to a newer version of OpenJDK on the Linux server on which Unifi
 
 You must have root privileges for the Linux system on which Unified Manager is installed.
 
-You can update OpenJDK releases within release families. For example, you can upgrade from OpenJDK 11.0.7 to OpenJDK 11.0.9, but you cannot update directly from OpenJDK 11 to OpenJDK 12.
+You can update OpenJDK releases within release families. For example, you can upgrade from OpenJDK 11.0.9 to OpenJDK 11.0.12, but you cannot update directly from OpenJDK 11 to OpenJDK 12.
 
 .Steps
 

@@ -24,6 +24,9 @@ You need to perform the following configuration:
 . Configure a iSCSI enabled storage VM or use an existing storage VM that has the same configuration.
 . Configure a network route for the configured storage VM.
 . Configure a volume of appropriate capacity and a single LUN inside ensuring that the volume is dedicated only for this LUN.
+[NOTE]
+In a scenario when the LUN is created on System Manager, unmapping the LUN might delete the igroup, and restore might fail. To avoid this scenario, ensure that while creating a LUN, it is created explicitly and is not deleted when the LUN is unmapped.
+
 . Configure an initiator group in the storage VM.
 . Configure a port set.
 . Integrate the igroup with the portset.

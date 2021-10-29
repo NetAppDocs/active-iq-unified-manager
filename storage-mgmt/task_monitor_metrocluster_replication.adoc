@@ -35,6 +35,4 @@ If you discover mirroring issues in your MetroCluster configuration, you must lo
 
 *Related information*
 
-link:[Health/Clusters page]
-
-link:[Health/Cluster details page]
+link:../health-checker/reference_health_cluster_details_page.html[Cluster / Health details page]

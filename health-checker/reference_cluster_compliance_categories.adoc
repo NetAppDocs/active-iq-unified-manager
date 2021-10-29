@@ -103,7 +103,7 @@ SAML Users
 a|
 Indicates if SAML is configured. SAML enables you to configure multi-factor authentication (MFA) as a login method for single sign-on.
 a|
-No Recommendations
+No
 a|
 No
 a|
@@ -111,7 +111,7 @@ Active Directory Users
 a|
 Indicates if Active Directory is configured. Active Directory and LDAP are the preferred authentication mechanisms for users accessing clusters.
 a|
-No Recommendations
+No
 a|
 No
 a|
@@ -119,7 +119,7 @@ LDAP Users
 a|
 Indicates if LDAP is configured. Active Directory and LDAP are the preferred authentication mechanisms for users managing clusters over local users.
 a|
-No Recommendations
+No
 a|
 No
 a|
@@ -127,7 +127,7 @@ Certificate Users
 a|
 Indicates if a certificate user is configured to log into the cluster.
 a|
-No Recommendations
+No
 a|
 No
 a|
@@ -135,7 +135,31 @@ Local Users
 a|
 Indicates if local users are configured to log into the cluster.
 a|
-No Recommendations
+No
+a|
+No
+a|
+Remote Shell
+a|
+Indicates if RSH is enabled. For security reasons, RSH should be disabled. The Secure Shell (SSH) for secure remote access is preferred.
+a|
+Disabled
+a|
+Yes
+a|
+MD5 in Use
+a|
+Indicates if ONTAP user accounts use less-secure MD5 Hash function. The MD5 Hashed user accounts migration to the more secure cryptographic hash function like SHA-512 is preferred.
+a|
+No
+a|
+Yes
+a|
+Certificate Issuer Type
+a|
+Indicates the type of digital certificate used.
+a|
+CA-Signed
 a|
 No
 |===

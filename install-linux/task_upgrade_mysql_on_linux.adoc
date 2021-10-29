@@ -2,14 +2,14 @@
 permalink: install-linux/task_upgrade_mysql_on_linux.html
 sidebar: sidebar
 keywords: upgrade, mysql, linux
-summary: "You can upgrade to a newer version of MySQL on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities. If the installed version of MySQL on your system is earlier than 8.0.25, the Unified Manager 9.9 upgrade process automatically upgrades MySQL to 8.0.25. You should not run a standalone upgrade of MySQL from an earlier version to 8.0.25."
+summary: "You can upgrade to a newer version of MySQL on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities."
 ---
 = Upgrading MySQL on Linux
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade to a newer version of MySQL on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities. If the installed version of MySQL on your system is earlier than 8.0.25, the Unified Manager 9.9 upgrade process automatically upgrades MySQL to 8.0.25. You should not run a standalone upgrade of MySQL from an earlier version to 8.0.25.
+You can upgrade to a newer version of MySQL on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities. If the installed version of MySQL on your system is earlier than 8.0.25, the Unified Manager 9.10 upgrade process automatically upgrades MySQL to 8.0.25. You should not run a standalone upgrade of MySQL from an earlier version to 8.0.25.
 
 *What you'll need*
 

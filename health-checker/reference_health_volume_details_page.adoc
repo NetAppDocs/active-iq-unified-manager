@@ -493,7 +493,12 @@ Displays the Snapshot copy policy for the volume. The policy is Default, None, o
 
  ** Protected By
 +
-Displays the type of protection used for the selected volume. This field also provides a link that redirects you to the Relationships page with its storage VM disaster recovery relationships. The link is only applicable to constituent relationships.
+Displays the type of protection used for the selected volume. For example, if a volume is protected by Consistency Group and SnapMirror volume relationships, this field displays both SnapMirror and Consistency Group. This field also provides a link that redirects you to the Relationships page to view the unified relationship status. The link is only applicable to constituent relationships.
+
+ ** Consistency Group
++
+For volumes protected by SnapMirror Business Continuity (SM-BC) relationships, this column displays the Consistency Group of the volume.
+
 
 * *Views*
 +
@@ -533,7 +538,8 @@ Displays the amount, duration, time, and date of the last successful data transf
 
 * *History*
 +
-Displays in a graph the history of incoming SnapMirror and SnapVault protection relationships for the selected volume. There are three history graphs available: incoming relationship lag duration, incoming relationship transfer duration, and incoming relationship transferred size. History information is displayed only when you select a destination volume. If you select a primary volume, the graphs are empty, and the message No data found is displayed.
+Displays in a graph the history of incoming SnapMirror and SnapVault protection relationships for the selected volume. There are three history graphs available: incoming relationship lag duration, incoming relationship transfer duration, and incoming relationship transfer size. History information is displayed only when you select a destination volume. If you select a primary volume, the graphs are empty, and the message No data found is displayed. If the volumes are protected by Consistency Group and SnapMirror synchronous relationships, information for the relationship transfer duration and relationship transfer size is not displayed.
+
 +
 You can select a graph type from the drop-down list at the top of the History pane. You can also view details for a specific time period by selecting either 1 week, 1 month, or 1 year. History graphs can help you identify trends: for example, if large amounts of data are being transferred at the same time of the day or week, or if the lag warning or lag error threshold is consistently being breached, you can take the appropriate action. Additionally, you can click the *Export* button to create a report in CSV format for the chart that you are viewing.
 +

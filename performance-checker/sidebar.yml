@@ -41,14 +41,6 @@ entries:
       url: "/performance-checker/reference_performance_event_severity_types.html"
     - title: Configuration changes detected by Unified Manager
       url: "/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html"
-    - title: What happens when an event is received
-      url: "/performance-checker/concept_what_happens_when_an_event_is_received.html"
-    - title: What information is contained in an alert email
-      url: "/performance-checker/concept_what_information_is_contained_in_an_alert_email.html"
-    - title: Adding alerts
-      url: "/performance-checker/task_add_alerts.html"
-    - title: Adding alerts for performance events
-      url: "/performance-checker/task_add_alerts_for_performance_events.html"
     - title: Types of system-defined performance threshold policies
       url: "/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html"
   - title: Managing performance thresholds

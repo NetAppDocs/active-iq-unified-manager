@@ -15,4 +15,4 @@ The ability to upload scripts to Unified Manager and run them is enabled by defa
 
 *Related information*
 
-link:[Enabling and disabling the ability to upload scripts]
+link:../config/task_enable_and_disable_ability_to_upload_scripts.html[Enabling and disabling the ability to upload scripts]

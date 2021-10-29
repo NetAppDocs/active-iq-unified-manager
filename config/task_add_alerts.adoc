@@ -60,6 +60,7 @@ This example shows how to create an alert that meets the following requirements:
 
 Perform the following steps in the Add Alert dialog box:
 
+.Steps
 . Click *Name*, and enter *HealthTest* in the *Alert Name* field.
 . Click *Resources*, and in the Include tab, select *Volumes* from the drop-down list.
  .. Enter *abc* in the *Name contains* field to display the volumes whose name contains "`abc`".

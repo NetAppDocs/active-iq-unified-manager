@@ -41,6 +41,4 @@ If you discover connectivity issues in your MetroCluster configuration, you must
 
 *Related information*
 
-link:[Health/Clusters page]
-
-link:[Health/Cluster details page]
+link:../health-checker/reference_health_cluster_details_page.html[Cluster / Health details page]
