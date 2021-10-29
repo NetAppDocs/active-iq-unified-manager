@@ -70,4 +70,4 @@ If you receive an error message that you cannot add the cluster, check to see if
 
 link:../config/task_add_users.html[Adding users]
 
-link:[Configuration/Cluster Data Sources page]
+link:../health-checker/task_view_cluster_list_and_details.html[Viewing the cluster list and details]

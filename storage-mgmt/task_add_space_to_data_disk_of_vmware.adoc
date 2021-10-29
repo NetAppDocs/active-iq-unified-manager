@@ -18,8 +18,8 @@ If you need to increase the amount of space on the data disk for the Unified Man
 * You must have the maintenance user credentials.
 
 We recommend that you back up your virtual machine before increasing the size of virtual disks.
-.Steps
 
+.Steps
 . In the vSphere client, select the Unified Manager virtual machine, and then add more disk capacity to data `disk 3`. See the VMware documentation for details.
 +
 In some rare cases the Unified Manager deployment uses "Hard Disk 2" for the data disk instead of "Hard Disk 3". If this has occurred in your deployment, increase the space of whichever disk is larger. The data disk will always have more space than the other disk.

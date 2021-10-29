@@ -25,8 +25,8 @@ link:../performance-checker/concept_performance_incident_analysis_for_metroclust
 
 link:../performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html[Roles of workloads involved in a performance event]
 
-link:[Identifying victim workloads involved in a performance event]
+link:../performance-checker/task_identify_victim_workloads_involved_in_performance_event.html[Identifying victim workloads involved in a performance event]
 
-link:[Identifying bully workloads involved in a performance event]
+link:../performance-checker/task_identify_bully_workloads_involved_in_performance_event.html[Identifying bully workloads involved in a performance event]
 
-link:[Identifying shark workloads involved in a performance event]
+link:../performance-checker/task_identify_shark_workloads_involved_in_performance_event.html[Identifying shark workloads involved in a performance event]

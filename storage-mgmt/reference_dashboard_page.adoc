@@ -70,7 +70,7 @@ link:../performance-checker/task_display_information_about_performance_event.htm
 
 link:../performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html[Managing performance using performance capacity and available IOPS information]
 
-link:[What health events are]
+link:../health-checker/reference_health_volume_details_page.html[Volume / Health details page]
 
 link:../performance-checker/reference_performance_event_analysis_and_notification.html[Performance event analysis and notification]
 

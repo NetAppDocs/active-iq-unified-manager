@@ -24,7 +24,7 @@ You can determine the I/O path and component-level latencies from a topological 
 
 == Viewing summary topology
 
-To determine performance issues by viewing the VMs in a summary topology
+To determine performance issues by viewing the VMs in a summary topology:
 
 . Go to *VMWARE* > *Virtual Machines*.
 . Search for your VM by typing its name in the search box. You can also filter your search results based on specific criteria by clicking on the *Filter* button. However, If you cannot find your VM, ensure that the corresponding vCenter Server has been added and discovered.
@@ -47,6 +47,7 @@ vCenter Servers allow special characters (such as %, &, *, $, #, @, !, \, /, :, 
 
 You can drill down to each component separately by viewing the expanded topology of the VM.
 
+.Steps
 . From the summary topology view, click *Expand Topology*. You can see the detailed topology of each component separately with the latency numbers for each object. If there are multiple nodes in a category, for example multiple nodes in the datastore or VMDK, the node with worst latency is highlighted in red.
 . To check the IO path of a specific object, click on that object to see the IO path and the corresponding mapping. For example, to see the mapping of a virtual disk, click the virtual disk to view its highlighted mapping to the respective VMDK. In case of a performance lag of these components, you can collect more data from ONTAP and troubleshoot the issue.
 +
