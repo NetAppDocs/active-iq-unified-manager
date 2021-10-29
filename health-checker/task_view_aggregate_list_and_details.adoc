@@ -29,4 +29,4 @@ You can also view the complete details by clicking *View Details* in the minimal
 
 *Related information*
 
-link:../health-checker/reference_health_aggregate_details_page.html
+link:../health-checker/reference_health_aggregate_details_page.html[Aggregate / Health details page]
