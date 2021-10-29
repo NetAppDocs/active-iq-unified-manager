@@ -26,4 +26,4 @@ The number of Snapshot copies is a link that displays the list of Snapshot copie
 
 *Related information*
 
-link:../reference_health_volume_details_page.html[Health/Volumes page]
+link:../health-checker/reference_health_volume_details_page.html[Health/Volumes page]
