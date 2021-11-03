@@ -1,0 +1,20 @@
+---
+permalink: reporting/task_filter_data.html
+sidebar: sidebar
+keywords: filtering, data
+summary: "Filter the data to make sure the results match your report requirements. Filtering enables you to display only the data in which you are interested."
+---
+= Filtering data
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Filter the data to make sure the results match your report requirements. Filtering enables you to display only the data in which you are interested.
+
+.Steps
+
+. Click the filter icon to add filters to focus the results you want to view, and then click *Apply Filter*.
++
+image::../media/filter_cold_data_2.png[]
+
+. Name the unsaved view to save your changes.

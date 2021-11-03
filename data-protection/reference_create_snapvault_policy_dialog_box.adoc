@@ -1,0 +1,68 @@
+---
+permalink: data-protection/reference_create_snapvault_policy_dialog_box.html
+sidebar: sidebar
+keywords: create, snapvault, policy, dialog box
+summary: "The Create SnapVault Policy dialog box enables you to create a policy to set the priority for SnapVault transfers. You use policies to maximize the efficiency of transfers from the primary to the secondary volume."
+---
+= Create SnapVault Policy dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Create SnapVault Policy dialog box enables you to create a policy to set the priority for SnapVault transfers. You use policies to maximize the efficiency of transfers from the primary to the secondary volume.
+
+* *Destination Cluster*
++
+The name of the cluster that you selected in the SnapVault tab of the Configure Protection dialog box.
+
+* *Destination SVM*
++
+The name of the SVM that you selected in the SnapVault tab of the Configure Protection dialog box.
+
+* *Policy Name*
++
+The name you provide for the new policy. Policy names can consist of the characters A through Z, a through z, 0 through 9, period (.), hyphen (-), and underscore (_).
+
+* *Transfer Priority*
++
+The priority at which the transfer is run. You can select either Normal or Low. Transfer relationships with policies that specify a normal transfer priority run before those with policies that specify a low transfer priority. The default setting is Normal.
+
+* *Comment*
++
+An optional field in which you can a add comment of up to 255 characters about the SnapVault policy.
+
+* *Ignore Access Time*
++
+Specifies whether incremental transfers are ignored for files that have only their access time changed.
+
+* *Replication Label*
++
+Lists in a table the rules associated with Snapshot copies selected by ONTAP that have a specific replication label in a policy. The following information and actions are also available:
+
+ ** Command buttons
++
+The command buttons enable you to perform the following actions:
+
+  *** Add
++
+Enables you to create a Snapshot copy label and retention count.
+
+  *** Edit Retention Count
++
+Enables you to change the retention count for an existing Snapshot copy label. The retention count must be a number between 1 and 251. The sum of all retention counts for all rules cannot exceed 251.
+
+  *** Delete
++
+Enables you to delete an existing Snapshot copy label.
+
+ ** Snapshot Copy Label
++
+Displays the Snapshot copy label. If you select one or more volumes with the same local Snapshot copy policy, an entry for each label in the policy is displayed. If you select multiple volumes that have two or more local Snapshot copy policies, the table displays all labels from all policies
+
+ ** Schedule
++
+Displays the schedule associated with each Snapshot copy label. If a label has more than one schedule associated with it, the schedules for that label are displayed in a comma-separated list. If you select multiple volumes with the same label but with different schedules, the schedule displays "`Various`" to indicate that more than one schedule is associated with the selected volumes.
+
+ ** Destination Retention Count
++
+Displays the number of Snapshot copies with the specified label that are retained on the SnapVault secondary. Retention counts for labels with multiple schedules displays the sum of retention counts of each label and schedule pair. If you select multiple volumes with two or more local Snapshot copy policies, the retention count is empty.

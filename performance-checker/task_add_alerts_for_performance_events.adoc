@@ -1,0 +1,35 @@
+---
+permalink: performance-checker/task_add_alerts_for_performance_events.html
+sidebar: sidebar
+keywords: add, alerts, performance, events
+summary: "You can configure alerts for individual performance events just like any other events received by Unified Manager. Additionally, if you want to treat all performance events alike and have email sent to the same person, you can create a single alert to notify you when any critical or warning performance events are triggered."
+---
+= Adding alerts for performance events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure alerts for individual performance events just like any other events received by Unified Manager. Additionally, if you want to treat all performance events alike and have email sent to the same person, you can create a single alert to notify you when any critical or warning performance events are triggered.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+The example below shows how to create an event for all critical latency, IOPS, and MBps events. You can use this same methodology to select events from all performance counters, and for all warning events.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Alert Setup*.
+. In the Alert Setup page, click *Add*.
+. In the Add Alert dialog box, click *Name*, and enter a name and description for the alert.
+. Do not select any resources on the *Resources* page.
++
+Because no resources are selected, the alert is applied to all clusters, aggregates, volumes, and so on, for which these events are received.
+
+. Click *Events* and perform the following actions:
+ .. In the Event Severity list, select *Critical*.
+ .. In the Event Name Contains field, enter `*latency*` and then click the arrow to select all the matching events.
+ .. In the Event Name Contains field, enter `*iops*` and then click the arrow to select all the matching events.
+ .. In the Event Name Contains field, enter `*mbps*` and then click the arrow to select all the matching events.
+. Click *Actions* and then select the name of the user who will receive the alert email in the *Alert these users* field.
+. Configure any other options on this page for issuing SNMP taps and executing a script.
+. Click *Save*.

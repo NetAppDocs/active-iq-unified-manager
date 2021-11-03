@@ -1,0 +1,25 @@
+---
+permalink: health-checker/task_configure_global_qtree_health_threshold_values.html
+sidebar: sidebar
+keywords: configure, global, qtree, health, threshold values
+summary: "You can configure the global health threshold values for all qtrees to track any threshold breach. Appropriate events are generated for health threshold breaches, and you can take preventive measures based on these events. You can configure the global values based on the best practice settings for thresholds that apply to all monitored qtrees."
+---
+= Configuring global qtree health threshold values
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure the global health threshold values for all qtrees to track any threshold breach. Appropriate events are generated for health threshold breaches, and you can take preventive measures based on these events. You can configure the global values based on the best practice settings for thresholds that apply to all monitored qtrees.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+The threshold options have default values for better monitoring, however, you can change the values to suit the requirements of your environment.
+
+Events are generated for a qtree only when a Qtree quota or a Default quota has been set on the qtree. Events are not generated if the space defined in a User quota or Group quota has exceeded the threshold.
+
+.Steps
+. In the left navigation pane, click *Event Thresholds* > *Qtree*.
+. Configure the appropriate capacity threshold values.
+. Click *Save*.

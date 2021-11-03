@@ -1,0 +1,56 @@
+---
+permalink: data-protection/reference_create_snapmirror_policy_dialog_box.html
+sidebar: sidebar
+keywords: create, snapmirror, policy, dialog box
+summary: "The Create SnapMirror Policy dialog box enables you to create a policy to set the priority for SnapMirror transfers. You use policies to maximize the efficiency of transfers from the source to the destination."
+---
+= Create SnapMirror Policy dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Create SnapMirror Policy dialog box enables you to create a policy to set the priority for SnapMirror transfers. You use policies to maximize the efficiency of transfers from the source to the destination.
+
+* *Destination Cluster*
++
+The name of the cluster you selected in the SnapMirror tab of the Configure Protection dialog box.
+
+* *Destination SVM*
++
+The name of the SVM you selected in the SnapMirror tab of the Configure Protection dialog box.
+
+* *Policy Name*
++
+The name you provide for the new policy. Policy names can consist of the characters A through Z, a through z, 0 through 9, period (.), hyphen (-), and underscore (_).
+
+* *Transfer Priority*
++
+The priority at which a transfer runs for asynchronous operations. You can select either Normal or Low. Transfer relationships with policies that specify a normal transfer priority run before those with policies that specify a low transfer priority.
+
+* *Comment*
++
+An optional field in which you can add comments about the policy.
+
+* *Transfer Restart*
++
+Indicates what restart action to take when a transfer is interrupted by an abort operation or any type of failure, such as a network outage. You can select one of the following:
+
+ ** Always
++
+Specifies that a new Snapshot copy is created before restarting a transfer, then, if one exists, the transfer is restarted from a checkpoint, followed by an incremental transfer from the newly created Snapshot copy.
+
+ ** Never
++
+Specifies that interrupted transfers are never restarted.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Cancel*
++
+Discards the selections and closes the Configure Protection dialog box.
+
+* *Apply*
++
+Applies your selections and begins the protection process.

@@ -1,0 +1,18 @@
+---
+permalink: performance-checker/concept_when_would_i_use_workload_analyzer.html
+sidebar: sidebar
+keywords: workload analyzer, use
+summary: "You would typically use the workload analyzer to troubleshoot a latency issue reported by a user, to more thoroughly analyze a reported event or alert, or to explore a workload that you see is operating abnormally."
+---
+= When would I use the workload analyzer
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You would typically use the workload analyzer to troubleshoot a latency issue reported by a user, to more thoroughly analyze a reported event or alert, or to explore a workload that you see is operating abnormally.
+
+In the case where users have contacted you to say that the application they are using is running very slowly, you can check the latency, throughput, and utilization charts for the workload over which the application is running to see if storage is the cause of the performance issue. You can use the capacity chart as well to see if capacity is low because an ONTAP system in which capacity is over 85% used can cause performance issues. These charts will help you determine if the issue is caused by storage or by a networking or other related issue.
+
+In the case where Unified Manager has generated a performance event and you want to review the cause of the issue more thoroughly, you can launch the workload analyzer from the Event details page by clicking the *Analyze Workload* button to research some of the latency, throughput, and capacity trends for the workload.
+
+In the case where you notice a workload that appears to be operating abnormally when viewing any workload inventory page (volume, LUN, workload, NFS share, or SMB/CIFS share), you can click the more icon image:../media/more_icon.gif[], then *Analyze Workload* to open the Workload Analysis page to examine the workload further.

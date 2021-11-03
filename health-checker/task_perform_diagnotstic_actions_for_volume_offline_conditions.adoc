@@ -1,0 +1,36 @@
+---
+permalink: health-checker/task_perform_diagnotstic_actions_for_volume_offline_conditions.html
+sidebar: sidebar
+keywords: perform, diagnostic actions, volume, offline, conditions
+summary: "After navigating to the Volume / Health details page of a volume reported to be offline, you can search for additional information helpful to diagnosing the volume offline condition."
+---
+= Performing diagnostic actions for volume offline conditions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After navigating to the Volume / Health details page of a volume reported to be offline, you can search for additional information helpful to diagnosing the volume offline condition.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+If the volume that is reported offline was not taken offline deliberately, that volume might be offline for several reasons.
+
+Starting at the offline volume's Volume / Health details page, you can navigate to other pages and panes to confirm or eliminate possible causes:
+
+* Click *Volume / Health* details page links to determine if the volume is offline because its host node is down and storage failover to its HA pair partner has failed also.
++
+See link:task_determine_if_volume_offline_condition_is_by_down_cluster_node.html[Determining if a volume offline condition is caused by a down node].
+
+* Click *Volume / Health* details page links to determine if the volume is offline and its host storage virtual machine (SVM) is stopped because the node hosting the root volume of that SVM is down.
++
+See link:task_determine_if_volume_is_offline_and_its_svm_is_stopped.html[Determining if a volume is offline and SVM is stopped because a node is down].
+
+* Click *Volume / Health* details page links to determine if the volume is offline because of broken disks in its host aggregate.
++
+See link:task_determine_if_volume_is_offline_because_of_broken_disks.html[Determining if a volume is offline because of broken disks in an aggregate].
+
+*Related information*
+
+link:../config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]

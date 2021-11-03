@@ -1,0 +1,75 @@
+---
+permalink: performance-checker/concept_cluster_configuration_and_performance_data_collection_activity.html
+sidebar: sidebar
+keywords: cluster, configuration, performance, data, collection, activity
+summary: "The collection interval for cluster configuration data is 15 minutes. For example, after you have added a cluster, it takes 15 minutes to display the cluster details in the Unified Manager UI. This interval applies when making changes to a cluster too."
+---
+= Cluster configuration and performance data collection activity
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The collection interval for _cluster configuration data_ is 15 minutes. For example, after you have added a cluster, it takes 15 minutes to display the cluster details in the Unified Manager UI. This interval applies when making changes to a cluster too.
+
+For example, if you add two new volumes to an SVM in a cluster, you see those new objects in the UI after the next polling interval, which could be up to 15 minutes.
+
+Unified Manager collects current _performance statistics_ from all monitored clusters every five minutes. It analyzes this data to identify performance events and potential issues. It retains 30 days of five-minute historical performance data and 180 days of one-hour historical performance data. This enables you to view very granular performance details for the current month, and general performance trends for up to a year.
+
+The collection polls are offset by a few minutes so that data from every cluster is not sent at the same time, which could affect performance.
+
+The following table describes the collection activities that Unified Manager performs:
+[options="header"]
+|===
+| Activity| Time interval| Description
+a|
+Performance statistics poll
+a|
+Every 5 minutes
+a|
+Collects real-time performance data from each cluster.
+a|
+Statistical analysis
+a|
+Every 5 minutes
+a|
+After every statistics poll, Unified Manager compares the collected data against user-defined, system-defined, and dynamic thresholds.
+
+If any performance thresholds have been breached, Unified Manager generates events and sends email to specified users, if configured to do so.
+
+a|
+Configuration poll
+a|
+Every 15 minutes
+a|
+Collects detailed inventory information from each cluster to identify all the storage objects (nodes, SVMs, volumes, and so on).
+a|
+Summarization
+a|
+Every hour
+a|
+Summarizes the latest 12 five-minute performance data collections into hourly averages.
+
+The hourly average values are used in some of the UI pages, and they are retained for 180 days.
+
+a|
+Forecast analysis and data pruning
+a|
+Every day after midnight
+a|
+Analyzes cluster data to establish dynamic thresholds for volume latency and IOPS for the next 24 hours.
+
+Deletes from the database any five-minute performance data older than 30 days.
+
+a|
+Data pruning
+a|
+Every day after 2 a.m.
+a|
+Deletes from the database any events older than 180 days and dynamic thresholds older than 180 days.
+a|
+Data pruning
+a|
+Every day after 3:30 a.m.
+a|
+Deletes from the database any one-hour performance data older than 180 days.
+|===

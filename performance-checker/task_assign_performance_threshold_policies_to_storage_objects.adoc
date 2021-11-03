@@ -1,0 +1,62 @@
+---
+permalink: performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html
+sidebar: sidebar
+keywords: assign, performance, threshold, policies, storage, objects
+summary: "You assign a user-defined performance threshold policy to a storage object so that Unified Manager reports an event if the value of the performance counter exceeds the policy setting."
+---
+= Assigning performance threshold policies to storage objects
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You assign a user-defined performance threshold policy to a storage object so that Unified Manager reports an event if the value of the performance counter exceeds the policy setting.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+The performance threshold policy, or policies, that you want to apply to the object must exist.
+
+You can apply only one performance policy at a time to an object, or to a group of objects.
+
+You can assign a maximum of three threshold policies to each storage object. When assigning policies to multiple objects, if any of the objects already has the maximum number of policies assigned, Unified Manager performs the following actions:
+
+* Applies the policy to all of the selected objects that have not reached their maximum
+* Ignores the objects that have reached the maximum number of policies
+* Displays a message that the policy was not assigned to all objects
+
+.Steps
+. From the Performance inventory page of any storage object, select the object or objects to which you want to assign a threshold policy:
++
+[options="header"]
+|===
+| To assign thresholds to...| Click...
+a|
+A single object
+a|
+The check box at the left of that object.
+a|
+Multiple objects
+a|
+The check box at the left of each object.
+a|
+All objects on the page
+a|
+The image:../media/select_dropdown_65_png.gif[] drop-down box, and choose *Select all objects on this page*.
+a|
+All objects of the same type
+a|
+The image:../media/select_dropdown_65_png.gif[] drop-down box, and choose *Select all objects*.
+|===
+You can use the sorting and filtering functionality to refine the list of objects on the inventory page to make it easier to apply threshold policies to many objects.
+
+. Make your selection, and then click *Assign Performance Threshold Policy*.
++
+The Assign Performance Threshold Policy page is displayed, showing a list of threshold policies that exist for that specific type of storage object.
+
+. Click each policy to display the details of the performance threshold settings to verify that you have selected the correct threshold policy.
+. After you have selected the appropriate threshold policy, click *Assign Policy*.
++
+A success message at the top of the page confirms that the threshold policy was assigned to the object or objects, and provides a link to the Alerting page so that you can configure alert settings for this object and policy.
+
+If you want to have alerts sent over email, or as an SNMP trap, to notify you that a particular performance event has been generated, you must configure the alert settings in the Alert Setup page.

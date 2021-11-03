@@ -1,0 +1,222 @@
+---
+permalink: config/reference_unified_manager_roles_and_capabilities.html
+sidebar: sidebar
+keywords: unified manager, user, roles, capabilities
+summary: "Based on your assigned user role, you can determine which operations you can perform in Unified Manager."
+---
+= Unified Manager user roles and capabilities
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Based on your assigned user role, you can determine which operations you can perform in Unified Manager.
+
+The following table displays the functions that each user role can perform:
+[cols="6*",options="header"]
+|===
+| Function| Operator| Storage Administrator| Application Administrator| Integration Schema| Report Schema
+a|
+View storage system information
+a|
+•
+a|
+•
+a|
+•
+a|
+•
+a|
+•
+a|
+View other data, such as histories and capacity trends
+a|
+•
+a|
+•
+a|
+•
+a|
+•
+a|
+•
+a|
+View, assign, and resolve events
+a|
+•
+a|
+•
+a|
+•
+a|
+
+a|
+
+a|
+View storage service objects, such as SVM associations and resource pools
+a|
+•
+a|
+•
+a|
+•
+a|
+
+a|
+
+a|
+View threshold policies
+a|
+•
+a|
+•
+a|
+•
+a|
+
+a|
+
+a|
+Manage storage service objects, such as SVM associations and resource pools
+a|
+
+a|
+•
+a|
+•
+a|
+
+a|
+
+a|
+Define alerts
+a|
+
+a|
+•
+a|
+•
+a|
+
+a|
+
+a|
+Manage storage management options
+a|
+
+a|
+•
+a|
+•
+a|
+
+a|
+
+a|
+Manage storage management policies
+a|
+
+a|
+•
+a|
+•
+a|
+
+a|
+
+a|
+Manage users
+a|
+
+a|
+
+a|
+•
+a|
+
+a|
+
+a|
+Manage administrative options
+a|
+
+a|
+
+a|
+•
+a|
+
+a|
+
+a|
+Define threshold policies
+a|
+
+a|
+
+a|
+•
+a|
+
+a|
+
+a|
+Manage database access
+a|
+
+a|
+
+a|
+•
+a|
+
+a|
+
+a|
+Manage integration with WFA and provide access to the database views
+a|
+
+a|
+
+a|
+
+a|
+•
+a|
+
+a|
+Schedule and save reports
+a|
+
+a|
+•
+a|
+•
+a|
+
+a|
+
+a|
+Execute "`Fix It`" operations from Management Actions
+a|
+
+a|
+•
+a|
+•
+a|
+
+a|
+
+a|
+Provide read-only access to database views
+a|
+
+a|
+
+a|
+
+a|
+
+a|
+•
+|===

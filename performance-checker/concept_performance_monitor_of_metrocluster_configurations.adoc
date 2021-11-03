@@ -1,0 +1,18 @@
+---
+permalink: performance-checker/concept_performance_monitor_of_metrocluster_configurations.html
+sidebar: sidebar
+keywords: performance, monitor, metrocluster, configurations
+summary: "Unified Manager enables you to monitor the write throughput between clusters in a MetroCluster configuration to identify workloads with a high amount of write throughput. If these high-performing workloads are causing other volumes on the local cluster to have high I/O response times, Unified Manager triggers performance events to notify you."
+---
+= Performance monitoring of MetroCluster configurations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager enables you to monitor the write throughput between clusters in a MetroCluster configuration to identify workloads with a high amount of write throughput. If these high-performing workloads are causing other volumes on the local cluster to have high I/O response times, Unified Manager triggers performance events to notify you.
+
+When a local cluster in a MetroCluster configuration mirrors its data to its partner cluster, the data is written to NVRAM and then transferred over the interswitch links (ISLs) to the remote aggregates. Unified Manager analyzes the NVRAM to identify the workloads whose high write throughput is overutilizing the NVRAM, placing the NVRAM in contention.
+
+Workloads whose deviation in response time has exceeded the performance threshold are called _victims_ and workloads whose deviation in write throughput to the NVRAM is higher than usual, causing the contention, are called _bullies_. Because only the write requests are mirrored to the partner cluster, Unified Manager does not analyze read throughput.
+
+Unified Manager treats the clusters in a MetroCluster configuration as individual clusters. It does not distinguish between clusters that are partners or correlate the write throughput from each cluster.

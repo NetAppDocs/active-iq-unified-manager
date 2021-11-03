@@ -1,0 +1,52 @@
+---
+permalink: reporting/task_use_excel_to_customize_your_report.html
+sidebar: sidebar
+keywords: excel, customize, report
+summary: "After you have saved the view, you can download it in Excel Workbook format (.xlsx). When you open the Excel file, you can use advanced Excel features to customize your report."
+---
+= Using Excel to customize your report
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you have saved the view, you can download it in Excel Workbook format (.xlsx). When you open the Excel file, you can use advanced Excel features to customize your report.
+
+*What you'll need*
+
+You can only upload an Excel Workbook file with the .xlsx extension.
+
+For example, some advanced Excel features you can use in your report include:
+
+* Multi-column sort
+* Complex filtering
+* Pivot tables
+* Charts
+
+[NOTE]
+====
+
+* The downloaded Excel file uses the default file name for the view, not your saved name.
+ ** The format is `<View Area>-<Day>-<Month>-<Year>-<Hour>-<Minute>-<Second>.xlsx.`
+ ** For example, a custom saved view named `Volumes-not online` has a file name of `health-volumes-05-May-2020-19-18-00.xlsx` if saved at that day and time.
+* You can add sheets to the Excel file, but do not change existing sheets.
+ ** Do not change the existing sheets, data and info. Instead, copy the data to a new page that you create.
+ ** One exception to the above rule is that you can create formulas on the "`data`" page. Use the data page formulas to create charts on new pages.
+ ** Do not name a new sheet data or info.
+* If a customized Excel file exists, there is a check mark beside the *Reports* > *Upload Excel* menu item. When you download the Excel file, the version with the customizations is used.image:../media/upload_excel.png[]
+
+====
+.Steps
+
+. Open the default, custom, or saved view that you want to use as the basis of your report.
+. Select *Reports* > *Download Excel*.
+. Save the file.
+The file is saved to your downloads folder.
+
+. Open the saved file in Excel.
+Do not move the file to a new location, or if you do your work in another location, save the file back to the original location using the original file name before uploading the file.
+
+. Customize the file using Excel features, such as complex sorts, layered filters, pivot tables, or charts. For more information, see the Microsoft® Excel documentation.
+. Select *Reports* > *Upload Excel* and select the file that you modified.
+The most recently downloaded file is uploaded from the same file location.
+
+. Send yourself a test report using the *Scheduled Reports* feature.

@@ -1,0 +1,154 @@
+---
+permalink: events/reference_event_management_inventory_page.html
+sidebar: sidebar
+keywords: event, management, inventory, page, filter, components, xommand buttons, list
+summary: "The Event Management inventory page enables you to view a list of current events and their properties. You can perform tasks such as acknowledging, resolving, and assigning events. You can also add an alert for specific events."
+---
+= Event Management inventory page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Event Management inventory page enables you to view a list of current events and their properties. You can perform tasks such as acknowledging, resolving, and assigning events. You can also add an alert for specific events.
+
+The information on this page is refreshed automatically every 5 minutes to ensure that the most current new events are displayed.
+
+== Filter components
+
+Enable you to customize the information that is displayed in the events list. You can refine the list of events that are displayed using the following components:
+
+* View menu to select from a pre-defined list of filter selections.
++
+This includes items such as all active (new and acknowledged) events, active performance events, events assigned to me (the logged in user), and all events generated during all maintenance windows.
+
+* Search pane to refine the list of events by entering full or partial terms.
+* Filter button that launches the Filters pane so you can select from every available field and field attribute to refine the list of events.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Assign To*
++
+Enables you to select the user to whom the event is assigned. When you assign an event to a user, the user name and the time when you assigned the event is added in the events list for the selected events.
+
+ ** Me
++
+Assigns the event to the currently logged in user.
+
+ ** Another user
++
+Displays the Assign Owner dialog box, which enables you to assign or reassign the event to other users. You can also unassign events by leaving the ownership field blank.
+
+* *Acknowledge*
++
+Acknowledges the selected events.
++
+When you acknowledge an event, your user name and the time when you acknowledged the event are added in the events list for the selected events. When you acknowledge an event, you are responsible for managing that event.
++
+[NOTE]
+====
+You cannot acknowledge Information events.
+====
+
+* *Mark As Resolved*
++
+Enables you to change the event state to resolved.
++
+When you resolve an event, your user name and the time when you resolved the event are added in the events list for the selected events. After you have taken corrective action for the event, you must mark the event as resolved.
+
+* *Add Alert*
++
+Displays the Add Alert dialog box, which enables you to add alerts for the selected events.
+
+* *Reports*
++
+Enables you to export details of the current event view to a comma-separated values (.csv) file or PDF document.
+
+* *Show/Hide Column Selector*
++
+Enables you to choose the columns that display on the page and select the order in which they are displayed.
+
+== Events list
+
+Displays details of all the events ordered by triggered time.
+
+By default the All active events view is displayed to show the New and Acknowledged events for the previous seven days that have an Impact Level of Incident or Risk.
+
+* *Triggered Time*
++
+The time at which the event was generated.
+
+* *Severity*
++
+The event severity: Critical (image:../media/sev_critical_um60.png[]), Error (image:../media/sev_error_um60.png[]), Warning (image:../media/sev_warning_um60.png[]), and Information (image:../media/sev_information_um60.gif[]).
+
+* *State*
++
+The event state: New, Acknowledged, Resolved, or Obsolete.
+
+* *Impact Level*
++
+The event impact level: Incident, Risk, Event, or Upgrade.
+
+* *Impact Area*
++
+The event impact area: Availability, Capacity, Performance, Protection, Configuration, or Security.
+
+* *Name*
++
+The event name. You can select the name to display the Event details page for that event.
+
+* *Source*
++
+The name of the object on which the event has occurred. You can select the name to display the health or performance details page for that object.
++
+When a shared QoS policy breach occurs, only the workload object that is consuming the most IOPS or MB/s is shown in this field. Additional workloads that are using this policy are displayed in the Event details page.
+
+* *Source Type*
++
+The object type (for example, Storage VM, Volume, or Qtree) with which the event is associated.
+
+* *Assigned To*
++
+The name of the user to whom the event is assigned.
+
+* *Event Origin*
++
+Whether the event originated from the "Active IQ Portal" or directly from "Active IQ Unified Manager".
+
+* *Annotation Name*
++
+The name of the annotation that is assigned to the storage object.
+
+* *Notes*
++
+The number of notes that are added for an event.
+
+* *Days Outstanding*
++
+The number of days since the event was initially generated.
+
+* *Assigned Time*
++
+The time that has elapsed since the event was assigned to a user. If the time elapsed exceeds a week, the timestamp when the event was assigned to a user is displayed.
+
+* *Acknowledged By*
++
+The name of the user who acknowledged the event. The field is blank if the event is not acknowledged.
+
+* *Acknowledged Time*
++
+The time that has elapsed since the event was acknowledged. If the time elapsed exceeds a week, the timestamp when the event was acknowledged is displayed.
+
+* *Resolved By*
++
+The name of the user who resolved the event. The field is blank if the event is not resolved.
+
+* *Resolved Time*
++
+The time that has elapsed since the event was resolved. If the time elapsed exceeds a week, the timestamp when the event was resolved is displayed.
+
+* *Obsoleted Time*
++
+The time when the state of the event became Obsolete.

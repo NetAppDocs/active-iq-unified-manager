@@ -1,0 +1,22 @@
+---
+permalink: performance-checker/task_view_volume_and_lun_latency_charts_to_verify_performance_guarantee.html
+sidebar: sidebar
+keywords: view, volume, lun, latency, charts, verify, performance, guarantee
+summary: "You can view the volumes and LUNs that you have subscribed to the “Performance Guarantee” program to verify that latency has not exceeded the level you have been guaranteed."
+---
+= Viewing volume and LUN latency charts to verify performance guarantee
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the volumes and LUNs that you have subscribed to the "`Performance Guarantee`" program to verify that latency has not exceeded the level you have been guaranteed.
+
+The latency performance guarantee is a millisecond per operation value that should not be exceeded. It is based on an hourly average, not on the default five minute performance collection period.
+
+.Steps
+. In the *Performance: All Volumes* view or *Performance: All LUNs* view, select the volume or LUN that you are interested in.
+. In the *Performance Explorer* page for your selected volume or LUN, choose *Hourly Average* from the *View statistics in* selector.
++
+The horizontal line in the Latency chart will show a smoother line as the five-minute collections are replaced with the hourly average.
+
+. If you have other volumes on the same aggregate that are under the performance guarantee, you can add those volumes to view their latency value in the same chart.

@@ -1,0 +1,73 @@
+---
+permalink: data-protection/reference_advanced_secondary_setting_dialog_box.html
+sidebar: sidebar
+keywords: advanced, secondary, settings, dialog box
+summary: "You can use the Advanced Secondary Settings dialog box to enable version-flexible replication, multiple copy backup, and space-related settings on a secondary volume. You might use the Advanced Secondary Settings dialog box when you want to change enable or disable the current settings."
+---
+= Advanced Secondary Settings dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Advanced Secondary Settings dialog box to enable version-flexible replication, multiple copy backup, and space-related settings on a secondary volume. You might use the Advanced Secondary Settings dialog box when you want to change enable or disable the current settings.
+
+Space-related settings maximize the amount of data being stored, including the following: deduplication, data compression, autogrow, and space guarantee.
+
+The dialog box includes the following fields:
+
+* *Enable Version-Flexible Replication*
++
+Enables SnapMirror with version-flexible replication. Version-flexible replication enables SnapMirror protection of a source volume even if the destination volume is running under an earlier version of ONTAP than that of the source volume.
+
+ ** Enable Backup
++
+If version-flexible replication is enabled, also enables multiple Snapshot copies of the SnapMirror source data to be transferred to and retained at the SnapMirror destination.
+
+* *Enable Deduplication*
++
+Enables deduplication on the secondary volume in a SnapVault relationship so that duplicate data blocks are eliminated to achieve space savings. You might use deduplication when space savings are at least 10 percent and when data overwrite rate is not rapid. Deduplication is often used for virtualized environments, file shares, and backup data. This setting is disabled by default. When enabled, this operation is initiated after each transfer.
+
+ ** Enable Compression
++
+Enables transparent data compression. You might use compression when space savings are at least 10 percent, when the potential overhead is acceptable, and when there are sufficient system resources for compression to complete during nonpeak hours. In a SnapVault relationship, this setting is disabled by default. Compression is available only when deduplication is selected.
+
+ ** Compress Inline
++
+Enables immediate space savings by compressing data before writing data to disk. You might use inline compression when your system has no more than 50 percent utilization during peak hours, and when the system can accommodate new writes and additional CPU during peak hours. This setting is available only when "`Enable Compression`" is selected.
+
+* *Enable Autogrow*
++
+Enables you to automatically grow the destination volume when the free space percentage is below the specified threshold, as long as space is available on the associated aggregate.
+
+* *Maximum Size*
++
+Sets the maximum percentage to which a volume can grow. The default is 20 percent greater than the source volume size. A volume does not grow automatically if the current size is greater than or equal to the maximum autogrow percentage. This field is enabled only when the autogrow setting is enabled.
+
+* *Increment Size*
++
+Specifies the percentage increment by which the volume automatically grows before reaching the maximum percentage of the source volume.
+
+* *Space Guarantee*
++
+Ensures that enough space is allocated on the secondary volume so that data transfers always succeed. The space guarantee setting can be one of the following:
+
+ ** File
+ ** Volume
+ ** None
+ +
+For example, you might have a 200 GB volume that contains files totaling 50 GB; however, those files hold only 10 GB of data. Volume guarantee allocates 200 GB to the destination volume, regardless of contents on the source. File guarantee allocates 50 GB to ensure that enough space is reserved for files on the source; selecting None in this scenario means that only 10 GB is allocated on the destination for the actual space used by file data on the source.
+
++
+The space guarantee is set to Volume by default.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Apply*
++
+Saves the selected efficiency settings and applies them when you click *Apply* in the Configure Protection dialog box.
+
+* *Cancel*
++
+Discards your selections and closes the Advanced Destination Settings dialog box.

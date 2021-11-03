@@ -1,0 +1,335 @@
+---
+permalink: events/reference_lun_events.html
+sidebar: sidebar
+keywords: lun, events, impact area, availability, capacity, configuration, performance
+summary: "LUN events provide you with information about the status of your LUNs, so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= LUN events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+LUN events provide you with information about the status of your LUNs, so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: availability
+
+An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+LUN Offline(ocumEvtLunOffline)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+LUN Destroyed *(lunDestroy)
+
+a|
+Event
+a|
+LUN
+a|
+Information
+a|
+LUN mapped with unsupported operating system in igroup(igroupUnsupportedOsType)
+
+a|
+Incident
+a|
+LUN
+a|
+Warning
+a|
+Single Active Path To Access LUN(ocumEvtLunSingleActivePath)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+No Active Paths To Access LUN(ocumEvtLunNotReachable)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+No Optimized Paths To Access LUN(ocumEvtLunOptimizedPathInactive)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+No Paths To Access LUN From HA Partner(ocumEvtLunHaPathInactive)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+No Path to Access LUN from one Node in HA-pair(ocumEvtLunNodePathStatusDown)
+
+a|
+Risk
+a|
+LUN
+a|
+Error
+|===
+
+== Impact area: capacity
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Insufficient Space For LUN Snapshot Copy(ocumEvtLunSnapshotNotPossible)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+|===
+
+== Impact area: configuration
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+LUN mapped with unsupported operating system in igroup(igroupUnsupportedOsType)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+|===
+
+== Impact area: performance
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+LUN IOPS Critical Threshold Breached(ocumLunIopsIncident)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+LUN IOPS Warning Threshold Breached(ocumLunIopsWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+LUN MB/s Critical Threshold Breached(ocumLunMbpsIncident)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+LUN MB/s Warning Threshold Breached(ocumLunMbpsWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+LUN Latency ms/op Critical Threshold Breached(ocumLunLatencyIncident)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+LUN Latency ms/op Warning Threshold Breached(ocumLunLatencyWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+LUN Latency and IOPS Critical Threshold Breached(ocumLunLatencyIopsIncident)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+LUN Latency and IOPS Warning Threshold Breached(ocumLunLatencyIopsWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+LUN Latency and MB/s Critical Threshold Breached(ocumLunLatencyMbpsIncident)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+LUN Latency and MB/s Warning Threshold Breached(ocumLunLatencyMbpsWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+LUN Latency and Aggregate Performance Capacity Used Critical Threshold Breached(ocumLunLatencyAggregatePerfCapacityUsedIncident)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+LUN Latency and Aggregate Performance Capacity Used Warning Threshold Breached(ocumLunLatencyAggregatePerfCapacityUsedWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+LUN Latency and Aggregate Utilization Critical Threshold Breached(ocumLunLatencyAggregateUtilizationIncident)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+LUN Latency and Aggregate Utilization Warning Threshold Breached(ocumLunLatencyAggregateUtilizationWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+LUN Latency and Node Performance Capacity Used Critical Threshold Breached(ocumLunLatencyNodePerfCapacityUsedIncident)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+LUN Latency and Node Performance Capacity Used Warning Threshold Breached(ocumLunLatencyNodePerfCapacityUsedWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+LUN Latency and Node Performance Capacity Used - Takeover Critical Threshold Breached(ocumLunLatencyAggregatePerfCapacityUsedTakeoverIncident)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+LUN Latency and Node Performance Capacity Used - Takeover Warning Threshold Breached(ocumLunLatencyAggregatePerfCapacityUsedTakeoverWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+LUN Latency and Node Utilization Critical Threshold Breached(ocumLunLatencyNodeUtilizationIncident)
+
+a|
+Incident
+a|
+LUN
+a|
+Critical
+a|
+LUN Latency and Node Utilization Warning Threshold Breached(ocumLunLatencyNodeUtilizationWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+QoS LUN Max IOPS Warning Threshold Breached(ocumQosLunMaxIopsWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+QoS LUN Max MB/s Warning Threshold Breached(ocumQosLunMaxMbpsWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+a|
+Workload LUN Latency Threshold Breached as defined by Performance Service Level Policy(ocumConformanceLatencyWarning)
+
+a|
+Risk
+a|
+LUN
+a|
+Warning
+|===

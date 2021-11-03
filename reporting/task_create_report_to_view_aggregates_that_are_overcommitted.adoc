@@ -1,0 +1,36 @@
+---
+permalink: reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html
+sidebar: sidebar
+keywords: create, report, view, aggregates, overcommitted
+summary: "You can create a report to analyze storage capacity and use of aggregates, and to view aggregates that are overcommitted."
+---
+= Creating a report to view aggregates that are overcommitted
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a report to analyze storage capacity and use of aggregates, and to view aggregates that are overcommitted.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+
+Use the following steps to create a custom view that displays aggregates that are exceeding the overcommitted threshold, then schedule a report to be generated for that view.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Aggregates*.
+. In the View menu, select *Capacity* > *All Aggregates*.
+. Select *Show/Hide* to remove any columns that you do not want in the report.
+. Drag the "`Overcommitted Capacity %`" column near the "`Aggregate`" column.
+. Click the filter icon, add the following filters, and then click *Apply Filter*:
+ ** Overcommitted Capacity % is greater than 100%
+. Click the top of the "`Overcommitted Capacity %`" column to sort the results by capacity percent.
+. Save the view with a specific name that reflects what the view is showing, for example, "`Aggregates overcommitted`", and click the check mark (image:../media/blue_check.gif[]).
+. Click the *Scheduled Reports* button on the inventory page.
+. Click *Add Schedule* to add a new row to the Report Schedules page so that you can define the schedule characteristics for the new report.
+. Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
++
+The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
+
+Based on the results shown in the report, you might want to add some more capacity to aggregates, or move some data from certain aggregates.

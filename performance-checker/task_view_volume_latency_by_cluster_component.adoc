@@ -1,0 +1,37 @@
+---
+permalink: performance-checker/task_view_volume_latency_by_cluster_component.html
+sidebar: sidebar
+keywords: view, volume, latency, cluster, component
+summary: "You can view detailed latency information for a volume by using the Volume Performance Explorer page. The Latency - Total counter chart shows total latency on the volume, and the Latency - Breakdown counter chart is useful for determining the impact of read and write latency on the volume."
+---
+= Viewing volume latency by cluster component
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view detailed latency information for a volume by using the Volume Performance Explorer page. The Latency - Total counter chart shows total latency on the volume, and the Latency - Breakdown counter chart is useful for determining the impact of read and write latency on the volume.
+
+Additionally, the Latency - Cluster Components chart shows a detailed comparison of the latency of each cluster component to help determine how each component contributes to the total latency on the volume. The following cluster components are displayed:
+
+* Network
+* QoS Limit Max
+* QoS Limit Min
+* Network Processing
+* Cluster Interconnect
+* Data Processing
+* Aggregate Operations
+* Volume Activation
+* MetroCluster Resources
+* Cloud Latency
+* Sync SnapMirror
+
+.Steps
+. In the *Volume Performance Explorer* page for your selected volume, from the Latency chart, select *Cluster Components* from the drop-down menu.
++
+The Latency - Cluster Components chart is displayed.
+
+. To view a larger version of the chart, select *Zoom View*.
++
+The cluster component comparative chart is displayed. You can restrict the comparison by deselecting or selecting the image:../media/eye_icon.gif[] that is associated with each cluster component.
+
+. To view the specific values, move your cursor into the chart area to see the popup window.

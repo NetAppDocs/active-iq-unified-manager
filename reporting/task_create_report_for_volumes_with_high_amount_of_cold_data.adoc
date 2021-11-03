@@ -1,0 +1,39 @@
+---
+permalink: reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html
+sidebar: sidebar
+keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify
+summary: "You can create a report to display volumes with a high amount of cold data on a non-FabricPool aggregate. This can help you identify volumes that should be moved to a FabricPool aggregate."
+---
+= Creating a report to view volumes with a high amount of cold data on an aggregate that is not FabricPool-enabled
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a report to display volumes with a high amount of cold data on a non-FabricPool aggregate. This can help you identify volumes that should be moved to a FabricPool aggregate.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+
+Use the following steps to create a custom view for volumes with a high amount of cold data on a non-FabricPool-enabled aggregate, and then schedule a report to be generated for that view.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Volumes*.
+. In the View menu, select *Performance* > *All Volumes*.
+. Select *Show/Hide* to make sure the "`Disk Type`" column appears in the view.
++
+Add or remove other columns to create a view that is important for your report.
+
+. Drag the "`Disk Type`" column near the "`Cold Data`" column.
+. Click the filter icon, add the following filter, and then click *Apply Filter*:
+ ** Cold Data greater than 100 GB
+ ** Disk Type contains SSD
+. Click the top of the "`Disk Type`" column to sort the volumes by disk type so that the disk type SSD (FabricPool) is at the bottom.
+. Save the view with a specific name that reflects what the view is showing, for example "`Cold data vols not FabricPool`".
+. Click the *Scheduled Reports* button on the inventory page.
+. Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
++
+The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
+
+Based on the results shown in the report, you can find volumes that are good candidates to be moved to FabricPool aggregates.

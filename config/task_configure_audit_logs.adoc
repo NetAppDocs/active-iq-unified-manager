@@ -1,0 +1,21 @@
+---
+permalink: config/task_configure_audit_logs.html
+sidebar: sidebar
+keywords: configure, audit logs
+summary: "You can use the Configure button in the Audit Logs section to configure rolling policy for Audit Log files and to also enable remote logging for the Audit Logs."
+---
+= Configuring audit logs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the *Configure* button in the Audit Logs section to configure rolling policy for Audit Log files and to also enable remote logging for the Audit Logs.
+
+You can set the values in the *MAX FILE SIZE* and *AUDIT LOG RETENTION DAYS* as per the desired amount and frequency of data that you want to store in the system. The value in the field *TOTAL AUDIT LOG SIZE* is the size of the total audit log data present in the system. The roll over policy is determined by the values in the field *AUDIT LOG RETENTION DAYS*, *MAX FILE SIZE*, and *TOTAL AUDIT LOG SIZE*. When the size of the audit log backup reaches the value configured in *TOTAL AUDIT LOG SIZE*, then the file that was archived first is deleted. This means that the oldest file is deleted. But the file entry continues to be available in the database and is marked as "`Rollover Delete`". The *AUDIT LOG RETENTION DAYS* value is for the number of the days the audit log files are preserved. Any file older than the value set in this field is rolled over.
+
+.Steps
+
+. Click *Audit Logs* > > *Configure*.
+. Enter values in the *MAX FILE SIZE*, *TOTAL AUDIT LOG SIZE*, and *AUDIT LOG RETENTION DAYS*.
++
+If you want to enable remote logging, then you should select the *Enable Remote Logging*.

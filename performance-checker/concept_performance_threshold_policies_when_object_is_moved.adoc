@@ -1,0 +1,42 @@
+---
+permalink: performance-checker/concept_performance_threshold_policies_when_object_is_moved.html
+sidebar: sidebar
+keywords: happens, performance, threshold, policies, object, moved
+summary: "Because performance threshold policies are assigned to storage objects, if you move an object, all assigned threshold policies remain attached to the object after the move is completed. For example, if you move a volume or LUN to a different aggregate, the threshold policies are still active for the volume or LUN on the new aggregate."
+---
+= What happens to performance threshold policies when an object is moved
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Because performance threshold policies are assigned to storage objects, if you move an object, all assigned threshold policies remain attached to the object after the move is completed. For example, if you move a volume or LUN to a different aggregate, the threshold policies are still active for the volume or LUN on the new aggregate.
+
+If a secondary counter condition exists for the threshold policy (a combination policy)--for example, if an additional condition is assigned to an aggregate or a node--the secondary counter condition is applied to the new aggregate or node to which the volume or LUN has been moved.
+
+If any new active events exist for objects that are using the changed threshold policy, the events are marked as obsolete, and the threshold policy begins monitoring the counter as a newly defined threshold policy.
+
+A volume move operation causes ONTAP to send an informational change event. A change event icon appears in the Events timeline on the Performance Explorer page and the Workload Analysis page to indicate the time when the move operation was completed.
+
+[NOTE]
+====
+If you move an object to a different cluster, the user-defined threshold policy is removed from the object. If required, you must assign a threshold policy to the object after the move operation is completed. Dynamic and system-defined threshold policies, however, are applied automatically to an object after it has moved to a new cluster.
+====
+
+== Threshold policy functionality during HA takeover and giveback
+
+When a takeover or giveback operation occurs in a high-availability (HA) configuration, objects that are moved from one node to the other node retain their threshold policies in the same manner as in the manual move operations. Because Unified Manager checks for cluster configuration changes every 15 minutes, the impact of the switchover to the new node is not identified until the next poll of the cluster configuration.
+
+[NOTE]
+====
+If both a takeover and giveback operation occur within the 15-minute configuration change collection period, you might not see the performance statistics move from one node to the other node.
+====
+
+== Threshold policy functionality during aggregate relocation
+
+If you move an aggregate from one node to another node using the `aggregate relocation start` command, both single and combination threshold policies are retained on all objects, and the node portion of the threshold policy is applied to the new node.
+
+== Threshold policy functionality during MetroCluster switchover
+
+Objects that move from one cluster to another cluster in a MetroCluster configuration do not retain their user-defined threshold policy settings. If required, you can apply threshold policies on the volumes and LUNs that have moved to the partner cluster. After an object has moved back to its original cluster, the user-defined threshold policy is reapplied automatically.
+
+link:concept_volume_behavior_during_switchover_and_switchback.html[Volume behavior during switchover and switchback]

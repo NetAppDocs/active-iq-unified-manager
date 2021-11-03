@@ -1,0 +1,93 @@
+---
+permalink: events/reference_edit_alert_dialog_box.html
+sidebar: sidebar
+keywords: edit, alert, dialog box, name, resources, events, actions
+summary: "You can edit alert properties such as the resource with which the alert is associated, events, script, and notification options."
+---
+= Edit Alert dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit alert properties such as the resource with which the alert is associated, events, script, and notification options.
+
+== Name
+
+This area enables you to edit the name and description for the alert.
+
+* *Alert Name*
++
+Enables you to edit the alert name.
+
+* *Alert Description*
++
+Enables you to specify a description for the alert.
+
+* *Alert State*
++
+Enables you to enable or disable the alert.
+
+== Resources
+
+This area enables you to select an individual resource or group the resources based on a dynamic rule for which you want to trigger the alert. You can search for resources by selecting a resource type from the drop-down list or you can specify the exact resource name to display a specific resource.
+
+* *Include*
++
+Enables you to include the resources for which you want to trigger alerts. You can specify a text string to group resources that match the string and select this group to be included in the alert. For example, you can group all volumes whose name contains the "`vol0`" string.
+
+* *Exclude*
++
+Enables you to exclude resources for which you do not want to trigger alerts. For example, you can exclude all volumes whose name contains the "`xyz`" string.
++
+[NOTE]
+====
+The Exclude tab is displayed only when you select all resources of a particular resource type--for example, +<<All Volumes>>+ or +<<All Volumes whose name contains 'xyz'>>+.
+====
+
+== Events
+
+This area enables you to select the events for which you want to trigger the alerts. You can trigger an alert for events based on a particular severity or for a set of events.
+
+* *Event Severity*
++
+Enables you to select events based on the severity type, which can be Critical, Error, or Warning.
+
+* *Event Name Contains*
++
+Enables you to select events whose name contains the specified characters.
+
+== Actions
+
+This area enables you to specify the notification method and the frequency of notification.
+
+* *Alert these users*
++
+Enables you to edit the email address or user name, or specify a new email address or user name to receive notifications.
+
+* *Notification Frequency*
++
+Enables you to edit the frequency with which the management server sends notifications until the event is acknowledged, resolved, or moved to the obsolete state.
++
+You can choose the following notification methods:
+
+ ** Notify only once
+ ** Notify at a specified frequency
+ ** Notify at a specified frequency within the specified time range
+
+* *Issue SNMP trap*
++
+Enables you to specify whether SNMP traps should be sent to the globally configured SNMP host.
+
+* *Execute Script*
++
+Enables you to associate a script with the alert. This script is executed when an alert is generated.
+
+== Command buttons
+
+* *Save*
++
+Saves the changes and closes the dialog box.
+
+* *Cancel*
++
+Discards the changes and closes the dialog box.

@@ -1,0 +1,38 @@
+---
+permalink: performance-checker/task_change_performance_statistics_collection_interval.html
+sidebar: sidebar
+keywords: unified manager, change, performance, statistics, collection, interval
+summary: "The default collection interval for performance statistics is 5 minutes. You can change this interval to 10 or 15 minutes if you find that collections from large clusters are not finishing within the default time. This setting affects the collection of statistics from all clusters that this instance of Unified Manager is monitoring."
+---
+= Changing the performance statistics collection interval
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The default collection interval for performance statistics is 5 minutes. You can change this interval to 10 or 15 minutes if you find that collections from large clusters are not finishing within the default time. This setting affects the collection of statistics from all clusters that this instance of Unified Manager is monitoring.
+
+*What you'll need*
+
+You must have a user ID and password authorized to log in to the maintenance console of the Unified Manager server.
+
+The issue of performance statistics collections not finishing on time is indicated by the banner messages `Unable to consistently collect from cluster <cluster_name>` or `Data collection is taking too long on cluster <cluster_name>`.
+
+You should change the collection interval only when required because of a statistics collections issue. Do not change this setting for any other reason.
+
+[NOTE]
+====
+Changing this value from the default setting of 5 minutes can affect the number and frequency of performance events that Unified Manager reports. For example, system-defined performance thresholds trigger events when the policy is exceeded for 30 minutes. When using 5-minute collections, the policy must be exceeded for six consecutive collections. For 15-minute collections the policy must be exceeded for only two collection periods.
+====
+
+A message at the bottom of the Cluster Setup page indicates the current statistical data collection interval.
+
+.Steps
+. Log in using SSH as the maintenance user to the Unified Manager host.
++
+The Unified Manager maintenance console prompts are displayed.
+
+. Type the number of the menu option labeled *Performance Polling Interval Configuration*, and then press Enter.
+. If prompted, enter the maintenance user password again.
+. Type the number for the new polling interval that you want to set, and then press Enter.
+
+If you changed the Unified Manager collection interval to 10 or 15 minutes, and you have a current connection to an external data provider (such as Graphite), you must change the data provider transmit interval so that it is equal to, or greater, than the Unified Manager collection interval.

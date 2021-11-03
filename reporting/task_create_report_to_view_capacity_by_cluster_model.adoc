@@ -1,0 +1,34 @@
+---
+permalink: reporting/task_create_report_to_view_capacity_by_cluster_model.html
+sidebar: sidebar
+keywords: create, report, view, capacity, cluster, model
+summary: "You can create a report to analyze storage capacity and utilization of clusters based on storage system model."
+---
+= Creating a report to view capacity by cluster model
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a report to analyze storage capacity and utilization of clusters based on storage system model.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+
+Use the following steps to create a custom view that displays capacity by cluster model, and then schedule a report to be generated for that view.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Clusters*.
+. In the View menu, select *Capacity* > *All Clusters*.
+. Select *Show/Hide* to remove any columns, such as "`Cluster FQDN`" and "`OS Version`", that you do not want in the report.
+. Drag the "`Total Raw Capacity`", the "`Model/Family`", and the three aggregate columns near the "`Cluster`" column.
+. Click the top of the "`Model/Family`" column to sort the results by cluster type.
+. Save the view with a specific name that reflects what the view is showing, for example, "`Capacity by Cluster Model`".
+. Click the *Scheduled Reports* button on the inventory page.
+. Click *Add Schedule* to add a new row to the *Report Schedules* page so that you can define the schedule characteristics for the new report.
+. Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
++
+The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
+
+Based on the results shown in the report, you might want to add more capacity to certain clusters, or upgrade older cluster models.

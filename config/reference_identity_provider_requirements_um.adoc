@@ -1,0 +1,61 @@
+---
+permalink: config/reference_identity_provider_requirements_um.html
+sidebar: sidebar
+keywords: identity, provider, requirements
+summary: "When configuring Unified Manager to use an identity provider (IdP) to perform SAML authentication for all remote users, you need to be aware of some required configuration settings so that the connection to Unified Manager is successful."
+---
+= Identity provider requirements
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When configuring Unified Manager to use an identity provider (IdP) to perform SAML authentication for all remote users, you need to be aware of some required configuration settings so that the connection to Unified Manager is successful.
+
+You must enter the Unified Manager URI and metadata into the IdP server. You can copy this information from the Unified ManagerSAML Authentication page. Unified Manager is considered the service provider (SP) in the Security Assertion Markup Language (SAML) standard.
+
+== Supported encryption standards
+
+* Advanced Encryption Standard (AES): AES-128 and AES-256
+* Secure Hash Algorithm (SHA): SHA-1 and SHA-256
+
+== Validated identity providers
+
+* Shibboleth
+* Active Directory Federation Services (ADFS)
+
+== ADFS configuration requirements
+
+* You must define three claim rules in the following order that are required for Unified Manager to parse ADFS SAML responses for this relying party trust entry.
++
+[cols="2*",options="header"]
+|===
+| Claim rule| Value
+a|
+SAM-account-name
+a|
+Name ID
+a|
+SAM-account-name
+a|
+urn:oid:0.9.2342.19200300.100.1.1
+a|
+Token groups -- Unqualified Name
+a|
+urn:oid:1.3.6.1.4.1.5923.1.5.1.1
+|===
+
+* You must set the authentication method to "`Forms Authentication`" or users may receive an error when logging out of Unified Manager . Follow these steps:
+ .. Open the ADFS Management Console.
+ .. Click on the Authentication Policies folder on the left tree view.
+ .. Under Actions on the right, click Edit Global Primary Authentication Policy.
+ .. Set the Intranet Authentication Method to "`Forms Authentication`" instead of the default "`Windows Authentication`".
+* In some cases login through the IdP is rejected when the Unified Manager security certificate is CA-signed. There are two workarounds to resolve this issue:
+ ** Follow the instructions identified in the link to disable the revocation check on the ADFS server for chained CA cert associated relying party:
++
+http://www.torivar.com/2016/03/22/adfs-3-0-disable-revocation-check-windows-2012-r2/[Disable Revocation Check per Relying Party Trust]
+
+ ** Have the CA server reside within the ADFS server to sign the Unified Manager server cert request.
+
+== Other configuration requirements
+
+* The Unified Manager clock skew is set to 5 minutes, so the time difference between the IdP server and the Unified Manager server cannot be more than 5 minutes or authentication will fail.

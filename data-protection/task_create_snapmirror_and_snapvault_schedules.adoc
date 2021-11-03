@@ -1,0 +1,37 @@
+---
+permalink: data-protection/task_create_snapmirror_and_snapvault_schedules.html
+sidebar: sidebar
+keywords: create, snapmirror, snapvault, schedules
+summary: "You can create basic or advanced SnapMirror and SnapVault schedules to enable automatic data protection transfers on a source or primary volume so that transfers take place more frequently or less frequently, depending on how often the data changes on your volumes."
+---
+= Creating SnapMirror and SnapVault schedules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create basic or advanced SnapMirror and SnapVault schedules to enable automatic data protection transfers on a source or primary volume so that transfers take place more frequently or less frequently, depending on how often the data changes on your volumes.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have already completed the Destination Information area in the Configure Protection dialog box.
+* You must have set up Workflow Automation to perform this task.
+
+.Steps
+
+. From the *SnapMirror* tab or *SnapVault* tab of the *Configure Protection* dialog box, click the *Create Schedule* link in the *Relationship Settings* area.
++
+The Create Schedule dialog box is displayed.
+
+. In the *Schedule Name* field, type the name you want to give to the schedule.
+. Select one of the following:
+ ** *Basic*
++
+Select if you want to create a basic interval-style schedule.
+
+ ** *Advanced*
++
+Select if you want to create a cron-style schedule.
+. Click *Create*.
++
+The new schedule is displayed in the SnapMirror Schedule or SnapVault Schedule drop-down list.

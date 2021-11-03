@@ -1,0 +1,34 @@
+---
+permalink: health-checker/task_configure_global_volume_health_threshold_values.html
+sidebar: sidebar
+keywords: configure, global, volume, health, threshold values
+summary: "You can configure the global health threshold values for all volumes to track any threshold breach. Appropriate events are generated for health threshold breaches, and you can take preventive measures based on these events. You can configure the global values based on the best practice settings for thresholds that apply to all monitored volumes."
+---
+= Configuring global volume health threshold values
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure the global health threshold values for all volumes to track any threshold breach. Appropriate events are generated for health threshold breaches, and you can take preventive measures based on these events. You can configure the global values based on the best practice settings for thresholds that apply to all monitored volumes.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+Most of the threshold options have default values for better monitoring. However, you can change the values to suit the requirements of your environment.
+
+Note that when Autogrow is enabled on a volume that capacity thresholds are considered breached based on the maximum volume size set by autogrow, not based on the original volume size.
+
+[NOTE]
+====
+The default value of 1000 Snapshot copies is applicable only to FlexVol volumes when the ONTAP version is 9.4 or greater, and to FlexGroup volumes when the ONTAP version is 9.8 and greater. For clusters installed with older versions of ONTAP software, the maximum number is 250 Snapshot copies per volume. For these older versions, Unified Manager interprets this number 1000 (and any number between 1000 and 250) as 250; meaning you will continue to receive events when the number of Snapshot copies reaches 250. If you wish to set this threshold to less than 250 for these older versions, you must set the threshold to 250 or lower here, in the Health: All Volumes view, or in the Volume / Health details page.
+====
+
+.Steps
+. In the left navigation pane, click *Event Thresholds* > *Volume*.
+. Configure the appropriate threshold values for capacity, Snapshot copies, qtree quotas, volume growth, and inodes.
+. Click *Save*.
+
+*Related information*
+
+link:../config/task_add_users.html[Adding users]

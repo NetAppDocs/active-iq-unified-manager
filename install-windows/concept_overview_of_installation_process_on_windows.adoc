@@ -1,0 +1,14 @@
+---
+permalink: install-windows/concept_overview_of_installation_process_on_windows.html
+sidebar: sidebar
+keywords: overview, installation, process
+summary: "The installation workflow describes the tasks that you must perform before you can use Unified Manager."
+---
+= Overview of the installation process
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The installation workflow describes the tasks that you must perform before you can use Unified Manager.
+
+image::../media/install_flow_on_windows.gif[]

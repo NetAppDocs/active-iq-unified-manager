@@ -1,0 +1,21 @@
+---
+permalink: reporting/task_search_to_refine_view.html
+sidebar: sidebar
+keywords: search, refine, view
+summary: "After you have the view you want, you can further refine the results using the Search field to focus on the results that you want to include in the report."
+---
+= Using search to refine your view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you have the view you want, you can further refine the results using the Search field to focus on the results that you want to include in the report.
+
+.Steps
+
+. Open the custom or default view that you want to use as the basis of your report.
+. Type in the Search field to refine the data listed in the view. You can enter partial data in any of the displayed columns. For example, if you want to search for nodes that include "US_East" in the name, you can refine the full list of nodes.
++
+The results of your search are saved in the custom view and used in the resulting scheduled report.
+
+. Name the unsaved view to save your changes.

@@ -1,0 +1,28 @@
+---
+permalink: data-protection/concept_understand_svm_associations.html
+sidebar: sidebar
+keywords: understand storage vm peers
+summary: "Storage VM peers are mappings from a source storage VM to a destination storage VM that are used by partner applications for resource selection and secondary volume provisioning."
+---
+= Understanding Storage VM Peers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Storage VM peers are mappings from a source storage VM to a destination storage VM that are used by partner applications for resource selection and secondary volume provisioning.
+
+Peers are always created between a source storage VM and a destination storage VM, regardless of whether the destination storage VM is a secondary destination or a tertiary destination. You cannot use a secondary destination storage VM as a source to create a peer with a tertiary destination storage VM.
+
+You can peer a storage VM in three ways:
+
+* Peer any storage VM
++
+You can create a peer between any primary source storage VM and one or more destination storage VM. This means that all existing storage VM that currently require protection, as well as any storage VMs that are created in the future, are peered with the specified destination storage VM. For example, you might want applications from several different sources at different locations to be backed up to one or more destination storage VM in one location.
+
+* Peer a particular storage VM
++
+You can create a peer between a specific source storage VM and one or more specific destination storage VM. For example, if you are providing storage services to many clients whose data must be separate from one another, you can choose this option to associate a specific source storage VM to a specific destination storage VM that is assigned to only that client.
+
+* Peer with an external storage VM
++
+You can create a peer between a source storage VM and an external flexible volume of a destination storage VM.

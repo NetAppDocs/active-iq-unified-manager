@@ -1,0 +1,27 @@
+---
+permalink: data-protection/task_remove_protection_relationship.html
+sidebar: sidebar
+keywords: remove, protection, relationship, volume, relationships page
+summary: "From the Volume Relationships page, you can remove a protection relationship to permanently delete an existing relationship between the selected source and destination: for example, when you want to create a relationship using a different destination. This operation removes all metadata and cannot be undone."
+---
+= Removing a protection relationship from the Volume Relationships page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Volume Relationships page, you can remove a protection relationship to permanently delete an existing relationship between the selected source and destination: for example, when you want to create a relationship using a different destination. This operation removes all metadata and cannot be undone.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+
+.Steps
+
+. From the *Volume Relationships* page, select one or more volumes with protection relationships you want to remove and, on the toolbar, click *Remove*.
++
+The Remove Relationship dialog box is displayed.
+
+. Click *Continue* to remove the relationship.
++
+The relationship is removed from the Volume Relationships page.

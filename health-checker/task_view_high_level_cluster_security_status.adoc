@@ -1,0 +1,28 @@
+---
+permalink: health-checker/task_view_high_level_cluster_security_status.html
+sidebar: sidebar
+keywords: view, cluster security status, svm security status, high-level
+summary: "The Security panel on the Unified Manager Dashboard shows high-level security status for all clusters or for a single cluster, depending on your current view."
+---
+= Viewing high-level cluster security status
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Security panel on the Unified ManagerDashboard shows high-level security status for all clusters or for a single cluster, depending on your current view.
+
+.Steps
+. In the left navigation pane, click *Dashboard*.
+. Depending on whether you want to view security status for all monitored clusters or for a single cluster, select *All Clusters* or select a single cluster from the drop-down menu.
+. View the *Security* panel to see the overall status.
++
+This panel displays:
+
+ ** a list of the security events received in the past 24 hours
+ ** a link from each of these events to the Event details page
+ ** a link so that you can view all active security events in the Event Management inventory page
+ ** the cluster security status (number of clusters that are compliant or not compliant)
+ ** the SVM security status (number of SVMs that are compliant or not compliant)
+ ** the volume encryption status (number of volumes that are encrypted or not encrypted)
+
+. Click the right-arrow at the top of the panel to view security details in the *Security* page.

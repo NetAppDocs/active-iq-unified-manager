@@ -1,0 +1,12 @@
+---
+permalink: reporting/concept_customize_nfs_share_reports.html
+sidebar: sidebar
+keywords: customize, nfs, share, reports
+summary: "You can customize NFS share reports to analyze information about NFS export policies and rules for volumes on your storage systems. For example, you can customize reports to display volumes with inaccessible mount paths and volumes with the default export policy."
+---
+= Customizing NFS share reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize NFS share reports to analyze information about NFS export policies and rules for volumes on your storage systems. For example, you can customize reports to display volumes with inaccessible mount paths and volumes with the default export policy.

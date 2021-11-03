@@ -1,0 +1,12 @@
+---
+permalink: reporting/concept_customize_svm_reports.html
+sidebar: sidebar
+keywords: customize, storage, vm reports
+summary: "You can create storage VM reports to analyze volume information and to view overall health and storage availability. For example, you can create reports to display SVMs reaching the maximum volume count and to analyze stopped SVMs."
+---
+= Customizing storage VM reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create storage VM reports to analyze volume information and to view overall health and storage availability. For example, you can create reports to display SVMs reaching the maximum volume count and to analyze stopped SVMs.

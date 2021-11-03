@@ -1,0 +1,46 @@
+---
+permalink: data-protection/reference_browse_directories_dialog_box.html
+sidebar: sidebar
+keywords: browse, directories, dialog box
+summary: "You can use the Browse Directories dialog box when you want to restore data to a directory on a cluster and SVM that is different from the original source. The original source cluster and volume are selected by default."
+---
+= Browse Directories dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Browse Directories dialog box when you want to restore data to a directory on a cluster and SVM that is different from the original source. The original source cluster and volume are selected by default.
+
+The Browse Directories dialog box enables you to select the cluster, SVM, volume, and directory path to which you want data restored.
+
+* *Cluster*
++
+Lists the available cluster destinations to which you can restore. By default, the cluster of the original source volume is selected.
+
+* *SVM drop-down list*
++
+Lists the available SVM available for the selected cluster. By default, the SVM of the original source volume is selected.
+
+* *Volume*
++
+Lists all of the read/write volumes in a selected SVM. You can filter the volumes by name and by space available. The volume with the most space is listed first, and so on, in descending order. By default, the original source volume is selected.
+
+* *File path text box*
++
+Enables you to type the file path to which you want data restored. The path you enter must already exist.
+
+* *Name*
++
+Displays the names of the available folders for the selected volume. Clicking a folder in the Name list displays the subfolders, if any exist. Files contained in the folders are not displayed. Clicking image:../media/icon_upfolder.gif[] after you have selected a folder moves you up one level in the directory structure.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Select Directory*
++
+Applies your selections and closes the Browse Directories dialog box. If no directory is selected, this button is disabled.
+
+* *Cancel*
++
+Discards your selections and closes the Browse Directories dialog box.

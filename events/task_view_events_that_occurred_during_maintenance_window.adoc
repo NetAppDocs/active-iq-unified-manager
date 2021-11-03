@@ -1,0 +1,29 @@
+---
+permalink: events/task_view_events_that_occurred_during_maintenance_window.html
+sidebar: sidebar
+keywords: view, events, occurred, maintenance, window
+summary: "If necessary, you can view the events that were generated for all storage objects during a Unified Manager maintenance window. Most events will appear in the Obsolete state once the maintenance window has completed and all system resources are back up and running."
+---
+= Viewing events that occurred during a maintenance window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If necessary, you can view the events that were generated for all storage objects during a Unified Manager maintenance window. Most events will appear in the Obsolete state once the maintenance window has completed and all system resources are back up and running.
+
+*What you'll need*
+
+At least one maintenance window must have completed before any events are available.
+
+Events that occurred during a maintenance window do not appear on the Event Management inventory page by default.
+
+.Steps
+. In the left navigation pane, click *Events*.
++
+By default, all active (New and Acknowledged) events are displayed on the Event Management inventory page.
+
+. From the View pane, select the option *All events generated during maintenance*.
++
+The list of events trigged during the last 7 days from all maintenance window sessions and from all clusters are displayed.
+
+. If there have been multiple maintenance windows for a single cluster, you can click the *Triggered Time* calendar icon and select the period of time for the maintenance window events that you are interested in viewing.

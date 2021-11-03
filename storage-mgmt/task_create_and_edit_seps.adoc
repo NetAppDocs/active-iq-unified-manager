@@ -1,0 +1,49 @@
+---
+permalink: storage-mgmt/task_create_and_edit_seps.html
+sidebar: sidebar
+keywords: create, edit, storage, efficiency, policies
+summary: "When the system-defined Storage Efficiency Policies do not match your workload requirements, you can create your own Storage Efficiency Policies that are optimized for your workloads."
+---
+= Creating and editing Storage Efficiency Policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When the system-defined Storage Efficiency Policies do not match your workload requirements, you can create your own Storage Efficiency Policies that are optimized for your workloads.
+
+*What you'll need*
+
+* You must have the Application Administrator role.
+* The Storage Efficiency Policy name must be unique, and you cannot use the following reserved keywords:
++
+`High`, `Low`, `Unassigned`, `Learning`, `Idle`, `Default`, and `None`.
+
+You create and edit custom Storage Efficiency Policies from the Storage Efficiency Policies page by defining the storage efficiency characteristics you require for the applications that will access storage.
+
+[NOTE]
+====
+You cannot modify a Storage Efficiency Policy if it is currently assigned to a workload.
+====
+
+.Steps
+
+. In the left navigation pane under *Settings*, select *Policies* > *Storage Efficiency*.
+. In the *Storage Efficiency Policies* page, click the appropriate button depending on whether you want to create a new Storage Efficiency Policy or if you want to edit an existing Storage Efficiency Policy.
++
+[options="header"]
+|===
+| To...| Follow these steps...
+a|
+Create a new Storage Efficiency Policy
+a|
+Click *Add*
+a|
+Edit an existing Storage Efficiency Policy
+a|
+Select an existing Storage Efficiency Policy and click *Edit*
+|===
+The page to add or edit a Storage Efficiency Policy is displayed.
+
+. Customize the Storage Efficiency Policy by specifying the storage efficiency characteristics, and then click *Submit* to save the Storage Efficiency Policy.
+
+You can apply the new or changed Storage Efficiency Policy to workloads (LUNs, NFS File Shares, CIFS Shares) from the Workloads page or when provisioning a new workload.

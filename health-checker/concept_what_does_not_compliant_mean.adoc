@@ -1,0 +1,20 @@
+---
+permalink: health-checker/concept_what_does_not_compliant_mean.html
+sidebar: sidebar
+keywords: not compliant, compliant
+summary: "Clusters and storage virtual machines (SVMs) are considered not compliant when any of the security criteria that is being evaluated against the recommendations defined in the NetApp Security Hardening Guide for ONTAP 9 are not met. Additionally, a cluster is considered not compliant when any SVM is flagged as being not compliant."
+---
+= What does not compliant mean
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Clusters and storage virtual machines (SVMs) are considered not compliant when any of the security criteria that is being evaluated against the recommendations defined in the _NetApp Security Hardening Guide for ONTAP 9_ are not met. Additionally, a cluster is considered not compliant when any SVM is flagged as being not compliant.
+
+The status icons in the security cards have the following meanings in relation to their compliance:
+
+* image:../media/sev_normal_um60.png[] - The parameter is configured as recommended.
+* image:../media/sev_warning_um60.png[] - The parameter is not configured as recommended.
+* image:../media/sev_information_um60.gif[] - Either the functionality is not enabled on the cluster, or the parameter is not configured as recommended, but this parameter does not contribute to the compliance of the object.
+
+Note that volume encryption status does not contribute to whether the cluster or SVM are considered compliant.

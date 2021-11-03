@@ -1,0 +1,37 @@
+---
+permalink: config/task_change_identity_provider_idp_used_for_saml_authentication.html
+sidebar: sidebar
+keywords: change, identity, provider, used, saml, authentication
+summary: "You can change the identity provider (IdP) that Unified Manager uses to authenticate remote users."
+---
+= Changing the identity provider used for SAML authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the identity provider (IdP) that Unified Manager uses to authenticate remote users.
+
+*What you'll need*
+
+* You must have the IdP URL and metadata.
+* You must have access to the IdP.
+
+The new IdP can be configured before or after configuring Unified Manager.
+
+.Steps
+
+. In the left navigation pane, click *General* > *SAML Authentication*.
+. Enter the new IdP URI and the IdP metadata required to connect the Unified Manager server to the IdP.
++
+If the IdP is accessible directly from the Unified Manager server, you can click the *Fetch IdP Metadata* button after entering the IdP URL to populate the IdP Metadata field automatically.
+
+. Copy the Unified Manager metadata URI, or save the metadata to an XML text file.
+. Click *Save Configuration*.
++
+A message box displays to confirm that you want to change the configuration.
+
+. Click *OK*.
+
+Access the new IdP and enter the Unified Manager server URI and metadata to complete the configuration.
+
+The next time authorized remote users attempt to access the Unified Manager graphical interface they will enter their credentials in the new IdP login page instead of the old IdP login page.

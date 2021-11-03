@@ -1,0 +1,22 @@
+---
+permalink: performance-checker/reference_performance_cluster_landing_page.html
+sidebar: sidebar
+keywords: performance, cluster, landing page
+summary: "The Performance Cluster Landing page displays the high-level performance status of a selected cluster. The page enables you to access complete details of each performance counter for the storage objects on the selected cluster."
+---
+= Performance Cluster Landing page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Performance Cluster Landing page displays the high-level performance status of a selected cluster. The page enables you to access complete details of each performance counter for the storage objects on the selected cluster.
+
+The Performance Cluster Landing page includes four tabs that separate the cluster details into four areas of information:
+
+* Summary page
+ ** Cluster Events pane
+ ** MB/s and IOPS performance charts
+ ** Managed Objects pane
+* Top Performers page
+* Explorer page
+* Information page

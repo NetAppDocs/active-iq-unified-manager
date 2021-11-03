@@ -1,0 +1,17 @@
+---
+permalink: reporting/task_sort_data.html
+sidebar: sidebar
+keywords: sort, data
+summary: "To sort the results, click a column and indicate ascending or descending order. Sorting data prioritizes the information you need for the report."
+---
+= Sorting data
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To sort the results, click a column and indicate ascending or descending order. Sorting data prioritizes the information you need for the report.
+
+.Steps
+
+. Click the top of a column to sort the results so that the most important information appears at the top of the view.
+. Name the unsaved view to save your changes.

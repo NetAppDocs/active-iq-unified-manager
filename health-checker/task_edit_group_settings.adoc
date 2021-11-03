@@ -1,0 +1,24 @@
+---
+permalink: health-checker/task_edit_group_settings.html
+sidebar: sidebar
+keywords: edit, groups
+summary: "You can edit the name and description of a group that you created in Unified Manager."
+---
+= Editing groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit the name and description of a group that you created in Unified Manager.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+When you edit a group to update the name, you must specify a unique name; you cannot use an existing group name.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. In the *Groups* tab, select the group that you want to edit, and then click *Edit*.
+. In the *Edit Group* dialog box, change the name, description, or both for the group.
+. Click *Save*.

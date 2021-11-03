@@ -1,0 +1,64 @@
+---
+permalink: events/task_add_scripts.html
+sidebar: sidebar
+keywords: add, scripts
+summary: "You can add scripts in Unified Manager, and associate the scripts with alerts. These scripts are executed automatically when an alert is generated, and enable you to obtain information about storage objects for which the event is generated."
+---
+= Adding scripts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add scripts in Unified Manager, and associate the scripts with alerts. These scripts are executed automatically when an alert is generated, and enable you to obtain information about storage objects for which the event is generated.
+
+*What you'll need*
+
+* You must have created and saved the scripts that you want to add to the Unified Manager server.
+* The supported file formats for scripts are Perl, Shell, PowerShell, Python, and `.bat` files.
++
+[options="header"]
+|===
+| Platform on which Unified Manager is installed| Supported languages
+a|
+VMware
+a|
+Perl and Shell scripts
+a|
+Linux
+a|
+Perl, Python, and Shell scripts
+a|
+Windows
+a|
+PowerShell, Perl, Python, and .bat scripts
+|===
+
+ ** For Perl scripts, Perl must be installed on the Unified Manager server. For VMware installations, Perl 5 is installed by default and scripts will support only what Perl 5 supports. If Perl was installed after Unified Manager, you must restart the Unified Manager server.
+ ** For PowerShell scripts, the appropriate PowerShell execution policy must be set on the Windows server so that the scripts can be executed.
+
++
+[NOTE]
+====
+If your script creates log files to track the alert script progress, you must make sure that the log files are not created anywhere within the Unified Manager installation folder.
+====
+
+* You must have the Application Administrator or Storage Administrator role.
+
+You can upload custom scripts and gather event details about the alert.
+
+[NOTE]
+====
+If you do not see this capability available in the user interface it is because the functionality has been disabled by your administrator. If required, you can enable this functionality from *Storage Management* > *Feature Settings*.
+====
+
+.Steps
+
+. In the left navigation pane, click *Storage Management* > *Scripts*.
+. In the *Scripts* page, click *Add*.
+. In the *Add Script* dialog box, click *Browse* to select your script file.
+. Enter a description for the script that you select.
+. Click *Add*.
+
+*Related information*
+
+link:../config/task_enable_and_disable_ability_to_upload_scripts.html[Enabling and disabling the ability to upload scripts]

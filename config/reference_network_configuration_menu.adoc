@@ -1,0 +1,87 @@
+---
+permalink: config/reference_network_configuration_menu.html
+sidebar: sidebar
+keywords: network configuration menu
+summary: "The Network Configuration menu enables you to manage the network settings. You should use this menu when the Unified Manager user interface is not available."
+---
+= Network Configuration menu
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Network Configuration menu enables you to manage the network settings. You should use this menu when the Unified Manager user interface is not available.
+
+[NOTE]
+====
+This menu is not available if Unified Manager is installed on Red Hat Enterprise Linux, CentOS, or on Microsoft Windows.
+====
+
+The following menu choices are available.
+
+* *Display IP Address Settings*
++
+Displays the current network settings for the virtual appliance, including the IP address, network, broadcast address, netmask, gateway, and DNS servers.
+
+* *Change IP Address Settings*
++
+Enables you to change any of the network settings for the virtual appliance, including the IP address, netmask, gateway, or DNS servers. If you switch your network settings from DHCP to static networking using the maintenance console, you cannot edit the host name. You must select *Commit Changes* for the changes to take place.
+
+* *Display Domain Name Search Settings*
++
+Displays the domain name search list used for resolving host names.
+
+* *Change Domain Name Search Settings*
++
+Enables you to change the domain names for which you want to search when resolving host names. You must select *Commit Changes* for the changes to take place.
+
+* *Display Static Routes*
++
+Displays the current static network routes.
+
+* *Change Static Routes*
++
+Enables you to add or delete static network routes. You must select *Commit Changes* for the changes to take place.
+
+ ** *Add Route*
++
+Enables you to add a static route.
+
+ ** *Delete Route*
++
+Enables you to delete a static route.
+
+ ** *Back*
++
+Takes you back to the *Main Menu*.
+
+ ** *Exit*
++
+Exits the maintenance console.
+
+* *Disable Network Interface*
++
+Disables any available network interfaces. If only one network interface is available, you cannot disable it. You must select *Commit Changes* for the changes to take place.
+
+* *Enable Network Interface*
++
+Enables available network interfaces. You must select *Commit Changes* for the changes to take place.
+
+* *Commit Changes*
++
+Applies any changes made to the network settings for the virtual appliance. You must select this option to enact any changes made, or the changes do not occur.
+
+* *Ping a Host*
++
+Pings a target host to confirm IP address changes or DNS configurations.
+
+* *Restore to Default Settings*
++
+Resets all settings to the factory default. You must select *Commit Changes* for the changes to take place.
+
+* *Back*
++
+Takes you back to the *Main Menu*.
+
+* *Exit*
++
+Exits the maintenance console.

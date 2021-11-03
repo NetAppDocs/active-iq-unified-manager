@@ -1,0 +1,22 @@
+---
+permalink: data-protection/concept_what_resource_pools_are.html
+sidebar: sidebar
+keywords: resource pools
+summary: "Resource pools are groups of aggregates that are created by a storage administrator using Unified Manager to provide provisioning to partner applications for backup management."
+---
+= What resource pools are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Resource pools are groups of aggregates that are created by a storage administrator using Unified Manager to provide provisioning to partner applications for backup management.
+
+You might pool your resources based on attributes such as performance, cost, physical location, or availability. By grouping related resources into a pool, you can treat the pool as a single unit for monitoring and provisioning. This simplifies the management of these resources and allows for a more flexible and efficient use of the storage.
+
+During secondary storage provisioning, Unified Manager determines the most suitable aggregate in the resource pool for protection using the following criteria:
+
+* The aggregate is a data aggregate (not a root aggregate) and it is ONLINE.
+* The aggregate is on a destination cluster node whose ONTAP version is the same or greater than the source cluster major version.
+* The aggregate has the largest available space of all the aggregates in the resource pool.
+* After provisioning the destination volume, the aggregate space is within the nearly-full and nearly overcommitted threshold defined for the aggregate (global or local threshold, whichever is applicable).
+* The number of FlexVol volumes on the destination node must not exceed the platform limit.

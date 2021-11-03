@@ -1,0 +1,45 @@
+---
+permalink: health-checker/task_disable_specific_security_events.html
+sidebar: sidebar
+keywords: disable, specific, security events
+summary: "All events are enabled by default. You can disable specific events to prevent the generation of notifications for those events that are not important in your environment. You can enable events that are disabled if you want to resume receiving notifications for them."
+---
+= Disabling specific security events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+All events are enabled by default. You can disable specific events to prevent the generation of notifications for those events that are not important in your environment. You can enable events that are disabled if you want to resume receiving notifications for them.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+When you disable events, the previously generated events in the system are marked obsolete, and the alerts that are configured for these events are not triggered. When you enable events that are disabled, the notifications for these events are generated starting with the next monitoring cycle.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Event Setup*.
+. In the *Event* Setup page, disable or enable events by choosing one of the following options:
++
+[cols="2*",options="header"]
+|===
+| If you want to...| Then do this...
+a|
+Disable events
+a|
+
+ .. Click *Disable*.
+ .. In the Disable Events dialog box, select the *Warning* severity. This is the category for all security events.
+ .. In the Matching Events column, select the security events that you want to disable, and then click the right arrow to move those events to the Disable Events column.
+ .. Click *Save and Close*.
+ .. Verify that the events that you disabled are displayed in the list view of the Event Setup page.
+
+a|
+Enable events
+a|
+
+ .. From the list of disabled events, select the check box for the event, or events, that you want to reenable.
+ .. Click *Enable*.
+
++
+|===

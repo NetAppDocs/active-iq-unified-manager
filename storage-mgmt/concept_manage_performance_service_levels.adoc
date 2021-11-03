@@ -1,0 +1,181 @@
+---
+permalink: storage-mgmt/concept_manage_performance_service_levels.html
+sidebar: sidebar
+keywords: manage, performance, service, levels
+summary: "A Performance Service Level enables you to define the performance and storage objectives for a workload. You can assign a Performance Service Level to a workload when initially creating the workload, or afterwards by editing the workload."
+---
+= Managing Performance Service Levels
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A Performance Service Level enables you to define the performance and storage objectives for a workload. You can assign a Performance Service Level to a workload when initially creating the workload, or afterwards by editing the workload.
+
+The management and monitoring of storage resources are based on Service Level Objectives (SLOs). SLOs are defined by service level agreements that are based on required performance and capacity. In Unified Manager, SLOs refer to the PSL definitions of the applications that are running on NetApp storage. Storage services are differentiated based on the performance and utilization of the underlying resources. A PSL is a description of the storage service objectives. A PSL enables the storage provider to specify the performance and capacity objectives for the workload.
+
+Unified Manager provides a few canned policies that cannot be changed. These predefined Performance Service Levels are: Extreme Performance, Performance, and Value. The Extreme Performance, Performance, and Value PSLs are applicable for most of the common storage workloads in a data center. Unified Manager also offers three PSLs for database applications: Extreme for Database Logs, Extreme for Database Shared Data, and Extreme for Database Data. These are extremely high-performance PSLs that support bursty IOPS and are appropriate for database applications with the highest throughput demand. If these predefined PSLs do not meet your requirements, then you can create new PSLs to meet your needs.
+
+You can access the PSLs from the *Policies* > *Performance Service Levels* page and by using the storage provider APIs. Managing storage workloads by assigning PSLs to them is convenient as you do not have to individually manage the storage workloads. Any modifications can also be managed by reassigning another PSL rather than managing them individually.
+
+You cannot modify a PSL that is system-defined or that is currently assigned to a workload. You cannot delete a PSL that is assigned to a workload, or if it is the only available PSL.
+
+The Performance Service Levels page lists the available PSL policies and enables you to add, edit, and delete them. This page displays the following information:
+[options="header"]
+|===
+
+| Field| Description
+a|
+Name
+a|
+Name of the Performance Service Level.
+
+a|
+Type
+a|
+Whether the policy is system-defined or user-defined.
+
+a|
+Expected IOPS
+a|
+Minimum number of IOPS that an application is expected to perform on a LUN or file share. Expected IOPS specifies the minimum expected IOPS allocated, based on the storage object allocated size.
+
+a|
+Peak IOPS
+a|
+Maximum number of IOPS that an application can perform on a LUN or file share. Peak IOPS specifies the maximum possible IOPS allocated, based on the storage object allocated size or the storage object used size.
+
+Peak IOPS are based on an allocation policy. The allocation policy is either allocated-space or used-space. When the allocation policy is set to allocated-space, the peak IOPS is calculated based on the size of the storage object. When the allocation policy is set to used-space, the peak IOPS is calculated based on the amount of data stored in the storage object, taking into account storage efficiencies. By default, the allocation policy is set to used-space.
+
+a|
+Absolute minimum IOPS
+a|
+The absolute minimum IOPS is used as an override, when the expected IOPS is less than this value. The default values of the system-defined PSLs are the following:
+
+* Extreme Performance: If expected IOPS >= 6144/TB, then absolute minimum IOPS = 1000
+* Performance: If expected IOPS >= 2048/TB and < 6144/TB, then absolute minimum IOPS = 500
+* Value: If expected IOPS >= 128/TB and < 2048/TB, then absolute minimum IOPS = 75
+
+The default values of the system-defined database PSLs are the following:
+
+* Extreme for Database Logs: If expected IOPS >= 22528, then absolute minimum IOPS = 4000
+* Extreme for Database Shared Data: If expected IOPS >= 16384, then absolute minimum IOPS = 2000
+* Extreme for Database Data: If expected IOPS >= 12288, then absolute minimum IOPS = 2000
+
+The higher value of the absolute minimum IOPS for custom PSLs can be a maximum of 75000. The lower value is calculated as the following:
+
+1000/expected latency
+
+a|
+Expected latency
+a|
+Expected latency for storage IOPS in milliseconds per operation (ms/op).
+a|
+Capacity
+a|
+Total available and used capacity in the clusters.
+a|
+Workloads
+a|
+Number of storage workloads that have been assigned the PSL.
+|===
+For information about how the peak IOPS and expected IOPs help in achieving consistent differentiated performance on ONTAP clusters, see the following KB article:
+
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F[What is Performance Budgeting?]
+
+Note that if workloads exceed the expected latency value for 30% of the time during the previous hour, Unified Manager will generate one of the following events to notify you of a potential performance issue: "Workload Volume Latency Threshold Breached as defined by Performance Service Level Policy" or "Workload LUN Latency Threshold Breached as defined by Performance Service Level Policy". You may want to analyze the workload to see what may be causing the higher latency values.
+
+The following table provides information about the system-defined PSLs:
+[options="header"]
+|===
+| Performance Service Level| Description and use case| Expected latency (ms/op)| Peak IOPS| Expected IOPS| Absolute minimum IOPS
+a|
+Extreme Performance
+a|
+Provides extremely high throughput at a very low latency
+
+Ideal for latency-sensitive applications
+
+a|
+1
+a|
+12288
+a|
+6144
+a|
+1000
+a|
+Performance
+a|
+Provides high throughput at a low latency
+
+Ideal for database and virtualized applications
+
+a|
+2
+a|
+4096
+a|
+2048
+a|
+500
+a|
+Value
+a|
+Provides high storage capacity and moderate latency
+
+Ideal for high-capacity applications such as email, web content, file shares, and backup targets
+
+a|
+17
+a|
+512
+a|
+128
+a|
+75
+a|
+Extreme for Database Logs
+a|
+Provides maximum throughput at the lowest latency.
+
+Ideal for database applications supporting database logs. This PSL provides the highest throughput because database logs are extremely bursty and logging is constantly in demand.
+
+a|
+1
+a|
+45056
+a|
+22528
+a|
+4000
+a|
+Extreme for Database Shared Data
+a|
+Provides very high throughput at the lowest latency.
+
+Ideal for database applications data that is stored in a common data store, but is shared across databases.
+
+a|
+1
+a|
+32768
+a|
+16384
+a|
+2000
+a|
+Extreme for Database Data
+a|
+Provides high throughput at the lowest latency.
+
+Ideal for database applications data, such as database table information and metadata.
+
+a|
+1
+a|
+24576
+a|
+12288
+a|
+2000
+|===

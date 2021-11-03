@@ -1,0 +1,19 @@
+---
+permalink: reporting/concept_sample_microsoft_excel_reports.html
+sidebar: sidebar
+keywords: sample, microsoft, excel, reports
+summary: "These sample Microsoft Excel reports are intended to introduce reporting options available using Excel advanced features."
+---
+= Sample Microsoft Excel reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+These sample Microsoft Excel reports are intended to introduce reporting options available using Excel advanced features.
+
+The advanced functionality of Excel can create a wide array of reports specific to your needs. For full information on how to use Excel, see the product documentation.
+
+[NOTE]
+====
+You must have the Application Administrator or Storage Administrator role to manage reports.
+====

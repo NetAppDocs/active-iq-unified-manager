@@ -1,0 +1,139 @@
+---
+permalink: data-protection/reference_protection_jobs_page.html
+sidebar: sidebar
+keywords: jobs, page
+summary: "The Jobs page enables you to view the current status and other information about all partner application protection jobs that are currently running, as well as jobs that have completed. You can use this information to see which jobs are still running and whether a job has succeeded or failed."
+---
+= Jobs page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Jobs page enables you to view the current status and other information about all partner application protection jobs that are currently running, as well as jobs that have completed. You can use this information to see which jobs are still running and whether a job has succeeded or failed.
+
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Abort*
++
+Aborts the selected job. This option is available only if the selected job is running.
+
+* *Retry*
++
+Restarts a failed job of type Protection Configuration or Protection Relationship Operation. You can retry only one failed job at a time. If more than one failed job is selected, the *Retry* button is disabled. You cannot retry failed storage service jobs.
+
+* *Refresh*
++
+Refreshes the list of jobs and the information associated with them.
+
+== Jobs list
+
+The Jobs list displays, in tabular format, a list of the jobs that are in progress. By default, the list displays only the jobs generated within the past week. You can use column sorting and filtering to customize which jobs are displayed.
+
+* *Status*
++
+Displays the current status of a job. The status can be Error (image:../media/sev_error.gif[]) or Normal (image:../media/sev_normal.gif[]).
+
+* *Job Id*
++
+Displays the identification number of the job. By default, this column is hidden.
++
+The job identification number is unique and is assigned by the server when it starts the job. You can search for a particular job by entering the job identification number in the text box provided by the column filter.
+
+* *Name*
++
+Displays the name of the job.
+
+* *Type*
++
+Displays the job type. The job types are as follows:
+
+ ** *Cluster Acquisition*
++
+A Workflow Automation job is rediscovering a cluster.
+
+ ** *Protection Configuration*
++
+A protection job is initiating Workflow Automation workflows, such as cron schedules, SnapMirror policy creation, and so on.
+
+ ** *Protection Relationship Operation*
++
+A protection job is running SnapMirror operations.
+
+ ** *Protection Workflow Chain*
++
+A Workflow Automation job is executing multiple workflows.
+
+ ** *Restore*
++
+A restore job is running.
+
+ ** *Cleanup*
++
+The job is cleaning up storage service member artifacts that are no longer needed for restore purposes.
+
+ ** *Conform*
++
+The job is checking the configuration of storage service members to ensure that they conform.
+
+ ** *Destroy*
++
+The job is destroying a storage service.
+
+ ** *Import*
++
+The job is importing unmanaged storage objects into an existing storage service.
+
+ ** *Modify*
++
+The job is modifying attributes of an existing storage service.
+
+ ** *Subscribe*
++
+The job is subscribing members to a storage service.
+
+ ** *Unsubscribe*
++
+The job is unsubscribing members from a storage service.
+
+ ** *Update*
++
+A protection update job is running.
+
+ ** *WFA Configuration*
++
+A Workflow Automation job is pushing cluster credentials and synchronizing database caches.
+
+* *State*
++
+Displays the running state of the job. State options are as follows:
+
+ ** *Aborted*
++
+The job has been aborted.
+
+ ** *Aborting*
++
+The job is in the process of aborting.
+
+ ** *Completed*
++
+The job has finished.
+
+ ** *Running*
++
+The job is running.
+
+* *Submitted Time*
++
+Displays the time the job was submitted.
+
+* *Duration*
++
+Displays the amount of time the job took to complete. This column is displayed by default.
+
+* *Completed Time*
++
+Displays the time the job finished. By default, this column is hidden.

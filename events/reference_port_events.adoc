@@ -1,0 +1,105 @@
+---
+permalink: events/reference_port_events.html
+sidebar: sidebar
+keywords: port, events, impact area, availability, performance
+summary: "Port events provide you with status about cluster ports so that you can monitor changes or problems on the port, like whether the port is down."
+---
+= Port events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Port events provide you with status about cluster ports so that you can monitor changes or problems on the port, like whether the port is down.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Port Status Down(ocumEvtPortStatusDown)
+
+a|
+Incident
+a|
+Node
+a|
+Critical
+|===
+
+== Impact area: performance
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Network Port MB/s Critical Threshold Breached(ocumNetworkPortMbpsIncident)
+
+a|
+Incident
+a|
+Port
+a|
+Critical
+a|
+Network Port MB/s Warning Threshold Breached(ocumNetworkPortMbpsWarning)
+
+a|
+Risk
+a|
+Port
+a|
+Warning
+a|
+FCP Port MB/s Critical Threshold Breached(ocumFcpPortMbpsIncident)
+
+a|
+Incident
+a|
+Port
+a|
+Critical
+a|
+FCP Port MB/s Warning Threshold Breached(ocumFcpPortMbpsWarning)
+
+a|
+Risk
+a|
+Port
+a|
+Warning
+a|
+Network Port Utilization Critical Threshold Breached(ocumNetworkPortUtilizationIncident)
+
+a|
+Incident
+a|
+Port
+a|
+Critical
+a|
+Network Port Utilization Warning Threshold Breached(ocumNetworkPortUtilizationWarning)
+
+a|
+Risk
+a|
+Port
+a|
+Warning
+a|
+FCP Port Utilization Critical Threshold Breached(ocumFcpPortUtilizationIncident)
+
+a|
+Incident
+a|
+Port
+a|
+Critical
+a|
+FCP Port Utilization Warning Threshold Breached(ocumFcpPortUtilizationWarning)
+
+a|
+Risk
+a|
+Port
+a|
+Warning
+|===

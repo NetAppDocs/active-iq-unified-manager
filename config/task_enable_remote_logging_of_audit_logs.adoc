@@ -1,0 +1,40 @@
+---
+permalink: config/task_enable_remote_logging_of_audit_logs.html
+sidebar: sidebar
+keywords: enable, remote, logging, audit, logs
+summary: "You can select the Enable Remote Logging checkbox on the Configure Audit Logs dialog box to enable remote audit logging. You can use this feature to transfer audit logs to a remote Syslog server. This will enable you to manage your audit logs when there are space constraints."
+---
+= Enabling remote logging of audit logs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can select the *Enable Remote Logging* checkbox on the Configure Audit Logs dialog box to enable remote audit logging. You can use this feature to transfer audit logs to a remote Syslog server. This will enable you to manage your audit logs when there are space constraints.
+
+The remote logging of audit logs provides a tamper-proof backup in case the audit log files on the Active IQ Unified Manager server are tampered.
+
+.Steps
+
+. In the *Configure Audit Logs* dialog box, select the *Enable Remote Logging* checkbox.
++
+Additional fields to configure remote logging are displayed.
+
+. Enter the *HOSTNAME* and *PORT* of the remote server you want to connect to.
+. In the *SERVER CA CERTIFICATE* field, click *BROWSE* to select a public certificate of the target server.
++
+The certificate should be uploaded in `.pem` format. This certificate should be obtained from the target Syslog server and should not have expired. The certificate should contain the selected "`hostname`" as part of the `SubjectAltName` (SAN) attribute.
+
+. Enter the values for the following fields: *CHARSET*, *CONNECTION TIMEOUT*, *RECONNECTION DELAY*.
++
+The values should be in milliseconds for these fields.
+
+. Select the required Syslog format and TLS protocol version in the *FORMAT* and *PROTOCOL* fields.
+. Select the *Enable Client Authentication* checkbox if the target Syslog server requires certificate based authentication.
++
+You will need to download client authentication certificate and upload it to the Syslog server before saving the Audit Log configuration, otherwise the connection will fail. Depending on the type of Syslog server, you might need to create a hash of the client authentication certificate.
++
+Example: syslog-ng requires a <hash> of the certificate to be created using the command `openssl x509 -noout -hash -in cert.pem`, and then you should symbolically link the client authentication certificate to a file named after the <hash> .0.
+
+. Click *Save* to configure the connection with your server and enable remote logging.
++
+You will be redirected to the Audit Logs page.

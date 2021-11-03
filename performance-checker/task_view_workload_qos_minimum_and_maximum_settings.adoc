@@ -1,0 +1,55 @@
+---
+permalink: performance-checker/task_view_workload_qos_minimum_and_maximum_settings.html
+sidebar: sidebar
+keywords: view, workload, qos, minimum, maximum, settings, performance, explorer
+summary: "You can view the ONTAP-defined quality of service (QoS) policy settings on a volume or LUN in the Performance Explorer charts. A throughput maximum setting limits the impact of competing workloads on system resources. A throughput minimum setting ensures that a critical workload meets minimum throughput targets regardless of demand by competing workloads."
+---
+= Viewing workload QoS minimum and maximum settings in the Performance Explorer
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the ONTAP-defined quality of service (QoS) policy settings on a volume or LUN in the Performance Explorer charts. A throughput maximum setting limits the impact of competing workloads on system resources. A throughput minimum setting ensures that a critical workload meets minimum throughput targets regardless of demand by competing workloads.
+
+QoS throughput "`minimum`" and "`maximum`" IOPS and MB/s settings are displayed in the counter charts only if they have been configured in ONTAP. Throughput minimum settings are available only on systems running ONTAP 9.2 or later software, only on AFF systems, and they can be set only for IOPS at this time.
+
+Adaptive QoS policies are available starting with ONTAP 9.3 and are expressed using IOPS/TB instead of IOPS. These policies automatically adjust the QoS policy value based on the volume size, per workload, thereby maintaining the ratio of IOPS to terabytes as the size of the volume changes. You can apply an adaptive QoS policy group to volumes only. The QoS terminology "`expected`" and "`peak`" are used for adaptive QoS policies instead of minimum and maximum.
+
+Unified Manager generates warning events for QoS policy breaches when workload throughput has exceeded the defined QoS maximum policy setting during each performance collection period for the previous hour. Workload throughput may exceed the QoS threshold for only a short period of time during each collection period, but Unified Manager displays the "`average`" throughput during the collection period on the chart. For this reason you may see QoS events while the throughput for a workload might not have crossed the policy threshold shown in the chart.
+
+.Steps
+. In the *Performance Explorer* page for your selected volume or LUN, perform the following actions to view the QoS ceiling and floor settings:
++
+[options="header"]
+|===
+| If you want to...| Do this...
+a|
+View the IOPS ceiling (the QoS max)
+a|
+In the IOPS Total or Breakdown chart, click *Zoom View*.
+a|
+View the MB/s ceiling (the QoS max)
+a|
+In the MB/s Total or Breakdown chart, click *Zoom View*.
+a|
+View the IOPS floor (the QoS min)
+a|
+In the IOPS Total or Breakdown chart, click *Zoom View*.
+a|
+View the IOPS/TB ceiling (the QoS peak)
+a|
+For volumes, in the IOPS/TB chart, click *Zoom View*.
+a|
+View the IOPS/TB floor (the QoS expected)
+a|
+For volumes, in the IOPS/TB chart, click *Zoom View*.
+|===
+The dashed, horizontal line indicates the maximum or minimum throughput value set in ONTAP. You can also view when changes to the QoS values were implemented.
+
+. To view the specific IOPS and MB/s values compared to the QoS setting, move your cursor into the chart area to see the popup window.
+
+If you notice that certain volumes or LUNs have very high IOPS or MB/s and are stressing system resources, you can use System Manager or the ONTAP CLI to adjust the QoS settings so that these workloads do not affect the performance of other workloads.
+
+For more information on adjusting QoS settings, see the _ONTAP 9 Performance Monitoring Power Guide_.
+
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html[ONTAP 9 Performance Monitoring Power Guide]

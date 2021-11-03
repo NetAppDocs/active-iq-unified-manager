@@ -1,0 +1,41 @@
+---
+permalink: performance-checker/task_view_event_details_in_performance_explorer_events_timeline.html
+sidebar: sidebar
+keywords: view, event, details, timeline
+summary: "You can view all events and their related details in the Events Timeline pane of Performance Explorer. This is a quick and efficient method of viewing all the health and performance events that occurred on the root object during a specified time range, which can be helpful when troubleshooting performance issues."
+---
+= Viewing event details in the Events Timeline
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view all events and their related details in the Events Timeline pane of Performance Explorer. This is a quick and efficient method of viewing all the health and performance events that occurred on the root object during a specified time range, which can be helpful when troubleshooting performance issues.
+
+The Events Timeline pane shows critical, error, warning, and informational events that occurred on the root object during the selected time range. Each event severity has its own timeline. Single and multiple events are represented by an event dot on the timeline. You can position your cursor over an event dot to see the event details. To increase the visual granularity of multiple events, you can decrease the time range. This spreads out multiple events into single events, enabling you to separately view and investigate each event.
+
+Each performance event dot on the Events Timeline lines up vertically with a corresponding spike in the counter charts trend lines that are displayed below the Events Timeline. This provides a direct visual correlation between events and overall performance. Health events are displayed on the timeline as well, but these types of events do not necessarily line up with a spike in one of the performance charts.
+
+.Steps
+. On the *Events Timeline* pane, position the cursor over an event dot on a timeline to view a summary of the event or events at that event point.
++
+A pop-up dialog displays information about the event types, the date and time when the events occurred, the state, and the event duration.
+
+. View full event details for one event or multiple events:
++
+[options="header"]
+|===
+| To do this...| Click this...
+a|
+View details for a single event
+a|
+*View Event Detail* in the pop-up dialog.
+a|
+View details for multiple events
+a|
+*View Event Details* in the pop-up dialog.
+[NOTE]
+====
+Clicking a single event on the multiple events dialog displays the appropriate Event Details page.
+====
+
+|===

@@ -1,0 +1,61 @@
+---
+permalink: performance-checker/concept_components_of_performance_explorer_page.html
+sidebar: sidebar
+keywords: components, performance, explorer, page
+summary: "The Performance Explorer page enables you to compare the performance of similar objects in a cluster—for example, all the volumes in a cluster. This is beneficial when troubleshooting performance events and fine-tuning object performance. You can also compare objects with the root object, which is the baseline against which other object comparisons are made."
+---
+= Components of the Performance Explorer page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Performance Explorer page enables you to compare the performance of similar objects in a cluster--for example, all the volumes in a cluster. This is beneficial when troubleshooting performance events and fine-tuning object performance. You can also compare objects with the root object, which is the baseline against which other object comparisons are made.
+
+You can click the *Switch to Health View* button to display the Health details page for this object. In some cases you can learn important information about the storage configuration settings for this object that may help when troubleshooting an issue.
+
+The Performance Explorer page displays a list of cluster objects and their performance data. This page displays all the cluster objects of the same type (for example, volumes and their object-specific performance statistics) in a tabular format. This view provides an efficient overview of cluster object performance.
+
+[NOTE]
+====
+If "`N/A`" appears in any cell of the table, it means that a value for that counter is not available because there is no I/O on that object at this time.
+====
+
+The Performance Explorer page contains the following components:
+
+* *Time Range*
++
+Enables you to select a time range for the object data.
++
+You can choose a predefined range, or specify your own custom time range.
+
+* *View and Compare*
++
+Enables you to select which type of correlated object is displayed in the grid.
++
+The options available depend on the root object type and its available data. You can click the View and Compare drop-down list to select an object type. The object type that you select is displayed in the list.
+
+* *Filtering*
++
+Enables you to narrow the amount of data you receive, based on your preferences.
++
+You can create filters that apply to the object data--for example, IOPS greater than 4. You can add up to four simultaneous filters.
+
+* *Comparing*
++
+Displays a list of the objects that you have selected for comparison with the root object.
++
+Data for the objects in the Comparing pane is displayed in the Counter Charts.
+
+* *View Statistics In*
++
+For volume and LUNs, enables you to select whether the statistics are displayed after each collection cycle (default 5 minutes), or whether the statistics are shown as an hourly average. This functionality enables you to view the latency chart in support of the NetApp "Performance Guarantee" program.
+
+* *Counter Charts*
++
+Displays graphed data for each object performance category.
++
+Typically, only three or four charts are displayed by default. The Choose charts component enables you to display additional charts, or hide specific charts. You can also choose to show or hide the Events Timeline.
+
+* *Events Timeline*
++
+Displays performance and health events occurring across the timeline that you selected in the Time Range component.

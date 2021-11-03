@@ -1,0 +1,47 @@
+---
+permalink: data-protection/task_create_storage_virtual_machine_svm_associations.html
+sidebar: sidebar
+keywords: create, storage, vm, peers
+summary: "The Create Storage Virtual Machine Peers wizard enables partner protection applications to associate a source storage VM with a destination storage VM for use with SnapMirror and SnapVault relationships. Partner applications use these associations at the time of initial provisioning of destination volumes to determine which resources to select."
+---
+= Creating Storage VM Peers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Create Storage Virtual Machine Peers wizard enables partner protection applications to associate a source storage VM with a destination storage VM for use with SnapMirror and SnapVault relationships. Partner applications use these associations at the time of initial provisioning of destination volumes to determine which resources to select.
+
+*What you'll need*
+
+* The storage VM you are associating must already exist.
+* You must have the Application Administrator or Storage Administrator role.
+
+For any source storage VM and relationship type, you can choose only one destination storage VM on each destination cluster.
+
+Changing associations using the delete and create functions affects only future provisioning operations. It does not move existing destination volumes.
+
+.Steps
+
+. In the left navigation pane, click *Protection* > *Storage VM Peers*.
+. In the *SVM Peers* page, click *Create*.
++
+The Create Storage Virtual Machine Peers wizard is launched.
+
+. Select one of the following sources:
+ ** *Any*
++
+Choose this option when you want to create an association between any primary storage VM source to one or more destination storage VM. This means that all existing storage VM that currently require protection, as well as any storage VM that are created in the future, are associated with the specified destination storage VM. For example, you might want applications from several different sources at different locations backed up to one or more destination storage VM in one location.
+
+ ** *Single*
++
+Choose this option when you want to select a specific source storage VM associated with one or more destination storage VM. For example, if you are providing storage services to many clients whose data must be separate from one another, choose this option to associate a specific storage VM source to a specific storage VM destination that is assigned only to that client.
+
+ ** *None (External)*
++
+Choose this option when you want to create an association between a source storage VM and an external flexible volume of a destination storage VM.
+. Select one or both of the protection relationship types you want to create:
+ ** *SnapMirror*
+ ** *SnapVault*
+. Click *Next*.
+. Select one or more storage VM protection destination.
+. Click *Finish*.

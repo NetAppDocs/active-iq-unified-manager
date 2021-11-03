@@ -1,0 +1,18 @@
+---
+permalink: health-checker/task_send_asup_to_technical_support.html
+sidebar: sidebar
+keywords: support bundle, web ui, maintenance console
+summary: "You should send a support bundle when the issue that you have requires more detailed diagnosis and troubleshooting than an AutoSupport message provides. You can send a support bundle to technical support using the Unified Manager web Ui and maintenance console."
+---
+= Sending a support bundle through web UI and maintenance console
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You should send a support bundle when the issue that you have requires more detailed diagnosis and troubleshooting than an AutoSupport message provides. You can send a support bundle to technical support using the Unified Manager web Ui and maintenance console.
+
+Unified Manager stores a maximum of two full support bundles and three lightweight support bundles at one time.
+
+*Related information*
+
+link:../config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]

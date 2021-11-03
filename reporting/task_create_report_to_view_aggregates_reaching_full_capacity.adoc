@@ -1,0 +1,35 @@
+---
+permalink: reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html
+sidebar: sidebar
+keywords: create, report, view, aggregates, reaching, full capacity
+summary: "You can create a report to find the aggregates that are reaching full capacity so that you can add more capacity or move workloads to other aggregates."
+---
+= Creating a report to view aggregates reaching full capacity
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a report to find the aggregates that are reaching full capacity so that you can add more capacity or move workloads to other aggregates.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+
+Use the following steps to create a custom view that displays aggregates reaching full capacity, then schedule a report to be generated for that view.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Aggregates*.
+. In the View menu, select *Capacity* > *All Aggregates*.
+. Select *Show/Hide* to remove any columns you do not want in the report.
+. Click the filter icon, add the following filter, and then click *Apply Filter*:
+ ** Days to Full less than 45 Days
+. Click the top of the "`Days to Full`" column to sort the results by the least number of days remaining to reach full capacity.
+. Save the view with a specific name that reflects what the view is showing, for example, "`Days to full aggregate capacity`", and click the check mark (image:../media/blue_check.gif[]).
+. Click the *Scheduled Reports* button on the inventory page.
+. Click *Add Schedule* to add a new row to the *Report Schedules* page so that you can define the schedule characteristics for the new report.
+. Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
++
+The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
+
+Based on the results shown in the report, you might want to increase storage on aggregates reaching full capacity. Additionally, you might want to increase the Days Until Full capacity threshold to more than the default 7 days so that you receive events that provide more time to react to space getting low on aggregates.

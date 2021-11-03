@@ -1,0 +1,76 @@
+---
+permalink: health-checker/task_generate_and_upload_support_bundle.html
+sidebar: sidebar
+keywords: generate, upload, support bundle
+summary: "You can generate a support bundle, containing diagnostic information, so that you can send it to technical support for troubleshooting help. Starting with Unified Manager 9.8, if your Unified Manager server is connected to the internet, you can also upload the support bundle to NetApp from the maintenance console."
+---
+= Generating and uploading a support bundle
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can generate a support bundle, containing diagnostic information, so that you can send it to technical support for troubleshooting help. Starting with Unified Manager 9.8, if your Unified Manager server is connected to the internet, you can also upload the support bundle to NetApp from the maintenance console.
+
+*What you'll need*
+
+You must have access to the maintenance console as the maintenance user.
+
+Because some types of support data can use a large amount of cluster resources or take a long time to complete, when you select the full support bundle you can specify data types to include or exclude to reduce the support bundle size. You also have the option to create a lightweight support bundle that contains just 30 days of logs and configuration database records -- it excludes performance data, acquisition recording files, and server heap dump.
+
+Unified Manager stores only the two most recently generated support bundles. Older support bundles are deleted from the system.
+
+.Steps
+. In the maintenance console *Main Menu*, select *Support/Diagnostics*.
+. Select *Generate Light Support Bundle* or *Generate Support Bundle* depending on the level of details you want to have in the support bundle.
+. If you choose the full support bundle, select or deselect the following data types to include or exclude in the support bundle:
+ ** *database dump*
++
+A dump of the MySQL Server database.
+
+ ** *heap dump*
++
+A snapshot of the state of the main Unified Manager server processes. This option is disabled by default and should be selected only when requested by customer support.
+
+ ** *acquisition recordings*
++
+A recording of all communications between Unified Manager and the monitored clusters.
+
++
+[NOTE]
+====
+If you deselect all data types, the support bundle is still generated with other Unified Manager data.
+====
+. Type `g`, and then press Enter to generate the support bundle.
++
+Since the generation of a support bundle is a memory intensive operation, you are prompted to verify that you are sure you want to generate the support bundle at this time.
+
+. Type `y`, and then press Enter to generate the support bundle.
++
+If you do not want to generate the support bundle at this time, type `n`, and then press Enter.
+
+. If you included database dump files in the full support bundle, you are prompted to specify the time period for which you want performance statistics included. Including performance statistics can take a lot of time and space, so you can also dump the database without including performance statistics:
+ .. Enter the starting date in the format YYYYMMDD.
++
+For example, enter `20210101` for January 1, 2021. Enter `n` if you do not want performance statistics to be included.
+
+ .. Enter the number of days of statistics to include, beginning from 12 a.m. on the specified starting date.
++
+You can enter a number from 1 through 10.
+
++
+If you are including performance statistics, the system displays the period of time for which performance statistics will be collected.
+. After the support bundle is created you are prompted whether you want to upload it to NetApp. Type `y`, and then press Enter.
++
+You are prompted to enter your support case number.
+
+. If you have a case number already, enter the number and press Enter. Otherwise just press Enter.
++
+The support bundle is uploaded to NetApp.
+
+If your Unified Manager server is not connected to the internet, or if you are unable to upload the support bundle for any other reason, then you can retrieve it and send it manually. You can retrieve it using an SFTP client or by using UNIX or Linux CLI commands. On Windows installations you can use Remote Desktop (RDP) to retrieve the support bundle.
+
+The generated support bundle resides in the /support directory on VMware systems, in /opt/netapp/data/support/ on Linux systems, and in ProgramData\NetApp\OnCommandAppData\ocum\support on Windows systems.
+
+*Related information*
+
+link:../config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]

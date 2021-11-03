@@ -1,0 +1,32 @@
+---
+permalink: performance-checker/task_analyze_performance_incident_in_metrocluster.html
+sidebar: sidebar
+keywords: analyzing, dynamic, performance, event, remote, cluster, metrocluster, configuration
+summary: "You can use Unified Manager to analyze dynamic performance events on a remote cluster in a MetroCluster configuration. The analysis helps you determine whether an event on the remote cluster caused an event on its partner cluster."
+---
+= Analyzing a dynamic performance event for a remote cluster on a MetroCluster configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to analyze dynamic performance events on a remote cluster in a MetroCluster configuration. The analysis helps you determine whether an event on the remote cluster caused an event on its partner cluster.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+* You must have analyzed a performance event on a local cluster in a MetroCluster configuration and obtained the event detection time.
+* You must have checked the health of the local cluster and its partner cluster involved in the performance event and obtained the name of the partner cluster.
+
+.Steps
+. Log in to the Unified Manager instance that is monitoring the partner cluster.
+. In the left navigation pane, click *Events* to display the event list.
+. From the *Time Range* selector, select *Last Hour*, and then click *Apply Range*.
+. In the *Filtering* selector, select *Cluster* from the left drop-down menu, type the name of the partner cluster in the text field, and then click *Apply Filter*.
++
+If there are no events for the selected cluster over the last hour, this indicates that the cluster has not experienced any performance issues during the time that the event was detected on its partner.
+
+. If the selected cluster has events detected over the last hour, compare the event detection time to the event detection time for the event on the local cluster.
++
+If these events involve bully workloads causing contention on the data processing component, one or more of these bullies might have caused the event on the local cluster. You can click the event to analyze it and review the suggested actions for resolving it on the Event details page.
++
+If these events do not involve bully workloads, they did not cause the performance event on the local cluster.

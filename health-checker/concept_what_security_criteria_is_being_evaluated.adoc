@@ -1,0 +1,26 @@
+---
+permalink: health-checker/concept_what_security_criteria_is_being_evaluated.html
+sidebar: sidebar
+keywords: security criteria, evaluated
+summary: "In general, security criteria for your ONTAP clusters, storage virtual machines (SVMs), and volumes are being evaluated against the recommendations defined in the NetApp Security Hardening Guide for ONTAP 9."
+---
+= What security criteria is being evaluated
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In general, security criteria for your ONTAP clusters, storage virtual machines (SVMs), and volumes are being evaluated against the recommendations defined in the _NetApp Security Hardening Guide for ONTAP 9_.
+
+Some of the security checks include:
+
+* whether a cluster is using a secure authentication method, such as SAML
+* whether peered clusters have their communication encrypted
+* whether a storage VM has its audit log enabled
+* whether your volumes have software or hardware encryption enabled
+
+See the topics on compliance categories and the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9] for detailed information.
+
+[NOTE]
+====
+Upgrade events that are reported from the Active IQ platform are also considered security events. These events identify issues where the resolution requires you to upgrade ONTAP software, node firmware, or operating system software (for security advisories). These events are not displayed in the Security panel, but they are available from the Event Management inventory page.
+====

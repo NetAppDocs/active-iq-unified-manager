@@ -1,0 +1,112 @@
+---
+permalink: events/reference_alert_setup_page.html
+sidebar: sidebar
+keywords: alert, setup, page, command buttons, list view, details area
+summary: "The Alert Setup page displays a list of alerts and provides information about the alert name, status, notification method, and notification frequency. You can also add, edit, remove, enable, or disable alerts from this page."
+---
+= Alert Setup page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Alert Setup page displays a list of alerts and provides information about the alert name, status, notification method, and notification frequency. You can also add, edit, remove, enable, or disable alerts from this page.
+
+You must have the Application Administrator or Storage Administrator role.
+
+== Command buttons
+
+* *Add*
++
+Displays the Add Alert dialog box, which enables you to add new alerts.
+
+* *Edit*
++
+Displays the Edit Alert dialog box, which enables you to edit selected alerts.
+
+* *Delete*
++
+Deletes the selected alerts.
+
+* *Enable*
++
+Enables the selected alerts to send notifications.
+
+* *Disable*
++
+Disables the selected alerts when you want to temporarily stop sending notifications.
+
+* *Test*
++
+Tests the selected alerts to verify their configuration after being added or edited.
+
+* *Alerts for Resolved and Obsolete Events*
++
+Allows you to enable or disable the sending of alerts when events are moved to the Resolved or Obsolete states. This can help users from receiving unnecessary notifications.
+
+== List view
+
+The list view displays, in tabular format, information about the alerts that are created. You can use the column filters to customize the data that is displayed. You can also select an alert to view more information about it in the details area.
+
+* *Status*
++
+Specifies whether an alert is enabled (image:../media/alert_status_enabled.gif[]) or disabled (image:../media/alert_status_disabled.gif[]).
+
+* *Alert*
++
+Displays the name of the alert.
+
+* *Description*
++
+Displays a description for the alert.
+
+* *Notification Method*
++
+Displays the notification method that is selected for the alert. You can notify users through email or SNMP traps.
+
+* *Notification Frequency*
++
+Specifies the frequency (in minutes) with which the management server continues to send notifications until the event is acknowledged, resolved, or moved to the Obsolete state.
+
+== Details area
+
+The details area provides more information about the selected alert.
+
+* *Alert Name*
++
+Displays the name of the alert.
+
+* *Alert Description*
++
+Displays a description for the alert.
+
+* *Events*
++
+Displays the events for which you want to trigger the alert.
+
+* *Resources*
++
+Displays the resources for which you want to trigger the alert.
+
+* *Includes*
++
+Displays the group of resources for which you want to trigger the alert.
+
+* *Excludes*
++
+Displays the group of resources for which you do not want to trigger the alert.
+
+* *Notification Method*
++
+Displays the notification method for the alert.
+
+* *Notification Frequency*
++
+Displays the frequency with which the management server continues to send alert notifications until the event is acknowledged, resolved, or moved to the Obsolete state.
+
+* *Script Name*
++
+Displays the name of the script associated with the selected alert. This script is executed when an alert is generated.
+
+* *Email Recipients*
++
+Displays the email addresses of users who receive the alert notification.

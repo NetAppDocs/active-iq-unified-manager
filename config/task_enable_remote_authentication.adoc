@@ -1,0 +1,66 @@
+---
+permalink: config/task_enable_remote_authentication.html
+sidebar: sidebar
+keywords: enable, remote, authentication
+summary: "You can enable remote authentication so that the Unified Manager server can communicate with your authentication servers. The users of the authentication server can access the Unified Manager graphical interface to manage storage objects and data."
+---
+= Enabling remote authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can enable remote authentication so that the Unified Manager server can communicate with your authentication servers. The users of the authentication server can access the Unified Manager graphical interface to manage storage objects and data.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+[NOTE]
+====
+The Unified Manager server must be connected directly with the authentication server. You must disable any local LDAP clients such as SSSD (System Security Services Daemon) or NSLCD (Name Service LDAP Caching Daemon).
+====
+
+You can enable remote authentication using either Open LDAP or Active Directory. If remote authentication is disabled, remote users cannot access Unified Manager.
+
+Remote authentication is supported over LDAP and LDAPS (Secure LDAP). Unified Manager uses 389 as the default port for non-secure communication, and 636 as the default port for secure communication.
+
+[NOTE]
+====
+The certificate that is used to authenticate users must conform to the X.509 format.
+====
+
+.Steps
+
+. In the left navigation pane, click *General* > *Remote Authentication*.
+. Check the box for *Enable remote authentication...*.
+. In the Authentication Service field, select the type of service and configure the authentication service.
++
+[cols="2*",options="header"]
+|===
+| For Authentication type...| Enter the following information...
+a|
+Active Directory
+a|
+
+ ** Authentication server administrator name in one of following formats:
+  *** `domainname\username`
+  *** `username@domainname`
+  *** `Bind Distinguished Name` (using the appropriate LDAP notation)
+ ** Administrator password
+ ** Base distinguished name (using the appropriate LDAP notation)
+
+a|
+Open LDAP
+a|
+
+ ** Bind distinguished name (in the appropriate LDAP notation)
+ ** Bind password
+ ** Base distinguished name
++
+|===
+If the authentication of an Active Directory user takes a long time or times out, the authentication server is probably taking a long time to respond. Disabling support for nested groups in Unified Manager might reduce the authentication time.
++
+If you select the Use Secure Connection option for the authentication server, then Unified Manager communicates with the authentication server using the Secure Sockets Layer (SSL) protocol.
+
+. *Optional:* Add authentication servers, and test the authentication.
+. Click *Save*.

@@ -1,0 +1,14 @@
+---
+permalink: performance-checker/reference_resolve_performance_events.html
+sidebar: sidebar
+keywords: resolving, performance, events
+summary: "You can use the suggested actions to try and resolve performance events on your own. The first three suggestions are always displayed, and the actions under the fourth suggestion are specific to the type of event displayed."
+---
+= Resolving performance events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the suggested actions to try and resolve performance events on your own. The first three suggestions are always displayed, and the actions under the fourth suggestion are specific to the type of event displayed.
+
+The *Help me do this* links provide additional information for each suggested action, including instructions for performing a specific action. Some of the actions may involve using Unified Manager, ONTAP System Manager, OnCommand Workflow Automation, ONTAP CLI commands, or a combination of these tools.

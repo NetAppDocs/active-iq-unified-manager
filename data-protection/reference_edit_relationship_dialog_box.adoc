@@ -1,0 +1,58 @@
+---
+permalink: data-protection/reference_edit_relationship_dialog_box.html
+sidebar: sidebar
+keywords: edit, relationship, dialog box
+summary: "You can edit an existing protection relationship to change the maximum transfer rate, the protection policy, or the protection schedule."
+---
+= Edit Relationship dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit an existing protection relationship to change the maximum transfer rate, the protection policy, or the protection schedule.
+
+== Destination Information
+
+* *Destination Cluster*
++
+The name of the selected destination cluster.
+
+* *Destination SVM*
++
+The name of the selected SVM
+
+* *Relationship Settings*
++
+Enables you to specify the maximum transfer rate, SnapMirror policy, and schedule that the protection relationship uses:
+
+ ** Max Transfer Rate
++
+Specifies the maximum rate at which baseline data is transferred between clusters over the network. When selected, network bandwidth is limited to the value you specify. You can enter a numerical value and then select either kilobytes per second (KBps), megabytes per second (MBps), gigabytes per second (GBps), or terabytes per second (TBps). The maximum transfer rate that you specify must be greater than 1 KBps and less than 4 TBps. If you choose not to use a maximum transfer rate, the baseline transfer between relationships is unlimited. If the primary cluster and the secondary cluster are the same, this setting is disabled.
+
+ ** SnapMirror Policy
++
+Specifies the ONTAP SnapMirror policy for the relationship. The default is DPDefault.
+
+ ** Create Policy
++
+Launches the Create SnapMirror Policy dialog box, which enables you to create and use a new SnapMirror policy.
+
+ ** SnapMirror Schedule
++
+Specifies the ONTAP SnapMirror policy for the relationship. Available schedules include None, 5min, 8hour, daily, hourly, and weekly. The default is None, indicating that no schedule is associated with the relationship. Relationships without schedules have no lag status values unless they belong to a storage service.
+
+ ** Create Schedule
++
+Launches the Create Schedule dialog box, which enables you to create a new SnapMirror schedule.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Cancel*
++
+Discards the selections and closes the Configure Protection dialog box.
+
+* *Submit*
++
+Applies your selections and closes the Edit Relationship dialog box.

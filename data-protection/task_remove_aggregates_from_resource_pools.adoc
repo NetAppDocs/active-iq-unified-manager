@@ -1,0 +1,37 @@
+---
+permalink: data-protection/task_remove_aggregates_from_resource_pools.html
+sidebar: sidebar
+keywords: remove, aggregates, resource pools
+summary: "You can remove aggregates from an existing resource pool: for example, when you want to use an aggregate for some other purpose."
+---
+= Removing aggregates from resource pools
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can remove aggregates from an existing resource pool: for example, when you want to use an aggregate for some other purpose.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+Resource pool members are displayed only when a resource pool is selected.
+
+.Steps
+
+. In the left navigation pane, click *Protection* > *Resource Pools*.
+. Select the resource pool from which you want to remove member aggregates.
++
+The list of member aggregates is displayed in the Members pane.
+
+. Select one or more aggregates.
++
+The *Remove* button is enabled.
+
+. Click *Remove.*
++
+A warning dialog box is displayed.
+
+. Click *Yes* to continue.
++
+The selected aggregates are removed from the Members pane.

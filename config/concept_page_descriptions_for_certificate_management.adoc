@@ -1,0 +1,12 @@
+---
+permalink: config/concept_page_descriptions_for_certificate_management.html
+sidebar: sidebar
+keywords: page descriptions, certificate management
+summary: "You can use the HTTPS Certificate page to view the current security certificates and to generate new HTTPS certificates."
+---
+= Page descriptions for certificate management
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the HTTPS Certificate page to view the current security certificates and to generate new HTTPS certificates.

@@ -1,0 +1,37 @@
+---
+permalink: events/task_enable_and_disable_active_iq_event_reporting.html
+sidebar: sidebar
+keywords: enable, disable, active iq, event, report
+summary: "Active IQ platform events are generated and displayed in the Unified Manager user interface by default. If you find that these events are too “noisy”, or that you do not want to view these events in Unified Manager, then you can disable these events from being generated. You can enable them at a later time if you want to resume receiving these notifications."
+---
+= Enabling and disabling Active IQ event reporting
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ platform events are generated and displayed in the Unified Manager user interface by default. If you find that these events are too "noisy", or that you do not want to view these events in Unified Manager, then you can disable these events from being generated. You can enable them at a later time if you want to resume receiving these notifications.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+When you disable this feature, Unified Manager stops receiving Active IQ platform events immediately.
+
+When you enable this feature, Unified Manager starts receiving Active IQ platform events shortly after midnight based on the timezone of the cluster. The start time is based on when Unified Manager receives AutoSupport messages from each cluster.
+
+.Steps
+. In the left navigation pane, click *General* > *Feature Settings*.
+. In the *Feature Settings* page, disable or enable Active IQ platform events by choosing one of the following options:
++
+[options="header"]
+|===
+| If you want to...| Then do this...
+a|
+Disable Active IQ platform events
+a|
+In the *Active IQ Portal Events* panel, move the slider button to the left.
+a|
+Enable Active IQ platform events
+a|
+In the *Active IQ Portal Events* panel, move the slider button to the right.
+|===

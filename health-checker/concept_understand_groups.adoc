@@ -1,0 +1,12 @@
+---
+permalink: health-checker/concept_understand_groups.html
+sidebar: sidebar
+keywords: understand, groups
+summary: "You can create groups in Unified Manager to manage storage objects. Understanding the concepts about groups and how group rules enable you to add storage objects to a group will help you to manage the storage objects in your environment."
+---
+= Understanding groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create groups in Unified Manager to manage storage objects. Understanding the concepts about groups and how group rules enable you to add storage objects to a group will help you to manage the storage objects in your environment.

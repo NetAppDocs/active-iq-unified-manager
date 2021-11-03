@@ -1,0 +1,43 @@
+---
+permalink: health-checker/task_resolve_volume_offline_issues.html
+sidebar: sidebar
+keywords: resolve, volume, offline issues
+summary: "This workflow provides an example of how you might evaluate and resolve a volume offline event that Unified Manager might display in the Event Management inventory page. In this scenario, you are an administrator using Unified Manager to troubleshoot one or more volume offline events."
+---
+= Resolving volume offline issues
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This workflow provides an example of how you might evaluate and resolve a volume offline event that Unified Manager might display in the Event Management inventory page. In this scenario, you are an administrator using Unified Manager to troubleshoot one or more volume offline events.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+Volumes might be reported offline for several reasons:
+
+* The SVM administrator has deliberately taken the volume offline.
+* The volume's hosting cluster node is down and storage failover to its HA pair partner has failed also.
+* The volume's hosting storage virtual machine (SVM) is stopped because the node hosting the root volume of that SVM is down.
+* The volume's hosting aggregate is down due to simultaneous failure of two RAID disks.
+
+You can use the Event Management inventory page and the Cluster/Health, Storage VM/Health, and Volume/Health details pages to confirm or eliminate one or more of these possibilities.
+
+.Steps
+. In the left navigation pane, click *Event Management*.
+. In the *Event Management* inventory page, select *Active Availability events*.
+. Click the hypertext link displayed for the Volume Offline event.
++
+The Event details page for the availability incident is displayed.
+
+. On that page, check the notes for any indication that the SVM administrator has taken the volume in question offline.
+. On the *Event* details page, you can review the information for one or more of the following tasks:
+ ** Review the information displayed in the Cause field for possible diagnostic guidance.
++
+In this example, the information in the Cause field informs you only that the volume is offline.
+
+ ** Check the Notes and Updates area for any indication that the SVM administrator has deliberately taken the volume in question offline.
+ ** Click the source of the event, in this case the volume that is reported offline, to get more information about that volume.
+ ** Assign the event to an administrator.
+ ** Acknowledge the event or, if appropriate, mark it as resolved.

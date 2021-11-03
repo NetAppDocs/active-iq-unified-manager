@@ -1,0 +1,64 @@
+---
+permalink: reporting/concept_unified_manager_databases_accessible_for_reporting.html
+sidebar: sidebar
+keywords: unified manager, databases, access, custom, reporting
+summary: "Unified Manager uses a MySQL database to store data from the clusters that it is monitoring. Data is persisted into various schemas in the MySQL database."
+---
+= Unified Manager databases accessible for custom reporting
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager uses a MySQL database to store data from the clusters that it is monitoring. Data is persisted into various schemas in the MySQL database.
+
+All table data from the following databases are available:
+
+[cols="2*",options="header"]
+|===
+| Database| Description
+a|
+netapp_model
+a|
+Data about the objects on ONTAP controllers.
+a|
+netapp_model_view
+a|
+Data about the objects on ONTAP controllers, suitable for report tool consumption.
+a|
+netapp_performance
+a|
+Cluster specific performance counters.
+a|
+ocum
+a|
+Unified Manager application data and information to support UI filtering, sorting, and the calculation of some derived fields.
+a|
+ocum_report
+a|
+Data for inventory configuration and capacity-related information.
+a|
+ocum_report_birt
+a|
+Views for inventory configuration and capacity-related data, suitable for report tool consumption.
+a|
+opm
+a|
+Performance configuration settings and threshold information.
+a|
+scalemonitor
+a|
+Data about the Unified Manager application health and performance issues.
+a|
+vmware_model
+a|
+VMware object data for datastores hosted on NetApp storage.
+a|
+vmware_model_view
+a|
+Views for VMware object data for datastores hosted on NetApp storage, suitable for report tool consumption.
+a|
+vmware_performance
+a|
+VMware performance counter data for datastores hosted on NetApp storage.
+|===
+A reporting user -- a Database user with the Report Schema role -- is able to access the data in these tables. This user has read-only access to reporting and other database views directly from the Unified Manager database. Note that this user does not have permission to access any tables that contain user data or cluster credential information.

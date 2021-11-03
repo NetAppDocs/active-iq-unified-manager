@@ -1,0 +1,41 @@
+---
+permalink: health-checker/task_perform_suggested_remedial_actions_for_full_volume.html
+sidebar: sidebar
+keywords: perform, suggested, remedial actions, volume
+summary: "After receiving a “Volume Space Full” error event, you review the suggested remedial actions on the Event details page and decide to perform one of the suggested actions."
+---
+= Performing suggested remedial actions for a full volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After receiving a "`Volume Space Full`" error event, you review the suggested remedial actions on the Event details page and decide to perform one of the suggested actions.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+A user with any role can perform all of the tasks in this workflow that use Unified Manager.
+
+In this example, you have seen a Volume Space Full error event on the Unified ManagerEvent Management inventory page and have clicked the name of the event.
+
+Possible remedial actions you might perform for a full volume include the following:
+
+* Enabling autogrow, deduplication, or compression on the volume
+* Resizing or moving the volume
+* Deleting or moving data from the volume
+
+Although all of these actions must be performed from either ONTAP System Manager or the ONTAP CLI, you can use Unified Manager to find information you might need to determine which actions to take.
+
+.Steps
+. From the *Event* details page, you click the volume name in the Source field to view details about the affected volume.
+. On the *Volume / Health* details page, you click *Configuration* and see that deduplication and compression are already enabled on the volume.
++
+You decide to resize the volume.
+
+. In the *Related Devices* pane, you click the name of the hosting aggregate to see if the aggregate can accommodate a larger volume.
+. On the *Aggregate / Health* details page, you see that the aggregate hosting the full volume does have enough uncommitted capacity, so you use ONTAP System Manager to resize the volume, giving it more capacity.
+
+*Related information*
+
+link:../events/reference_event_details_page.html[Event details page]

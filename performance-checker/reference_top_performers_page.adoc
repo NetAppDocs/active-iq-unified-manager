@@ -1,0 +1,63 @@
+---
+permalink: performance-checker/reference_top_performers_page.html
+sidebar: sidebar
+keywords: top, performers, page
+summary: "The Top Performers page displays the storage objects that have the highest performance or the lowest performance, based on the performance counter you select. For example, in the Storage VMs category, you can display the SVMs that have the highest IOPS, or the highest latency, or the lowest MB/s. This page also shows if any of the top performers have any active performance events (New or Acknowledged)."
+---
+= Top Performers page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Top Performers page displays the storage objects that have the highest performance or the lowest performance, based on the performance counter you select. For example, in the Storage VMs category, you can display the SVMs that have the highest IOPS, or the highest latency, or the lowest MB/s. This page also shows if any of the top performers have any active performance events (New or Acknowledged).
+
+The Top Performers page displays a maximum of 10 of each object. Note that the Volume object includes both FlexVol volumes and FlexGroup volumes.
+
+* *Time Range*
++
+You can select a time range for viewing the top performers; the selected time range applies to all storage objects. Available time ranges:
+
+ ** Last Hour
+ ** Last 24 Hours
+ ** Last 72 Hours (default)
+ ** Last 7 Days
+
+* *Metric*
++
+Click the *Metric* menu to select a different counter. Counter options are unique to the object type. For example, available counters for the *Volumes* object are *Latency*, *IOPS*, and *MB/s*. Changing the counter reloads the panel data with the top performers based on the selected counter.
++
+Available counters:
+
+ ** Latency
+ ** IOPS
+ ** MB/s
+ ** Performance Capacity Used (for nodes and aggregates)
+ ** Utilization (for nodes and aggregates)
+
+* *Sort*
++
+Click the *Sort* menu to select an ascending or descending sort for the selected object and counter. The options are *Highest to lowest* and *Lowest to highest*. These options enable you to view the objects with the highest performance or the lowest performance.
+
+* *Counter bar*
++
+The counter bar in the graph shows the performance statistics for each object, represented as a bar for that item. The bar graphs are color-coded. If the counter is not breaching a performance threshold, the counter bar is displayed in blue. If a threshold breach is active (a new or acknowledged event), the bar is displayed in the color for the event: warning events are displayed in yellow (image:../media/treemapstatus_warning_png.gif[Icon for TreeMap – Warning status]), and critical events are displayed in red (image:../media/treemapred_png.gif[Icon for TreeMap – Red color]). Threshold breaches are further indicated by severity event indicator icons for warning and critical events.
++
+image::../media/top_10_example.gif[]
++
+For each graph, the X axis displays the top performers for the selected object type. The Y axis displays units applicable to the selected counter. Clicking the object name link below each vertical bar graph element navigates to the Performance Landing page for the selected object.
+
+* *Severity Event indicator*
++
+The *Severity Event* indicator icon is displayed at the left of an object name for active critical (image:../media/sev_critical_um60.png[Icon for event severity – critical]) or warning (image:../media/sev_warning_um60.png[Icon for event severity – warning]) events in the top performers graphs. Click the *Severity Event* indicator icon to view:
+
+ ** *One event*
++
+Navigates to the Event details page for that event.
+
+ ** *Two or more events*
++
+Navigates to the Event inventory page, which is filtered to display all events for the selected object.
+
+* *Export button*
++
+Creates a `.csv` file that contains the data that appears in the counter bar. You can choose to create the file for the single cluster you are viewing or for all clusters in the data center.

@@ -1,0 +1,35 @@
+---
+permalink: config/task_disable_saml_authentication_um.html
+sidebar: sidebar
+keywords: disable, saml authentication
+summary: "You can disable SAML authentication when you want to stop authenticating remote users through a secure identity provider (IdP) before they can log into the Unified Manager web UI. When SAML authentication is disabled, the configured directory service providers, such as Active Directory or LDAP, perform sign-on authentication."
+---
+= Disabling SAML authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can disable SAML authentication when you want to stop authenticating remote users through a secure identity provider (IdP) before they can log into the Unified Manager web UI. When SAML authentication is disabled, the configured directory service providers, such as Active Directory or LDAP, perform sign-on authentication.
+
+After you disable SAML authentication, Local users and Maintenance users will be able to access the graphical user interface in addition to configured Remote users.
+
+You can also disable SAML authentication using the Unified Manager maintenance console if you do not have access to the graphical user interface.
+
+[NOTE]
+====
+Unified Manager is restarted automatically after SAML authentication is disabled.
+====
+
+.Steps
+
+. In the left navigation pane, click *General* > *SAML Authentication*.
+. Uncheck the *Enable SAML authentication* checkbox.
+. Click *Save*.
++
+A message box displays to confirm that you want to complete the configuration and restart Unified Manager.
+
+. Click *Confirm and Logout* and Unified Manager is restarted.
+
+The next time remote users attempt to access the Unified Manager graphical interface they will enter their credentials in the Unified Manager login page instead of the IdP login page.
+
+Access your IdP and delete the Unified Manager server URI and metadata.

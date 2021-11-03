@@ -1,0 +1,51 @@
+---
+permalink: data-protection/task_resolve_lag_issues.html
+sidebar: sidebar
+keywords: resolve, lag, issues
+summary: "This workflow provides an example of how you might resolve a lag issue. In this scenario, you are an administrator or operator accessing the Unified Manager Dashboard page to see if there are any problems with your protection relationships and, if they exist, to find solutions."
+---
+= Resolving lag issues
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This workflow provides an example of how you might resolve a lag issue. In this scenario, you are an administrator or operator accessing the Unified ManagerDashboard page to see if there are any problems with your protection relationships and, if they exist, to find solutions.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+In the Dashboard page, you look at the Unresolved Incidents and Risks area and see a SnapMirror Lag error in the Protection pane under Protection Risks.
+
+.Steps
+
+. In the *Protection* pane on the *Dashboard* page, locate the SnapMirror relationship lag error and click it.
++
+The Event details page for the lag error event is displayed.
+
+. From the *Event* details page you can perform one or more of the following tasks:
+ ** Review the error message in the Cause field of the Summary area to determine if there is any suggested corrective action.
+ ** Click the object name, in this case a volume, in the Source field of the Summary area to get details about the volume.
+ ** Look for notes that might have been added about this event.
+ ** Add a note to the event.
+ ** Assign the event to a specific user.
+ ** Acknowledge or resolve the event.
+. In this scenario, you click the object name (in this case, a volume) in the Source field of the *Summary* area to get details about the volume.
++
+The Protection tab of the Volume / Health details page is displayed.
+
+. In the *Protection* tab, you look at the topology diagram.
++
+You note that the volume with the lag error is the last volume in a three-volume SnapMirror cascade. The volume you selected is outlined in dark gray, and a double orange line from the source volume indicates a SnapMirror relationship error.
++
+image::../media/topology_cascade_lag_error.gif[SnapMirror lag cascade topology]
+
+. Click each of the volumes in the SnapMirror cascade.
++
+As you select each volume, the protection information in the Summary, Topology, History, Events, Related Devices, and Related Alerts areas changes to display details relevant to the selected volume.
+
+. You look at the *Summary* area and position your cursor over the information icon in the *Update Schedule* field for each volume.
++
+In this scenario, you note that the SnapMirror policy is DPDefault, and the SnapMirror schedule updates hourly at five minutes after the hour. You realize that all of the volumes in the relationship are attempting to complete a SnapMirror transfer at the same time.
+
+. To resolve the lag issue, you modify the schedules for two of the cascaded volumes so that each destination begins a SnapMirror transfer after its source has completed a transfer.

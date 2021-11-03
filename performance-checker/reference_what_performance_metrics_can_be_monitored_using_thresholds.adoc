@@ -1,0 +1,152 @@
+---
+permalink: performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html
+sidebar: sidebar
+keywords: performance, counters, tracked, thresholds
+summary: "Some common performance counters, such as IOPS and MB/s, can have thresholds set for all storage objects. There are other counters that can have thresholds set for only certain storage objects."
+---
+= What performance counters can be tracked using thresholds
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Some common performance counters, such as IOPS and MB/s, can have thresholds set for all storage objects. There are other counters that can have thresholds set for only certain storage objects.
+
+== Available performance counters
+[options="header"]
+|===
+| Storage object| Performance counter| Description
+.2+a|
+Cluster
+a|
+IOPS
+a|
+Average number of input/output operations the cluster processes per second.
+a|
+MB/s
+a|
+Average number of megabytes of data transferred to and from this cluster per second.
+.6+a|
+Node
+a|
+IOPS
+a|
+Average number of input/output operations the node processes per second.
+a|
+MB/s
+a|
+Average number of megabytes of data transferred to and from this node per second.
+a|
+Latency
+a|
+Average number of milliseconds the node takes to respond to application requests.
+a|
+Utilization
+a|
+Average percentage of the node's CPU and RAM that is being used.
+a|
+Performance Capacity Used
+a|
+Average percentage of performance capacity that is being consumed by the node.
+a|
+Performance Capacity Used - Takeover
+a|
+Average percentage of performance capacity that is being consumed by the node, plus the performance capacity of its partner node.
+.5+a|
+Aggregate
+a|
+IOPS
+a|
+Average number of input/output operations the aggregate processes per second.
+a|
+MB/s
+a|
+Average number of megabytes of data transferred to and from this aggregate per second.
+a|
+Latency
+a|
+Average number of milliseconds the aggregate takes to respond to application requests.
+a|
+Utilization
+a|
+Average percentage of the aggregate's disks that are being used.
+a|
+Performance Capacity Used
+a|
+Average percentage of performance capacity that is being consumed by the aggregate.
+.3+a|
+Storage VM
+a|
+IOPS
+a|
+Average number of input/output operations the SVM processes per second.
+a|
+MB/s
+a|
+Average number of megabytes of data transferred to and from this SVM per second.
+a|
+Latency
+a|
+Average number of milliseconds the SVM takes to respond to application requests.
+.4+a|
+Volume
+a|
+IOPS
+a|
+Average number of input/output operations the volume processes per second.
+a|
+MB/s
+a|
+Average number of megabytes of data transferred to and from this volume per second.
+a|
+Latency
+a|
+Average number of milliseconds the volume takes to respond to application requests.
+a|
+Cache miss ratio
+a|
+Average percentage of read requests from client applications that are returned from the volume instead of being returned from cache.
+.3+a|
+LUN
+a|
+IOPS
+a|
+Average number of input/output operations the LUN processes per second.
+a|
+MB/s
+a|
+Average number of megabytes of data transferred to and from this LUN per second.
+a|
+Latency
+a|
+Average number of milliseconds the LUN takes to respond to application requests.
+.3+a|
+Namespace
+a|
+IOPS
+a|
+Average number of input/output operations the namespace processes per second.
+a|
+MB/s
+a|
+Average number of megabytes of data transferred to and from this namespace per second.
+a|
+Latency
+a|
+Average number of milliseconds the namespace takes to respond to application requests.
+.2+a|
+Port
+a|
+Bandwidth utilization
+a|
+Average percentage of the port's available bandwidth that is being used.
+a|
+MB/s
+a|
+Average number of megabytes of data transferred to and from this port per second.
+a|
+Network Interface (LIF)
+a|
+MB/s
+a|
+Average number of megabytes of data transferred to and from this LIF per second.
+|===

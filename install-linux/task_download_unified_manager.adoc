@@ -1,0 +1,33 @@
+---
+permalink: install-linux/task_download_unified_manager.html
+sidebar: sidebar
+keywords: download, Unified Manager
+summary: "You must download the Unified Manager `.zip` file from the NetApp Support Site to install Unified Manager."
+---
+= Downloading Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must download the Unified Manager `.zip` file from the NetApp Support Site to install Unified Manager.
+
+*What you'll need*
+
+You must have login credentials for the NetApp Support Site.
+
+You download the same Unified Manager installation package for both Red Hat Enterprise Linux and CentOS systems.
+
+.Steps
+
+. Log in to the NetApp Support Site, and navigate to the Download page for Unified Manager:
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site]
+. Select the required version of Unified Manager and accept the end-users license agreement (EULA).
+. Download the Unified Manager installer file for Linux, and save the `.zip` file to a directory on the target system.
++
+[NOTE]
+====
+Ensure that you download the correct version of the installer file for your Red Hat Enterprise Linux system. Based on whether you have Red Hat Enterprise Linux 7 or 8 installed, ensure that you download the appropriate version of the Unified Manager `.zip` file.
+====
+
+. Verify the checksum to ensure that the software downloaded correctly.

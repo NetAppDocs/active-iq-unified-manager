@@ -1,0 +1,58 @@
+---
+permalink: performance-checker/concept_understand_events_from_adaptive_qos_policies.html
+sidebar: sidebar
+keywords: understand, events, adaptive, qos, policies, defined, block, size
+summary: "Adaptive QoS policy groups automatically scale a throughput ceiling or floor based on the volume size, maintaining the ratio of IOPS to TBs as the size of the volume changes. Starting with ONTAP 9.5 you can specify the block size in the QoS policy to effectively apply a MB/s threshold at the same time."
+---
+= Understanding events from adaptive QoS policies that have a defined block size
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Adaptive QoS policy groups automatically scale a throughput ceiling or floor based on the volume size, maintaining the ratio of IOPS to TBs as the size of the volume changes. Starting with ONTAP 9.5 you can specify the block size in the QoS policy to effectively apply a MB/s threshold at the same time.
+
+Assigning an IOPS threshold in an adaptive QoS policy places a limit only on the number of operations that occur in each workload. Depending on the block size that is set on the client that generates the workloads, some IOPS include much more data and therefore place a much larger burden on the nodes that process the operations.
+
+The MB/s value for a workload is generated using the following formula:
+
+----
+MB/s = (IOPS * Block Size) / 1000
+----
+
+If a workload is averaging 3,000 IOPS and the block size on the client is set to 32 KB, then the effective MB/s for this workload is 96. If this same workload is averaging 3,000 IOPS and the block size on the client is set to 48 KB, then the effective MB/s for this workload is 144. You can see that the node is processing 50% more data when the block size is larger.
+
+Let's look at the following adaptive QoS policy that has a defined block size and how events are triggered based on the block size that is set on the client.
+
+Create a policy and set the peak throughput to 2,500 IOPS/TB with a block size of 32KB. This effectively sets the MB/s threshold to 80 MB/s ((2500 IOPS * 32KB) / 1000) for a volume with 1 TB used capacity. Note that Unified Manager generates a Warning event when the throughput value is 10% less than the defined threshold. Events are generated under the following situations:
+[options="header"]
+|===
+|Used Capacity 2+a| Event is generated when throughput exceeds this number of ...
+|| IOPS| MB/s
+a|
+1 TB
+a|
+2,250 IOPS
+a|
+72 MB/s
+a|
+2 TB
+a|
+4,500 IOPS
+a|
+144 MB/s
+a|
+5 TB
+a|
+11,250 IOPS
+a|
+360 MB/s
+|===
+If the volume is using 2TB of the available space, and the IOPS is 4,000, and the QoS block size is set to 32KB on the client, then the MB/ps throughput is 128 MB/s ((4,000 IOPS * 32 KB) / 1000). No event is generated in this scenario because both 4,000 IOPS and 128 MB/s are below the threshold for a volume that is using 2 TB of space.
+
+If the volume is using 2TB of the available space, and the IOPS is 4,000, and the QoS block size is set to 64KB on the client, then the MB/s throughput is 256 MB/s ((4,000 IOPS * 64 KB) / 1000). In this case the 4,000 IOPS does not generate an event, but the MB/s value of 256 MB/s is above the threshold of 144 MB/s and an event is generated.
+
+For this reason, when an event is triggered based on a MB/s breach for an adaptive QoS policy that includes the block size, a MB/s chart is displayed in the System Diagnosis section of the Event details page. If the event is triggered based on an IOPS breach for the adaptive QoS policy, an IOPS chart is displayed in the System Diagnosis section. If a breach occurs for both IOPS and MB/s you will receive two events.
+
+For more information on adjusting QoS settings, see the _ONTAP 9 Performance Monitoring Power Guide_.
+
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html[ONTAP 9 Performance Monitoring Power Guide]

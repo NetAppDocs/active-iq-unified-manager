@@ -1,0 +1,37 @@
+---
+permalink: install-linux/task_manually_configure_mysql_repository.html
+sidebar: sidebar
+keywords: data center manager, manually, configure, mysql repository
+summary: "If the system on which you are installing Unified Manager does not have access to the MySQL Community Edition repository, then you must manually download and configure the repository for a successful installation."
+---
+= Manually configuring the MySQL repository
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If the system on which you are installing Unified Manager does not have access to the MySQL Community Edition repository, then you must manually download and configure the repository for a successful installation.
+
+The MySQL repository provides access to the required MySQL software that must be installed on your system.
+
+[NOTE]
+====
+This task might fail if the system does not have Internet connectivity. Refer to the MySQL documentation if the system on which you are installing Unified Manager does not have Internet access.
+====
+.Steps
+
+. Download the appropriate MySQL repository for your installation. For Red Hat Enterprise Linux 7, download it from:
++
+`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+`
++
+For version 8, download it from:
++
+`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`
+. Configure the MySQL repository:
++
+`yum install mysql80-community-release-<version>.noarch.rpm`
+
+For Red Hat Enterprise Linux 8 system, if you have internal repositories with java-11-openjdk, p7zip, and other software packages provided by the AppStream repository, you must disable your AppStream repository and install MySQL Community Server. Run the following command:
+
+----
+# sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
+----

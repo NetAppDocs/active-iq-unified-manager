@@ -1,0 +1,33 @@
+---
+permalink: data-protection/task_delete_svm_associations.html
+sidebar: sidebar
+keywords: delete, storage, vm, peers
+summary: "You can delete storage VM peers for partner applications to remove the secondary provisioning relationship between source and destination storage VM; for example, you might do this when the destination storage VM is full and you want to create a new storage VM protection peer."
+---
+= Deleting Storage VM Peers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete storage VM peers for partner applications to remove the secondary provisioning relationship between source and destination storage VM; for example, you might do this when the destination storage VM is full and you want to create a new storage VM protection peer.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+The *Delete* button is disabled until at least one storage VM peer is selected. Changing associations using the delete and create functions affects only future provisioning operations; it does not move existing destination volumes.
+
+.Steps
+
+. In the left navigation pane, click *Protection* > *Storage VM Peers*.
+. Select at least one storage VM peer.
++
+The *Delete* button is enabled.
+
+. Click *Delete.*
++
+A warning dialog box is displayed.
+
+. Click *Yes* to continue.
++
+The selected storage VM peer is removed from the list.

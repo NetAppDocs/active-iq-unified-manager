@@ -1,0 +1,24 @@
+---
+permalink: performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html
+sidebar: sidebar
+keywords: happens, performance, threshold, policy, breached
+summary: "When a counter value exceeds its defined performance threshold value for the amount of time specified in the duration, the threshold is breached and an event is reported."
+---
+= What happens when a performance threshold policy is breached
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When a counter value exceeds its defined performance threshold value for the amount of time specified in the duration, the threshold is breached and an event is reported.
+
+The event causes the following actions to be initiated:
+
+* The event is displayed in the Dashboard, the Performance Cluster Summary page, the Events page, and the object-specific Performance Inventory page.
+* (optional) An email alert about the event can be sent to one or more email recipients, and an SNMP trap can be sent to a trap receiver.
+* (optional) A script can be executed to automatically modify or update storage objects.
+
+The first action is always executed. You configure whether the optional actions are performed in the Alert Setup page. You can define unique actions depending on whether a Warning or a Critical threshold policy is breached.
+
+After a performance threshold policy breach has occurred on a storage object, no further events are generated for that policy until the counter value goes below the threshold value, at which point the duration resets for that limit. While the threshold continues to be exceeded, the end time of the event is continually updated to reflect that this event is ongoing.
+
+A threshold event captures, or freezes, the information related to severity and policy definition so that unique threshold information displays with the event, even if the threshold policy is modified in the future.

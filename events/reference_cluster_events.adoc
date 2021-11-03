@@ -1,0 +1,521 @@
+---
+permalink: events/reference_cluster_events.html
+sidebar: sidebar
+keywords: cluster events, impact, area, availability, capacity, configuration, performance, security
+summary: "Cluster events provide information about the status of clusters, which enables you to monitor the clusters for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity."
+---
+= Cluster events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Cluster events provide information about the status of clusters, which enables you to monitor the clusters for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity.
+
+== Impact area: availability
+
+An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Cluster Lacks Spare Disks(ocumEvtDisksNoSpares)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster Not Reachable(ocumEvtClusterUnreachable)
+
+a|
+Risk
+a|
+Cluster
+a|
+Error
+a|
+Cluster Monitoring Failed(ocumEvtClusterMonitoringFailed)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster FabricPool License Capacity Limits Breached (ocumEvtExternalCapacityTierSpaceFull)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+NVMe-oF Grace Period Started *(nvmfGracePeriodStart)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+NVMe-oF Grace Period Active *(nvmfGracePeriodActive)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+NVMe-oF Grace Period Expired *(nvmfGracePeriodExpired)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Object Maintenance Window Started(objectMaintenanceWindowStarted)
+
+a|
+Event
+a|
+Cluster
+a|
+Critical
+a|
+Object Maintenance Window Ended(objectMaintenanceWindowEnded)
+
+a|
+Event
+a|
+Cluster
+a|
+Information
+a|
+MetroCluster Spare Disks Left Behind(ocumEvtSpareDiskLeftBehind)
+
+a|
+Risk
+a|
+Cluster
+a|
+Error
+a|
+MetroCluster Automatic Unplanned Switchover Disabled(ocumEvtMccAutomaticUnplannedSwitchOverDisabled)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster user password changed *(cluster.passwd.changed)
+
+a|
+Event
+a|
+Cluster
+a|
+Information
+|===
+
+== Impact area: capacity
+[options="header"]
+|===
+| Event name(Trap name)| Impact level| Source type| Severity
+a|
+Cluster Capacity Imbalance Threshold Breached(ocumConformanceNodeImbalanceWarning)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster Cloud Tier Planning (clusterCloudTierPlanningWarning)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+FabricPool Mirror Replication Resync Completed *(waflCaResyncComplete)
+
+a|
+Event
+a|
+Cluster
+a|
+Warning
+a|
+FabricPool Space Nearly Full *(fabricpoolNearlyFull)
+
+a|
+Risk
+a|
+Cluster
+a|
+Error
+|===
+
+== Impact area: configuration
+[options="header"]
+|===
+| Event name(Trap name)| Impact level| Source type| Severity
+a|
+Node Added(Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Information
+a|
+Node Removed(Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Information
+a|
+Cluster Removed(Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Information
+a|
+Cluster Add Failed(Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Error
+a|
+Cluster Name Changed(Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Information
+a|
+Emergency EMS received (Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Critical
+a|
+Critical EMS received (Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Critical
+a|
+Alert EMS received (Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Error
+a|
+Error EMS received (Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Warning
+a|
+Warning EMS received (Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Warning
+a|
+Debug EMS received (Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Warning
+a|
+Notice EMS received (Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Warning
+a|
+Informational EMS received (Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Warning
+|===
+ONTAP EMS events are categorized into three Unified Manager event severity levels.
+
+|===
+| Unified Manager event severity level| ONTAP EMS event severity level
+a|
+Critical
+a|
+Emergency
+
+Critical
+
+a|
+Error
+a|
+Alert
+a|
+Warning
+a|
+Error
+
+Warning
+
+Debug
+
+Notice
+
+Informational
+
+|===
+
+== Impact area: performance
+[options="header"]
+|===
+| Event name(Trap name)| Impact level| Source type| Severity
+a|
+Cluster Load Imbalance Threshold Breached()
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster IOPS Critical Threshold Breached(ocumClusterIopsIncident)
+
+a|
+Incident
+a|
+Cluster
+a|
+Critical
+a|
+Cluster IOPS Warning Threshold Breached(ocumClusterIopsWarning)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster MB/s Critical Threshold Breached(ocumClusterMbpsIncident)
+
+a|
+Incident
+a|
+Cluster
+a|
+Critical
+a|
+Cluster MB/s Warning Threshold Breached(ocumClusterMbpsWarning)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster Dynamic Threshold Breached(ocumClusterDynamicEventWarning)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+|===
+
+== Impact area: security
+[options="header"]
+|===
+| Event name(Trap name)| Impact level| Source type| Severity
+a|
+AutoSupport HTTPS Transport Disabled(ocumClusterASUPHttpsConfiguredDisabled)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Log Forwarding Not Encrypted(ocumClusterAuditLogUnencrypted)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Default Local Admin User Enabled(ocumClusterDefaultAdminEnabled)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+FIPS Mode Disabled(ocumClusterFipsDisabled)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Login Banner Disabled(ocumClusterLoginBannerDisabled)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Login Banner Changed(ocumClusterLoginBannerChanged)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Log Forwarding Destinations Changed(ocumLogForwardDestinationsChanged)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+NTP Server Names Changed(ocumNtpServerNamesChanged)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+NTP Server Count is Low(securityConfigNTPServerCountLowRisk)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster Peer Communication Not Encrypted(ocumClusterPeerEncryptionDisabled)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+SSH is Using Insecure Ciphers(ocumClusterSSHInsecure)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Telnet Protocol Enabled(ocumClusterTelnetEnabled)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Passwords of some ONTAP user accounts use the less secure MD5 hash function(ocumClusterMD5PasswordHashUsed)
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster uses self-signed Certificate(ocumClusterSelfSignedCertificate)
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster Remote Shell is Enabled(ocumClusterRshDisabled)
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+|===

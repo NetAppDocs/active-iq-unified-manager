@@ -1,0 +1,39 @@
+---
+permalink: health-checker/task_view_details_about_nfs_shares.html
+sidebar: sidebar
+keywords: view, details, nfs shares
+summary: "You can view details about all NFS shares, such as its status, the path associated with the volume (FlexGroup volumes or FlexVol volumes), access levels of clients to the NFS shares, and the export policy defined for the volumes that are exported. Use the Health: All NFS Shares view to see all NFS shares on all monitored clusters, and use the Storage VM / Health details page to view all NFS shares on a specific storage virtual machine (SVM)."
+---
+= Viewing details about NFS shares
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view details about all NFS shares, such as its status, the path associated with the volume (FlexGroup volumes or FlexVol volumes), access levels of clients to the NFS shares, and the export policy defined for the volumes that are exported. Use the Health: All NFS Shares view to see all NFS shares on all monitored clusters, and use the Storage VM / Health details page to view all NFS shares on a specific storage virtual machine (SVM).
+
+*What you'll need*
+
+* NFS license must be enabled on the cluster.
+* Network interfaces serving the NFS shares must be configured.
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+
+.Step
+. In the left navigation pane, follow the steps below depending on whether you want to view all NFS shares or just the NFS shares for a particular SVM.
++
+[cols="2*",options="header"]
+|===
+| To...| Follow these steps...
+a|
+View all NFS shares
+a|
+Click *Storage* > *NFS Shares*
+a|
+View NFS shares for single SVM
+a|
+
+ .. Click *Storage* > *Storage VMs*
+ .. Click the SVM for which you want to view the NFS shares details.
+ .. In the Storage VM / Health details page, click the *NFS Shares* tab.
+
++
+|===

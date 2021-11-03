@@ -1,0 +1,14 @@
+---
+permalink: health-checker/concept_understand_node_root_volumes.html
+sidebar: sidebar
+keywords: understand, node, root, volumes
+summary: "You can monitor the node root volume using Unified Manager. The best practice is that the node root volume should have sufficient capacity to prevent the node from going down."
+---
+= Understanding node root volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can monitor the node root volume using Unified Manager. The best practice is that the node root volume should have sufficient capacity to prevent the node from going down.
+
+When the used capacity of the node root volume exceeds 80 percent of the total node root volume capacity, the Node Root Volume Space Nearly Full event is generated. You can configure an alert for the event to get a notification. You can take appropriate actions to prevent the node from going down by using either ONTAP System Manager or the ONTAP CLI.

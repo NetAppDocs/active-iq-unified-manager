@@ -1,0 +1,19 @@
+---
+permalink: reporting/concept_sample_custom_reports.html
+sidebar: sidebar
+keywords: sample, custom, reports
+summary: "These sample custom reports are commonly used to help you identify potential problems and respond to potential issues before problems occur."
+---
+= Sample custom reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+These sample custom reports are commonly used to help you identify potential problems and respond to potential issues before problems occur.
+
+The list of reports in this section is not exhaustive and will grow over time. You can suggest custom reports to add to this section by providing documentation feedback.
+
+[NOTE]
+====
+You must have the Application Administrator or Storage Administrator role to manage reports.
+====

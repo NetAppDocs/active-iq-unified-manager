@@ -1,0 +1,26 @@
+---
+permalink: config/task_delete_authentication_servers.html
+sidebar: sidebar
+keywords: delete, authentication, servers
+summary: "You can delete an authentication server if you want to prevent the Unified Manager server from communicating with the authentication server. For example, if you want to change an authentication server that the management server is communicating with, you can delete the authentication server and add a new authentication server."
+---
+= Deleting authentication servers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete an authentication server if you want to prevent the Unified Manager server from communicating with the authentication server. For example, if you want to change an authentication server that the management server is communicating with, you can delete the authentication server and add a new authentication server.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+When you delete an authentication server, remote users or groups of the authentication server will no longer be able to access Unified Manager.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Remote Authentication*.
+. Select one or more authentication servers that you want to delete, and then click *Delete*.
+. Click *Yes* to confirm the delete request.
++
+If the *Use Secure Connection* option is enabled, then the certificates associated with the authentication server are deleted along with the authentication server.

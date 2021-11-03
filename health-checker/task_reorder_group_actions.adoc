@@ -1,0 +1,24 @@
+---
+permalink: health-checker/task_reorder_group_actions.html
+sidebar: sidebar
+keywords: reorder, group actions
+summary: "You can change the order of the group actions that are to be applied to the storage objects in a group. Group actions are applied to storage objects sequentially based on their rank. The lowest rank is assigned to the group action that you configured last. You can change the rank of the group action depending on your requirements."
+---
+= Reordering group actions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the order of the group actions that are to be applied to the storage objects in a group. Group actions are applied to storage objects sequentially based on their rank. The lowest rank is assigned to the group action that you configured last. You can change the rank of the group action depending on your requirements.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+You can select either a single row or multiple rows, and then perform multiple drag-and-drop operations to change the rank of group actions. However, you must save the changes for the re-prioritization to be reflected in the group actions grid.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. In the *Group Actions* tab, click *Reorder*.
+. In the *Reorder Group Actions* dialog box, drag and drop the rows to rearrange the sequence of group actions as required.
+. Click *Save*.

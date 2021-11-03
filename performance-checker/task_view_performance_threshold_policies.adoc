@@ -1,0 +1,21 @@
+---
+permalink: performance-checker/task_view_performance_threshold_policies.html
+sidebar: sidebar
+keywords: view, performance, threshold, policies
+summary: "You can view all of the currently defined performance threshold policies from the Performance Thresholds page."
+---
+= Viewing performance threshold policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view all of the currently defined performance threshold policies from the Performance Thresholds page.
+
+The list of threshold policies is sorted alphabetically by policy name, and it includes policies for all types of storage objects. You can click a column header to sort the policies by that column. If you are looking for a specific policy, use the filter and search mechanisms to refine the list of threshold policies that appear in the inventory list.
+
+You can hover your cursor over the Policy Name and the Condition name to see the configuration details of the policy. Additionally, you can use the provided buttons to create, clone, edit, and delete user-defined threshold policies.
+
+.Step
+. In the left navigation pane, select *Event Thresholds* > *Performance*.
++
+The Performance Thresholds page is displayed.

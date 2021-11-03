@@ -1,0 +1,88 @@
+---
+permalink: api-automation/concept_manage_lun.html
+sidebar: sidebar
+keywords: manage, lun
+summary: "You can use the /storage-provider/luns API to view, add, modify, and delete the LUNs in your data center environment."
+---
+= Managing LUNs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the `/storage-provider/luns` API to view, add, modify, and delete the LUNs in your data center environment.
+
+Before provisioning the LUNs, ensure that the SVM has been created and provisioned with the supported protocols. If you are assigning Performance Service Levels (PSLs) or Storage Efficiency Policies (SEPs), while provisioning, the PSLs or SEPs should be created before creating the LUN.
+
+== View LUNs
+
+You can use the following method to view the LUNs in your Unified Manager environment. When you have added an ONTAP cluster as a datasource on Active IQ Unified Manager, the storage workloads for those clusters are automatically added to your Unified Manager instance. This API retrieves all the LUNs automatically and manually added to your Unified Manager instance. You can view the details of a specific LUN by running this API with the LUN key.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/luns`
+
+`/storage-provider/luns/\{key}`
+
+|===
+
+== Add LUNs
+
+You can use the following method to add LUNs to your SVMs.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+POST
+a|
+`/storage-provider/luns`
+|===
+
+[NOTE]
+====
+In your cURL request, if you provide a value for the optional parameter volume_name_tag in the input, then that value is used while naming the volume during the LUN creation. This tag enables searching the volume easily. If you provide the volume key in the request, the tagging is skipped.
+====
+
+== Delete LUNs
+
+You can use the following method to delete a specific LUN. You need to provide the LUN key to delete a particular LUN.
+
+[NOTE]
+====
+If you have created a volume in ONTAP and then provisioned LUNs through Unified Manager on that volume, when you delete all of the LUNs by using this API, the volume also gets deleted from the ONTAP cluster.
+====
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+DELETE
+a|
+`/storage-provider/luns/\{key}`
+|===
+
+== Modify LUNs
+
+You can use the following method to modify a LUN and update its properties. You need to provide the LUN key to modify a particular LUN. You also need to enter the LUN property that you want to update, along with its value. For updating LUN arrays by using this API, you should review the recommendations in "`Recommendations for using the APIs`".
+
+[NOTE]
+====
+You can update only one property at a single invocation of this API. For multiple updates, you need to run this API as many times.
+====
+
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+PATCH
+a|
+`/storage-provider/luns/\{key}`
+|===

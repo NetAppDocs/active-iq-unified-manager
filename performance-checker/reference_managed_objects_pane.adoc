@@ -1,0 +1,46 @@
+---
+permalink: performance-checker/reference_managed_objects_pane.html
+sidebar: sidebar
+keywords: managed, objects, pane
+summary: "The Managed Objects pane in the Performance Summary tab provides a top-level overview of the storage object types and counts for the cluster. This pane enables you to track the status of the objects in each cluster."
+---
+= Managed Objects pane
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Managed Objects pane in the Performance Summary tab provides a top-level overview of the storage object types and counts for the cluster. This pane enables you to track the status of the objects in each cluster.
+
+The managed objects count is point-in-time data as of the last collection period. New objects are discovered at 15-minute intervals.
+
+Clicking the linked number for any object type displays the object performance inventory page for that object type. The object inventory page is filtered to show only the objects on this cluster.
+
+The managed objects are:
+
+* *Nodes*
++
+A physical system in a cluster.
+
+* *Aggregates*
++
+A set of multiple redundant array of independent disks (RAID) groups that can be managed as a single unit for protection and provisioning.
+
+* *Ports*
++
+A physical connection point on nodes that is used to connect to other devices on a network.
+
+* *Storage VMs*
++
+A virtual machine providing network access through unique network addresses. An SVM might serve data out of a distinct namespace, and is separately administrable from the rest of the cluster.
+
+* *Volumes*
++
+A logical entity holding accessible user data through one or more of the supported access protocols. The count includes both FlexVol volumes and FlexGroup volumes; it does not include FlexGroup constituents.
+
+* *LUNs*
++
+The identifier of a Fibre Channel (FC) logical unit or an iSCSI logical unit. A logical unit typically corresponds to a storage volume, and is represented within a computer operating system as a device.
+
+* *Network Interfaces*
++
+A logical network interface representing a network access point to a node. The count includes all interface types.

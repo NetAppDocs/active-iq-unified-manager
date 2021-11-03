@@ -1,0 +1,56 @@
+---
+permalink: storage-mgmt/task_provision_luns.html
+sidebar: sidebar
+keywords: provision, luns
+summary: "You can create LUNs that support CIFS/SMB and NFS protocols, on an existing cluster and Storage Virtual Machine (storage VM) from the Provision Workload page."
+---
+= Provisioning LUNs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create LUNs that support CIFS/SMB and NFS protocols, on an existing cluster and Storage Virtual Machine (storage VM) from the Provision Workload page.
+
+*What you'll need*
+
+* The storage VM must have space for provisioning the LUN.
+* Both iSCSI and FCP must be enabled on the storage VM on which you create the LUN.
+* For selecting and assigning the Performance Service Level (PSL) and Storage Efficiency Policy (SEP) on the workload, the policies must have been created before you start creating the workload.
+
+.Steps
+
+. On the *Provision Workload* page, add the name of the workload that you want to create, and then select the cluster from the available list.
++
+Based on the cluster that you have selected, the *STORAGE VM* field filters the available storage VMs for that cluster.
+
+. Select the storage VM from the list that supports the iSCSI and FCP services.
++
+Based on your selection, the SAN option is enabled in the Host Information section.
+
+. In the *Storage and Optimization* section, assign the storage capacity and PSL, and optionally, the SEP for the workload.
++
+The specifications for the SEP are assigned to the LUN and the definitions for the PSL are applied to the workload when it is created.
+
+. Select the *Enforce performance limits* check box if you want to enforce the assigned PSL on the workload.
++
+Assigning a PSL to a workload ensures that the aggregate on which the workload is created can support the performance and capacity objectives defined in the respective policy. For example, if a workload is assigned the "Extreme Performance" PSL, the aggregate on which the workload is to be provisioned should have the capability of supporting the performance and capacity objectives of the "Extreme Performance" policy, such as SSD storage.
++
+[NOTE]
+====
+Unless you select this check box, the PSL is not applied to the workload, and the status of the workload on the dashboard appears as `unassigned`.
+====
+
+. Select the *SAN* option. If you cannot see the *SAN* option enabled, verify whether the storage VM that you have selected supports iSCSI and FCP.
+. Select the host OS.
+. Specify the host mapping to control access of the initiators to the LUN. You can assign existing initiator groups (igroups), or define and map new igroups.
++
+[NOTE]
+====
+If you create a new igroup while provisioning the LUN, you need to wait till the next discovery cycle (up to 15 minutes) for using it. It is therefore recommended that you use an existing igroup from the list of available igroups.
+====
++
+If you want to create a new igroup, select the *Create a new initiator group* button, and enter the information for the igroup.
+
+. Click *Save*.
++
+The LUN is added to the list of storage workloads.

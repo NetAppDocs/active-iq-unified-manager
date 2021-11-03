@@ -1,0 +1,32 @@
+---
+permalink: storage-mgmt/task_remove_clusters.html
+sidebar: sidebar
+keywords: remove, cluster
+summary: "You can remove a cluster from Unified Manager by using the Cluster Setup page. For example, you can remove a cluster if cluster discovery fails, or when you want to decommission a storage system."
+---
+= Removing clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can remove a cluster from Unified Manager by using the Cluster Setup page. For example, you can remove a cluster if cluster discovery fails, or when you want to decommission a storage system.
+
+*What you'll need*
+
+You must have the Application Administrator role or the Storage Administrator role.
+
+This task removes the selected cluster from Unified Manager. After a cluster is removed, it is no longer monitored. The instance of Unified Manager registered with the removed cluster is also unregistered from the cluster.
+
+Removing a cluster also deletes all its storage objects, historical data, storage services, and all associated events from Unified Manager. These changes are reflected on the inventory pages and the details pages after the next data collection cycle.
+
+.Steps
+
+. In the left navigation pane, click *Storage Management* > *Cluster Setup*.
+. On the Cluster Setup page, select the cluster that you want to remove and click *Remove*.
+. In the *Remove Data Source* message dialog, click *Remove* to confirm the remove request.
+
+*Related information*
+
+link:../config/task_add_users.html[Adding users]
+
+link:../health-checker/task_view_cluster_list_and_details.html[Viewing the cluster list and details]

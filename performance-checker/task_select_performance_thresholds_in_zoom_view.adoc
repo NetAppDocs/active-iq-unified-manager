@@ -1,0 +1,21 @@
+---
+permalink: performance-checker/task_select_performance_thresholds_in_zoom_view.html
+sidebar: sidebar
+keywords: select, performance, thresholds, counter, charts, zoom, view
+summary: "Applying thresholds in the Counter Charts Zoom View provides a detailed view of occurrences of performance threshold events. This enables you to apply or remove thresholds, and immediately view the results, which can be helpful while deciding whether troubleshooting should be your next step."
+---
+= Selecting performance thresholds in Counter Charts Zoom View
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Applying thresholds in the Counter Charts Zoom View provides a detailed view of occurrences of performance threshold events. This enables you to apply or remove thresholds, and immediately view the results, which can be helpful while deciding whether troubleshooting should be your next step.
+
+Selecting thresholds in the Counter Charts Zoom View enables you to view precise data about performance threshold events. You can apply any threshold that appears under the *Policies* area of the Counter Charts Zoom View.
+
+Only one policy at a time can be applied to the object in the Counter Charts Zoom View.
+
+.Step
+. Select or deselect the image:../media/eye_icon.gif[] that is associated with a policy.
++
+The selected threshold is applied to the Counter Charts Zoom View. Critical thresholds are displayed as a red line; warning thresholds are displayed as a yellow line.

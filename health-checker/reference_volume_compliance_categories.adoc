@@ -1,0 +1,35 @@
+---
+permalink: health-checker/reference_volume_compliance_categories.html
+sidebar: sidebar
+keywords: volume, encryption, compliance, categories
+summary: "This table describes the volume encryption parameters that Unified Manager evaluates to determine whether the data on your volumes is adequately protected from being accessed by unauthorized users."
+---
+= Volume compliance categories
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This table describes the volume encryption parameters that Unified Manager evaluates to determine whether the data on your volumes is adequately protected from being accessed by unauthorized users.
+
+Note that the volume encryption parameters do not affect whether the cluster or storage VM is considered compliant.
+
+[cols="2*",options="header"]
+|===
+| Parameter| Description
+a|
+Software Encrypted
+a|
+Displays the number of volumes that are protected using NetApp Volume Encryption (NVE) or NetApp Aggregate Encryption (NAE) software encryption solutions.
+a|
+Hardware Encrypted
+a|
+Displays the number of volumes that are protected using NetApp Storage Encryption (NSE) hardware encryption.
+a|
+Software and Hardware Encrypted
+a|
+Displays the number of volumes that are protected by both software and hardware encryption.
+a|
+Not Encrypted
+a|
+Displays the number of volumes that are not encrypted.
+|===

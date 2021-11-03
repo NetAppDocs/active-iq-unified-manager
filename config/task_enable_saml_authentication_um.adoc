@@ -1,0 +1,59 @@
+---
+permalink: config/task_enable_saml_authentication_um.html
+sidebar: sidebar
+keywords: enable, saml, authentication
+summary: "You can enable Security Assertion Markup Language (SAML) authentication so that remote users are authenticated by a secure identity provider (IdP) before they can access the Unified Manager web UI."
+---
+= Enabling SAML authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can enable Security Assertion Markup Language (SAML) authentication so that remote users are authenticated by a secure identity provider (IdP) before they can access the Unified Manager web UI.
+
+*What you'll need*
+
+* You must have configured remote authentication and verified that it is successful.
+* You must have created at least one Remote User, or a Remote Group, with the Application Administrator role.
+* The Identity provider (IdP) must be supported by Unified Manager and it must be configured.
+* You must have the IdP URL and metadata.
+* You must have access to the IdP server.
+
+After you have enabled SAML authentication from Unified Manager, users cannot access the graphical user interface until the IdP has been configured with the Unified Manager server host information. So you must be prepared to complete both parts of the connection before starting the configuration process. The IdP can be configured before or after configuring Unified Manager.
+
+Only remote users will have access to the Unified Manager graphical user interface after SAML authentication has been enabled. Local users and Maintenance users will not be able to access the UI. This configuration does not impact users who access the maintenance console, the Unified Manager commands, or ZAPIs.
+
+[NOTE]
+====
+Unified Manager is restarted automatically after you complete the SAML configuration on this page.
+====
+
+.Steps
+
+. In the left navigation pane, click *General* > *SAML Authentication*.
+. Select the *Enable SAML authentication* checkbox.
++
+The fields required to configure the IdP connection are displayed.
+
+. Enter the IdP URI and the IdP metadata required to connect the Unified Manager server to the IdP server.
++
+If the IdP server is accessible directly from the Unified Manager server, you can click the *Fetch IdP Metadata* button after entering the IdP URI to populate the IdP Metadata field automatically.
+
+. Copy the Unified Manager host metadata URI, or save the host metadata to an XML text file.
++
+You can configure the IdP server with this information at this time.
+
+. Click *Save*.
++
+A message box displays to confirm that you want to complete the configuration and restart Unified Manager.
+
+. Click *Confirm and Logout* and Unified Manager is restarted.
+
+The next time authorized remote users attempt to access the Unified Manager graphical interface they will enter their credentials in the IdP login page instead of the Unified Manager login page.
+
+If not already completed, access your IdP and enter the Unified Manager server URI and metadata to complete the configuration.
+
+[NOTE]
+====
+When using ADFS as your identity provider, the Unified Manager GUI does not honor the ADFS timeout and will continue to work until the Unified Manager session timeout is reached. You can change the GUI session timeout by clicking *General* > *Feature Settings* > *Inactivity Timeout*.
+====

@@ -1,0 +1,68 @@
+---
+permalink: events/reference_metrocluster_switch_events.html
+sidebar: sidebar
+keywords: metrocluster, switch, events, impact area, availability
+summary: "MetroCluster switch events provide you with information about the status of the MetroCluster switches so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= MetroCluster switch events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+MetroCluster switch events provide you with information about the status of the MetroCluster switches so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Switch Temperature Abnormal(ocumEvtSwitchTemperatureAbnormal)
+
+a|
+Incident
+a|
+MetroCluster Switch
+a|
+Critical
+a|
+Switch Unreachable(ocumEvtSwitchUnreachable)
+
+a|
+Incident
+a|
+MetroCluster Switch
+a|
+Critical
+a|
+Switch Fans Failed(ocumEvtSwitchFansOneOrMoreFailed)
+
+a|
+Incident
+a|
+MetroCluster Switch
+a|
+Critical
+a|
+Switch Power Supplies Failed(ocumEvtSwitchPowerSuppliesOneOrMoreFailed)
+
+a|
+Incident
+a|
+MetroCluster Switch
+a|
+Critical
+a|
+Switch Temperature Sensors Failed(ocumEvtSwitchTemperatureSensorFailed)
+
+[NOTE]
+====
+This event is applicable only for Cisco switches.
+====
+
+a|
+Incident
+a|
+MetroCluster Switch
+a|
+Critical
+|===

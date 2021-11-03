@@ -1,0 +1,47 @@
+---
+permalink: events/task_disable_unwanted_events.html
+sidebar: sidebar
+keywords: disable, unwanted, events
+summary: "All events are enabled by default. You can disable events globally to prevent the generation of notifications for events that are not important in your environment. You can enable events that are disabled when you want to resume receiving notifications for them."
+---
+= Disabling unwanted events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+All events are enabled by default. You can disable events globally to prevent the generation of notifications for events that are not important in your environment. You can enable events that are disabled when you want to resume receiving notifications for them.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+When you disable events, the previously generated events in the system are marked obsolete, and the alerts that are configured for these events are not triggered. When you enable events that are disabled, the notifications for these events are generated starting with the next monitoring cycle.
+
+When you disable an event for an object (for example, the `vol offline` event), and then later you enable the event, Unified Manager does not generate new events for objects that went offline when the event was in the disabled state. Unified Manager generates a new event only when there is a change in the object state after the event was re-enabled.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Event Setup*.
+. In the *Event Setup* page, disable or enable events by choosing one of the following options:
++
+[options="header"]
+|===
+| If you want to...| Then do this...
+a|
+Disable events
+a|
+
+ .. Click *Disable*.
+ .. In the Disable Events dialog box, select the event severity.
+ .. In the Matching Events column, select the events that you want to disable based on the event severity, and then click the right arrow to move those events to the Disable Events column.
+ .. Click *Save and Close*.
+ .. Verify that the events that you disabled are displayed in the list view of the Event Setup page.
+
+a|
+Enable events
+a|
+
+ .. Select the check box for the event, or events, that you want to enable.
+ .. Click *Enable*.
+
++
+|===

@@ -1,0 +1,18 @@
+---
+permalink: reporting/concept_schedule_reports.html
+sidebar: sidebar
+keywords: scheduling, reports
+summary: "After you have a view you want to reuse and share as a report, you can schedule it using Active IQ Unified Manager. You can manage scheduled reports, changing the recipients and distribution frequency for each report schedule."
+---
+= Scheduling reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you have a view you want to reuse and share as a report, you can schedule it using Active IQ Unified Manager. You can manage scheduled reports, changing the recipients and distribution frequency for each report schedule.
+
+You can schedule most views or inventory pages in Unified Manager. Exceptions are events, which are reports you can download as CSV files, but you cannot schedule events for regeneration and sharing. You also cannot download or schedule the dashboards, favorites, or configuration pages.
+
+Starting in Active IQ Unified Manager 9.8, you can download views in Microsoft® Excel format and customize them. You can use advanced Excel features such as complex sorts, layered filters, pivot tables, and charts. When satisfied with the resulting Excel report, you can upload the Excel file for use each time the report is scheduled and shared.
+
+You can schedule the built in views or views you customize. You can choose which file type to send, either CSV, PDF, or XSLX. When you schedule a report for the first time, you can download it and assign yourself as the only recipient to see the report as your recipients will see it.

@@ -1,0 +1,32 @@
+---
+permalink: health-checker/task_configure_global_health_threshold_settings.html
+sidebar: sidebar
+keywords: configure, global health, threshold settings
+summary: "You can configure global health threshold conditions for capacity, growth, Snapshot reserve, quotas, and inodes to monitor your aggregate, volume, and qtree size effectively. You can also edit the settings for generating events for exceeding lag thresholds."
+---
+= Configuring global health threshold settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure global health threshold conditions for capacity, growth, Snapshot reserve, quotas, and inodes to monitor your aggregate, volume, and qtree size effectively. You can also edit the settings for generating events for exceeding lag thresholds.
+
+Global health threshold settings apply to all objects with which they are associated, such as aggregates, volumes, and so forth. When thresholds are crossed, an event is generated and, if alerts are configured, an alert notification is sent. Threshold defaults are set to recommended values, but you can modify them to generate events at intervals to meet your specific needs. When thresholds are changed, events are generated or obsoleted in the next monitoring cycle.
+
+Global health threshold settings are accessible from the Event Thresholds section of the left-navigation menu. You can also modify threshold settings for individual objects, from the inventory page or the details page for that object.
+
+* link:task_configure_global_aggregate_health_threshold_values.html[Configuring global aggregate health threshold values]
++
+You can configure the health threshold settings for capacity, growth, and Snapshot copies for all aggregates to track any threshold breach.
+
+* link:task_configure_global_volume_health_threshold_values.html[Configuring global volume health threshold values]
++
+You can edit the health threshold settings for capacity, Snapshot copies, qtree quotas, volume growth, overwrite reserve space, and inodes for all volumes to track any threshold breach.
+
+* link:task_configure_global_qtree_health_threshold_values.html[Configuring global qtree health threshold values]
++
+You can edit the health threshold settings for capacity for all qtrees to track any threshold breach.
+
+* link:task_configure_lag_threshold_settings_for_unmanaged_protection.html[Editing lag health threshold settings for unmanaged protection relationships]
++
+You can increase or decrease the warning or error lag time percentage so that events are generated at intervals that are more appropriate to your needs.

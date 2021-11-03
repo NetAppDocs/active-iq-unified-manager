@@ -1,0 +1,37 @@
+---
+permalink: performance-checker/concept_understand_performance_panels_on_dashboard.html
+sidebar: sidebar
+keywords: understand, performance, panels, dashboard
+summary: "The Unified Manager Dashboard provides a few panels that display high-level performance status for all the clusters that are being monitored in your environment. You can choose to view status for all clusters or for an individual cluster."
+---
+= Understanding performance panels on the Dashboard
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Unified Manager Dashboard provides a few panels that display high-level performance status for all the clusters that are being monitored in your environment. You can choose to view status for all clusters or for an individual cluster.
+
+
+In addition to showing performance information, most of the panels also display the number of active events in that category, and the number of new events added over the previous 24 hours. This information helps you decide which clusters you may need to analyze further to resolve reported events. Clicking on the events displays the top few events and provides a link to the Event Management inventory page filtered to show the events in that category.
+
+The following panels provide performance status.
+
+* *Performance Capacity panel*
++
+When viewing all clusters, this panel displays the performance capacity value for each cluster (averaged over the previous 1 hour) and the number of days until performance capacity reaches the upper limit (based on daily growth rate). Clicking the bar chart takes you to the Nodes inventory page for that cluster. Note that the Nodes inventory page displays the performance capacity averaged over the previous 72 hours, so this value may not match the Dashboard value.
++
+When viewing a single cluster, this panel displays the cluster performance capacity, total IOPS, and total throughput values.
+
+* *Workload IOPS panel*
++
+When workload active management is enabled, and when viewing a single cluster, this panel displays the total number workloads that are currently running in a certain range of IOPS.
+
+* *Workload Performance panel*
++
+When workload active management is enabled, this panel displays the total number of conforming and non-conforming workloads that are assigned to each defined Performance Service Level. Clicking a bar chart takes you to the workloads assigned to that policy in the Workloads page.
+
+* *Usage Overview panel*
++
+When viewing all clusters, you can choose to view clusters sorted by highest IOPS or throughput (MB/s).
++
+When viewing a single cluster, you can choose to view workloads on that cluster sorted by highest IOPS or throughput (MB/s).

@@ -1,0 +1,27 @@
+---
+permalink: events/reference_power_supplies_events.html
+sidebar: sidebar
+keywords: power, supplies, events, impact area, availability
+summary: "Power supplies events provide you with information about the status of your hardware so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= Power supplies events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Power supplies events provide you with information about the status of your hardware so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+One or More Failed Power Supplies(ocumEvtPowerSupplyOneOrMoreFailed)
+
+a|
+Incident
+a|
+Node
+a|
+Critical
+|===

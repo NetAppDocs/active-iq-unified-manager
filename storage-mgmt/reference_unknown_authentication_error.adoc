@@ -1,0 +1,26 @@
+---
+permalink: storage-mgmt/reference_unknown_authentication_error.html
+sidebar: sidebar
+keywords: unknown, authentication, error
+summary: "Troubleshooting: Unknown authentication error"
+---
+= Unknown authentication error
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you are performing an authentication-related operation such as adding, editing, deleting, or testing remote users or groups, the following error message might be displayed: `Unknown authentication error.`
+
+*Cause*
+
+This problem can occur if you have set an incorrect value for the following options:
+
+ ** Administrator Name of the Active Directory authentication service
+ ** Bind Distinguished Name of the OpenLDAP authentication service
+
+*Corrective action*
+
+ .. In the left navigation pane, click *General* > *Remote Authentication*.
+ .. Based on the authentication service that you have selected, enter the appropriate information for Administrator Name or Bind Distinguished Name.
+ .. Click *Test Authentication* to test the authentication with the details that you specified.
+ .. Click *Save*.

@@ -1,0 +1,60 @@
+---
+permalink: config/reference_regenerate_https_certificate_dialog_box.html
+sidebar: sidebar
+keywords: regenerate, https certificate, dialog, box
+summary: "The Regenerate HTTPS Certificate dialog box enables you to customize the security information and then generate a new HTTPS certificate with that information."
+---
+= Regenerate HTTPS Certificate dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Regenerate HTTPS Certificate dialog box enables you to customize the security information and then generate a new HTTPS certificate with that information.
+
+The current certificate information appears on this page.
+
+The "`Regenerate Using Current Certificate Attributes`" and "`Update the Current Certificate Attributes`" selection enables you to regenerate the certificate with the current information or generate a certificate with new information.
+
+* *Common Name*
++
+Required. The fully qualified domain name (FQDN) that you wish to secure.
++
+In Unified Manager high availability configurations, use the virtual IP address.
+
+* *Email*
++
+Optional. An email address to contact your organization; typically the email address of the certificate administrator or IT department.
+
+* *Company*
++
+Optional. Typically the incorporated name of your company.
+
+* *Department*
++
+Optional. The name of the department in your company.
+
+* *City*
++
+Optional. The city location of your company.
+
+* *State*
++
+Optional. The state or province location, not abbreviated, of your company.
+
+* *Country*
++
+Optional. The country location of your company. This is typically a two-letter ISO code of the country.
+
+* *Alternative Names*
++
+Required. Additional, non-primary domain names that can be used to access this server in addition to the existing localhost or other network addresses. Separate each alternate name with a comma.
++
+Select the "`Exclude local identifying information (e.g. localhost)`" checkbox if you want to remove the local identifying information from the Alternative Names field in the certificate. When this checkbox is selected only what you enter in the field is used in the Alternative Names field. When left blank the resulting certificate will not have an Alternative Names field at all.
+
+* *KEY SIZE (KEY ALGORITHM: RSA)*
++
+The key algorithm is set to RSA. You can select from one of the key sizes: 2048, 3072 or 4096 bits. The default key size is set to 2048 bits.
+
+* *VALIDITY PERIOD*
++
+The default validity period is 397 days. If you have upgraded from a previous version, you might see the previous certificate validity unchanged.

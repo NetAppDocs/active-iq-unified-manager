@@ -1,0 +1,43 @@
+---
+permalink: api-automation/concept_manage_active_directory.html
+sidebar: sidebar
+keywords: manage, active, directory, mapping
+summary: "You can use the APIs listed here to manage Active Directory mappings on the SVM that are required for provisioning CIFS shares on the SVMs. Active Directory mappings need to be configured for mapping the SVMs with ONTAP."
+---
+= Managing Active Directory mapping
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the APIs listed here to manage Active Directory mappings on the SVM that are required for provisioning CIFS shares on the SVMs. Active Directory mappings need to be configured for mapping the SVMs with ONTAP.
+
+== View Active Directory mappings
+
+You can view the configuration details of the Active Directory mappings for an SVM by using the following method. For viewing the Active Directory mappings on an SVM, you need to enter the SVM key. For querying the details of a particular mapping, you must enter the mapping key.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/active-directories-mappings`
+
+`/storage-provider/active-directories-mappings/\{key}`
+
+|===
+
+== Add Active Directory mapping
+
+You can create Active Directory mappings on an SVM by using the following method. You must enter the mapping details as the input parameters.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+POST
+a|
+`/storage-provider/active-directories-mappings`
+|===

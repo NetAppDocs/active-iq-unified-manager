@@ -1,0 +1,34 @@
+---
+permalink: performance-checker/task_view_performance_status_of_all_san_array_clusters.html
+sidebar: sidebar
+keywords: all san, array, performance, clusters
+summary: "You can use the Performance: All Clusters view to display the performance status of your All SAN Array clusters."
+---
+= Viewing the performance for All SAN Array clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Performance: All Clusters view to display the performance status of your All SAN Array clusters.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+You can view overview information for All SAN Array clusters in the Performance: All Clusters view, and details in the Cluster / Performance Explorer page.
+
+.Steps
+. In the left navigation pane, click *Storage* > *Clusters*.
+. Make sure that the "`Personality`" column is displayed in the *Health: All Clusters* view, or add it using the *Show / Hide* control.
++
+This column displays "`All SAN Array`" for your All SAN Array clusters.
+
+. To view information about the performance in those clusters, select the *Performance: All Clusters* view.
++
+View the performance information for the All SAN Array cluster.
+
+. To view detailed information about performance in those clusters, click the name of an All SAN Array cluster.
+. Click the *Explorer* tab.
+. On the *Cluster / Performance Explorer* page, select *Nodes on this Cluster* from the *View and Compare* menu.
++
+You can compare the performance statistics of both nodes on this cluster to make sure the load is almost identical on both nodes. If there are large discrepancies between the two nodes you can add the second node to the charts and compare the values over a longer timeframe to identify any configuration issues.

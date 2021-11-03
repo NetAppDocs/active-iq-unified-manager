@@ -1,0 +1,60 @@
+---
+permalink: performance-checker/task_move_workloads_to_different_aggregate.html
+sidebar: sidebar
+keywords: move, workloads, different, aggregate
+summary: "You can use Unified Manager to help identify an aggregate that is less busy than the aggregate where your workloads currently reside, and then you can move selected volumes or LUNs to that aggregate. Moving high performing workloads to a less busy aggregate, or an aggregate with flash storage enabled, allows the workload to perform more efficiently."
+---
+= Moving workloads to a different aggregate
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to help identify an aggregate that is less busy than the aggregate where your workloads currently reside, and then you can move selected volumes or LUNs to that aggregate. Moving high performing workloads to a less busy aggregate, or an aggregate with flash storage enabled, allows the workload to perform more efficiently.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+* You must have recorded the name of the aggregate that is currently having a performance issue.
+* You must have recorded the date and time at which the aggregate received the event.
+* Unified Manager must have collected and analyzed a month or more of performance data.
+
+These steps help you identify the following resources so that you can move high-performing workloads to a lower utilized aggregate:
+
+* The aggregates on the same cluster that are less utilized
+* The highest-performing volumes on the current aggregate
+
+.Steps
+. Identify the aggregate in the cluster that is the least utilized:
+ .. From the *Event* details page, click the name of the cluster on which the aggregate resides.
++
+The cluster details are displayed in the Performance/Cluster Landing page.
+
+ .. On the *Summary* page, click *Aggregates* from the *Managed Objects* pane.
++
+The list of aggregates on this cluster are displayed.
+
+ .. Click the *Utilization* column to sort the aggregates by least utilized.
++
+You can also identify those aggregates that have the greatest *Free Capacity*. This provides a list of potential aggregates to which you might want to move workloads.
+
+ .. Write down the name of the aggregate to which you want to move the workloads.
+. Identify the high-performing volumes from the aggregate that received the event:
+ .. Click the aggregate that is having the performance issue.
++
+The aggregate details are displayed in the Performance/Aggregate Explorer page.
+
+ .. From the *Time Range* selector, select *Last 30 Days*, and then click *Apply Range*.
++
+This enables you to view a longer performance history period than the default 72 hours. You want to move a volume that is using a lot of resources on a consistent basis, not just over the past 72 hours.
+
+ .. From the *View and Compare* control, select *Volumes on this Aggregate*.
++
+A list of FlexVol volumes and FlexGroup constituent volumes on this aggregate are displayed.
+
+ .. Sort the volumes by highest MB/s, and then by highest IOPS, to see the highest performing volumes.
+ .. Write down the names of the volumes that you want to move to a different aggregate.
+. Move the high-performing volumes to the aggregate you identified as having low utilization.
++
+You can perform the move operation by using ONTAP System Manager, OnCommand Workflow Automation, ONTAP commands, or a combination of these tools.
+
+After a few days, check to see whether you are receiving the same type of events from this node or aggregate.

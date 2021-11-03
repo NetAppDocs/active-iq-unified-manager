@@ -1,0 +1,36 @@
+---
+permalink: events/task_manage_host_system_resource_events.html
+sidebar: sidebar
+keywords: manage, host, system, resource, events
+summary: "Unified Manager includes a service that monitors resource issues on the host system on which Unified Manager is installed. Issues such as lack of available disk space or lack of memory on the host system may trigger management station events that are displayed as banner messages across the top of the UI."
+---
+= Managing host system resource events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager includes a service that monitors resource issues on the host system on which Unified Manager is installed. Issues such as lack of available disk space or lack of memory on the host system may trigger management station events that are displayed as banner messages across the top of the UI.
+
+Management station events indicate an issue with the host system on which Unified Manager is installed. Examples of management station issues include disk space running low on the host system; Unified Manager missing a regular data collection cycle; and noncompletion, or late completion, of statistics analysis because the next collection poll was initiated.
+
+Unlike all other Unified Manager event messages, these particular management station warning and critical events are displayed in banner messages.
+
+.Step
+. To view management station event information, perform these actions:
++
+[options="header"]
+|===
+| If you want to...| Do this...
+a|
+View details of the event
+a|
+Click the event banner to display the Event details page that includes suggested solutions for the issue.
+a|
+View all management station events
+a|
+
+ .. In the left navigation pane, click *Event Management*.
+ .. In the Filters pane on the Event Management inventory page, click the box for Management Station in the Source Type list.
+
++
+|===

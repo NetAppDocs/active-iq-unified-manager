@@ -1,0 +1,28 @@
+---
+permalink: health-checker/task_configure_volume_health_thresholds_for_groups.html
+sidebar: sidebar
+keywords: configure, volume, health, thresholds, groups
+summary: "You can configure group-level volume health thresholds for capacity, Snapshot copies, qtree quotas, growth, and inodes."
+---
+= Configuring volume health thresholds for groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure group-level volume health thresholds for capacity, Snapshot copies, qtree quotas, growth, and inodes.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+The volume health threshold type of group action is applied only on volumes of a group.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. In the *Group Actions* tab, click *Add*.
+. Enter a name and description for the group action.
+. From the *Group* drop-down box, select a group for which you want to configure group action.
+. Select *Action Type* as the volume health threshold.
+. Select the category for which you want to set the threshold.
+. Enter the required values for the health threshold.
+. Click *Add*.

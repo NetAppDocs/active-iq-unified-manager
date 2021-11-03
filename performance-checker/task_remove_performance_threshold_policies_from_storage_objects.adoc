@@ -1,0 +1,48 @@
+---
+permalink: performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html
+sidebar: sidebar
+keywords: remove, performance, threshold, policies, storage, objects
+summary: "You can remove a user-defined performance threshold policy from a storage object when you no longer want Unified Manager to monitor the value of the performance counter."
+---
+= Removing performance threshold policies from storage objects
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can remove a user-defined performance threshold policy from a storage object when you no longer want Unified Manager to monitor the value of the performance counter.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+You can remove only one policy at a time from a selected object.
+
+You can remove a threshold policy from multiple storage objects by selecting more than one object in the list.
+
+.Steps
+. From the *inventory* page of any storage object, select one or more objects that have at least one performance threshold policy applied.
++
+[options="header"]
+|===
+| To clear thresholds from...| Do this...
+a|
+A single object
+a|
+Select the check box at the left of that object.
+a|
+Multiple objects
+a|
+Select the check box at the left of each object.
+a|
+All objects on the page
+a|
+Click image:../media/select_dropdown_65_png.gif[] in the column header.
+|===
+
+. Click *Clear Performance Threshold Policy*.
++
+The Clear Threshold Policy page displays, showing a list of threshold policies that are currently assigned to the storage objects.
+
+. Select the threshold policy you want to remove from the objects and click *Clear Policy*.
++
+When you select a threshold policy, the details of the policy display so that you can confirm that you have selected the appropriate policy.

@@ -1,0 +1,31 @@
+---
+permalink: performance-checker/task_view_svm_iops_traffic_by_protocol.html
+sidebar: sidebar
+keywords: view, svm, iops, traffic, protocol
+summary: "You can view detailed IOPS information for an SVM by using the Performance/SVM Explorer page. The IOPS - Total counter chart shows total IOPS usage on the SVM, and the IOPS - Breakdown counter chart is useful for determining the impact of read, write, and other IOPS on the SVM."
+---
+= Viewing SVM IOPS traffic by protocol
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view detailed IOPS information for an SVM by using the Performance/SVM Explorer page. The IOPS - Total counter chart shows total IOPS usage on the SVM, and the IOPS - Breakdown counter chart is useful for determining the impact of read, write, and other IOPS on the SVM.
+
+Additionally, the IOPS - Protocols chart shows a detailed comparison of the IOPS traffic for each protocol that is being used on the SVM. The following protocols are available:
+
+* CIFS
+* NFS
+* FCP
+* iSCSI
+* NVMe
+
+.Steps
+. In the *Performance/SVM Explorer* page for your selected SVM, from the IOPS chart, select *Protocols* from the drop-down menu.
++
+The IOPS - Protocols chart is displayed.
+
+. To view a larger version of the chart, select *Zoom View*.
++
+The IOPS advanced protocol comparative chart is displayed. You can restrict the comparison by deselecting or selecting the image:../media/eye_icon.gif[] that is associated with a protocol.
+
+. To view the specific values, move your cursor into the chart area of either chart to see the popup window.

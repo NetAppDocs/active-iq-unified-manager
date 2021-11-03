@@ -1,0 +1,45 @@
+---
+permalink: health-checker/task_resolve_storage_failover_interconnect_link_down_condition.html
+sidebar: sidebar
+keywords: scan, resolve, storage, failover, interconnect link, conditions
+summary: "This workflow provides an example of how you might scan for, evaluate, and resolve downed storage failover interconnect link conditions. In this scenario, you are an administrator using Unified Manager to scan for storage failover risks before starting an ONTAP version upgrade on your nodes."
+---
+= Scanning for and resolving storage failover interconnect link down conditions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This workflow provides an example of how you might scan for, evaluate, and resolve downed storage failover interconnect link conditions. In this scenario, you are an administrator using Unified Manager to scan for storage failover risks before starting an ONTAP version upgrade on your nodes.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+If storage failover interconnections between HA pair nodes fail during a nondisruptive upgrade attempt, the upgrade fails. Therefore, common practice is for the administrator to monitor and confirm storage failover reliability on the cluster nodes targeted for upgrade before the start of an upgrade.
+
+.Steps
+. In the left navigation pane, click *Event Management*.
+. In the *Event Management* inventory page, select *Active Availability events*.
+. At the top of the *Event Management* inventory page *Name* column, click image:../media/filtericon_um60.png[Icon for column filter] and enter `*failover` in the text box to limit the event to display to storage failover-related events.
++
+All past events related to storage failover conditions are displayed.
++
+In this scenario, the Unified Manager displays the event, "`Storage Failover Interconnect One or More Links Down`" in its Availability Incidents section.
+
+. If one or more events related to storage failover are displayed on the *Event Management* inventory page, perform the following steps:
+ .. Click the event title link to display event details for that event.
++
+In this example, you click the event title "`Storage Failover Interconnect One or More Links Down`".
++
+The Event details page for that event is displayed.
+
+ .. On the Event details page, you can perform one or more of the following tasks:
+  *** Review the error message in the Cause field and evaluate the issue.
+  *** Assign the event to an administrator.
+  *** Acknowledge the event.
+
+*Related information*
+
+link:../events/reference_event_details_page.html[Event details page]
+
+link:../config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]

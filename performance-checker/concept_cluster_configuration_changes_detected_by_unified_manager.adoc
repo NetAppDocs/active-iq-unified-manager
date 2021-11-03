@@ -1,0 +1,32 @@
+---
+permalink: performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html
+sidebar: sidebar
+keywords: unified manager, configuration, changes, detected
+summary: "Unified Manager monitors your clusters for configuration changes to help you determine whether a change might have caused or contributed to a performance event. The Performance Explorer pages display a change event icon () to indicate the date and time when the change was detected."
+---
+= Configuration changes detected by Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager monitors your clusters for configuration changes to help you determine whether a change might have caused or contributed to a performance event. The Performance Explorer pages display a change event icon (image:../media/opm_change_icon.gif[Change event icon]) to indicate the date and time when the change was detected.
+
+You can review the performance charts in the Performance Explorer pages and in the Workload Analysis page to see whether the change event impacted the performance of the selected cluster object. If the change was detected at or around the same time as a performance event, the change might have contributed to the issue, which caused the event alert to trigger.
+
+Unified Manager can detect the following change events, which are categorized as Informational events:
+
+* A volume moves between aggregates.
++
+Unified Manager can detect when the move is in progress, completed, or failed. If Unified Manager is down during a volume move, when it is back up it detects the volume move and displays a change event for it.
+
+* The throughput (MB/s or IOPS) limit of a QoS policy group that contains one or more monitored workloads changes.
++
+Changing a policy group limit can cause intermittent spikes in the latency (response time), which might also trigger events for the policy group. The latency gradually returns to normal and any events caused by the spikes become obsolete.
+
+* A node in an HA pair takes over or gives back the storage of its partner node.
++
+Unified Manager can detect when the takeover, partial takeover, or giveback operation has been completed. If the takeover is caused by a panicked node, Unified Manager does not detect the event.
+
+* An ONTAP upgrade or revert operation is completed successfully.
++
+The previous version and new version are displayed.

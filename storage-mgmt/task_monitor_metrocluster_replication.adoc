@@ -1,0 +1,38 @@
+---
+permalink: storage-mgmt/task_monitor_metrocluster_replication.html
+sidebar: sidebar
+keywords: monitor, metrocluster, replication
+summary: "You can monitor and diagnose the overall health condition of the logical connections while mirroring the data. You can identify the issues or any risk that interrupts mirroring of cluster components such as aggregates, nodes, and storage virtual machines."
+---
+= Monitoring MetroCluster replication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can monitor and diagnose the overall health condition of the logical connections while mirroring the data. You can identify the issues or any risk that interrupts mirroring of cluster components such as aggregates, nodes, and storage virtual machines.
+
+*What you'll need*
+
+Both the local and remote cluster in the MetroCluster configuration must be added to Unified Manager
+
+You can use the information displayed in the Cluster / Health details page to rectify any replication issues.
+
+If you move the pointer over the icon, you can view detailed information about the generated event.
+
+Unified Manager uses system health alerts to monitor the status of the components and connectivity in the MetroCluster configuration.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Clusters*.
++
+A list of the monitored clusters is displayed.
+
+. From the *Health: All Clusters* view, click the name of the cluster for which you want to view MetroCluster replication details, and then click the *MetroCluster Replication* tab.
++
+The topology of the MetroCluster configuration to be replicated is displayed at the local site in the corresponding cluster object area with the information about the remote site where the data is being mirrored.
+
+If you discover mirroring issues in your MetroCluster configuration, you must log in to System Manager or access the ONTAP CLI to resolve the issues.
+
+*Related information*
+
+link:../health-checker/reference_health_cluster_details_page.html[Cluster / Health details page]

@@ -1,0 +1,50 @@
+---
+permalink: data-protection/reference_reverse_resync_dialog_box.html
+sidebar: sidebar
+keywords: reverse, resync, dialog box
+summary: "When you have a protection relationship that is broken because the source volume is disabled and the destination is made a read/write volume, reverse resynchronization enables you to reverse the direction of the relationship so that the destination becomes the new source and the source becomes the new destination."
+---
+= Reverse Resync dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you have a protection relationship that is broken because the source volume is disabled and the destination is made a read/write volume, reverse resynchronization enables you to reverse the direction of the relationship so that the destination becomes the new source and the source becomes the new destination.
+
+When a disaster disables the source volume in your protection relationship, you can use the destination volume to serve data by converting it to read/write, while you repair or replace the source, update the source, and reestablish the relationship. When you perform a reverse resync operation, data on the source that is newer than the data on the common Snapshot copy is deleted.
+
+== Before reverse resync
+
+Displays the source and destination of a relationship before a reverse resync operation.
+
+* *Source Volume*
++
+The name and location of the source volume before a reverse resync operation.
+
+* *Destination Volume*
++
+The name and location of the destination volume before a reverse resync operation.
+
+== After reverse resync
+
+Displays what the source and destination of a relationship is after a reserve resync operation.
+
+* *Source Volume*
++
+The name and location of the source volume after a reverse resync operation.
+
+* *Destination Volume*
++
+The name and location of the destination volume after a reverse resync operation.
+
+== Command buttons
+
+The command buttons enable you to perform the following actions:
+
+* *Submit*
++
+Begins the reverse resynchronization process.
+
+* *Cancel*
++
+Closes the Reverse Resync dialog box without initiating a reverse resync operation.

@@ -1,0 +1,32 @@
+---
+permalink: data-protection/task_resume_scheduled_transfers_voldtls_page.html
+sidebar: sidebar
+keywords: resume schedule, transfers, quiesce, relationship,  volume, health details page
+summary: "After you have quiesced a relationship to stop scheduled transfers from occurring, you can use Resume on the Volume / Health details page to reenable scheduled transfers so that data on the source or primary volume is protected. Transfers resume from a checkpoint, if one exists, at the next scheduled transfer interval."
+---
+= Resuming scheduled transfers on a quiesced relationship from the Volume / Health details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you have quiesced a relationship to stop scheduled transfers from occurring, you can use *Resume* on the Volume / Health details page to reenable scheduled transfers so that data on the source or primary volume is protected. Transfers resume from a checkpoint, if one exists, at the next scheduled transfer interval.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+
+.Steps
+
+. In the *Protection* tab of the *Volume / Health* details page, right-click in the topology view a quiesced relationship that you want to resume.
++
+Alternatively, select *Resume* from the *Actions* > *Relationship* menu.
+
+. In the *Resume* dialog box, click *Continue*.
++
+You are returned to the Volume / Health details page.
+
+. To view the related job tasks and to track their progress, click the job link that is displayed at the top of the *Volume / Health* details page.
+. In the *Job* details page, click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
++
+After the jobs are complete, data transfers are resumed at the next scheduled transfer interval.

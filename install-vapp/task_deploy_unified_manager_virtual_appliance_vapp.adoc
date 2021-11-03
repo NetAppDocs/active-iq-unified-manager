@@ -1,0 +1,104 @@
+---
+permalink: install-vapp/task_deploy_unified_manager_virtual_appliance_vapp.html
+sidebar: sidebar
+keywords: deploy, unified manager, virtual appliance
+summary: "After downloading the installation file, you deploy Unified Manager as a virtual appliance. Use the vSphere Web Client to deploy the virtual appliance on an ESXi server. When you deploy the virtual appliance, a virtual machine is created."
+---
+= Deploying the Unified Manager virtual appliance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After downloading the installation file, you deploy Unified Manager as a virtual appliance. Use the vSphere Web Client to deploy the virtual appliance on an ESXi server. When you deploy the virtual appliance, a virtual machine is created.
+
+*What you'll need*
+
+You should review the system requirements. make the necessary changes before deploying the Unified Manager virtual appliance.
+
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Virtual infrastructure requirements]
+
+link:reference_vmware_software_and_installation_requirements.html[VMware software and installation requirements]
+
+If you use Dynamic Host Configuration Protocol (DHCP), ensure that the DHCP server is available, and that the DHCP and virtual machine (VM) network adapter configurations are correct. DHCP is configured by default.
+
+If you use a static networking configuration, ensure that the IP address is not duplicated in the same subnet, and that the appropriate DNS server entries have been configured.
+
+Obtain the following information before deploying the virtual appliance:
+
+* Credentials for accessing the VMware vCenter Server and vSphere Web Client
+* IP address of the ESXi server on which you are deploying the Unified Manager virtual appliance
+* Details about the data center, such as availability of storage space
+* If you are not using DHCP, obtain the IPv4 or IPv6 addresses for the networking devices to which you are planning to connect:
+ ** Fully qualified domain name (FQDN) of the host
+ ** IP address of the host
+ ** Network mask
+ ** IP address of the default gateway
+ ** Primary and secondary DNS addresses
+ ** Search domains
+
+Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM Tools (`_open-vm-tools_`). You do not have to install VMware Tools as part of the installation process because `_open-vm-tools_` is included with the Unified Manager installation package.
+
+When the virtual appliance is deployed, a unique self-signed certificate for HTTPS access is generated. When accessing the Unified Manager web UI, you might see a browser warning about untrusted certificates.
+
+VMware High Availability for the Unified Manager virtual appliance is supported.
+
+.Steps
+
+. In the vSphere Client, click *File* > *Deploy OVF Template*.
+. Complete the Deploy OVF Template wizard to deploy the Unified Manager virtual appliance.
++
+On the Networking Configuration page:
+
+ ** Leave all the fields blank when using DHCP and IPv4 addressing.
+ ** Check the "`Enable Auto IPv6 addressing`" box, and leave all the other fields blank when using DHCP and IPv6 addressing.
+ ** If you want to use a static network configuration, you can complete the fields on this page and these settings are applied during deployment. Ensure that the IP address is unique to the host on which it is deployed, that it is not already in use, and that it has a valid DNS entry.
+
+. After the Unified Manager virtual appliance is deployed to the ESXi server, power on the VM by right-clicking the VM, and then selecting *Power On*.
++
+[NOTE]
+====
+If the Power On operation fails because of insufficient resources, add resources and then retry the installation.
+====
+
+. Click the *Console* tab.
++
+The initial boot process takes a few minutes to complete.
+
+. To configure your time zone, enter your geographic area and your city or region as prompted in the VM Console window.
++
+All the date information that is displayed uses the time zone that is configured for Unified Manager, regardless of the time zone setting on your managed devices. If your storage systems and the management server are configured with the same NTP server, they refer to the same instant in time, even if they appear differently. For example, if you create a Snapshot copy using a device that is configured using a different time zone than that of the management server, the time stamp is the management server time.
+
+. If no DHCP services are available, or if there is an error in the details for the static network configuration, select one of the following options:
++
+[cols="2*",options="header"]
+|===
+| If you use...| Then do this...
+a|
+DHCP
+a|
+Select *Retry DHCP*.    If you plan to use DHCP, you should ensure that it is configured correctly.
+
+If you use a DHCP-enabled network, the FQDN and DNS server entries are given to the virtual appliance automatically. If DHCP is not properly configured with DNS, the host name "`UnifiedManager`" is automatically assigned and associated with the security certificate. If you have not set up a DHCP-enabled network, you should manually enter the networking configuration information.
+a|
+A static network configuration
+a|
+
+ .. Select *Enter the details for static network configuration*.
++
+The configuration process takes a few minutes to complete.
+
+ .. Confirm the values that you entered, and select *Y*.
++
+|===
+
+. At the prompt, enter a maintenance user name, and then click *Enter*.
++
+The maintenance user name should start with a letter from a-z, followed by any combination of -, a-z, or 0-9.
+
+. At the prompt, enter a password, and then click *Enter*.
++
+The VM console displays the URL for the Unified Manager web UI.
+
+You can access the web UI to perform the initial setup of Unified Manager, as described in the _Active IQ Unified Manager System Configuration Guide_.
+
+link:../config/concept_configure_unified_manager.html[Active IQ Unified Manager System Configuration Guide]

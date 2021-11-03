@@ -1,0 +1,45 @@
+---
+permalink: events/concept_event_state_definitions.html
+sidebar: sidebar
+keywords: event, state, definitions
+summary: "The state of an event helps you identify whether an appropriate corrective action is required. An event can be New, Acknowledged, Resolved, or Obsolete. Note that both New and Acknowledged events are considered to be active events."
+---
+= Event state definitions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The state of an event helps you identify whether an appropriate corrective action is required. An event can be New, Acknowledged, Resolved, or Obsolete. Note that both New and Acknowledged events are considered to be active events.
+
+The event states are as follows:
+
+* *New*
++
+The state of a new event.
+
+* *Acknowledged*
++
+The state of an event when you have acknowledged it.
+
+* *Resolved*
++
+The state of an event when it is marked as resolved.
+
+* *Obsolete*
++
+The state of an event when it is automatically corrected or when the cause of the event is no longer valid.
++
+[NOTE]
+====
+You cannot acknowledge or resolve an obsolete event.
+====
+
+== Example of different states of an event
+
+The following examples illustrate the manual and automatic event state changes.
+
+When the event Cluster Not Reachable is triggered, the event state is New. When you acknowledge the event, the event state changes to Acknowledged. When you have taken an appropriate corrective action, you must mark the event as resolved. The event state then changes to Resolved.
+
+If the Cluster Not Reachable event is generated due to a power outage, then when the power is restored the cluster starts functioning without any administrator intervention. Therefore, the Cluster Not Reachable event is no longer valid, and the event state changes to Obsolete in the next monitoring cycle.
+
+Unified Manager sends an alert when an event is in the Obsolete or Resolved state. The email subject line and email content of an alert provides information about the event state. An SNMP trap also includes information about the event state.

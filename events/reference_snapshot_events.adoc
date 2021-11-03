@@ -1,0 +1,45 @@
+---
+permalink: events/reference_snapshot_events.html
+sidebar: sidebar
+keywords: snapshot, events, impact area, availability
+summary: "Snapshot events provide information about the status of snapshots which enables you to monitor the snapshots for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity."
+---
+= Snapshot events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Snapshot events provide information about the status of snapshots which enables you to monitor the snapshots for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Snapshot Auto-delete Disabled(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Snapshot Auto-delete Enabled(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Snapshot Auto-delete Configuration Modified(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+|===

@@ -1,0 +1,41 @@
+---
+permalink: performance-checker/task_display_information_about_performance_event.html
+sidebar: sidebar
+keywords: display, information, performance, events
+summary: "You can use the Event Management inventory page to view a list of all the performance events on the clusters being monitored by Unified Manager. By viewing this information you can determine the most critical events and then drill down to detailed information to determine the cause of the event."
+---
+= Displaying information about performance events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Event Management inventory page to view a list of all the performance events on the clusters being monitored by Unified Manager. By viewing this information you can determine the most critical events and then drill down to detailed information to determine the cause of the event.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+
+The list of events is sorted by detected time, with the most recent events listed first. You can click a column header to sort the events based on that column. For example, you can sort by the Status column to view events by severity. If you are looking for a specific event, or for a specific type of event, you can use the filter and search mechanisms to refine the list of events that appear in the list.
+
+Events from all sources are displayed on this page:
+
+* User-defined performance threshold policy
+* System-defined performance threshold policy
+* Dynamic performance threshold
+
+The Event Type column lists the source of the event. You can select an event to view details about the event in the Event details page.
+
+.Steps
+. In the left navigation pane, click *Event Management*.
+. From the View menu, select *Active performance events*.
++
+The page displays all New and Acknowledged Performance events that have been generated in the past 7 days.
+
+. Locate an event that you want to analyze and click the event name.
++
+The details page for the event displays.
++
+[NOTE]
+====
+You can also display the details page for an event by clicking the event name link from the Performance Explorer page and from an alert email.
+====

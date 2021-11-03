@@ -1,0 +1,54 @@
+---
+permalink: data-protection/reference_resynchronize_dialog_box.html
+sidebar: sidebar
+keywords: resynchronize, dialog box
+summary: "The Resynchronize dialog box enables you to resynchronize data on a SnapMirror or SnapVault relationship that was previously broken and then the destination was made a read/write volume. You might also resynchronize when a required common Snapshot copy on the source volume is deleted causing SnapMirror or SnapVault updates to fail."
+---
+= Resynchronize dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Resynchronize dialog box enables you to resynchronize data on a SnapMirror or SnapVault relationship that was previously broken and then the destination was made a read/write volume. You might also resynchronize when a required common Snapshot copy on the source volume is deleted causing SnapMirror or SnapVault updates to fail.
+
+== Resynchronization Options tab
+
+The Resynchronization Options tab enables you to set the transfer priority and the maximum transfer rate for the protection relationship that you are resynchronizing.
+
+* *Transfer Priority*
++
+The priority at which the transfer is run. You can select either Normal or Low. Relationships with policies that specify a normal transfer priority run before those with policies that specify a low transfer priority.
+
+* *Max Transfer Rate*
++
+Specifies the maximum rate at which data is transferred between clusters over the network. When selected, network bandwidth is limited to the value that you specify. You can enter a numerical value and then select either kilobytes per second (KBps), megabytes per second (MBps), gigabytes per second (GBps), or TBps. If you choose not to use a maximum transfer rate, the baseline transfer between relationships is unlimited.
+
+== Source Snapshot Copies tab
+
+The Source Snapshot Copies tab displays the following information about the source Snapshot copy that is used for the baseline transfer:
+
+* *Source Volume*
++
+Displays the names of the corresponding source volumes.
+
+* *Destination Volume*
++
+Displays the names of the selected destination volumes.
+
+* *Source Type*
++
+Displays the volume type: either Read/write or Data Protection.
+
+* *Snapshot Copy*
++
+Displays the Snapshot copy that is used for the data transfer. Clicking the Snapshot copy value displays the Select Source Snapshot Copy dialog box, in which can select a specific Snapshot copy for your transfer, depending on the type of protection relationship you have and the operation you are performing.
+
+== Command buttons
+
+* *Submit*
++
+Begins the resynchronization process and closes the Resynchronize dialog box.
+
+* *Cancel*
++
+Cancels your selections and closes the Resynchronize dialog box.

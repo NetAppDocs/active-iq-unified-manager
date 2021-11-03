@@ -1,0 +1,41 @@
+---
+permalink: api-automation/concept_view_workloads.html
+sidebar: sidebar
+keywords: view, storage, workloads
+summary: "The APIs listed here enable you to view a consolidated list of storage workloads for all of the ONTAP clusters in your data center. The APIs also provide a summary view of the number of the storage workloads provisioned in your Active IQ Unified Manager environment, and their capacity and performance (IOPS) statistics."
+---
+= Viewing storage workloads
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The APIs listed here enable you to view a consolidated list of storage workloads for all of the ONTAP clusters in your data center. The APIs also provide a summary view of the number of the storage workloads provisioned in your Active IQ Unified Manager environment, and their capacity and performance (IOPS) statistics.
+
+== View storage workloads
+
+You can use the following method to view all the storage workloads in all the clusters in your data center. For information about filtering the response based on specific columns, see the API reference documentation available in your Unified Manager instance.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/workloads`
+
+|===
+
+== View storage workloads summary
+
+You can use the following method to assess the used capacity, available capacity, used IOPS, available IOPS, and number of storage workloads managed by each Performance Service Level. The storage workloads displayed can be for any LUN, NFS file share, or CIFS share. The API provides a storage workloads overview, an overview of the storage workloads provisioned by the Unified Manager, a data center overview, an overview of the total, used, and available space and IOPS in the data center, in terms of the assigned Performance Service Levels. The information received in response to this API is used to populate the dashboard in the Unified Manager UI.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/workloads-summary`
+|===

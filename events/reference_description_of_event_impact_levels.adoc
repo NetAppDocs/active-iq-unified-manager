@@ -1,0 +1,28 @@
+---
+permalink: events/reference_description_of_event_impact_levels.html
+sidebar: sidebar
+keywords: description, event, impact, levels
+summary: "Each event is associated with an impact level (Incident, Risk, Event, or Upgrade) to help you prioritize the events that require immediate corrective action."
+---
+= Description of event impact levels
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Each event is associated with an impact level (Incident, Risk, Event, or Upgrade) to help you prioritize the events that require immediate corrective action.
+
+* *Incident*
++
+An incident is a set of events that can cause a cluster to stop serving data to the client and run out of space for storing data. Events with an impact level of Incident are the most severe. Immediate corrective action should be taken to avoid service disruption.
+
+* *Risk*
++
+A risk is a set of events that can potentially cause a cluster to stop serving data to the client and run out of space for storing data. Events with an impact level of Risk can cause service disruption. Corrective action might be required.
+
+* *Event*
++
+An event is a state or status change of storage objects and their attributes. Events with an impact level of Event are informational and do not require corrective action.
+
+* *Upgrade*
++
+Upgrade events are a specific type of event reported from the Active IQ platform. These events identify issues where the resolution requires you to upgrade ONTAP software, node firmware, or operating system software (for security advisories). You may want to perform immediate corrective action for some of these issues, whereas other issues may be able to wait until your next scheduled maintenance.

@@ -1,0 +1,40 @@
+---
+permalink: config/task_change_ports_um_uses_for_http_and_https_protocols.html
+sidebar: sidebar
+keywords: change, ports, unified manager, uses, http, https, protocols
+summary: "The default ports that Unified Manager uses for HTTP and HTTPS protocols can be changed after installation if required for security. The default ports are 80 for HTTP and 443 for HTTPS."
+---
+= Changing the ports Unified Manager uses for HTTP and HTTPS protocols
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The default ports that Unified Manager uses for HTTP and HTTPS protocols can be changed after installation if required for security. The default ports are 80 for HTTP and 443 for HTTPS.
+
+*What you'll need*
+
+You must have a user ID and password authorized to log in to the maintenance console of the Unified Manager server.
+
+[NOTE]
+====
+There are some ports that are considered unsafe when using the Mozilla Firefox or Google Chrome browsers. Check with your browser before assigning a new port number for HTTP and HTTPS traffic. Selecting an unsafe port could make the system inaccessible, which would require that you contact customer support for a resolution.
+====
+
+The instance of Unified Manager is restarted automatically after you change the port, so make sure this is a good time to take the system down for a short amount of time.
+
+. Log in using SSH as the maintenance user to the Unified Manager host.
++
+The Unified Managermaintenance console prompts are displayed.
+
+. Type the number of the menu option labeled *View/Change Application Ports*, and then press Enter.
+. If prompted, enter the maintenance user password again.
+. Type the new port numbers for the HTTP and HTTPS ports, and then press Enter.
++
+Leaving a port number blank assigns the default port for the protocol.
++
+You are prompted whether you want to change the ports and restart Unified Manager now.
+
+. Type *y* to change the ports and restart Unified Manager.
+. Exit out of the maintenance console.
+
+After this change, users must include the new port number in the URL to access the Unified Manager web UI, for example +https://host.company.com:1234+, +https://12.13.14.15:1122+, or +https://[2001:db8:0:1]:2123+.

@@ -1,0 +1,56 @@
+---
+permalink: events/reference_dynamic_performance_event_chart_details.html
+sidebar: sidebar
+keywords: dynamic, performance, event, chart, details
+summary: "For dynamic performance events, the System Diagnosis section of the Event details page lists the top workloads with the highest latency or usage of the cluster component that is in contention. The performance statistics are based on the time the performance event was detected up to the last time the event was analyzed. The charts also display historical performance statistics for the cluster component that is in contention."
+---
+= Dynamic performance event chart details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For dynamic performance events, the System Diagnosis section of the Event details page lists the top workloads with the highest latency or usage of the cluster component that is in contention. The performance statistics are based on the time the performance event was detected up to the last time the event was analyzed. The charts also display historical performance statistics for the cluster component that is in contention.
+
+For example, you can identify workloads with high utilization of a component to determine which workload to move to a less-utilized component. Moving the workload would reduce the amount of work on the current component, possibly bringing the component out of contention. At the of this section is the time and date range when an event was detected and last analyzed. For active events (new or acknowledged), the last analyzed time continues to update.
+
+The latency and activity charts display the names of the top workloads when you hover your cursor over the chart. Clicking the Workload Type menu at the right of the chart enables you to sort the workloads based on their role in the event, including _sharks_, _bullies_, or _victims_, and displays details about their latency and their usage on the cluster component in contention. You can compare the actual value to the expected value to see when the workload was outside its expected range of latency or usage. See _Workloads monitored by Unified Manager_.
+
+[NOTE]
+====
+When you sort by peak deviation in latency, system-defined workloads are not displayed in the table, because latency applies only to user-defined workloads. Workloads with very low latency values are not displayed in the table.
+====
+
+For more information about the dynamic performance thresholds, see _What events are_. For information about how Unified Manager ranks the workloads and determines the sort order, see _How Unified Manager determines the performance impact for an event_.
+
+The data in the graphs shows 24 hours of performance statistics prior to the last time the event was analyzed. The actual values and expected values for each workload are based on the time the workload was involved in the event. For example, a workload might become involved in an event after the event was detected, so its performance statistics might not match the values at the time of event detection. By default, the workloads are sorted by peak (highest) deviation in latency.
+
+[NOTE]
+====
+Because Unified Manager retains a maximum of 30 days of 5-minute historical performance and event data, if the event is more than 30 days old, no performance data is displayed.
+====
+
+* *Workload Sort column*
+ ** *Latency chart*
++
+Displays the impact of the event to the latency of the workload during the last analysis.
+
+ ** *Component Usage column*
++
+Displays details about the workload usage of the cluster component in contention. In the graphs, the actual usage is a blue line. A red bar highlights the event duration, from the detection time to the last analyzed time. For more information, see _Workload performance measurements_.
++
+[NOTE]
+====
+For the network component, because network performance statistics come from activity off the cluster, this column is not displayed.
+====
+
+ ** *Component Usage*
++
+Displays the history of utilization, in percent, for the network processing, data processing, and aggregate components or the history of activity, in percent, for the QoS policy group component. The chart is not displayed for the network or interconnect components. You can point to the statistics to view the usage statistics at a specific point in time.
+
+ ** *Total Write MB/s History*
++
+For the MetroCluster Resources component only, shows the total write throughput, in megabytes per second (MBps), for all volume workloads that are being mirrored to the partner cluster in a MetroCluster configuration.
+
+ ** *Event History*
++
+Displays red-shaded lines to indicate the historic events for the component in contention. For obsolete events, the chart displays events that occurred before the selected event was detected and after it was resolved.

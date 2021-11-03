@@ -1,0 +1,41 @@
+---
+permalink: health-checker/task_delete_snapshot_copies.html
+sidebar: sidebar
+keywords: delete, snapshot copies
+summary: "You can delete a Snapshot copy to conserve space or to free disk space, or you can delete the Snapshot copy if it is no longer required."
+---
+= Deleting Snapshot copies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete a Snapshot copy to conserve space or to free disk space, or you can delete the Snapshot copy if it is no longer required.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+The volume must be online.
+
+To delete a Snapshot copy that is busy or locked, you must have released the Snapshot copy from the application that was using it.
+
+* You cannot delete the base Snapshot copy in a parent volume if a FlexClone volume is using that Snapshot copy.
++
+The base Snapshot copy is the Snapshot copy that is used to create the FlexClone volume and displays the status `Busy` and Application Dependency as `Busy, Vclone` in the parent volume.
+
+* You cannot delete a locked Snapshot copy that is used in a SnapMirror relationship.
++
+The Snapshot copy is locked and is required for the next update.
+
+.Steps
+. In the left navigation pane, click *Storage* > *Volumes*.
+. In the *Health: All Volumes* view, select the volume that contains the Snapshot copies you want to view.
++
+The list of Snapshot copies is displayed.
+
+. In the *Volume / Health* details page, click the *Capacity* tab.
+. In *Details* pane of the *Capacity* tab, in the Other Details section, click the link next to *Snapshot Copies*.
++
+The number of Snapshot copies is a link that displays the list of Snapshot copies.
+
+. In the *Snapshot Copies* view, select the Snapshot copies you want to delete, and then click *Delete Selected*.

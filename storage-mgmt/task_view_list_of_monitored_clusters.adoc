@@ -1,0 +1,26 @@
+---
+permalink: storage-mgmt/task_view_list_of_monitored_clusters.html
+sidebar: sidebar
+keywords: view, list, monitored, clusters
+summary: "You can use the Cluster Setup page to view your inventory of clusters. You can view details about the clusters, such as their name or IP address and communication status."
+---
+= Viewing the list of monitored clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Cluster Setup page to view your inventory of clusters. You can view details about the clusters, such as their name or IP address and communication status.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+The list of clusters is sorted by the collection state severity level column. You can click a column header to sort the clusters by different columns.
+
+.Step
+
+. In the left navigation pane, click *Storage Management* > *Cluster Setup*.
+
+*Related information*
+
+link:[Configuration/Cluster Data Sources page]

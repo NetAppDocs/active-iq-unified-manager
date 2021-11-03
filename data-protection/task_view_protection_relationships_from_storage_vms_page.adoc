@@ -1,0 +1,25 @@
+---
+permalink: data-protection/task_view_protection_relationships_from_storage_vms_page.html
+sidebar: sidebar
+keywords: storage vm, viewing protection relationships
+summary: "Using the Storage VMs page, you can view the status of existing storage VMs’ disaster recovery relationships."
+---
+= Viewing protection relationships from Storage VMs page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Using the Storage VMs page, you can view the status of existing storage VMs`' disaster recovery relationships.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+You can also examine details of the protection relationships, including transfer and lag status, source, and destination detail. You can schedule reports or download existing reports in the format that you require. The *Show/Hide* button enables you to add the required columns to the reports as they are not displayed by default.
+
+.Steps
+
+. In the left navigation pane, click *STORAGE* > *Storage VMs*.
+. From the *VIEW* menu, select *Relationship* > *All Relationships*.
++
+The Relationship: All Relationships view is displayed with all the configured storage VMs.

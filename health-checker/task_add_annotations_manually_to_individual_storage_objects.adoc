@@ -1,0 +1,49 @@
+---
+permalink: health-checker/task_add_annotations_manually_to_individual_storage_objects.html
+sidebar: sidebar
+keywords: add, annotations, manually, individual, storage objects
+summary: "You can manually annotate selected volumes, clusters, and SVMs without using annotation rules. You can annotate a single storage object or multiple storage objects, and specify the required name-value pair combination for the annotation."
+---
+= Adding annotations manually to individual storage objects
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can manually annotate selected volumes, clusters, and SVMs without using annotation rules. You can annotate a single storage object or multiple storage objects, and specify the required name-value pair combination for the annotation.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+.Steps
+. Navigate to the storage objects you want to annotate:
++
+[cols="2*",options="header"]
+|===
+| To add annotation to...| Do this...
+a|
+Clusters
+a|
+
+ .. Click *Storage* > *Clusters*.
+ .. Select one or more clusters.
+
+a|
+Volumes
+a|
+
+ .. Click *Storage* > *Volumes*.
+ .. Select one or more volumes.
+
+a|
+SVMs
+a|
+
+ .. Click *Storage* > *SVMs*.
+ .. Select one or more SVMs.
+
++
+|===
+
+. Click *Annotate* and select a name-value pair.
+. Click *Apply*.

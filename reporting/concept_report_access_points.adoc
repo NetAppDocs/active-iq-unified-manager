@@ -1,0 +1,22 @@
+---
+permalink: reporting/concept_report_access_points.html
+sidebar: sidebar
+keywords: access, points, generating, reports
+summary: "You can gather information in Unified Manager about your clusters to create reports from the UI, MySQL database queries, and REST APIs."
+---
+= Access points for generating reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can gather information in Unified Manager about your clusters to create reports from the UI, MySQL database queries, and REST APIs.
+
+This guide covers Unified Manager reporting and scheduling through the UI.
+
+There are three ways you can access the reporting capabilities provided by Unified Manager:
+
+* Extracting data directly from the inventory pages in the UI.
+* Using Open Database Connectivity (ODBC) and ODBC tools to access all the available objects.
+* Executing Unified Manager REST APIs to return the information that you want to review.
+
+This guide covers Unified Manager reporting and scheduling through the UI.

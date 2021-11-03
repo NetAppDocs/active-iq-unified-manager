@@ -1,0 +1,49 @@
+---
+permalink: config/reference_additional_menu_options.html
+sidebar: sidebar
+keywords: additional menu, options
+summary: "The following menu options enable you to perform various administrative tasks on the Unified Manager server."
+---
+= Additional menu options
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following menu options enable you to perform various administrative tasks on the Unified Manager server.
+
+The following menu choices are available:
+
+* *Reset Server Certificate*
++
+Regenerates the HTTPS server certificate.
++
+You can regenerate the server certificate in the Unified Manager GUI by clicking *General* > *HTTPS Certificates* > *Regenerate HTTPS Certificate*.
+
+* *Disable SAML authentication*
++
+Disables SAML authentication so that the identity provider (IdP) no longer provides sign-on authentication for users accessing the Unified Manager GUI. This console option is typically used when an issue with the IdP server or SAML configuration blocks users from accessing the Unified Manager GUI.
+
+* *External Data Provider*
++
+Provides options for connecting Unified Manager to an external data provider. After you establish the connection, performance data is sent to an external server so that storage performance experts can chart the performance metrics using third-party software. The following options are displayed:
+
+ ** *Display Server Configuration*--Displays the current connection and configuration settings for an external data provider.
+ ** *Add / Modify Server Connection*--Enables you to enter new connection settings for an external data provider, or change existing settings.
+ ** *Modify Server Configuration*--Enables you to enter new configuration settings for an external data provider, or change existing settings.
+ ** *Delete Server Connection*--Deletes the connection to an external data provider.
++
+After the connection is deleted, Unified Manager loses its connection to the external server.
+
+* *Performance Polling Interval Configuration*
++
+Provides an option for configuring how frequently Unified Manager collects performance statistical data from clusters. The default collection interval is 5 minutes.
++
+You can change this interval to 10 or 15 minutes if you find that collections from large clusters are not completing on time.
+
+* *View/Change Application Ports*
++
+Provides an option to change the default ports that Unified Manager uses for HTTP and HTTPS protocols, if required for security. The default ports are 80 for HTTP and 443 for HTTPS.
+
+* *Exit*
++
+Exits the maintenance console menu.

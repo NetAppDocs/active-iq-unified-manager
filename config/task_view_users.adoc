@@ -1,0 +1,20 @@
+---
+permalink: config/task_view_users.html
+sidebar: sidebar
+keywords: view, users
+summary: "You can use the Users page to view the list of users who manage storage objects and data using Unified Manager. You can view details about the users, such as the user name, type of user, email address, and the role that is assigned to the users."
+---
+= Viewing users
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Users page to view the list of users who manage storage objects and data using Unified Manager. You can view details about the users, such as the user name, type of user, email address, and the role that is assigned to the users.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+.Step
+
+. In the left navigation pane, click *General* > *Users*.

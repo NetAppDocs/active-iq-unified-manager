@@ -1,0 +1,33 @@
+---
+permalink: health-checker/reference_configure_ontap_cluster.html
+sidebar: sidebar
+keywords: netapp, snapshot, backup, windows, configure, ontap, cluster
+summary: "Before configuring Active IQ Unified Manager for Snapshot backup and restore for Windows, you should perform few pre-configurations for ONTAP and Windows host machine."
+---
+= Configuring ONTAP cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before configuring Active IQ Unified Manager for Snapshot backup and restore for Windows, you should perform few pre-configurations for ONTAP and Windows host machine.
+
+You can configure ONTAP cluster using either the command prompt or System Manager user interface. The configuration of ONTAP cluster involves configuring Data LIFs to be available to be assigned as iSCSI LIFs to the storage VM. The next step is to configure an iSCSI enabled storage VM using the System Manager user interface. You will need to configure a static network route for this storage VM to control how LIFs use the network for outbound traffic.
+
+[NOTE]
+====
+You should have a dedicated volume and a LUN for backup configuration. The selected volume should include only one LUN. The size of the LUN should be at least twice the data size expected to be handled by Active IQ Unified Manager.
+====
+
+You need to perform the following configuration:
+
+.Steps
+. Configure a iSCSI enabled storage VM or use an existing storage VM that has the same configuration.
+. Configure a network route for the configured storage VM.
+. Configure a volume of appropriate capacity and a single LUN inside ensuring that the volume is dedicated only for this LUN.
+[NOTE]
+In a scenario when the LUN is created on System Manager, unmapping the LUN might delete the igroup, and restore might fail. To avoid this scenario, ensure that while creating a LUN, it is created explicitly and is not deleted when the LUN is unmapped.
+
+. Configure an initiator group in the storage VM.
+. Configure a port set.
+. Integrate the igroup with the portset.
+. Map the LUN to the igroup.

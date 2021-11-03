@@ -1,0 +1,81 @@
+---
+permalink: health-checker/reference_setup_autosupport_page.html
+sidebar: sidebar
+keywords: autosupport, messages, support bundles, technical support
+summary: "The AutoSupport page enables you to send predefined and on-demand AutoSupport messages to your technical support team to ensure a correct operation of your environment, and to assist you in maintaining the integrity of your environment. AutoSupport is enabled by default and it should not be disabled, for you to receive the benefits of NetAppActive IQ."
+---
+= Sending AutoSupport messages and support bundles to technical support
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The AutoSupport page enables you to send predefined and on-demand AutoSupport messages to your technical support team to ensure a correct operation of your environment, and to assist you in maintaining the integrity of your environment. AutoSupport is enabled by default and it should not be disabled, for you to receive the benefits of NetAppActive IQ.
+
+You can send diagnostic system information and detailed data about the Unified Manager server in a message as and when required, schedule a message to be sent periodically, or even generate and send support bundles to the technical support team.
+
+[NOTE]
+====
+A user with a storage administrator role can generate and send on-demand AutoSupport messages and support bundles to technical support. However, only an administrator or maintenance user can enable or disable periodic AutoSupport and configure the HTTP settings as described in the Setting up HTTP proxy server section. In an environment that needs to use an HTTP proxy server, the configuration should be complete before a storage administrator can send on-demand AutoSupport messages and support bundles to technical support.
+====
+
+== Sending on-demand AutoSupport messages
+
+You can generate and send an on-demand message to technical support, or to a specified email recipient, or to both.
+
+.Steps
+. Navigate to *General* > *AutoSupport*, and perform one or both of the following actions:
+. If you want to send the AutoSupport message to technical support, select the *Send to Technical Support* check box.
+. If you want to send the AutoSupport message to a specific email recipient, select the *Send to Email Recipient* check box, and enter the email address of the recipient.
+. Click *Save*.
+. Click *Generate and Send AutoSupport*.
+
+== Enabling periodic AutoSupport
+
+You can send specific, predefined messages to technical support for issue diagnosis and resolution periodically. This functionality is enabled by default. If disabled, an administrator or maintenance user can enable the settings.
+
+.Steps
+. Navigate to *General* > *AutoSupport*.
+. In the Periodic AutoSupport section, select the *Enable Sending AutoSupport Data Periodically to Active IQ* check box.
+. If required, define the name, port, and authentication information for the HTTP proxy server as described in Setting up HTTP proxy server section.
+. Click *Save*.
+
+== Uploading on-demand support bundle
+
+You can generate and send a support bundle to technical support based on the requirement for troubleshooting. Unified Manager stores only the two most recently generated support bundles. Older support bundles are deleted from the system.
+
+Because some types of support data can use a large amount of cluster resources or take a long time to complete, when you select the full support bundle, you can include or exclude specific data types to reduce the support bundle size. You also have the option to create a lightweight support bundle that contains just 30 days of logs and configuration database records -- it excludes performance data, acquisition recording files, and server heap dump.
+
+.Steps
+. Navigate to *General* > *AutoSupport*.
+. In the On-Demand Support Bundle section, click *Generate and Send Support Bundle*.
+. To send a light support bundle to technical support, in the Generate and Send Support Bundle pop-up, select the**Generate light support bundle** check box.
+. Alternately, to send a full support bundle, select the *Generate full support bundle* check box. Select the specific data types to include or exclude in the support bundle.
++
+[NOTE]
+====
+Even if you do not select any data type, the support bundle is still generated with other Unified Manager data.
+====
+
+. Select the *Send the bundle to technical support* check box to generate and send the bundle to technical support. If you do not select this check box, the bundle is generated and stored locally in the Unified Manager server. The generated support bundle is available for later use in the /support directory on VMware systems, in `/opt/netapp/data/support/` on Linux systems, and in `ProgramData\NetApp\OnCommandAppData\ocum\support` on Windows systems.
+. Click *Send*.
+
+== Setting up HTTP proxy server
+
+You can designate a proxy to provide Internet access in order to send AutoSupport content to support if your environment does not provide direct access from the Unified Manager server. This section is available for only administrator and maintenance users.
+
+* *Use HTTP proxy*
++
+Check this box to identify the server being used as the HTTP proxy.
++
+Enter the host name or IP address of the proxy server, and the port number used to connect to the server.
+
+* *Use authentication*
++
+Check this box if you need to provide authentication information to access the server being used as the HTTP proxy.
++
+Enter the user name and the password required to authenticate with the HTTP proxy.
+
+[NOTE]
+====
+HTTP proxies that provide only Basic Authentication are not supported.
+====

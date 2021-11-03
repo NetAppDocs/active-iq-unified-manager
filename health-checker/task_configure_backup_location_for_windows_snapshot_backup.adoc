@@ -1,0 +1,37 @@
+---
+permalink: health-checker/task_configure_backup_location_for_windows_snapshot_backup.html
+sidebar: sidebar
+keywords: configure, backup, location, windows
+summary: "You should configure the volume for Snapshot backups to be stored even when you have Active IQ Unified Manager installed on Windows."
+---
+= Configuring backup location for Windows
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You should configure the volume for Snapshot backups to be stored even when you have Active IQ Unified Manager installed on Windows.
+
+*What you'll need*
+
+The cluster, storage VM, and volume must meet the following requirements:
+
+* Cluster requirements:
+ ** ONTAP 9.3 or greater must be installed
+ ** It should be geographically close to the Unified Manager server
+ ** It is monitored by Unified Manager
+* Storage VM requirements:
+ ** iSCSI connectivity on ONTAP cluster
+ ** iSCSI protocol must be enabled for the configured machine
+ ** You should have a dedicated volume and LUN for backup configuration. The selected volume should contain only one LUN and nothing else.
+ ** The size of the LUN should be at least twice the data size expected to be handled in the 9.9 Active IQ Unified Manager.
++
+This sets the same size requirement on volume as well.
+
+ ** Make sure All Read/Write access is selected
+ ** Make sure that Superuser Access is set to "`any`" in the export policy
+* Volume and LUN requirements:
+ ** The volume should be at least double the size of the Unified Manager MySQL data directory.
+ ** The security style must be set to Windows
+ ** The local snapshot policy must be disabled
+ ** Volume autosize should be enabled
+ ** The performance service level should be set to a policy with high IOPS and low latency, such as "`Extreme`"

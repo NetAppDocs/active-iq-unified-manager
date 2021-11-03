@@ -1,0 +1,41 @@
+---
+permalink: config/task_create_database_user.html
+sidebar: sidebar
+keywords: create, database, user
+summary: "To support a connection between Workflow Automation and Unified Manager, or to access database views, you must first create a database user with the Integration Schema or Report Schema role in the Unified Manager web UI."
+---
+= Creating a database user
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To support a connection between Workflow Automation and Unified Manager, or to access database views, you must first create a database user with the Integration Schema or Report Schema role in the Unified Manager web UI.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+Database users provide integration with Workflow Automation and access to report-specific database views. Database users do not have access to the Unified Manager web UI or the maintenance console, and cannot execute API calls.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Users*.
+. In the Users page, click *Add*.
+. In the Add User dialog box, select *Database User* in the *Type* drop-down list.
+. Type a name and password for the database user.
+. In the *Role* drop-down list, select the appropriate role.
++
+[cols="2*",options="header"]
+|===
+| If you are...| Choose this role
+a|
+Connecting Unified Manager with Workflow Automation
+a|
+Integration Schema
+a|
+Accessing reporting and other database views
+a|
+Report Schema
+|===
+
+. Click *Add*.

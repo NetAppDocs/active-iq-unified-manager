@@ -1,0 +1,32 @@
+---
+permalink: performance-checker/concept_search_for_storage_objects.html
+sidebar: sidebar
+keywords: search, storage, objects
+summary: "To quickly access a specific object, you can use the Search all Storage Objects field at the top of the menu bar. This method of global search across all objects enables you to quickly locate specific objects by type. Search results are sorted by storage object type and you can filter them using the drop-down menu. A valid search must contain at least three characters."
+---
+= Searching for storage objects
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To quickly access a specific object, you can use the *Search all Storage Objects* field at the top of the menu bar. This method of global search across all objects enables you to quickly locate specific objects by type. Search results are sorted by storage object type and you can filter them using the drop-down menu. A valid search must contain at least three characters.
+
+The global search displays the total number of results, but only the top 25 search results are accessible. Because of this, the global search functionality can be thought of as a shortcut tool for finding specific items if you know the items you want to quickly locate. For complete search results, you can use the search in the object inventory pages and its associated filtering functionality.
+
+You can click the drop-down box and select *All* to simultaneously search across all objects and events. Alternatively, you can click the drop-down box to specify the object type. Type a minimum of three characters of the object or event name into the *Search all Storage Objects* field, and then press *Enter* to display the search results, such as:
+
+* Clusters: cluster names
+* Nodes: node names
+* Aggregates: aggregate names
+* SVMs: SVM names
+* Volumes: volume names
+* LUNs: LUN paths
+
+image::../media/opm_search_field_jpg.gif[Search field in Unified Manager]
+
+[NOTE]
+====
+LIFs and ports are not searchable in the global search bar.
+====
+
+In this example, the drop-down box has the Volume object type selected. Typing "`vol`" into the *Search all Storage Objects* field displays a list of all volumes whose names contain these characters. For object searches, you can click any search result to navigate to that object's Performance Explorer page. For event searches, clicking an item in the search result navigates to the Event Details page.

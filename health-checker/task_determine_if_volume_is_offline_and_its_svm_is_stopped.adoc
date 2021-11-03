@@ -1,0 +1,43 @@
+---
+permalink: health-checker/task_determine_if_volume_is_offline_and_its_svm_is_stopped.html
+sidebar: sidebar
+keywords: determine, volume, offline, svm, node
+summary: "You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host storage virtual machine (SVM) is stopped due to the node hosting the root volume of that SVM being down."
+---
+= Determining if a volume is offline and its SVM is stopped because a node is down
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host storage virtual machine (SVM) is stopped due to the node hosting the root volume of that SVM being down.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+To determine if the volume offline condition is caused its host SVM being stopped because the node hosting the root volume of that SVM is down, perform the following actions:
+
+.Steps
+. Locate and click the hypertext link displayed under the SVM in the *Related Devices* pane of the offline volume's *Volume / Health* details page.
++
+The Storage VM / Health details page displays the "`running`" or the "`stopped`" status of the hosting SVM. If the SVM status is running, then the volume offline condition is not caused by the node hosting the root volume of that SVM being down.
+
+. If the SVM status is stopped, then click *View SVMs* to further identify the cause of the hosting SVM being stopped.
+. On the *Health: All Storage VMs* view SVM column header, click the filter symbol image:../media/filtericon_um60.png[Icon for column filter] and then type the name of the stopped SVM.
++
+The information for that SVM is shown in a table.
+
+. On the *Health: All Storage VMs* view, click image:../media/gridviewicon.gif[Icon for grid view] and then select the option *Root Volume*.
++
+The Root Volume column is added to the SVM inventory and displays the name of the root volume of the stopped SVM.
+
+. In the Root Volume column, click the name of the root volume to display the *Storage VM / Health* details page for that volume.
++
+If the status of the SVM root volume is (Online), then the original volume offline condition is not caused because the node hosting the root volume of that SVM is down.
+
+. If the status of the SVM root volume is (Offline), then locate and click the hypertext link displayed under Aggregate in the Related Devices pane of the SVM root volume's Volume / Health details page.
+. Locate and click the hypertext link displayed under Node in the *Related Devices* pane of the Aggregate's *Aggregate / Health* details page.
++
+The Nodes tab on the Cluster / Health details page displays the state of the HA pair of nodes to which the SVM root volume's hosting node belongs. The state of the node is indicated in the display.
+
+After you confirm that the volume offline condition is caused by that volume's host SVM offline condition, which itself is caused by the node that hosts the root volume of that SVM being down, contact the appropriate administrator or operator to manually restart the down node.

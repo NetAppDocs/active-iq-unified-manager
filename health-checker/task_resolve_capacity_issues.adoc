@@ -1,0 +1,36 @@
+---
+permalink: health-checker/task_resolve_capacity_issues.html
+sidebar: sidebar
+keywords: resolve, capacity issues
+summary: "This workflow provides an example of how you can resolve a capacity issue. In this scenario, you are an administrator or operator and you access the Unified Manager Dashboard page to see if any of the monitored storage objects have capacity issues. You want to determine the possible cause of and resolution to the problem."
+---
+= Resolving capacity issues
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This workflow provides an example of how you can resolve a capacity issue. In this scenario, you are an administrator or operator and you access the Unified ManagerDashboard page to see if any of the monitored storage objects have capacity issues. You want to determine the possible cause of and resolution to the problem.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+On the Dashboard page, you look for a "`Volume Space Full`" error event in the Capacity panel under the events drop-down list.
+
+.Steps
+. In the *Capacity* panel of the *Dashboard* page, click the name of the Volume Space Full error event.
++
+The Event details page for the error is displayed.
+
+. From the *Event* details page, you can perform one or more of the following tasks:
+ ** Review the error message in the Cause field and click the suggestions under Suggested Remedial Actions to review descriptions of possible remediations.
+ ** Click the object name, in this case a volume, in the Source field to get details about the object.
+ ** Look for notes that might have been added about this event.
+ ** Add a note to the event.
+ ** Assign the event to another user.
+ ** Acknowledge the event.
+ ** Mark the event as resolved.
+
+*Related information*
+
+link:../events/reference_event_details_page.html[Event details page]

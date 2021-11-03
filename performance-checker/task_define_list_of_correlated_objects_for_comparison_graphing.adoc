@@ -1,0 +1,57 @@
+---
+permalink: performance-checker/task_define_list_of_correlated_objects_for_comparison_graphing.html
+sidebar: sidebar
+keywords: defining, list, correlated, objects, comparison, graphing
+summary: "You can define a list of correlated objects for data and performance comparison in the Counter Chart pane. For example, if your storage virtual machine (SVM) is experiencing a performance issue, you can compare all volumes in the SVM to identify which volume might be causing the issue."
+---
+= Defining the list of correlated objects for comparison graphing
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can define a list of correlated objects for data and performance comparison in the Counter Chart pane. For example, if your storage virtual machine (SVM) is experiencing a performance issue, you can compare all volumes in the SVM to identify which volume might be causing the issue.
+
+You can add any object in the correlated objects grid to the Comparing and Counter Chart panes. This enables you to view and compare data of multiple objects and with the root object. You can add and remove objects to and from the correlated objects grid; however, the root object in the Comparing pane is not removable.
+
+[NOTE]
+====
+Adding many objects to the Comparing pane may have a negative impact on performance. To maintain performance, you should select a limited number of charts for data comparison.
+====
+.Steps
+. In the objects grid, locate the object that you want to add, and click the *Add* button.
++
+The *Add* button turns gray, and the object is added to the additional objects list in the Comparing pane. The object's data is added to the graphs in the Counter Charts panes. The color of the object's eye icon (image:../media/eye_icon.gif[]) matches the color of the object's data trend line in the graphs.
+
+. *Optional:* Hide or show data for selected objects:
++
+[options="header"]
+|===
+| To do this...| Take this action...
+a|
+Hide a selected object
+a|
+Click the selected object's eye icon (image:../media/eye_icon.gif[]) in the Comparing pane.     The object's data is hidden, and the eye icon for that object turns gray.
+a|
+Show a hidden object
+a|
+Click the gray eye icon of the selected object in the Comparing pane.
+
+The eye icon returns to its original color, and the object data is added back into the graphs in the Counter Charts pane.
+
+|===
+
+. *Optional:* Remove selected objects from the *Comparing* pane:
++
+[options="header"]
+|===
+| To do this...| Take this action...
+a|
+Remove a selected object
+a|
+Hover over the selected object's name in the Comparing pane to show the remove object button (*X*), and then click the button.    The object is removed from the Comparing pane, and its data is cleared from the counter charts.
+a|
+Remove all selected objects
+a|
+Click the remove all object's button (*X*) at the top of the Comparing pane.    All selected objects and their data are removed, leaving only the root object.
+
+|===

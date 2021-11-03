@@ -1,0 +1,30 @@
+---
+permalink: storage-mgmt/task_add_space_to_data_disk_of_vmware.html
+sidebar: sidebar
+keywords: add space, data, disk, vmware, virtual, machine
+summary: "If you need to increase the amount of space on the data disk for the Unified Manager database, you can add capacity after installation by increasing disk space using the Unified Manager maintenance console."
+---
+= Adding space to the data disk of the VMware virtual machine
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you need to increase the amount of space on the data disk for the Unified Manager database, you can add capacity after installation by increasing disk space using the Unified Manager maintenance console.
+
+*What you'll need*
+
+* You must have access to the vSphere Client.
+* The virtual machine must have no snapshots stored locally.
+* You must have the maintenance user credentials.
+
+We recommend that you back up your virtual machine before increasing the size of virtual disks.
+
+.Steps
+. In the vSphere client, select the Unified Manager virtual machine, and then add more disk capacity to data `disk 3`. See the VMware documentation for details.
++
+In some rare cases the Unified Manager deployment uses "Hard Disk 2" for the data disk instead of "Hard Disk 3". If this has occurred in your deployment, increase the space of whichever disk is larger. The data disk will always have more space than the other disk.
+
+. In the vSphere client, select the Unified Manager virtual machine, and then select the *Console* tab.
+. Click in the console window, and then log in to the maintenance console using your user name and password.
+. In the *Main Menu*, enter the number for the *System Configuration* option.
+. In the *System Configuration Menu*, enter the number for the *Increase Data Disk Size* option.

@@ -1,0 +1,47 @@
+---
+permalink: health-checker/concept_configure_destination_and_schedule_for_database_dump_backups.html
+sidebar: sidebar
+keywords: configure, destination, schedule, database dump, backups
+summary: "You can configure the Unified Manager database dump backup settings to set the database backup path, retention count, and backup schedule. You can enable daily or weekly scheduled backups. By default, scheduled backups are disabled, but you should set a backup schedule."
+---
+= Configuring the destination and schedule for database dump backups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure the Unified Manager database dump backup settings to set the database backup path, retention count, and backup schedule. You can enable daily or weekly scheduled backups. By default, scheduled backups are disabled, but you should set a backup schedule.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+* You must have a minimum of 150 GB of space available in the location you define as the backup path.
++
+It is recommended that you use a remote location that is external to the Unified Manager host system.
+
+* When Unified Manager is installed on a Linux system, and using MySQL backup, ensure that the following permissions and ownerships are set on the backup directory.
++
+Permissions: 0750, Ownership: jboss:maintenance
+
+* When Unified Manager is installed on a Windows system, and using MySQL backup, ensure that only the administrator has access to the backup directory.
+
+More time is required the first time a backup is performed than for subsequent backups because the first backup is a full backup. A full backup can be over 1 GB and can take three to four hours. Subsequent backups are incremental and require less time.
+
+[NOTE]
+====
+
+* If you find that the number of incremental backup files is getting too large for the space you have allocated for backups, you can create a new full backup periodically to replace the old full backup and all of its' child incremental files. As another option, you may want to start using the NetApp Snapshot backup method if Unified Manager is installed on a Linux system.
+* Backup taken during initial 15 days of a new cluster addition might not be accurate enough to get the historical performance data.
+
+====
+
+.Steps
+. In the left navigation pane, click *General* > *Database Backup*.
+. In the *Database Backup* page, click *Backup Settings*.
+. Configure the appropriate values for a backup path, retention count, and schedule.
++
+The default value for retention count is 10; you can use 0 for creating unlimited backups.
+
+. Select the *Scheduled Daily* or *Scheduled Weekly* button, and then specify the schedule details.
+. Click *Apply*.
+
+Database dump backup files are created based on the schedule. You can see the available backup files in the Database Backup page.

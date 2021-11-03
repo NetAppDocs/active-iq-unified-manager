@@ -1,0 +1,39 @@
+---
+permalink: health-checker/task_create_volume_where_backups_are_stored.html
+sidebar: sidebar
+keywords: configure, snapshot, backup location
+summary: "You can configure the volume where Snapshot backups will be stored on one of your ONTAP clusters using ONTAP System Manager or using the ONTAP CLI."
+---
+= Configuring Snapshot backup location
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure the volume where Snapshot backups will be stored on one of your ONTAP clusters using ONTAP System Manager or using the ONTAP CLI.
+
+*What you'll need*
+
+The cluster, storage VM, and volume must meet the following requirements:
+
+* Cluster requirements:
+ ** ONTAP 9.3 or greater must be installed
+ ** It should be geographically close to the Unified Manager server
+ ** It can be monitored by Unified Manager, but it is not required
+* Storage VM requirements:
+ ** The name switch and name mapping must be set to use "`files`"
+ ** Local users created to correspond with client-side users
+ ** Make sure All Read/Write access is selected
+ ** Make sure that Superuser Access is set to "`any`" in the export policy
+ ** NFS for NetApp Snapshot for Linux
+ ** NFSv4 must be enabled on the NFS server and NFSv4 ID domain specified on the client and storage VM
+ ** The volume should be at least double the size of the Unified Manager/opt/netapp/data directory
++
+Use the command du -sh /opt/netapp/data/ to check the current size.
+* Volume requirements:
+ ** The volume should be at least double the size of the Unified Manager /opt/netapp/data directory
+ ** The security style must be set to UNIX
+ ** The local snapshot policy must be disabled
+ ** Volume autosize should be enabled
+ ** The performance service level should be set to a policy with high IOPS and low latency, such as "`Extreme`"
+
+For detailed steps to create the NFS volume, see https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode[How to configure NFSv4 in ONTAP 9] and the http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-nfsv3-cg/home.html[ONTAP 9 NFS Configuration Express Guide].

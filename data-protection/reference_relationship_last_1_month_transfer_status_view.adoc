@@ -1,0 +1,62 @@
+---
+permalink: data-protection/reference_relationship_last_1_month_transfer_status_view.html
+sidebar: sidebar
+keywords: relationship, 1 month, transfer status, view
+summary: "The Relationship: Last 1 month Transfer Status view enables you to analyze the transfer trends over a period of time for volumes and Storage VMs in asynchronous relationships. This page also displays whether the transfer was a success or a failure."
+---
+= Relationship: Last 1 month Transfer Status view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Relationship: Last 1 month Transfer Status view enables you to analyze the transfer trends over a period of time for volumes and Storage VMs in asynchronous relationships. This page also displays whether the transfer was a success or a failure.
+
+The controls along the top of the page enable you to perform searches to locate specific objects, create, and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a `.csv`, `.pdf`, or `.xlsx` file. After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis. You can use the *Filter* option to view only selected storage systems like only volumes or only Storage VMs. The same report is displayed in the Storage page and only for the selected storage entity. For example, if you want to view volume relationships you can access either the Relationship: Last 1 Month Transfer Status report for the Storage VMs either from the *Storage* > *Storage VMs* > *Relationship: Last 1 Month Transfer Status* menu or from *Protection* > *Relationships* > *Relationship: Last 1 Month Transfer Status* menu, and use the *Filter* to only view data for volumes.
+
+* *Source Volume*
++
+Displays the source volume name.
+
+* *Destination Volume*
++
+Displays the destination volume name.
+
+* *Operation Type*
++
+Displays the type of volume transfer.
+
+* *Operation Result*
++
+Displays whether volume transfer was successful.
+
+* *Transfer Start Time*
++
+Displays the volume transfer start time.
+
+* *Transfer End Time*
++
+Displays the volume transfer end time.
+
+* *Transfer Duration*
++
+Displays the time taken (in hours) to complete the volume transfer.
+
+* *Transfer Size*
++
+Displays the size (in MB) of the transferred volume.
+
+* *Source SVM*
++
+Displays the storage virtual machine (SVM) name.
+
+* *Source Cluster*
++
+Displays the source cluster name.
+
+* *Destination SVM*
++
+Displays the destination SVM name.
+
+* *Destination Cluster*
++
+Displays the destination cluster name.

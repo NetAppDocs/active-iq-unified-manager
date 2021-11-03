@@ -1,0 +1,12 @@
+---
+permalink: performance-checker/concept_apply_filtering_to_correlated_objects.html
+sidebar: sidebar
+keywords: apply, filter, reduce, list, correlated, objects, grid
+summary: "Filtering enables you to display a smaller, more well-defined subset of objects in the grid. For example, if you have 25 volumes in the grid, filtering enables you to view only those volumes that have throughput less than 90 MBps, or latency greater than 1 ms/op."
+---
+= Apply filtering to reduce the list of correlated objects in the grid
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Filtering enables you to display a smaller, more well-defined subset of objects in the grid. For example, if you have 25 volumes in the grid, filtering enables you to view only those volumes that have throughput less than 90 MBps, or latency greater than 1 ms/op.

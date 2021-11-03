@@ -1,0 +1,23 @@
+---
+permalink: performance-checker/concept_how_cluster_operations_can_affect_workload_latency.html
+sidebar: sidebar
+keywords: cluster, operations, affect, workload, latency
+summary: "Operations (IOPS) represent the activity of all user-defined and system-defined workloads on a cluster. The IOPS statistics help you determine whether cluster processes, such as making backups or running deduplication, are impacting workload latency (response time) or might have caused, or contributed to, a performance event."
+---
+= How cluster operations can affect workload latency
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Operations (IOPS) represent the activity of all user-defined and system-defined workloads on a cluster. The IOPS statistics help you determine whether cluster processes, such as making backups or running deduplication, are impacting workload latency (response time) or might have caused, or contributed to, a performance event.
+
+When analyzing performance events, you can use the IOPS statistics to determine whether a performance event was caused by an issue on the cluster. You can identify the specific workload activities that might have been the main contributors to the performance event. IOPS are measured in operations per second (ops/sec).
+
+image::../media/opm_ops_chart_png.png[Unified Manager IOPS chart]
+
+This example shows the IOPS chart. The actual operations statistics is a blue line and the IOPS forecast of operations statistics is green.
+
+[NOTE]
+====
+In some cases where a cluster is overloaded, Unified Manager might display the message `Data collection is taking too long on Cluster _cluster_name_`. This means that not enough statistics have been collected for Unified Manager to analyze. You need to reduce the resources the cluster is using so that statistics can be collected.
+====

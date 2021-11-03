@@ -1,0 +1,94 @@
+---
+permalink: performance-checker/task_configure_connection_between_um_server_and_external_data_provider.html
+sidebar: sidebar
+keywords: configuring, connection, unified manager, server, external, data, provider
+summary: "Unified Manager can send cluster performance data to an external server. You can specify the type of statistical data that is sent, and the interval at which data is sent."
+---
+= Configuring a connection from a Unified Manager server to an external data provider
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager can send cluster performance data to an external server. You can specify the type of statistical data that is sent, and the interval at which data is sent.
+
+*What you'll need*
+
+* You must have a user ID authorized to log in to the maintenance console of the Unified Manager server.
+* You must have the following information about the external data provider:
+ ** Server name or IP address (IPv4 or IPv6)
+ ** Server default port (if not using default port 2003)
+* You must have configured the remote server and third-party software so that it can receive statistical data from the Unified Manager server.
+* You must know which group of statistics you want to send:
+ ** PERFORMANCE_INDICATOR: Performance monitor statistics
+ ** RESOURCE_UTILIZATION: Resource utilization and Performance monitor statistics
+ ** DRILL_DOWN: All statistics
+* You must know the time interval at which you want to transmit statistics: 5, 10, or 15 minutes
++
+By default, Unified Manager collects statistics at 5-minute intervals. If you set the transmit interval to 10 (or 15) minutes, the amount of data that is sent during each transmission is two (or three) times larger than when using the default 5-minute interval.
++
+[NOTE]
+====
+If you change the Unified Manager performance collection interval to 10 or 15 minutes, you must change the transmit interval so that it is equal to, or larger, than the Unified Manager collection interval.
+====
+
+You can configure a connection between one Unified Manager server and one external data provider server.
+
+.Steps
+. Log in as the maintenance user to the maintenance console of the Unified Manager server.
++
+The Unified Manager maintenance console prompts are displayed.
+
+. In the maintenance console, type the number of the *External Data Provider* menu option.
++
+The External Server Connection menu is displayed.
+
+. Type the number of the *Add/Modify Server Connection* menu option.
++
+The current server connection information is displayed.
+
+. When prompted, type `*y*` to continue.
+. When prompted, enter the IP address or name of the destination server and the server port information (if different from the default port 2003).
+. When prompted, type `*y*` to verify that the information you entered is correct.
+. Press any key to return to the External Server Connection menu.
+. Type the number of the *Modify Server Configuration* menu option.
++
+The current server configuration information is displayed.
+
+. When prompted, type `*y*` to continue.
+. When prompted, enter the type of statistics to send, the time interval at which the statistics are sent, and whether you want to enable the transmission of statistics now:
++
+[options="header"]
+|===
+| For..| Enter...
+a|
+Statistics group ID
+a|
+`*0*` - PERFORMANCE_INDICATOR (default)
+
+`*1*` - RESOURCE_UTILIZATION
+
+`*2*` - DRILL_DOWN
+a|
+Vendor tag
+a|
+A descriptive name for the folder where the statistics will be stored on the external server. "`netapp-performance`" is the default name, but you can enter another value.
+
+By using dotted notation you can define a hierarchical folder structure. For example, by entering `*stats.performance.netapp*` the statistics will be located in *stats* > *performance* > *netapp*.
+a|
+Transmit interval
+a|
+`*5*` (default), `*10*`, or `*15*` minutes
+a|
+Enable/disable
+a|
+`*0*` - Disable
+
+`*1*` - Enable (default)
+
+|===
+
+. When prompted, type `*y*` to verify that the information you entered is correct.
+. Press any key to return to the External Server Connection menu.
+. Type `*x*` to exit the maintenance console.
+
+After you have configured the connection, the selected performance data is sent to the destination server at the time interval you specified. It takes a few minutes before the metrics start to appear in the external tool. You might need to refresh your browser to see the new metrics in the metric hierarchy.

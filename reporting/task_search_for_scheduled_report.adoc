@@ -1,0 +1,38 @@
+---
+permalink: reporting/task_search_for_scheduled_report.html
+sidebar: sidebar
+keywords: search, schedule, report
+summary: "You can search for scheduled reports by name, view name, object type, or recipients."
+---
+= Searching for a scheduled report
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can search for scheduled reports by name, view name, object type, or recipients.
+
+. In the left navigation pane, click *Storage Management* > *Report Schedules*.
+. Use the *Search Scheduled Reports* text field.
++
+[cols="2*",options="header"]
+|===
+| To find reports by ...| Try ...
+a|
+Schedule name
+a|
+Type part of the report schedule name.
+a|
+View name
+a|
+Type part of the report view name. Default views and custom views appear in the view list.
+a|
+Recipient
+a|
+Type part of the email address.
+a|
+File type
+a|
+Type "PDF", "CSV", or "XLSX".
+|===
+
+. You can click a column heading to sort reports in ascending or descending order by that column, such as schedule name or format.

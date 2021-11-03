@@ -1,0 +1,22 @@
+---
+permalink: data-protection/task_abort_jobs.html
+sidebar: sidebar
+keywords: abort, jobs
+summary: "You can use the Jobs page to abort a job if it is taking too long to finish, is encountering too many errors, or is no longer needed. You can abort a job only if its status and type allow it. You can abort any running job."
+---
+= Aborting jobs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Jobs page to abort a job if it is taking too long to finish, is encountering too many errors, or is no longer needed. You can abort a job only if its status and type allow it. You can abort any running job.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+.Steps
+
+. In the left navigation pane, click *Protection* > *Jobs*.
+. From the list of jobs, select one job, and then click *Abort*.
+. At the confirmation prompt, click *Yes* to abort the selected job.

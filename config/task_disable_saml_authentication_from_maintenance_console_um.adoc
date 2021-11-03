@@ -1,0 +1,38 @@
+---
+permalink: config/task_disable_saml_authentication_from_maintenance_console_um.html
+sidebar: sidebar
+keywords: disable, saml authentication, maintenance, console
+summary: "You may need to disable SAML authentication from the maintenance console when there is no access to the Unified Manager GUI. This could happen in cases of misconfiguration or if the IdP is not accessible."
+---
+= Disabling SAML authentication from the maintenance console
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You may need to disable SAML authentication from the maintenance console when there is no access to the Unified Manager GUI. This could happen in cases of misconfiguration or if the IdP is not accessible.
+
+*What you'll need*
+
+You must have access to the maintenance console as the maintenance user.
+
+When SAML authentication is disabled, the configured directory service providers, such as Active Directory or LDAP, perform sign-on authentication. Local users and Maintenance users will be able to access the graphical user interface in addition to configured Remote users.
+
+You can also disable SAML authentication from the Setup/Authentication page in the UI.
+
+[NOTE]
+====
+Unified Manager is restarted automatically after SAML authentication is disabled.
+====
+
+.Steps
+
+. Log into the maintenance console.
+. In the *Main Menu*, enter the number for the *Disable SAML authentication* option.
++
+A message displays to confirm that you want to disable SAML authentication and restart Unified Manager.
+
+. Type *y*, and then press Enter and Unified Manager is restarted.
+
+The next time remote users attempt to access the Unified Manager graphical interface they will enter their credentials in the Unified Manager login page instead of the IdP login page.
+
+If required, access your IdP and delete the Unified Manager server URL and metadata.

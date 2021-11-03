@@ -1,0 +1,25 @@
+---
+permalink: events/task_edit_alerts.html
+sidebar: sidebar
+keywords: edit, alerts
+summary: "You can edit alert properties such as the resource with which the alert is associated, events, recipients, notification options, notification frequency, and associated scripts."
+---
+= Editing alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit alert properties such as the resource with which the alert is associated, events, recipients, notification options, notification frequency, and associated scripts.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Alert Setup*.
+. In the *Alert Setup* page, select the alert that you want to edit, and click *Edit*.
+. In the *Edit Alert* dialog box, edit the name, resources, events, and actions sections, as required.
++
+You can change or remove the script that is associated with the alert.
+
+. Click *Save*.

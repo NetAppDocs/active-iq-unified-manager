@@ -1,0 +1,31 @@
+---
+permalink: data-protection/task_create_snapmirror_policy_to_maximize_transfer_efficiency.html
+sidebar: sidebar
+keywords: create, snapmirror, policy, maximize, transfer, efficiency
+summary: "You can create a SnapMirror policy to specify the SnapMirror transfer priority for protection relationships. SnapMirror policies enable you to maximize transfer efficiency from the source to the destination by assigning priorities so that lower-priority transfers are scheduled to run after normal-priority transfers."
+---
+= Creating a SnapMirror policy to maximize transfer efficiency
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a SnapMirror policy to specify the SnapMirror transfer priority for protection relationships. SnapMirror policies enable you to maximize transfer efficiency from the source to the destination by assigning priorities so that lower-priority transfers are scheduled to run after normal-priority transfers.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+* This task assumes that you have already completed the Destination Information area in the Configure Protection dialog box.
+
+.Steps
+
+. From the *SnapMirror* tab of the *Configure Protection* dialog box, click the *Create Policy* link in the *Relationship Settings* area.
++
+The Create SnapMirror Policy dialog box is displayed.
+
+. In the *Policy Name* field, type a name you want to give the policy.
+. In the *Transfer Priority* field, select the transfer priority you want to assign to the policy.
+. In the *Comment* field, enter an optional comment for the policy.
+. Click *Create*.
++
+The new policy is displayed in the SnapMirror Policy drop-down list.

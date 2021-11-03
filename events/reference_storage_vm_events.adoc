@@ -1,0 +1,374 @@
+---
+permalink: events/reference_storage_vm_events.html
+sidebar: sidebar
+keywords: storage, vm events, impact area, availability, configuration, performance, security
+summary: "Storage VM events provide you with information about the status of your storage VMs (SVMs) so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= Storage VM events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Storage VM (storage virtual machine, also known as SVM) events provide you with information about the status of your storage VMs (SVMs) so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+SVM CIFS Service Down(ocumEvtVserverCifsServiceStatusDown)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM CIFS Service Not Configured(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+Attempts to Connect Nonexistent CIFS Share *(nbladeCifsNoPrivShare)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+CIFS NetBIOS Name Conflict *(nbladeCifsNbNameConflict)
+
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+CIFS Shadow Copy Operation Failed *(cifsShadowCopyFailure)
+
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+Many CIFS Connections *(nbladeCifsManyAuths)
+
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+Max CIFS Connection Exceeded *(nbladeCifsMaxOpenSameFile)
+
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+Max Number of CIFS Connection Per User Exceeded *(nbladeCifsMaxSessPerUsrConn)
+
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+SVM FC/FCoE Service Down(ocumEvtVserverFcServiceStatusDown)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM iSCSI Service Down(ocumEvtVserverIscsiServiceStatusDown)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM NFS Service Down(ocumEvtVserverNfsServiceStatusDown)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM FC/FCoE Service Not Configured(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+SVM iSCSI Service Not Configured(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+SVM NFS Service Not Configured(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+SVM Stopped(ocumEvtVserverDown)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+AV Server too Busy to Accept New Scan Request *(nbladeVscanConnBackPressure)
+
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+No AV Server Connection for Virus Scan *(nbladeVscanNoScannerConn)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+No AV Server Registered *(nbladeVscanNoRegdScanner)
+
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+No Responsive AV Server Connection *(nbladeVscanConnInactive)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+Unauthorized User Attempt to AV Server *(nbladeVscanBadUserPrivAccess)
+
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+Virus Found By AV Server *(nbladeVscanVirusDetected)
+
+a|
+Risk
+a|
+SVM
+a|
+Error
+|===
+
+== Impact area: configuration
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+SVM Discovered(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+SVM Deleted(Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Information
+a|
+SVM Renamed(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+|===
+
+== Impact area: performance
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+SVM IOPS Critical Threshold Breached(ocumSvmIopsIncident)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM IOPS Warning Threshold Breached(ocumSvmIopsWarning)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+SVM MB/s Critical Threshold Breached(ocumSvmMbpsIncident)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM MB/s Warning Threshold Breached(ocumSvmMbpsWarning)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+SVM Latency Critical Threshold Breached(ocumSvmLatencyIncident)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM Latency Warning Threshold Breached(ocumSvmLatencyWarning)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+|===
+
+== Impact area: security
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Audit Log Disabled(ocumVserverAuditLogDisabled)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+Login Banner Disabled(ocumVserverLoginBannerDisabled)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+SSH is Using Insecure Ciphers(ocumVserverSSHInsecure)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+Login Banner Changed(ocumVserverLoginBannerChanged)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+
+Storage VM anti-ransomware monitoring is Disabled
+(antiRansomwareSvmStateDisabled)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+Storage VM anti-ransomware monitoring is Enabled (Learning Mode)
+(antiRansomwareSvmStateDryrun)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+Storage VM suitable for anti-ransomware monitoring (Learning Mode) (ocumEvtSvmArwCandidate)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+|===

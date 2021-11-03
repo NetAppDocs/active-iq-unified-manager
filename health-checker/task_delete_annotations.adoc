@@ -1,0 +1,26 @@
+---
+permalink: health-checker/task_delete_annotations.html
+sidebar: sidebar
+keywords: delete, annotations
+summary: "You can delete custom annotations and their values when they are no longer required."
+---
+= Deleting annotations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete custom annotations and their values when they are no longer required.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* The annotation values must not be used in other annotations or group rules.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Annotations*.
+. In the *Annotations* tab, select the annotation that you want to delete.
++
+The details of the selected annotation are displayed.
+
+. Click *Actions* > *Delete* to delete the selected annotation and its value.
+. In the warning dialog box, click *Yes* to confirm the deletion.

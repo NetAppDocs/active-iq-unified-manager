@@ -1,0 +1,26 @@
+---
+permalink: events/reference_what_system_diagnosis_section_displays.html
+sidebar: sidebar
+keywords: system, diagnosis, section, displays
+summary: "The System Diagnosis section of the Event details page provides information that can help you diagnose issues that may have been responsible for the event."
+---
+= What the System Diagnosis section displays
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The System Diagnosis section of the Event details page provides information that can help you diagnose issues that may have been responsible for the event.
+
+This area is displayed only for some events.
+
+Some performance events provide charts that are relevant to the particular event that has been triggered. Typically this includes and IOPS or MBps chart and a latency chart for the previous ten days. When arranged this way you can see which storage components are most affecting latency, or being affected by latency, when the event is active.
+
+For dynamic performance events, the following charts are displayed:
+
+* Workload Latency - Displays the history of latency for the top victim, bully, or shark workloads at the component in contention.
+* Workload Activity - Displays details about the workload usage of the cluster component in contention.
+* Resource Activity - Display historical performance statistics for the cluster component in contention.
+
+Other charts are displayed when some cluster components are in contention.
+
+Other events provide a brief description of the type of analysis the system is performing on the storage object. In some cases there will be one or more lines; one for each component that has been analyzed, for system-defined performance policies that analyze multiple performance counters. In this scenario, a green or red icon displays next to the diagnosis to indicate whether an issue was found, or not, in that particular diagnosis.

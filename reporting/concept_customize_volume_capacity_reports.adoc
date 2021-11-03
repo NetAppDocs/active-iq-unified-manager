@@ -1,0 +1,12 @@
+---
+permalink: reporting/concept_customize_volume_capacity_reports.html
+sidebar: sidebar
+keywords: customize, volume, capacity reports
+summary: "These sample custom reports are used to help you identify and respond to potential problems related to volume capacity and performance."
+---
+= Customizing volume capacity reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+These sample custom reports are used to help you identify and respond to potential problems related to volume capacity and performance.

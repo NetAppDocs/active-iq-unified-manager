@@ -1,0 +1,26 @@
+---
+permalink: data-protection/reference_relationship_last_1_month_transfer_rate_view.html
+sidebar: sidebar
+keywords: relationship, 1 month, transfer rate, view
+summary: "The Relationship: Last 1 month Transfer Rate view enables you to analyze the amount of data volume that is transferred on a day-to-day basis for volumes in asynchronous relationships. This page also provides details about daily transfers and the time required to complete the transfer operation for volumes and Storage VMs."
+---
+= Relationship: Last 1 month Transfer Rate view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Relationship: Last 1 month Transfer Rate view enables you to analyze the amount of data volume that is transferred on a day-to-day basis for volumes in asynchronous relationships. This page also provides details about daily transfers and the time required to complete the transfer operation for volumes and Storage VMs.
+
+The controls along the top of the page enable you to perform searches to locate specific objects, create and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a .csv, .pdf, or .xlsx file. After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis. For example, if you want to view volume relationships, you can access either the *Storage* > *Volumes* > *Relationship: Last 1 Month Transfer Rate* menu or access *Protection* > *Relationships* > *Relationships:Last 1 Month Transfer Rate* menu, and use the *Filter* to only view data for volumes.
+
+* *Total Transfer Size*
++
+Displays the total size of the volume transfer in gigabytes.
+
+* *Day*
++
+Displays the day on which the volume transfer was initiated.
+
+* *End Time*
++
+Displays the volume transfer end time with date.

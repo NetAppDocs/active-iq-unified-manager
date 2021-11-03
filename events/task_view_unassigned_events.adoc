@@ -1,0 +1,23 @@
+---
+permalink: events/task_view_unassigned_events.html
+sidebar: sidebar
+keywords: view, unassigned, events
+summary: "You can view unassigned events and then assign each of them to a user who can resolve them."
+---
+= Viewing unassigned events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view unassigned events and then assign each of them to a user who can resolve them.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+.Steps
+. In the left navigation pane, click *Event Management*.
++
+By default, New and Acknowledged events are displayed on the Event Management inventory page.
+
+. From the *Filters* pane, select the *Unassigned* filter option in the *Assigned To* area.

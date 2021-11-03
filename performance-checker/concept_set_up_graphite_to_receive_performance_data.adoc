@@ -1,0 +1,39 @@
+---
+permalink: performance-checker/concept_set_up_graphite_to_receive_performance_data.html
+sidebar: sidebar
+keywords:  setting, graphite, receive, performance, data, unified manager
+summary: "Graphite is an open software tool for gathering and graphing performance data from computer systems. Your Graphite server and software must be configured correctly to receive statistical data from Unified Manager."
+---
+= Setting up Graphite to receive performance data from Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Graphite is an open software tool for gathering and graphing performance data from computer systems. Your Graphite server and software must be configured correctly to receive statistical data from Unified Manager.
+
+NetApp does not test or verify specific versions of Graphite or other third-party tools.
+
+After you have installed Graphite according to the installation instructions, you need to make the following changes to support statistical data transfer from Unified Manager:
+
+* In the `/opt/graphite/conf/carbon.conf` file, the maximum number of files that can be created on the Graphite server per minute must be set to _200_ (`*MAX_CREATES_PER_MINUTE = 200*`).
++
+Depending on the number of clusters in your configuration and the statistics objects you have selected to send, there might be thousands of new files that need to be created initially. At 200 files per minute it might take 15 minutes or longer before all metric files are initially created. After all the unique metric files have been created, this parameter is no longer relevant.
+
+* If you are running Graphite on a server deployed using an IPv6 address, the value for LINE_RECEIVER_INTERFACE in the /opt/graphite/conf/carbon.conf` file must be changed from "`0.0.0.0`" to "`::`" (`*LINE_RECEIVER_INTERFACE = ::*`)
+* In the `/opt/graphite/conf/storage-schemas.conf` file, the `retentions` parameter must be used to set the frequency to 5 minutes and the retention period to the number of days that is relevant for your environment.
++
+The retention period can be as long as what your environment allows, but the frequency value must be set to 5 minutes for at least one retention setting. In the following example, a section is defined for Unified Manager using the `pattern` parameter, and the values set the initial frequency to 5 minutes and the retention period to 100 days: `*[OPM]*`
++
+`*pattern = ^netapp-performance\..*`
++
+`*retentions = 5m:100d*`
++
+[NOTE]
+====
+If the default vendor tag is changed from "`netapp-performance`" to something different, that change must be reflected in the `pattern` parameter as well.
+====
+
+[NOTE]
+====
+If the Graphite server is unavailable when the Unified Manager server is attempting to send performance data, the data is not sent and there will be a gap in collected data.
+====

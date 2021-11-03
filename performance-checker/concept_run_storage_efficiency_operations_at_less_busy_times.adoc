@@ -1,0 +1,18 @@
+---
+permalink: performance-checker/concept_run_storage_efficiency_operations_at_less_busy_times.html
+sidebar: sidebar
+keywords: run, storage, efficiency, operations, less, busy, times
+summary: "You can modify the policy or schedule that handles storage efficiency operations to run when the impacted volume workloads are less busy."
+---
+= Run storage efficiency operations at less busy times
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can modify the policy or schedule that handles storage efficiency operations to run when the impacted volume workloads are less busy.
+
+Storage efficiency operations can use a high amount of cluster CPU resources and become a bully to the volumes on which the operations are being run. If the victim volumes have high activity at the same time when the storage efficiency operations are run, their latency can increase and trigger an event.
+
+On the Event details page, the System Diagnosis section displays workloads in the QoS policy group by peak deviation in activity to identify the bully workloads. If you see "`storage efficiency`" displayed near the top of the table, these operations are bullying the victim workloads. By modifying the efficiency policy or schedule to run when these workloads are less busy, you can prevent the storage efficiency operations from causing contention on a cluster.
+
+You can use ONTAP System Manager to manage efficiency policies. You can use the ONTAP commands to manage efficiency policies and schedules.

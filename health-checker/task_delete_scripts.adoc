@@ -1,0 +1,22 @@
+---
+permalink: health-checker/task_delete_scripts.html
+sidebar: sidebar
+keywords: delete, scripts
+summary: "You can delete a script from Unified Manager when the script is no longer required or valid."
+---
+= Deleting scripts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete a script from Unified Manager when the script is no longer required or valid.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* The script must not be associated with an alert.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Scripts*.
+. In the *Scripts* page, select the script that you want to delete, and then click *Delete*.
+. In the *Warning* dialog box, confirm the deletion by clicking *Yes*.

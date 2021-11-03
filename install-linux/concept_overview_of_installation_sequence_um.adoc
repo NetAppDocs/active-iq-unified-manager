@@ -1,0 +1,16 @@
+---
+permalink: install-linux/concept_overview_of_installation_sequence_um.html
+sidebar: sidebar
+keywords: overview, installation sequence
+summary: "The installation workflow describes the tasks that you must perform before you can use Unified Manager."
+---
+= Overview of the installation sequence
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The installation workflow describes the tasks that you must perform before you can use Unified Manager.
+
+The chapters of this installation guide describe each of the items shown in the workflow below.
+
+image::../media/overall_um_install_flow.png[]

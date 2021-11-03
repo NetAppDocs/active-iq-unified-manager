@@ -1,0 +1,31 @@
+---
+permalink: config/task_access_unified_manager_web_ui.html
+sidebar: sidebar
+keywords: access, unified manager, web ui
+summary: "After you have installed Unified Manager, you can access the web UI to set up Unified Manager so that you can begin monitoring your ONTAP systems."
+---
+= Accessing the Unified Manager web UI
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you have installed Unified Manager, you can access the web UI to set up Unified Manager so that you can begin monitoring your ONTAP systems.
+
+*What you'll need*
+
+* If this is the first time you are accessing the web UI, you must log in as the maintenance user (or umadmin user for Linux installations).
+* If you plan to allow users to access Unified Manager using the short name instead of using the fully qualified domain name (FQDN) or IP address, then your network configuration has to resolve this short name to a valid FQDN.
+* If the server uses a self-signed digital certificate, the browser might display a warning indicating that the certificate is not trusted. You can either acknowledge the risk to continue the access or install a Certificate Authority (CA) signed digital certificate for server authentication.
+
+.Steps
+
+. Start the Unified Manager web UI from your browser by using the URL displayed at the end of the installation. The URL is the IP address or fully qualified domain name (FQDN) of the Unified Manager server.
++
+The link is in the following format: `\https://URL`.
+
+. Log in to the Unified Manager web UI using your maintenance user credentials.
+
+[NOTE]
+If you make three consecutive unsuccessful attempts to log into the web UI within an hour, you will be locked out of the system, and will need to contact your system administrator. This is applicable for only local users.
+
+//BURT 1388944

@@ -1,0 +1,31 @@
+---
+permalink: performance-checker/reference_performance_dashboard_cluster_banner_messages.html
+sidebar: sidebar
+keywords: performance, banner, messages, descriptions
+summary: "Unified Manager may display banner messages on the Notifications page (from the Notification bell) to alert you to status issues for a particular cluster."
+---
+= Performance banner messages and descriptions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager may display banner messages on the Notifications page (from the Notification bell) to alert you to status issues for a particular cluster.
+[options="header"]
+|===
+| Banner message| Description| Resolution
+a|
+`No performance data is being collected from cluster _cluster_name_. Restart Unified Manager to correct this issue.`
+a|
+The Unified Manager collection service has stopped and no performance data is being collected from any clusters.
+a|
+Restart Unified Manager to correct this issue. If this does not correct the issue, contact technical support.
+a|
+`More than x hour(s) of historical data is being collected from cluster _cluster_name_. Current data collections will start after all historical data is collected.`
+a|
+A data continuity collection cycle is currently running to retrieve performance data outside of the real-time cluster performance collection cycle.
+a|
+No action is required. Current performance data will be collected after the data continuity collection cycle is completed.
+
+A data continuity collection cycle runs when a new cluster is added or when Unified Manager has been unable to collect current performance data for some reason.
+
+|===

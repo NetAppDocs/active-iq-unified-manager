@@ -1,0 +1,53 @@
+---
+permalink: performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html
+sidebar: sidebar
+keywords: objects, counters, combination, threshold, policies
+summary: "Only some performance counters can be used together in combination policies. When primary and secondary performance counters are specified, both performance counters must exceed their maximum limits before an event is generated."
+---
+= What objects and counters can be used in combination threshold policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Only some performance counters can be used together in combination policies. When primary and secondary performance counters are specified, both performance counters must exceed their maximum limits before an event is generated.
+[options="header"]
+|===
+| Primary storage object and counter| Secondary storage object and counter
+.7+a|
+Volume Latency
+a|
+Volume IOPS
+a|
+Volume MB/s
+a|
+Aggregate Utilization
+a|
+Aggregate Performance Capacity Used
+a|
+Node Utilization
+a|
+Node Performance Capacity Used
+a|
+Node Performance Capacity Used - Takeover
+.7+a|
+LUN Latency
+a|
+LUN IOPS
+a|
+LUN MB/s
+a|
+Aggregate Utilization
+a|
+Aggregate Performance Capacity Used
+a|
+Node Utilization
+a|
+Node Performance Capacity Used
+a|
+Node Performance Capacity Used - Takeover
+|===
+
+[NOTE]
+====
+When a volume combination policy is applied to a FlexGroup volume, instead of to a FlexVol volume, only the "`Volume IOPS`" and "`Volume MB/s`" attributes can be selected as the secondary counter. If the threshold policy contains one of the node or aggregate attributes, then the policy will not be applied to the FlexGroup volume, and you will receive an error message describing this case. This is because FlexGroup volumes can exist on more than one node or aggregate.
+====

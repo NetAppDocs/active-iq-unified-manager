@@ -1,0 +1,44 @@
+---
+permalink: health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html
+sidebar: sidebar
+keywords: check, health, clusters, metrocluster, configuration
+summary: "You can use Unified Manager to check the operational health of clusters, and their components, in a MetroCluster configuration. If the clusters were involved in a performance event detected by Unified Manager, the health status can help you determine whether a hardware or software issue contributed to the event."
+---
+= Checking the health of clusters in a MetroCluster configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to check the operational health of clusters, and their components, in a MetroCluster configuration. If the clusters were involved in a performance event detected by Unified Manager, the health status can help you determine whether a hardware or software issue contributed to the event.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+* You must have analyzed a performance event for a MetroCluster configuration and obtained the name of the cluster involved.
+* Both clusters in the MetroCluster configuration must be monitored by the same instance of Unified Manager.
+
+.Steps
+. In the left navigation pane, click *Event Management* to display the event list.
+. In the filter panel, select all MetroCluster filters under the *Source Type* category.
+. Next to a MetroCluster event, click the name of the cluster.
++
+The Health: All Clusters view is displayed with detailed information about the event.
++
+[NOTE]
+====
+If no MetroCluster events are displayed, you can use the Search bar to search for the name of the cluster involved in the performance event.
+====
+
+. Select the *MetroCluster Connectivity* tab to display the health of the connection between the selected cluster and its partner cluster.
++
+image::../media/opm_um_mcc_connectivity_tab_png.gif[Unified Manager MetroCluster Connectivity tab]
++
+In this example, the names and the components of the local cluster and its partner cluster are displayed. A yellow or red icon indicates a health event for the highlighted component. The Connectivity icon represents the link between the clusters. You can point your mouse cursor to an icon to display event information or click the icon to display the events. A health issue on either cluster might have contributed to the performance event.
++
+Unified Manager monitors the NVRAM component of the link between the clusters. If the FC Switches icon on the local or partner cluster or the Connectivity icon is red, a link health issue might have caused the performance event.
+
+. Select the *MetroCluster Replication* tab.
++
+image::../media/opm_um_mcc_replication_tab_png.gif[Unified Manager MetroCluster Replication tab]
++
+In this example, if the NVRAM icon on the local or partner cluster is yellow or red, a health issue with the NVRAM might have caused the performance event. If there are no red or yellow icons on the page, a performance issue on the partner cluster might have caused the performance event.

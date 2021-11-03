@@ -1,0 +1,24 @@
+---
+permalink: health-checker/task_add_groups.html
+sidebar: sidebar
+keywords: add, groups
+summary: "You can create groups to combine clusters, volumes, and storage virtual machines (SVMs) for ease of management."
+---
+= Adding groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create groups to combine clusters, volumes, and storage virtual machines (SVMs) for ease of management.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+You can define group rules to add or remove members from the group and to modify group actions for the group.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. In the *Groups* tab, click *Add*.
+. In the *Add Group* dialog box, enter a name and description for the group.
+. Click *Add*.

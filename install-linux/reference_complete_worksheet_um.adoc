@@ -1,0 +1,154 @@
+---
+permalink: install-linux/reference_complete_worksheet_um.html
+sidebar: sidebar
+keywords: complete, worksheet, cluster, information, unified manager
+summary: "Before you install and configure Unified Manager, you should have specific information about your environment readily available. You can record the information in the worksheet."
+---
+= Completing the worksheet
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before you install and configure Unified Manager, you should have specific information about your environment readily available. You can record the information in the worksheet.
+
+== Unified Manager installation information
+
+The details required to install Unified Manager.
+
+[cols="2*",options="header"]
+|===
+| System on which software is deployed| Your value
+a|
+Host fully qualified domain name
+a|
+
+a|
+Host IP address
+a|
+
+a|
+Network mask
+a|
+
+a|
+Gateway IP address
+a|
+
+a|
+Primary DNS address
+a|
+
+a|
+Secondary DNS address
+a|
+
+a|
+Search domains
+a|
+
+a|
+Maintenance user name
+a|
+
+a|
+Maintenance user password
+a|
+
+|===
+
+== Unified Manager configuration information
+
+The details to configure Unified Manager after installation. Some values are optional depending on your configuration.
+
+[cols="2*",options="header"]
+|===
+| Setting| Your value
+a|
+Maintenance user email address
+a|
+
+a|
+SMTP server host name or IP address
+a|
+
+a|
+SMTP user name
+a|
+
+a|
+SMTP password
+a|
+
+a|
+SMTP port
+a|
+25 (Default value)
+a|
+Email from which alert notifications are sent
+a|
+
+a|
+Authentication server host name or IP address
+a|
+
+a|
+Active Directory administrator name or LDAP bind distinguished name
+
+a|
+
+a|
+Active Directory password or LDAP bind password
+
+a|
+
+a|
+Authentication server base distinguished name
+a|
+
+a|
+Identity provider (IdP) URL
+a|
+
+a|
+Identity provider (IdP) metadata
+a|
+
+a|
+SNMP trap destination host IP addresses
+a|
+
+a|
+SNMP port
+a|
+
+|===
+
+== Cluster information
+
+The details for the storage systems that you manage using Unified Manager.
+
+[cols="2*",options="header"]
+|===
+| Cluster 1 of N| Your value
+a|
+Host name or cluster-management IP address
+a|
+
+a|
+ONTAP administrator user name
+[NOTE]
+====
+The administrator must have been assigned the "`admin`" role.
+====
+
+a|
+
+a|
+ONTAP administrator password
+a|
+
+a|
+Protocol
+a|
+HTTPS
+|===

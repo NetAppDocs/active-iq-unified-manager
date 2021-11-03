@@ -1,0 +1,27 @@
+---
+permalink: health-checker/task_edit_annotation_rules.html
+sidebar: sidebar
+keywords: edit, annotation rules
+summary: "You can edit annotation rules to modify the condition groups and conditions within the condition group to add annotations to or remove annotations from storage objects."
+---
+= Editing annotation rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit annotation rules to modify the condition groups and conditions within the condition group to add annotations to or remove annotations from storage objects.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+Annotations are dissociated from storage objects when you edit the associated annotation rules.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Annotations*.
+. In the *Annotation Rules* tab, select the annotation rule you want to edit, and then click *Actions* > *Edit*.
+. In the *Edit Annotation Rule* dialog box, change the rule name, annotation name and value, condition groups, and conditions as required.
++
+You cannot change the target object type for an annotation rule.
+
+. Click *Save*.

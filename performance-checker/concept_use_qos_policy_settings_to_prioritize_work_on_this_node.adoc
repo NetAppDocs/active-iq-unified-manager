@@ -1,0 +1,23 @@
+---
+permalink: performance-checker/concept_use_qos_policy_settings_to_prioritize_work_on_this_node.html
+sidebar: sidebar
+keywords: qos, policy, settings, prioritize, work, node
+summary: "You can set a limit on a QoS policy group to control the I/O per second (IOPS) or MBps throughput limit for the workloads it contains. If workloads are in a policy group with no set limit, such as the default policy group, or the set limit does not meet your needs, you can increase the set limit or move the workloads to a new or existing policy group that has the desired limit."
+---
+= Use QoS policy settings to prioritize the work on this node
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can set a limit on a QoS policy group to control the I/O per second (IOPS) or MBps throughput limit for the workloads it contains. If workloads are in a policy group with no set limit, such as the default policy group, or the set limit does not meet your needs, you can increase the set limit or move the workloads to a new or existing policy group that has the desired limit.
+
+If a performance event on a node is caused by workloads overusing the node resources, the event description on the Event details page displays a link to the list of volumes involved. In the Performance/Volumes page, you can sort the affected volumes by IOPS and MBps to see which workloads have the highest usage that might have contributed to the event.
+
+By assigning the volumes that are overusing the node resources to a more restrictive policy group setting, the policy group throttles the workloads to restrict their activity, which can reduce the use of the resources on that node.
+
+You can use ONTAP System Manager or the ONTAP commands to manage policy groups, including the following tasks:
+
+* Creating a policy group
+* Adding or removing workloads in a policy group
+* Moving a workload between policy groups
+* Changing the throughput limit of a policy group

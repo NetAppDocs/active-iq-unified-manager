@@ -1,0 +1,28 @@
+---
+permalink: health-checker/task_edit_individual_qtree_health_threshold_settings.html
+sidebar: sidebar
+keywords: edit, individual, qtree, health, threshold, settings
+summary: "You can edit the health threshold settings for qtree capacity for one or more qtrees. When a threshold is crossed, alerts are generated and you receive notifications. These notifications help you to take preventive measures based on the event generated."
+---
+= Editing individual qtree health threshold settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit the health threshold settings for qtree capacity for one or more qtrees. When a threshold is crossed, alerts are generated and you receive notifications. These notifications help you to take preventive measures based on the event generated.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+Based on changes to the threshold values, events are generated or obsoleted in the next monitoring cycle.
+
+.Steps
+. In the left navigation pane, click *Storage* > *Qtrees*.
+. In the *Capacity: All Qtrees* view, select one or more qtrees and then click *Edit Thresholds*.
+. In the *Edit Qtree Thresholds* dialog box, change the capacity thresholds for the selected qtree or qtrees and click *Save*.
++
+[NOTE]
+====
+You can also set individual qtree thresholds from the Qtrees tab on the Storage VM / Health details page.
+====

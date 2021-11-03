@@ -1,0 +1,165 @@
+---
+permalink: health-checker/reference_cluster_compliance_categories.html
+sidebar: sidebar
+keywords: cluster compliance, categories
+summary: "This table describes the cluster security compliance parameters that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the cluster being complaint or not complaint."
+---
+= Cluster compliance categories
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This table describes the cluster security compliance parameters that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the cluster being complaint or not complaint.
+
+Having non-compliant SVMs on a cluster will affect the compliance value for the cluster. So in some cases you may need to fix a security issues with an SVM before your cluster security is seen as compliant.
+
+Note that not every parameter listed below appears for all installations. For example, if you have no peered clusters, or if you have disabled AutoSupport on a cluster, then you will not see the Cluster Peering or AutoSupport HTTPS Transport items in the UI page.
+
+[cols="4*",options="header"]
+|===
+| Parameter| Description| Recommendation| Affects Cluster Compliance
+a|
+Global FIPS
+a|
+Indicates if Global FIPS (Federal Information Processing Standard) 140-2 compliance mode is enabled or disabled. When FIPS is enabled, TLSv1 and SSLv3 are disabled, and only TLSv1.1 and TLSv1.2 are allowed.
+a|
+Enabled
+a|
+Yes
+a|
+Telnet
+a|
+Indicates if Telnet access to the system is enabled or disabled. NetApp recommends Secure Shell (SSH) for secure remote access.
+a|
+Disabled
+a|
+Yes
+a|
+Insecure SSH Settings
+a|
+Indicates if SSH uses insecure ciphers, for example ciphers beginning with *cbc.
+a|
+No
+a|
+Yes
+a|
+Login Banner
+a|
+Indicates if the Login banner is enabled or disabled for users accessing the system.
+a|
+Enabled
+a|
+Yes
+a|
+Cluster Peering
+a|
+Indicates if communication between peered clusters is encrypted or unencrypted. Encryption must be configured on both the source and destination clusters for this parameter to be considered compliant.
+a|
+Encrypted
+a|
+Yes
+a|
+Network Time Protocol
+a|
+Indicates if the cluster has one or more configured NTP servers. For redundancy and best service NetApp recommends that you associate at least three NTP servers with the cluster.
+a|
+Configured
+a|
+Yes
+a|
+OCSP
+a|
+Indicates if there are applications in ONTAP that are not configured with OCSP (Online Certificate Status Protocol) and therefore communications are not encrypted. The non-compliant applications are listed.
+a|
+Enabled
+a|
+No
+a|
+Remote Audit Logging
+a|
+Indicates if log forwarding (Syslog) is encrypted or not encrypted.
+a|
+Encrypted
+a|
+Yes
+a|
+AutoSupport HTTPS Transport
+a|
+Indicates if HTTPS is used as the default transport protocol for sending AutoSupport messages to NetApp support.
+a|
+Enabled
+a|
+Yes
+a|
+Default Admin User
+a|
+Indicates if the Default Admin User (built-in) is enabled or disabled. NetApp recommends locking (disabling) any unneeded built-in accounts.
+a|
+Disabled
+a|
+Yes
+a|
+SAML Users
+a|
+Indicates if SAML is configured. SAML enables you to configure multi-factor authentication (MFA) as a login method for single sign-on.
+a|
+No
+a|
+No
+a|
+Active Directory Users
+a|
+Indicates if Active Directory is configured. Active Directory and LDAP are the preferred authentication mechanisms for users accessing clusters.
+a|
+No
+a|
+No
+a|
+LDAP Users
+a|
+Indicates if LDAP is configured. Active Directory and LDAP are the preferred authentication mechanisms for users managing clusters over local users.
+a|
+No
+a|
+No
+a|
+Certificate Users
+a|
+Indicates if a certificate user is configured to log into the cluster.
+a|
+No
+a|
+No
+a|
+Local Users
+a|
+Indicates if local users are configured to log into the cluster.
+a|
+No
+a|
+No
+a|
+Remote Shell
+a|
+Indicates if RSH is enabled. For security reasons, RSH should be disabled. The Secure Shell (SSH) for secure remote access is preferred.
+a|
+Disabled
+a|
+Yes
+a|
+MD5 in Use
+a|
+Indicates if ONTAP user accounts use less-secure MD5 Hash function. The MD5 Hashed user accounts migration to the more secure cryptographic hash function like SHA-512 is preferred.
+a|
+No
+a|
+Yes
+a|
+Certificate Issuer Type
+a|
+Indicates the type of digital certificate used.
+a|
+CA-Signed
+a|
+No
+|===

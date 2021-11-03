@@ -1,0 +1,28 @@
+---
+permalink: data-protection/task_break_snapmirror_relationship.html
+sidebar: sidebar
+keywords: break, snapmirror, relationship, volume, relationship page
+summary: "You can break a protection relationship to stop data transfers between a source volume and a destination volume in a SnapMirror relationship. You might break a relationship when you want to migrate data, for disaster recovery, or for application testing. The destination volume is changed to a read/write volume. You cannot break a SnapVault relationship."
+---
+= Breaking a SnapMirror relationship from the Volume Relationships page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can break a protection relationship to stop data transfers between a source volume and a destination volume in a SnapMirror relationship. You might break a relationship when you want to migrate data, for disaster recovery, or for application testing. The destination volume is changed to a read/write volume. You cannot break a SnapVault relationship.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+
+.Steps
+
+. From the *Volume Relationships* page, select one or more volumes with protection relationships for which you want to stop data transfers and, on the toolbar, click *Break*.
++
+The Break Relationship dialog box is displayed.
+
+. Click *Continue* to break the relationship.
+. In the *Volume Relationships* page, verify in the *Relationship State* column that the relationship is broken.
++
+The Relationship State column is hidden by default, so you might need to select it in the show/hide column list image:../media/icon_columnshowhide_sm_onc.gif[].

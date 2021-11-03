@@ -1,0 +1,38 @@
+---
+permalink: reporting/task_create_report_volume_relationships_source_of_failure.html
+sidebar: sidebar
+keywords: create, report, group, volume, relationships, source, failure
+summary: 'You can create a report that groups volumes by the reason the relationship is in an unhealthy state.'
+---
+= Creating a report to group volume relationships by source of failure
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a report that groups volumes by the reason the relationship is in an unhealthy state.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+
+Use the following steps to create a custom view that groups volumes by source of failure, and then schedule a report to be generated for that view.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Volumes*.
+. In the View menu, select *Relationship* > *All Relationships*.
+. Select *Show/Hide* to make sure the "`Relationship Health`" and "`Unhealthy Reason`" columns appear in the view.
++
+Add or remove other columns to create a view that is important for your report.
+
+. Drag the "`Relationship Health`" and "`Unhealthy Reason`" columns near the "`State`" column.
+. Click the filter icon, add the following filter, and then click *Apply Filter*:
+ ** Relationship health is bad
+. Click the top of the "`Unhealthy Reason`" column to group the volume relationships by source of failure.
+. Save the view with a specific name that reflects what the view is showing, for example, "`Vol relationships by failure`".
+. Click the *Scheduled Reports* button on the inventory page.
+. Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
++
+The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
+
+Based on the results shown in the report, you can investigate the source and impact of each type of failure.

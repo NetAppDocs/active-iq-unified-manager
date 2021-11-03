@@ -1,0 +1,38 @@
+---
+permalink: storage-mgmt/reference_window_layout_customization.html
+sidebar: sidebar
+keywords: window, layout, customization
+summary: "Active IQ Unified Manager enables you to customize the layout of information on the storage and network object pages. By customizing the windows, you can control which data is viewable and how the data is displayed."
+---
+= Window layout customization
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager enables you to customize the layout of information on the storage and network object pages. By customizing the windows, you can control which data is viewable and how the data is displayed.
+
+* *Sorting*
++
+You can click the column header to change the sort order of the column entries. When you click the column header, the sort arrows (image:../media/sort_asc_um60.gif[Icon for column sorting – ascending] and image:../media/sort_desc_um60.gif[Icon for column sorting – descending]) appear for that column.
+
+* *Filtering*
++
+You can click the filter icon (image:../media/filtering_icon.gif[]) to apply filters to customize the display of information on the storage and network object pages so that only those entries that match the conditions that are provided are displayed. You apply filters from the Filters pane.
++
+The Filters pane enables you to filter most of the columns based on the options that are selected. For example, on the Health: All Volumes view, you can use the Filters pane to display all of the volumes that are offline by selecting the appropriate filter option under State.
++
+Capacity-related columns in any list always display capacity data in appropriate units rounded off to two decimal points. This also applies when filtering capacity columns. For example, if you use the filter in the Total Data Capacity column in the Health: All Aggregates view to filter data greater than 20.45 GB, the actual capacity of 20.454 GB is displayed as 20.45 GB. Similarly, if you filter data less than 20.45 GB, the actual capacity of 20.449 GB is displayed as 20.45 GB.
++
+If you use the filter in the Available Data % column in the Health: All Aggregates view to filter data greater than 20.45%, the actual capacity of 20.454% is displayed as 20.45%. Similarly, if you filter data less than 20.45%, the actual capacity of 20.449% is displayed as 20.45%.
+
+* *Hiding or showing the columns*
++
+You can click the column display icon (*Show/Hide*) to select which columns you want to display. Once you have selected the appropriate columns you can re-order them by dragging them using your mouse.
+
+* *Searching*
++
+You can use the search box to search for certain object attributes to help refine the list of items in the inventory page. For example, you can enter "cloud" to refine the list of volumes in the volumes inventory page to see all volumes that have the word "cloud" in them.
+
+* *Exporting data*
++
+You can click the *Reports* button (or *Export* button to export data to a comma-separated values    `(.csv)` file, `(.pdf)` document, or Microsoft Excel `(.xlsx)` file and use the exported data to build reports.

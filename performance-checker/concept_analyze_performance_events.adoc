@@ -1,0 +1,12 @@
+---
+permalink: performance-checker/concept_analyze_performance_events.html
+sidebar: sidebar
+keywords: analyze, performance, events
+summary: "You can analyze performance events to identify when they were detected, whether they are active (new or acknowledged) or obsolete, the workloads and cluster components involved, and the options for resolving the events on your own."
+---
+= Analyzing performance events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can analyze performance events to identify when they were detected, whether they are active (new or acknowledged) or obsolete, the workloads and cluster components involved, and the options for resolving the events on your own.

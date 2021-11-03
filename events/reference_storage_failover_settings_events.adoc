@@ -1,0 +1,81 @@
+---
+permalink: events/reference_storage_failover_settings_events.html
+sidebar: sidebar
+keywords: storage, failover, settings, events, impact area, availability
+summary: "Storage failover (SFO) settings events provide you with information about whether your storage failover is disabled or not configured so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= Storage failover settings events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Storage failover (SFO) settings events provide you with information about whether your storage failover is disabled or not configured so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name) | Impact level| Source type| Severity
+a|
+Storage Failover Interconnect One Or More Links Down(ocumEvtSfoInterconnectOneOrMoreLinksDown)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+a|
+Storage Failover Disabled(ocumEvtSfoSettingsDisabled)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+Storage Failover Not Configured(ocumEvtSfoSettingsNotConfigured)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+Storage Failover State - Takeover(ocumEvtSfoStateTakeover)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+a|
+Storage Failover State - Partial Giveback(ocumEvtSfoStatePartialGiveback)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+Storage Failover Node Status Down(ocumEvtSfoNodeStatusDown)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+Storage Failover Takeover Not Possible(ocumEvtSfoTakeoverNotPossible)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+|===

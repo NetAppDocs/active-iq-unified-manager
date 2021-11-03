@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html
+sidebar: sidebar
+keywords: configure, lag, threshold settings, unmanaged, protection, relationships
+summary: "You can edit the global default lag warning and error health threshold settings for unmanaged protection relationships so that events are generated at intervals that are appropriate to your needs."
+---
+= Configuring lag threshold settings for unmanaged protection relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit the global default lag warning and error health threshold settings for unmanaged protection relationships so that events are generated at intervals that are appropriate to your needs.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+The lag time must be no more than the defined transfer schedule interval. For example, if the transfer schedule is hourly, then the lag time must not be more than one hour. The lag threshold specifies a percentage that the lag time must not exceed. Using the example of one hour, if the lag threshold is defined as 150%, then you will receive an event when the lag time is more than 1.5 hours.
+
+The settings described in this task are applied globally to all unmanaged protection relationships. The settings cannot be specified and applied exclusively to one unmanaged protection relationship.
+
+.Steps
+. In the left navigation pane, click *Event Thresholds* > *Relationship*.
+. Increase or decrease the global default warning or error lag time percentage as required.
+. To disable a warning or error event from being triggered from any lag threshold amount, uncheck the box next to *Enabled*.
+. Click *Save*.
+
+*Related information*
+
+link:../config/task_add_users.html[Adding users]

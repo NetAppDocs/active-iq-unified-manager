@@ -1,0 +1,65 @@
+---
+permalink: performance-checker/task_create_user_defined_performance_threshold_policies.html
+sidebar: sidebar
+keywords: create, user-defined, performance, threshold, policies
+summary: "You create performance threshold policies for storage objects so that notifications are sent when a performance counter exceeds a specific value. The event notification identifies that the cluster is experiencing a performance issue."
+---
+= Creating user-defined performance threshold policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You create performance threshold policies for storage objects so that notifications are sent when a performance counter exceeds a specific value. The event notification identifies that the cluster is experiencing a performance issue.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+You create performance threshold policies by entering the threshold values on the Create Performance Threshold Policy page. You can create new policies by defining all the policy values in this page, or you can make a copy of an existing policy and change the values in the copy (called _cloning_).
+
+Valid threshold values are 0.001 through 10,000,000 for numbers, 0.001-100 for percentages, and 0.001-200 for Performance Capacity Used percentages.
+
+[NOTE]
+====
+The current release provides thresholds that send events when a counter value exceeds the threshold setting. You cannot set thresholds that send events when a counter value falls below a threshold setting.
+====
+.Steps
+. In the left navigation pane, select *Event Thresholds* > *Performance*.
++
+The Performance Thresholds page is displayed.
+
+. Click the appropriate button depending on whether you want to build a new policy or if you want to clone a similar policy and modify the cloned version.
++
+[options="header"]
+|===
+| To...| Click...
+a|
+Create a new policy
+a|
+*Create*
+a|
+Clone an existing policy
+a|
+Select an existing policy and click *Clone*
+|===
+The Create Performance Threshold Policy page or Clone Performance Threshold Policy page is displayed.
+
+. Define the threshold policy by specifying the performance counter threshold values you want to set for specific storage objects:
+ .. Select the storage object type and specify a name and description for the policy.
+ .. Select the performance counter to be tracked and specify the limit values that define Warning and Critical events.
++
+You must define at least one Warning or one Critical limit. You do not need to define both types of limits.
+
+ .. Select a secondary performance counter, if required, and specify the limit values for Warning and Critical events.
++
+Including a secondary counter requires that both counters exceed the limit values before the threshold is breached and an event is reported. Only certain objects and counters can be configured using a combination policy.
+
+ .. Select the duration of time for which the limit values must be breached for an event to be sent.
+
++
+When cloning an existing policy, you must enter a new name for the policy.
+. Click *Save* to save the policy.
++
+You are returned to the Performance Thresholds page. A success message at the top of the page confirms that the threshold policy was created and provides a link to the Inventory page for that object type so that you can apply the new policy to storage objects immediately.
+
+If you want to apply the new threshold policy to storage objects at this time, you can click the *Go to object_type now* link to go to the Inventory page.

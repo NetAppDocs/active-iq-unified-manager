@@ -1,0 +1,73 @@
+---
+permalink: performance-checker/reference_performance_data_that_can_be_sent_to_an_external_server.html
+sidebar: sidebar
+keywords: performance, data, external, server
+summary: "Unified Manager collects a variety of performance data from all the clusters that it is monitoring. You can send specific groups of data to an external server."
+---
+= Performance data that can be sent to an external server
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager collects a variety of performance data from all the clusters that it is monitoring. You can send specific groups of data to an external server.
+
+Depending on the performance data that you want to chart, you can choose to send one of the following groups of statistics:
+[options="header"]
+|===
+| Statistics group| Data included| Details
+a|
+Performance Monitor
+a|
+High-level performance statistics for the following objects:
+
+* LUNs
+* Volumes
+
+a|
+This group provides total IOPS or latency for all LUNs and volumes in all monitored clusters.
+
+This group provides the smallest number of statistics.
+
+a|
+Resource Utilization
+a|
+Resource utilization statistics for the following objects:
+
+* Nodes
+* Aggregates
+
+a|
+This group provides utilization statistics for the node and aggregate physical resources in all monitored clusters.
+
+It also provides the statistics collected in the Performance Monitor group.
+
+a|
+Drill Down
+a|
+Low-level read/write and per-protocol statistics for all tracked objects:
+
+* Nodes
+* Aggregates
+* LUNs
+* Volumes
+* Disks
+* LIFs
+* Ports/NICs
+
+a|
+This group provides read/write and per-protocol breakdowns for all seven tracked object types in all monitored clusters.
+
+It also provides the statistics collected in the Performance Monitor group and in the Resource Utilization group.
+
+This group provides the largest number of statistics.
+
+|===
+
+[NOTE]
+====
+If the name of a cluster, or cluster object, is changed on the storage system, both the old and the new objects will contain performance data on the external server (called the "`metric_path`"). The two objects are not correlated as the same object. For example, if you change the name of a volume from "`volume1_acct`" to "`acct_vol1`", you will see old performance data for the old volume, and new performance data for the new volume.
+====
+
+See Knowledge Base article 30096 for the list of all performance counters that can be sent to an external data provider.
+
+https://kb.netapp.com/?title=Advice_and_Troubleshooting%2FData_Infrastructure_Management%2FActive_IQ_Unified_Manager%2FWhat_are_the_ActiveIQ_Unified_Manager_performance_counters_that_can_be_exported_to_an_External_Data_Provider%253F[Unified Manager performance counters that can be exported to an External Data Provider]

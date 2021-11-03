@@ -1,0 +1,12 @@
+---
+permalink: reporting/concept_customize_cluster_storage_reports.html
+sidebar: sidebar
+keywords: customize, cluster, storage, reports
+summary: "The sample cluster storage reports in this section are just samples to help you understand how to create reports about cluster capacity to help you monitor you storage system resources."
+---
+= Customizing cluster storage reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The sample cluster storage reports in this section are just samples to help you understand how to create reports about cluster capacity to help you monitor you storage system resources.

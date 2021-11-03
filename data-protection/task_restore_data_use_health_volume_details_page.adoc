@@ -1,0 +1,53 @@
+---
+permalink: data-protection/task_restore_data_use_health_volume_details_page.html
+sidebar: sidebar
+keywords: restore, data, volume, health details page
+summary: "You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Volume / Health details page."
+---
+= Restoring data using the Volume / Health details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Volume / Health details page.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+You cannot restore NTFS file streams.
+
+The restore option is not available when:
+
+* The volume ID is unknown: for example, when you have an intercluster relationship and the destination cluster has not yet been discovered.
+* The volume is configured for SnapMirror Synchronous replication.
+
+.Steps
+
+. In the *Protection tab* of the *Volume / Health* details page, right-click in the topology view the name of the volume that you want to restore.
+. Select *Restore* from the menu.
++
+Alternatively, select *Restore* from the *Actions* menu to protect the current volume for which you are viewing the details.
++
+The Restore dialog box is displayed.
+
+. Select the volume and Snapshot copy from which you want to restore data, if different from the default.
+. Select the items you want to restore.
++
+You can restore the entire volume, or you can specify folders and files you want to restore.
+
+. Select the location to which you want the selected items restored: either *Original Location* or *Alternate Existing Location*.
+. If you select an alternate existing location, do one of the following:
+ ** In the Restore Path text field, type the path of the location to which you want to restore the data and then click *Select Directory*.
+ ** Click *Browse* to launch the Browse Directories dialog box and complete the following steps:
+  ... Select the cluster, SVM, and volume to which you want to restore.
+  ... In the Name table, select a directory name.
+  ... Click *Select Directory*.
+. Click *Restore*.
++
+The restore process begins.
++
+[NOTE]
+====
+If a restore operation fails between Cloud Volumes ONTAP HA clusters with an NDMP error, you may need to add an explicit AWS route in the destination cluster so that the destination can communicate with the source system's cluster management LIF. You perform this configuration step using OnCommand Cloud Manager.
+====

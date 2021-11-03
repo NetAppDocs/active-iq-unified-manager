@@ -1,0 +1,24 @@
+---
+permalink: config/task_edit_authentication_servers.html
+sidebar: sidebar
+keywords: edit, authentication servers
+summary: "You can change the port that the Unified Manager server uses to communicate with your authentication server."
+---
+= Editing authentication servers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the port that the Unified Manager server uses to communicate with your authentication server.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Remote Authentication*.
+. Check the *Disable Nested Group Lookup* box.
+. In the *Authentication Servers* area, select the authentication server that you want to edit, and then click *Edit*.
+. In the *Edit Authentication Server* dialog box, edit the port details.
+. Click *Save*.

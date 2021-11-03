@@ -1,0 +1,43 @@
+---
+permalink: health-checker/task_determine_if_volume_offline_condition_is_by_down_cluster_node.html
+sidebar: sidebar
+keywords: determine, volume, offline, host, node
+summary: "You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host node is down and that storage failover to its HA pair partner is unsuccessful."
+---
+= Determining if a volume is offline because its host node is down
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host node is down and that storage failover to its HA pair partner is unsuccessful.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+To determine if the volume offline condition is caused by failure of the hosting node and subsequent unsuccessful storage failover, perform the following actions:
+
+.Steps
+. Locate and click the hypertext link displayed under SVM in the *Related Devices* pane of the offline volume's *Volume / Health* details page.
++
+The Storage VM / Health details page displays information about the offline volume's hosting storage virtual machine (SVM).
+
+. In the *Related Devices* pane of the *Storage VM / Health* details page, locate and click hypertext link displayed under Volumes.
++
+The Health: All Volumes view displays a table of information about all the volumes hosted by the SVM.
+
+. On the *Health: All Volumes* view State column header, click the filter symbol image:../media/filtericon_um60.png[Icon for column filter], and then select the option *Offline*.
++
+Only the SVM volumes that are in offline state are listed.
+
+. On the Health: All Volumes view, click the grid symbol image:../media/gridviewicon.gif[Icon for grid view], and then select the option *Cluster Nodes*.
++
+You might need to scroll in the grid selection box to locate the *Cluster Nodes* option.
++
+The Cluster Nodes column is added to the volumes inventory and displays the name of the node that hosts each offline volume.
+
+. On the *Health: All Volumes* view, locate the listing for the offline volume and, in its Cluster Node column, click the name of its hosting node.
++
+The Nodes tab on the Cluster / Health details page displays the state of the HA pair of nodes to which the hosting node belongs. The state of the hosting node and the success of any cluster failover operation is indicated in the display.
+
+After you confirm that the volume offline condition exists because its host node is down and storage failover to the HA pair partner has failed, contact the appropriate administrator or operator to manually restart the down node and fix the storage failover problem.

@@ -1,0 +1,16 @@
+---
+permalink: data-protection/concept_what_jobs_are.html
+sidebar: sidebar
+keywords: jobs
+summary: "A job is a series of tasks that you can monitor using Unified Manager. Viewing jobs and their associated tasks enables you to determine if they have completed successfully."
+---
+= What jobs are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A job is a series of tasks that you can monitor using Unified Manager. Viewing jobs and their associated tasks enables you to determine if they have completed successfully.
+
+Jobs are initiated when you create SnapMirror and SnapVault relationships, when you perform any relationship operation (break, edit, quiesce, remove, resume, resynchronize, and reverse resync), when you perform data restoration tasks, when you log in to a cluster, and so on.
+
+When you initiate a job, you can use the Jobs page and the Job details page to monitor the job and the progress of the associated job tasks.

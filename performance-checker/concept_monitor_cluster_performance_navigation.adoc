@@ -1,0 +1,25 @@
+---
+permalink: performance-checker/concept_monitor_cluster_performance_navigation.html
+sidebar: sidebar
+keywords: monitor, cluster, performance, navigation
+summary: "You can monitor the performance of all clusters managed by Unified Manager. Monitoring your clusters provides you with an overview of cluster and object performance and includes performance event monitoring. You can view performance and events at a high level, or you can further investigate any details of cluster and object performance and performance events."
+---
+= Monitor cluster performance navigation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can monitor the performance of all clusters managed by Unified Manager. Monitoring your clusters provides you with an overview of cluster and object performance and includes performance event monitoring. You can view performance and events at a high level, or you can further investigate any details of cluster and object performance and performance events.
+
+This is one example of many possible cluster performance navigational paths:
+
+. In the left navigation pane, click *Storage* > *Aggregates*.
+. To view information about the performance in those aggregates, select the Performance: All Aggregates view.
+. Identify the aggregate you want to investigate and click that aggregate name to navigate to the Aggregate / Performance Explorer page.
+. Optionally, select other objects to compare with this aggregate in the View and Compare menu, and then add one of the objects to the comparing pane.
++
+Statistics for both objects will appear in the counter charts for comparison.
+
+. In the Comparing pane at the right on the Explorer page, click *Zoom View* in one of the counter charts to view details about the performance history for that aggregate.
+
+image::../media/monitor_cluster_performance.png[]

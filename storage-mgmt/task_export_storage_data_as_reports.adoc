@@ -1,0 +1,58 @@
+---
+permalink: storage-mgmt/task_export_storage_data_as_reports.html
+sidebar: sidebar
+keywords: export, storage, data, reports
+summary: "You can export storage data in a variety of output formats and then use the exported data to build reports. For example, if there are 10 critical events that have not been resolved, you can export the data from the Event Management inventory page to create a report, and then send the report to admins who can resolve the issues."
+---
+= Exporting storage data as reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can export storage data in a variety of output formats and then use the exported data to build reports. For example, if there are 10 critical events that have not been resolved, you can export the data from the Event Management inventory page to create a report, and then send the report to admins who can resolve the issues.
+
+You can export data to a `.csv` file, `.xlsx` file, or `.pdf` document from the *Storage* and *Network* inventory pages and use the exported data to build reports. There are other locations in the product where only `.csv` or `.pdf` files can be generated.
+
+.Steps
+
+. Perform one of the following actions:
++
+[options="header"]
+|===
+| If you want to export...| Do this...
+a|
+Storage object inventory details
+a|
+Click *Storage* or *Network* from the left-navigation menu, and then select a storage object. Choose one of the system-provided views, or any custom view that you have created.
+a|
+QoS Policy Group details
+a|
+Click *Storage* > *QoS Policy Groups* from the left-navigation menu.
+a|
+Storage capacity and protection history details
+a|
+Click *Storage* > *Aggregates* or *Storage* > *Volumes*, then select a single aggregate or volume.
+a|
+Event details
+a|
+Click *Event Management* from the left-navigation menu.
+a|
+Storage object top 10 performance details
+a|
+Click *Storage* > *Clusters* > *Performance:All Clusters*, then select a cluster and choose the *Top Performers* tab. Then select a storage object and performance counter.
+|===
+
+. Click the *Reports* button (or *Export* button in some UI pages).
+. Click *Download CSV*, *Download PDF*, or *Download Excel* to confirm the export request.
++
+From the Top Performers tab you can choose to download a report of the statistics for the single cluster you are viewing or for all clusters in the data center.
++
+The file is downloaded.
+
+. Open the file in the appropriate application.
+
+*Related information*
+
+link:[Health/Clusters inventory page]
+
+link:../reporting/task_schedule_report.html[Scheduling a report]

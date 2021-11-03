@@ -1,0 +1,24 @@
+---
+permalink: performance-checker/task_identify_shark_workloads_involved_in_performance_event.html
+sidebar: sidebar
+keywords: identify, shark workloads, involved, dynamic, performance, event
+summary: "In Unified Manager, you can identify which workloads have the highest deviation in usage for a storage component in contention. Identifying these workloads helps you determine if these workloads should be moved to a less-utilized cluster."
+---
+= Identifying shark workloads involved in a dynamic performance event
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In Unified Manager, you can identify which workloads have the highest deviation in usage for a storage component in contention. Identifying these workloads helps you determine if these workloads should be moved to a less-utilized cluster.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+* There are new, acknowledged, or obsolete performance dynamic event.
+
+The Event details page displays a list of the user-defined and system-defined workloads ranked by the highest usage of the component or most impacted by the event. The values are based on the peaks that Unified Manager identified when it detected and last analyzed the event.
+
+.Steps
+. Display the *Event details* page to view information about the event.
+. In the Workload Latency and Workload Activity charts, select *Shark Workloads*.
+. Hover your cursor over the charts to view the top user-defined workloads that are affecting the component, and the name of the shark workload.

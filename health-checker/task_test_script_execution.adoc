@@ -1,0 +1,46 @@
+---
+permalink: health-checker/task_test_script_execution.html
+sidebar: sidebar
+keywords: test, script, execution
+summary: "You can verify that your script is executed correctly when an alert is generated for a storage object."
+---
+= Testing script execution
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can verify that your script is executed correctly when an alert is generated for a storage object.
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have uploaded a script in the supported file format to Unified Manager.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Scripts*.
+. In the Scripts page, add your test script.
+. In the left navigation pane, click *Storage Management* > *Alert Setup*.
+. In the *Alert Setup* page, perform one of the following actions:
++
+[cols="2*",options="header"]
+|===
+| To...| Do this...
+a|
+Add an alert
+a|
+
+ .. Click *Add*.
+ .. In the Actions section, associate the alert with your test script.
+
+a|
+Edit an alert
+a|
+
+ .. Select an alert, and then click *Edit*.
+ .. In the Actions section, associate the alert with your test script.
+
++
+|===
+
+. Click *Save*.
+. In the *Alert Setup* page, select the alert that you added or modified, and then click *Test*.
++
+The script is executed with the "`-test`" argument, and a notification alert is sent to the email addresses that were specified when the alert was created.

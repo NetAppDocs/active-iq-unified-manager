@@ -1,0 +1,95 @@
+---
+permalink: reporting/reference_types_of_reports.html
+sidebar: sidebar
+keywords: types, reports
+summary: "This table provides a comprehensive list of the views and inventory pages that are available as reports that you can customize, download, and schedule."
+---
+= Types of reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This table provides a comprehensive list of the views and inventory pages that are available as reports that you can customize, download, and schedule.
+
+== Active IQ Unified Manager reports
+
+[cols="2*",options="header"]
+|===
+| Type| Storage or network object
+a|
+Capacity
+a|
+Clusters
+
+Aggregates
+
+Volumes
+
+Qtrees
+
+a|
+Health
+a|
+Clusters
+
+Nodes
+
+Aggregates
+
+Storage VMs
+
+Volumes
+
+SMB/CIFS shares
+
+NFS shares
+
+a|
+Performance
+a|
+Clusters
+
+Nodes
+
+Aggregates
+
+Storage VMs
+
+Volumes
+
+LUNs
+
+NVMe namespaces
+
+Network Interfaces (LIFs)
+
+Ports
+
+a|
+Quality of Service
+a|
+Traditional QoS policy groups
+
+Adaptive QoS policy groups
+
+Performance Service Level policy groups
+
+a|
+Volume protection relationships (available from the Volumes page)
+
+a|
+All relationships
+
+Last 1 month transfer status
+
+Last 1 month transfer rate
+a|
+Security
+
+a|
+Storage VMs
+
+Clusters
+a|
+
+|===

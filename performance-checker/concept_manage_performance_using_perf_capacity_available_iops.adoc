@@ -1,0 +1,22 @@
+---
+permalink: performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html
+sidebar: sidebar
+keywords: managing, performance, performance, capacity, available, iops, information
+summary: "Performance capacity indicates how much throughput you can get out of a resource without surpassing the useful performance of that resource. When viewed using existing performance counters, performance capacity is the point at which you get the maximum utilization from a node or aggregate before latency becomes an issue."
+---
+= Managing performance using performance capacity and available IOPS information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+_Performance capacity_ indicates how much throughput you can get out of a resource without surpassing the useful performance of that resource. When viewed using existing performance counters, performance capacity is the point at which you get the maximum utilization from a node or aggregate before latency becomes an issue.
+
+Unified Manager collects performance capacity statistics from nodes and aggregates in each cluster. _Performance capacity used_ is the percentage of performance capacity that is currently being used, and _performance capacity free_ is the percentage of performance capacity that is still available.
+
+While performance capacity free provides a percentage of the resource that is still available, _available IOPS_ tells you the number of IOPS that can be added to the resource before reaching the maximum performance capacity. By using this metric, you can be sure that you can add workloads of a predetermined number of IOPS to a resource.
+
+Monitoring the performance capacity information has the following benefits:
+
+* Assists with workflow provisioning and balancing.
+* Helps you prevent overloading a node or pushing its resources beyond the optimal point, thus reducing the need to troubleshoot.
+* Helps you determine with greater precision where additional storage equipment might be needed.

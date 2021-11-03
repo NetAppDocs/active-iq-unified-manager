@@ -1,0 +1,114 @@
+---
+permalink: api-automation/concept_events_api.html
+sidebar: sidebar
+keywords: view, events, system, details
+summary: "The events API enables you to retrieve the events that are generated for the monitored clusters in your data center."
+---
+= Managing events and alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The `events`, `alerts`, and `scripts` APIs under the `management-server` category enable you to manage the events, alerts, and the scripts associated with the alerts in your Active IQ Unified Manager environment.
+
+== Viewing and modifying events
+Unified Manager receives the events that are generated on ONTAP for the clusters monitored and managed by Unified Manager. By using these APIs, you can view the events generated for your clusters, and resolve and update them.
+
+By running the `GET` method for the `/management-server/events` API, you can query the events in your data center, including historical data. Use the inbuilt filters, such as name, impact level, impact area, severity, state, resource name, and resource type, to view specific events. The resource type and area parameters return information about the storage object on which the event has occurred, and the impact area returns the information about the issue for which the event is raised, such as availability, capacity, configuration, security, protection, and performance.
+
+By running the PATCH operation for this API, you can enable the resolution workflow for the event. You can assign an event to yourself or another user and acknowledge the receipt of the event. On performing the steps on the resources to resolve the issue that triggered the event, you can use this API to mark the event as resolved.
+
+For more information about events, see link:../events/concept_manage_events.html[Managing events]
+
+[cols="4*",options="header"]
+|===
+| Category| HTTP verb| Path| Description
+a|
+management-server
+a|
+GET
+a|
+`/management-server/events`
+`/management-server/events/{key}`
+a|
+When you run the Get ALL method, the response body consists of the event details of the all the events in your data center. When you retrieve the event details by a specific key, you can view the details of a specific event and run the next set of operations on the resources. The response body consists of the details of that event.
+a|
+management-server
+a|
+PATCH
+a|
+`management-server/events/{key}``
+a|
+Run this API to assign an event or change the state to acknowledged or resolved. You can also use this method to assign the event to yourself or another user. It is a synchronous operation.
+|===
+
+== Managing alerts
+
+Events are automatically and continuously generated. Unified Manager generates an alert only when an event meets certain filter criteria. You can select the events for which alerts should be generated. By using the `/management-server/alerts` API, you can configure alerts to send notifications automatically when specific events or events of certain severity types occur.
+
+For more information about alerts, see link:../events/concept_manage_alerts.html[Managing alerts]
+
+[cols="4*",options="header"]
+|===
+| Category| HTTP verb| Path| Description
+a|
+management-server
+a|
+GET
+a|
+`/management-server/alerts`
+``/management-server/alerts/{key}``
+a|
+Query all the existing alerts in your environment or a specific alert, by using the alert key. You can view the information about the alerts generated in your environment such as the alert description, action, email ID to which the notification is sent, event and severity.
+a|
+management-server
+a|
+POST
+a|
+`/management-server/alerts`
+a|
+This method enables you to add alerts for specific events. You must add the alert name, the physical or logical resource, or event on which the alert is applicable, whether the alert is enabled, and whether you are issuing SNMP traps. You can add additional details for which you want to generate the alert, such as the action, notification email ID, the script details, in case you are adding an alert script, and so forth.
+a|
+management-server
+a|
+PATCH and
+DELETE
+a|
+`management-server/events/{key}``
+a|
+You can use these methods to modify and delete specific alerts. You can modify different attributes, such as description, name, and enabling and disabling the alert.
+You can delete an alert when the alert is no longer required.
+|===
+
+[NOTE]
+While selecting a resource for adding an alert, note that selecting a cluster as the resource does not automatically select the storage objects within that cluster. For example, if you create an alert for all the critical events for all clusters, you will receive alerts only for cluster critical events. You will not receive alerts for critical events on nodes, aggregates, and so forth.
+
+== Managing scripts
+
+By using the `/management-server/scripts` API, you can also associate an alert with a script that is executed when an alert is triggered.
+You can use scripts to automatically modify or update multiple storage objects in Unified Manager. The script is associated with an alert. When an event triggers an alert, the script is executed. You can upload custom scripts and test their execution when an alert is  generated. You can associate an alert with your script so that the script is executed when an alert is raised for an event in Unified Manager.
+
+For more information about scripts, see link:../events/concept_manage_scripts.html[Managing scripts]
+
+[cols="4*",options="header"]
+|===
+| Category| HTTP verb| Path| Description
+a|
+management-server
+a|
+GET
+a|
+`/management-server/scripts`
+a|
+Use this API to query all the existing scripts in your environment. Use the standard filter and order by operations to view only specific scripts.
+a|
+management-server
+a|
+POST
+a|
+`/management-server/scripts`
+a|
+Use this API to add a description for the script and upload the script file associated with an alert.
+a|
+
+|===

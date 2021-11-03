@@ -1,0 +1,14 @@
+---
+permalink: events/concept_what_alerts_are.html
+sidebar: sidebar
+keywords: alerts
+summary: "While events occur continuously, the Unified Manager generates an alert only when an event meets specified filter criteria. You can choose the events for which alerts should be generated—for example, when a space threshold is exceeded or an object goes offline. You can also associate an alert with a script that is executed when an alert is triggered."
+---
+= What alerts are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+While events occur continuously, the Unified Manager generates an alert only when an event meets specified filter criteria. You can choose the events for which alerts should be generated--for example, when a space threshold is exceeded or an object goes offline. You can also associate an alert with a script that is executed when an alert is triggered.
+
+Filter criteria include object class, name, or event severity.

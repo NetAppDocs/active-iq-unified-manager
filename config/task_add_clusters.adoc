@@ -1,0 +1,71 @@
+---
+permalink: config/task_add_clusters.html
+sidebar: sidebar
+keywords: add cluster
+summary: "You can add a cluster to Active IQ Unified Manager so that you can monitor the cluster. This includes the ability to obtain cluster information such as the health, capacity, performance, and configuration of the cluster so that you can find and resolve any issues that might occur."
+---
+= Adding clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add a cluster to Active IQ Unified Manager so that you can monitor the cluster. This includes the ability to obtain cluster information such as the health, capacity, performance, and configuration of the cluster so that you can find and resolve any issues that might occur.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have the following information:
+ ** Host name or cluster-management IP address
++
+The host name is the FQDN or short name that Unified Manager uses to connect to the cluster. The host name must resolve to the cluster-management IP address.
++
+The cluster-management IP address must be the cluster-management LIF of the administrative storage virtual machine (SVM). If you use a node-management LIF, the operation fails.
+
+ ** The cluster must be running ONTAP version 9.1 software or greater.
+ ** ONTAP administrator user name and password
++
+This account must have the _admin_ role with Application access set to _ontapi_, _ssh_, and _http_.
+
+ ** The port number to connect to the cluster using the HTTPS protocol (typically port 443)
+ ** You have the required certificates. Two types of certificates are required:
++
+*Server certificates*: Used for registration. A valid certificate is required for adding a cluster. If the server certificate expires, you should regenerate it and restart Unified Manager for the services to be automatically registered again. For information about certificate generation, see the knowledge base (KB) article: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9[How to renew an SSL certificate in ONTAP 9]
++
+*Client certificates*: Used for authentication. A valid certificate is required for adding a cluster. You cannot add a cluster to Unified Manager with an expired certificate and if the client certificate has already expired, you should regenerate it before adding the cluster. However, if this certificate expires for a cluster that is already added, and is being used by Unified Manager, EMS messaging continues to function with the expired certificate. You do not need to regenerate the client certificate.
+
++
+[NOTE]
+====
+You can add clusters which are behind a NAT/firewall by using the Unified Manager NAT IP address. Any connected Workflow Automation or SnapProtect systems must also be behind the NAT/firewall, and SnapProtect API calls must use the NAT IP address to identify the cluster.
+====
+* You must have adequate space on the Unified Manager server. You are prevented from adding a cluster to the server when greater than 90% of space in the database directory is already consumed.
+
+For a MetroCluster configuration, you must add both the local and remote clusters, and the clusters must be configured correctly.
+
+You can monitor a single cluster by two instances of Unified Manager provided that you have configured a second cluster-management LIF on the cluster so that each instance of Unified Manager connects through a different LIF.
+
+.Steps
+
+. In the left navigation pane, click *Storage Management* > *Cluster Setup*.
+. On the Cluster Setup page, click *Add*.
+. In the Add Cluster dialog box, specify the required values, such as the host name or IP address of the cluster, user name, password, and port number.
++
+You can change the cluster-management IP address from IPv6 to IPv4 or from IPv4 to IPv6. The new IP address is reflected in the cluster grid and the cluster configuration page after the next monitoring cycle is complete.
+
+. Click *Submit*.
+. In the Authorize Host dialog box, click *View Certificate* to view the certificate information about the cluster.
+. Click *Yes*.
++
+Unified Manager checks the certificate only when the cluster is added initially. Unified Manager does not check the certificate for each API call to ONTAP.
+
+After all the objects for a new cluster are discovered, Unified Manager starts to gather historical performance data for the previous 15 days. These statistics are collected using the data continuity collection functionality. This feature provides you with over two weeks of performance information for a cluster immediately after it is added. After the data continuity collection cycle is completed, real-time cluster performance data is collected, by default, every five minutes.
+
+[NOTE]
+====
+Because the collection of 15 days of performance data is CPU intensive, it is suggested that you stagger the addition of new clusters so that data continuity collection polls are not running on too many clusters at the same time. Additionally, if you restart Unified Manager during the data continuity collection period, the collection will be halted and you will see gaps in the performance charts for the missing timeframe.
+====
+
+[TIP]
+====
+If you receive an error message that you cannot add the cluster, check to see if the clocks on the two systems are not synchronized and the Unified Manager HTTPS certificate start date is later than the date on the cluster. You must ensure that the clocks are synchronized using NTP or a similar service.
+====

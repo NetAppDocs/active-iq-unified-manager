@@ -1,0 +1,12 @@
+---
+permalink: reporting/concept_work_with_reports.html
+sidebar: sidebar
+keywords: work, reports
+summary: "Learn how to find and customize inventory page views into shareable scheduled reports."
+---
+= Working with reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how to find and customize inventory page views into shareable scheduled reports.

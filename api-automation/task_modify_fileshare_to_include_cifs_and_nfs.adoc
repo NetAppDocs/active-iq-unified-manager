@@ -1,0 +1,142 @@
+---
+permalink: api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html
+sidebar: sidebar
+keywords: modify, nfs, file, share, support, cifs
+summary: "You can modify an NFS file share to support CIFS protocol. During file share creation, it is possible to specify both access control list (ACL) parameters and export policy rules for the same file share. However, if you want to enable CIFS on the same volume where you created an NFS file share, you can update the ACL parameters on that file share to support CIFS."
+---
+= Modifying an NFS file share to support CIFS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can modify an NFS file share to support CIFS protocol. During file share creation, it is possible to specify both access control list (ACL) parameters and export policy rules for the same file share. However, if you want to enable CIFS on the same volume where you created an NFS file share, you can update the ACL parameters on that file share to support CIFS.
+
+*What you'll need*
+
+. An NFS file share must have been created with only the export policy details. For information, see _Managing file shares_ and _Modifying storage workloads_.
+. You must have the file share key to run this operation. For information about viewing file share details and retrieving the file share key by using the Job ID, see _Provisioning CIFS and NFS file shares_.
+
+This is applicable for an NFS file share that you created by adding only export policy rules and not ACL parameters. You modify the NFS file share to include the ACL parameters.
+
+.Steps
+
+. On the NFS file share, perform a `PATCH` operation with the ACL details for allowing CIFS access.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+PATCH
+a|
+`/storage-provider/file-shares`
+|===
+*Sample cURL*
++
+Based on the access privileges you assign to the user group, as displayed in the following sample, an ACL is created and assigned to the file share.
++
+----
+{
+  "access_control": {
+    "acl": [
+      {
+        "permission": "read",
+        "user_or_group": "everyone"
+      }
+    ],
+    "active_directory_mapping": {
+      "key": "3b648c1b-d965-03b7-20da-61b791a6263c"
+    }
+----
++
+*Sample JSON output*
++
+The operation returns the Job ID of the Job that runs the update.
+
+. Verify whether the parameters have been added correctly by querying the file share details for the same file share.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/file-shares/\{key}`
+|===
+*Sample JSON output*
++
+----
+"access_control": {
+        "acl": [
+            {
+                "user_or_group": "everyone",
+                "permission": "read"
+            }
+        ],
+        "export_policy": {
+            "id": 1460288880641,
+            "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641",
+            "name": "default",
+            "rules": [
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 1,
+                    "protocols": [
+                        "nfs3",
+                        "nfs4"
+                    ],
+                    "ro_rule": [
+                        "sys"
+                    ],
+                    "rw_rule": [
+                        "sys"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                },
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 2,
+                    "protocols": [
+                        "cifs"
+                    ],
+                    "ro_rule": [
+                        "ntlm"
+                    ],
+                    "rw_rule": [
+                        "ntlm"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "/api/datacenter/protocols/nfs/export-policies/7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641"
+                }
+            }
+        }
+    },
+    "_links": {
+        "self": {
+            "href": "/api/storage-provider/file-shares/7d5a59b3-953a-11e8-8857-00a098dcc959:type=volume,uuid=e581c23a-1037-11ea-ac5a-00a098dcc6b6"
+        }
+    }
+----
++
+You can see the ACL assigned along with the export policy to the same file share.

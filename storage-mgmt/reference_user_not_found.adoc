@@ -1,0 +1,22 @@
+---
+permalink: storage-mgmt/reference_user_not_found.html
+sidebar: sidebar
+keywords: user, not, found
+summary: "Troubleshooting: User not found"
+---
+= User not found
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you are performing an authentication-related operation such as adding, editing, deleting, or testing remote users or groups, the following error message is displayed: `User not found.`
+
+*Cause*
+
+This problem can occur if the user exists in the AD server or LDAP server, and if you have set the base distinguished name to an incorrect value.
+
+*Corrective action*
+
+ .. In the left navigation pane, click *General* > *Remote Authentication*.
+ .. Enter the appropriate information for base distinguished name.
+ .. Click *Save*.

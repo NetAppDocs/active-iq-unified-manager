@@ -1,0 +1,18 @@
+---
+permalink: config/concept_active_iq_platform_events.html
+sidebar: sidebar
+keywords: feature settings, active iq, portal, events
+summary: "You can specify whether you want to enable or disable Active IQ portal events. This setting allows the Active IQ portal to discover and display additional events about system configuration, cabling, and so forth. This option is enabled by default."
+---
+= Enabling Active IQ portal events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can specify whether you want to enable or disable Active IQ portal events. This setting allows the Active IQ portal to discover and display additional events about system configuration, cabling, and so forth. This option is enabled by default.
+
+On enabling this feature, Active IQ Unified Manager displays events discovered by the Active IQ portal. These events are created by running a set of rules against AutoSupport messages generated from all monitored storage systems. These events are different from the other Unified Manager events, and they identify incidents or risks related to system configuration, cabling, best practice, and availability issues.
+
+You can choose to activate or deactivate this feature from *General* > *Feature Settings* > *Active IQ Portal Events*. In sites with no external network access, you must upload the rules manually from *Storage Management* > *Event Setup* > *Upload Rules*.
+
+This feature is enabled by default. Disabling this feature stops the Active IQ events from being discovered or displayed on Unified Manager. When disabled, enabling this feature allows Unified Manager to receive the Active IQ events on a cluster at a predefined time of 00:15 for that cluster timezone.

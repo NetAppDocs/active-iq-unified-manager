@@ -1,0 +1,67 @@
+---
+permalink: install-linux/concept_virtual_infrastructure_or_hardware_system_requirements.html
+sidebar: sidebar
+keywords: virtual, infrastructure, hardware, system, requirements, host, connectivity
+summary: "Installing Unified Manager on virtual infrastructure or a physical system should meet the minimum requirements for memory, CPU, and disk space."
+---
+= Virtual infrastructure and hardware system requirements
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Installing Unified Manager on virtual infrastructure or a physical system should meet the minimum requirements for memory, CPU, and disk space.
+
+The following table displays the values that are recommended for memory, CPU, and disk space resources. These values have been qualified so that Unified Manager meets acceptable performance levels.
+
+[cols="2*",options="header"]
+|===
+| Hardware configuration| Recommended settings
+a|
+RAM
+a|
+12 GB (minimum requirement 8 GB)
+a|
+Processors
+a|
+4 CPUs
+a|
+CPU cycle capacity
+a|
+9572 MHz total (minimum requirement 9572 MHz)
+a|
+Free disk space
+a|
+150 GB, where the capacity is allocated as follows:
+
+* 50 GB allotted to the root partition
+* 100 GB of free disk space allotted to the `/opt/netapp/data` directory, which is mounted on an LVM drive or on a separate local disk attached to the target system
+
+[NOTE]
+====
+For separately mounted `/opt` and `/var/log` directories, ensure that `/opt` has 15 GB and `/var/log` has 16 GB of free space. The `/tmp` directory should have at least 10 GB of free space.
+====
+
+|===
+Unified Manager can be installed on systems with a small amount of memory, but the recommended 12 GB of RAM ensures that enough memory is available for optimal performance, and so that the system can accommodate additional clusters and storage objects as your configuration grows. You should not set any memory limits on the VM where Unified Manager is deployed, and should not enable any features (for example, ballooning) that hinder the software from utilizing the allocated memory on the system.
+
+Additionally, there is a limit to the number of nodes that a single instance of Unified Manager can monitor before you install a second instance of Unified Manager. For more information, see the _Best Practices Guide_.
+
+http://www.netapp.com/us/media/tr-4621.pdf[Technical Report 4621: Unified Manager Best Practices Guide]
+
+Memory-page swapping negatively impacts the performance of the system and the management application. Competing for CPU resources that are unavailable because of overall host utilization can degrade performance.
+
+== Requirement for dedicated use
+
+The physical or virtual system on which you install Unified Manager should be used exclusively for Unified Manager and should not be shared with other applications. Other applications might consume system resources and can drastically reduce the performance of Unified Manager.
+
+== Space requirements for backups
+
+If you plan to use the Unified Manager backup and restore feature, allocate additional capacity so that the "`data`" directory or disk has 150 GB of space. A backup can be written to a local destination or to a remote destination. The best practice is to identify a remote location that is external to the Unified Manager host system that has a minimum of 150 GB of space.
+
+== Requirements for host connectivity
+
+The physical system or virtual system on which you install Unified Manager should be configured in such a way that you can successfully `ping` the host name from the host itself. In case of IPv6 configuration, you should verify that `ping6` to the host name is successful to ensure that the Unified Manager installation succeeds.
+
+You can use the host name (or the host IP address) to access the product web UI. If you configured a static IP address for your network during deployment, then you designated a name for the network host. If you configured the network using DHCP, you should obtain the host name from the DNS.
+
+If you plan to allow users to access Unified Manager by using the short name instead of using the fully qualified domain name (FQDN) or IP address, then your network configuration has to resolve this short name to a valid FQDN.

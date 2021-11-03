@@ -1,0 +1,61 @@
+---
+permalink: storage-mgmt/concept_workloads_dashboard.html
+sidebar: sidebar
+keywords: workloads, overview, data center, sections
+summary: "A workload represents the input/output (I/O) operations of a storage object, such as a volume or LUN. The way the storage is provisioned is based on the expected workload requirements. Workload statistics are tracked by Active IQ Unified Manager only after there is traffic to and from the storage object. For example, the workload IOPS and latency values are available after users start using a database or email application."
+---
+= Workloads overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A workload represents the input/output (I/O) operations of a storage object, such as a volume or LUN. The way the storage is provisioned is based on the expected workload requirements. Workload statistics are tracked by Active IQ Unified Manager only after there is traffic to and from the storage object. For example, the workload IOPS and latency values are available after users start using a database or email application.
+
+The Workloads page displays a summary of the storage workloads of the ONTAP clusters managed by Unified Manager. It provides cumulative at-a-glance information about the storage workloads that conform to the Performance Service Level, as well as the non-conforming storage workloads. It also enables you to assess the total, available, and used capacity and performance (IOPS) of the clusters across your data center.
+
+[NOTE]
+====
+It is recommended that you assess the number of storage workloads that are non-conforming, unavailable, or not managed by any Performance Service Level, and take the necessary actions to ensure their conformance, capacity usage, and IOPS.
+====
+
+The Workloads page has the following two sections:
+
+* Workloads overview: Provides an overview of the number of storage workloads on the ONTAP clusters managed by Unified Manager.
+* Data center overview: Provides an overview of the capacity and IOPS of the storage workloads in the data center. The relevant data is displayed at a data center level and for individual .
+
+== Workloads overview section
+
+The workloads overview section provides cumulative at-a-glance information of the storage workloads. The status of the storage workloads is displayed based on assigned and unassigned Performance Service Levels.
+
+* *Assigned*: The following statuses are reported for storage workloads on which Performance Service Levels have been assigned:
+ ** *Conforming*: Performance of storage workloads is based on the Performance Service Levels assigned to them. If the storage workloads are within the threshold latency defined in the associated Performance Service Levels, they are marked as "`conforming`". The conforming workloads are marked in blue.
+ ** *Non-conforming*: During performance monitoring, storage workloads are marked as "`non-conforming`" if the storage workloads latency exceeds the threshold latency defined in the associated Performance Service Level. The non-conforming workloads are marked in orange.
+ ** *Unavailable*: Storage workloads are marked as "`unavailable`" if they are offline, or if the corresponding cluster is unreachable. The unavailable workloads are marked in red.
+* *Unassigned*: Storage workloads that do not have a Performance Service Level assigned to them, are reported as "`unassigned`". The number is conveyed by the information icon.
+
+The total workload count is the sum total of the assigned and unassigned workloads.
+
+You can click the total number of workloads displayed in this section, and view them on the Workloads page.
+
+The Conformance by Performance Service Levels subsection displays the total number of available storage workloads:
+
+* Conforming to each type of Performance Service Level
+* For which there is a mismatch between the assigned and the recommended Performance Service Levels
+
+== Data center overview section
+
+The data center overview section graphically represents the available and used capacity, and IOPS for all of the clusters in the data center. By using this data, you should manage the capacity and IOPS of the storage workloads. The section also displays the following information for the storage workloads across all of the clusters:
+
+* The total, available, and used capacity for all of the clusters in your data center
+* The total, available, and used IOPS for all of the clusters in your data center
+* The available and used capacity based on each Performance Service Level
+* The available and used IOPS based on each Performance Service Level
+* The total space and IOPS used by the workloads that have no Performance Service Level assigned
+
+*How data center capacity and performance is calculated based on Performance Service Levels*
+
+The used capacity and IOPS is retrieved in terms of the total used capacity and performance of all of the storage workloads in the clusters.
+
+The available IOPS is calculated based on the expected latency and recommended Performance Service Levels on the nodes. It includes the available IOPS for all of the Performance Service Levels whose expected latency is less than or equal to their own expected latency.
+
+The available capacity is calculated based on the expected latency and recommended Performance Service Levels on aggregates. It includes the available capacity for all of the Performance Service Levels whose expected latency is less than or equal to their own expected latency.

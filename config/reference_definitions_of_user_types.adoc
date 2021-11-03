@@ -1,0 +1,34 @@
+---
+permalink: config/reference_definitions_of_user_types.html
+sidebar: sidebar
+keywords: definitions, user types
+summary: "A user type specifies the kind of account the user holds and includes remote users, remote groups, local users, database users, and maintenance users. Each of these types has its own role, which is assigned by a user with the role of Administrator."
+---
+= Definitions of user types
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A user type specifies the kind of account the user holds and includes remote users, remote groups, local users, database users, and maintenance users. Each of these types has its own role, which is assigned by a user with the role of Administrator.
+
+Unified Manager user types are as follows:
+
+* *Maintenance user*
++
+Created during the initial configuration of Unified Manager. The maintenance user then creates additional users and assigns roles. The maintenance user is also the only user with access to the maintenance console. When Unified Manager is installed on a Red Hat Enterprise Linux or CentOS system, the maintenance user is given the user name "`umadmin.`"
+
+* *Local user*
++
+Accesses the Unified Manager UI and performs functions based on the role given by the maintenance user or a user with the Application Administrator role.
+
+* *Remote group*
++
+A group of users that access the Unified Manager UI using the credentials stored on the authentication server. The name of this account should match the name of a group stored on the authentication server. All users within the remote group are given access to the Unified Manager UI using their individual user credentials. Remote groups can perform functions according to their assigned roles.
+
+* *Remote user*
++
+Accesses the Unified Manager UI using the credentials stored on the authentication server. A remote user performs functions based on the role given by the maintenance user or a user with the Application Administrator role.
+
+* *Database user*
++
+Has read-only access to data in the Unified Manager database, has no access to the Unified Manager web interface or the maintenance console, and cannot execute API calls.

@@ -1,0 +1,42 @@
+---
+permalink: storage-mgmt/concept_provision_and_manage_workloads.html
+sidebar: sidebar
+keywords: provision, manage, workloads
+summary: "The active management feature of Active IQ Unified Manager provides Performance Service Levels, Storage Efficiency Policies, and storage provider APIs for provisioning, monitoring, and managing storage workloads in a data center."
+---
+= Provisioning and managing workloads
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The active management feature of Active IQ Unified Manager provides Performance Service Levels, Storage Efficiency Policies, and storage provider APIs for provisioning, monitoring, and managing storage workloads in a data center.
+
+[NOTE]
+====
+Unified Manager provides this functionality by default. You can disable it from *Storage Management* > *Feature Settings* if you do not plan to use this functionality.
+====
+
+When enabled, you can provision workloads on the ONTAP clusters managed by your instance of Unified Manager. You can also assign policies, such as Performance Service Levels and Storage Efficiency Policies on the workloads and manage your storage environment based on those policies.
+
+This feature enables the following functions:
+
+* Automatic discovery of storage workloads on the added clusters enabling easy storage workload evaluation and deployment
+* Provisioning NAS workloads supporting NFS and CIFS protocols
+* Provisioning SAN workloads supporting iSCSI and FCP protocols
+* Support for both NFS and CIFS protocols on the same file share
+* Management of Performance Service Levels and Storage Efficiency Policies
+* Assigning Performance Service Levels and Storage Efficiency Policies to storage workloads
+
+The *Provisioning*, *Storage* > *Workloads*, and *Policies* options on the left pane of the UI enable you to modify various configurations.
+
+You can perform the following functions by using these options:
+
+* View storage workloads on the *Storage* > *Workloads* page
+* Create storage workloads from the Provision Workload page
+* Create and manage Performance Service Levels from Policies
+* Create and manage Storage Efficiency Policies from Policies
+* Assign policies to storage workloads from the Workloads page
+
+*Related information*
+
+link:../config/concept_policy_based_storage_management.html[Policy-based storage management]

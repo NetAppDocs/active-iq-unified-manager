@@ -1,0 +1,36 @@
+---
+permalink: data-protection/reference_edit_resource_pool_dialog_box.html
+sidebar: sidebar
+keywords: edit, resource pool, dialog box
+summary: "You can use the Edit Resource Pool dialog box to change the name and description of an existing resource pool. For example, if the original name and description is inaccurate or incorrect, you can change them so they are more precise."
+---
+= Edit Resource Pool dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Edit Resource Pool dialog box to change the name and description of an existing resource pool. For example, if the original name and description is inaccurate or incorrect, you can change them so they are more precise.
+
+== Text boxes
+
+The text boxes enable you to change the following information for the selected resource pool:
+
+* *Resource Pool Name*
++
+Enables you to enter a new name.
+
+* *Description*
++
+Enables you to enter a new description.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Save*
++
+Saves the changes to the resource pool name and description.
+
+* *Cancel*
++
+Discards the changes and closes the Edit Resource Pool dialog box.

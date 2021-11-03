@@ -1,0 +1,36 @@
+---
+permalink: storage-mgmt/reference_data_mirroring_status_definitions.html
+sidebar: sidebar
+keywords: data mirror, status, definitions
+summary: "MetroCluster configurations provide data mirroring and the additional ability to initiate a failover if an entire site becomes unavailable. The status of data mirroring between the clusters in a MetroCluster configuration can either be Normal or Mirroring Unavailable. Understanding the status enables you to manage your MetroCluster configurations effectively."
+---
+= Data mirroring status definitions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+MetroCluster configurations provide data mirroring and the additional ability to initiate a failover if an entire site becomes unavailable. The status of data mirroring between the clusters in a MetroCluster configuration can either be Normal or Mirroring Unavailable. Understanding the status enables you to manage your MetroCluster configurations effectively.
+[options="header"]
+|===
+| Data mirroring status| Description| Icon displayed
+a|
+Normal
+a|
+Data mirroring between the clusters in the MetroCluster configuration is normal.
+a|
+image:../media/metrocluster_connectivity_optimal.gif[]
+
+a|
+Mirroring Unavailable
+a|
+Data mirroring between the clusters in the MetroCluster configuration is unavailable because of switchover. For example, when the partner cluster is down because of a disaster or when there is a planned switchover for testing purposes.
+a|
+Switchover with errors:
+
+image::../media/metrocluster_connectivity_down.gif[]
+
+Switchover successful:
+
+image::../media/metrocluster_connectivity_failover.gif[]
+
+|===

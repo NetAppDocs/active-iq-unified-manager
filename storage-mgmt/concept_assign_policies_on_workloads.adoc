@@ -1,0 +1,54 @@
+---
+permalink: storage-mgmt/concept_assign_policies_on_workloads.html
+sidebar: sidebar
+keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls
+summary: "You can assign Storage Efficiency Policies (SEPs) and Performance Service Levels (PSLs) to storage workloads from the All Workloads page by using the different navigation options."
+---
+= Assigning policies to workloads
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can assign Storage Efficiency Policies (SEPs) and Performance Service Levels (PSLs) to storage workloads from the All Workloads page by using the different navigation options.
+
+== Assigning policies to a single workload
+
+You can assign either a PSL or an SEP or both, to a single workload. Follow these steps:
+
+. Select the workload.
+. Click the edit icon next to the row, and then click *Edit*.
++
+The *Assigned Performance Service Level* and *Storage Efficiency Policy* fields are enabled.
+
+. Select the required PSL or SEP, or both.
+. Click the check icon to apply the changes.
+
+[NOTE]
+====
+You can also select a workload and click *More Actions* to assign the policies.
+====
+
+== Assigning policies to multiple storage workloads
+
+You can assign a PSL or an SEP to multiple storage workloads together. Follow these steps:
+
+. Select the check boxes for the workloads to which you want to assign the policy, or select all the workloads in your data center.
+. Click *More Actions*.
+. For assigning a PSL, select *Assign Performance Service Level*. For assigning an SEP, select *Assign Storage Efficiency Policy*. A pop-up is displayed for you to select the policy.
+. Select the appropriate policy and click *Apply*. The number of workloads on which the policies are assigned are displayed. The workloads on which the policies are not assigned are also listed, with the cause.
++
+[NOTE]
+====
+Applying policies on workloads in bulk might take some time depending on the number of workloads selected. You can click the *Run in background* button and continue with other tasks while the operation runs in the background. When the bulk assignment is complete, you can view the completion status. If you are applying a PSL on multiple workloads, you cannot trigger another request when the previous job of bulk assignment is running.
+====
+
+== Assigning system-recommended PSLs to workloads
+
+You can assign system-recommended PSLs to those storage workloads in a data center that have no PSLs assigned, or the assigned PSLs do not match the system recommendation. To use this functionality, click the *Assign System Recommended PSLs* button. You do not have to select specific workloads.
+
+The recommendation is internally determined by system analytics, and is skipped for those workloads whose IOPS and other parameters do not coincide with the definitions of any available PSL. Storage workloads with `Waiting for I/O` and Learning statuses are also excluded.
+
+[NOTE]
+====
+There are special keywords that Unified Manager looks for in the workload name to override the system analytics and recommend a different PSL for the workload. When the workload has the letters "`ora`" in the name, the **Extreme Performance**PSL is recommended. And when the workload has the letters "`vm`" in the name, the **Performance**PSL is recommended.
+====

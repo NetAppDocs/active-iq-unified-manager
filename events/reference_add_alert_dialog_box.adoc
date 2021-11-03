@@ -1,0 +1,101 @@
+---
+permalink: events/reference_add_alert_dialog_box.html
+sidebar: sidebar
+keywords: add, alert, dialog, box, name, resources, events, actions, command buttons
+summary: "You can create alerts to notify you when a particular event is generated, so that you can address the issue quickly and thereby minimize impact to your environment. You can create alerts for a single resource or a set of resources, and for events of a particular severity type. You can also specify the notification method and frequency of the alerts."
+---
+= Add Alert dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create alerts to notify you when a particular event is generated, so that you can address the issue quickly and thereby minimize impact to your environment. You can create alerts for a single resource or a set of resources, and for events of a particular severity type. You can also specify the notification method and frequency of the alerts.
+
+You must have the Application Administrator or Storage Administrator role.
+
+== Name
+
+This area enables you to specify a name and description for the alert:
+
+* *Alert Name*
++
+Enables you to specify an alert name.
+
+* *Alert Description*
++
+Enables you to specify a description for the alert.
+
+== Resources
+
+This area enables you to select an individual resource or group the resources based on a dynamic rule for which you want to trigger the alert. A _dynamic rule_ is the set of resources filtered based on the text string you specify. You can search for resources by selecting a resource type from the drop-down list or you can specify the exact resource name to display a specific resource.
+
+If you are creating an alert from any of the storage object details pages, the storage object is automatically included in the alert.
+
+* *Include*
++
+Enables you to include the resources for which you want to trigger alerts. You can specify a text string to group resources that match the string and select this group to be included in the alert. For example, you can group all volumes whose name contains the "abc" string.
+
+* *Exclude*
++
+Enables you to exclude resources for which you do not want to trigger alerts. For example, you can exclude all volumes whose name contains the "xyz" string.
++
+The Exclude tab is displayed only when you select all resources of a particular resource type: for example, +<<All Volumes>> or <<All Volumes whose name contains 'xyz'>>+.
++
+If a resource conforms to both the include and exclude rules that you have specified, the exclude rule takes precedence over the include rule and the alert is not generated for the event.
+
+== Events
+
+This area enables you to select the events for which you want to create the alerts. You can create alerts for events based on a particular severity or for a set of events.
+
+To select more than one event, you should hold down the Ctrl key while you make your selections.
+
+* *Event Severity*
++
+Enables you to select events based on the severity type, which can be Critical, Error, or Warning.
+
+* *Event Name Contains*
++
+Enables you to select events whose name contains specified characters.
+
+== Actions
+
+This area enables you to specify the users that you want to notify when an alert is triggered. You can also specify the notification method and the frequency of notification.
+
+* *Alert these users*
++
+Enables you to specify the email address or user name of the user to receive notifications.
++
+If you modify the email address that is specified for the user and reopen the alert for editing, the Name field appears blank because the modified email address is no longer mapped to the user that was previously selected. Also, if you have modified the email address of the selected user from the Users page, the modified email address is not updated for the selected user.
+
+* *Notification Frequency*
++
+Enables you to specify the frequency with which the management server sends notifications until the event is acknowledged, resolved, or moved to the obsolete state.
++
+You can choose the following notification methods:
+
+ ** Notify only once
+ ** Notify at a specified frequency
+ ** Notify at a specified frequency within the specified time range
+
+* *Issue SNMP trap*
++
+Selecting this box enables you to specify whether SNMP traps should be sent to the globally configured SNMP host.
+
+* *Execute Script*
++
+Enables you to add your custom script to the alert. This script is executed when an alert is generated.
++
+[NOTE]
+====
+If you do not see this capability available in the user interface it is because the functionality has been disabled by your administrator. If required, you can enable this functionality from *Storage Management* > *Feature Settings*.
+====
+
+== Command buttons
+
+* *Save*
++
+Creates an alert and closes the dialog box.
+
+* *Cancel*
++
+Discards the changes and closes the dialog box.

@@ -1,0 +1,12 @@
+---
+permalink: storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html
+sidebar: sidebar
+keywords: manage, monitor, metrocluster, configurations
+summary: "The monitoring support for MetroCluster configurations in the Unified Manager web UI enables you to check for any connectivity issues in your MetroCluster configuration. Discovering a connectivity issue early enables you to manage your MetroCluster configurations effectively."
+---
+= Managing and monitoring MetroCluster configurations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The monitoring support for MetroCluster configurations in the Unified Manager web UI enables you to check for any connectivity issues in your MetroCluster configuration. Discovering a connectivity issue early enables you to manage your MetroCluster configurations effectively.

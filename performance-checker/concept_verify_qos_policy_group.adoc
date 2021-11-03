@@ -1,0 +1,23 @@
+---
+permalink: performance-checker/concept_verify_qos_policy_group.html
+sidebar: sidebar
+keywords: verify, volumes, qos, policy, group, unusually, high, activity
+summary: 'You can review the workloads in the Quality of Service \(QoS\) policy group with the highest change in activity to determine whether more than one workload caused the event. You can also see whether other workloads are still exceeding the set throughput limit or whether they are back within their expected range of activity.'
+---
+= Verify whether other volumes in the QoS policy group have unusually high activity
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can review the workloads in the Quality of Service (QoS) policy group with the highest change in activity to determine whether more than one workload caused the event. You can also see whether other workloads are still exceeding the set throughput limit or whether they are back within their expected range of activity.
+
+On the Event details page, in the System Diagnosis section, you can sort the workloads by peak deviation in activity to display the workloads with the highest change in activity at the top of the table. These workloads might be the "`bullies`" whose activity exceeded the set limit and might have caused the event.
+
+You can navigate to the Workload Analysis page for each volume workload to review its IOPS activity. If the workload has periods of very high operations activity, it might have contributed to the event. You can change the policy group settings for the workload or move the workload to a different policy group.
+
+You can use ONTAP System Manager or the ONTAP CLI commands to manage policy groups, as follows:
+
+* Create a policy group.
+* Add or remove workloads in a policy group.
+* Move a workload between policy groups.
+* Change the throughput limit of a policy group.

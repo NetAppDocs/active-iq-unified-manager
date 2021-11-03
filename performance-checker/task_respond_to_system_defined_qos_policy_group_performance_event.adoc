@@ -1,0 +1,47 @@
+---
+permalink: performance-checker/task_respond_to_system_defined_qos_policy_group_performance_event.html
+sidebar: sidebar
+keywords: qos, policy, group, performance, events
+summary: "Unified Manager generates QoS policy warning events when workload throughput (IOPS, IOPS/TB, or MBps) has exceeded the defined ONTAP QoS policy setting and workload latency is becoming affected. These system-defined events provide the opportunity to correct potential performance issues before many workloads are affected by latency."
+---
+= Responding to QoS policy group performance events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager generates QoS policy warning events when workload throughput (IOPS, IOPS/TB, or MBps) has exceeded the defined ONTAP QoS policy setting and workload latency is becoming affected. These system-defined events provide the opportunity to correct potential performance issues before many workloads are affected by latency.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+* There must be new, acknowledged, or obsolete performance events.
+
+Unified Manager generates warning events for QoS policy breaches when workload throughput has exceeded the defined QoS policy setting during each performance collection period for the previous hour. Workload throughput may exceed the QoS threshold for only a short period of time during each collection period, but Unified Manager displays only the "`average`" throughput during the collection period on the chart. For this reason you may receive QoS events while the throughput for a workload might not have crossed the policy threshold shown in the chart.
+
+You can use System Manager or the ONTAP commands to manage policy groups, including the following tasks:
+
+* Creating a new policy group for the workload
+* Adding or removing workloads in a policy group
+* Moving a workload between policy groups
+* Changing the throughput limit of a policy group
+* Moving a workload to a different aggregate or node
+
+.Steps
+. Display the *Event details* page to view information about the event.
+. Review the *Description*, which describes the threshold breach that caused the event.
++
+For example, the message "`IOPS value of 1,352 IOPS on vol1_NFS1 has triggered a WARNING event to identify potential performance problems for the workload`" indicates that a QoS Max IOPS event occurred on volume vol1_NFS1.
+
+. Review the *Event Information* section to see more details about when the event occurred and how long the event has been active.
++
+Additionally, for volumes or LUNs that are sharing the throughput of a QoS policy you can see the names of the top three workloads that are consuming the most IOPS or MBps.
+
+. Under the *System Diagnosis* section, review the two charts: one for total average IOPS or MBps (depending on the event), and one for latency. When arranged this way you can see which cluster components are most affecting latency when the workload approached the QoS max limit.
++
+For a shared QoS policy event, the top three workloads are shown in the throughput chart. If more than three workloads are sharing the QoS policy, then additional workloads are added together in an "`Other workloads`" category. Additionally, the Latency chart shows the average latency on all workloads that are part of the QoS policy.
++
+Note that for adaptive QoS policy events that the IOPS and MBps charts show IOPS or MBps values that ONTAP has converted from the assigned IOPS/TB threshold policy based on the size of the volume.
+
+. Under the *Suggested Actions* section, review the suggestions and determine which actions you should perform to avoid an increase in latency for the workload.
++
+If required, click the *Help* button to view more details about the suggested actions you can perform to try and resolve the performance event.

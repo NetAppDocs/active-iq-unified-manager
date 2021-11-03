@@ -1,0 +1,42 @@
+---
+permalink: api-automation/concept_async_run.html
+sidebar: sidebar
+keywords: job, objects, asynchronous, processes
+summary: "Active IQ Unified Manager provides the jobs API that retrieves information about the Jobs performed while running other APIs. you must know how asynchronous processing works using the Job object."
+---
+= Job objects asynchronous processes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager provides the `jobs` API that retrieves information about the Jobs performed while running other APIs. you must know how asynchronous processing works using the Job object.
+
+Some of the API calls, particularly those that are used for adding or modifying resources, can take longer to complete than other calls. Unified Manager processes these long-running requests asynchronously.
+
+== Asynchronous requests described using Job object
+
+After making an API call that runs asynchronously, the HTTP response code 202 indicates the request has been successfully validated and accepted, but not yet completed. The request is processed as a background task which continues to run after the initial HTTP response to the client. The response includes the Job object anchoring the request, including its unique identifier.
+
+== Querying the Job object associated with an API request
+
+The Job object returned in the HTTP response contains several properties. You can query the state property to determine if the request completed successfully. A Job object can be in one of the following states:
+
+* `NORMAL`
+* `WARNING`
+* `PARTIAL_FAILURES`
+* `ERROR`
+
+There are two techniques you can use when polling a Job object to detect a terminal state for the task, either success or failure:
+
+* Standard polling request: The current Job state is returned immediately.
+* Long polling request: When the job state moves to `NORMAL, ERROR,` or `PARTIAL_FAILURES.`
+
+== Steps in an asynchronous request
+
+You can use the following high-level procedure to complete an asynchronous API call:
+
+. Issue the asynchronous API call.
+. Receive an HTTP response 202 indicating successful acceptance of the request.
+. Extract the identifier for the Job object from the response body.
+. Within a loop, wait for the Job object to reach the terminal state `NORMAL, ERROR,` or `PARTIAL_FAILURES.`
+. Verify the terminal state of the Job and retrieve the Job result.

@@ -1,0 +1,36 @@
+---
+permalink: events/task_disable_alerts_for_resolved_and_obsolete_events.html
+sidebar: sidebar
+keywords: enable, disable, alerts, resolved, obsolete, events
+summary: "For all events that you have configured to send alerts, an alert message is sent when those events transition through all available states: New, Acknowledged, Resolved, and Obsolete. If you do not want to receive alerts for events as they move into the Resolved and Obsolete states, you can configure a global setting to suppress those alerts."
+---
+= Enabling and Disabling alerts for Resolved and Obsolete events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For all events that you have configured to send alerts, an alert message is sent when those events transition through all available states: New, Acknowledged, Resolved, and Obsolete. If you do not want to receive alerts for events as they move into the Resolved and Obsolete states, you can configure a global setting to suppress those alerts.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+By default, alerts are not sent for events as they move into the Resolved and Obsolete states.
+
+.Steps
+
+. In the left navigation pane, click *Storage Management* > *Alert Setup*.
+. In the *Alert Setup* page, perform one of the following actions using the slider control next to the item *Alerts for Resolved and Obsolete events*:
++
+[options="header"]
+|===
+| To...| Do this...
+a|
+Stop sending alerts as events are resolved or obsoleted
+a|
+Move the slider control to the left
+a|
+Start sending alerts as events are resolved or obsoleted
+a|
+Move the slider control to the right
+|===

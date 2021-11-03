@@ -1,0 +1,22 @@
+---
+permalink: storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html
+sidebar: sidebar
+keywords: fix, ontap, issues, directly, unified manager, fix it, fix-it, remediation
+summary: 'You can fix certain ONTAP issues directly from the Unified Manager user interface instead of having to use ONTAP System Manager or the ONTAP CLI. The “Management Actions” option provides fixes to a number of ONTAP issues that have triggered Unified Manager events.'
+---
+= Managing ONTAP issues or features directly from Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can fix certain ONTAP issues or manage certain ONTAP features directly from the Unified Manager user interface, instead of having to use ONTAP System Manager or the ONTAP CLI. The "`Management Actions`" option provides fixes to a number of ONTAP issues that have triggered Unified Manager events.
+
+You can fix issues directly from the Management Actions page by selecting the *Management Actions* option on the left navigation pane. Management Actions are also available from the Management Actions panel on the Dashboard, Event details page, and Workload Analysis selection on the left-navigation menu.
+
+There are certain issues that Unified Manager can diagnose thoroughly and provide a single resolution. For certain ONTAP features, such as anti-ransomware monitoring, Unified Manager performs internal checks and recommends specific actions. When available, those resolutions are displayed in Management Actions with a *Fix It* button. Click the *Fix It* button to fix the issue. You must have the Application Administrator or Storage Administrator role.
+
+Unified Manager sends ONTAP commands to the cluster to make the requested fix. When the fix is complete the event is obsoleted.
+
+Some management actions enable you to fix the same issue on multiple storage objects using the *Fix All* button. For example, there may be 5 volumes that have the "Volume Space Full" event that could be resolved by clicking the *Fix All* management action for "Enable volume autogrow". One click enables you to fix this issue on 5 volumes.
+
+For information about the ONTAP issues and features that you can manage by using  automatic remediation, see link:../storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html[What issues can Unified Manager fix]

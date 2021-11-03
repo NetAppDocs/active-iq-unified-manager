@@ -1,0 +1,335 @@
+---
+permalink: events/reference_aggregate_events.html
+sidebar: sidebar
+keywords: aggregate events, impact, area, availability, capacity, configuration, performance
+summary: "Aggregate events provide you with information about the status of aggregates so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= Aggregate events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Aggregate events provide you with information about the status of aggregates so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: availability
+
+An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
+[options="header"]
+|===
+| Event name(Trap name) |Impact level|  Source type| Severity
+a|
+Aggregate Offline(ocumEvtAggregateStateOffline)
+
+a|
+Incident
+a|
+Aggregate
+a|
+Critical
+a|
+Aggregate Failed(ocumEvtAggregateStateFailed)
+
+a|
+Incident
+a|
+Aggregate
+a|
+Critical
+a|
+Aggregate Restricted(ocumEvtAggregateStateRestricted)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Aggregate Reconstructing(ocumEvtAggregateRaidStateReconstructing)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Aggregate Degraded(ocumEvtAggregateRaidStateDegraded)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Cloud Tier Partially Reachable(ocumEventCloudTierPartiallyReachable)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Cloud Tier Unreachable(ocumEventCloudTierUnreachable)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Error
+a|
+Cloud Tier Access Denied for Aggregate Relocation *(arlNetraCaCheckFailed)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Error
+a|
+Cloud Tier Access Denied for Aggregate Relocation During Storage Failover *(gbNetraCaCheckFailed)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Error
+a|
+MetroCluster Aggregate Left Behind(ocumEvtMetroClusterAggregateLeftBehind)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Error
+a|
+MetroCluster Aggregate Mirroring Degraded(ocumEvtMetroClusterAggregateMirrorDegraded)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Error
+|===
+
+== Impact area: capacity
+[options="header"]
+|===
+| Event name(Trap name)| Impact level| Source type| Severity
+a|
+Aggregate Space Nearly Full(ocumEvtAggregateNearlyFull)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Aggregate Space Full(ocumEvtAggregateFull)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Error
+a|
+Aggregate Days Until Full(ocumEvtAggregateDaysUntilFullSoon)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Error
+a|
+Aggregate Overcommitted(ocumEvtAggregateOvercommitted)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Error
+a|
+Aggregate Nearly Overcommitted(ocumEvtAggregateAlmostOvercommitted)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Aggregate Snapshot Reserve Full(ocumEvtAggregateSnapReserveFull)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Aggregate Growth Rate Abnormal(ocumEvtAggregateGrowthRateAbnormal)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+|===
+
+== Impact area: configuration
+[options="header"]
+|===
+| Event name(Trap name) | Impact level| Source type| Severity
+a|
+Aggregate Discovered(Not applicable)
+
+a|
+Event
+a|
+Aggregate
+a|
+Information
+a|
+Aggregate Renamed(Not applicable)
+
+a|
+Event
+a|
+Aggregate
+a|
+Information
+a|
+Aggregate Deleted(Not applicable)
+
+a|
+Event
+a|
+Node
+a|
+Information
+|===
+
+== Impact area: performance
+[options="header"]
+|===
+| Event name(Trap name)|Impact level| Source type| Severity
+a|
+Aggregate IOPS Critical Threshold Breached(ocumAggregateIopsIncident)
+
+a|
+Incident
+a|
+Aggregate
+a|
+Critical
+a|
+Aggregate IOPS Warning Threshold Breached(ocumAggregateIopsWarning)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Aggregate MB/s Critical Threshold Breached(ocumAggregateMbpsIncident)
+
+a|
+Incident
+a|
+Aggregate
+a|
+Critical
+a|
+Aggregate MB/s Warning Threshold Breached( ocumAggregateMbpsWarning)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Aggregate Latency Critical Threshold Breached(ocumAggregateLatencyIncident)
+
+a|
+Incident
+a|
+Aggregate
+a|
+Critical
+a|
+Aggregate Latency Warning Threshold Breached( ocumAggregateLatencyWarning)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Aggregate Performance Capacity Used Critical Threshold Breached(ocumAggregatePerfCapacityUsedIncident)
+
+a|
+Incident
+a|
+Aggregate
+a|
+Critical
+a|
+Aggregate Performance Capacity Used Warning Threshold Breached(ocumAggregatePerfCapacityUsedWarning)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Aggregate Utilization Critical Threshold Breached (ocumAggregateUtilizationIncident)
+
+a|
+Incident
+a|
+Aggregate
+a|
+Critical
+a|
+Aggregate Utilization Warning Threshold Breached (ocumAggregateUtilizationWarning)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Aggregate Disks Over-utilized Threshold Breached (ocumAggregateDisksOverUtilizedWarning)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+a|
+Aggregate Dynamic Threshold Breached (ocumAggregateDynamicEventWarning)
+
+a|
+Risk
+a|
+Aggregate
+a|
+Warning
+|===

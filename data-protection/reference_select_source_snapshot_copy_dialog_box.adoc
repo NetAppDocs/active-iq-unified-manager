@@ -1,0 +1,138 @@
+---
+permalink: data-protection/reference_select_source_snapshot_copy_dialog_box.html
+sidebar: sidebar
+keywords: select, source, snapshot, copy, dialog box
+summary: "You use the Select Source Snapshot Copy dialog box to select a specific Snapshot copy to transfer data between protection relationships, or you select the default behavior, which varies depending on whether you are initializing, updating, or resynchronizing a relationship, and whether the relationship is a SnapMirror or SnapVault."
+---
+= Select Source Snapshot Copy dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You use the Select Source Snapshot Copy dialog box to select a specific Snapshot copy to transfer data between protection relationships, or you select the default behavior, which varies depending on whether you are initializing, updating, or resynchronizing a relationship, and whether the relationship is a SnapMirror or SnapVault.
+
+== Default
+
+Enables you to select the default behavior for determining which Snapshot copy is used for initialize, update, and resynchronize transfers for SnapVault and SnapMirror relationships.
+
+If you are performing a SnapVault transfer, the default behavior for each operation is as follows:
+
+[cols="3*",options="header"]
+|===
+| Operation| Default SnapVault behavior when source is read/write| Default SnapVault behavior when source is Data Protection (DP)
+a|
+Initialize
+a|
+Creates a new Snapshot copy and transfers it.
+a|
+Transfers the last exported Snapshot copy.
+a|
+Update
+a|
+Transfers only labeled Snapshot copies, as specified in the policy.
+a|
+Transfers the last exported Snapshot copy.
+a|
+Resynchronize
+a|
+Transfers all labeled Snapshot copies created after the newest common Snapshot copy.
+a|
+Transfers the newest labeled Snapshot copy.
+|===
+If you are performing a SnapMirror transfer, the default behavior for each operation is as follows:
+
+[cols="3*",options="header"]
+|===
+| Operation| Default SnapMirror behavior| Default SnapMirror behavior when relationship is second hop in a SnapMirror to SnapMirror cascade
+a|
+Initialize
+a|
+Creates a new Snapshot copy and transfers it and all Snapshot copies created prior to the new Snapshot copy.
+a|
+Transfers all Snapshot copies from the source.
+a|
+Update
+a|
+Creates a new Snapshot copy and transfers it and all Snapshot copies created prior to the new Snapshot copy.
+a|
+Transfers all Snapshot copies.
+a|
+Resynchronize
+a|
+Creates a new Snapshot copy and then transfers all Snapshot copies from the source.
+a|
+Transfers all Snapshot copies from the secondary volume to the tertiary volume, and deletes any data added after creation of the newest common Snapshot copy.
+|===
+
+== Existing Snapshot Copy
+
+Enables you to select an existing Snapshot copy from the list if Snapshot copy selection is allowed for that operation.
+
+* *Snapshot Copy*
++
+Displays the existing Snapshot copies from which you can select for a transfer.
+
+* *Date Created*
++
+Displays the date and time the Snapshot copy was created. Snapshot copies are listed from most recent to least recent, with the most recent at the top of the list.
+
+If you are performing a SnapVault transfer and you want to select an existing Snapshot copy to transfer from a source to a destination, the behavior for each operation is as follows:
+
+[cols="3*",options="header"]
+|===
+| Operation| SnapVault behavior when specifying a Snapshot copy| SnapVault behavior when specifying a Snapshot copy in a cascade
+a|
+Initialize
+a|
+Transfers the specified Snapshot copy.
+a|
+Source Snapshot copy selection is not supported for data protection volumes.
+a|
+Update
+a|
+Transfers the specified Snapshot copy.
+a|
+Source Snapshot copy selection is not supported for data protection volumes.
+a|
+Resynchronize
+a|
+Transfers the selected Snapshot copy.
+a|
+Source Snapshot copy selection is not supported for data protection volumes.
+|===
+If you are performing a SnapMirror transfer and you want to select an existing Snapshot copy to transfer from a source to a destination, the behavior for each operation is as follows:
+
+[cols="3*",options="header"]
+|===
+| Operation| SnapMirror behavior when specifying a Snapshot copy| SnapMirror behavior when specifying a Snapshot copy in a cascade
+a|
+Initialize
+a|
+Transfers all Snapshot copies on the source, up to the specified Snapshot copy.
+a|
+Source Snapshot copy selection is not supported for data protection volumes.
+a|
+Update
+a|
+Transfers all Snapshot copies on the source, up to the specified Snapshot copy.
+a|
+Source Snapshot copy selection is not supported for data protection volumes.
+a|
+Resynchronize
+a|
+Transfers all Snapshot copies from the source, up to the selected Snapshot copy, and then deletes any data added after creation of the newest common Snapshot copy.
+a|
+Source Snapshot copy selection is not supported for data protection volumes.
+|===
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Submit*
++
+Submits your selections and closes the Select Source Snapshot Copy dialog box.
+
+* *Cancel*
++
+Discards your selections and closes the Select Source Snapshot Copy dialog box.

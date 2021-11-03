@@ -1,0 +1,46 @@
+---
+permalink: data-protection/task_abort_active_data_protection_transfer_from_health_volume.html
+sidebar: sidebar
+keywords: abort, active, data protection, transfer, volume health details page
+summary: "You can abort an active data protection transfer when you want to stop a SnapMirror replication that is in progress. You can also clear the restart checkpoint for a transfer if it is not a baseline transfer. You might abort a transfer when it conflicts with another operation, such as a volume move."
+---
+= Aborting an active data protection transfer from the Volume / Health details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can abort an active data protection transfer when you want to stop a SnapMirror replication that is in progress. You can also clear the restart checkpoint for a transfer if it is not a baseline transfer. You might abort a transfer when it conflicts with another operation, such as a volume move.
+
+[NOTE]
+====
+You cannot abort volumes relationships that are protected by the Consistency Group.
+====
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+
+The abort action does not display in the following instances:
+
+* If RBAC settings do not allow this action: for example, if you have only operator privileges
+* When the volume ID is unknown: for example, when you have an intercluster relationship and the destination cluster has not yet been discovered
+
+You cannot clear the restart checkpoint for a baseline transfer.
+
+.Steps
+
+. In the *Protection* tab of the *Volume / Health* details page, right-click the relationship in the topology view for the data transfer you want to abort and select *Abort*.
++
+The Abort Transfer dialog box is displayed.
+
+. If you want to clear the restart checkpoint for a transfer that is not a baseline transfer, select *Clear Checkpoints*.
+. Click *Continue*.
++
+The Abort Transfer dialog box is closed, and the status of the abort operation displays at the top of the Volume / Health details page along with a link to the job details.
+
+. *Optional:* Click the *View details* link to go to the *Job* details page for additional details and to view job progress.
+. Click each job task to view its details.
+. Click the Back arrow on your browser to return to the *Volume / Health* details page.
++
+The abort operation is finished when all job tasks successfully complete.

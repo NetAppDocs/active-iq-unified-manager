@@ -1,0 +1,29 @@
+---
+permalink: data-protection/task_retry_failed_protection_job.html
+sidebar: sidebar
+keywords: retry, failed, protection job
+summary: "After you have taken measures to fix a failed protection job, you can use Retry to run the job again. Retrying a job creates a new job using the original job ID."
+---
+= Retrying a failed protection job
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you have taken measures to fix a failed protection job, you can use *Retry* to run the job again. Retrying a job creates a new job using the original job ID.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+You can retry only one failed job at a time. Selecting more than one job disables the *Retry* button. Only jobs of the type Protection Configuration and Protection Relationship Operation can be retried.
+
+.Steps
+
+. In the left navigation pane, click *Protection* > *Jobs*.
+. From the list of jobs, select a single failed Protection Configuration or Protection Relationship Operation type job.
++
+The *Retry* button is enabled.
+
+. Click *Retry*.
++
+The job is restarted.

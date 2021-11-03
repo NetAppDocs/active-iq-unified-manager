@@ -1,0 +1,106 @@
+---
+permalink: api-automation/concept_rest_api_access_and_authentication_in_um_apis.html
+sidebar: sidebar
+keywords: rest api, access, authentication, active iq, unified, manager
+summary: "The Active IQ Unified Manager REST API is accessible by using any web browser or programming platform that can issue HTTP requests. Unified Manager supports basic HTTP authentication mechanism. Before you call the Unified Manager REST API, you must authenticate a user."
+---
+= REST API access and authentication in Active IQ Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Active IQ Unified Manager REST API is accessible by using any web browser or programming platform that can issue HTTP requests. Unified Manager supports basic HTTP authentication mechanism. Before you call the Unified Manager REST API, you must authenticate a user.
+
+== REST access
+
+You can use any web browser or programming platform that can issue HTTP requests to access the Unified Manager REST API. For example, after logging in to Unified Manager, you can type the URL in any browser to retrieve the attributes of all of the management stations, such as the management station name, key, and IP address.
+
+* *Request*
++
+GET
+----
+https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
+----
+
+* *Response*
++
+----
+{
+  "records": [
+    {
+      "key": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster,uuid=4c6bf721-2e3f-11e9-a3e2-00a0985badbb",
+      "name": "fas8040-206-21",
+      "uuid": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb",
+      "contact": null,
+      "location": null,
+      "version": {
+        "full": "NetApp Release Dayblazer__9.5.0: Thu Jan 17 10:28:33 UTC 2019",
+        "generation": 9,
+        "major": 5,
+        "minor": 0
+      },
+      "isSanOptimized": false,
+      "management_ip": "10.226.207.25",
+      "nodes": [
+        {
+          "key": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=12cf06cc-2e3a-11e9-b9b4-00a0985badbb",
+          "uuid": "12cf06cc-2e3a-11e9-b9b4-00a0985badbb",
+          "name": "fas8040-206-21-01",
+          "_links": {
+            "self": {
+              "href": "/api/datacenter/cluster/nodes/4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=12cf06cc-2e3a-11e9-b9b4-00a0985badbb"
+            }
+          },
+          "location": null,
+          "version": {
+            "full": "NetApp Release Dayblazer__9.5.0: Thu Jan 17 10:28:33 UTC 2019",
+            "generation": 9,
+            "major": 5,
+            "minor": 0
+          },
+          "model": "FAS8040",
+          "uptime": 13924095,
+          "serial_number": "701424000157"
+        },
+        {
+          "key": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=1ed606ed-2e3a-11e9-a270-00a0985bb9b7",
+          "uuid": "1ed606ed-2e3a-11e9-a270-00a0985bb9b7",
+          "name": "fas8040-206-21-02",
+          "_links": {
+            "self": {
+              "href": "/api/datacenter/cluster/nodes/4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=1ed606ed-2e3a-11e9-a270-00a0985bb9b7"
+            }
+          },
+          "location": null,
+          "version": {
+            "full": "NetApp Release Dayblazer__9.5.0: Thu Jan 17 10:28:33 UTC 2019",
+            "generation": 9,
+            "major": 5,
+            "minor": 0
+          },
+          "model": "FAS8040",
+          "uptime": 14012386,
+          "serial_number": "701424000564"
+        }
+      ],
+      "_links": {
+        "self": {
+          "href": "/api/datacenter/cluster/clusters/4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster,uuid=4c6bf721-2e3f-11e9-a3e2-00a0985badbb"
+        }
+      }
+    },
+----
+
+ ** `_IP address/hostname_` is the IP address or the fully qualified domain name (FQDN) of the API server.
+ ** Port 443
++
+443 is the default HTTPS port. You can customize the HTTPS port, if required.
+
++
+To issue POST, PATCH, and DELETE HTTP requests from a web browser, you have to use browser plugins. You can also access the REST API by using scripting platforms such as cURL and Perl.
+
+== Authentication
+
+Unified Manager supports the basic HTTP authentication scheme for APIs. For secure information flow (request and response), the REST APIs are accessible only over HTTPS. The API server provides a self-signed SSL certificate to all clients for server verification. This certificate can be replaced by a custom certificate (or CA certificate).
+
+You must configure user access to the API server for invoking the REST APIs. The users can be local users (user profiles stored in the local database) or LDAP users (if you have configured the API server to authenticate over LDAP). You can manage user access by logging in to the Unified Manager Administration Console user interface.

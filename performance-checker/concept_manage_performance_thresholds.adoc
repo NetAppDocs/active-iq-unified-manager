@@ -1,0 +1,19 @@
+---
+permalink: performance-checker/concept_manage_performance_thresholds.html
+sidebar: sidebar
+keywords: manage, performance, thresholds
+summary: "Performance threshold policies enable you to determine the point at which Unified Manager generates an event to inform system administrators about issues that could be impacting workload performance. These threshold policies are known as user-defined performance thresholds."
+---
+= Managing performance thresholds
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Performance threshold policies enable you to determine the point at which Unified Manager generates an event to inform system administrators about issues that could be impacting workload performance. These threshold policies are known as _user-defined_ performance thresholds.
+
+This release supports user-defined, system-defined, and dynamic performance thresholds. With dynamic and system-defined performance thresholds, Unified Manager analyzes the workload activity to determine the appropriate threshold value. With user-defined thresholds, you can define the upper performance limits for many performance counters and for many storage objects.
+
+[NOTE]
+====
+System-defined performance thresholds and dynamic performance thresholds are set by Unified Manager and are not configurable. If you are receiving unnecessary events from any system-defined performance threshold policies, you can disable individual policies from the Event Setup page.
+====

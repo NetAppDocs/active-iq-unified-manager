@@ -1,0 +1,31 @@
+---
+permalink: data-protection/task_edit_resource_pools.html
+sidebar: sidebar
+keywords: edit, resource, pools
+summary: "You can edit an existing resource pool when you want to change the resource pool name and the description."
+---
+= Editing resource pools
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit an existing resource pool when you want to change the resource pool name and the description.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+The *Edit* button is enabled only when one resource pool is selected. If more than one resource pool is selected, the *Edit* button is disabled.
+
+.Steps
+
+. In the left navigation pane, click *Protection* > *Resource Pools*.
+. Select one resource pool from the list.
+. Click *Edit*.
++
+The Edit Resource Pool window is displayed.
+
+. Edit the resource pool name and description as needed.
+. Click *Save*.
++
+The new name and description are displayed in the resource pool list.

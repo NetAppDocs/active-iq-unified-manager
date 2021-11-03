@@ -1,0 +1,14 @@
+---
+permalink: config/concept_what_diagnostic_user_does.html
+sidebar: sidebar
+keywords: diagnostic, user, capabilities
+summary: "The purpose of diagnostic access is to enable technical support to assist you in troubleshooting, and you should only use it when directed by technical support."
+---
+= Diagnostic user capabilities
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The purpose of diagnostic access is to enable technical support to assist you in troubleshooting, and you should only use it when directed by technical support.
+
+The diagnostic user can execute OS-level commands when directed by technical support, for troubleshooting purposes.

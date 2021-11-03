@@ -1,0 +1,87 @@
+---
+permalink: api-automation/concept_manage_fileshares_api.html
+sidebar: sidebar
+keywords: manage, file, share
+summary: "You can use the /storage-provider/file-shares API to view, add, modify, and delete the CIFS and NFS file share volumes in your data center environment."
+---
+= Managing file shares
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the `/storage-provider/file-shares` API to view, add, modify, and delete the CIFS and NFS file share volumes in your data center environment.
+
+Before provisioning the file share volumes, ensure that the SVM has been created and provisioned with the supported protocols. If you are assigning Performance Service Levels (PSLs) or Storage Efficiency Policies (SEPs), while provisioning, the PSLs or SEPs should be created before creating the file shares.
+
+== View file shares
+
+You can use the following method to view the file share volumes available in your Unified Manager environment. When you have added an ONTAP cluster as a datasource on Active IQ Unified Manager, the storage workloads for those clusters are automatically added to your Unified Manager instance. This API retrieves the file shares automatically and manually added to your Unified Manager instance. You can view the details of a specific file share by running this API with the file share key.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/file-shares`
+
+`/storage-provider/file-shares/\{key}`
+
+|===
+
+== Add file shares
+
+You can use the following method to add CIFS and NFS file shares in your SVM. You must enter the details of the file share that you want to create, as the input parameters. You cannot use this API for adding FlexGroup volumes.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+POST
+a|
+`/storage-provider/file-shares`
+|===
+
+[NOTE]
+====
+Depending on whether the access control list (ACL) parameters or the export policy parameters are provided, CIFS shares or NFS file shares are created. If you do not provide the values for the ACL parameters, CIFS shares are not created, and NFS shares are created by default, providing access to all.
+====
+
+*Creating data-protection volumes*: When you add file shares to your SVM, the type of the volume that is mounted, by default, is `rw` (read-write). For creating data-protection (DP) volumes, specify `dp` as the value for the `type` parameter.
+
+== Delete file shares
+
+You can use the following method to delete a specific file share. You need to enter the file share key as an input parameter to delete a particular file share.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+DELETE
+a|
+`/storage-provider/file-shares/\{key}`
+|===
+
+== Modify file shares
+
+You can use the following method to modify a file share and update its properties.
+
+You need to provide the file share key to modify a particular file share. Additionally, you need to enter the property that you want to update, along with its value.
+
+[NOTE]
+====
+Note that you can update only one property at a single invocation of this API. For multiple updates, you need to run this API as many times.
+====
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+PATCH
+a|
+`/storage-provider/file-shares/\{key}`
+|===

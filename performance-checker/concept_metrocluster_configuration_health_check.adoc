@@ -1,0 +1,14 @@
+---
+permalink: performance-checker/concept_metrocluster_configuration_health_check.html
+sidebar: sidebar
+keywords: metrocluster, configuration, health, check
+summary: "You can use Unified Manager to review the health of the clusters in a MetroCluster configuration. The health status and events help you determine whether there are hardware or software issues that might be impacting the performance of your workloads."
+---
+= MetroCluster configuration health check
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to review the health of the clusters in a MetroCluster configuration. The health status and events help you determine whether there are hardware or software issues that might be impacting the performance of your workloads.
+
+If you configure Unified Manager to send email alerts, you can check your email for any health issues on the local or remote cluster that might have contributed to a performance event. In the Unified Manager GUI, you can select *Event Management* to see a list current events and then use the filters to display MetroCluster configuration events only.

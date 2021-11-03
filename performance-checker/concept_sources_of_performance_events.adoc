@@ -1,0 +1,32 @@
+---
+permalink: performance-checker/concept_sources_of_performance_events.html
+sidebar: sidebar
+keywords: sources, performance, events
+summary: "Performance events are issues related to workload performance on a cluster. They help you identify storage objects with slow response times, also known as high latency. Together with other health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times."
+---
+= Sources of performance events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Performance events are issues related to workload performance on a cluster. They help you identify storage objects with slow response times, also known as high latency. Together with other health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times.
+
+Unified Manager receives performance events from the following sources:
+
+* *User-defined performance threshold policy events*
++
+Performance issues based on custom threshold values that you have set. You configure performance threshold policies for storage objects; for example, aggregates and volumes, so that events are generated when a threshold value for a performance counter has been breached.
++
+You must define a performance threshold policy and assign it to a storage object to receive these events.
+
+* *System-defined performance threshold policy events*
++
+Performance issues based on threshold values that are system-defined. These threshold policies are included with the installation of Unified Manager to cover common performance problems.
++
+These threshold policies are enabled by default, and you might see events shortly after adding a cluster.
+
+* *Dynamic performance threshold events*
++
+Performance issues that are the result of failures or errors in an IT infrastructure, or from workloads overutilizing cluster resources. The cause of these events might be a simple issue that corrects itself over a period of time or that can be addressed with a repair or configuration change. A dynamic threshold event indicates that the workloads on an ONTAP system are slow due to other workloads with high usage of shared cluster components.
++
+These thresholds are enabled by default, and you might see events after three days of collecting data from a new cluster.

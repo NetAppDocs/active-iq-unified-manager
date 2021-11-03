@@ -1,0 +1,64 @@
+---
+permalink: storage-mgmt/concept_what_options_do_i_have_in_fix_it_button.html
+sidebar: sidebar
+keywords: fix it,fix all
+summary: 'The Management Actions page provides you with the Fix It or Fix All button to fix issues that Unified Manager has been notified about through an event.'
+---
+= What options do I have when I see the Fix It or Fix All button
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Management Actions page provides you with the *Fix It* or *Fix All* button to fix issues that Unified Manager has been notified about through an event.
+
+We recommend that you click the buttons to fix an issue, as required. However, if you are not sure that you want to resolve the issue as recommended by Unified Manager, you can perform the following actions:
+
+
+[options="header"]
+|===
+| What do you want to do?| *Action*
+a|
+Have Unified Manager fix the issue on all identified objects.
+a|
+Click the *Fix All* button.
+a|
+Do not fix the issue for any of the identified objects at this time and hide this management action until the event is raised again.
+a|
+Click the down arrow and click *Dismiss All*.
+a|
+Fix the issue on only some of the identified objects.
+a|
+Click the name of the management action to expand the list and show all individual *Fix It* actions.Then follow the steps for fixing or dismissing individual management actions.
+
+|===
+[options="header"]
+
+|===
+| What do you want to do?| Action
+a|
+Have Unified Manager fix the issue.
+a|
+Click the *Fix It* button.
+a|
+Do not fix the issue at this time and hide this management action until the event is raised again.
+a|
+Click the down arrow and click *Dismiss*.
+a|
+Display the details for this event so you can better understand the issue.
+a|
+
+* Click the *Fix It* button and review the fix that will be applied in the resulting dialog box.
+* Click the down arrow and click *View Event Detail* to display the Event details page.
+
+Then click *Fix It* from either of these resulting pages if you want to fix the issue.
+
+a|
+Display the details for this storage object so you can better understand the issue.
+a|
+Click the name of the storage object to display details in either the Performance Explorer or Health Details page.
+|===
+In some cases the fix is reflected in the next 15 minute configuration poll. In other cases it can take up to many hours for the configuration change to be verified and for the event to be obsoleted.
+
+To see the list of completed or in progress management actions, click the filter icon and select *Completed* or *In Progress*.
+
+Fix All operations run in a serial fashion, so when you view the *In Progress* panel some objects will have the Status *In Progress* whereas others will have the Status *Scheduled*; meaning they are still waiting to be implemented.

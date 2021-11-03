@@ -1,0 +1,14 @@
+---
+permalink: config/concept_manage_authentication.html
+sidebar: sidebar
+keywords: manage, authentication
+summary: "You can enable authentication using either LDAP or Active Directory on the Unified Manager server and configure it to work with your servers to authenticate remote users."
+---
+= Managing authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can enable authentication using either LDAP or Active Directory on the Unified Manager server and configure it to work with your servers to authenticate remote users.
+
+For enabling remote authentication, setting up authentication services, and adding authentication severs, see the previous section on *Configuring Unified Manager to send alert notifications*.

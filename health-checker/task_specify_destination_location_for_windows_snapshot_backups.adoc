@@ -1,0 +1,43 @@
+---
+permalink: health-checker/task_specify_destination_location_for_windows_snapshot_backups.html
+sidebar: sidebar
+keywords: specify, destination location, windows, snapshot, backups
+summary: "You should configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters and use maintenance console to define the location."
+---
+= Specifying the destination location for Windows Snapshot backups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You should configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters and use maintenance console to define the location.
+
+* You must have the administrator privilege for Windows host on which Active IQ Unified Manager is installed.
+* You must have a user ID and password authorized to log in to the maintenance console of the Unified Manager server.
+* You must have the Cluster Management IP address, the name of the storage VM, the name of the volume, LUN name, and the storage system user name and password.
+* You must have mounted the volume as a network drive to the Active IQ Unified Manager host, and you must have the mount drive.
+
+.Steps
+. Using Power Shell, connect to the IP address or fully qualified domain name of the Active IQ Unified Manager system.
+. Log in to the system with the maintenance user (umadmin) name and password.
+. Enter the command `maintenance_console` and press Enter.
+. In the maintenance console *Main Menu*, enter the number for the *Backup Restore* option.
+. Enter the number for *Configure NetApp Snapshot Backup*.
+. Enter the number to configure iSCSI.
+. Review the information that you will need to provide and then enter the number for *Enter Backup Configuration Details*.
+. To identify the volume where the Snapshot will be written, enter the IP address of the Cluster Management interface, the name of the storage VM, the name of the volume, LUN name, the storage system user name and password, and the mount drive.
+. Verify this information and enter `y`.
++
+The system performs the following tasks:
+
+ ** Storage VM is validated
+ ** Volume is validated
+ ** Mount drive and status is validated
+ ** LUN existence and status
+ ** Network drive existence
+ ** Existence of recommend space (more than twice of mysql data directory) at mounted volume is validated
+ ** LUN path corresponding to the dedicated LUN in the volume
+ ** igroup name
+ ** GUID of the volume where the network drive is mounted
+ ** iSCSI initiator used to communicate with ONTAP
+
+. Exit the maintenance console and launch the Active IQ Unified Manager interface to create the Snapshot backup schedule if you have not already done this.

@@ -1,0 +1,23 @@
+---
+permalink: health-checker/task_add_annotations_dynamically.html
+sidebar: sidebar
+keywords: add, annotations, dynamically
+summary: "When you create custom annotations, Unified Manager dynamically associates clusters, storage virtual machines (SVMs), and volumes with the annotations by using rules. These rules automatically assign the annotations to storage objects."
+---
+= Adding annotations dynamically
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you create custom annotations, Unified Manager dynamically associates clusters, storage virtual machines (SVMs), and volumes with the annotations by using rules. These rules automatically assign the annotations to storage objects.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Annotations*.
+. In the *Annotations* page, click *Add Annotation*.
+. In the *Add Annotation* dialog box, type a name and description for the annotation.
+. Optional: In the *Annotation Values* section, click *Add* to add values to the annotation.
+. Click *Save*.

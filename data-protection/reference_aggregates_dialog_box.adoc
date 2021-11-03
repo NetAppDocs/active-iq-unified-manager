@@ -1,0 +1,147 @@
+---
+permalink: data-protection/reference_aggregates_dialog_box.html
+sidebar: sidebar
+keywords: aggregates, dialog box
+summary: "You can use the Aggregates dialog box to select the aggregates that you want to add to your resource pool."
+---
+= Aggregates dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Aggregates dialog box to select the aggregates that you want to add to your resource pool.
+
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Add*
++
+Adds the selected aggregates to the resource pool. The Add button is not enabled until at least one aggregate is selected.
+
+* *Cancel*
++
+Discards the changes, and closes the Aggregates dialog box.
+
+== Aggregates list
+
+The Aggregates list displays (in tabular format) the names and properties of monitored aggregates.
+
+* *Status*
++
+Displays the current status of a volume. The status can be Critical (image:../media/sev_critical_um60.png[]), Error (image:../media/sev_error_um60.png[]), Warning (image:../media/sev_warning_um60.png[]), or Normal (image:../media/sev_normal_um60.png[]).
++
+You can move the pointer over the status to view more information about the event or events generated for the volume.
+
+* *Aggregate Name*
++
+Displays the name of the aggregate.
+
+* *State*
++
+Displays the current state of the aggregate, which can be one of the following:
+
+ ** Offline
++
+Read or write access is not allowed.
+
+ ** Restricted
++
+Limited operations (such as parity reconstruction) are allowed, but data access is not allowed.
+
+ ** Online
++
+Read and write access to the volumes that are hosted on this aggregate is allowed.
+
+ ** Creating
++
+The aggregate is being created.
+
+ ** Destroying
++
+The aggregate is being destroyed.
+
+ ** Failed
++
+The aggregate cannot be brought online.
+
+ ** Frozen
++
+The aggregate is (temporarily) not serving requests.
+
+ ** Inconsistent
++
+The aggregate has been marked corrupted; you should contact technical support.
+
+ ** Iron Restricted
++
+Diagnostic tools cannot be run on the aggregate.
+
+ ** Mounting
++
+The aggregate is in the process of mounting.
+
+ ** Partial
++
+At least one disk was found for the aggregate, but two or more disks are missing.
+
+ ** Quiescing
++
+The aggregate is being quiesced.
+
+ ** Quiesced
++
+The aggregate is quiesced.
+
+ ** Reverted
++
+The revert of an aggregate is completed.
+
+ ** Unmounted
++
+The aggregate is offline.
+
+ ** Unmounting
++
+The aggregate is being taken offline.
+
+ ** Unknown
++
+The aggregate is discovered, but the aggregate information is not yet retrieved by the Unified Manager server.
+
+* *Cluster*
++
+Displays the name of the cluster on which the aggregate resides.
+
+* *Node*
++
+Displays the name of the storage controller that contains the aggregate.
+
+* *Total Capacity*
++
+Displays the total data size (in MB, GB, and so on) of the aggregate. By default, this column is hidden.
+
+* *Committed Capacity*
++
+Displays the total space (in MB, GB, and so on) that is committed for all the volumes in the aggregate. By default, this column is hidden.
+
+* *Used Capacity*
++
+Displays the amount of space (in MB, GB, and so on) that is used in the aggregate.
+
+* *Available Capacity*
++
+Displays the amount of space (in MB, GB, and so on) that is available for data in the aggregate. By default, this column is hidden.
+
+* *Available %*
++
+Displays the percentage of space that is available for data in the aggregate. By default, this column is hidden.
+
+* *Used %*
++
+Displays the percentage of space that is used by data in the aggregate.
+
+* *RAID Type*
++
+Displays the RAID type of the selected volume. The RAID type can be RAID0, RAID4, RAID-DP, RAID-TEC, or Mixed RAID.

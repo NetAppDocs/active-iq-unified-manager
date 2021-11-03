@@ -1,0 +1,32 @@
+---
+permalink: data-protection/task_create_snapvault_policy_to_maximize_transfer_efficiency.html
+sidebar: sidebar
+keywords: create, snapvault, policy,  maximize, transfer, efficiency
+summary: "You can create a new SnapVault policy to set the priority for a SnapVault transfer. You use policies to maximize the efficiency of transfers from the primary to the secondary in a protection relationship."
+---
+= Creating a SnapVault policy to maximize transfer efficiency
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a new SnapVault policy to set the priority for a SnapVault transfer. You use policies to maximize the efficiency of transfers from the primary to the secondary in a protection relationship.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+* You must have already completed Destination Information area in the Configure Protection dialog box.
+
+.Steps
+
+. From the *SnapVault* tab of the *Configure Protection* dialog box, click the *Create Policy* link in the *Relationship Settings* area.
++
+The SnapVault tab is displayed.
+
+. In the *Policy Name* field, type the name that you want to give the policy.
+. In the *Transfer Priority* field, select the transfer priority that you want to assign to the policy.
+. *Optional:* In the *Comment* field, enter a comment for the policy.
+. In the *Replication Label* area, add or edit a replication label, as necessary.
+. Click *Create*.
++
+The new policy is displayed in the Create Policy drop-down list.

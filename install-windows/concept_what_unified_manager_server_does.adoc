@@ -1,0 +1,14 @@
+---
+permalink: install-windows/concept_what_unified_manager_server_does.html
+sidebar: sidebar
+keywords: unified manager, server
+summary: "The Unified Manager server infrastructure consists of a data collection unit, a database, and an application server. It provides infrastructure services such as discovery, monitoring, role-based access control (RBAC), auditing, and logging."
+---
+= What the Unified Manager server does
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Unified Manager server infrastructure consists of a data collection unit, a database, and an application server. It provides infrastructure services such as discovery, monitoring, role-based access control (RBAC), auditing, and logging.
+
+Unified Manager collects cluster information, stores the data in the database, and analyzes the data to see if there are any cluster issues.

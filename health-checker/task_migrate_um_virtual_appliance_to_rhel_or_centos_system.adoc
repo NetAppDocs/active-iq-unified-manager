@@ -1,0 +1,56 @@
+---
+permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html
+sidebar: sidebar
+keywords: unified manager, migrate, virtual, appliance, linux system
+summary: "You can restore a Unified Manager MySQL database dump backup from a virtual appliance to a Red Hat Enterprise Linux or CentOS Linux system if you want to change the host operating system on which Unified Manager is running."
+---
+= Migrating a Unified Manager virtual appliance to a Linux system
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can restore a Unified Manager MySQL database dump backup from a virtual appliance to a Red Hat Enterprise Linux or CentOS Linux system if you want to change the host operating system on which Unified Manager is running.
+
+*What you'll need*
+
+* On the virtual appliance:
+ ** You must have the Operator, Application Administrator, or Storage Administrator role.
+ ** You must know the name of the Unified Manager maintenance user for the restore operation.
+* On the Linux system:
+ ** You must have installed Unified Manager on a RHEL or CentOS server following the instructions in the Installation Guide.
+ ** The version of Unified Manager on this server must be the same as the version on the virtual appliance from which you are using the backup file.
+ ** Do not launch the UI or configure any clusters, users, or authentication settings on the Linux system after installation. The backup file populates this information during the restore process.
+ ** You must have the root user credentials for the Linux host.
+
+These steps describe how to create a backup file on the virtual appliance, copy the backup files to the Red Hat Enterprise Linux or CentOS system, and then restore the database backup to the new system.
+
+.Steps
+. On the virtual appliance, click *Management* > *Database Backup*.
+. In the *Database Backup* page, click *Backup Settings*.
+. Change the backup path to /jail/support.
+. In the Schedule section, select *Scheduled Daily*, and enter a time a few minutes past the current time so that the backup is created shortly.
+. Click *Apply*.
+. Wait a few hours for the backup to be generated.
++
+A full backup can be over 1 GB and can take three to four hours to complete.
+
+. Log in as the root user to the Linux host on which Unified Manager is installed and copy the backup files from /support on the virtual appliance using SCP.`root@<rhel_server>:/# scp -r admin@<vapp_server_ip_address>:/support/* .`
++
+`root@ocum_rhel-21:/# scp -r admin@10.10.10.10:/support/* .`
++
+Make sure you have copied the .7z backup file and all the .7z repository files in the /database-dumps-repo subdirectory.
+
+. At the command prompt, restore the backup: `um backup restore -f /<backup_file_path>/<backup_file_name>`
++
+`um backup restore -f /UM_9.7.N151113.1348_backup_unix_02-12-2019-04-16.7z`
+
+. After the restore operation completes, log in to the Unified Manager web UI.
+
+You should perform the following tasks:
+
+* Generate a new HTTPS security certificate and restart the Unified Manager server.
+* Change the backup path to the default setting for your Linux system (/data/ocum-backup), or to a new path of your choice, because there is no /jail/support path on the Linux system.
+* Reconfigure both sides of your Workflow Automation connection, if WFA is being used.
+* Reconfigure SAML authentication settings, if you are using SAML.
+
+After you have verified that everything is running as expected on your Linux system, you can shut down and remove the Unified Manager virtual appliance.

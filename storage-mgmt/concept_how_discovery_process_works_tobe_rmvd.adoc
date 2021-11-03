@@ -1,0 +1,18 @@
+---
+permalink: storage-mgmt/concept_how_discovery_process_works_tobe_rmvd.html
+sidebar: sidebar
+keywords: discovery, process, works
+summary: "After you have added the cluster to Unified Manager, the server discovers the cluster objects and adds them to its database. Understanding how the discovery process works helps you to manage your organization’s clusters and their objects."
+---
+= How the discovery process works
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you have added the cluster to Unified Manager, the server discovers the cluster objects and adds them to its database. Understanding how the discovery process works helps you to manage your organization's clusters and their objects.
+
+The default monitoring interval is 15 minutes: if you have added a cluster to Unified Manager server, it takes 15 minutes to display the cluster details in the Unified Manager UI.
+
+The following image illustrates the discovery process in Active IQ Unified Manager:
+
+image::../media/discovery_process_oc_6_0.gif[How the discovery process works]

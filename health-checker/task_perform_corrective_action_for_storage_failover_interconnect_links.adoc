@@ -1,0 +1,58 @@
+---
+permalink: health-checker/task_perform_corrective_action_for_storage_failover_interconnect_links.html
+sidebar: sidebar
+keywords: perform, corrective action, storage failover, interconnect links
+summary: "When you display the Event details page of a storage failover-related event, you can review the summary information of the page to determine the urgency of the event, possible cause of the issue, and possible resolution to the issue."
+---
+= Performing corrective action for storage failover interconnect links down
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you display the Event details page of a storage failover-related event, you can review the summary information of the page to determine the urgency of the event, possible cause of the issue, and possible resolution to the issue.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+In this example scenario, the event summary provided on the Event details page contains the following information about the storage failover interconnect link down condition:
+
+----
+Event: Storage Failover Interconnect One or More Links Down
+
+Summary
+
+Severity: Warning
+State: New
+Impact Level: Risk
+Impact Area: Availability
+Source: aardvark
+Source Type: Node
+Acknowledged By:
+Resolved By:
+Assigned To:
+Cause: At least one storage failover interconnected link
+       between the nodes aardvark and bonobo is down.
+       RDMA interconnect is up (Link0 up, Link1 down)
+----
+
+The example event information indicates that a storage failover interconnect link, Link1, between HA pair nodes aardvark and bonobo is down, but that Link0 between Apple and Boy is active. Because one link is active, the remote dynamic memory access (RDMA) is still functioning and a storage failover job can still succeed.
+
+However, to ensure against both links failing and storage failover protection being totally disabled, you decide to further diagnose the reason for Link1 going down.
+
+.Steps
+. From the *Event* details page, you can click the link to the event specified in the Source field to obtain further details of other events that might be related to the storage failover interconnection link down condition.
++
+In this example, the source of the event is the node named aardvark. Clicking that node name displays the HA Details for the affected HA pair, aardvark and bonobo, on the Nodes tab of the Cluster / Health details page, and displays other events that recently occurred on the affected HA pair.
+
+. Review the *HA Details* for more information relating to the event.
++
+In this example, the relevant information is in the Events table. The table shows the "`Storage Failover Connection One or More Link Down`" event, the time the event was generated, and, again, the node from which this event originated.
+
+Using the node location information in the HA Details, request or personally complete a physical inspection and repair of the storage failover issue on the affected HA pair nodes.
+
+*Related information*
+
+link:../events/reference_event_details_page.html[Event details page]
+
+link:../config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]

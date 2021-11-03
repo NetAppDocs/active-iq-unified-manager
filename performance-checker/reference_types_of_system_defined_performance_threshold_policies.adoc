@@ -1,0 +1,123 @@
+---
+permalink: performance-checker/reference_types_of_system_defined_performance_threshold_policies.html
+sidebar: sidebar
+keywords: system-defined, performance, threshold, policies, cluster, node. aggregate, qos
+summary: "Unified Manager provides some standard threshold policies that monitor cluster performance and generate events automatically. These policies are enabled by default, and they generate warning or information events when the monitored performance thresholds are breached."
+---
+= Types of system-defined performance threshold policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager provides some standard threshold policies that monitor cluster performance and generate events automatically. These policies are enabled by default, and they generate warning or information events when the monitored performance thresholds are breached.
+
+[NOTE]
+====
+System-defined performance threshold policies are not enabled on Cloud Volumes ONTAP, ONTAP Edge, or ONTAP Select systems.
+====
+
+If you are receiving unnecessary events from any system-defined performance threshold policies, you can disable the events for individual policies from the Event Setup page.
+
+== Cluster threshold policies
+
+The system-defined cluster performance threshold policies are assigned, by default, to every cluster being monitored by Unified Manager:
+
+* *Cluster load imbalance*
++
+Identifies situations in which one node is operating at a much higher load than other nodes in the cluster, and therefore potentially affecting workload latencies.
++
+It does this by comparing the performance capacity used value for all nodes in the cluster to see if there is a load difference of 30% between any nodes. This is a warning event.
+
+* *Cluster capacity imbalance*
++
+Identifies situations in which one aggregate has a much higher used capacity than other aggregates in the cluster, and therefore potentially affecting space required for operations.
++
+It does this by comparing the used capacity value for all aggregates in the cluster to see if there is a difference of 70% between any aggregates. This is a warning event.
+
+== Node threshold policies
+
+The system-defined node performance threshold policies are assigned, by default, to every node in the clusters being monitored by Unified Manager:
+
+* *Performance Capacity Used Threshold Breached*
++
+Identifies situations in which a single node is operating above the bounds of its operational efficiency, and therefore potentially affecting workload latencies.
++
+It does this by looking for nodes that are using more than 100% of their performance capacity for more than 12 hours. This is a warning event.
+
+* *Node HA pair over-utilized*
++
+Identifies situations in which nodes in an HA pair are operating above the bounds of the HA pair operational efficiency.
++
+It does this by looking at the performance capacity used value for the two nodes in the HA pair. If the combined performance capacity used of the two nodes exceeds 200% for more than 12 hours, then a controller failover will impact workload latencies. This is an informational event.
+
+* *Node disk fragmentation*
++
+Identifies situations in which a disk or disks in an aggregate are fragmented, slowing key system services and potentially affecting workload latencies on a node.
++
+It does this by looking at certain read and write operation ratios across all aggregates on a node. This policy might also be triggered during SyncMirror resynchronization or when errors are found during disk scrub operations. This is a warning event.
++
+[NOTE]
+====
+The "`Node disk fragmentation`" policy analyzes HDD-only aggregates; Flash Pool, SSD, and FabricPool aggregates are not analyzed.
+====
+
+== Aggregate threshold policies
+
+The system-defined aggregate performance threshold policy is assigned by default to every aggregate in the clusters being monitored by Unified Manager:
+
+* *Aggregate disks over-utilized*
++
+Identifies situations in which an aggregate is operating above the limits of its operational efficiency, thereby potentially affecting workload latencies. It identifies these situations by looking for aggregates where the disks in the aggregate are more than 95% utilized for more than 30 minutes. This multicondition policy then performs the following analysis to help determine the cause of the issue:
+
+ ** Is a disk in the aggregate currently undergoing background maintenance activity?
++
+Some of the background maintenance activities a disk could be undergoing are disk reconstruction, disk scrub, SyncMirror resynchronization, and reparity.
+
+ ** Is there a communications bottleneck in the disk shelf Fibre Channel interconnect?
+ ** Is there too little free space in the aggregate?
+A warning event is issued for this policy only if one (or more) of the three subordinate policies are also considered breached. A performance event is not triggered if only the disks in the aggregate are more than 95% utilized.
+
+[NOTE]
+====
+The "`Aggregate disks over-utilized`" policy analyzes HDD-only aggregates and Flash Pool (hybrid) aggregates; SSD and FabricPool aggregates are not analyzed.
+====
+
+== Workload latency threshold policies
+
+The system-defined workload latency threshold policies are assigned to any workload that has a configured Performance Service Level policy that has a defined "`expected latency`" value:
+
+* *Workload Volume/LUN Latency Threshold Breached as defined by Performance Service Level*
++
+Identifies volumes (file shares) and LUNs that have exceeded their "`expected latency`" limit, and that are affecting workload performance. This is a warning event.
++
+It does this by looking for workloads that have exceeded the expected latency value for 30% of the time during the previous hour.
+
+== QoS threshold policies
+
+The system-defined QoS performance threshold policies are assigned to any workload that has a configured ONTAP QoS maximum throughput policy (IOPS, IOPS/TB, or MB/s). Unified Manager triggers an event when the workload throughput value is 15% less than the configured QoS value:
+
+* *QoS Max IOPS or MB/s threshold*
++
+Identifies volumes and LUNs that have exceeded their QoS maximum IOPS or MB/s throughput limit, and that are affecting workload latency. This is a warning event.
++
+When a single workload is assigned to a policy group, it does this by looking for workloads that have exceeded the maximum throughput threshold defined in the assigned QoS policy group during each collection period for the previous hour.
++
+When multiple workloads share a single QoS policy, it does this by adding the IOPS or MB/s of all workloads in the policy and checking that total against the threshold.
+
+* *QoS Peak IOPS/TB or IOPS/TB with Block Size threshold*
++
+Identifies volumes that have exceeded their adaptive QoS peak IOPS/TB throughput limit (or IOPS/TB with Block Size limit), and that are affecting workload latency. This is a warning event.
++
+It does this by converting the peak IOPS/TB threshold defined in the adaptive QoS policy into a QoS maximum IOPS value based on the size of each volume, and then it looks for volumes that have exceeded the QoS max IOPS during each performance collection period for the previous hour.
++
+[NOTE]
+====
+This policy is applied to volumes only when the cluster is installed with ONTAP 9.3 and later software.
+====
++
+When the "`block size`" element has been defined in the adaptive QoS policy, the threshold is converted into a QoS maximum MB/s value based on the size of each volume. Then it looks for volumes that have exceeded the QoS max MB/s during each performance collection period for the previous hour.
++
+[NOTE]
+====
+This policy is applied to volumes only when the cluster is installed with ONTAP 9.5 and later software.
+====

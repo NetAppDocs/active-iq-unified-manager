@@ -1,0 +1,28 @@
+---
+permalink: storage-mgmt/task_view_status_of_management_actions_to_fix.html
+sidebar: sidebar
+keywords: view, status, management, actions, chosen, fix
+summary: "You can view the status of all management actions that you have chosen to fix in the Management Actions page. Most actions are shown as Completed fairly quickly after Unified Manager sends the ONTAP command to the cluster. However, some actions, such as moving a volume, can take longer."
+---
+= Viewing the status of management actions you have chosen to fix
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the status of all management actions that you have chosen to fix in the Management Actions page. Most actions are shown as *Completed* fairly quickly after Unified Manager sends the ONTAP command to the cluster. However, some actions, such as moving a volume, can take longer.
+
+There are three filters available on the Management Actions page:
+
+* *Completed* shows both management actions that completed successfully and those that have failed. *Failed* actions provide a reason for the failure so that you can address the issue manually.
+* *In Progress* shows both those management actions that are being implemented, and those that are scheduled to be implemented.
+* *Recommended* shows all the management actions that are currently active for all monitored clusters.
+
+.Steps
+
+. Click *Management Actions* on the left navigation pane. Alternately, click image:../media/more_icon.gif[] at the top of the *Management Actions* panel on the *Dashboard* and select the View you want to see.
++
+The Management Actions page is displayed.
+
+. You can click the caret icon next to the management action in the *Description* field to see details about the issue and the command that is being used to fix the issue.
+. To view any actions that *failed*, sort on the *Status* column in the *Completed* View. You can use the *Filter* tool for this same purpose.
+. If you want to view more information about a Failed management action, or if you decide that you want to fix a Recommended management action, you can click *View Event Detail* from the expanded area after you click the caret icon next to the management action. A *Fix It* button is available from that page.

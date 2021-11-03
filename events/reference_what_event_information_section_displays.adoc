@@ -1,0 +1,149 @@
+---
+permalink: events/reference_what_event_information_section_displays.html
+sidebar: sidebar
+keywords: event, information, section, displays
+summary: "You use the Event Information section on the Event details page to view the details about a selected event, such as the event severity, impact level, impact area, and event source."
+---
+= What the Event Information section displays
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You use the Event Information section on the Event details page to view the details about a selected event, such as the event severity, impact level, impact area, and event source.
+
+Fields that are not applicable to the event type are hidden. You can view the following event details:
+
+* *Event Trigger Time*
++
+The time at which the event was generated.
+
+* *State*
++
+The event state: New, Acknowledged, Resolved, or Obsolete.
+
+* *Obsoleted Cause*
++
+The actions that caused the event to be obsoleted, for example, the issue was fixed.
+
+* *Event Duration*
++
+For active (new and acknowledged) events, this is the time between detection and the time when the event was last analyzed. For obsolete events, this is the time between detection and when the event was resolved.
++
+This field is displayed for all performance events, and for other event types only after they have been resolved or obsoleted.
+
+* *Last Seen*
++
+The date and time at which the event was last seen as active.
++
+For performance events this value may be more recent than the Event Trigger Time as this field is updated after each new collection of performance data as long as the event is active. For other types of events, when in the New or Acknowledged state, this content is not updated and the field is therefore hidden.
+
+* *Severity*
++
+The event severity: Critical (image:../media/sev_critical_um60.png[]), Error (image:../media/sev_error_um60.png[]), Warning (image:../media/sev_warning_um60.png[]), and Information (image:../media/sev_information_um60.gif[]).
+
+* *Impact Level*
++
+The event impact level: Incident, Risk, Event, or Upgrade.
+
+* *Impact Area*
++
+The event impact area: Availability, Capacity, Performance, Protection, Configuration, or Security.
+
+* *Source*
++
+The name of the object on which the event has occurred.
++
+When viewing the details for a shared QoS policy event, up to three of the workload objects that are consuming the most IOPS or MBps are listed in this field.
++
+You can click the source name link to display the health or performance details page for that object.
+
+* *Source Annotations*
++
+Displays the annotation name and value for the object to which the event is associated.
++
+This field is displayed only for health events on clusters, SVMs, and volumes.
+
+* *Source Groups*
++
+Displays the names of all the groups of which the impacted object is a member.
++
+This field is displayed only for health events on clusters, SVMs, and volumes.
+
+* *Source Type*
++
+The object type (for example, SVM, Volume, or Qtree) with which the event is associated.
+
+* *On Cluster*
++
+The name of the cluster on which the event occurred.
++
+You can click the cluster name link to display the health or performance details page for that cluster.
+
+* *Affected Objects Count*
++
+The number of objects affected by the event.
++
+You can click the object link to display the inventory page populated with the objects that are currently affected by this event.
++
+This field is displayed only for performance events.
+
+* *Affected Volumes*
++
+The number of volumes that are being affected by this event.
++
+This field is displayed only for performance events on nodes or aggregates.
+
+* *Triggered Policy*
++
+The name of the threshold policy that issued the event.
++
+You can hover your cursor over the policy name to see the details of the threshold policy. For adaptive QoS policies the defined policy, block size, and allocation type (allocated space or used space) is also displayed.
++
+This field is displayed only for performance events.
+
+* *Rule Id*
++
+For Active IQ platform events, this is the number of the rule that was triggered to generate the event.
+
+* *Acknowledged by*
++
+The name of the person who acknowledged the event and the time that the event was acknowledged.
+
+* *Resolved by*
++
+The name of the person who resolved the event and the time that the event was resolved.
+
+* *Assigned to*
++
+The name of the person who is assigned to work on the event.
+
+* *Alert Settings*
++
+The following information about alerts is displayed:
+
+ ** If there are no alerts associated with the selected event, an *Add alert* link is displayed.
++
+You can open the Add Alert dialog box by clicking the link.
+
+ ** If there is one alert associated with the selected event, the alert name is displayed.
++
+You can open the Edit Alert dialog box by clicking the link.
+
+ ** If there is more than one alert associated with the selected event, the number of alerts is displayed.
++
+You can open the Alert Setup page by clicking the link to view more details about these alerts.
+
++
+Alerts that are disabled are not displayed.
+
+* *Last Notification Sent*
++
+The date and time at which the most recent alert notification was sent.
+
+* *Send by*
++
+The mechanism that was used to send the alert notification: email or SNMP trap.
+
+* *Previous Script Run*
++
+The name of the script that was executed when the alert was generated.

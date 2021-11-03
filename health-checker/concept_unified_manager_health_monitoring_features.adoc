@@ -1,0 +1,43 @@
+---
+permalink: health-checker/concept_unified_manager_health_monitoring_features.html
+sidebar: sidebar
+keywords: unified manager, health, monitor, features
+summary: "Unified Manager is built on a server infrastructure that delivers scalability, supportability, and enhanced monitoring and notification capabilities. Unified Manager supports monitoring of systems running ONTAP software."
+---
+= Unified Manager health monitoring features
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager is built on a server infrastructure that delivers scalability, supportability, and enhanced monitoring and notification capabilities. Unified Manager supports monitoring of systems running ONTAP software.
+
+Unified Manager includes the following features:
+
+* Discovery, monitoring, and notifications for systems that are installed with ONTAP software:
+ ** Physical objects: nodes, disks, disk shelves, SFO pairs, ports, and Flash Cache
+ ** Logical objects: clusters, storage virtual machines (SVMs), aggregates, volumes, LUNs, namespaces, qtrees, LIFs, Snapshot copies, junction paths, NFS shares, SMB shares, user and group quotas, QoS policy groups, and initiator groups
+ ** Protocols: CIFS, NFS, FC, iSCSI, NVMe, and FCoE
+ ** Storage efficiency: SSD aggregates, Flash Pool aggregates, FabricPool aggregates, deduplication, and compression
+ ** Protection: SnapMirror relationships (synchronous and asynchronous) and SnapVault relationships
+* Viewing the cluster discovery and monitoring status
+* MetroCluster configuration: viewing and monitoring the configuration, MetroCluster switches and bridges, issues, and connectivity status of the cluster components
+* Enhanced alerts, events, and threshold infrastructure
+* LDAP, LDAPS, SAML authentication, and local user support
+* RBAC (for a predefined set of roles)
+* AutoSupport and support bundle
+* Enhanced dashboard to show capacity, availability, protection, and performance health of the environment
+* Volume move interoperability, volume move history, and junction path change history
+* Scope of Impact area that graphically displays the resources that are impacted for events such as Some Failed Disks, MetroCluster Aggregate Mirroring Degraded, and MetroCluster Spare Disks Left Behind events
+* Possible Effect area that displays the effect of the MetroCluster events
+* Suggested Corrective Actions area that displays the actions that can be performed to address events such as Some Failed Disks, MetroCluster Aggregate Mirroring Degraded, and MetroCluster Spare Disks Left Behind events
+* Resources that Might be Impacted area that displays the resources that might be impacted for events such as for the Volume Offline event, the Volume Restricted event, and the Thin-Provisioned Volume Space At Risk event
+* Support for SVMs with FlexVol or FlexGroup volumes
+* Support for monitoring node root volumes
+* Enhanced Snapshot copy monitoring, including computing reclaimable space and deleting Snapshot copies
+* Annotations for storage objects
+* Report creation and management of storage object information such as physical and logical capacity, utilization, space savings, performance, and related events
+* Integration with OnCommand Workflow Automation to execute workflows
++
+The Storage Automation Store contains NetApp-certified automated storage workflow packs developed for use with OnCommand Workflow Automation (WFA). You can download the packs, and then import them to WFA to execute them. The automated workflows are available here:
++
+https://automationstore.netapp.com[Storage Automation Store]

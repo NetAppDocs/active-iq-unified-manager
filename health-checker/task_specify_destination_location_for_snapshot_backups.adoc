@@ -1,0 +1,38 @@
+---
+permalink: health-checker/task_specify_destination_location_for_snapshot_backups.html
+sidebar: sidebar
+keywords: specify, destination location, snapshot backups
+summary: "You configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters. You define the location from the Active IQ Unified Manager maintenance console."
+---
+= Specifying the destination location for Snapshot backups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters. You define the location from the Active IQ Unified Manager maintenance console.
+
+* You must have the root user credentials for the Linux host on which Active IQ Unified Manager is installed.
+* You must have a user ID and password authorized to log in to the maintenance console of the Unified Manager server.
+* You must have the Cluster Management IP address, the name of the storage VM, the name of the volume, and the storage system user name and password.
+* You must have mounted the volume to the Active IQ Unified Manager host, and you must have the mount path.
+
+.Steps
+. Use Secure Shell to connect to the IP address or FQDN of the Active IQ Unified Manager system.
+. Log in to the system with the maintenance user (umadmin) name and password.
+. Enter the command `maintenance_console` and press Enter.
+. In the maintenance console *Main Menu*, enter the number for the *Backup Restore* option.
+. Enter the number for *Configure NetApp Snapshot Backup*.
+. Enter the number to configure NFS.
+. Review the information that you will need to provide and then enter the number for *Enter Backup Configuration Details*.
+. To identify the volume where the Snapshot will be written, enter the IP address of the Cluster Management interface, the name of the storage VM, the name of the volume, LUN name, the storage system user name and password, and the mount path.
+. Verify this information and enter `y`.
++
+The system performs the following tasks:
+
+ ** Establishes the connection to the cluster
+ ** Stops all the services
+ ** Creates a new directory in the volume and copies the Active IQ Unified Manager database configuration files
+ ** Deletes the files from Active IQ Unified Manager and creates a symlink to the new database directory
+ ** Restarts all the services
+
+. Exit the maintenance console and launch the Active IQ Unified Manager interface to create the Snapshot backup schedule if you have not already done this.

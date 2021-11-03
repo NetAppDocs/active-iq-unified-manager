@@ -6,4 +6,134 @@ settings:
   prod:
     pdf_enabled: true
 sidebar:
-  
+  entries:
+    - title: Active IQ Unified Manager docs
+      url: "/index.html"
+    - title: Release notes
+      url: /reference_release_notes.html
+    - title: Get started
+      entries:
+        - title: Quick start install for VMware vSphere
+          url: /install-vapp/qsg-vapp.html
+        - title: Quick start install for Linux
+          url: /install-linux/qsg-linux.html
+        - title: Quick start install for Windows
+          url: /install-windows/qsg-windows.html
+    - section: install-vapp
+    - section: install-linux
+    - section: install-windows
+    - section: config
+    - section: storage-mgmt
+    - section: events
+    - section: performance-checker
+    - section: health-checker
+    - section: data-protection
+    - section: reporting
+    - section: api-automation
+    - title: Legal notices
+      url: /legal-notices.html
+
+homepage:
+  tiles:
+    - title: Get started
+      links:
+        - title: Product Overview
+          url: /storage-mgmt/concept_introduction_to_unified_manager.html
+        - title: Release Notes
+          url: reference_release_notes.html
+        - title: Quick start install for VMware vSphere
+          url: /install-vapp/qsg-vapp.html
+        - title: Quick start install for Linux
+          url: /install-linux/qsg-linux.html
+        - title: Quick start install for Windows
+          url: /install-windows/qsg-windows.html
+    - title: Install & configure Unified Manager
+      links:
+        - title: Install & upgrade on VMware vSphere systems
+          url: /install-vapp/concept_requirements_for_installing_unified_manager.html
+        - title: Install & upgrade on Linux systems
+          url: /install-linux/concept_requirements_for_install_unified_manager.html
+        - title: Install & upgrade on Windows systems
+          url: /install-windows/concept_requirements_for_installing_unified_manager.html
+        - title: Configure Unified Manager
+          url: /config/concept_configure_unified_manager.html
+        - title: Manage feature settings
+          url: /config/concept_manage_feature_settings.html
+        - title: Manage role-based access
+          url: /config/concept_manage_user_access.html
+    - title: Performance monitoring
+      links:
+        - title: Performance thresholds
+          url: /performance-checker/concept_manage_performance_thresholds.html
+        - title: Cluster performance
+          url: /performance-checker/concept_monitor_cluster_performance_from_dashboard.html
+        - title: QoS policy group
+          url: /performance-checker/concept_manage_performance_using_qos_policy_group_information.html
+        - title: Workload analyzer
+          url: /performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html
+        - title: Workload performance
+          url: /performance-checker/concept_collect_data_and_monitor_workload_performance.html
+        - title: Manage Performance
+          url: /performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html
+    - title: Storage and object health monitoring
+      links:
+        - title: Workloads
+          url: /storage-mgmt/concept_provision_and_manage_workloads.html
+        - title: Virtual infrastructure
+          url: /storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html
+        - title: MetroCluster configurations
+          url: /storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html
+        - title: Clusters and cluster object health
+          url: /health-checker/concept_manage_and_monitor_clusters_and_cluster_object_health.html
+        - title: Health thresholds
+          url: /health-checker/concept_manage_health_thresholds.html
+        - title: Send AutoSupport messages and support bundles
+          url: /health-checker/task_send_asup_to_technical_support.html
+    - title: Data protection monitoring
+      links:
+        - title: Set up protection relationship
+          url: /data-protection/task_set_up_protection_relationships_in_unified_manager.html
+        - title: Perform failover and failback
+          url: /data-protection/task_perform_protection_relationship_failover_and_failback.html
+        - title: Manage protection relationship
+          url: /data-protection/concept_manage_and_monitor_protection_relationships.html
+        - title: Monitor disaster recovery relationships
+          url: /data-protection/task_monitor_storage_vms_using_relationships_page.html
+        - title: Generate reports
+          url: /reporting/concept_unified_manager_reporting.html
+    - title: Use REST APIs
+      links:
+        - title: Get started
+          url: /api-automation/concept_api_url_and_categories.html
+        - title: Access Unified Manager APIs
+          url: /api-automation/concept_rest_api_access_and_authentication_in_um_apis.html
+        - title: Manage storage objects
+          url: /api-automation/concept_data_center_apis.html
+        - title: Access ONTAP APIs
+          url: /api-automation/concept_gateway_apis.html
+        - title: Common workflows
+          url: /api-automation/concept_workflow_intro.html
+        - title: Provision storage
+          url: /api-automation/concept_provision_workflow.html
+    - title: Events and alerts
+      links:
+        - title: Dashboard
+          url: /storage-mgmt/reference_dashboard_page.html
+        - title: Event workflow
+          url: /events/concept_what_happens_when_an_event_is_received.html
+        - title: Active IQ platform events
+          url: /events/concept_how_active_iq_platform_events_are_generated.html
+        - title: Events and severity types
+          url: /events/reference_list_of_events_and_severity_types.html
+        - title: Remediation events
+          url: /storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html
+        - title: Automatic remediation
+          url: /storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html
+    - title: More resources
+      links:
+        - title: Unified Manager videos
+          url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
+        - title: Unified Manager blogs
+          url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
+        - title: Documentation for earlier versions
+          url: https://docs.netapp.com/ocum-99/topic/com.netapp.ndc.ocum-vers/GUID-DA5B426C-61E1-45E3-B2BE-834636433934.html

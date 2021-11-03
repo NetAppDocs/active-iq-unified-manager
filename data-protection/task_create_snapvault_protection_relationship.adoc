@@ -1,0 +1,51 @@
+---
+permalink: data-protection/task_create_snapvault_protection_relationship.html
+sidebar: sidebar
+keywords: create, snapvault, protection, relationship, health, volumes view
+summary: "You can use the Health: All Volumes view to create SnapVault relationships for one or more volumes on the same Storage VM to enable data backups for protection purposes."
+---
+= Creating a SnapVault protection relationship from the Health: All Volumes view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Health: All Volumes view to create SnapVault relationships for one or more volumes on the same Storage VM to enable data backups for protection purposes.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+
+The *Protect* menu does not display in the following instances:
+
+* If RBAC settings do not allow this action: for example, if you have only operator privileges
+* When the volume ID is unknown: for example, when you have an intercluster relationship and the destination cluster has not yet been discovered
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Volumes*.
+. In the *Health: All Volumes* view, select a volume you want to protect and click *Protect*.
++
+Alternatively, to create multiple protection relationships on the same storage virtual machine (SVM), select one or more volumes in the Health: All Volumes view, and click *Protect* on the toolbar.
+
+. Select *SnapVault* from the menu.
++
+The Configure Protection dialog box is launched.
+
+. Click *SnapVault* to view the *SnapVault* tab and to configure the secondary volume information.
+. Click *Advanced* to set deduplication, compression, autogrow, and space guarantee as needed, and then click *Apply*.
+. Complete the *Destination Information* area and the *Relationship Settings* area in the *SnapVault* tab.
+. Click *Apply*.
++
+You are returned to the Health: All Volumes view.
+
+. Click the protection configuration job link at the top of the *Health: All Volumes* view.
++
+If you are creating only one protection relationship, the Job details page is displayed; however, if you are creating more than one protection relationship, a filtered list of all the jobs associated with the protection operation is displayed.
+
+. Do one of the following:
+ ** If you have only one job, click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
+ ** If you have more than one job:
+  ... Click a job in the jobs list.
+  ... Click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
+  ... Use the *Back* button to return to the filtered list and view another job.

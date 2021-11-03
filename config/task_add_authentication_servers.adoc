@@ -1,0 +1,61 @@
+---
+permalink: config/task_add_authentication_servers.html
+sidebar: sidebar
+keywords: add, authentication servers
+summary: "You can add authentication servers and enable remote authentication on the management server so that remote users within the authentication server can access Unified Manager."
+---
+= Adding authentication servers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add authentication servers and enable remote authentication on the management server so that remote users within the authentication server can access Unified Manager.
+
+*What you'll need*
+
+* The following information must be available:
+ ** Host name or IP address of the authentication server
+ ** Port number of the authentication server
+* You must have enabled remote authentication and configured your authentication service so that the management server can authenticate remote users or groups in the authentication server.
+* You must have the Application Administrator role.
+
+If the authentication server that you are adding is part of a high-availability (HA) pair (using the same database), you can also add the partner authentication server. This enables the management server to communicate with the partner when one of the authentication servers is unreachable.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Remote Authentication*.
+. Enable or disable the *Use secure connection* option:
++
+[cols="2*",options="header"]
+|===
+| If you want to...| Then do this...
+a|
+Enable it
+a|
+
+ .. Select the *Use Secure Connection* option.
+ .. In the Authentication Servers area, click *Add*.
+ .. In the Add Authentication Server dialog box, enter the authentication name or IP address (IPv4 or IPv6) of the server.
+ .. In the Authorize Host dialog box, click View Certificate.
+ .. In the View Certificate dialog box, verify the certificate information, and then click *Close*.
+ .. In the Authorize Host dialog box, click *Yes*.
+
++
+[NOTE]
+====
+When you enable the *Use Secure Connection authentication* option, Unified Manager communicates with the authentication server and displays the certificate. Unified Manager uses 636 as default port for secure communication and port number 389 for non-secure communication.
+====
+a|
+Disable it
+a|
+
+ .. Clear the *Use Secure Connection* option.
+ .. In the Authentication Servers area, click *Add*.
+ .. In the Add Authentication Server dialog box, specify either the host name or IP address (IPv4 or IPv6) of the server, and the port details.
+ .. Click *Add*.
+
++
+|===
+The authentication server that you added is displayed in the Servers area.
+
+. Perform a test authentication to confirm that you can authenticate users in the authentication server that you added.

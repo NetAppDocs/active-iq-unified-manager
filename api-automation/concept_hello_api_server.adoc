@@ -1,0 +1,142 @@
+---
+permalink: api-automation/concept_hello_api_server.html
+sidebar: sidebar
+keywords: hello, api server
+summary: "The Hello API server is a sample program that demonstrates how to invoke a REST API in Active IQ Unified Manager using a simple REST client. The sample program provides you basic details about the API server in the JSON format (the server supports only application/json format)."
+---
+= Hello API server
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The _Hello API server_ is a sample program that demonstrates how to invoke a REST API in Active IQ Unified Manager using a simple REST client. The sample program provides you basic details about the API server in the JSON format (the server supports only `application/json` format).
+
+The URI used is: `https://<hostname>/api/datacenter/svm/svms.` This sample code takes the following input parameters:
+
+* The API server IP address or FQDN
+* Optional: Port number (default: 443)
+* User name
+* Password
+* Response format (`application/json`)
+
+To invoke REST APIs, you can also use other scripts such as Jersey and RESTEasy to write a Java REST client for Active IQ Unified Manager. You should be aware of the following considerations about the sample code:
+
+* Uses an HTTPS connection to Active IQ Unified Manager to invoke the specified REST URI
+* Ignores the certificate provided by Active IQ Unified Manager
+* Skips the host name verification during the handshake
+* Uses `javax.net.ssl.HttpsURLConnection` for a URI connection
+* Uses a third-party library (`org.apache.commons.codec.binary.Base64`) for constructing the Base64 encoded string used in the HTTP basic authentication
+
+To compile and execute the sample code, you must use Java compiler 1.8 or later.
+
+----
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.security.SecureRandom;
+import java.security.cert.X509Certificate;
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLSession;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
+import org.apache.commons.codec.binary.Base64;
+
+public class HelloApiServer {
+
+	private static String server;
+	private static String user;
+	private static String password;
+	private static String response_format = "json";
+	private static String server_url;
+	private static String port = null;
+
+	/*
+	 * * The main method which takes user inputs and performs the * necessary steps
+	 * to invoke the REST URI and show the response
+	 */ public static void main(String[] args) {
+		if (args.length < 2 || args.length > 3) {
+			printUsage();
+			System.exit(1);
+		}
+		setUserArguments(args);
+		String serverBaseUrl = "https://" + server;
+		if (null != port) {
+			serverBaseUrl = serverBaseUrl + ":" + port;
+		}
+		server_url = serverBaseUrl + "/api/datacenter/svm/svms";
+		try {
+			HttpsURLConnection connection = getAllTrustingHttpsUrlConnection();
+			if (connection == null) {
+				System.err.println("FATAL: Failed to create HTTPS connection to URL: " + server_url);
+				System.exit(1);
+			}
+			System.out.println("Invoking API: " + server_url);
+			connection.setRequestMethod("GET");
+			connection.setRequestProperty("Accept", "application/" + response_format);
+			String authString = getAuthorizationString();
+			connection.setRequestProperty("Authorization", "Basic " + authString);
+			if (connection.getResponseCode() != 200) {
+				System.err.println("API Invocation Failed : HTTP error code : " + connection.getResponseCode() + " : "
+						+ connection.getResponseMessage());
+				System.exit(1);
+			}
+			BufferedReader br = new BufferedReader(new InputStreamReader((connection.getInputStream())));
+			String response;
+			System.out.println("Response:");
+			while ((response = br.readLine()) != null) {
+				System.out.println(response);
+			}
+			connection.disconnect();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/* Print the usage of this sample code */ private static void printUsage() {
+		System.out.println("\nUsage:\n\tHelloApiServer <hostname> <user> <password>\n");
+		System.out.println("\nExamples:\n\tHelloApiServer localhost admin mypassword");
+		System.out.println("\tHelloApiServer 10.22.12.34:8320 admin password");
+		System.out.println("\tHelloApiServer 10.22.12.34 admin password ");
+		System.out.println("\tHelloApiServer 10.22.12.34:8212 admin password \n");
+		System.out.println("\nNote:\n\t(1) When port number is not provided, 443 is chosen by default.");
+	}
+
+	/* * Set the server, port, username and password * based on user inputs. */ private static void setUserArguments(
+			String[] args) {
+		server = args[0];
+		user = args[1];
+		password = args[2];
+		if (server.contains(":")) {
+			String[] parts = server.split(":");
+			server = parts[0];
+			port = parts[1];
+		}
+	}
+
+	/*
+	 * * Create a trust manager which accepts all certificates and * use this trust
+	 * manager to initialize the SSL Context. * Create a HttpsURLConnection for this
+	 * SSL Context and skip * server hostname verification during SSL handshake. * *
+	 * Note: Trusting all certificates or skipping hostname verification * is not
+	 * required for API Services to work. These are done here to * keep this sample
+	 * REST Client code as simple as possible.
+	 */ private static HttpsURLConnection getAllTrustingHttpsUrlConnection()    {        HttpsURLConnection conn = null;        try {            /* Creating a trust manager that does not validate certificate chains */            TrustManager[] trustAllCertificatesManager = new                    TrustManager[]{new X509TrustManager(){
+	 public X509Certificate[] getAcceptedIssuers(){return  null;}
+	 public void checkClientTrusted(X509Certificate[]                                                       certs, String authType){}
+	 public void checkServerTrusted(X509Certificate[]                                                       certs, String authType){}            }};            /* Initialize the SSLContext with the all-trusting trust manager */
+	 SSLContext sslContext = SSLContext.getInstance("TLS");            sslContext.init(null, trustAllCertificatesManager, new                    SecureRandom());            HttpsURLConnection.setDefaultSSLSocketFactory(sslContext.getSocketFactory());            URL url = new URL(server_url);            conn = (HttpsURLConnection) url.openConnection();            /* Do not perform an actual hostname verification during SSL Handshake.            Let all hostname pass through as verified.*/            conn.setHostnameVerifier(new HostnameVerifier() {                public boolean verify(String host, SSLSession                        session) {                    return true;                }            });        } catch (Exception e) {            e.printStackTrace();        }        return conn;    }
+
+	/*
+	 * * This forms the Base64 encoded string using the username and password *
+	 * provided by the user. This is required for HTTP Basic Authentication.
+	 */ private static String getAuthorizationString() {
+		String userPassword = user + ":" + password;
+		byte[] authEncodedBytes = Base64.encodeBase64(userPassword.getBytes());
+		String authString = new String(authEncodedBytes);
+		return authString;
+	}
+
+}
+----

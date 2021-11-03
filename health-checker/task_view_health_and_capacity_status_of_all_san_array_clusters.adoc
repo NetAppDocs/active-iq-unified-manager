@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_view_health_and_capacity_status_of_all_san_array_clusters.html
+sidebar: sidebar
+keywords: view, all san array, health and capacity, clusters
+summary: "You can use the Cluster inventory pages to display the health and capacity status of your All SAN Array clusters."
+---
+= Viewing the health and capacity status of All SAN Array clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Cluster inventory pages to display the health and capacity status of your All SAN Array clusters.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+You can view overview information for All SAN Array clusters in the Health: All Clusters view and Capacity: All Clusters view. Additionally, you can view details in the Cluster / Health details page.
+
+.Steps
+. In the left navigation pane, click *Storage* > *Clusters*.
+. Make sure that the "`Personality`" column is displayed in the *Health: All Clusters* view, or add it using the *Show / Hide* control.
++
+This column displays "`All SAN Array`" for your All SAN Array clusters.
+
+. Review the information.
+. To view information about storage capacity in those clusters, select the Capacity: All Clusters view.
+. To view detailed information about health and storage capacity in those clusters, click the name of an All SAN Array cluster.
++
+View the details in the Health, Capacity, and Nodes tabs in the Cluster / Health details page

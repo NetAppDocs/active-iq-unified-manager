@@ -1,0 +1,28 @@
+---
+permalink: install-vapp/task_restart_unified_manager_virtual_machine.html
+sidebar: sidebar
+keywords: restart, unified manager, virtual, machine
+summary: "You can restart the Unified Manager virtual machine (VM) from the maintenance console. You should restart the VM after generating a new security certificate, or if there is a problem with the VM."
+---
+= Restarting the Unified Manager virtual machine
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can restart the Unified Manager virtual machine (VM) from the maintenance console. You should restart the VM after generating a new security certificate, or if there is a problem with the VM.
+
+*What you'll need*
+
+* The virtual appliance should be powered on.
+* You should be logged in to the Unified Manager maintenance console as the maintenance user.
+
+You can also restart the virtual machine from vSphere by using the VMware *Restart Guest* option.
+
+.Steps
+
+. In the maintenance console, select *System Configuration* > *Reboot Virtual Machine*.
+. Start the Unified Manager web UI from your browser, and log in.
+
+*Related information*
+
+https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html[VMware vSphere PowerCLI Cmdlets Reference: Restart-VMGuest]

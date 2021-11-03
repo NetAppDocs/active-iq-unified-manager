@@ -1,0 +1,39 @@
+---
+permalink: reporting/reference_reporting_limitations.html
+sidebar: sidebar
+keywords: reporting, limitations
+summary: "There are some limitations with the new Active IQ Unified Manager reporting functionality of which you should be aware."
+---
+= Reporting limitations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+There are some limitations with the new Active IQ Unified Manager reporting functionality of which you should be aware.
+
+== Existing reports from previous versions of Unified Manager
+
+You can only edit the schedule and recipients for existing reports that were created and imported (as .rptdesign files) in Unified Manager 9.5 and earlier releases. If you customized any of the standard reports that were provided with Unified Manager 9.5 or earlier, these custom reports are not imported into the new reporting tool.
+
+If you need to edit existing reports imported from .rptdesign files, do one of the following and remove the imported report:
+
+* create a new view and schedule a report from that view (preferred)
+* hover over the report, copy the SQL, and pull the data using an external tool
+
+The default views can be generated as reports without the need for any customization. You can use the new reporting solution to recreate any custom reports.
+
+== Schedule and report relationship
+
+You can create many different schedules with any combination of recipients for each saved report. However, you cannot reuse the schedule for multiple reports.
+
+== Report protection
+
+Any user with the appropriate permissions can edit or delete reports. There is no way to prevent other users from removing or making changes to saved views or schedules.
+
+== Event reports
+
+Although you can customize the event view and download the resulting report in CSV format, you cannot schedule recurring event reports for generation and distribution.
+
+== Report attachments
+
+Reports cannot be sent in the body of an email. Instead, reports are only sent as PDF, Excel, or CSV attachments.

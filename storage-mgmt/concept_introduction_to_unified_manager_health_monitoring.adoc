@@ -1,0 +1,71 @@
+---
+permalink: storage-mgmt/concept_introduction_to_unified_manager_health_monitoring.html
+sidebar: sidebar
+keywords: introduction, active iq unified manager, health, monitoring
+summary: "Active IQ Unified Manager (formerly OnCommand Unified Manager) helps you to monitor a large number of systems running ONTAP software through a centralized user interface. The Unified Manager server infrastructure delivers scalability, supportability, and enhanced monitoring and notification capabilities."
+---
+= Introduction to Active IQ Unified Manager health monitoring
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager (formerly OnCommand Unified Manager) helps you to monitor a large number of systems running ONTAP software through a centralized user interface. The Unified Manager server infrastructure delivers scalability, supportability, and enhanced monitoring and notification capabilities.
+
+The key capabilities of Unified Manager include monitoring, alerting, managing availability and capacity of clusters, managing protection capabilities, and bundling of diagnostic data and sending it to technical support.
+
+You can use Unified Manager to monitor your clusters. When issues occur in the cluster, Unified Manager notifies you about the details of such issues through events. Some events also provide you with a remedial action that you can take to rectify the issues. You can configure alerts for events so that when issues occur, you are notified through email, and SNMP traps.
+
+You can use Unified Manager to manage storage objects in your environment by associating them with annotations. You can create custom annotations and dynamically associate clusters, storage virtual machines (SVMs), and volumes with the annotations through rules.
+
+You can also plan the storage requirements of your cluster objects using the information provided in the capacity and health charts, for the respective cluster object.
+
+== Physical and logical capacity
+
+Unified Manager makes use of the concepts of physical and logical space used for ONTAP storage objects.
+
+* Physical capacity: Physical space refers to the physical blocks of storage used in the volume. “Physical used capacity” is typically smaller than logical used capacity due to the reduction of data from storage efficiency features (such as deduplication and compression).
+
+* Logical capacity: Logical space refers to the usable space (the logical blocks) in a volume. Logical space refers to how theoretical space can be used, without accounting for results of deduplication or compression. “Logical space used” is physical space used plus the savings from storage efficiency features (such as deduplication and compression) that have been configured. This measurement often appears larger than the physical used capacity because it includes Snapshot copies, clones, and other components, and it does not reflect the data compression and other reductions in the physical space. Thus, the total logical capacity could be higher than the provisioned space.
+
+== Capacity measurement units
+
+Unified Manager calculates storage capacity based on binary units of 1024 (2^10^) bytes. In ONTAP 9.10.0 and earlier, these units were displayed as KB, MB, GB, TB, and PB. Beginning with ONTAP 9.10.1, they are displayed in Unified Manager as KiB, MiB, GiB, TiB, and PiB.
+Note: The units used for throughput continue to be kilobytes per second (Kbps), Megabytes per second (Mbps), Gigabytes per second (Gbps), or Terabytes per second (Tbps) and so forth, for all releases of ONTAP.
+
+[cols="4*",options="header"]
+|===
+| Capacity unit displayed in Unified Manager for ONTAP 9.10.0 and earlier| Capacity unit displayed in Unified Manager for ONTAP 9.10.1| Calculation| Value in bytes
+a|
+KB
+a|
+KiB
+a|
+1024
+a|
+1024 bytes
+a|
+MB
+a|
+MiB
+a|
+1024 * 1024
+a|
+1,048,576 bytes
+a|
+GB
+a|
+GiB
+a|
+1024 * 1024 * 1024
+a|
+1,073,741,824 bytes
+a|
+TB
+a|
+TiB
+a|
+1024 * 1024 * 1024 * 1024
+a|
+1,099,511,627,776 bytes
+
+|===

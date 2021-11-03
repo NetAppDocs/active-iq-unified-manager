@@ -1,0 +1,19 @@
+---
+permalink: performance-checker/task_sort_on_object_inventory_performance_pages.html
+sidebar: sidebar
+keywords: sort, object, inventory, performance, pages
+summary: "You can sort all data on Object Inventory Performance pages by any column in ascending or descending order. This enables you to quickly locate object inventory data, which is helpful when examining performance or beginning a troubleshooting process."
+---
+= Sorting on the Object Inventory Performance pages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can sort all data on Object Inventory Performance pages by any column in ascending or descending order. This enables you to quickly locate object inventory data, which is helpful when examining performance or beginning a troubleshooting process.
+
+The selected column for sorting is indicated by a highlighted column heading name and an arrow icon indicating the sorting direction at the right of the name. An up arrow indicates ascending order; a down arrow indicates descending order. The default sort order is by *Status* (event criticality) in descending order, with the most critical performance events listed first.
+
+.Step
+. You can click a column name to toggle the sort order of the column in ascending or descending order.
++
+The Object Inventory Performance page contents are sorted in ascending or descending order, based on the selected column.

@@ -1,0 +1,30 @@
+---
+permalink: config/concept_policy_based_storage_management.html
+sidebar: sidebar
+keywords: slo, storage efficiency policy, storage workloads
+summary: "The Policy-based storage management option allows storage management based on service level objectives (SLOs). This option is enabled by default."
+---
+= Enabling policy-based storage management
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The *Policy-based storage management* option allows storage management based on service level objectives (SLOs). This option is enabled by default.
+
+On activating this feature, you can provision storage workloads on the ONTAP clusters added to your Active IQ Unified Manager instance, and manage these workloads based on the assigned Performance Service Levels and Storage Efficiency Policies.
+
+You can choose to activate or deactivate this feature from *General* > *Feature Settings* > *Policy-based storage management*. On activating this feature, the following pages are available for operation and monitoring:
+
+* Provisioning (storage workload provisioning)
+* *Policies* > *Performance Service Levels*
+* *Policies* > *Storage Efficiency*
+* Workloads Managed by Performance Service Level column on the Clusters Setup page
+* Workload Performance panel on the *Dashboard*
+
+You can use the screens to create Performance Service Levels and Storage Efficiency Policies, and provision storage workloads. You can also monitor the storage workloads that conform to the assigned Performance Service Levels, as well as the nonconforming ones. The Workload Performance and Workload IOPS panel also enables you to assess the total, available, and used capacity and performance (IOPS) of the clusters across your data center based on the storage workloads provisioned on them.
+
+After activating this feature, you can run the Unified Manager REST APIs to perform some of these functions from *Menu Bar* > *Help button* > *API Documentation* > *storage-provider* category. Alternatively, you can enter the host name or IP address and the URL to access the REST API page in the format +https://<hostname>/docs/api/+
+
+For more information about the APIs, see the _Active IQ Unified Manager API Developer's Guide_.
+
+link:../api-automation/concept_get_started_with_um_apis.html[Active IQ Unified Manager API Developer's Guide]

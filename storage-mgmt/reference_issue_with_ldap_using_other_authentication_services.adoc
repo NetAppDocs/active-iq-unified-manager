@@ -1,0 +1,34 @@
+---
+permalink: storage-mgmt/reference_issue_with_ldap_using_other_authentication_services.html
+sidebar: sidebar
+keywords: issue, addi, ldap, use, other, authentication, services
+summary: "Troubleshooting: Issue with adding LDAP using Other authentication services "
+---
+= Issue with adding LDAP using Other authentication services
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you select Others as the Authentication service, the user and group Object Class retain the values from the previously selected template. If the LDAP server does not use the same values, the operation might fail.
+
+*Cause*
+
+The users are not configured correctly in OpenLDAP.
+
+*Corrective action*
+
+You can manually fix this issue by using one of the following workarounds.
+
+If your LDAP user object class and group object class are user and group, respectively, perform the following steps:
+
+ .. In the left navigation pane, click**General** > *Remote Authentication*.
+ .. In the *Authentication Service* drop-down menu, select *Active Directory*, and then select *Others*.
+ .. Complete the text fields.
+
+If your LDAP user object class and group object class are posixAccount and posixGroup, respectively, perform the following steps:
+
+ .. In the left navigation pane, click **General** > *Remote Authentication*.
+ .. In the *Authentication Service* drop-down menu, select *OpenLDAP*, and then select *Others*.
+ .. Complete the text fields.
+
+If the first two workarounds do not apply, call the `option-set` API, and set the `auth.ldap.userObjectClass` and `auth.ldap.groupObjectClass` options to the correct values.

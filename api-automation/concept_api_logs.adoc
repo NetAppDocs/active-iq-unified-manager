@@ -1,0 +1,45 @@
+---
+permalink: api-automation/concept_api_logs.html
+sidebar: sidebar
+keywords: logs, troubleshooting
+summary: "System logs enable you to analyze the causes of failure and troubleshooting issues that may arise while running the APIs."
+---
+= Logs for troubleshooting
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+System logs enable you to analyze the causes of failure and troubleshooting issues that may arise while running the APIs.
+
+Retrieve the logs from the following location for troubleshooting issues related to the API calls.
+[cols="2*",options="header"]
+|===
+| Log location| Use
+a|
+`/var/log/ocie/access_log.log`
+a|
+Contains all API call details, such as the user name of the user invoking the API, start time, execution time, status, and URL.
+
+You can use this log file to check the frequently-used APIs, or troubleshoot any GUI workflow. You can also use it to scale analysis, based on the execution time.
+
+a|
+`/var/log/ocum/ocumserver.log`
+a|
+Contains all API execution logs.
+
+You can use this log file to troubleshoot and debug the API calls.
+
+a|
+`/var/log/ocie/server.log`
+a|
+Contains all Wildfly server deployments and start/stop service related logs.
+
+You can use this log file to find the root cause of any issues occurring during the start, stop, or deployment of the Wildfly server.
+
+a|
+`/var/log/ocie/au.log`
+a|
+Contains acquisition unit related logs.
+
+You can use this log file when you have created, modified, or deleted any objects in ONTAP but they do not get reflected for the Active IQ Unified Manager REST APIs.
+|===

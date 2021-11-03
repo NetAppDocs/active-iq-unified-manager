@@ -1,0 +1,46 @@
+---
+permalink: config/task_add_additional_network_interfaces.html
+sidebar: sidebar
+keywords: add, network, interfaces
+summary: "You can add new network interfaces if you need to separate network traffic."
+---
+= Adding network interfaces
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add new network interfaces if you need to separate network traffic.
+
+*What you'll need*
+
+You must have added the network interface to the virtual appliance using vSphere.
+
+The virtual appliance must be powered on.
+
+[NOTE]
+====
+You cannot perform this operation if Unified Manager is installed on Red Hat Enterprise Linux or on Microsoft Windows.
+====
+
+.Steps
+
+. In the vSphere console Main Menu, select *System Configuration* > *Reboot Operating System*.
++
+After rebooting, the maintenance console can detect the newly added network interface.
+
+. Access the maintenance console.
+. Select *Network Configuration* > *Enable Network Interface*.
+. Select the new network interface and press *Enter*.
++
+Select *eth1* and press *Enter*.
+
+. Type *y* to enable the network interface.
+. Enter the network settings.
++
+You are prompted to enter the network settings if using a static interface, or if DHCP is not detected.
++
+After entering the network settings, you automatically return to the *Network Configuration* menu.
+
+. Select *Commit Changes*.
++
+You must commit the changes to add the network interface.

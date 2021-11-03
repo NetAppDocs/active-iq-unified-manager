@@ -1,0 +1,16 @@
+---
+permalink: storage-mgmt/concept_what_quota_limits_are.html
+sidebar: sidebar
+keywords: quota, limits
+summary: "User quota limits are values that the Unified Manager server uses to evaluate whether space consumption by a user is nearing the limit or has reached the limit that is set by the user’s quota. If the soft limit is crossed or if the hard limit is reached, the Unified Manager server generates user quota events."
+---
+= What quota limits are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+User quota limits are values that the Unified Manager server uses to evaluate whether space consumption by a user is nearing the limit or has reached the limit that is set by the user's quota. If the soft limit is crossed or if the hard limit is reached, the Unified Manager server generates user quota events.
+
+By default, the Unified Manager server sends a notification email to users who have crossed the quota soft limit or have reached the quota hard limit and for which user quota events are configured. Users with the Application Administrator role can configure alerts that notify the specified recipients of the user or user group quota events.
+
+You can specify quota limits by using either ONTAP System Manager or the ONTAP CLI.

@@ -1,0 +1,37 @@
+---
+permalink: storage-mgmt/task_create_rules_to_generate_email_addresses.html
+sidebar: sidebar
+keywords: create, rules, generate, email, addresses
+summary: "You can create rules to specify the email address based on the user quota associated with clusters, storage virtual machines (SVMs), volumes, qtrees, users, or user groups. A notification is sent to the specified email address when there is a quota breach."
+---
+= Creating rules to generate email addresses
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create rules to specify the email address based on the user quota associated with clusters, storage virtual machines (SVMs), volumes, qtrees, users, or user groups. A notification is sent to the specified email address when there is a quota breach.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have reviewed the guidelines on the Rules to Generate User and Group Quota Email Address page.
+
+You must define the rules for quota email addresses and enter them in the order in which you want to execute them. For example, if you want to use the email address qtree1@xyz.com to receive notifications about quota breaches for qtree1 and use the email address admin@xyz.com for all the other qtrees, the rules must be listed in the following order:
+
+* if ( $QTREE == 'qtree1' ) then qtree1@xyz.com
+* if ( $QTREE == * ) then admin@xyz.com
+
+If none of the criteria for the rules you specified are met, then the default rule is used:
+
+if ( $USER_OR_GROUP == * ) then $USER_OR_GROUP@$DOMAIN
+
+.Steps
+
+. In the left navigation pane, click *General* > *Quota Email Rules*.
+. Enter the rule based on your criteria.
+. Click *Validate* to validate the syntax of the rule.
++
+An error message is displayed if the syntax of the rule is incorrect. You must correct the syntax and click *Validate* again.
+
+. Click *Save*.
+. Verify that the email address you created is displayed in the *User and Group Quotas* tab of the Storage *VM / Health* details page.

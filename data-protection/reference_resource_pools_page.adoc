@@ -1,0 +1,195 @@
+---
+permalink: data-protection/reference_resource_pools_page.html
+sidebar: sidebar
+keywords: resource, pools, page
+summary: "The Resource Pools page displays existing resource pools and their members, and enables you to create, monitor, and manage resource pools for provisioning purposes."
+---
+= Resource Pools page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Resource Pools page displays existing resource pools and their members, and enables you to create, monitor, and manage resource pools for provisioning purposes.
+
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Create*
++
+Launches the Create Resource Pool dialog box, which you can use to create resource pools.
+
+* *Edit*
++
+Enables you to edit the name and description of the resource pools that you create.
+
+* *Delete*
++
+Enables you to delete one or more resource pools.
+
+== Resource Pools list
+
+The Resource Pools list displays (in tabular format) the properties of existing resource pools.
+
+* *Resource Pool*
++
+Displays the name of the resource pool.
+
+* *Description*
++
+Describes the resource pool.
+
+* *SnapLock Type*
++
+Displays the SnapLock type that is being used by the aggregates in the resource pool. Valid values for SnapLock type are Compliance, Enterprise, and Non-SnapLock. A resource pool can contain aggregates of only one SnapLock type.
+
+* *Total Capacity*
++
+Displays the total capacity (in MB, GB, and so on) of the resource pool.
+
+* *Used Capacity*
++
+Displays the amount of space (in MB, GB, and so on) that is used in the resource pool.
+
+* *Available Capacity*
++
+Displays the amount of space (in MB, GB, and so on) that is available in the resource pool.
+
+* *Used %*
++
+Displays the percentage of space that is used in the resource pool.
+
+== Members list command buttons
+
+The Members list command buttons enable you to perform the following tasks:
+
+* *Add*
++
+Enables you to add members to the resource pool.
+
+* *Delete*
++
+Enables you to delete one or more members from the resource pool.
+
+== Members list
+
+The Members list displays (in tabular format) the resource pool members and their properties when a resource pool is selected.
+
+* *Status*
++
+Displays the current status of the member aggregate. The status can be Critical (image:../media/sev_critical_um60.png[]), Error (image:../media/sev_error_um60.png[]), Warning (image:../media/sev_warning_um60.png[]), or Normal (image:../media/sev_normal_um60.png[]).
+
+* *Aggregate Name*
++
+Displays the name of the member aggregate.
+
+* *State*
++
+Displays the current state of the aggregate, which can be one of the following:
+
+ ** Offline
++
+Read or write access is not allowed.
+
+ ** Online
++
+Read and write access to the volumes that are hosted on this aggregate is allowed.
+
+ ** Restricted
++
+Limited operations (such as parity reconstruction) are allowed, but data access is not allowed.
+
+ ** Creating
++
+The aggregate is being created.
+
+ ** Destroying
++
+The aggregate is being destroyed.
+
+ ** Failed
++
+The aggregate cannot be brought online.
+
+ ** Frozen
++
+The aggregate is (temporarily) not serving requests.
+
+ ** Inconsistent
++
+The aggregate has been marked corrupted; you should contact technical support.
+
+ ** Iron Restricted
++
+Diagnostic tools cannot be run on the aggregate.
+
+ ** Mounting
++
+The aggregate is in the process of mounting.
+
+ ** Partial
++
+At least one disk was found for the aggregate, but two or more disks are missing.
+
+ ** Quiescing
++
+The aggregate is being quiesced.
+
+ ** Quiesced
++
+The aggregate is quiesced.
+
+ ** Reverted
++
+The revert of an aggregate is completed.
+
+ ** Unmounted
++
+The aggregate has been unmounted.
+
+ ** Unmounting
++
+The aggregate is being taken offline.
+
+ ** Unknown
++
+The aggregate is discovered, but the aggregate information is not yet retrieved by the Unified Manager server.
+
++
+By default, this column is hidden.
+
+* *Cluster*
++
+Displays the name of the cluster to which the aggregate belongs.
+
+* *Node*
++
+Displays the name of the node on which the aggregate resides.
+
+* *Total Capacity*
++
+Displays the total capacity (in MB, GB, and so on) of the aggregate.
+
+* *Used Capacity*
++
+Displays the amount of space (in MB, GB, and so on) that is used in the aggregate.
+
+* *Available Capacity*
++
+Displays the amount of space (in MB, GB, and so on) that is available in the aggregate.
+
+* *Used %*
++
+Displays the percentage of space that is used in the aggregate.
+
+* *Disk Type*
++
+Displays the RAID configuration type, which can be one of the following:
+
+ ** RAID0: All the RAID groups are of type RAID0.
+ ** RAID4: All the RAID groups are of type RAID4.
+ ** RAID-DP: All the RAID groups are of type RAID-DP.
+ ** RAID-TEC: All the RAID groups are of type RAID-TEC.
+ ** Mixed RAID: The aggregate contains RAID groups of different RAID types (RAID0, RAID4, RAID-DP, and RAID-TEC).
+By default, this column is hidden.

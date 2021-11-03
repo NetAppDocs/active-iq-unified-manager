@@ -1,0 +1,26 @@
+---
+permalink: config/task_delete_users_or_groups.html
+sidebar: sidebar
+keywords: delete, users, groups
+summary: "You can delete one or more users from the management server database to prevent specific users from accessing Unified Manager. You can also delete groups so that all the users in the group can no longer access the management server."
+---
+= Deleting users or groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete one or more users from the management server database to prevent specific users from accessing Unified Manager. You can also delete groups so that all the users in the group can no longer access the management server.
+
+*What you'll need*
+
+* When you are deleting remote groups, you must have reassigned the events that are assigned to the users of the remote groups.
++
+If you are deleting local users or remote users, the events that are assigned to these users are automatically unassigned.
+
+* You must have the Application Administrator role.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Users*.
+. In the Users page, select the users or groups that you want to delete, and then click *Delete*.
+. Click *Yes* to confirm the deletion.

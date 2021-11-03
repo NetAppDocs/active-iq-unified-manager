@@ -1,0 +1,19 @@
+---
+permalink: health-checker/concept_what_group_is.html
+sidebar: sidebar
+keywords: group
+summary: "A group is a dynamic collection of heterogeneous storage objects (clusters, SVMs, or volumes). You can create groups in Unified Manager to easily manage a set of storage objects. The members in a group might change, depending on the storage objects that are monitored by Unified Manager at a point in time."
+---
+= What a group is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A group is a dynamic collection of heterogeneous storage objects (clusters, SVMs, or volumes). You can create groups in Unified Manager to easily manage a set of storage objects. The members in a group might change, depending on the storage objects that are monitored by Unified Manager at a point in time.
+
+* Each group has a unique name.
+* You must configure a minimum of one group rule for each group.
+* You can associate a group with more than one group rule.
+* Each group can include multiple types of storage objects such as clusters, SVMs, or volumes.
+* Storage objects are dynamically added to a group based on when a group rule is created or when Unified Manager completes a monitoring cycle.
+* You can simultaneously apply actions on all the storage objects in a group such as setting thresholds for volumes.

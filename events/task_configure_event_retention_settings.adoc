@@ -1,0 +1,23 @@
+---
+permalink: events/task_configure_event_retention_settings.html
+sidebar: sidebar
+keywords: configure, event, retention, settings
+summary: "You can specify the number of months an event is retained in the Unified Manager server before it is automatically deleted."
+---
+= Configuring event retention settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can specify the number of months an event is retained in the Unified Manager server before it is automatically deleted.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+Retaining events for more than 6 months could affect the server performance and is not recommended.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Data Retention*.
+. In the *Data Retention* page, select the slider in the Event Retention area and move it to the number of months that events should be retained, and click *Save*.

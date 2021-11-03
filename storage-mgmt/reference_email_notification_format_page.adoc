@@ -1,0 +1,73 @@
+---
+permalink: storage-mgmt/reference_email_notification_format_page.html
+sidebar: sidebar
+keywords: email, notification, format, page
+summary: "The Email Notification Format page displays the rules of the email that is sent to a user or a user group when there is a quota-related issue (soft limit breached or hard limit reached)."
+---
+= Email Notification Format page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Email Notification Format page displays the rules of the email that is sent to a user or a user group when there is a quota-related issue (soft limit breached or hard limit reached).
+
+The email notification is sent only when the following user or user group quota events are generated: User or Group Quota Disk Space Soft Limit Breached, User or Group Quota File Count Soft Limit Breached, User or Group Quota Disk Space Hard Limit Reached, or User or Group Quota File Count Hard Limit Reached.
+
+* *From*
++
+Displays the email address from which the email is sent, which you can modify. By default, this is the email address that is specified Notifications page.
+
+* *Subject*
++
+Displays the subject of the notification email.
+
+* *Email Details*
++
+Displays the text of the notification email. You can modify the text based on your requirements. For example, you can provide information related to the quota attributes and reduce the number of keywords. However, you should not modify the keywords.
++
+Valid keywords are as follows:
+
+ ** $EVENT_NAME
++
+Specifies the event name that caused the email notification.
+
+ ** $QUOTA_TARGET
++
+Specifies the qtree or volume on which the quota is applicable.
+
+ ** $QUOTA_USED_PERCENT
++
+Specifies the percentage of disk hard limit, disk soft limit, file hard limit, or file soft limit that is used by the user or user group.
+
+ ** $QUOTA_LIMIT
++
+Specifies the disk hard limit or file hard limit that is reached by the user or user group and one of the following events is generated:
+
+  *** User or Group Quota Disk Space Hard Limit Reached
+  *** User or Group Quota Disk Space Soft Limit Reached
+  *** User or Group Quota File Count Hard Limit Reached
+  *** User or Group Quota File Count Soft Limit Reached
+
+ ** $QUOTA_USED
++
+Specifies the disk space used or the number of files created by the user or user group.
+
+ ** $QUOTA_USER
++
+Specifies the user or user group name.
+
+== Command buttons
+
+The command buttons enable you to preview, save, or cancel the changes made to the email notification format:
+
+* *Preview*
++
+Displays a preview of the notification email.
+
+* *Restore to Factory Defaults*
++
+Enables you to restore the notification format to the factory default values.
+
+* *Save*
++
+Saves the changes made to the notification format.

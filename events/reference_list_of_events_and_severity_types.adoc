@@ -1,0 +1,12 @@
+---
+permalink: events/reference_list_of_events_and_severity_types.html
+sidebar: sidebar
+keywords: list, events, severity, types
+summary: "You can use the list of events to become more familiar with event categories, event names, and the severity type of each event that you might see in Unified Manager. Events are listed in alphabetical order by object category."
+---
+= List of events and severity types
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the list of events to become more familiar with event categories, event names, and the severity type of each event that you might see in Unified Manager. Events are listed in alphabetical order by object category.

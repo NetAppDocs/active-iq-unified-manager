@@ -1,0 +1,115 @@
+---
+permalink: events/reference_snapmirror_relationship_events.html
+sidebar: sidebar
+keywords: snapmirror, relationship, events, impact area, protection
+summary: "SnapMirror relationship events provide you with information about the status of your Asynchronous and Synchronous SnapMirror relationships so that you can monitor for potential problems. Asynchronous SnapMirror relationship events are generated for both Storage VMs and volumes but Synchronous SnapMirror relationship events are generated only for volume relationships. There are no events generated for constituent volumes that are part of Storage VM disaster recovery relationships. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= SnapMirror relationship events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+SnapMirror relationship events provide you with information about the status of your Asynchronous and Synchronous SnapMirror relationships so that you can monitor for potential problems. Asynchronous SnapMirror relationship events are generated for both Storage VMs and volumes but Synchronous SnapMirror relationship events are generated only for volume relationships. There are no events generated for constituent volumes that are part of Storage VM disaster recovery relationships. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: protection
+
+An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
+
+[NOTE]
+====
+The SnapMirror relationships events are generated for Storage VMs that are protected by Storage VM disaster recovery but not for any constituent object relationships.
+====
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Mirror Replication Unhealthy(ocumEvtSnapmirrorRelationshipUnhealthy)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Warning
+a|
+Mirror Replication Broken-off(ocumEvtSnapmirrorRelationshipStateBrokenoff)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+a|
+Mirror Replication Initialize Failed(ocumEvtSnapmirrorRelationshipInitializeFailed)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+a|
+Mirror Replication Update Failed(ocumEvtSnapmirrorRelationshipUpdateFailed)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+a|
+Mirror Replication Lag Error(ocumEvtSnapMirrorRelationshipLagError)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+a|
+Mirror Replication Lag Warning(ocumEvtSnapMirrorRelationshipLagWarning)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Warning
+a|
+Mirror Replication Resync Failed(ocumEvtSnapmirrorRelationshipResyncFailed)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+a|
+Synchronous Replication Out Of Sync *(syncSnapmirrorRelationshipOutofsync)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Warning
+a|
+Synchronous Replication Restored *(syncSnapmirrorRelationshipInSync)
+
+a|
+Event
+a|
+SnapMirror relationship
+a|
+Information
+a|
+Synchronous Replication Auto Resync Failed *(syncSnapmirrorRelationshipAutoSyncRetryFailed)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+|===

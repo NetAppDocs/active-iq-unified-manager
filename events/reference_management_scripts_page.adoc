@@ -1,0 +1,36 @@
+---
+permalink: events/reference_management_scripts_page.html
+sidebar: sidebar
+keywords: scripts, page, command, buttons, list, view
+summary: "The Scripts page enables you to add your custom scripts to Unified Manager. You can associate these scripts with alerts to enable automatic reconfiguration of storage objects."
+---
+= Scripts page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Scripts page enables you to add your custom scripts to Unified Manager. You can associate these scripts with alerts to enable automatic reconfiguration of storage objects.
+
+The Scripts page enables you to add or delete scripts from Unified Manager.
+
+== Command buttons
+
+* *Add*
++
+Displays the Add Script dialog box, which enables you to add scripts.
+
+* *Delete*
++
+Deletes the selected script.
+
+== List view
+
+The list view displays, in tabular format, the scripts that you added to Unified Manager.
+
+* *Name*
++
+Displays the name of the script.
+
+* *Description*
++
+Displays the description of the script.

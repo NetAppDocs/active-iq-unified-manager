@@ -1,0 +1,35 @@
+---
+permalink: reporting/task_create_report_to_view_volumes_at_specific_time_intervals.html
+sidebar: sidebar
+keywords: create, report, view, volume, transfer, trends, specific, time intervals
+summary: "You can create a report that displays volume transfer trends at specific time intervals."
+---
+= Creating a report to view volume transfer trends at specific time intervals
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a report that displays volume transfer trends at specific time intervals.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+
+Use the following steps to create a custom view for volumes at specific time intervals, and then schedule a report to be generated for that view.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Volumes*.
+. In the View menu, select *Relationship* > *Last 1 month Transfer Status*.
+. Select *Show/Hide* to remove any columns you do not want in the report.
+. Drag the Transfer Duration column near the "`Operational Result`" column.
+. Click the filter icon, add the following filter, and then click *Apply Filter*:
+ ** Transfer End Time in the last 7 Days
+. Click the top of the "`Transfer Duration`" column to sort the volumes by time interval.
+. Save the view with a specific name that reflects what the view is showing, for example "`Volumes by duration`".
+. Click the *Scheduled Reports* button on the inventory page.
+. Enter a name for the report schedule, set the frequency as *Weekly*, and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
++
+The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
+
+Based on the results shown in the report, you can investigate the transfer time intervals.

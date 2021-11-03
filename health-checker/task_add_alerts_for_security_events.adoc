@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_add_alerts_for_security_events.html
+sidebar: sidebar
+keywords: add, alerts, security events
+summary: "You can configure alerts for individual security events just like any other events received by Unified Manager. Additionally, if you want to treat all security events alike and have email sent to the same person, you can create a single alert to notify you when any security events are triggered."
+---
+= Adding alerts for security events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure alerts for individual security events just like any other events received by Unified Manager. Additionally, if you want to treat all security events alike and have email sent to the same person, you can create a single alert to notify you when any security events are triggered.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+The example below shows how to create an alert for the "`Telnet Protocol Enabled`" security event. This will send an alert if Telnet access is configured for remote administrative access into the cluster. You can use this same methodology to create alerts for all security events.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Alert Setup*.
+. In the *Alert Setup* page, click *Add*.
+. In the *Add Alert* dialog box, click *Name*, and enter a name and description for the alert.
+. Click *Resources* and select the cluster or cluster on which you want to enable this alert.
+. Click *Events* and perform the following actions:
+ .. In the Event Severity list, select *Warning*.
+ .. In the Matching Events list, select *Telnet Protocol Enabled*.
+. Click *Actions* and then select the name of the user who will receive the alert email in the *Alert these users* field.
+. Configure any other options on this page for notification frequency, issuing SNMP taps, and executing a script.
+. Click *Save*.

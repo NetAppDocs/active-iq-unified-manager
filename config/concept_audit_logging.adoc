@@ -1,0 +1,59 @@
+---
+permalink: config/concept_audit_logging.html
+sidebar: sidebar
+keywords: audit, logging
+summary: "You can detect whether the audit logs have been compromised with using Audit Logs. All the activities performed by a user are monitored and logged in the Audit Logs. The audits are performed for all user interface and publicly exposed APIs’ functionalities of Active IQ Unified Manager."
+---
+= Audit Logging
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can detect whether the audit logs have been compromised with using Audit Logs. All the activities performed by a user are monitored and logged in the Audit Logs. The audits are performed for all user interface and publicly exposed APIs`' functionalities of Active IQ Unified Manager.
+
+You can use the Audit Log: File View to view and access all the audit log files available in your Active IQ Unified Manager. The files in the Audit Log: File View are listed based on their creation date. This view displays information of all the audit log that are captured from the installation or upgrade to the present in the system. Whenever you perform an action in Unified Manager, the information is updated and is available in the logs. The status of each log file is captured using the "`File Integrity Status`" attribute which gets actively monitored to detect tampering or deletion of the log file. The audit logs can have one of the following states when the audit logs are available in the system:
+
+[cols="2*",options="header"]
+|===
+| State| Description
+a|
+ACTIVE
+a|
+File in which logs are being currently logged.
+a|
+NORMAL
+a|
+File which is inactive, compressed and stored in the system.
+a|
+TAMPERED
+a|
+File which has been compromised by a user who has manually edited the file.
+a|
+MANUAL_DELETE
+a|
+File which got deleted by an authorized user.
+a|
+ROLLOVER_DELETE
+a|
+File which got deleted due to Rolling off based on Rolling Configuration Policy.
+a|
+UNEXPECTED_DELETE
+a|
+File which got deleted due to unknown reasons.
+|===
+The Audit Log page includes the following command buttons:
+
+* Configure
+* Delete
+* Download
+
+The *DELETE* button enables you to delete any of the audit logs listed in the Audit Logs view. You can delete an audit log and optionally provide a reason to delete the file which helps in future to determine a valid delete. The REASON column lists the reason along with the name of the user who performed the delete operation.
+
+[NOTE]
+====
+Deleting a log file will cause deletion of file from the system but the entry in the DB table will not be deleted.
+====
+
+You can download the audit logs from Active IQ Unified Manager using the *DOWNLOAD* button in the Audit Logs section and export the audit log files. The files that are marked "`NORMAL`" or "`TAMPERED`" are downloaded in a compressed `.gzip` format.
+
+When a full Autosupport bundle is generated, the support bundle includes both archived and active audit log files. But when a light support bundle is generated, it includes only the active audit logs. The archived audit logs are not included.

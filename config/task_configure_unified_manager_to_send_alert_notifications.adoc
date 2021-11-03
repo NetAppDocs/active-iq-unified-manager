@@ -1,0 +1,40 @@
+---
+permalink: config/task_configure_unified_manager_to_send_alert_notifications.html
+sidebar: sidebar
+keywords: configure, unified manager, send, alert, notifications
+summary: "You can configure Unified Manager to send notifications that alert you about events in your environment. Before notifications can be sent, you must configure several other Unified Manager options."
+---
+= Configuring Unified Manager to send alert notifications
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure Unified Manager to send notifications that alert you about events in your environment. Before notifications can be sent, you must configure several other Unified Manager options.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+After deploying Unified Manager and completing the initial configuration, you should consider configuring your environment to trigger alerts and generate notification emails or SNMP traps based on the receipt of events.
+
+.Steps
+
+. link:task_configure_event_notification_settings.html[Configure event notification settings]
++
+If you want alert notifications sent when certain events occur in your environment, you must configure an SMTP server and supply an email address from which the alert notification will be sent. If you want to use SNMP traps, you can select that option and provide the necessary information.
+
+. link:task_enable_remote_authentication.html[Enable remote authentication]
++
+If you want remote LDAP or Active Directory users to access the Unified Manager instance and receive alert notifications, then you must enable remote authentication.
+
+. link:task_add_authentication_servers.html[Add authentication servers]
++
+You can add authentication servers so that remote users within the authentication server can access Unified Manager.
+
+. link:task_add_users.html[Add users]
++
+You can add several different types of local or remote users and assign specific roles. When you create an alert, you assign a user to receive the alert notifications.
+
+. link:task_add_alerts.html[Add alerts]
++
+After you have added the email address for sending notifications, added users to receive the notifications, configured your network settings, and configured SMTP and SNMP options needed for your environment, then you can assign alerts.

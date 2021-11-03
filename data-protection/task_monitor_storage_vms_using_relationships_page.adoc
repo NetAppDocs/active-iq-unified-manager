@@ -1,0 +1,34 @@
+---
+permalink: data-protection/task_monitor_storage_vms_using_relationships_page.html
+sidebar: sidebar
+keywords: relationships page, monitor, storage, vm
+summary: "You can monitor your storage VM disaster recovery relationships from the Relationships page in the PROTECTION section of the INVENTORY. By default, the Relationships page lists only the top level relationships as the constituent relationships filter is applied."
+---
+= Monitoring Storage VMs using Relationships page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can monitor your storage VM disaster recovery relationships from the Relationships page in the PROTECTION section of the INVENTORY. By default, the Relationships page lists only the top level relationships as the constituent relationships filter is applied.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+You use filters to view the storage VM disaster recovery relationships.
+
+.Steps
+
+. In the left navigation pane, click *PROTECTION* > *Relationships*.
++
+The page displays all type of relationships: volume, consistency group, and storage VM relationships.
+
+. Click *Filter*, and then select *Relationship Object Type* and *Storage VM* to view only storage VM disaster recovery relationships.
+. Click *Apply Filter*.
++
+[NOTE]
+====
+You should clear the constituent relationships filter to view all the protection relationships.
+====
++
+The page displays only storage VM disaster recovery relationships.

@@ -1,0 +1,14 @@
+---
+permalink: performance-checker/concept_confirm_that_response_time_is_within_expected_range.html
+sidebar: sidebar
+keywords: confirm, latency, within, expected, range
+summary: "When a cluster component is in contention, volume workloads that use it might have decreased response time (latency). You can review the latency of each victim workload on the component in contention to confirm that its actual latency is within its expected range. You can also click a volume name to view the historical data for the volume."
+---
+= Confirming that the latency is within the expected range
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When a cluster component is in contention, volume workloads that use it might have decreased response time (latency). You can review the latency of each victim workload on the component in contention to confirm that its actual latency is within its expected range. You can also click a volume name to view the historical data for the volume.
+
+If the performance event is in the obsolete state, the latency of each victim involved in the event might have returned within its expected range.

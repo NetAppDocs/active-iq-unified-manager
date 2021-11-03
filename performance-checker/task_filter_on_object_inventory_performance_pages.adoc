@@ -1,0 +1,52 @@
+---
+permalink: performance-checker/task_filter_on_object_inventory_performance_pages.html
+sidebar: sidebar
+keywords: filter, data, object, inventory, performance, pages
+summary: "You can filter data in the Object Inventory Performance pages to quickly locate data based on specific criteria. You can use filtering to narrow the contents of the Object Inventory Performance pages to show only the results you have specified. This provides a very efficient method of displaying only the performance data in which you are interested."
+---
+= Filtering data in the Object Inventory Performance pages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can filter data in the Object Inventory Performance pages to quickly locate data based on specific criteria. You can use filtering to narrow the contents of the Object Inventory Performance pages to show only the results you have specified. This provides a very efficient method of displaying only the performance data in which you are interested.
+
+You can use the Filtering panel to customize the grid view based on your preferences. Available filter options are based on the object type being viewed in the grid. If filters are currently applied, the number of applied filters displays at the right of the Filter button.
+
+Three types of filter parameters are supported.
+[options="header"]
+|===
+| Parameter| Validation
+a|
+String (text)
+a|
+The operators are *contains*, *starts with*, *ends with*, and *does not contain*.
+a|
+Number
+a|
+The operators are *greater than*, *less than*, *in the last*, and *between*.
+a|
+Enum (text)
+a|
+The operators are *is* and *is not*.
+|===
+The Column, Operator, and Value fields are required for each filter; the available filters reflect the filterable columns on the current page. The maximum number of filters you can apply is four. Filtered results are based on combined filter parameters. Filtered results apply to all pages in your filtered search, not just the page currently displayed.
+
+You can add filters using the Filtering panel.
+
+. At the top of the page, click the *Filter* button. The Filtering panel displays.
+. Click the left drop-down list and select an object; for example, _Cluster_, or a performance counter.
+. Click the center drop-down list, and select the operator you want to use.
+. In the last list, select or enter a value to complete the filter for that object.
+. To add another filter, click *+Add Filter*. An additional filter field displays. Complete this filter using the process described in the preceding steps. Note that upon adding your fourth filter, the *+Add Filter* button no longer displays.
+. Click *Apply Filter*. The filter options are applied to the grid and the number of filters is displayed to the right of the Filter button.
+. Use the Filtering panel to remove individual filters by clicking the trash icon at the right of the filter to be removed.
+. To remove all filters, click *Reset* at the bottom of the filtering panel.
+
+== Filtering example
+
+The illustration shows the Filtering panel with three filters. The *+Add Filter* button displays when you have fewer than the maximum of four filters.
+
+image::../media/opm_filtering_panel_draft_3.gif[]
+
+After clicking *Apply Filter*, the Filtering panel closes, applies your filters, and shows the number of filters applied (image:../media/opm_filters_applied.gif[]).

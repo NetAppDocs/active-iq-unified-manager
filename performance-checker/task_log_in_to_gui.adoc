@@ -1,0 +1,40 @@
+---
+permalink: performance-checker/task_log_in_to_gui.html
+sidebar: sidebar
+keywords: log in, ui, unified manager
+summary: "You can log in to the Unified Manager UI using a supported web browser."
+---
+= Logging in to the UI
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can log in to the Unified Manager UI using a supported web browser.
+
+*What you'll need*
+
+* The web browser must meet minimum requirements.
++
+See the Interoperability Matrix at http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix] for the complete list of supported browser versions.
+
+* You must have the IP address or URL of the Unified Manager server.
+
+You are automatically logged out of the session after 1 hour of inactivity. This timeframe can be configured under *General* > *Feature Settings*.
+
+.Steps
+. Enter the URL in your web browser, where URL is the IP address or fully qualified domain name (FQDN) of the Unified Manager server:
+ ** For IPv4: `+https://URL/+`
+ ** For IPv6: `https://[URL]/`
+
+If the server uses a self-signed digital certificate, the browser might display a warning indicating that the certificate is not trusted. You can either acknowledge the risk to continue the access or install a Certificate Authority (CA) signed digital certificate for server authentication.
+. At the login screen, enter your user name and password.
+
+If login to the Unified Manager user interface is protected using SAML authentication you will enter your credentials in the identity provider (IdP) login page instead of the Unified Manager login page.
+
+
+The Dashboard page is displayed.
+
+[NOTE]
+====
+If the Unified Manager server is not initialized, a new browser window displays the first experience wizard. You must enter an initial email recipient to which email alerts will be sent, the SMTP server that will handle email communications, and whether AutoSupport is enabled to send information about your Unified Manager installation to technical support. The Unified Manager UI appears after you complete this information.
+====

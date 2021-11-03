@@ -1,0 +1,41 @@
+---
+permalink: config/task_set_session_inactivity_timeout.html
+sidebar: sidebar
+keywords: inactivity, timeout
+summary: "You can specify the inactivity timeout value for Unified Manager so that the session is terminated automatically after a certain period of time. By default the timeout is set to 4,320 minutes (72 hours)."
+---
+= Setting the session inactivity timeout
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can specify the inactivity timeout value for Unified Manager so that the session is terminated automatically after a certain period of time. By default the timeout is set to 4,320 minutes (72 hours).
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+This setting affects all logged in user sessions.
+
+[NOTE]
+====
+This option is not available if you have enabled Security Assertion Markup Language (SAML) authentication.
+====
+
+.Steps
+
+. In the left navigation pane, click *General* > *Feature Settings*.
+. In the *Feature Settings* page, specify the inactivity timeout by choosing one of the following options:
++
+[cols="2*",options="header"]
+|===
+| If you want to...| Then do this...
+a|
+Have no timeout set so that the session is never closed automatically
+a|
+In the *Inactivity Timeout* panel, move the slider button to the left (off) and click *Apply*.
+a|
+Set a specific number of minutes as the time out value
+a|
+In the *Inactivity Timeout* panel, move the slider button to the right (on), specify the inactivity timeout value in minutes, and click *Apply*.
+|===

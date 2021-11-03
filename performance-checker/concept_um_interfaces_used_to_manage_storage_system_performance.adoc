@@ -1,0 +1,24 @@
+---
+permalink: performance-checker/concept_um_interfaces_used_to_manage_storage_system_performance.html
+sidebar: sidebar
+keywords: unified manager, interfaces, used, manage, storage, system, performance, web ui, maintenance, console
+summary: "There are two user interfaces that Active IQ Unified Manager provides for monitoring and troubleshooting data storage performance issues: the web user interface and the maintenance console."
+---
+= Unified Manager interfaces used to manage storage system performance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+There are two user interfaces that Active IQ Unified Manager provides for monitoring and troubleshooting data storage performance issues: the web user interface and the maintenance console.
+
+== Unified Manager web UI
+
+The Unified Manager web UI enables an administrator to monitor and troubleshoot storage system issues relating to performance.
+
+This guide describes some common workflows that an administrator can follow to troubleshoot storage performance issues displayed in the Unified Manager web UI.
+
+== Maintenance console
+
+The maintenance console enables an administrator to monitor, diagnose, and address operating system issues, version upgrade issues, user access issues, and network issues related to the Unified Manager server itself. If the Unified Manager web UI is unavailable, the maintenance console is the only form of access to Unified Manager.
+
+This guide provides directions for accessing the maintenance console and using it to resolve issues related to the functioning of the Unified Manager server.

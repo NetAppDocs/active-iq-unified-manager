@@ -1,0 +1,57 @@
+---
+permalink: events/task_acknowledge_and_resolve_events.html
+sidebar: sidebar
+keywords: acknowledge, resolve, events
+summary: "You should acknowledge an event before you start working on the issue that generated the event so that you do not continue to receive repeat alert notifications. After you take corrective action for a particular event, you should mark the event as resolved."
+---
+= Acknowledging and resolving events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You should acknowledge an event before you start working on the issue that generated the event so that you do not continue to receive repeat alert notifications. After you take corrective action for a particular event, you should mark the event as resolved.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+You can acknowledge and resolve multiple events simultaneously.
+
+[NOTE]
+====
+You cannot acknowledge Information events.
+====
+
+.Steps
+
+. In the left navigation pane, click *Event Management*.
+. From the events list, perform the following actions to acknowledge the events:
++
+[options="header"]
+|===
+| If you want to...| Do this...
+a|
+Acknowledge and mark a single event as resolved
+a|
+
+ .. Click the event name.
+ .. From the Event details page, determine the cause of the event.
+ .. Click *Acknowledge*.
+ .. Take appropriate corrective action.
+ .. Click *Mark As Resolved*.
+
+a|
+Acknowledge and mark multiple events as resolved
+a|
+
+ .. Determine the cause of the events from the respective Event details page.
+ .. Select the events.
+ .. Click *Acknowledge*.
+ .. Take appropriate corrective actions.
+ .. Click *Mark As Resolved*.
+
++
+|===
+After the event is marked resolved, the event is moved to the resolved events list.
+
+. *Optional*: In the *Notes and Updates* area, add a note about how you addressed the event, and then click *Post*.

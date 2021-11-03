@@ -1,0 +1,26 @@
+---
+permalink: health-checker/task_reorder_annotation_rules.html
+sidebar: sidebar
+keywords: reorder, annotation rules
+summary: "You can change the order in which Unified Manager applies annotation rules to storage objects. Annotation rules are applied to storage objects sequentially based on their rank. When you configure an annotation rule, the rank is least. But you can change the rank of the annotation rule depending on your requirements."
+---
+= Reordering annotation rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the order in which Unified Manager applies annotation rules to storage objects. Annotation rules are applied to storage objects sequentially based on their rank. When you configure an annotation rule, the rank is least. But you can change the rank of the annotation rule depending on your requirements.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+You can select either a single row or multiple rows and perform many drag-and-drop operations to change the rank of annotation rules. However, you must save the changes for the reprioritization to be displayed in the Annotation Rules tab.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Annotations*.
+. In the *Annotation Rules* tab, click *Reorder*.
+. In the *Reorder Annotation Rule* dialog box, drag and drop single or multiple rows to rearrange the sequence of the annotation rules.
+. Click *Save*.
++
+You must save the changes for the reorder to be displayed.

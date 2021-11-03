@@ -1,0 +1,48 @@
+---
+permalink: config/reference_saml_authentication_page_um.html
+sidebar: sidebar
+keywords: saml authentication page
+summary: "You can use the SAML Authentication page to configure Unified Manager to authenticate remote users using SAML though a secure identity provider (IdP) before they can to log in to the Unified Manager web UI."
+---
+= SAML Authentication page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the SAML Authentication page to configure Unified Manager to authenticate remote users using SAML though a secure identity provider (IdP) before they can to log in to the Unified Manager web UI.
+
+* You must have the Application Administrator role to create or modify the SAML configuration.
+* You must have configured remote authentication.
+* You must have configured at least one remote user or remote group.
+
+After remote authentication and remote users have been configured, you can select the Enable SAML authentication checkbox to enable authentication using a secure identity provider.
+
+* *IdP URI*
++
+The URI to access the IdP from the Unified Manager server. Example URIs are listed below.
++
+ADFS example URI:
++
+`+https://win2016-dc.ntap2016.local/federationmetadata/2007-06/federationmetadata.xml+`
++
+Shibboleth example URI:
++
+`+https://centos7.ntap2016.local/idp/shibboleth+`
+
+* *IdP Metadata*
++
+The IdP metadata in XML format.
++
+If the IdP URL is accessible from the Unified Manager server, you can click the *Fetch IdP Metadata* button to populate this field.
+
+* *Host System (FQDN)*
++
+The FQDN of the Unified Manager host system as defined during installation. You can change this value if necessary.
+
+* *Host URI*
++
+The URI to access the Unified Manager host system from the IdP.
+
+* *Host Metadata*
++
+The host system metadata in XML format.

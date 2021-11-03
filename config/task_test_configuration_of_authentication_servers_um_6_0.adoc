@@ -1,0 +1,28 @@
+---
+permalink: config/task_test_configuration_of_authentication_servers_um_6_0.html
+sidebar: sidebar
+keywords: test, configuration, authentication servers
+summary: "You can validate the configuration of your authentication servers to ensure that the management server is able to communicate with them. You can validate the configuration by searching for a remote user or remote group from your authentication servers, and authenticating them using the configured settings."
+---
+= Testing the configuration of authentication servers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can validate the configuration of your authentication servers to ensure that the management server is able to communicate with them. You can validate the configuration by searching for a remote user or remote group from your authentication servers, and authenticating them using the configured settings.
+
+*What you'll need*
+
+* You must have enabled remote authentication, and configured your authentication service so that the Unified Manager server can authenticate the remote user or remote group.
+* You must have added your authentication servers so that the management server can search for the remote user or remote group from these servers and authenticate them.
+* You must have the Application Administrator role.
+
+If the authentication service is set to Active Directory, and if you are validating the authentication of remote users who belong to the primary group of the authentication server, information about the primary group is not displayed in the authentication results.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Remote Authentication*.
+. Click *Test Authentication*.
+. In the Test User dialog box, specify the user name and password of the remote user or the user name of the remote group, and then click *Test*.
++
+If you are authenticating a remote group, you must not enter the password.

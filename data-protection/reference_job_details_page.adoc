@@ -1,0 +1,107 @@
+---
+permalink: data-protection/reference_job_details_page.html
+sidebar: sidebar
+keywords: job, details, page
+summary: "The Job details page enables you to view status and other information about specific protection job tasks that are running, that are queued, or that have completed. You can use this information to monitor protection job progress and to troubleshoot job failures."
+---
+= Job details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Job details page enables you to view status and other information about specific protection job tasks that are running, that are queued, or that have completed. You can use this information to monitor protection job progress and to troubleshoot job failures.
+
+== Job summary
+
+The job summary displays the following information:
+
+* Job ID
+* Type
+* State
+* Submitted Time
+* Completed Time
+* Duration
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Refresh*
++
+Refreshes the task list and the properties associated with each task.
+
+* *View Jobs*
++
+Returns you to the Jobs page.
+
+== Job tasks list
+
+The Job tasks list displays in a table all the tasks associated with a specific job and the properties related to each task.
+
+* *Started Time*
++
+Displays the day and time the task started. By default, the most recent tasks are displayed at the top of the column and older tasks are displayed at the bottom.
+
+* *Type*
++
+Displays the type of task.
+
+* *State*
++
+The state of a particular task:
+
+ ** *Completed*
++
+The task has finished.
+
+ ** *Queued*
++
+The task is about to run.
+
+ ** *Running*
++
+The task is running.
+
+ ** *Waiting*
++
+A job has been submitted and some associated tasks are waiting to be queued and executed.
+
+* *Status*
++
+Displays the task status:
+
+ ** *Error (image:../media/sev_error.gif[])*
++
+The task failed.
+
+ ** *Normal (image:../media/sev_normal.gif[])*
++
+The task succeeded.
+
+ ** *Skipped (image:../media/icon_skipped.gif[])*
++
+A task failed, resulting in subsequent tasks being skipped.
+
+* *Duration*
++
+Displays the elapsed time since the task began.
+
+* *Completed Time*
++
+Displays the time the task completed. By default, this column is hidden.
+
+* *Task ID*
++
+Displays the GUID that identifies an individual task for a job. The column can be sorted and filtered. By default, this column is hidden.
+
+* *Dependency order*
++
+Displays an integer representing the sequence of tasks in a graph, with zero being assigned to the first task. By default, this column is hidden.
+
+* *Task Details pane*
++
+Displays additional information about each job task, including the task name, task description, and, if the task failed, a reason for the failure.
+
+* *Task Messages pane*
++
+Displays messages specific to the selected task. Messages might include a reason for the error and suggestions for resolving it. Not all tasks display task messages.

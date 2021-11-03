@@ -1,0 +1,14 @@
+---
+permalink: storage-mgmt/concept_override_management_actions_through_scripts.html
+sidebar: sidebar
+keywords: override, management, actions, scripts
+summary: "You can create custom scripts and associate them to alerts to take specific actions for specific events, and not opt for the default management actions available for them on the Management Actions page or Unified Manager dashboard."
+---
+= Overriding management actions through scripts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create custom scripts and associate them to alerts to take specific actions for specific events, and not opt for the default management actions available for them on the Management Actions page or Unified Manager dashboard.
+
+If you want to take specific actions for an event type and choose not to fix them as a part of the management action capability provided by Unified Manager, you can configure a custom script for the specific action. You can then associate the script with an alert for that event type and take care of such events individually. In this case, management actions are not generated for that specific event type on the Management Actions page or Unified Manager dashboard.

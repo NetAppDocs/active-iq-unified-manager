@@ -1,0 +1,22 @@
+---
+permalink: data-protection/task_view_job_details.html
+sidebar: sidebar
+keywords: view, job, details
+summary: "After you start a job, you can track its progress from the Job details page and monitor the associated tasks for possible errors."
+---
+= Viewing job details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you start a job, you can track its progress from the Job details page and monitor the associated tasks for possible errors.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+.Steps
+
+. In the left navigation pane, click *Protection* > *Jobs*.
+. In the Jobs page, click a job name in the *Name* column to display the list of tasks associated with the job.
+. Click on a task to display additional information in the *Task Details* pane and the *Task Messages* pane to the right of the task list.

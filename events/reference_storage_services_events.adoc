@@ -1,0 +1,69 @@
+---
+permalink: events/reference_storage_services_events.html
+sidebar: sidebar
+keywords: storage, services, events, impact area, configuration, protection
+summary: "Storage services events provide you with information about the creation and subscription of storage services so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= Storage services events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Storage services events provide you with information about the creation and subscription of storage services so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: configuration
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Storage Service Created(Not applicable)
+
+a|
+Event
+a|
+Storage service
+a|
+Information
+a|
+Storage Service Subscribed(Not applicable)
+
+a|
+Event
+a|
+Storage service
+a|
+Information
+a|
+Storage Service Unsubscribed(Not applicable)
+
+a|
+Event
+a|
+Storage service
+a|
+Information
+|===
+
+== Impact area: protection
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Unexpected Deletion of Managed SnapMirror RelationshipocumEvtStorageServiceUnsupportedRelationshipDeletion
+
+a|
+Risk
+a|
+Storage service
+a|
+Warning
+a|
+Unexpected Deletion of Storage Service Member Volume(ocumEvtStorageServiceUnexpectedVolumeDeletion)
+
+a|
+Incident
+a|
+Storage service
+a|
+Critical
+|===

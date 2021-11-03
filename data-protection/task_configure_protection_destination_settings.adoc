@@ -1,0 +1,28 @@
+---
+permalink: data-protection/task_configure_protection_destination_settings.html
+sidebar: sidebar
+keywords: configure, destination, efficiency, settings
+summary: "You can configure destination efficiency settings such as deduplication, compression, autogrow, and space guarantee on a protection destination using the Advanced Destination Settings dialog box. You use these settings when you want to maximize space utilization on a destination or secondary volume."
+---
+= Configuring destination efficiency settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure destination efficiency settings such as deduplication, compression, autogrow, and space guarantee on a protection destination using the Advanced Destination Settings dialog box. You use these settings when you want to maximize space utilization on a destination or secondary volume.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+By default, efficiency settings match those of the source volume, except for compression settings in a SnapVault relationship, which are disabled by default.
+
+.Steps
+
+. Click either the *SnapMirror* tab or the *SnapVault* tab in the *Configure Protection* dialog box, depending on the type of relationship you are configuring.
+. Click *Advanced* in the *Destination Information* area.
++
+The Advanced Destination Settings dialog box is opened.
+
+. Enable or disable the efficiency settings for deduplication, compression, autogrow, and space guarantee, as required.
+. Click *Apply* to save your selections and return to the *Configure Protection* dialog box.

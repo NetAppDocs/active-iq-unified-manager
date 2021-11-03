@@ -1,0 +1,30 @@
+---
+permalink: config/reference_https_dialog_box_ocf.html
+sidebar: sidebar
+keywords: https certificate page
+summary: "The HTTPS Certificate page enables you to view the current security certificate, download a certificate signing request, generate a new HTTPS certificate, or install a new HTTPS certificate."
+---
+= HTTPS Certificate page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The HTTPS Certificate page enables you to view the current security certificate, download a certificate signing request, generate a new HTTPS certificate, or install a new HTTPS certificate.
+
+If you have not generated a new HTTPS certificate, the certificate that appears on this page is the certificate that was generated during installation.
+
+== Command buttons
+
+The command buttons enable you to perform the following operations:
+
+* *Download HTTPS Certificate Signing Request*
++
+Downloads a certification request for the currently installed HTTPS certificate. Your browser prompts you to save the <hostname>.csr file so that you can provide the file to a Certificate Authority to sign.
+
+* *Install HTTPS Certificate*
++
+Enables you to upload and install a security certificate after a Certificate Authority has signed and returned it. The new certificate is in effect after you restart the management server.
+
+* *Regenerate HTTPS Certificate*
++
+Enables you to generate an HTTPS certificate, which replaces the current security certificate. The new certificate is in effect after you restart Unified Manager.

@@ -1,0 +1,32 @@
+---
+permalink: events/task_schedule_maintenance_window_to_disable_cluster_notifications.html
+sidebar: sidebar
+keywords: schedule, maintenance, window, disable, cluster, event, notifications
+summary: "If you have a planned downtime for a cluster, for example, to upgrade the cluster or to move one of the nodes, you can suppress the events and alerts that would normally be generated during that timeframe by scheduling a Unified Manager maintenance window."
+---
+= Scheduling a maintenance window to disable cluster event notifications
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you have a planned downtime for a cluster, for example, to upgrade the cluster or to move one of the nodes, you can suppress the events and alerts that would normally be generated during that timeframe by scheduling a Unified Manager maintenance window.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+During a maintenance window, the events related to all objects on that cluster are still generated, but they do not appear in the event page, and no alerts or other types of notification are sent for these events.
+
+The time you enter for the maintenance window is based on the time at the Unified Manager server.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Cluster Setup*.
+. In the *Maintenance Mode* column for the cluster, select the slider button and move it to the right.
++
+The calendar window is displayed.
+
+. Select the start and end date and time for the maintenance window and click *Apply*.
++
+The message "Scheduled" appears next to the slider button.
+
+When the start time is reached the cluster goes into maintenance mode and an "Object Maintenance Window Started" event is generated.

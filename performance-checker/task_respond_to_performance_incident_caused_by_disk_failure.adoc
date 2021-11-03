@@ -1,0 +1,44 @@
+---
+permalink: performance-checker/task_respond_to_performance_incident_caused_by_disk_failure.html
+sidebar: sidebar
+keywords: dynamic, performance, event, disk, failure
+summary: "You can use Unified Manager to investigate a performance event caused by workloads overutilizing an aggregate. You can also use Unified Manager to check the health of the aggregate to see if recent health events detected on the aggregate contributed to the performance event."
+---
+= Responding to a dynamic performance event caused by a disk failure
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to investigate a performance event caused by workloads overutilizing an aggregate. You can also use Unified Manager to check the health of the aggregate to see if recent health events detected on the aggregate contributed to the performance event.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+* There must be new, acknowledged, or obsolete performance events.
+
+.Steps
+. Display the *Event details* page to view information about the event.
+. Read the *Description*, which describes the workloads involved in the event and the cluster component in contention.
++
+There are multiple victim volumes whose latency was impacted by the cluster component in contention. The aggregate, which is in the middle of a RAID reconstruct to replace the failed disk with a spare disk, is the cluster component in contention. Under Component in Contention, the Aggregate icon is highlighted red and the name of the aggregate is displayed in parentheses.
+
+. In the Workload Utilization chart, select *Bully Workloads*.
+. Hover your cursor over the chart to view the top bully workloads that are affecting the component.
++
+The top workloads with the highest peak utilization since the event was detected are displayed at the top of the chart. One of the top workloads is the system-defined workload Disk Health, which indicates a RAID reconstruct. A reconstruct is the internal process involved with rebuilding the aggregate with the spare disk. The Disk Health workload, along with other workloads on the aggregate, likely caused the contention on the aggregate and the associated event.
+
+. After confirming that the activity from the Disk Health workload caused the event, wait for approximately 30 minutes for the reconstruction to finish and for Unified Manager to analyze the event and detect whether the aggregate is still in contention.
+. Refresh the *Event details*.
++
+After the RAID reconstruction is complete, check that the State is obsolete, indicating that the event is resolved.
+
+. In the Workload Utilization chart, select *Bully Workloads* to view the workloads on the aggregate by peak utilization.
+. In the *Suggested Actions* area, click the *Analyze Workload* button for the top workload.
+. In the *Workload Analysis* page, set the Time Range to display the last 24 hours (1 day) of data for the selected volume.
++
+In the Event Timeline, a red dot (image:../media/opm_incident_icon_png.gif[Performance Manager incident icon]) indicates when the disk failure event occurred.
+
+. In the Node and Aggregate Utilization chart, hide the line for the Node statistics so that just the Aggregate line remains.
+. Compare the data in this chart to the data at the time of the event in the *Latency* chart.
++
+At the time of the event, the Aggregate Utilization shows a high amount of read and write activity, caused by the RAID reconstruction processes, which increased the latency of the selected volume. A few hours after the event occurred, both the reads and writes and the latency have decreased, confirming that the aggregate is no longer in contention.

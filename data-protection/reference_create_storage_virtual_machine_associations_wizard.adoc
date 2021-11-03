@@ -1,0 +1,72 @@
+---
+permalink: data-protection/reference_create_storage_virtual_machine_associations_wizard.html
+sidebar: sidebar
+keywords: create, storage, virtual machine, peers, wizard
+summary: "The Create Storage Virtual Machine Peers wizard enables you to peer source and destination storage VM for use in SnapMirror and SnapVault protection relationships."
+---
+= Create Storage Virtual Machine Peers wizard
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Create Storage Virtual Machine Peers wizard enables you to peer source and destination storage VM for use in SnapMirror and SnapVault protection relationships.
+
+== Select Source
+
+The Select Source panel enables you to select the source, or primary, storage VM in the storage VM peer.
+
+* *Any*
++
+Enables you to create a peer between any storage VM source to one or more destination, or secondary, storage VM. This means that all existing storage VMs that currently require protection, as well as any storage VMs that are created in the future, are peered with the specified destination storage VM. For example, you might want applications from several different sources at different locations backed up to one or more destination storage VM in one location.
+
+* *Single*
++
+Enables you to peer a specific source storage VM with one or more destination storage VM. For example, if you are providing storage services to many clients whose data must be separate from one another, choose this option to associate a specific storage VM source to a specific storage VM destination that is assigned only to that client.
+
+* *None (External)*
++
+Enables you to create an association between a source storage VM and an external flexible volume of a destination storage VM.
+
+ ** Storage Virtual Machine
++
+Lists the names of the available source storage VM
+
+ ** Cluster
++
+Lists the clusters on which each storage VM resides
+
+* *Allow these kinds of relationships*
++
+Enables you to select the relationship type for the association:
+
+ ** SnapMirror
++
+Specifies a SnapMirror relationship as the peer type. Selecting this option enables data replication from the selected sources to the selected destinations.
+
+ ** SnapVault
++
+Specifies a SnapVault relationship as the peer type. Selecting this option enables backups from the selected primary locations to the selected secondary locations.
+
+== Select Protection Destinations
+
+The Select Protection Destinations panel of the Create Storage Virtual Machine Peers wizard enables you to select where to copy or replicate the data. You can create a peer on only one destination storage VM per cluster.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Next*
++
+Advances you to the next page in the wizard.
+
+* *Back*
++
+Returns you to the previous page in the wizard.
+
+* *Finish*
++
+Applies your selections and creates the association.
+
+* *Cancel*
++
+Discards the selections and closes the Create Storage Virtual Machine Peers wizard.

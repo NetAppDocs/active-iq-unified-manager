@@ -1,0 +1,34 @@
+---
+permalink: api-automation/concept_provision_workflow.html
+sidebar: sidebar
+keywords: workflow, workload, management
+summary: "Using Active IQ Unified Manager, you can provision and modify storage workloads (LUNs, NFS file shares, and CIFS shares). Provisioning consists of multiple steps, from the creation of the Storage Virtual Machine (SVM) to applying Performance Service Level and Storage Efficiency Policies on the storage workloads. Modifying workloads consist of the steps for modifying specific parameters and enabling additional features on them."
+---
+= Workflows for workload management
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Using Active IQ Unified Manager, you can provision and modify storage workloads (LUNs, NFS file shares, and CIFS shares). Provisioning consists of multiple steps, from the creation of the Storage Virtual Machine (SVM) to applying Performance Service Level and Storage Efficiency Policies on the storage workloads. Modifying workloads consist of the steps for modifying specific parameters and enabling additional features on them.
+
+The following workflows are described:
+
+* Workflow for provisioning Storage Virtual Machines (SVMs) on Unified Manager.
++
+[NOTE]
+====
+this workflow is required to be performed before provisioning LUNs or file shares on Unified Manager.
+====
+
+* Provisioning file shares.
+* Provisioning LUNs.
+* Modifying LUNs and file shares (by using the example for updating the Performance Service Level parameter for the storage workloads).
+* Modifying an NFS file share to support CIFS protocol
+* Modifying workloads to upgrade QoS to AQoS
+
+[NOTE]
+====
+For each provisioning workflow (LUN and file shares), ensure you must have completed the workflow for verifying the SVMs on the clusters.
+====
+
+You must also read the recommendations and limitations before using each API in the workflows. The relevant details of the APIs are available in their individual sections listed in the related concepts and references.

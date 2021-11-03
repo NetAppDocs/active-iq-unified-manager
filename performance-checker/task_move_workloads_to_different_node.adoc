@@ -1,0 +1,71 @@
+---
+permalink: performance-checker/task_move_workloads_to_different_node.html
+sidebar: sidebar
+keywords: move, workloads, different, node
+summary: "You can use Unified Manager to help identify an aggregate on a different node that is less busy than the node on which your workloads are currently running, and then you can move selected volumes to that aggregate. Moving high-performing workloads to an aggregate on a less busy node allows the workloads on both nodes to perform more efficiently."
+---
+= Moving workloads to a different node
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to help identify an aggregate on a different node that is less busy than the node on which your workloads are currently running, and then you can move selected volumes to that aggregate. Moving high-performing workloads to an aggregate on a less busy node allows the workloads on both nodes to perform more efficiently.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+* You must have recorded the name of the node that is currently having a performance issue.
+* You must have recorded the date and time at which the node received the performance event.
+* Unified Manager must have collected and analyzed performance data for a month or longer.
+
+This procedure helps you to identify the following resources so that you can move high-performing workloads to a lower utilized node:
+
+* The nodes on the same cluster that have the greatest free performance capacity
+* The aggregates on the new node that have the greatest free performance capacity
+* The highest-performing volumes on the current node
+
+.Steps
+. Identify a node in the cluster that has the greatest free performance capacity:
+ .. On the *Event Details* page, click the name of the cluster on which the node resides.
++
+The cluster details are displayed in the Performance/Cluster Landing page.
+
+ .. On the *Summary* tab, click *Nodes* from the *Managed Objects* pane.
++
+The list of nodes on this cluster are displayed.
+
+ .. Click the *Performance Capacity Used* column to sort the nodes by least percentage used.
++
+This provides a list of potential nodes to which you might want to move workloads.
+
+ .. Write down the name of the node to which you want to move the workloads.
+. Identify an aggregate on the new node that is the least utilized:
+ .. In the left navigation pane, click *Storage* > *Aggregates* and select *Performance* > *All Aggregates* from the View menu.
++
+The Performance: All Aggregates view is displayed.
+
+ .. Click *Filtering*, select *Node* from the left drop-down menu, type the name of the node in the text field, and then click *Apply Filter*.
++
+The Performance: All Aggregates view is redisplayed with the list of aggregates that are available on this node.
+
+ .. Click the *Performance Capacity Used* column to sort the aggregates by least used.
++
+This provides a list of potential aggregates to which you might want to move workloads.
+
+ .. Write down the name of the aggregate to which you want to move the workloads.
+. Identify the high-performing workloads from the node that received the event:
+ .. Return to the *Event Details* page for the event.
+ .. In the *Affected Volumes* field, click the link for the number of volumes.
++
+The Performance: All Volumes view is displayed with a filtered list of the volumes on that node.
+
+ .. Click the *Total Capacity* column to sort the volumes by the largest allocated space.
++
+This provides a list of potential volumes that you may want to move.
+
+ .. Write down the names of the volumes that you want to move, and the names of the current aggregates on which they reside.
+. Move the volumes to the aggregates that you identified as having greatest free performance capacity on the new node.
++
+You can perform the move operation by using ONTAP System Manager, OnCommand Workflow Automation, ONTAP commands, or a combination of these tools.
+
+After a few days, you can check whether you are receiving the same type of events from this node or aggregate.

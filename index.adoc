@@ -1,0 +1,14 @@
+---
+layout: astra
+sidebar: sidebar
+permalink: index.html
+lead: Active IQ Unified Manager (Unified Manager, and formerly OnCommand Unified Manager) enables you to monitor and manage the health and performance of your ONTAP storage systems from a single interface.
+summary: Documentation for Active IQ Unified Manager, AIQUM docs, UM docs
+---
+
+= Active IQ Unified Manager Documentation
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

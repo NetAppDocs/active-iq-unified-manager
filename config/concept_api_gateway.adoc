@@ -1,0 +1,20 @@
+---
+permalink: config/concept_api_gateway.html
+sidebar: sidebar
+keywords: api gateway
+summary: "The API Gateway feature allows Active IQ Unified Manager to be a single control plane from which you can manage multiple ONTAP clusters, without logging in to them individually."
+---
+= Enabling API Gateway
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The API Gateway feature allows Active IQ Unified Manager to be a single control plane from which you can manage multiple ONTAP clusters, without logging in to them individually.
+
+You can enable this feature from the configuration pages that appear when you first log in to Unified Manager. Alternatively, you can enable or disable this feature from *General* > *Feature Settings* > *API Gateway*.
+
+Unified Manager REST APIs are different from the ONTAP REST APIs, and not all the functionalities of ONTAP REST APIs can be availed by using the Unified Manager REST APIs. However, if you have a specific business requirement of accessing the ONTAP APIs for managing specific features that are not exposed to Unified Manager, you can enable the API Gateway feature and execute the ONTAP APIs. The gateway acts as a proxy to tunnel the API requests by maintaining the header and body requests in the same format as in the ONTAP APIs. You can use your Unified Manager credentials and execute the specific APIs to access and manage the ONTAP clusters without passing individual cluster credentials. Unified Manager performs as a single point of management for running the APIs across the ONTAP clusters managed by your Unified Manager instance. The response returned by the APIs is the same as the response returned by the respective ONTAP REST APIs executed directly from ONTAP.
+
+After enabling this feature, you can execute the Unified Manager REST APIs from *Menu Bar* > *Help button* > *API Documentation* > *gateway* category. Alternatively, you can enter the host name or IP address and the URL to access the REST API page in the format `https://<hostname>/docs/api/`
+
+For more information about the APIs, see the _Active IQ Unified Manager API Developer's Guide_.

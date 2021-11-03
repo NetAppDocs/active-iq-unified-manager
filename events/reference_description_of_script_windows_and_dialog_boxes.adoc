@@ -1,0 +1,12 @@
+---
+permalink: events/reference_description_of_script_windows_and_dialog_boxes.html
+sidebar: sidebar
+keywords: description, script, windows, dialog boxes
+summary: "The Scripts page enables you to add scripts to Unified Manager."
+---
+= Description of script windows and dialog boxes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Scripts page enables you to add scripts to Unified Manager.

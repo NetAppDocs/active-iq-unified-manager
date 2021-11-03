@@ -1,0 +1,69 @@
+---
+permalink: storage-mgmt/concept_manage_storage_efficiency_policies.html
+sidebar: sidebar
+keywords: manage, storage, efficiency, policies, guidelines, create, custom
+summary: "A Storage Efficiency Policy (SEP) enables you to define the storage efficiency characteristics of a workload. You can assign an SEP to a workload when initially creating the workload, or afterwards by editing the workload."
+---
+= Managing Storage Efficiency Policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A Storage Efficiency Policy (SEP) enables you to define the storage efficiency characteristics of a workload. You can assign an SEP to a workload when initially creating the workload, or afterwards by editing the workload.
+
+Storage efficiency includes using technologies, such as thin provisioning, deduplication, and data compression that increase storage utilization and decrease storage costs. While creating SEPs, you can use these space-saving technologies either individually or together to achieve maximum storage efficiency. When you associate the policies with your storage workloads, the specified policy settings are assigned to them. Unified Manager enables you to assign system-defined and user-defined SEPs to optimize storage resources in your data center.
+
+Unified Manager provides two system-defined SEPs: High and Low. These SEPs are applicable to most of the storage workloads in a data center, however, you can create your own policies if the system-defined SEPs do not meet your requirements.
+
+You cannot modify an SEP that is system-defined or that is currently assigned to a workload. You cannot delete an SEP that is assigned to a workload, or if it is the only available SEP.
+
+The Storage Efficiency Policies page lists the available SEPs and enables you to add, edit, and delete customized SEPs. This page displays the following information:
+
+[options="header"]
+|===
+| Field| Description
+a|
+Name
+a|
+Name of the SEP.
+
+a|
+Type
+a|
+Whether the policy is system-defined or user-defined.
+
+a|
+Space Reserve
+a|
+Whether the volume is thin-provisioned or thick-provisioned.
+
+a|
+Deduplication
+a|
+Whether deduplication is enabled on the workload:
+
+* Inline: Deduplication occurs while being written on the workload
+* Background: Deduplication occurs in the workload
+* Disable: Deduplication is disabled on the workload
+
+a|
+Compression
+a|
+Whether data compression is enabled on the workload:
+
+* Inline: Data compression occurs while being written on the workload
+* Background: Data compression occurs in the workload
+* Disable: Data compression is disabled on the workload
+
+a|
+Workloads
+a|
+Number of storage workloads that have been assigned the SEP
+
+|===
+
+== Guidelines for creating a custom Storage Efficiency Policy
+
+If the existing SEPs do not meet policy requirements for your storage workloads, you can create a custom SEP. However, it is recommended that you attempt to use the system-defined SEPs for your storage workloads, and only create custom SEPs if necessary.
+
+You can view the SEP assigned to workloads in the All Workloads page and in the Volume / Health details page. You can view the cluster-level data reduction ratio based on these storage efficiencies in the Capacity panel on the Dashboard and in the Capacity: All Clusters view.

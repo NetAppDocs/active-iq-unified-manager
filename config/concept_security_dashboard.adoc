@@ -1,0 +1,46 @@
+---
+permalink: config/concept_security_dashboard.html
+sidebar: sidebar
+keywords: security compliance settings, security feature settings, ONTAP hardening guide, AutoSupport settings, authentication settings
+summary: "you can enable or disable the security parameters for compliance monitoring on Unified Manager."
+---
+= Enabling and disabling security settings for compliance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+By using the *Customize* button on the *Security Dashboard* panel of the Features Settings page, you can enable or disable the security parameters for compliance monitoring on Unified Manager.
+
+The settings that are enabled or disabled from this page govern the overall compliance status of the clusters and storage VMs on Unified Manager. Based on the selections, the corresponding columns are visible in the *Security: All Clusters* view of the Clusters inventory page and the *Security: All Storage VMs* view of the Storage VMs inventory page.
+
+[NOTE]
+====
+Only users with administrator role can edit these settings.
+====
+
+The security criteria for your ONTAP clusters, storage VMs, and volumes are evaluated against the recommendations defined in the link:https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf[Security Hardening Guide for NetApp ONTAP 9]. The Security panel on the dashboard and the Security page display the default security compliance status of your clusters, storage VMs, and volumes. Security events are also generated and management actions enabled for the clusters and storage VMs that have security violations.
+
+== Customizing security settings
+
+To customize the settings for compliance monitoring as applicable to your ONTAP environment, follow these steps:
+
+.Steps
+
+. Click *General > Feature Settings > Security Dashboard > Customize*. The *Customize Security Dashboard Settings* pop-up appears.
+
++
+[NOTE]
+====
+The security compliance parameters that you enable or disable can directly affect the default security views, reports, and scheduled reports on the Clusters and Storage VMs screens. If you had uploaded an excel report from these screens before modifying the security parameters, the downloaded excel reports might be faulty.
+====
+
+. To enable or disable the custom settings for your ONTAP clusters, select the required general setting under *Cluster*. For information on the options for customizing cluster compliance, see link:../health-checker/reference_cluster_compliance_categories.html[Cluster compliance categories]
+. To enable or disable the custom settings for your storage VMs, select  the required general setting under *Storage VM*. For information on the options for customizing storage VM compliance, see link:../health-checker/reference_svm_compliance_categories.html[Storage VM compliance categories].
+
+== Customizing AutoSupport and authentication settings
+
+On the *AutoSupport Settings* section, you can specify whether HTTPS transport is to be used for sending AutoSupport messages from ONTAP.
+
+From the *Authentication Settings* section, you can enable Unified Manager alerts to be raised for the default ONTAP administrator user.
+
+---

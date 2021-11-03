@@ -1,0 +1,32 @@
+---
+permalink: config/task_add_users.html
+sidebar: sidebar
+keywords: add, users
+summary: "You can add local users or database users by using the Users page. You can also add remote users or groups that belong to an authentication server. You can assign roles to these users and, based on the privileges of the roles, users can manage the storage objects and data with Unified Manager, or view the data in a database."
+---
+= Adding users
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add local users or database users by using the Users page. You can also add remote users or groups that belong to an authentication server. You can assign roles to these users and, based on the privileges of the roles, users can manage the storage objects and data with Unified Manager, or view the data in a database.
+
+*What you'll need*
+
+* You must have the Application Administrator role.
+* To add a remote user or group, you must have enabled remote authentication and configured your authentication server.
+* If you plan to configure SAML authentication so that an identity provider (IdP) authenticates users accessing the graphical interface, make sure these users are defined as "`remote`" users.
++
+Access to the UI is not allowed for users of type "`local`" or "`maintenance`" when SAML authentication is enabled.
+
+If you add a group from Windows Active Directory, then all direct members and nested subgroups can authenticate to Unified Manager, unless nested subgroups are disabled. If you add a group from OpenLDAP or other authentication services, then only the direct members of that group can authenticate to Unified Manager.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Users*.
+. On the Users page, click *Add*.
+. In the Add User dialog box, select the type of user that you want to add, and enter the required information.
++
+When entering the required user information, you must specify an email address that is unique to that user. You must avoid specifying email addresses that are shared by multiple users.
+
+. Click *Add*.

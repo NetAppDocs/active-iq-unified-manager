@@ -1,0 +1,36 @@
+---
+permalink: reporting/task_create_report_to_view_ha_pairs_with_most_available_capacity.html
+sidebar: sidebar
+keywords: create, report, view, HA pairs, available, capacity
+summary: "You can create a report to find the high availability (HA) pairs with the most capacity to provision new volumes and LUNs."
+---
+= Creating a report to view HA pairs with the most available capacity
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a report to find the high availability (HA) pairs with the most capacity to provision new volumes and LUNs.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+
+Use the following steps to create a custom view that displays HA pairs sorted by the most available capacity to provision new volumes and LUNs, and then schedule a report to be generated for that view.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Clusters*.
+. In the View menu, select *Capacity* > *All Clusters*.
+. Select *Show/Hide* to remove any columns you do not want in the report.
+. Drag the "`Aggregate Unused Capacity`" column near the "`HA Pair`" column.
+. Click the filter icon, add the following filter, and then click *Apply Filter*:
+ ** Aggregate Unused Capacity greater than 0.5 TB
+. Click the top of the "`Aggregate Unused Capacity`" column to sort the results by the greatest amount of unused aggregate capacity.
+. Save the view with a specific name that reflects what the view is showing, for example, "`Least used aggregate capacity`", and click the check mark (image:../media/blue_check.gif[]).
+. Click the *Scheduled Reports* button on the inventory page.
+. Click *Add Schedule* to add a new row to the Report Schedules page so that you can define the schedule characteristics for the new report.
+. Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
++
+The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
+
+Based on the results shown in the report, you might want to balance HA pairs based on aggregate capacity.

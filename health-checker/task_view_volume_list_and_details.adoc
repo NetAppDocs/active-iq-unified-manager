@@ -1,0 +1,35 @@
+---
+permalink: health-checker/task_view_volume_list_and_details.html
+sidebar: sidebar
+keywords: view, volume list, details
+summary: "From the Health: All Volumes view, you can monitor your inventory of volumes. The Capacity: All Volumes view enables you to view information about the capacity and utilization of volumes in a cluster."
+---
+= Viewing the volume list and details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Health: All Volumes view, you can monitor your inventory of volumes. The Capacity: All Volumes view enables you to view information about the capacity and utilization of volumes in a cluster.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+You can also use the Volume / Health details page to view detailed information about volumes that are monitored, including the capacity, efficiency, configuration, and protection of the volumes. You can also view information about the related devices and related alerts for a specific volume.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Volumes*.
+. Choose one of the following ways to view the volume details:
+ ** To view detailed information about the health of volumes in a cluster, in the View menu, select Health: All Volumes view.
+ ** To view detailed information about the capacity and utilization of volumes in a cluster, in the View menu, select Capacity: All Volumes view.
+ ** To view the complete details, click the volume name.
++
+You can also view the complete details by clicking *View Details* in the minimal details dialog box.
+. *Optional:* View the objects related to the volume by clicking *View Related* from the minimal details dialog box.
+
+*Related information*
+
+link:../task_view_aggregate_list_and_details.html[Health / Volumes page]
+
+link:../reporting/task_create_report_to_view_available_volume_capacity_charts.html[Creating a report to view available volume capacity charts]

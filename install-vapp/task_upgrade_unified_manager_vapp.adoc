@@ -1,0 +1,20 @@
+---
+permalink: install-vapp/task_upgrade_unified_manager_vapp.html
+sidebar: sidebar
+keywords: upgrade, unified manager
+summary: "You can upgrade to Unified Manager on VMware vSphere"
+---
+= Upgrading Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can upgrade to Unified Manager 9.10 only from release 9.8 or 9.9.
+
+During the upgrade process, Unified Manager is unavailable. You should complete any running operations before upgrading Unified Manager.
+
+If Unified Manager is paired with an instance of OnCommand Workflow Automation, and there are new versions of software available for both products, you must disconnect the two products and then set up a new Workflow Automation connection after performing the upgrades. If you are performing an upgrade to only one of the products, then you should log into Workflow Automation after the upgrade and verify that it is still acquiring data from Unified Manager.
+
+.Steps
+. link:task_download_unified_manager_iso_image_vapp.html[Download the Unified Manager ISO image].
+. link:task_upgrade_unified_manager_virtual_appliance_vapp.html[Upgrade Unified Manager].

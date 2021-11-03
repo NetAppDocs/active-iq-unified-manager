@@ -1,0 +1,26 @@
+---
+permalink: data-protection/task_delete_resource_pools.html
+sidebar: sidebar
+keywords: delete, resource, pools
+summary: "You can delete resource pools when they are no longer needed. For example, you might want to redistribute the member aggregates from one resource pool to several other resource pools, making the original resource pool obsolete."
+---
+= Deleting resource pools
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete resource pools when they are no longer needed. For example, you might want to redistribute the member aggregates from one resource pool to several other resource pools, making the original resource pool obsolete.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+The *Delete* button is enabled only when at least one resource pool is selected.
+
+.Steps
+
+. In the left navigation pane, click *Protection* > *Resource Pools*.
+. Select the resource pool you want to delete.
+. Click *Delete*.
++
+The resource pool is removed from the resource pool list and its aggregates are removed from the members list.

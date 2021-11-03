@@ -1,0 +1,21 @@
+---
+permalink: api-automation/concept_rest_api_versioning_in_unified_manager_apis.html
+sidebar: sidebar
+keywords: api, version, active iq, unified, manager
+summary: "The REST API URIs in Active IQ Unified Manager specifies a version number. For example, /v2/datacenter/svm/svms. The version number v2 in /v2/datacenter/svm/svms indicates the API version used in a specific release. The version number minimizes the impact of API changes on the client software by sending back a response that the client can process."
+---
+= API version in Active IQ Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The REST API URIs in Active IQ Unified Manager specifies a version number. For example, `/v2/datacenter/svm/svms.` The version number `v2` in `/v2/datacenter/svm/svms` indicates the API version used in a specific release. The version number minimizes the impact of API changes on the client software by sending back a response that the client can process.
+
+The numerical part of this version number is incremental with respect to releases. URIs with a version number provide a consistent interface that maintains backward compatibility in future releases. You also find the same APIs without a version, for example `/datacenter/svm/svms,` that indicate the base APIs without a version. The base APIs are always the latest version of the APIs.
+
+[NOTE]
+====
+On the top right corner of your Swagger interface, you can select the version of the API to use. The highest version is selected by default. It is recommended that you use the highest version of a particular API (with respect to the incremental integer) available in your Unified Manager instance.
+====
+
+For all requests, you must explicitly request the API version that you want to use. When the version number is specified, the service does not return response elements that your application is not designed to handle. In REST requests, you should include the version parameter. The earlier versions of the APIs are eventually deprecated after a few releases. In this release, the `v1` version of the APIs is deprecated.

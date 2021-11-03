@@ -1,0 +1,23 @@
+---
+permalink: health-checker/task_delete_annotation_rules.html
+sidebar: sidebar
+keywords: delete, annotation rules
+summary: "You can delete annotation rules from Active IQ Unified Manager when the rules are no longer required."
+---
+= Deleting annotation rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete annotation rules from Active IQ Unified Manager when the rules are no longer required.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+When you delete an annotation rule, the annotation is disassociated and removed from the storage objects.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Annotations*.
+. In the *Annotation Rules* tab, select the annotation rule that you want to delete, and then click *Delete*.
+. In the *Warning* dialog box, click *Yes* to confirm the deletion.

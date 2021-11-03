@@ -1,0 +1,46 @@
+---
+permalink: storage-mgmt/task_add_space_to_data_disk_of_microsoft_windows.html
+sidebar: sidebar
+keywords: add space, logica, drive, microsoft windows server
+summary: "If you need to increase the amount of disk space for the Unified Manager database, you can add capacity to the logical drive on which Unified Manager is installed."
+---
+= Adding space to the logical drive of the Microsoft Windows server
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you need to increase the amount of disk space for the Unified Manager database, you can add capacity to the logical drive on which Unified Manager is installed.
+
+*What you'll need*
+
+You must have Windows administrator privileges.
+
+We recommend that you back up the Unified Manager database before adding disk space.
+
+.Steps
+
+. Log in as administrator to the Windows server on which you want to add disk space.
+. Follow the step that corresponds to method you want to use to add more space:
++
+[options="header"]
+|===
+| Option| Description
+a|
+On a physical server, add capacity to the logical drive on which the Unified Manager server is installed.
+a|
+Follow the steps in the Microsoft topic:
+
+https://technet.microsoft.com/en-us/library/cc771473(v=ws.11).aspx[Extend a Basic Volume]
+a|
+On a physical server, add a hard disk drive.
+a|
+Follow the steps in the Microsoft topic:
+
+https://msdn.microsoft.com/en-us/library/dd163551.aspx[Adding Hard Disk Drives]
+a|
+On a virtual machine, increase the size of a disk partition.
+a|
+Follow the steps in the VMware topic:
+
+https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1004071[Increasing the size of a disk partition]
+|===

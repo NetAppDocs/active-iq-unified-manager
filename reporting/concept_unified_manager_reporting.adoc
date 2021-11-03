@@ -1,0 +1,29 @@
+---
+permalink: reporting/concept_unified_manager_reporting.html
+sidebar: sidebar
+keywords: unified, manager, reporting
+summary: "Active IQ Unified Manager (formerly OnCommand Unified Manager) provides the ability to view, customize, download, and schedule reports for your ONTAP storage systems. The reports can provide details about the storage system capacity, health, performance, and protection relationships."
+---
+= Unified Manager reporting
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager (formerly OnCommand Unified Manager) provides the ability to view, customize, download, and schedule reports for your ONTAP storage systems. The reports can provide details about the storage system capacity, health, performance, security, and protection relationships.
+
+The new Unified Manager reporting and scheduling functionality introduced in Active IQ Unified Manager 9.6 replaces the previous reporting engine that was retired in Unified Manager version 9.5.
+
+Reporting provides different views of your network, offering actionable intelligence on capacity, health, performance, security, and protection data. You can customize your views by showing, hiding, and rearranging columns, filtering data, sorting data, and searching the results. You can save custom views for reuse, download them as reports, and schedule them as recurring reports to distribute through email.
+
+You can download views in Microsoft® Excel format and customize them. You can use advanced Excel features, such as complex sorts, layered filters, pivot tables, and charts. When satisfied with the resulting Excel report, you can upload the Excel file for use each time the report is scheduled and shared.
+
+In addition to generating reports from the user interface, you can extract health, security, and performance data from Unified Manager using these additional methods:
+
+* Using Open Database Connectivity (ODBC) and ODBC tools to directly access the database for cluster information
+* Executing Unified Manager REST APIs to return the information you are interested in reviewing
+
+From this release of Active IQ Unified manager, following enhancements are made to the reports:
+
+* Email is sent for a report as per the configured schedule. Even when you generate an on-demand report, you will receive an email.
+* The file name of the report and metadata of the report includes the hostname from where the report was generated.
+Even if any one changes the filename, still you can identify the hostname from where the report was generated due to this enhancement.

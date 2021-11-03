@@ -1,0 +1,49 @@
+---
+permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html
+sidebar: sidebar
+keywords: restore, linux system, mysql, database, backup
+summary: "If data loss or data corruption occurs, you can restore Unified Manager to the previous stable state with minimum loss of data. You can restore the Unified Manager database to a local or remote Red Hat Enterprise Linux or CentOS system by using the Unified Manager maintenance console."
+---
+= Restoring a MySQL database backup on a Linux system
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If data loss or data corruption occurs, you can restore Unified Manager to the previous stable state with minimum loss of data. You can restore the Unified Manager database to a local or remote Red Hat Enterprise Linux or CentOS system by using the Unified Manager maintenance console.
+
+*What you'll need*
+
+* You must have the root user credentials for the Linux host on which Unified Manager is installed.
+* You must have a user ID and password authorized to log in to the maintenance console of the Unified Manager server.
+* You must have copied the Unified Manager backup file and the contents of the database repository directory to the system on which you will perform the restore operation.
++
+It is recommended that you copy the backup file to the default directory /`data/ocum`-backup. The database repository files must be copied to the /`database-dumps-repo` subdirectory under the /`ocum-backup` directory.
+
+* The backup files must be of `.7z` type.
+
+The restore feature is platform-specific and version-specific. You can restore a Unified Manager backup only on the same version of Unified Manager. You can restore a Linux backup file or a virtual appliance backup file to a Red Hat Enterprise Linux or CentOS system.
+
+[TIP]
+====
+If the backup folder name contains a space, you must include the absolute path or relative path in double quotation marks.
+====
+
+.Steps
+. If you are performing a restore onto a new server, after installing Unified Manager do not launch the UI or configure any clusters, users, or authentication settings when the installation is complete. The backup file populates this information during the restore process.
+. Using Secure Shell, connect to the IP address or fully qualified domain name of the Unified Manager system.
+. Log in to the system with the maintenance user (umadmin) name and password.
+. Enter the command `maintenance_console` and press Enter.
+. In the maintenance console *Main Menu*, enter the number for the *Backup Restore* option.
+. Enter the number for the *Restore MySQL Backup*.
+. When prompted, enter the absolute path of the backup file.
++
+----
+Bundle to restore from: /data/ocum-backup/UM_9.8.N151113.1348_backup_rhel_02-20-2020-04-45.7z
+----
++
+After the restore operation is complete, you can log in to Unified Manager.
+
+After you restore the backup, if the OnCommand Workflow Automation server does not work, perform the following steps:
+
+. On the Workflow Automation server, change the IP address of the Unified Manager server to point to the latest machine.
+. On the Unified Manager server, reset the database password if the acquisition fails in step 1.

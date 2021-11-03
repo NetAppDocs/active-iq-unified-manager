@@ -1,0 +1,29 @@
+---
+permalink: performance-checker/task_change_counter_charts_focus_to_smaller_period_of_time.html
+sidebar: sidebar
+keywords: change, counter, charts, focus, shorter, period, time
+summary: "You can use your mouse to reduce the time range to focus on a specific period of time in the Counter Chart pane or in the Counter Charts Zoom View window. This enables you to see a more granular and microscopic view of any part of the timeline of performance data, events, and thresholds."
+---
+= Changing the Counter Charts focus to a shorter period of time
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use your mouse to reduce the time range to focus on a specific period of time in the Counter Chart pane or in the Counter Charts Zoom View window. This enables you to see a more granular and microscopic view of any part of the timeline of performance data, events, and thresholds.
+
+*What you'll need*
+
+The cursor must have changed to a magnifying glass to indicate that this functionality is active.
+
+[NOTE]
+====
+When using this feature, which alters the timeline to display values that correspond to the more granular display, the time and date range on the *Time Range* selector does not change from the original values for the chart.
+====
+.Steps
+. To zoom into a specific period of time, click using the magnifying glass and drag the mouse to highlight the area that you want to see in detail.
++
+The counter values for the time period you select fills the counter chart.
+
+. To return to the original period of time as set in the *Time Range* selector, click the *Reset Chart Zoom* button.
++
+The counter chart displays in its original state.

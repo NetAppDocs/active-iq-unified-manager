@@ -1,0 +1,34 @@
+---
+permalink: events/reference_description_of_event_severity_types.html
+sidebar: sidebar
+keywords: description, event, severity, types
+summary: "Each event is associated with a severity type to help you prioritize the events that require immediate corrective action."
+---
+= Description of event severity types
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Each event is associated with a severity type to help you prioritize the events that require immediate corrective action.
+
+* *Critical*
++
+A problem occurred that might lead to service disruption if corrective action is not taken immediately.
++
+Performance critical events are sent from user-defined thresholds only.
+
+* *Error*
++
+The event source is still performing; however, corrective action is required to avoid service disruption.
+
+* *Warning*
++
+The event source experienced an occurrence that you should be aware of, or a performance counter for a cluster object is out of normal range and should be monitored to make sure it does not reach the critical severity. Events of this severity do not cause service disruption, and immediate corrective action might not be required.
++
+Performance warning events are sent from user-defined, system-defined, or dynamic thresholds.
+
+* *Information*
++
+The event occurs when a new object is discovered, or when a user action is performed. For example, when any storage object is deleted or when there are any configuration changes, the event with severity type Information is generated.
++
+Information events are sent directly from ONTAP when it detects a configuration change.

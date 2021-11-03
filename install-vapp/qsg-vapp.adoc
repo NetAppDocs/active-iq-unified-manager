@@ -1,0 +1,39 @@
+---
+permalink: install-vapp/qsg-vapp.html
+sidebar: sidebar
+keywords: quick start guide, QSG, VMWare QSG, vApp QSG, quick installation
+summary: "Quick start guide for Unified Manager on VMWare vSphere platform."
+---
+
+= Quick start instructions for VMWare installations
+
+== System requirements
+
+*	Operating system: VMware ESXi 6.5, 6.7, and 7.0
+*	RAM: 12 GB
+*	CPU: 9572 MHz total
+*	Free disk space: 5 GB (thin provisioning), 152 GB (thick provisioning)
+
+For detailed system requirements, see the link:../install-vapp/concept_requirements_for_installing_unified_manager.html[Requirements for installing Unified Manager] and link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
+
+== Installing Active IQ Unified Manager
+
+=== Download the installer
+
+.	Download the `ActiveIQUnifiedManager-<version>.ova` installation package.
+.	Save the file to a local directory or network directory that is accessible to your vSphere Client.
+
+=== Install Unified Manager
+
+.	In the vSphere Client, click *File > Deploy OVF Template*.
+.	Locate the OVA file and use the wizard to deploy the virtual appliance on the ESXi server.
+.	On the Network Configuration page, in the Properties tab, populate the fields as required for the type of installation you are performing:
+*	For static configuration, enter the required information in all the fields. Adding information for the *Secondary DNS* field is not required.
+*	For DHCP using IPv4, do not add any information in any field.
+*	For DHCP using IPv6, check the “Enable Auto IPv6 addressing” box. Do not add any information in any other field.
+.	Power on the VM.
+.	Click the Console tab to view the initial boot process.
+.	Configure the time zone.
+.	Enter a Unified Manager maintenance user name and password.
+
+At the end of the installation, the information to connect to the Unified Manager web UI is displayed.

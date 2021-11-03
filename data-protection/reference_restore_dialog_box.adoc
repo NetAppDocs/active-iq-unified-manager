@@ -1,0 +1,84 @@
+---
+permalink: data-protection/reference_restore_dialog_box.html
+sidebar: sidebar
+keywords: restore, dialog box
+summary: "You can use the Restore dialog box to restore data to a volume from a specific Snapshot copy."
+---
+= Restore dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Restore dialog box to restore data to a volume from a specific Snapshot copy.
+
+== Restore from
+
+The Restore from area enables you to specify from where you want to restore data.
+
+* *Volume*
++
+Specifies the volume from which you want to restore data. By default, the volume on which you initiated the restore action is selected. You can select a different volume from the drop-down list that contains all the volumes with protection relationships to the volume on which you initiated the restore action.
+
+* *Snapshot copy*
++
+Specifies which Snapshot copy you want to use to restore data. By default, the most recent Snapshot copy is selected. You can also select a different Snapshot copy from the drop-down list. The Snapshot copy list changes according to which volume is selected.
+
+* *List maximum of 995 files and directories*
++
+By default a maximum of 995 objects are shown in the list. You can deselect this checkbox if you want to view all objects within the selected volume. This operation may take some time if the number of items is very large.
+
+== Select items to restore
+
+The Select items to restore area enables you to select either the entire volume or specific files and folders you want to restore. You can select a maximum of 10 files, folders, or a combination of both. When the maximum number of items is selected, the item selection check boxes are disabled.
+
+* *Path field*
++
+Displays the path to the data you want to restore. You can either navigate to the folder and files you want to restore, or you can type the path. This field is empty until you select or type a path. Clicking image:../media/icon_upfolder.gif[] after you have chosen a path moves you up one level in the directory structure.
+
+* *Folders and files list*
++
+Displays the contents of the path you entered. By default, the root folder is initially displayed. Clicking a folder name displays the contents of the folder.
+
+You can select items to restore as follows:
+
+* When you enter the path with a particular file name specified in the path field, the specified file is displayed in the Folders and Files.
+* When you enter a path without specifying a particular file, the contents of the folder are displayed in the Folders and Files list, and you can select up to 10 files, folders, or a combination of both to restore.
++
+If a folder contains more than 995 items, a message displays to indicate there are too many items to display, and if you proceed with the operation all items in the specified folder are restored. You can deselect the "`List maximum of 995 files and directories`" checkbox if you want to view all objects within the selected volume.
+
+[NOTE]
+====
+You cannot restore NTFS file streams.
+====
+
+== Restore to
+
+The Restore to area enables you to specify where you want to restore the data.
+
+* *Original Location in Volume_Name*
++
+Restores the selected data to the directory on the source from which the data was originally backed up.
+
+* *Alternate Location*
++
+Restores the selected data to a new location:
+
+ ** Restore Path
++
+Specifies an alternate path for restoring the selected data. The path must already exist. You can use the *Browse* button to navigate to the location where you want the data restored, or you can enter the path manually using the format cluster://svm/volume/path.
+
+ ** Preserve directory hierarchy
++
+When checked, preserves the structure of the original file or directory. For example, if the source is /A/B/C/myFile.txt and the destination is /X/Y/Z, Unified Manager restores the data using the following directory structure on the destination: /X/Y/Z/A/B/C/myFile.txt.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Cancel*
++
+Discards your selections and closes the Restore dialog box.
+
+* *Restore*
++
+Applies your selections and begins the restore process.

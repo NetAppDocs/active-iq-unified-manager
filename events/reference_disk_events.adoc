@@ -1,0 +1,54 @@
+---
+permalink: events/reference_disk_events.html
+sidebar: sidebar
+keywords: disks, events, impact area, availability
+summary: "Disks events provide you with information about the status of disks so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= Disks events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Disks events provide you with information about the status of disks so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Flash Disks - Spare Blocks Almost Consumed(ocumEvtClusterFlashDiskFewerSpareBlockError)
+
+a|
+Risk
+a|
+Cluster
+a|
+Error
+a|
+Flash Disks - No Spare Blocks(ocumEvtClusterFlashDiskNoSpareBlockCritical)
+
+a|
+Incident
+a|
+Cluster
+a|
+Critical
+a|
+Some Unassigned Disks(ocumEvtClusterUnassignedDisksSome)
+
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Some Failed Disks(ocumEvtDisksSomeFailed)
+
+a|
+Incident
+a|
+Cluster
+a|
+Critical
+|===

@@ -1,0 +1,63 @@
+---
+permalink: storage-mgmt/reference_rules_to_generate_user_and_group_quota.html
+sidebar: sidebar
+keywords: rules, generate, user, group, quota, email, address, page, area, define, add comments, syntax, command buttons
+summary: "The Rules to Generate User and Group Quota Email Address page enables you to create rules to specify email addresses based on the user quota associated with clusters, SVMs, volumes, qtrees, users, or user groups. A notification is sent to the specified email address when a quota is breached."
+---
+= Rules to Generate User and Group Quota Email Address page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Rules to Generate User and Group Quota Email Address page enables you to create rules to specify email addresses based on the user quota associated with clusters, SVMs, volumes, qtrees, users, or user groups. A notification is sent to the specified email address when a quota is breached.
+
+== Rules area
+
+You must define the rules for a quota email address. You can also add comments to explain the rules.
+
+== How you define rules
+
+You must enter the rules in the order in which you want to execute them. If the first rule's criterion is met, then the email address is generated based on this rule. If the criterion is not met, then the criterion for the next rule is considered, and so on. Each line lists a separate rule. The default rule is the last rule in the list. You can change the priority order of rules. However, you cannot change the order of the default rule.
+
+For example, if you want to use the email address qtree1@xyz.com to receive notifications about quota breaches for qtree1 and use the email address admin@xyz.com for all the other qtrees, the rules must be listed in the following order:
+
+* if ( $QTREE == 'qtree1' ) then qtree1@xyz.com
+* if ( $QTREE == * ) then admin@xyz.com
+
+If none of the criteria for the rules you specified are met, then the default rule is used:
+
+if ( $USER_OR_GROUP == * ) then $USER_OR_GROUP@$DOMAIN
+
+If more than one user has the same quota, the names of the users are displayed as comma-separated values and the rules are not applicable for the quota.
+
+== How you add comments
+
+You can add comments to explain the rules. You should use # at the start of each comment and each line lists a separate comment.
+
+== Rules syntax
+
+The syntax of the rule must be one of the following:
+
+* if ( `valid variableoperator` *) then `email ID@domain name`
++
+if is a keyword and is in lowercase. The operator is ==. The email ID can contain any character, the valid variables $USER_OR_GROUP, $USER, or $GROUP, or a combination of any character and the valid variables $USER_OR_GROUP, $USER, or $GROUP. The domain name can contain any character, the valid variable $DOMAIN, or a combination of any character and the valid variable $DOMAIN. Valid variables can be in uppercase or lowercase but must not be a combination of both. For example, $domain and $DOMAIN are valid, but $Domain is not a valid variable.
+
+* if ( `valid variableoperator 'string '``) then `email ID@domain name`
++
+if is a keyword and is lowercase. The operator can be contains or ==. The email ID can contain any character, the valid variables $USER_OR_GROUP, $USER, or $GROUP, or a combination of any character and the valid variables $USER_OR_GROUP, $USER, or $GROUP. The domain name can contain any character, the valid variable $DOMAIN, or a combination of any character and the valid variable $DOMAIN. Valid variables can be in uppercase or lowercase but must not be a combination of both. For example, $domain and $DOMAIN are valid, but $Domain is not a valid variable.
+
+== Command buttons
+
+The command buttons enable you to save, validate, or cancel the created rules:
+
+* *Validate*
++
+Validates the syntax of the created rule. If there are errors during validation, the rule that generates the error is displayed along with an error message.
+
+* *Restore to Factory Defaults*
++
+Enables you to restore the address rules to the factory default values.
+
+* *Save*
++
+Validates the syntax of the rule and saves the rule if there are no errors. If there are errors during validation, the rule that generates the error is displayed along with an error message.

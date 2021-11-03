@@ -1,0 +1,27 @@
+---
+permalink: health-checker/task_add_values_to_annotations.html
+sidebar: sidebar
+keywords: add, values, annotations
+summary: "You can add values to annotations, and then associate storage objects with a particular annotation name-value pair. Adding values to annotations helps you to manage storage objects more effectively."
+---
+= Adding values to annotations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add values to annotations, and then associate storage objects with a particular annotation name-value pair. Adding values to annotations helps you to manage storage objects more effectively.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+You cannot add values to predefined annotations.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Annotations*.
+. In the *Annotations* page, select the annotation to which you want to add a value and then click *Add* in the *Values* section.
+. In the *Add Annotation Value* dialog box, specify a value for the annotation.
++
+The value that you specify must be unique for the selected annotation.
+
+. Click *Add*.

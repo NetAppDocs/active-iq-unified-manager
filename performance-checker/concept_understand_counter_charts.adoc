@@ -1,0 +1,39 @@
+---
+permalink: performance-checker/concept_understand_counter_charts.html
+sidebar: sidebar
+keywords: understand, counter, charts
+summary: "Charts in the Counter Charts pane enable you to view and compare performance data for the root object and for objects you have added from the correlated objects grid. This can help you understand performance trends and isolate and resolve performance issues."
+---
+= Understanding counter charts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Charts in the Counter Charts pane enable you to view and compare performance data for the root object and for objects you have added from the correlated objects grid. This can help you understand performance trends and isolate and resolve performance issues.
+
+Counter charts displayed by default are Events, Latency, IOPS, and MBps. Optional charts that you can choose to display are Utilization, Performance Capacity Used, Available IOPS, IOPS/TB, and Cache Miss Ratio. Additionally, you can choose to view total values or breakdown values for the Latency, IOPS, MBps, and Performance Capacity Used charts.
+
+The Performance Explorer displays certain counter charts by default; whether the storage object supports them all or not. When a counter is not supported, the counter chart is empty and the message `Not applicable for <object>` is displayed.
+
+The charts display performance trends for the root object and for all objects you have selected in the Comparing pane. Data in each chart is arranged as follows:
+
+* *X axis*
++
+Displays the specified time period. If you have not specified a time range, the default is the preceding 72-hour period.
+
+* *Y axis*
++
+Displays counter units unique to the selected object, or objects.
+
+Trend line colors match the color of the object name as displayed in the Comparing pane. You can position your cursor over a point on any trend line to view details for time and value for that point.
+
+If you want to investigate a specific period of time within a chart, you can use one of the following methods:
+
+* Use the *<* button to expand the Counter Charts pane to span the width of the page.
+* Use the cursor (when it transitions to a magnifying glass) to select a portion of the timeframe in the chart to focus and enlarge that area. You can click Reset Chart Zoom to return the chart to the default timeframe.
+* Use the *Zoom View* button to display a large single counter chart that contains expanded details and threshold indicators.
+
+[NOTE]
+====
+Occasionally, gaps in the trend lines display. Gaps mean that either Unified Manager failed to collect performance data from the storage system or that Unified Manager might have been down.
+====

@@ -1,0 +1,33 @@
+---
+permalink: reporting/task_download_reports.html
+sidebar: sidebar
+keywords: download, reports
+summary: "You can download reports and save the data to a local or network drive as a comma-separated values (CSV) file, a Microsoft Excel (.XLSX) file, or a PDF file. You can open CSV and XLSX files with spreadsheet applications, such as Microsoft Excel, and PDF files with readers such as Adobe Acrobat."
+---
+= Downloading reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can download reports and save the data to a local or network drive as a comma-separated values (CSV) file, a Microsoft Excel (.XLSX) file, or a PDF file. You can open CSV and XLSX files with spreadsheet applications, such as Microsoft Excel, and PDF files with readers such as Adobe Acrobat.
+
+.Steps
+
+. Click the *Reports* button to download the report as one of the following:
++
+[cols="2*",options="header"]
+|===
+| Choose| To...
+a|
+Download CSV
+a|
+Save the report as a comma-separated values (CSV) file.
+a|
+Download PDF
+a|
+Save the report as a .pdf file.
+a|
+Download Excel
+a|
+Save the report as a Microsoft Excel (XLSX) file.
+|===

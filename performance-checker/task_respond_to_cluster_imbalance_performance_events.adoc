@@ -1,0 +1,53 @@
+---
+permalink: performance-checker/task_respond_to_cluster_imbalance_performance_events.html
+sidebar: sidebar
+keywords: cluster, imbalance, performance, events
+summary: "Unified Manager generates cluster imbalance warning events when one node in a cluster is operating at a much higher load than other nodes, and therefore potentially affecting workload latencies. These system-defined events provide the opportunity to correct potential performance issues before many workloads are affected by latency."
+---
+= Responding to cluster imbalance performance events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager generates cluster imbalance warning events when one node in a cluster is operating at a much higher load than other nodes, and therefore potentially affecting workload latencies. These system-defined events provide the opportunity to correct potential performance issues before many workloads are affected by latency.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+Unified Manager generates warning events for cluster imbalance threshold policy breaches by comparing the performance capacity used value for all nodes in the cluster to see if there is a load difference of 30% between any nodes.
+
+These steps help you identify the following resources so that you can move high-performing workloads to a lower utilized node:
+
+* The nodes on the same cluster that are less utilized
+* The aggregates on the new node that are the least utilized
+* The highest-performing volumes on the current node
+
+.Steps
+. Display the *Event* details page to view information about the event.
+. Review the *Description*, which describes the threshold breach that caused the event.
++
+For example, the message "`The performance capacity used counter indicates a load difference of 62% between the nodes on cluster Dallas-1-8 and has triggered a WARNING event based on the system threshold of 30%`" indicates that performance capacity on one of the nodes is overused and affecting node performance.
+
+. Review the text in the *Suggested Actions* to move a high-performing volume from the node with the high performance capacity used value to a node with the lowest performance capacity used value.
+. Identify the nodes with the highest and lowest performance capacity used value:
+ .. In the *Event Information* section, click the name of the source cluster.
+ .. In the *Cluster / Performance Summary* page, click *Nodes* in the *Managed Objects* area.
+ .. In the *Nodes* inventory page, sort the nodes by the *Performance Capacity Used* column.
+ .. Identify the nodes with the highest and lowest performance capacity used value and write down those names.
+. Identify the volume using the most IOPS on the node that has the highest performance capacity used value:
+ .. Click the node with the highest performance capacity used value.
+ .. In the *Node / Performance Explorer* page, select *Aggregates on this Node* from the *View and Compare* menu.
+ .. Click the aggregate with the highest performance capacity used value.
+ .. In the *Aggregate / Performance Explorer* page, select *Volumes on this Aggregate* from the *View and Compare* menu.
+ .. Sort the volumes by the *IOPS* column, and write down the name of the volume using the most IOPS, and the name of the aggregate where the volume resides.
+. Identify the aggregate with the lowest utilization on the node that has the lowest performance capacity used value:
+ .. Click *Storage* > *Aggregates* to display the *Aggregates* inventory page.
+ .. Select the *Performance: All Aggregates* view.
+ .. Click the *Filter* button and add a filter where "`Node`" equals the name of the node with the lowest performance capacity used value that you wrote down in step 4.
+ .. Write down the name of the aggregate that has the lowest performance capacity used value.
+. Move the volume from the overloaded node to the aggregate you identified as having low utilization on the new node.
++
+You can perform the move operation by using ONTAP System Manager, OnCommand Workflow Automation, ONTAP commands, or a combination of these tools.
+
+After a few days, check to see whether you are receiving the same cluster imbalance event from this cluster.

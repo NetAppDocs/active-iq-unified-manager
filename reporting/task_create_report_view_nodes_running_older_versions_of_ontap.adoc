@@ -1,0 +1,33 @@
+---
+permalink: reporting/task_create_report_view_nodes_running_older_versions_of_ontap.html
+sidebar: sidebar
+keywords: create, report, view, nodes, running, older versions, ONTAP
+summary: "You can create a report to display the version of ONTAP software that is installed on all cluster nodes so that you can see which nodes you should upgrade."
+---
+= Creating a report to view nodes running older versions of ONTAP
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a report to display the version of ONTAP software that is installed on all cluster nodes so that you can see which nodes you should upgrade.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+
+Use the following steps to create a custom view that displays nodes running older versions of ONTAP, and then schedule a report to be generated for that view.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Nodes*.
+. Select *Show/Hide* to remove any columns that you do not want in the report.
+. Drag the "`OS Version`" column near the "`Node`" column.
+. Click the top of the "`OS Version`" column to sort the results by oldest version of ONTAP.
+. Save the view with a specific name that reflects what the view is showing, for example, "`Nodes by ONTAP version`".
+. Click the *Scheduled Reports* button on the inventory page.
+. Click *Add Schedule* to add a new row to the Report Schedules page so that you can define the schedule characteristics for the new report.
+. Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
++
+The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
+
+Based on the results shown in the report, you might want to upgrade nodes running older versions of ONTAP.

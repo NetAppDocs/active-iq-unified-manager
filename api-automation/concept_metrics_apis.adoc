@@ -1,0 +1,321 @@
+---
+permalink: api-automation/concept_metrics_apis.html
+sidebar: sidebar
+keywords: view, performance, metrics
+summary: "Active IQ Unified Manager provides you with a set of APIs under the /datacenter category that enable you to view the performance data of your clusters and storage objects in a data center. These APIs retrieve the performance data of the different storage objects, such as clusters, nodes, LUNs, volumes, aggregates, and storage VMs."
+---
+= Viewing performance metrics
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager provides you with a set of APIs under the `/datacenter` category that enable you to view the performance data of your clusters and storage objects in a data center. These APIs retrieve the performance data of the different storage objects such as clusters, nodes, LUNs, volumes, aggregates, storage VMs, FC interfaces, FC ports, Ethernet ports, and IP interfaces.
+
+The `/metrics` and `/analytics` APIs give different views of the performance metrics, using which, you can drill down to different levels of details for the following storage objects in your data center:
+
+* clusters
+* nodes
+* storage VMs
+* aggregates
+* volumes
+* LUNs
+* FC interfaces
+* FC ports
+* Ethernet ports
+* IP interfaces
+
+
+The following table draws a comparison between the `/metrics` and `/analytics` APIs with respect to the particulars of the performance data retrieved.
+[cols="2*",options="header"]
+|===
+| Metrics| Analytics
+a|
+Performance details for a single object. For example, the `/datacenter/cluster/clusters/\{key}/metrics` API requires the cluster key to be entered as the path parameter for retrieving the metrics for that specific cluster.
+a|
+Performance details for multiple objects of the same type in a data center. For example, the `/datacenter/cluster/clusters/analytics` API retrieves the collective metrics of all the clusters in a data center.
+a|
+Performance metrics sample for a storage object based on the time interval parameter for retrieval.
+a|
+The high-level aggregated value of performance for a certain type of storage object for a certain period (above 72 hours).
+a|
+Basic details of the object are retrieved, such as details of a node or cluster.
+a|
+No specific details are retrieved.
+a|
+Accumulated counters, such as minimum, maximum, 95th percentile, and the average performance values over a period of time are retrieved for a single object, such as read, write, total, and other counters. For example, the `/datacenter/cluster/nodes/\{key}/metrics` API retrieves the following details (among others) for a node :
+[NOTE]
+The 95 percentile in the summary value indicates that 95% of the samples collected for the period have a counter value less than the value specified as the 95 percentile.
+
+----
+{
+     "iops": {
+       "local": {
+         "other": 100.53,
+         "read": 100.53,
+         "total": 100.53,
+         "write": 100.53
+       },
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "latency": {
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "performance_capacity": {
+       "available_iops_percent": 0,
+       "free_percent": 0,
+       "system_workload_percent": 0,
+       "used_percent": 0,
+       "user_workload_percent": 0
+     },
+     "throughput": {
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "timestamp": "2018-01-01T12:00:00-04:00",
+     "utilization_percent": 0
+   }
+ ],
+ "start_time": "2018-01-01T12:00:00-04:00",
+ "summary": {
+   "iops": {
+     "local_iops": {
+       "other": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "read": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "total": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "write": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       }
+     },
+----
+
+a|
+A single aggregated value is displayed for all the objects of the same type. For example, the `/datacenter/cluster/nodes/analytics` API retrieves the following values (among others) for all the nodes:
+
+----
+{
+     "iops": 1.7471,
+     "latency": 60.0933,
+     "throughput": 5548.4678,
+     "utilization_percent": 4.8569,
+     "period": 72,
+     "performance_capacity": {
+       "used_percent": 5.475,
+       "available_iops_percent": 168350
+     },
+     "node": {
+       "key": "37387241-8b57-11e9-8974-00a098e0219a:type=cluster_node,uuid=95f94e8d-8b4e-11e9-8974-00a098e0219a",
+       "uuid": "95f94e8d-8b4e-11e9-8974-00a098e0219a",
+       "name": "ocum-infinity-01",
+       "_links": {
+         "self": {
+           "href": "/api/datacenter/cluster/nodes/37387241-8b57-11e9-8974-00a098e0219a:type=cluster_node,uuid=95f94e8d-8b4e-11e9-8974-00a098e0219a"
+         }
+       }
+     },
+     "cluster": {
+       "key": "37387241-8b57-11e9-8974-00a098e0219a:type=cluster,uuid=37387241-8b57-11e9-8974-00a098e0219a",
+       "uuid": "37387241-8b57-11e9-8974-00a098e0219a",
+       "name": "ocum-infinity",
+       "_links": {
+         "self": {
+           "href": "/api/datacenter/cluster/clusters/37387241-8b57-11e9-8974-00a098e0219a:type=cluster,uuid=37387241-8b57-11e9-8974-00a098e0219a"
+         }
+       }
+     },
+     "_links": {
+       "self": {
+         "href": "/api/datacenter/cluster/nodes/analytics"
+       }
+     }
+   },
+----
+
+a|
+The time range and sample data is based on the following schedule:The time range for the data. Examples can be 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1m, 2m, 3m, 6m. You get 1 hour samples if the range is more than 3 days (72 hr) else it is 5 minutes samples. The period for each time range is as follows:
+
+* 1h: Metrics over the most recent hour sampled over 5 minutes.
+* 12h: Metrics over the most recent 12 hours sampled over 5 minutes.
+* 1d: Metrics over the most recent day sampled over 5 minutes.
+* 2d: Metrics over the most recent 2 days sampled over 5 minutes.
+* 3d: Metrics over the most recent 3 days sampled over 5 minutes.
+* 15d: Metrics over the most recent 15 days sampled over 1 hour.
+* 1w: Metrics over the most recent week sampled over 1 hour.
+* 1m: Metrics over the most recent month sampled over 1 hour.
+* 2m: Metrics over the most recent 2 months sampled over 1 hour.
+* 3m: Metrics over the most recent 3 months sampled over 1 hour.
+* 6m: Metrics over the most recent 6 months sampled over 1 hour.
++
+Available values : 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1m, 2m, 3m, 6m
++
+Default value : 1h
+
+a|
+Above 72 hours. The duration over which this sample is calculated are represented in the ISO-8601 standard format.
+|===
+The following table describes the `/metrics` and `/analytics` APIs in details.
+
+[NOTE]
+====
+The IOPS and performance metrics returned by these APIs are double values, for example `100.53`. Filtering these float values by the pipe (|) and wildcard (*) characters is not supported.
+====
+[cols="3*",options="header"]
+|===
+| HTTP Verb| Path| Description
+a|
+`GET`
+a|
+`/datacenter/cluster/clusters/\{key}/metrics`
+
+a|
+Retrieves performance data (sample and summary) for a cluster specified by the input parameter of the cluster key. Information, such as the cluster key and UUID, time range, IOPS, throughput, and the number of samples is returned.
+
+a|
+`GET`
+a|
+`/datacenter/cluster/clusters/analytics`
+a|
+Retrieves high-level performance metrics for all the clusters in a data center. You can filter your results based on the required criteria. Values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
+
+a|
+`GET`
+a|
+`/datacenter/cluster/nodes/\{key}/metrics`
+a|
+Retrieves performance data (sample and summary) for a node specified by the input parameter of the node key. Information, such as the node UUID, time range, summary of the IOPS, throughput, latency, and performance, the number of samples collected, and percentage utilized is returned.
+
+a|
+`GET`
+a|
+`/datacenter/cluster/nodes/analytics`
+a|
+Retrieves high-level performance metrics for all the nodes in a data center. You can filter your results based on the required criteria. Information, such as node and cluster keys, and values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
+
+a|
+`GET`
+a|
+`/datacenter/storage/aggregates/\{key}/metrics`
+a|
+Retrieves performance data (sample and summary) for an aggregate specified by the input parameter of the aggregate key. Information, such as the time range, summary of the IOPS, latency, throughput, and performance capacity, the number of samples collected for each counter, and percentage utilized is returned.
+
+a|
+`GET`
+a|
+`/datacenter/storage/aggregates/analytics`
+a|
+Retrieves high-level performance metrics for all the aggregates in a data center. You can filter your results based on the required criteria. Information, such as aggregate and cluster keys, and values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
+
+a|
+`GET`
+a|
+`/datacenter/storage/luns/\{key}/metrics`
+
+`/datacenter/storage/volumes/\{key}/metrics`
+
+a|
+Retrieves performance data (sample and summary) for a LUN or a file share (volume) specified by the input parameter of the LUN or volume key. Information, such as the summary of the minimum, maximum, and average of the read, write, and total IOPS, latency, and throughput, and the number of samples collected for each counter is returned.
+
+a|
+`GET`
+a|
+`/datacenter/storage/luns/analytics`
+
+`/datacenter/storage/volumes/analytics`
+
+a|
+Retrieves high-level performance metrics for all the LUNs or volumes in a data center. You can filter your results based on the required criteria. Information, such as storage VM and cluster keys, and values, such as aggregated IOPS, throughput, and the period of collection (in hours) are returned.
+
+a|
+`GET`
+a|
+`/datacenter/svm/svms/{key}/metrics`
+
+a|
+Retrieves performance data (sample and summary) for a storage VM specified by the input parameter of the storage VM key. Summary of the IOPS based on each supported protocol, such as `nvmf, fcp, iscsi,` and `nfs`, throughput, latency, and the number of samples collected are returned.
+
+a|
+`GET`
+a|
+`/datacenter/svm/svms/analytics`
+a|
+Retrieves high-level performance metrics for all the storage VMs in a data center. You can filter your results based on the required criteria. Information, such as storage VM UUID, aggregated IOPS, latency, throughput, and the period of collection (in hours) are returned.
+
+a|
+`GET`
+a|
+`/datacenter/network/ethernet/ports/{key}/metrics`
+a|
+Retrieves the performance metrics for a specific ethernet port specified by the input parameter of the port key. When an interval (time range) is provided from the supported range, the API returns the accumulated counters, such as minimum, maximum, and the average performance values over the period of time.
+
+a|
+`GET`
+a|
+`/datacenter/network/ethernet/ports/analytics`
+a|
+Retrieves the high-level performance metrics for all the ethernet ports in your data center environment. Information, such as the cluster and node key and UUID, throughput, period of collection, and utilization percent for the ports is returned. You can filter the result by the available parameters, such as the port key, utilization percent, cluster and node name and UUID, and so forth.
+
+a|
+`GET`
+a|
+``/datacenter/network/fc/interfaces/{key}/metrics`
+a|
+Retrieves the performance metrics for a specific network FC interface specified by the input parameter of the interface key. When an interval (time range) is provided from the supported range, the API returns the accumulated counters, such as minimum, maximum, and the average performance values over the period of time.
+
+a|
+`GET`
+a|
+`/datacenter/network/fc/interfaces/analytics`
+a|
+Retrieves the high-level performance metrics for all the ethernet ports in your data center environment. Information, such as the cluster and FC interface key and UUID, throughput, IOPS, latency, and storage VM is returned. You can filter the result by the available parameters, such as the cluster and FC interface name and UUID, storage VM, throughput, and so forth.
+
+a|`GET`
+a|
+``/datacenter/network/fc/ports/{key}/metrics`
+a|
+Retrieves the performance metrics for a specific FC port specified by the input parameter of the port key. When an interval (time range) is provided from the supported range, the API returns the accumulated counters, such as minimum, maximum, and the average performance values over the period of time.
+a|
+`GET`
+a|
+`/datacenter/network/fc/ports/analytics`
+a|
+Retrieves the high-level performance metrics for all the FC ports in your data center environment. Information, such as the cluster and node key and UUID, throughput, period of collection, and utilization percent for the ports is returned. You can filter the result by the available parameters, such as the port key, utilization percent, cluster and node name and UUID, and so forth.
+a|
+`GET`
+a|
+`/datacenter/network/ip/interfaces/{key}/metrics`
+a|
+Retrieves the performance metrics for a network IP interface as specified by the input parameter of the interface key. When an interval (time range) is provided from the supported range, the API returns information, such as the number of samples, accumulated counters, throughput, and the number of packets received and transmitted.
+a|
+`GET`
+a|
+`/datacenter/network/ip/interfaces/analytics`
+a|
+Retrieves the high-level performance metrics for all the network IP interfaces in your data center environment. Information, such as the cluster and IP interface key and UUID, throughput, IOPS, and latency is returned. You can filter the result by the available parameters, such as the cluster and IP interface name and UUID, IOPS, latency, throughput, and so forth.
+
+
+|===

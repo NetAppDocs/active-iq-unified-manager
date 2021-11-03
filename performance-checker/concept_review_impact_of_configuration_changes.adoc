@@ -1,0 +1,16 @@
+---
+permalink: performance-checker/concept_review_impact_of_configuration_changes.html
+sidebar: sidebar
+keywords: review, impact, configuration, changes, workload, performance
+summary: "Configuration changes on the cluster, such as a failed disk, HA failover, or a moved volume, could negatively impact volume performance and cause increased latency."
+---
+= Review the impact of configuration changes on workload performance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Configuration changes on the cluster, such as a failed disk, HA failover, or a moved volume, could negatively impact volume performance and cause increased latency.
+
+In Unified Manager, you can review the Workload Analysis page to see when a recent configuration change occurred and compare it to the operations and latency (response time) to see whether there was a change in activity for the selected volume workload.
+
+The performance pages of Unified Manager can only detect a limited number of change events. The health pages provide alerts for other events caused by configuration changes. You can search for the volume in Unified Manager to see the event history.

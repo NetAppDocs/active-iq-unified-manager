@@ -1,0 +1,25 @@
+---
+permalink: config/task_disable_nested_groups_from_remote_authentication.html
+sidebar: sidebar
+keywords: disable, nested groups, remote, authentication
+summary: "If you have remote authentication enabled, you can disable nested group authentication so that only individual users, and not group members, can remotely authenticate to Unified Manager. You can disable nested groups when you want to improve Active Directory authentication response time."
+---
+= Disabling nested groups from remote authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you have remote authentication enabled, you can disable nested group authentication so that only individual users, and not group members, can remotely authenticate to Unified Manager. You can disable nested groups when you want to improve Active Directory authentication response time.
+
+*What you'll need*
+
+* You must have the Application Administrator role.
+* Disabling nested groups is only applicable when using Active Directory.
+
+Disabling support for nested groups in Unified Manager might reduce the authentication time. If nested group support is disabled, and if a remote group is added to Unified Manager, individual users must be members of the remote group to authenticate to Unified Manager.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Remote Authentication*.
+. Check the box for *Disable Nested Group Lookup*.
+. Click *Save*.

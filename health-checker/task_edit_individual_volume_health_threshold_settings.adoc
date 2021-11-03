@@ -1,0 +1,35 @@
+---
+permalink: health-checker/task_edit_individual_volume_health_threshold_settings.html
+sidebar: sidebar
+keywords: edit, individual, volume, health, threshold, settings
+summary: "You can edit the health threshold settings for volume capacity, growth, quota, and space reserve of one or more volumes. When a threshold is crossed, alerts are generated and you receive notifications. These notifications help you to take preventive measures based on the event generated."
+---
+= Editing individual volume health threshold settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit the health threshold settings for volume capacity, growth, quota, and space reserve of one or more volumes. When a threshold is crossed, alerts are generated and you receive notifications. These notifications help you to take preventive measures based on the event generated.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+Based on changes to the threshold values, events are generated or obsoleted in the next monitoring cycle.
+
+Note that when Autogrow is enabled on a volume that capacity thresholds are considered breached based on the maximum volume size set by autogrow, not based on the original volume size.
+
+[NOTE]
+====
+The default value of 1000 Snapshot copies is applicable only to FlexVol volumes when the ONTAP version is 9.4 or greater, and to FlexGroup volumes when the ONTAP version is 9.8 and greater. For clusters installed with older versions of ONTAP software, the maximum number is 250 Snapshot copies per volume. For these older versions, Unified Manager interprets this number 1000 (and any number between 1000 and 250) as 250; meaning you will continue to receive events when the number of Snapshot copies reaches 250. If you wish to set this threshold to less than 250 for these older versions, you must set the threshold to 250 or lower here, in the Health: All Volumes view, or in the Volume / Health details page.
+====
+
+.Steps
+. In the left navigation pane, click *Storage* > *Volumes*.
+. In the *Health: All Volumes* view, select one or more volumes and then click *Edit Thresholds*.
+. In the *Edit Volume Thresholds* dialog box, edit the threshold settings of one of the following: capacity, Snapshot copies, qtree quota, growth, or inodes by selecting the appropriate check box and then modifying the settings.
+. Click *Save*.
+
+*Related information*
+
+link:../config/task_add_users.html[Adding users]

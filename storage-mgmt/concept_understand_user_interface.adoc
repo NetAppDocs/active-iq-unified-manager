@@ -1,0 +1,14 @@
+---
+permalink: storage-mgmt/concept_understand_user_interface.html
+sidebar: sidebar
+keywords: understand, user, interface
+summary: "The Unified Manager user interface mainly consists of a dashboard that provides an at-a-glance view of the objects that are monitored. The user interface also provides access to viewing all the cluster objects."
+---
+= Understanding the user interface
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Unified Manager user interface mainly consists of a dashboard that provides an at-a-glance view of the objects that are monitored. The user interface also provides access to viewing all the cluster objects.
+
+You can select a preferred view and use the action buttons as necessary. Your screen configuration is saved in a workspace so that all of the functionality you require is available when you start Unified Manager. However, when you navigate from one view to another, and then navigate back, the view might not be the same.

@@ -1,0 +1,36 @@
+---
+permalink: config/task_change_unified_manager_host_name_on_vmware.html
+sidebar: sidebar
+keywords: change, unified manager, virtual, appliance, host name
+summary: "The network host is assigned a name when the Unified Manager virtual appliance is first deployed. You can change the host name after deployment. If you change the host name, you must also regenerate the HTTPS certificate."
+---
+= Changing the Unified Manager virtual appliance host name
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The network host is assigned a name when the Unified Manager virtual appliance is first deployed. You can change the host name after deployment. If you change the host name, you must also regenerate the HTTPS certificate.
+
+*What you'll need*
+
+You must be logged in to Unified Manager as the maintenance user, or have the Application Administrator role assigned to you to perform these tasks.
+
+You can use the host name (or the host IP address) to access the Unified Manager web UI. If you configured a static IP address for your network during deployment, then you would have designated a name for the network host. If you configured the network using DHCP, the host name should be taken from the DNS. If DHCP or DNS is not properly configured, the host name "`Unified Manager`" is automatically assigned and associated with the security certificate.
+
+Regardless of how the host name was assigned, if you change the host name, and intend to use the new host name to access the Unified Manager web UI, you must generate a new security certificate.
+
+If you access the web UI by using the server's IP address instead of the host name, you do not have to generate a new certificate if you change the host name. However, it is the best practice to update the certificate so that the host name in the certificate matches the actual host name.
+
+If you change the host name in Unified Manager, you must manually update the host name in OnCommand Workflow Automation (WFA). The host name is not updated automatically in WFA.
+
+The new certificate does not take effect until the Unified Manager virtual machine is restarted.
+
+.Steps
+
+. xref:task_generate_an_https_security_certificate_ocf.adoc[Generate an HTTPS security certificate]
++
+If you want to use the new host name to access the Unified Manager web UI, you must regenerate the HTTPS certificate to associate it with the new host name.
+
+. xref:task_restart_unified_manager_virtual_machine.adoc[Restart the Unified Manager virtual machine]
++
+After you regenerate the HTTPS certificate, you must restart the Unified Manager virtual machine.

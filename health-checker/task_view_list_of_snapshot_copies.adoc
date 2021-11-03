@@ -1,0 +1,29 @@
+---
+permalink: health-checker/task_view_list_of_snapshot_copies.html
+sidebar: sidebar
+keywords: view, list, Snapshot copies
+summary: "You can view the list of Snapshot copies for a selected volume. You can use the list of Snapshot copies to calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted, and you can delete the Snapshot copies if required."
+---
+= Viewing the list of Snapshot copies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the list of Snapshot copies for a selected volume. You can use the list of Snapshot copies to calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted, and you can delete the Snapshot copies if required.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+* The volume containing the Snapshot copies must be online.
+
+.Steps
+. In the left navigation pane, click *Storage* > *Volumes*.
+. In the *Health: All Volumes* view, select the volume that contains the Snapshot copies you want to view.
+. In the *Volume / Health* details page, click the *Capacity* tab.
+. In *Details* pane of the *Capacity* tab, in the Other Details section, click the link next to *Snapshot Copies*.
++
+The number of Snapshot copies is a link that displays the list of Snapshot copies.
+
+*Related information*
+
+link:../health-checker/reference_health_volume_details_page.html[Health/Volumes page]

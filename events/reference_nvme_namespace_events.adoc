@@ -1,0 +1,152 @@
+---
+permalink: events/reference_nvme_namespace_events.html
+sidebar: sidebar
+keywords: nvme, namespace, events, impact area, availability, performance
+summary: "NVMe Namespace events provide you with information about the status of your namespaces, so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= NVMe Namespace events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+NVMe Namespace events provide you with information about the status of your namespaces, so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+NVMeNS Offline *(nvmeNamespaceStatusOffline)
+
+a|
+Event
+a|
+Namespace
+a|
+Information
+a|
+NVMeNS Online *(nvmeNamespaceStatusOnline)
+
+a|
+Event
+a|
+Namespace
+a|
+Information
+a|
+NVMeNS Out of Space *(nvmeNamespaceSpaceOutOfSpace)
+
+a|
+Risk
+a|
+Namespace
+a|
+Warning
+a|
+NVMeNS Destroy *(nvmeNamespaceDestroy)
+
+a|
+Event
+a|
+Namespace
+a|
+Information
+|===
+
+== Impact area: performance
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+NVMe Namespace IOPS Critical Threshold Breached(ocumNvmeNamespaceIopsIncident)
+
+a|
+Incident
+a|
+Namespace
+a|
+Critical
+a|
+NVMe Namespace IOPS Warning Threshold Breached(ocumNvmeNamespaceIopsWarning)
+
+a|
+Risk
+a|
+Namespace
+a|
+Warning
+a|
+NVMe Namespace MB/s Critical Threshold Breached(ocumNvmeNamespaceMbpsIncident)
+
+a|
+Incident
+a|
+Namespace
+a|
+Critical
+a|
+NVMe Namespace MB/s Warning Threshold Breached(ocumNvmeNamespaceMbpsWarning)
+
+a|
+Risk
+a|
+Namespace
+a|
+Warning
+a|
+NVMe Namespace Latency ms/op Critical Threshold Breached(ocumNvmeNamespaceLatencyIncident)
+
+a|
+Incident
+a|
+Namespace
+a|
+Critical
+a|
+NVMe Namespace Latency ms/op Warning Threshold Breached(ocumNvmeNamespaceLatencyWarning)
+
+a|
+Risk
+a|
+Namespace
+a|
+Warning
+a|
+NVMe Namespace Latency and IOPS Critical Threshold Breached(ocumNvmeNamespaceLatencyIopsIncident)
+
+a|
+Incident
+a|
+Namespace
+a|
+Critical
+a|
+NVMe Namespace Latency and IOPS Warning Threshold Breached(ocumNvmeNamespaceLatencyIopsWarning)
+
+a|
+Risk
+a|
+Namespace
+a|
+Warning
+a|
+NVMe Namespace Latency and MB/s Critical Threshold Breached(ocumNvmeNamespaceLatencyMbpsIncident)
+
+a|
+Incident
+a|
+Namespace
+a|
+Critical
+a|
+NVMe Namespace Latency and MB/s Warning Threshold Breached(ocumNvmeNamespaceLatencyMbpsWarning)
+
+a|
+Risk
+a|
+Namespace
+a|
+Warning
+|===

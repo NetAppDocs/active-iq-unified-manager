@@ -1,0 +1,51 @@
+---
+permalink: events/concept_guidelines_for_adding_alerts.html
+sidebar: sidebar
+keywords: guidelines, adding, alerts
+summary: "You can add alerts based on a resource, such as a cluster, node, aggregate, or volume, and events of a particular severity type. As a best practice, you can add an alert for any of your critical objects after you have added the cluster to which the object belongs."
+---
+= Guidelines for adding alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add alerts based on a resource, such as a cluster, node, aggregate, or volume, and events of a particular severity type. As a best practice, you can add an alert for any of your critical objects after you have added the cluster to which the object belongs.
+
+You can use the following guidelines and considerations to create alerts to manage your systems effectively:
+
+* Alert description
++
+You should provide a description for the alert so that it helps you track your alerts effectively.
+
+* Resources
++
+You should decide which physical or logical resource requires an alert. You can include and exclude resources, as required. For example, if you want to closely monitor your aggregates by configuring an alert, you must select the required aggregates from the list of resources.
++
+If you select a category of resources, for example, *+<<All User or Group Quotas>>+*, then you will receive alerts for all objects in that category.
++
+[NOTE]
+====
+Selecting a cluster as the resource does not automatically select the storage objects within that cluster. For example, if you create an alert for all critical events for all clusters you will receive alerts only for cluster critical events. You will not receive alerts for critical events on nodes, aggregates, and so forth.
+====
+
+* Event severity
++
+You should decide if an event of a specified severity type (Critical, Error, Warning) should trigger the alert and, if so, which severity type.
+
+* Selected Events
++
+If you add an alert based on the type of event generated, you should decide which events require an alert.
++
+If you select an event severity, but do not select any individual events (if you leave the "Selected Events" column empty) then you will receive alerts for all events in the category.
+
+* Actions
++
+You must provide the user names and email addresses of the users who receive the notification. You can also specify an SNMP trap as a mode of notification. You can associate your scripts to an alert so that they are executed when an alert is generated.
+
+* Notification frequency
++
+You can configure an alert to repeatedly send notification to the recipients for a specified time. You should determine the time from which the event notification is active for the alert. If you want the event notification to be repeated until the event is acknowledged, you should determine how often you want the notification to be repeated.
+
+* Execute Script
++
+You can associate your script with an alert. Your script is executed when the alert is generated.

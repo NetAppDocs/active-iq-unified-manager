@@ -1,0 +1,36 @@
+---
+permalink: performance-checker/concept_what_data_continuity_collection_cycle_is.html
+sidebar: sidebar
+keywords: data, continuity, collection, cycle
+summary: "A data continuity collection cycle retrieves performance data outside of the real-time cluster performance collection cycle that runs, by default, every five minutes. Data continuity collections enable Unified Manager to fill in gaps of statistical data that occur when it was unable to collect real-time data."
+---
+= What a data continuity collection cycle is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A data continuity collection cycle retrieves performance data outside of the real-time cluster performance collection cycle that runs, by default, every five minutes. Data continuity collections enable Unified Manager to fill in gaps of statistical data that occur when it was unable to collect real-time data.
+
+Unified Manager performs data continuity collection polls of historical performance data when the following events occur:
+
+* A cluster is initially added to Unified Manager.
++
+Unified Manager gathers historical performance data for the previous 15 days. This enables you to view two weeks of historical performance information for a cluster a few hours after it is added.
++
+Additionally, system-defined threshold events are reported for the previous period, if any exist.
+
+* The current performance data collection cycle does not finish on time.
++
+If the real-time performance poll goes beyond the five-minute collection period, a data continuity collection cycle is initiated to gather that missing information. Without the data continuity collection, the next collection period is skipped.
+
+* Unified Manager has been inaccessible for a period of time and then it comes back online, as in the following situations:
+ ** It was restarted.
+ ** It was shut down during a software upgrade or when creating a backup file.
+ ** A network outage is repaired.
+* A cluster has been inaccessible for a period of time and then it comes back online, as in the following situations:
+ ** A network outage is repaired.
+ ** A slow wide area network connection delayed the normal collection of performance data.
+
+A data continuity collection cycle can collect a maximum of 24 hours of historical data. If Unified Manager is down for longer than 24 hours, a gap in performance data appears in the UI pages.
+
+A data continuity collection cycle and a real-time data collection cycle cannot run at the same time. The data continuity collection cycle must finish before the real-time performance data collection is initiated. When the data continuity collection is required to collect more than one hour of historical data, then you see a banner message for that cluster at the top of the Notifications pane.

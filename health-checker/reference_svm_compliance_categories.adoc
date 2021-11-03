@@ -1,0 +1,113 @@
+---
+permalink: health-checker/reference_svm_compliance_categories.html
+sidebar: sidebar
+keywords: storage vm, compliance, svm compliance, categories
+summary: "This table describes the storage virtual machine (SVM) security compliance criteria that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the SVM being complaint or not complaint."
+---
+= Storage VM compliance categories
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This table describes the storage virtual machine (SVM) security compliance criteria that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the SVM being complaint or not complaint.
+
+[cols="4*",options="header"]
+|===
+| Parameter| Description| Recommendation| Affects SVM Compliance
+a|
+Audit Log
+a|
+Indicates if Audit logging is enabled or disabled.
+a|
+Enabled
+a|
+Yes
+a|
+Insecure SSH Settings
+a|
+Indicates if SSH uses insecure ciphers, for example ciphers beginning with `cbc*`.
+a|
+No
+a|
+Yes
+a|
+Login Banner
+a|
+Indicates if the Login banner is enabled or disabled for users accessing SVMs on the system.
+a|
+Enabled
+a|
+Yes
+a|
+LDAP Encryption
+a|
+Indicates if LDAP Encryption is enabled or disabled.
+a|
+Enabled
+a|
+No
+a|
+NTLM Authentication
+a|
+Indicates if NTLM Authentication is enabled or disabled.
+a|
+Enabled
+a|
+No
+a|
+LDAP Payload Signing
+a|
+Indicates if LDAP Payload Signing is enabled or disabled.
+a|
+Enabled
+a|
+No
+a|
+CHAP Settings
+a|
+Indicates if CHAP is enabled or disabled.
+a|
+Enabled
+a|
+No
+a|
+Kerberos V5
+a|
+Indicates if Kerberos V5 authentication is enabled or disabled.
+a|
+Enabled
+a|
+No
+a|
+NIS  Authentication
+a|
+Indicates if the use of NIS authentication is configured.
+a|
+Disabled
+a|
+No
+a|
+FPolicy Status Active
+a|
+Indicates if FPolicy is created or not.
+a|
+Yes
+a|
+No
+a|
+SMB Encryption Enabled
+a|
+Indicates if SMB -Signing & Sealing is not enabled.
+a|
+Yes
+a|
+No
+a|
+SMB Signing Enabled
+a|
+Indicates if SMB -Signing is not enabled.
+a|
+Yes
+a|
+No
+|===

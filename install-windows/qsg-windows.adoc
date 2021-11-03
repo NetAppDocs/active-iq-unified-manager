@@ -1,0 +1,36 @@
+---
+permalink: install-windows/qsg-windows.html
+sidebar: sidebar
+keywords: quick start guide, QSG, Windows QSG, quick installation, Windows installer
+summary: "Quick start guide for Unified Manager on Linux platform."
+---
+
+= Quick start instructions for Windows installations
+
+== System requirements
+
+*	Operating system: Microsoft Windows Server 2016 and 2019 64-bit Standard and Datacenter Editions. The following languages are supported:
+**	English
+**	Japanese
+**	Simplified Chinese
+*	RAM: 12 GB
+*	CPU: 9572 MHz total
+*	Free disk space: 100 GB of disk space for the installation directory, 50 GB of disk space for the MySQL data directory
+
+For detailed system requirements, see the link:../install-windows/concept_requirements_for_installing_unified_manager.html[Requirements for installing Unified Manager] and link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
+
+== Installing Active IQ Unified Manager
+
+=== Download the installer
+.	Download the `ActiveIQUnifiedManager-<version>.exe` installation package.
+.	Copy the installation file to a directory on the target system.
+
+=== Install Unified Manager
+For installing Unified Manager, ensure that you have Microsoft .NET 4.5.2, or a later version installed. As a part of the installation process, Unified Manager installs other third-party packages as required. For more information about the dependent software packages, refer to the link:../install-windows/reference_windows_software_and_installation_requirements.html[Windows software and installation requirements].
+
+.	Log in to Windows using the default local administrator account.
+.	In the directory where you downloaded the installation file, right-click and run the Unified Manager executable (.exe) file as an administrator.
+.	When prompted, enter the user name and password to create the Unified Manager maintenance user.
+.	In the Database Connection wizard, enter the MySQL root password.
+.	Follow the remaining prompts to complete the installation.
+.	Click *Finish* at the end of the installation and the Unified Manager web UI is displayed.

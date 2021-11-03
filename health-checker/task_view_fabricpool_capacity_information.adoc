@@ -1,0 +1,66 @@
+---
+permalink: health-checker/task_view_fabricpool_capacity_information.html
+sidebar: sidebar
+keywords: view, fabricPool, cloud tier, mirror tier, capacity, information
+summary: "You can view FabricPool capacity information for clusters, aggregates, and volumes on the Capacity and Performance inventory and details pages for these objects. These pages also display FabricPool mirror information when a mirror tier has been configured."
+---
+= Viewing FabricPool capacity information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view FabricPool capacity information for clusters, aggregates, and volumes on the Capacity and Performance inventory and details pages for these objects. These pages also display FabricPool mirror information when a mirror tier has been configured.
+
+These pages display information such as the available capacity on the local performance tier and on the cloud tier, how much capacity is being used in both tiers, which aggregates are attached to a cloud tier, and which volumes are implementing the FabricPool features by moving certain information to the cloud tier.
+
+When a cloud tier is mirrored to another cloud provider (the "`mirror tier`") then both cloud tiers are displayed in the Aggregate / Health details page.
+
+.Steps
+. Perform one of the following:
++
+[cols="2*",options="header"]
+|===
+| To view capacity information for...| Do this...
+a|
+Clusters
+a|
+
+ .. On the Capacity: All Clusters view, click a cluster.
+ .. On the Cluster / Health details page, click the *Configuration* tab.
++
+The display shows the names of any cloud tiers to which this cluster is connected.
+
+a|
+Aggregates
+a|
+
+ .. On the Capacity: All Aggregates view, click an aggregate where the Type field indicates "`SSD (FabricPool)`" or "`HDD (FabricPool)`".
+ .. On the Aggregate / Health details page, click the *Capacity* tab.
++
+The display shows the total capacity used in the cloud tier.
+
+ .. Click the *Disk Information* tab.
++
+The display shows the name of the cloud tier and the capacity used.
+
+ .. Click the *Configuration* tab.
++
+The display shows the name of the cloud tier and other detailed information about the cloud tier.
+
+a|
+Volumes
+a|
+
+ .. On the Capacity: All Volumes view, click a volume where a policy name appears in the "`Tiering Policy`" field.
+ .. On the Volume / Health details page, click the *Configuration* tab.
++
+The display shows the name of the FabricPool tiering policy assigned to the volume.
+
++
+|===
+
+. In the *Workload Analysis* page you can select "`Cloud Tier View`" in the *Capacity Trend* area to see the capacity being used in the local Performance Tier and in the Cloud Tier over the previous month.
+
+For more information on FabricPool aggregates, see the _ONTAP 9 Disks and Aggregates Power Guide_.
+
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-psmg/home.html[ONTAP 9 Disks and Aggregates Power Guide]

@@ -1,0 +1,57 @@
+---
+permalink: storage-mgmt/concept_monitor_and_manage_clusters_from_dashboard.html
+sidebar: sidebar
+keywords: monitor, manage, clusters, dashboard
+summary: "The dashboard provides cumulative at-a-glance information about the current health of your monitored ONTAP systems. The dashboard provides “panels” that enable you to assess the overall capacity, performance, and security health of the clusters you are monitoring."
+---
+= Monitoring and managing clusters from the dashboard
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The dashboard provides cumulative at-a-glance information about the current health of your monitored ONTAP systems. The dashboard provides "`panels`" that enable you to assess the overall capacity, performance, and security health of the clusters you are monitoring.
+
+Additionally, there are certain ONTAP issues that you can fix directly from the Unified Manager user interface instead of having to use ONTAP System Manager or the ONTAP CLI.
+
+At the top of the dashboard you can select whether the panels show information for all monitored clusters or for an individual cluster. You can start by viewing the status of all clusters and then drill down to individual clusters when you want to view detailed information.
+
+[NOTE]
+====
+Some of the panels listed below may not appear on the page based on your configuration.
+====
+[options="header"]
+|===
+| Panels| Description
+a|
+Management Actions
+a|
+When Unified Manager can diagnose and determine a single resolution for an issue, those resolutions are displayed in this panel with a *Fix It* button.
+a|
+Capacity
+a|
+Displays the total and used capacity for the local tier and cloud tier, and the number of days until local capacity reaches the upper limit.
+a|
+Performance Capacity
+a|
+Displays the performance capacity value for each cluster and the number of days until performance capacity reaches the upper limit.
+a|
+Workload IOPS
+a|
+Displays the total number workloads that are currently running in a certain range of IOPS.
+a|
+Workload Performance
+a|
+Displays the total number of conforming and non-conforming workloads that are assigned to each defined Performance Service Level.
+a|
+Security
+a|
+Displays the number of clusters that are compliant or not compliant, the number of SVMs that are compliant or not compliant, and the number of volumes that are encrypted or not encrypted.
+a|
+Protection
+a|
+Displays the number of Storage VM's that are protected by SVM-DR relationship, volumes protected by SnapMirror relationship, and volumes protected by Snapshot.
+a|
+Usage Overview
+a|
+Displays clusters sorted by highest IOPS, highest throughput (MBps), or highest used physical capacity.
+|===

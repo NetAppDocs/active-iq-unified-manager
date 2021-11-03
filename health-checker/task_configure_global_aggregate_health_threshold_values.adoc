@@ -1,0 +1,36 @@
+---
+permalink: health-checker/task_configure_global_aggregate_health_threshold_values.html
+sidebar: sidebar
+keywords: configure, global, aggregate, health, threshold values
+summary: "You can configure global health threshold values for all aggregates to track any threshold breach. Appropriate events are generated for threshold breaches and you can take preventive measures based on these events. You can configure the global values based on the best practice settings for thresholds that apply to all monitored aggregates."
+---
+= Configuring global aggregate health threshold values
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure global health threshold values for all aggregates to track any threshold breach. Appropriate events are generated for threshold breaches and you can take preventive measures based on these events. You can configure the global values based on the best practice settings for thresholds that apply to all monitored aggregates.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+When you configure the options globally, the default values of the objects are modified. However, if the default values have been changed at the object level, the global values are not modified.
+
+The threshold options have default values for better monitoring, however, you can change the values to suit the requirements of your environment.
+
+When Autogrow is enabled on volumes that reside on the aggregate, the aggregate capacity thresholds are considered breached based on the maximum volume size set by autogrow, not based on the original volume size.
+
+[NOTE]
+====
+Health threshold values are not applicable to the root aggregate of the node.
+====
+
+.Steps
+. In the left navigation pane, click *Event Thresholds* > *Aggregate*.
+. Configure the appropriate threshold values for capacity, growth, and Snapshot copies.
+. Click *Save*.
+
+*Related information*
+
+link:../config/task_add_users.html[Adding users]

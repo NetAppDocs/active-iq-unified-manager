@@ -1,0 +1,14 @@
+---
+permalink: config/concept_overview_of_configuration_sequence.html
+sidebar: sidebar
+keywords: overview, configuration, sequence
+summary: "The configuration workflow describes the tasks that you must perform before you can use Unified Manager."
+---
+= Overview of the configuration sequence
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The configuration workflow describes the tasks that you must perform before you can use Unified Manager.
+
+image::../media/post_install_flow.png[]

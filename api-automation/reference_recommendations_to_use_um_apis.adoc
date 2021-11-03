@@ -1,0 +1,26 @@
+---
+permalink: api-automation/reference_recommendations_to_use_um_apis.html
+sidebar: sidebar
+keywords: recommendations, apis, active iq, unified, manager
+summary: "When using the APIs in Active IQ Unified Manager, you should follow certain recommended practices."
+---
+= Recommendations for using the APIs for Active IQ Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When using the APIs in Active IQ Unified Manager, you should follow certain recommended practices.
+
+* All response content type must be in the following format for a valid execution:
++
+----
+application/json
+----
+
+* The API version number is not related to the product version number. You should use the latest version of the API available for your Unified Manager instance. For more information about Unified Manager API versions, see the "`REST API versioning in Active IQ Unified Manager`" section.
+* While updating array values using a Unified Manager API, you must update the entire string of values. You cannot append values to an array. You can only replace an existing array.
+* You can use filter operators, such as pipe (|) and wild card (+*+) for all query parameters, except for double values, for example, IOPS and performance in the metrics APIs.
+* Avoid querying objects by using a combination of the filter operators wild card (+*+) and pipe (|). It might retrieve an incorrect number of objects.
+* When using values for filter, ensure that the value does not contain any `?` character. This is to mitigate risks of SQL injection. 
+* Note that the `GET` (all) request for any API returns a maximum of 1000 records. Even if you run the query by setting the `max_records` parameter to a value higher than 1000, only 1000 records are returned.
+* For performing administrative functions, it is recommended that you use the Unified Manager UI.

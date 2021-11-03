@@ -1,0 +1,30 @@
+---
+permalink: performance-checker/task_view_node_iops_based_on_workloads_on_local_node.html
+sidebar: sidebar
+keywords: view, node, iops, workloads, reside, only, local node
+summary: "The node IOPS counter chart can highlight where operations are only passing through the local node using a network LIF to perform read/write operations on volumes on a remote node. The IOPS - “Total (Local)” and “Breakdown (Local)” charts display the IOPS for data that resides in local volumes only on the current node."
+---
+= Viewing node IOPS based on workloads that reside only on the local node
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The node IOPS counter chart can highlight where operations are only passing through the local node using a network LIF to perform read/write operations on volumes on a remote node. The IOPS - "`Total (Local)`" and "`Breakdown (Local)`" charts display the IOPS for data that resides in local volumes only on the current node.
+
+The "`Local`" versions of these counter charts are similar to the node charts for Performance Capacity and Utilization because they also show only the statistics for data that resides on local volumes.
+
+By comparing the "`Local`" versions of these counter charts to the regular Total versions of these counter charts you can see if there is a lot of traffic moving through the local node to access volumes on the remote node. This situation could cause performance issues, possibly indicated by high utilization on the node, if there are too many operations passing through the local node to reach a volume on a remote node. In these cases you may want to move a volume to the local node, or to create a LIF on the remote node where traffic from hosts accessing that volume can be connected.
+
+.Steps
+. In the *Performance/Node Explorer* page for your selected node, from the IOPS chart, select *Total* from the drop-down menu.
++
+The IOPS - Total chart is displayed.
+
+. Click *Zoom View* to display a larger version of the chart in a new browser tab.
+. Back in the *Performance/Node Explorer* page, from the IOPS chart, select *Total (Local)* from the drop-down menu.
++
+The IOPS - Total (Local) chart is displayed.
+
+. Click *Zoom View* to display a larger version of the chart in a new browser tab.
+. View both of the charts next to each other and identify areas where the IOPS values appear to be quite different.
+. Move your cursor over these areas to compare the local and total IOPS for a specific point in time.

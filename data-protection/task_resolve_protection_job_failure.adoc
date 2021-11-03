@@ -1,0 +1,33 @@
+---
+permalink: data-protection/task_resolve_protection_job_failure.html
+sidebar: sidebar
+keywords: resolve, protection, job failure
+summary: "This workflow provides an example of how you might identify and resolve a protection job failure from the Unified Manager dashboard."
+---
+= Resolving a protection job failure
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This workflow provides an example of how you might identify and resolve a protection job failure from the Unified Manager dashboard.
+
+*What you'll need*
+
+Because some tasks in this workflow require that you log in using the Administrator role, you must be familiar with the roles required to use various functionality.
+
+In this scenario, you access the Dashboard page to see if there are any issues with your protection jobs. In the Protection Incident area, you notice that there is a Job Terminated incident, showing a Protection Job Failed error on a volume. You investigate this error to determine the possible cause and potential resolution.
+
+.Steps
+
+. In the Protection Incidents panel of the Dashboard Unresolved Incidents and Risks area, you click the *Protection job failed* event.
++
+[TIP]
+====
+The linked text for the event is written in the form `object_name:/object_name - Error Name`, such as `cluster2_src_svm:/cluster2_src_vol2 - Protection Job Failed`.
+====
++
+The Event details page for the failed protection job displays.
+
+. Review the error message in the Cause field of the *Summary* area to determine the problem and evaluate potential corrective actions.
++
+See link:task_identify_problem_for_failed_protection_job.html[Identifying the problem and performing corrective actions for a failed protection job].

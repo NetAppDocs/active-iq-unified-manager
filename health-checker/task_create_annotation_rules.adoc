@@ -1,0 +1,71 @@
+---
+permalink: health-checker/task_create_annotation_rules.html
+sidebar: sidebar
+keywords: create, annotation rules
+summary: "You can create annotation rules that Unified Manager uses to dynamically annotate storage objects such as volumes, clusters, or storage virtual machines (SVMs)."
+---
+= Creating annotation rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create annotation rules that Unified Manager uses to dynamically annotate storage objects such as volumes, clusters, or storage virtual machines (SVMs).
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+Storage objects that are currently monitored are annotated as soon as the annotation rule is created. New objects are annotated only after the monitoring cycle is completed.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Annotations*.
+. In the *Annotation Rules* tab, click *Add*.
+. In the *Add Annotation Rule* dialog box, specify a name for the annotation rule.
+. In the *Target Object Type* field, select the type of storage object that you want to annotate.
+. In the *Apply Annotation* fields, select the annotation and annotation value that you want to use.
+. In the Conditions section, perform the appropriate action to create a condition, a condition group, or both:
++
+[cols="2*",options="header"]
+|===
+| To create...| Do this...
+a|
+A condition
+a|
+
+ .. Select an operand from the list of operands.
+ .. Select either *Contains* or *Is* as the operator.
+ .. Enter a value, or select a value from the available list.
+
+a|
+A condition group
+a|
+
+ .. Click *Add Condition Group*.
+ .. Select an operand from the list of operands.
+ .. Select either *Contains* or *Is* as the operator.
+ .. Enter a value, or select a value from the available list.
+ .. Click *Add condition* to create more conditions if required, and repeat steps a through d for each condition.
+
++
+|===
+
+. Click *Add*.
+
+== Example of creating an annotation rule
+
+Perform the following steps in the Add Annotation Rule dialog box to create an annotation rule, including configuring a condition and adding a condition group:
+
+.Steps
+. Specify a name for the annotation rule.
+. Select the target object type as storage virtual machine (SVM).
+. Select an annotation from the list of annotations, and specify a value.
+. In the Conditions section, select *Object Name* as the operand.
+. Select *Contains* as the operator.
+. Enter the value as `svm_data`.
+. Click *Add condition group*.
+. Select *Object Name* as the operand.
+. Select *Contains* as the operator.
+. Enter the value as `vol`.
+. Click *Add condition*.
+. Repeat steps 8 through 10 by selecting *data-priority* as the operand in step 8, *Is* as the operator in step 9, and *mission-critical* as the value in step 10.
+. Click *Add*.

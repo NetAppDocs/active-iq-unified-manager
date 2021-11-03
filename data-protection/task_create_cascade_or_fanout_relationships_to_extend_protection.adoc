@@ -1,0 +1,40 @@
+---
+permalink: data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html
+sidebar: sidebar
+keywords: create, cascade fanout, relationships, extend protection, existing protection relationship
+summary: "You can extend protection from an existing relationship by creating either a fanout from the source volume or a cascade from the destination volume of an existing relationship. You might do this when you need to copy data from one site to many sites or to provide additional protection by creating more backups."
+---
+= Creating cascade or fanout relationships to extend protection from an existing protection relationship
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can extend protection from an existing relationship by creating either a fanout from the source volume or a cascade from the destination volume of an existing relationship. You might do this when you need to copy data from one site to many sites or to provide additional protection by creating more backups.
+
+You can extend protection to volumes using consistency group, which is a container that holds several volumes so that you can manage all of the volumes as one entity. You can view the SnapMirror Business Continuity (SM-BC) Consistency Group and the synchronous consistency group relationship in the Relationships page of Unified Manager.
+
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+
+.Steps
+
+. Click *Protection* > *Relationships*.
+Alternatively, you view the relationships from the Volume details page.
+. From the *Volume Relationships* page, select the SnapMirror relationship from which you want to extend protection.
+. On the action bar, click *Extend Protection*.
+. In the menu, select either *From Source* or *From Destination*, depending on whether you are creating a fanout relationship from the source or a cascade relationship from the destination.
+. Select either *With SnapMirror* or *With SnapVault* depending on the type of protection relationship you are creating.
++
+The *Configure Protection* dialog box is displayed.
+
++
+[NOTE]
+====
+This can be achieved from the unified relationship / Volume Relationship and Volume / Health details page.
+====
++
+
+. Complete the information as indicated in the *Configure Protection* dialog box.

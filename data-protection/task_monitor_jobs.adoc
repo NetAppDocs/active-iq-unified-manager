@@ -1,0 +1,27 @@
+---
+permalink: data-protection/task_monitor_jobs.html
+sidebar: sidebar
+keywords: monitor, jobs
+summary: "You can use the Jobs page to monitor job status and to view job properties such as storage service type, state, submitted time, and completed time to determine whether or not a job has successfully completed."
+---
+= Monitoring jobs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Jobs page to monitor job status and to view job properties such as storage service type, state, submitted time, and completed time to determine whether or not a job has successfully completed.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+.Steps
+
+. In the left navigation pane, click *Protection* > *Jobs*.
++
+The Jobs page is displayed.
+
+. View the *State* column to determine the status of those jobs currently running.
+. Click on a job name to view details about that particular job.
++
+The Job details page is displayed.

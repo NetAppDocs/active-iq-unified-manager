@@ -1,0 +1,81 @@
+---
+permalink: events/reference_qtree_events.html
+sidebar: sidebar
+keywords: qtree, events, impact area, capacity
+summary: "Qtree events provide you with information about the qtree capacity and the file and disk limits so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= Qtree events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Qtree events provide you with information about the qtree capacity and the file and disk limits so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: capacity
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Qtree Space Nearly Full(ocumEvtQtreeSpaceNearlyFull)
+
+a|
+Risk
+a|
+Qtree
+a|
+Warning
+a|
+Qtree Space Full(ocumEvtQtreeSpaceFull)
+
+a|
+Risk
+a|
+Qtree
+a|
+Error
+a|
+Qtree Space Normal(ocumEvtQtreeSpaceThresholdOk)
+
+a|
+Event
+a|
+Qtree
+a|
+Information
+a|
+Qtree Files Hard Limit Reached(ocumEvtQtreeFilesHardLimitReached)
+
+a|
+Incident
+a|
+Qtree
+a|
+Critical
+a|
+Qtree Files Soft Limit Breached(ocumEvtQtreeFilesSoftLimitBreached)
+
+a|
+Risk
+a|
+Qtree
+a|
+Warning
+a|
+Qtree Space Hard Limit Reached(ocumEvtQtreeSpaceHardLimitReached)
+
+a|
+Incident
+a|
+Qtree
+a|
+Critical
+a|
+Qtree Space Soft Limit Breached(ocumEvtQtreeSpaceSoftLimitBreached)
+
+a|
+Risk
+a|
+Qtree
+a|
+Warning
+|===

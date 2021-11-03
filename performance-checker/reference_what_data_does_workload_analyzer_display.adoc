@@ -1,0 +1,62 @@
+---
+permalink: performance-checker/reference_what_data_does_workload_analyzer_display.html
+sidebar: sidebar
+keywords: workload analyzer, charts, display, data
+summary: "The workload analyzer page displays information about any current events that could be affecting the workload, recommendations to potentially fix the issue causing the event, and charts for analyzing performance and capacity history."
+---
+= What data does the workload analyzer display
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The workload analyzer page displays information about any current events that could be affecting the workload, recommendations to potentially fix the issue causing the event, and charts for analyzing performance and capacity history.
+
+At the top of the page you specify the name of the workload (volume or LUN) that you want to analyze and the timeframe over which you want to see statistics. You can change the timeframe at any point if you want to view a shorter or longer period of time.
+
+The other areas of the page display the analysis results and the performance and capacity charts.
+
+[NOTE]
+====
+Workload charts for LUNs do not provide the same level of statistics as those charts for volumes, so you will notice differences when analyzing these two types of workloads.
+====
+
+* *Events summary area*
++
+Displays a brief overview of the number and types of events that have occurred over the timeframe. When there are events from different impact areas (for example, performance and capacity), this information is displayed so you can select details for the type of event you are interested in. Click the event type to view a list of the event names.
++
+If there is only one event during the timeframe, then a list of recommendations to fix the issue is listed for some events.
+
+* *Event Timeline*
++
+Shows all occurrences of events during the specified timeframe. Hover your cursor over each event to view the event name.
++
+If you arrived at this page by clicking the *Analyze Workload* button from the Event details page, the icon for the selected event appears larger so that you can identify the event.
+
+* *Performance charts area*
++
+Displays charts for latency, throughput (both IOPS and MB/s), and utilization (for both the node and aggregate) based on the timeframe you selected. You can click the View performance details link to display the Performance Explorer page for the workload in case you want to perform further analysis.
+
+ ** *Latency* displays the latency for the workload over the selected timeframe. The chart has three views that enable you to see:
+  *** *Total* latency
+  *** *Breakdown* latency (broken out by reads, writes, and other processes)
+  *** *Cluster Components* latency (broken out by cluster component)
+
+See link:concept_cluster_components_and_why_they_can_be_in_contention.html[Cluster components and why they can be in contention] for a description of the cluster components that are displayed here.
+ ** *Throughput* displays both IOPS and MB/s throughput for the workload over the selected timeframe. The chart has four views that enable you to see:
+  *** *Total* throughput
+  *** *Breakdown* throughput (broken out by reads, writes, and other processes)
+  *** *Cloud Throughput* (the MB/s being used to write data to and read data from the cloud; for those workloads that are tiering capacity to the cloud)
+  *** *IOPS with Forecast* (a prediction of what the upper and lower IOPS throughput values were expected to be over the timeframe)
+This chart also displays Quality of Service (QoS) maximum and minimum throughput threshold settings, if configured, so you can see where the system may be limiting the throughput intentionally with QoS policies.
+ ** *Utilization* displays utilization for both the aggregate and node on which the workload is running over the selected timeframe. From here you can see if your aggregate or node are overutilized, possibly causing high latency. When analyzing FlexGroup volumes there are multiple nodes and multiple aggregates listed on the utilization charts.
+
+* *Capacity chart area*
++
+Displays charts for data capacity and Snapshot capacity for the past one month for the workload.
++
+For volumes, you can click the View capacity details link to display the Health Details page for the workload in case you want to perform further analysis. LUNs do not provide this link because there is no Health Details page for LUNs.
+
+ ** *Capacity View* displays the total available space allocated for the workload and the logical used space (after all NetApp optimizations).
+ ** *Snapshot View* displays the total space reserved for Snapshot copies, and the amount of space currently being used. Note that LUNs do not provide a Snapshot View.
+ ** *Cloud Tier View* displays how much capacity is being used in the local performance tier and how much is being used in the cloud tier.
+These charts include an estimate of the amount of time remaining before the capacity is full for this workload. This information is based on historical usage and requires a minimum of 10 days of data. When less than 30 days of capacity remain, Unified Manager identifies the storage as "`almost full`".

@@ -1,0 +1,46 @@
+---
+permalink: data-protection/reference_create_resource_pool_dialog_box.html
+sidebar: sidebar
+keywords: create, resource pool, dialog box
+summary: "You can use the Create Resource Pool dialog box to name and describe a new resource pool and to add aggregates to and delete aggregates from that resource pool."
+---
+= Create Resource Pool dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Create Resource Pool dialog box to name and describe a new resource pool and to add aggregates to and delete aggregates from that resource pool.
+
+== Resource Pool Name
+
+The text boxes enable you to add the following information to create a resource pool:
+
+Enables you to specify a resource pool name.
+
+== Description
+
+Enables you to describe a resource pool.
+
+== Members
+
+Displays the members of the resource pool. You can also add and delete members.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Add*
++
+Opens the Aggregates dialog box so that you can add aggregates from a specific cluster to the resource pool. You can add aggregates from different clusters, but the same aggregates cannot be added to more than one resource pool.
+
+* *Remove*
++
+Enables you to remove selected aggregates from the resource pool.
+
+* *Create*
++
+Creates the resource pool. This button is not enabled until information has been entered in the Resource Pool Name or Description fields.
+
+* *Cancel*
++
+Discards the changes and closes the Create Resource Pool dialog box.

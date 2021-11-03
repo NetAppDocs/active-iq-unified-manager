@@ -1,0 +1,34 @@
+---
+permalink: data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html
+sidebar: sidebar
+keywords: resume, schedule, transfers, quiesce, relationship, volume relationships page
+summary: "After you have quiesced a relationship to stop scheduled transfers from occurring, you can use Resume to re-enable scheduled transfers so that data on the source or primary volume is protected. Transfers resume from a checkpoint, if one exists, at the next scheduled transfer interval."
+---
+= Resuming scheduled transfers on a quiesced relationship from the Volume Relationships page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you have quiesced a relationship to stop scheduled transfers from occurring, you can use *Resume* to re-enable scheduled transfers so that data on the source or primary volume is protected. Transfers resume from a checkpoint, if one exists, at the next scheduled transfer interval.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+
+You can select no more than 10 quiesced relationships on which to resume transfers.
+
+.Steps
+
+. From the Volume *Relationships* page, select one or more volumes with quiesced relationships, and, on the toolbar, click *Resume*.
+. In the *Resume* dialog box, click *Continue*.
++
+You are returned to the Volume Relationships page.
+
+. To view the related job tasks and to track their progress, click the job link that is displayed at the top of the *Volume Relationships* page.
+. Do one of the following:
+ ** If only one job is displayed, in the Job details page click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
+ ** If more than one job is displayed,
+  ... In the Jobs page, click the job for which you want to view the details.
+  ... In the Job details page, click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
+After the jobs finish, data transfers are resumed at the next scheduled transfer interval.

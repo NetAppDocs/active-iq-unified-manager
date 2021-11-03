@@ -1,0 +1,35 @@
+---
+permalink: health-checker/task_view_storage_pool_details.html
+sidebar: sidebar
+keywords: view, storage pool, details
+summary: "You can view the details of the storage pool to monitor the storage pool health, total and available cache, and used and available allocations."
+---
+= Viewing storage pool details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the details of the storage pool to monitor the storage pool health, total and available cache, and used and available allocations.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+.Steps
+. In the left navigation pane, click *Storage* > *Aggregates*.
+. Click an aggregate name.
++
+The details of the selected aggregate are displayed.
+
+. Click the *Disk Information* tab.
++
+Detailed disk information is displayed.
++
+[NOTE]
+====
+The Cache table is displayed only when the selected aggregate is using a storage pool.
+====
+
+. In the Cache table, move the pointer over the name of the required storage pool.
++
+The details of the storage pool are displayed.

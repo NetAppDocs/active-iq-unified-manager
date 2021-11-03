@@ -1,0 +1,28 @@
+---
+permalink: config/task_edit_user_setts.html
+sidebar: sidebar
+keywords: edit, user, settings
+summary: "You can edit user settings—such as the email address and role—that are specified each user. For example, you might want to change the role of a user who is a storage operator, and assign storage administrator privileges to the user."
+---
+= Editing the user settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit user settings--such as the email address and role--that are specified each user. For example, you might want to change the role of a user who is a storage operator, and assign storage administrator privileges to the user.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+When you modify the role that is assigned to a user, the changes are applied when either of the following actions occur:
+
+* The user logs out and logs back in to Unified Manager.
+* Session timeout of 24 hours is reached.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Users*.
+. In the Users page, select the user for which you want to edit settings, and click *Edit*.
+. In the Edit User dialog box, edit the appropriate settings that are specified for the user.
+. Click *Save*.

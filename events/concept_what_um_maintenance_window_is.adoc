@@ -1,0 +1,18 @@
+---
+permalink: events/concept_what_um_maintenance_window_is.html
+sidebar: sidebar
+keywords: unified manager, maintenance, window
+summary: "You define a Unified Manager maintenance window to suppress events and alerts for a specific timeframe when you have scheduled cluster maintenance and you do not want to receive a flood of unwanted notifications."
+---
+= What a Unified Manager maintenance window is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You define a Unified Manager maintenance window to suppress events and alerts for a specific timeframe when you have scheduled cluster maintenance and you do not want to receive a flood of unwanted notifications.
+
+When the maintenance window starts, an "Object Maintenance Window Started" event is posted to the Event Management inventory page. This event is obsoleted automatically when the maintenance window ends.
+
+During a maintenance window the events related to all objects on that cluster are still generated, but they do not appear in any of the UI pages, and no alerts or other types of notification are sent for these events. You can, however, view the events that were generated for all storage objects during a maintenance window by selecting one of the View options on the Event Management inventory page.
+
+You can schedule a maintenance window to be initiated in the future, you can change the start and end times for a scheduled maintenance window, and you can cancel a scheduled maintenance window.

@@ -1,0 +1,44 @@
+---
+permalink: data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html
+sidebar: sidebar
+keywords: create, snapvault, protection, relationship, volume, health details page
+summary: "You can create a SnapVault relationship using the Volume / Health details page so that data backups are enabled for protection purposes on volumes."
+---
+= Creating a SnapVault protection relationship from the Volume / Health details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a SnapVault relationship using the Volume / Health details page so that data backups are enabled for protection purposes on volumes.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation to perform this task.
+
+The *Protect* menu does not display in the following instances:
+
+* If RBAC settings do not allow this action: for example, if you have only operator privileges
+* When the volume ID is unknown: for example, when you have an intercluster relationship and the destination cluster has not yet been discovered
+
+.Steps
+
+. In the *Protection* tab of the *Volume / Health* details page, right-click a volume in the topology view that you want to protect.
+. Select *Protect* > *SnapVault* from the menu.
++
+The Configure Protection dialog box is launched.
+
+. Click *SnapVault* to view the *SnapVault* tab and to configure the secondary resource information.
+. Click *Advanced* to set deduplication, compression, autogrow, and space guarantee as needed, and then click *Apply*.
+. Complete the *Destination Information* area and the *Relationship Settings* area in the *Configure Protection* dialog box.
+. Click *Apply*.
++
+You are returned to the Volume / Health details page.
+
+. Click the protection configuration job link at the top of the *Volume / Health* details page.
++
+The Job details page is displayed.
+
+. Click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
++
+When the job tasks are complete, the new relationships are displayed in the Volume / Health details page topology view.

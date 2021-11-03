@@ -1,0 +1,48 @@
+---
+permalink: data-protection/reference_protection_storage_virtual_machine_associations_page.html
+sidebar: sidebar
+keywords: svm, peers, page
+summary: "The SVM Peers page enables you to view existing storage VM peers between source and destination storage VM and to create new storage VM for use by partner applications to create SnapMirror and SnapVault relationships."
+---
+= SVM Peers page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The SVM Peers page enables you to view existing storage VM peers between source and destination storage VM and to create new storage VM for use by partner applications to create SnapMirror and SnapVault relationships.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Create*
++
+Opens the Create Storage Virtual Machine Peers page.
+
+* *Delete*
++
+Enables you to delete the selected storage VM peers.
+
+== Storage VM Peers list
+
+The SVM Peers list displays in a table the source and destination storage VM associations that have been created and the type of protection relationship allowed for each association.
+
+* *Source Storage Virtual Machine*
++
+Displays the name of the source SVM.
+
+* *Source Cluster*
++
+Displays the name of the source cluster.
+
+* *Destination Storage Virtual Machine*
++
+Displays the name of the destination SVM.
+
+* *Destination Cluster*
++
+Displays the name of the destination cluster.
+
+* *Type*
++
+Displays the type of protection relationship. Relationship types are either SnapMirror or SnapVault.

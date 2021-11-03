@@ -1,0 +1,63 @@
+---
+permalink: data-protection/reference_create_schedule_dialog_box.html
+sidebar: sidebar
+keywords: create, schedule, dialog box
+summary: "The Create Schedule dialog box enables you to create a basic or advanced protection schedule for SnapMirror and SnapVault relationship transfers. You might create a new schedule to increase the frequency of data transfers due to frequent data updates, or you might create a less frequent schedule when data changes infrequently."
+---
+= Create Schedule dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Create Schedule dialog box enables you to create a basic or advanced protection schedule for SnapMirror and SnapVault relationship transfers. You might create a new schedule to increase the frequency of data transfers due to frequent data updates, or you might create a less frequent schedule when data changes infrequently.
+
+Schedules cannot be configured for SnapMirror Synchronous relationships.
+
+* *Destination Cluster*
++
+The name of the cluster you selected in the SnapVault tab or SnapMirror tab of the Configure Protection dialog box.
+
+* *Schedule Name*
++
+The name you provide for the schedule. Schedule names can consist of the characters A through Z, a through z, 0 through 9, as well as any of the following special characters: ! @ # $ % {caret} & * ( ) _ -. Schedule names may not include the following characters: < >.
+
+* *Basic or Advanced*
++
+The schedule mode you want to use.
++
+Basic mode includes the following elements:
+
+ ** Repeat
++
+How often a scheduled transfer occurs. Choices include hourly, daily, and weekly.
+
+ ** Day
++
+When a repeat of weekly is selected, the day of the week a transfer occurs.
+
+ ** Time
++
+When Daily or Weekly is selected, the time of day a transfer occurs.
+
++
+Advanced mode includes the following elements:
+
+ ** Months
++
+A comma-separated numerical list representing the months of the year. Valid values are 0 through 11, with zero representing January, and so on. This element is optional. Leaving the field blank implies that transfers occur every month.
+
+ ** Days
++
+A comma-separated numerical list representing the day of the month. Valid values are 1 through 31. This element is optional. Leaving the field blank implies that a transfer occurs every day of the month.
+
+ ** Weekdays
++
+A comma-separated numerical list representing the days of the week. Valid values are 0 through 6, with 0 representing Sunday, and so on. This element is optional. Leaving the field blank implies that a transfer occurs every day of the week. If a day of the week is specified but a day of the month is not specified, a transfer occurs only on the specified day of the week and not every day.
+
+ ** Hours
++
+A comma-separated numerical list representing the number of hours in a day. Valid values are 0 through 23, with 0 representing midnight. This element is optional.
+
+ ** Minutes
++
+A comma-separated numerical list representing the minutes in an hour. Valid values are 0 through 59. This element is required.

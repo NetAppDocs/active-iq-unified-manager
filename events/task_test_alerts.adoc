@@ -1,0 +1,27 @@
+---
+permalink: events/task_test_alerts.html
+sidebar: sidebar
+keywords: test, alerts
+summary: "You can test an alert to verify that you have configured it correctly. When an event is triggered, an alert is generated, and an alert email is sent to the configured recipients. You can verify whether the notification is sent and whether your script is executed by using the test alert."
+---
+= Testing alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can test an alert to verify that you have configured it correctly. When an event is triggered, an alert is generated, and an alert email is sent to the configured recipients. You can verify whether the notification is sent and whether your script is executed by using the test alert.
+
+*What you'll need*
+
+* You must have configured notification settings such as the email address of the recipients, SMTP server, and SNMP trap.
++
+The Unified Manager server can use these settings to send notifications to users when an event is generated.
+
+* You must have assigned a script and configured the script to run when the alert is generated.
+* You must have the Application Administrator role.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Alert Setup*.
+. In the *Alert Setup* page, select the alert that you want to test, and then click *Test*.
++
+A test alert email is sent to the email addresses that you specified while creating the alert.

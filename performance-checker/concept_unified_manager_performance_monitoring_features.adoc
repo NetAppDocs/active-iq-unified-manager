@@ -1,0 +1,25 @@
+---
+permalink: performance-checker/concept_unified_manager_performance_monitoring_features.html
+sidebar: sidebar
+keywords: unified manager, performance, monitoring, features
+summary: "Unified Manager collects and analyzes performance statistics from systems running ONTAP software. It uses dynamic performance thresholds and user-defined performance thresholds to monitor a variety of performance counters over many cluster components."
+---
+= Unified Manager performance monitoring features
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager collects and analyzes performance statistics from systems running ONTAP software. It uses dynamic performance thresholds and user-defined performance thresholds to monitor a variety of performance counters over many cluster components.
+
+A high response time (latency) indicates that the storage object, for example, a volume, is performing slower than normal. This issue also indicates that the performance has decreased for client applications that are using the volume. Unified Manager identifies the storage component where the performance issue lies and provides a list of suggested actions you can take to address the performance issue.
+
+Unified Manager includes the following features:
+
+* Monitors and analyzes workload performance statistics from a system running ONTAP software.
+* Tracks performance counters for clusters, nodes, aggregates, ports, SVMs, volumes, LUNs, NVMe namespaces, and network interfaces (LIFs).
+* Displays detailed graphs that plot workload activity over time; including IOPS (operations), MB/s (throughput), latency (response time), utilization, performance capacity, and cache ratio.
+* Enables you to create user-defined performance threshold policies that trigger events and send email alerts when the thresholds are breached.
+* Uses system-defined thresholds and dynamic performance thresholds that learn about your workload activity to identify and alert you to performance issues.
+* Identifies the quality of service (QoS) policies and Performance Service Level policies (PSLs) that are applied to your volumes and LUNs.
+* Clearly identifies the cluster component that is in contention.
+* Identifies workloads that are overusing cluster components and the workloads whose performance is impacted by the increased activity.

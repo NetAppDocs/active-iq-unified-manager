@@ -1,0 +1,12 @@
+---
+permalink: events/reference_description_of_health_alert_windows_and_dialog_boxes.html
+sidebar: sidebar
+keywords: description, alert, windows, dialog boxes
+summary: "You should configure alerts to receive notifications about events by using the Add Alert dialog box. You can also view the list of alerts from the Alert Setup page."
+---
+= Description of alert windows and dialog boxes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You should configure alerts to receive notifications about events by using the Add Alert dialog box. You can also view the list of alerts from the Alert Setup page.

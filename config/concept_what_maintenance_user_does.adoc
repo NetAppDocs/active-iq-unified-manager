@@ -1,0 +1,14 @@
+---
+permalink: config/concept_what_maintenance_user_does.html
+sidebar: sidebar
+keywords: what, maintenance, user does, installation, unified manager
+summary: "The maintenance user is created during the installation of Unified Manager on a Red Hat Enterprise Linux or CentOS system. The maintenance user name is the “umadmin” user. The maintenance user has the Application Administrator role in the web UI, and that user can create subsequent users and assign them roles."
+---
+= What the maintenance user does
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The maintenance user is created during the installation of Unified Manager on a Red Hat Enterprise Linux or CentOS system. The maintenance user name is the "`umadmin`" user. The maintenance user has the Application Administrator role in the web UI, and that user can create subsequent users and assign them roles.
+
+The maintenance user, or umadmin user, can also access the Unified Manager maintenance console.

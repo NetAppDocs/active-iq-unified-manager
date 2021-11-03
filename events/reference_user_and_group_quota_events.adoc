@@ -1,0 +1,54 @@
+---
+permalink: events/reference_user_and_group_quota_events.html
+sidebar: sidebar
+keywords: user, group, quota, events, impact area, capacity
+summary: "User and group quota events provide you with information about the capacity of the user and user group quota as well as the file and disk limits so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= User and group quota events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+User and group quota events provide you with information about the capacity of the user and user group quota as well as the file and disk limits so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: capacity
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+User or Group Quota Disk Space Soft Limit Breached(ocumEvtUserOrGroupQuotaDiskSpaceSoftLimitBreached)
+
+a|
+Risk
+a|
+User or group quota
+a|
+Warning
+a|
+User or Group Quota Disk Space Hard Limit Reached(ocumEvtUserOrGroupQuotaDiskSpaceHardLimitReached)
+
+a|
+Incident
+a|
+User or group quota
+a|
+Critical
+a|
+User or Group Quota File Count Soft Limit Breached(ocumEvtUserOrGroupQuotaFileCountSoftLimitBreached)
+
+a|
+Risk
+a|
+User or group quota
+a|
+Warning
+a|
+User or Group Quota File Count Hard Limit Reached(ocumEvtUserOrGroupQuotaFileCountHardLimitReached)
+
+a|
+Incident
+a|
+User or group quota
+a|
+Critical
+|===

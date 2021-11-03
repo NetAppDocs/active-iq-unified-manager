@@ -1,0 +1,58 @@
+---
+permalink: config/task_enable_and_disable_policy_based_storage_management.html
+sidebar: sidebar
+keywords: provisioning, performance service levels, storage management, enable, disable, policy-based
+summary: "Starting with Unified Manager 9.7, you can provision storage workloads (volumes and LUNs) on your ONTAP clusters, and manage those workloads based on assigned performance service levels. This functionality is similar to creating workloads in ONTAP System Manager and attaching QoS policies, but when applied using Unified Manager you can provision and manage workloads across all clusters that your Unified Manager instance is monitoring."
+---
+= Enabling and disabling policy-based storage management
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Starting with Unified Manager 9.7, you can provision storage workloads (volumes and LUNs) on your ONTAP clusters, and manage those workloads based on assigned performance service levels. This functionality is similar to creating workloads in ONTAP System Manager and attaching QoS policies, but when applied using Unified Manager you can provision and manage workloads across all clusters that your Unified Manager instance is monitoring.
+
+You must have the Application Administrator role.
+
+This option is enabled by default, but you can disable it if you do not want to provision and manage workloads using Unified Manager.
+
+When enabled, this option provides many new items in the user interface:
+
+[cols="2*",options="header"]
+|===
+| New Content| Location
+a|
+A page to provision new workloads
+a|
+Available from *Common Tasks* > *Provisioning*
+a|
+A page to create performance service level policies
+a|
+Available from *Settings* > *Policies* > *Performance Service Levels*
+a|
+A page to create performance storage efficiency policies
+a|
+Available from *Settings* > *Policies* > *Storage Efficiency*
+a|
+Panels that describe your current Workload Performance and Workload IOPS
+a|
+Available from the Dashboard
+|===
+See the online help in the product for more information on these pages and on this functionality.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Feature Settings*.
+. In the *Feature Settings* page, disable or enable policy-based storage management by choosing one of the following options:
++
+[cols="2*",options="header"]
+|===
+| If you want to...| Then do this...
+a|
+Disable policy-based storage management
+a|
+In the *Policy-based storage management* panel, move the slider button to the left.
+a|
+Enable policy-based storage management
+a|
+In the *Policy-based storage management* panel, move the slider button to the right.
+|===

@@ -1,0 +1,725 @@
+---
+permalink: events/reference_volume_events.html
+sidebar: sidebar
+keywords: volume, events, impact area, availability, capacity, configuration, performance
+summary: "Volume events provide information about the status of volumes which enables you to monitor for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity."
+---
+= Volume events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Volume events provide information about the status of volumes which enables you to monitor for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity.
+
+An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Volume Restricted(ocumEvtVolumeRestricted)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Offline(ocumEvtVolumeOffline)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume Partially Available(ocumEvtVolumePartiallyAvailable)
+
+a|
+Risk
+a|
+Volume
+a|
+Error
+a|
+Volume Unmounted(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Mounted(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Remounted(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Junction Path Inactive(ocumEvtVolumeJunctionPathInactive)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Autosize Enabled(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Autosize-Disabled(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Autosize Maximum Capacity Modified(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Autosize Increment Size Modified(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+|===
+
+== Impact area: capacity
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Thin-Provisioned Volume Space At Risk(ocumThinProvisionVolumeSpaceAtRisk)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Space Full(ocumEvtVolumeFull)
+
+a|
+Risk
+a|
+Volume
+a|
+Error
+a|
+Volume Space Nearly Full(ocumEvtVolumeNearlyFull)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Logical Space Full *(volumeLogicalSpaceFull)
+
+a|
+Risk
+a|
+Volume
+a|
+Error
+a|
+Volume Logical Space Nearly Full *(volumeLogicalSpaceNearlyFull)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Logical Space Normal *(volumeLogicalSpaceAllOK)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Snapshot Reserve Space Full(ocumEvtSnapshotFull)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Too Many Snapshot Copies(ocumEvtSnapshotTooMany)
+
+a|
+Risk
+a|
+Volume
+a|
+Error
+a|
+Volume Qtree Quota Overcommitted(ocumEvtVolumeQtreeQuotaOvercommitted)
+
+a|
+Risk
+a|
+Volume
+a|
+Error
+a|
+Volume Qtree Quota Nearly Overcommitted(ocumEvtVolumeQtreeQuotaAlmostOvercommitted)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Growth Rate Abnormal(ocumEvtVolumeGrowthRateAbnormal)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Days Until Full(ocumEvtVolumeDaysUntilFullSoon)
+
+a|
+Risk
+a|
+Volume
+a|
+Error
+a|
+Volume Space Guarantee Disabled(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Space Guarantee Enabled(Not Applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Space Guarantee Modified(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Snapshot Reserve Days Until Full(ocumEvtVolumeSnapshotReserveDaysUntilFullSoon)
+
+a|
+Risk
+a|
+Volume
+a|
+Error
+a|
+FlexGroup Constituents Have Space Issues *(flexGroupConstituentsHaveSpaceIssues)
+
+a|
+Risk
+a|
+Volume
+a|
+Error
+a|
+FlexGroup Constituents Space Status All OK *(flexGroupConstituentsSpaceStatusAllOK)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+FlexGroup Constituents Have Inodes Issues *(flexGroupConstituentsHaveInodesIssues)
+
+a|
+Risk
+a|
+Volume
+a|
+Error
+a|
+FlexGroup Constituents Inodes Status All OK *(flexGroupConstituentsInodesStatusAllOK)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+WAFL Volume AutoSize Fail *(waflVolAutoSizeFail)
+
+a|
+Risk
+a|
+Volume
+a|
+Error
+a|
+WAFL Volume AutoSize Done *(waflVolAutoSizeDone)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+FlexGroup Volume Is Over 80% Utilized*
+
+a|
+Incident
+a|
+Volume
+a|
+Error
+a|
+FlexGroup Volume Is Over 90% Utilized*
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume storage efficiency anomaly (ocumVolumeAbnormalStorageEfficiencyWarning)
+a|
+Risk
+a|
+Volume
+a|
+Warning
+|===
+
+== Impact area: configuration
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Volume Renamed(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Discovered(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume Deleted(Not applicable)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+|===
+
+== Impact area: performance
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+QoS Volume Max IOPS Warning Threshold Breached(ocumQosVolumeMaxIopsWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+QoS Volume Max MB/s Warning Threshold Breached(ocumQosVolumeMaxMbpsWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+QoS Volume Max IOPS/TB Warning Threshold Breached(ocumQosVolumeMaxIopsPerTbWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Workload Volume Latency Threshold Breached as defined by Performance Service Level Policy(ocumConformanceLatencyWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume IOPS Critical Threshold Breached(ocumVolumeIopsIncident)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume IOPS Warning Threshold Breached(ocumVolumeIopsWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume MB/s Critical Threshold Breached(ocumVolumeMbpsIncident)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume MB/s Warning Threshold Breached(ocumVolumeMbpsWarning )
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Latency ms/op Critical Threshold Breached(ocumVolumeLatencyIncident)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume Latency ms/op Warning Threshold Breached(ocumVolumeLatencyWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Cache Miss Ratio Critical Threshold Breached(ocumVolumeCacheMissRatioIncident)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume Cache Miss Ratio Warning Threshold Breached(ocumVolumeCacheMissRatioWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Latency and IOPS Critical Threshold Breached(ocumVolumeLatencyIopsIncident)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume Latency and IOPS Warning Threshold Breached(ocumVolumeLatencyIopsWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Latency and MB/s Critical Threshold Breached(ocumVolumeLatencyMbpsIncident)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume Latency and MB/s Warning Threshold Breached(ocumVolumeLatencyMbpsWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Latency and Aggregate Performance Capacity Used Critical Threshold Breached(ocumVolumeLatencyAggregatePerfCapacityUsedIncident)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume Latency and Aggregate Performance Capacity Used Warning Threshold Breached(ocumVolumeLatencyAggregatePerfCapacityUsedWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Latency and Aggregate Utilization Critical Threshold Breached(ocumVolumeLatencyAggregateUtilizationIncident)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume Latency and Aggregate Utilization Warning Threshold Breached(ocumVolumeLatencyAggregateUtilizationWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Latency and Node Performance Capacity Used Critical Threshold Breached(ocumVolumeLatencyNodePerfCapacityUsedIncident)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume Latency and Node Performance Capacity Used Warning Threshold Breached(ocumVolumeLatencyNodePerfCapacityUsedWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Latency and Node Performance Capacity Used - Takeover Critical Threshold Breached(ocumVolumeLatencyAggregatePerfCapacityUsedTakeoverIncident)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume Latency and Node Performance Capacity Used - Takeover Warning Threshold Breached(ocumVolumeLatencyAggregatePerfCapacityUsedTakeoverWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Latency and Node Utilization Critical Threshold Breached(ocumVolumeLatencyNodeUtilizationIncident)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume Latency and Node Utilization Warning Threshold Breached(ocumVolumeLatencyNodeUtilizationWarning)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+|===
+
+== Impact area: security
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Volume anti-ransomware monitoring is Enabled (Active Mode)
+(antiRansomwareVolumeStateEnabled)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume anti-ransomware monitoring is Disabled
+(antiRansomwareVolumeStateDisabled)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume anti-ransomware monitoring is Enabled (Learning Mode)
+(antiRansomwareVolumeStateDryrun)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume anti-ransomware monitoring is Paused (Learning Mode)
+(antiRansomwareVolumeStateDryrunPaused)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume anti-ransomware monitoring is Paused (Active Mode)
+(antiRansomwareVolumeStateEnablePaused)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume anti-ransomware monitoring is Disabling
+(antiRansomwareVolumeStateDisableInProgress)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Ransomware Activity Seen
+(callHomeRansomwareActivitySeen)
+
+a|
+Incident
+a|
+Volume
+a|
+Critical
+a|
+Volume suitable for anti-ransomware monitoring (Learning Mode) (ocumEvtVolumeArwCandidate)
+
+a|
+Event
+a|
+Volume
+a|
+Information
+a|
+Volume suitable for anti-ransomware monitoring (Active Mode) (ocumVolumeSuitedForActiveAntiRansomwareDetection)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume exhibits noisy anti-ransomware alerting (antiRansomwareFeatureNoisyVolume)
+
+a|
+Risk
+a|
+Volume
+a|
+Warning
+|===

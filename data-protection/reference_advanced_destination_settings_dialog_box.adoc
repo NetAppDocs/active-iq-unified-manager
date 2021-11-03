@@ -1,0 +1,24 @@
+---
+permalink: data-protection/reference_advanced_destination_settings_dialog_box.html
+sidebar: sidebar
+keywords: advanced, destination, settings, dialog box
+summary: "You can use the Advanced Destination Settings dialog box to enable space guarantee settings on a destination volume. You might select advanced settings when space guarantee is disabled on the source, but you want it enabled on the destination. The settings for deduplication, compression, and autogrow in a SnapMirror relationship are inherited from the source volume and cannot be changed."
+---
+= Advanced Destination Settings dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Advanced Destination Settings dialog box to enable space guarantee settings on a destination volume. You might select advanced settings when space guarantee is disabled on the source, but you want it enabled on the destination. The settings for deduplication, compression, and autogrow in a SnapMirror relationship are inherited from the source volume and cannot be changed.
+
+== Space Guarantee
+
+Ensures that enough space is allocated on the destination volume so that data transfers always succeed. The space guarantee setting can be one of the following:
+
+* File
+* Volume
+* None
+
+For example, you might have a 200-GB volume that contains files totaling 50 GB; however, those files hold only 10 GB of data. Volume guarantee allocates 200 GB to the destination volume, regardless of contents on the source. File guarantee allocates 50 GB to ensure that enough space is reserved for source files on the destination; selecting *None* in this scenario means that only 10 GB is allocated on the destination for the actual space used by file data on the source.
+
+The space guarantee is set to Volume by default.

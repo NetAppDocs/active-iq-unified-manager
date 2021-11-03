@@ -1,0 +1,12 @@
+---
+permalink: reporting/concept_customize_volume_performance_reports.html
+sidebar: sidebar
+keywords: customize, volume, performance, reports
+summary: "These sample custom reports are used to help you identify and respond to potential problems related to volume performance."
+---
+= Customizing volume performance reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+These sample custom reports are used to help you identify and respond to potential problems related to volume performance.

@@ -1,0 +1,43 @@
+---
+permalink: performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html
+sidebar: sidebar
+keywords: types, workloads, monitored, unified manager
+summary: "You can use Unified Manager to monitor the performance of two types of workloads: user-defined and system-defined."
+---
+= Types of workloads monitored by Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to monitor the performance of two types of workloads: user-defined and system-defined.
+
+* *_User-defined workloads_*
++
+The I/O throughput from applications to the cluster. These are processes involved in read and write requests. A volume, LUN, NFS share, SMB/CIFS share, and a workload is a user-defined workload.
++
+[NOTE]
+====
+Unified Manager only monitors the workload activity on the cluster. It does not monitor the applications, the clients, or the paths between the applications and the cluster.
+====
++
+If one or more of the following is true for a workload, it cannot be monitored by Unified Manager:
+
+ ** It is a data protection (DP) copy in read-only mode. (DP volumes are monitored for user-generated traffic.)
+ ** It is an offline data clone.
+ ** It is a mirrored volume in a MetroCluster configuration.
+
+* *_System-defined workloads_*
++
+The internal processes involved with storage efficiency, data replication, and system health, including:
+
+ ** Storage efficiency, such as deduplication
+ ** Disk health, which includes RAID reconstruct, disk scrubbing, and so on
+ ** Data replication, such as SnapMirror copies
+ ** Management activities
+ ** File system health, which includes various WAFL activities
+ ** File system scanners, such as WAFL scan
+ ** Copy offload, such as offloaded storage efficiency operations from VMware hosts
+ ** System health, such as volume moves, data compression, and so on
+ ** Unmonitored volumes
+
+Performance data for system-defined workloads is displayed in the GUI only when the cluster component used by these workloads is in contention. For example, you cannot search for the name of a system-defined workload to view its performance data in the GUI.

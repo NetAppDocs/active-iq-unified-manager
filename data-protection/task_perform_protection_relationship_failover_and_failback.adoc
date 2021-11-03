@@ -1,0 +1,43 @@
+---
+permalink: data-protection/task_perform_protection_relationship_failover_and_failback.html
+sidebar: sidebar
+keywords: perform, protection, relationship, failover, failback
+summary: "When a source volume in your protection relationship is disabled because of a hardware failure or a disaster, you can use the protection relationship features in Unified Manager to make the protection destination read/write accessible and fail over to that volume until the source is online again; then, you can fail back to the original source when it is available to serve data."
+---
+= Performing a protection relationship failover and failback
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When a source volume in your protection relationship is disabled because of a hardware failure or a disaster, you can use the protection relationship features in Unified Manager to make the protection destination read/write accessible and fail over to that volume until the source is online again; then, you can fail back to the original source when it is available to serve data.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up OnCommand Workflow Automation to perform this operation.
+
+.Steps
+
+. link:task_break_snapmirror_relationship_from_health_volume_details.html[Break the SnapMirror relationship].
++
+You must break the relationship before you can convert the destination from a data protection volume to a read/write volume, and before you can reverse the relationship.
+
+. link:task_reverse_protection_relationships_from_health_volume_details.html[Reverse the protection relationship].
++
+When the original source volume is available again, you might decide to reestablish the original protection relationship by restoring the source volume. Before you can restore the source, you must synchronize it with the data written to the former destination. You use the reverse resync operation to create a new protection relationship by reversing the roles of the original relationship and synchronizing the source volume with the former destination. A new baseline Snapshot copy is created for the new relationship.
++
+The reversed relationship looks similar to a cascaded relationship:
++
+image::../media/um_toplogy_reverse_resync.gif[]
+
+. link:task_break_snapmirror_relationship_from_health_volume_details.html[Break the reversed SnapMirror relationship].
++
+When the original source volume is resynchronized and can again serve data, use the break operation to break the reversed relationship.
+
+. link:task_remove_protection_relationship_voldtls.html[Remove the relationship].
++
+When the reversed relationship is no longer required, you should remove that relationship before reestablishing the original relationship.
+
+. link:task_resynchronize_protection_relationships_voldtls.html[Resynchronize the relationship].
++
+Use the resynchronize operation to synchronize data from the source to the destination and to reestablish the original relationship.

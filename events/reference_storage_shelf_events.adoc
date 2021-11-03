@@ -1,0 +1,45 @@
+---
+permalink: events/reference_storage_shelf_events.html
+sidebar: sidebar
+keywords: storage, shelf, events, impact area, availability
+summary: "Storage shelf events tell you if your storage shelf has abnormal so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= Storage shelf events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Storage shelf events tell you if your storage shelf has abnormal so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Abnormal Voltage Range(ocumEvtShelfVoltageAbnormal)
+
+a|
+Risk
+a|
+Storage shelf
+a|
+Warning
+a|
+Abnormal Current Range(ocumEvtShelfCurrentAbnormal)
+
+a|
+Risk
+a|
+Storage shelf
+a|
+Warning
+a|
+Abnormal Temperature(ocumEvtShelfTemperatureAbnormal)
+
+a|
+Risk
+a|
+Storage shelf
+a|
+Warning
+|===

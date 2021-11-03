@@ -1,0 +1,48 @@
+---
+permalink: events/reference_disable_events_dialog_box.html
+sidebar: sidebar
+keywords: disable, events, dialog box, properties, area, command buttons
+summary: "The Disable Events dialog box displays the list of event types for which you can disable events. You can disable events for an event type based on a particular severity or for a set of events."
+---
+= Disable Events dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Disable Events dialog box displays the list of event types for which you can disable events. You can disable events for an event type based on a particular severity or for a set of events.
+
+You must have the Application Administrator or Storage Administrator role.
+
+== Event Properties area
+
+The Event Properties area specifies the following event properties:
+
+* *Event Severity*
++
+Enables you to select events based on the severity type, which can be Critical, Error, Warning, or Information.
+
+* *Event Name Contains*
++
+Enables you to filter events whose name contains the specified characters.
+
+* *Matching events*
++
+Displays the list of events matching the event severity type and the text string you specify.
+
+* *Disable events*
++
+Displays the list of events that you have selected for disabling.
++
+The severity of the event is also displayed along with the event name.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks for the selected events:
+
+* *Save and close*
++
+Disables the event type and closes the dialog box.
+
+* *Cancel*
++
+Discards the changes and closes the dialog box.

@@ -1,0 +1,22 @@
+---
+permalink: data-protection/task_view_svm_associations.html
+sidebar: sidebar
+keywords: view, storage, vm peers
+summary: "You can use the Storage VM Peers page to view existing storage VM peers and their properties and to determine if additional storage VMs are required."
+---
+= Viewing Storage VM Peers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Storage VM Peers page to view existing storage VM peers and their properties and to determine if additional storage VMs are required.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+.Step
+
+. In the left navigation pane, click *Protection* > *Storage VM Peers*.
++
+The list of storage VM Peers and their properties is displayed.

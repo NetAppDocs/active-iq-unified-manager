@@ -1,0 +1,22 @@
+---
+permalink: performance-checker/task_use_workload_analyzer.html
+sidebar: sidebar
+keywords: workload analyzer
+summary: "There are many ways to start the workload analyzer from the user interface. Here we describe launching the tool from the left-navigation pane."
+---
+= Using the workload analyzer
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+There are many ways to start the workload analyzer from the user interface. Here we describe launching the tool from the left-navigation pane.
+
+.Steps
+. In the left navigation pane, click *Workload Analysis*.
++
+The Workload Analysis page is displayed.
+
+. If you know the workload name, enter the name. If you are not sure of the full name, enter a minimum of 3 characters and the system displays a list of workloads that match the string.
+. Select the time range if you want to view statistics for longer than the default 2 hours and click *Apply*.
+. View the Summary area to see the events that have occurred during the timeframe.
+. View the performance and capacity charts to see when any of the metrics are abnormal and see if any events align with the abnormal entry.

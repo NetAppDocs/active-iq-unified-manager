@@ -1,0 +1,22 @@
+---
+permalink: events/reference_add_script_dialog_box.html
+sidebar: sidebar
+keywords: add, script, dialog, box
+summary: "The Add Script dialog box enables you to add scripts to Unified Manager. You can configure alerts with your scripts to automatically resolve events that are generated for storage objects."
+---
+= Add Script dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Add Script dialog box enables you to add scripts to Unified Manager. You can configure alerts with your scripts to automatically resolve events that are generated for storage objects.
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Select Script File*
++
+Enables you to select a script for the alert.
+
+* *Description*
++
+Enables you to specify a description for the script.

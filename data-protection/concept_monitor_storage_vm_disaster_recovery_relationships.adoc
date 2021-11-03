@@ -1,0 +1,16 @@
+---
+permalink: data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html
+sidebar: sidebar
+keywords: disaster recovery, monitor, storage vm protection, relationships
+summary: "Active IQ Unified Manager supports monitoring of storage VM disaster recovery relationships which provides disaster recovery at the granularity of a storage VM level. The storage VM disaster recovery enables the recovery of data present in the constituent volumes of the storage VM and the recovery of storage VM configuration."
+---
+= Monitoring Storage VM Disaster Recovery protection relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager supports monitoring of storage VM disaster recovery relationships which provides disaster recovery at the granularity of a storage VM level. The storage VM disaster recovery enables the recovery of data present in the constituent volumes of the storage VM and the recovery of storage VM configuration.
+
+A storage VM DR relationship is created from the source storage VM to the destination storage VM to provide asynchronous disaster recovery. You can select either to replicate all or subset of the storage VM configuration (excluding network and protocol configuration) along with the data volumes based on the cluster setup.
+
+After the storage VM disaster recovery relationship is configured, when the source storage VM becomes unavailable due to either hardware failure or environmental disaster, the destination storage VM is started, that provides access to data with least disruption. Similarly, when the source storage VM becomes available, it is resynchronized with the destination storage VM and then, the source restarts to provide data. You can use SnapMirror commands to configure and manage storage VM disaster recovery relationship.

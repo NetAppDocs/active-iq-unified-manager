@@ -1,0 +1,12 @@
+---
+permalink: performance-checker/reference_cluster_summary_page_opm.html
+sidebar: sidebar
+keywords: performance, cluster, summary page
+summary: "The Performance Cluster Summary page provides a summary of the active events, IOPS performance, and MB/s performance for a cluster. This page also includes the total count of the storage objects in the cluster."
+---
+= Performance Cluster Summary page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Performance Cluster Summary page provides a summary of the active events, IOPS performance, and MB/s performance for a cluster. This page also includes the total count of the storage objects in the cluster.

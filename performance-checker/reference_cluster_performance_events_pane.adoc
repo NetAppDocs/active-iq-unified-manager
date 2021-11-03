@@ -1,0 +1,57 @@
+---
+permalink: performance-checker/reference_cluster_performance_events_pane.html
+sidebar: sidebar
+keywords: cluster, performance, events, pane, counter
+summary: "The Cluster performance events pane displays performance statistics and all active events for the cluster. This is most helpful when monitoring your clusters and all cluster-related performance and events."
+---
+= Cluster performance events pane
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Cluster performance events pane displays performance statistics and all active events for the cluster. This is most helpful when monitoring your clusters and all cluster-related performance and events.
+
+== All Events on this Cluster pane
+
+The All Events on this Cluster pane displays all active cluster performance events for the preceding 72 hours. The Total Active Events is displayed at the far left; this number represents the total of all New and Acknowledged events for all storage objects in this cluster. You can click the Total Active Events link to navigate to the Events Inventory page, which is filtered to display these events.
+
+The Total Active Events bar graph for the cluster displays the total number of active critical and warning events:
+
+* Latency (total for nodes, aggregates, SVMs, volumes, LUNs, and namespaces)
+* IOPS (total for clusters, nodes, aggregates, SVMs, volumes, LUNs, and namespaces)
+* MB/s (total for clusters, nodes, aggregates, SVMs, volumes, LUNs, namespaces, ports, and LIFs)
+* Performance Capacity Used (total for nodes and aggregates)
+* Utilization (total for nodes, aggregates, and ports)
+* Other (cache miss ratio for volumes)
+
+The list contains active performance events triggered from user-defined threshold policies, system-defined threshold policies, and dynamic thresholds.
+
+Graph data (vertical counter bars) is displayed in red (image:../media/treemapred_png.gif[Icon for TreeMap – Red color]) for critical events, and yellow (image:../media/treemapstatus_warning_png.gif[Icon for TreeMap – Warning status]) for warning events. Position your cursor over each vertical counter bar to view the actual type and number of events. You can click *Refresh* to update the counter panel data.
+
+You can show or hide critical and warning events in the Total Active Events performance graph by clicking the *Critical* and *Warning* icons in the legend. If you hide certain event types, the legend icons are displayed in gray.
+
+== Counter panels
+
+The counter panels display cluster activity and performance events for the preceding 72 hours, and includes the following counters:
+
+* *IOPS counter panel*
++
+IOPS indicates the operating speed of the cluster in number of input/output operations per second. This counter panel provides a high-level overview of the cluster's IOPS health for the preceding 72-hour period. You can position your cursor over the graph trend line to view the IOPS value for a specific time.
+
+* *MB/s counter panel*
++
+MB/s indicates how much data has been transferred to and from the cluster in megabytes per second. This counter panel provides a high-level overview of the cluster's MB/s health for the preceding 72-hour period. You can position your cursor over the graph trend line to view the MB/s value for a specific time.
+
+The number at the top right of the chart in the gray bar is the average value from the last 72-hour period. Numbers shown at the bottom and top of the trend line graph are the minimum and maximum values for the last 72-hour period. The gray bar below the chart contains the count of active (new and acknowledged) events and obsolete events from the last 72-hour period.
+
+The counter panels contain two types of events:
+
+* *Active*
++
+Indicates that the performance event is currently active (new or acknowledged). The issue causing the event has not corrected itself or has not been resolved. The performance counter for the storage object remains above the performance threshold.
+
+* *Obsolete*
++
+Indicates that the event is no longer active. The issue causing the event has corrected itself or has been resolved. The performance counter for the storage object is no longer above the performance threshold.
+
+For *Active Events*, if there is one event, you can position your cursor over the event icon and click the event number to link to the appropriate Event Details page. If there is more than one event, you can click *View all Events* to display the Events Inventory page, which is filtered to show all events for the selected object counter type.

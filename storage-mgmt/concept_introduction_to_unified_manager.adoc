@@ -1,0 +1,23 @@
+---
+permalink: storage-mgmt/concept_introduction_to_unified_manager.html
+sidebar: sidebar
+keywords: introduction, active iq unified manager
+summary: "Active IQ Unified Manager (formerly OnCommand Unified Manager) enables you to monitor and manage the health and performance of your ONTAP storage systems from a single interface."
+---
+= Introduction to Active IQ Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager (formerly OnCommand Unified Manager) enables you to monitor and manage the health and performance of your ONTAP storage systems from a single interface.
+
+Unified Manager provides the following features:
+
+* Discovery, monitoring, and notifications for systems that are installed with ONTAP software.
+* Dashboard to show capacity, security, and performance health of the environment.
+* Enhanced alerts, events, and threshold infrastructure.
+* Displays detailed graphs that plot workload activity over time; including IOPS (operations), MBps (throughput), latency (response time), utilization, performance capacity, and cache ratio.
+* Identifies workloads that are overusing cluster components and the workloads whose performance is impacted by the increased activity.
+* Provides suggested corrective actions that can be performed to address certain incidents and events, and a "Fix It" button for some events so you can resolve the issue immediately.
+* Integrates with OnCommand Workflow Automation to execute automated protection workflows.
+* Ability to create new workloads, such as a LUN or file share, directly from Unified Manager and assign a Performance Service Level to define the performance and storage objectives for the users accessing the application using that workload.

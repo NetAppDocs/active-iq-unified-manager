@@ -1,0 +1,38 @@
+---
+permalink: events/reference_description_of_event_impact_areas.html
+sidebar: sidebar
+keywords: description, event, impact, areas
+summary: "Events are categorized into six impact areas (availability, capacity, configuration, performance, protection, and security) to enable you to concentrate on the types of events for which you are responsible."
+---
+= Description of event impact areas
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Events are categorized into six impact areas (availability, capacity, configuration, performance, protection, and security) to enable you to concentrate on the types of events for which you are responsible.
+
+* *Availability*
++
+Availability events notify you if a storage object goes offline, if a protocol service goes down, if an issue with storage failover occurs, or if an issue with hardware occurs.
+
+* *Capacity*
++
+Capacity events notify you if your aggregates, volumes, LUNs, or namespaces are approaching or have reached a size threshold, or if the rate of growth is unusual for your environment.
+
+* *Configuration*
++
+Configuration events inform you of the discovery, deletion, addition, removal, or renaming of your storage objects. Configuration events have an impact level of Event and a severity type of Information.
+
+* *Performance*
++
+Performance events notify you of resource, configuration, or activity conditions on your cluster that might adversely affect the speed of data storage input or retrieval on your monitored storage objects.
+
+* *Protection*
++
+Protection events notify you of incidents or risks involving SnapMirror relationships, issues with destination capacity, problems with SnapVault relationships, or issues with protection jobs. Any ONTAP object (especially aggregates, volumes, and SVMs) that host secondary volumes and protection relationships are categorized in the protection impact area.
+
+* *Security*
++
+Security events notify you of how secure your ONTAP clusters, storage virtual machines (SVMs), and volumes are based on parameters defined in the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9].
++
+Additionally, this area includes upgrade events that are reported from the Active IQ platform.

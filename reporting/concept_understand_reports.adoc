@@ -1,0 +1,23 @@
+---
+permalink: reporting/concept_understand_reports.html
+sidebar: sidebar
+keywords: understanding, reports
+summary: "Reports display detailed information about storage, network, quality of service, and protection relationships, helping you to identify and solve potential problems before they occur."
+---
+= Understanding reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Reports display detailed information about storage, network, quality of service, and protection relationships, helping you to identify and solve potential problems before they occur.
+
+When you customize a view, you can save it with a unique name for future use. You can schedule a report based on that view to run on a regular basis and share it with others. You can also download the view in Excel to customize it using advanced Excel features, then upload that file back into Unified Manager . If you schedule a report using that view, it will use the Excel file you uploaded to create robust reports you can share.
+
+You can manage all reports that have been scheduled from the Report Schedules page.
+
+[NOTE]
+====
+You must have the Application Administrator or Storage Administrator role to manage reports.
+====
+
+You can download reports as comma-separated values (CSV), Excel, or PDF files.

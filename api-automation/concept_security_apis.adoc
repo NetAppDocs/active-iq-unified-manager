@@ -1,0 +1,51 @@
+---
+permalink: api-automation/concept_security_apis.html
+sidebar: sidebar
+keywords: manage, user
+summary: "You can use the APIs in the security category to control user access to selected cluster objects in Active IQ Unified Manager. You can add local users or database users. You can also add remote users or groups that belong to an authentication server. Based on the privileges of the roles that you assign to the users, they can manage the storage objects or view the data in Unified Manager."
+---
+= Managing users
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the APIs in the `security` category to control user access to selected cluster objects in Active IQ Unified Manager. You can add local users or database users. You can also add remote users or groups that belong to an authentication server. Based on the privileges of the roles that you assign to the users, they can manage the storage objects or view the data in Unified Manager.
+
+[NOTE]
+====
+You must have the Application Administrator role for running these operations. You can also use the Unified Manager web UI for configuring these settings.
+====
+
+The APIs under the `security` category use the users parameter, that is the user name, and not the key parameter as the unique identifier for the user entity.
+[cols="3*",options="header"]
+|===
+| HTTP verb| Path| Description
+a|
+`GET`
+
+`POST`
+
+a|
+`/security/users`
+
+`/security/users`
+
+a|
+You can use these methods to get the details of users or add new user to Unified Manager.
+
+You can add specific roles to the users based on their user types. While adding users, you must provide passwords for the local user, maintenance user, and database user.
+
+a|
+`GET`
+
+`PATCH`
+
+`DELETE`
+
+a|
+`/security/users/\{name}`
+
+a|
+The GET method enables you to retrieve all the details of a user, such as the name, email address, role, authorization type. The PATCH method enables you to update the details. The DELETE method enables you to remove the user.
+
+|===

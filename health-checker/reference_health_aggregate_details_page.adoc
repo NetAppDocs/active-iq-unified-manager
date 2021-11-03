@@ -1,0 +1,442 @@
+---
+permalink: health-checker/reference_health_aggregate_details_page.html
+sidebar: sidebar
+keywords: unified manager, aggregate, health details page
+summary: "You can use the Aggregate / Health details page to view detailed information about the selected aggregate, such as the capacity, disk information, configuration details, and events generated. You can also view information about the related objects and related alerts for that aggregate."
+---
+= Aggregate / Health details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Aggregate / Health details page to view detailed information about the selected aggregate, such as the capacity, disk information, configuration details, and events generated. You can also view information about the related objects and related alerts for that aggregate.
+
+== Command buttons
+
+[NOTE]
+====
+When monitoring a FabricPool-enabled aggregate, the committed and overcommitted values on this page are relevant only to the local, or performance tier, capacity. The amount of space available in the cloud tier is not reflected in the overcommitted values. Similarly, the aggregate threshold values are relevant only to the local performance tier.
+====
+
+The command buttons enable you to perform the following tasks for the selected aggregate:
+
+* *Switch to Performance View*
++
+Enables you to navigate to the Aggregate / Performance details page.
+
+* *Actions*
+ ** Add Alert
++
+Enables you to add an alert to the selected aggregate.
+
+ ** Edit Thresholds
++
+Enables you to modify the threshold settings for the selected aggregate.
+* *View Aggregates*
++
+Enables you to navigate to the Health: All Aggregates view.
+
+== Capacity tab
+
+The Capacity tab displays detailed information about the selected aggregate, such as its capacity, thresholds, and daily growth rate.
+
+By default, capacity events are not generated for root aggregates. Also, the threshold values used by Unified Manager are not applicable to node root aggregates. Only a technical support representative can modify the settings for these events to be generated. When the settings are modified by a technical support representative, the threshold values are applied to the node root aggregate.
+
+* *Capacity*
++
+Displays the data capacity graph and the Snapshot copies graph, which display capacity details about the aggregate:
+
+ ** Logical Space Used
++
+The real size of the data that is being stored on the aggregate without applying the savings from using ONTAP storage efficiency technologies.
+
+ ** Used
++
+The physical capacity used by data in the aggregate.
+
+ ** Overcommitted
++
+When space in the aggregate is overcommitted, the chart displays a flag with the overcommitted amount.
+
+ ** Warning
++
+Displays a dotted line at the location where the warning threshold is set; meaning space in the aggregate is nearly full. If this threshold is breached, the Space Nearly Full event is generated.
+
+ ** Error
++
+Displays a solid line at the location where the error threshold is set; meaning space in the aggregate is full. If this threshold is breached, the Space Full event is generated.
+
+ ** Snapshot Copies graph
++
+This graph is displayed only when the used Snapshot capacity or the Snapshot reserve is not zero.
+
++
+Both of the graphs display the capacity by which the Snapshot capacity exceeds the Snapshot reserve if the used Snapshot capacity exceeds the Snapshot reserve.
+
+* *Cloud Tier*
++
+Displays the space used by data in the cloud tier for FabricPool-enabled aggregates. A FabricPool can be either licensed or unlicensed.
++
+When the cloud tier is mirrored to another cloud provider (the "`mirror tier`") then both cloud tiers are displayed here.
+
+* *Details*
++
+Displays detailed information about capacity.
+
+ ** Total Capacity
++
+Displays the total capacity in the aggregate.
+
+ ** Data Capacity
++
+Displays the amount of space used by the aggregate (used capacity) and the amount of available space in the aggregate (free capacity).
+
+ ** Snapshot Reserve
++
+Displays the used and free Snapshot capacity of the aggregate.
+
+ ** Overcommitted Capacity
++
+Displays the aggregate overcommitment. Aggregate overcommitment enables you to provide more storage than is actually available from a given aggregate, as long as not all of that storage is currently being used. When thin provisioning is in use, the total size of volumes in the aggregate can exceed the total capacity of the aggregate.
++
+[NOTE]
+====
+If you have overcommitted your aggregate, you must monitor its available space carefully and add storage as required to avoid write errors due to insufficient space.
+====
+
+ ** Cloud Tier
++
+Displays the space used by data in the cloud tier for FabricPool-enabled aggregates. A FabricPool can be either licensed or unlicensed. When the cloud tier is mirrored to another cloud provider (the mirror tier) then both cloud tiers are displayed here
+
+ ** Total Cache Space
++
+Displays the total space of the solid-state drives (SSDs) or allocation units that are added to a Flash Pool aggregate. If you have enabled Flash Pool for an aggregate but have not added any SSDs, then the cache space is displayed as 0 KB.
++
+[NOTE]
+====
+This field is hidden if Flash Pool is disabled for an aggregate.
+====
+
+ ** Aggregate Thresholds
++
+Displays the following aggregate capacity thresholds:
+
+  *** Nearly Full Threshold
++
+Specifies the percentage at which an aggregate is nearly full.
+
+  *** Full Threshold
++
+Specifies the percentage at which an aggregate is full.
+
+  *** Nearly Overcommitted Threshold
++
+Specifies the percentage at which an aggregate is nearly overcommitted.
+
+  *** Overcommitted Threshold
++
+Specifies the percentage at which an aggregate is overcommitted.
+
+ ** Other Details: Daily Growth Rate
++
+Displays the disk space used in the aggregate if the rate of change between the last two samples continues for 24 hours.
++
+For example, if an aggregate uses 10 GB of disk space at 2 pm and 12 GB at 6 pm, the daily growth rate (GB) for this aggregate is 2 GB.
+
+ ** Volume Move
++
+Displays the number of volume move operations that are currently in progress:
+
+  *** Volumes Out
++
+Displays the number and capacity of the volumes that are being moved out of the aggregate.
++
+You can click the link to view more details, such as the volume name, aggregate to which the volume is moved, status of the volume move operation, and the estimated end time.
+
+  *** Volumes In
++
+Displays the number and remaining capacity of the volumes that are being moved into the aggregate.
++
+You can click the link to view more details, such as the volume name, aggregate from which the volume is moved, status of the volume move operation, and the estimated end time.
+
+  *** Estimated used capacity after volume move
++
+Displays the estimated amount of used space (as a percentage, and in KB, MB, GB, and so on) in the aggregate after the volume move operations are complete.
+
+* *Capacity Overview - Volumes*
++
+Displays graphs that provide information about the capacity of the volumes contained in the aggregate. The amount of space used by the volume (used capacity) and the amount of available space (free capacity) in the volume is displayed. When the Thin-Provisioned Volume Space At Risk event is generated for thinly provisioned volumes, the amount of space used by the volume (used capacity) and the amount of space that is available in the volume but cannot be used (unusable capacity) because of aggregate capacity issues is displayed.
++
+You can select the graph you want to view from the drop-down lists. You can sort the data displayed in the graph to display details such as the used size, provisioned size, available capacity, fastest daily growth rate, and slowest growth rate. You can filter the data based on the storage virtual machines (SVMs) that contain the volumes in the aggregate. You can also view details for thinly provisioned volumes. You can view the details of specific points on the graph by positioning your cursor over the area of interest. By default, the graph displays the top 30 filtered volumes in the aggregate.
+
+== Disk Information tab
+
+Displays detailed information about the disks in the selected aggregate, including the RAID type and size, and the type of disks used in the aggregate. The tab also graphically displays the RAID groups, and the types of disks used (such as SAS, ATA, FCAL, SSD, or VMDISK). You can view more information, such as the disk's bay, shelf, and rotational speed, by positioning your cursor over the parity disks and data disks.
+
+* *Data*
++
+Graphically displays details about dedicated data disks, shared data disks, or both. When the data disks contain shared disks, graphical details of the shared disks are displayed. When the data disks contain dedicated disks and shared disks, graphical details of both the dedicated data disks and the shared data disks are displayed.
+
+ ** *RAID Details*
++
+RAID details are displayed only for dedicated disks.
+
+  *** Type
++
+Displays the RAID type (RAID0, RAID4, RAID-DP, or RAID-TEC).
+
+  *** Group Size
++
+Displays the maximum number of disks allowed in the RAID group.
+
+  *** Groups
++
+Displays the number of RAID groups in the aggregate.
+
+ ** *Disks Used*
+  *** Effective Type
++
+Displays the types of data disks (for example, ATA, SATA, FCAL, SSD, or VMDISK) in the aggregate.
+
+  *** Data Disks
++
+Displays the number and capacity of the data disks that are assigned to an aggregate. Data disk details are not displayed when the aggregate contains only shared disks.
+
+  *** Parity Disks
++
+Displays the number and capacity of the parity disks that are assigned to an aggregate. Parity disk details are not displayed when the aggregate contains only shared disks.
+
+  *** Shared Disks
++
+Displays the number and capacity of the shared data disks that are assigned to an aggregate. Shared disk details are displayed only when the aggregate contains shared disks.
+ ** *Spare Disks*
++
+Displays the disk effective type, number, and capacity of the spare data disks that are available for the node in the selected aggregate.
++
+[NOTE]
+====
+When an aggregate is failed over to the partner node, Unified Manager does not display all of the spare disks that are compatible with the aggregate.
+====
+
+* *SSD Cache*
++
+Provides details about dedicated cache SSD disks and shared cache SSD disks.
++
+The following details for the dedicated cache SSD disks are displayed:
+
+ ** *RAID Details*
+  *** Type
++
+Displays the RAID type (RAID0, RAID4, RAID-DP or RAID-TEC).
+
+  *** Group Size
++
+Displays the maximum number of disks allowed in the RAID group.
+
+  *** Groups
++
+Displays the number of RAID groups in the aggregate.
+ ** *Disks Used*
+  *** Effective Type
++
+Indicates that the disks used for cache in the aggregate are of type SSD.
+
+  *** Data Disks
++
+Displays the number and capacity of the data disks that are assigned to an aggregate for cache.
+
+  *** Parity Disks
++
+Displays the number and capacity of the parity disks that are assigned to an aggregate for cache.
+ ** *Spare Disks*
++
+Displays the disk effective type, number, and capacity of the spare disks that are available for the node in the selected aggregate for cache.
++
+[NOTE]
+====
+When an aggregate is failed over to the partner node, Unified Manager does not display all of the spare disks that are compatible with the aggregate.
+====
+
++
+Provides the following details for the shared cache:
+
+ ** *Storage Pool*
++
+Displays the name of the storage pool. You can move the pointer over the storage pool name to view the following details:
+
+  *** Status
++
+Displays the status of the storage pool, which can be healthy or unhealthy.
+
+  *** Total Allocations
++
+Displays the total allocation units and the size in the storage pool.
+
+  *** Allocation Unit Size
++
+Displays the minimum amount of space in the storage pool that can be allocated to an aggregate.
+
+  *** Disks
++
+Displays the number of disks used to create the storage pool. If the disk count in the storage pool column and the number of disks displayed in the Disk Information tab for that storage pool do not match, then it indicates that one or more disks are broken and the storage pool is unhealthy.
+
+  *** Used Allocation
++
+Displays the number and size of the allocation units used by the aggregates. You can click the aggregate name to view the aggregate details.
+
+  *** Available Allocation
++
+Displays the number and size of the allocation units available for the nodes. You can click the node name to view the aggregate details.
+
+ ** *Allocated Cache*
++
+Displays the size of the allocation units used by the aggregate.
+
+ ** *Allocation Units*
++
+Displays the number of allocation units used by the aggregate.
+
+ ** *Disks*
++
+Displays the number of disks contained in the storage pool.
+
+ ** *Details*
+  *** Storage Pool
++
+Displays the number of storage pools.
+
+  *** Total Size
++
+Displays the total size of the storage pools.
+
+* *Cloud Tier*
++
+Displays the name of the cloud tier, if you have configured a FabricPool-enabled aggregate, and shows the total space used. When the cloud tier is mirrored to another cloud provider (the mirror tier) then the details for both cloud tiers are displayed here
+
+== Configuration tab
+
+The Configuration tab displays details about the selected aggregate, such as its cluster node, block type, RAID type, RAID size, and RAID group count:
+
+* *Overview*
+ ** Node
++
+Displays the name of the node that contains the selected aggregate.
+
+ ** Block Type
++
+Displays the block format of the aggregate: either 32-bit or 64-bit.
+
+ ** RAID Type
++
+Displays the RAID type (RAID0, RAID4, RAID-DP, RAID-TEC or Mixed RAID).
+
+ ** RAID Size
++
+Displays the size of the RAID group.
+
+ ** RAID Groups
++
+Displays the number of RAID groups in the aggregate.
+
+ ** SnapLock Type
++
+Displays the SnapLock Type of the aggregate.
+* *Cloud Tier*
++
+If this is a FabricPool-enabled aggregate, the details for the cloud tier are displayed. Some fields are different depending on the storage provider. When the cloud tier is mirrored to another cloud provider (the "`mirror tier`") then both cloud tiers are displayed here.
+
+ ** Provider
++
+Displays the name of the storage provider, for example, StorageGRID, Amazon S3, IBM Cloud Object Storage, Microsoft Azure Cloud, Google Cloud Storage, or Alibaba Cloud Object Storage.
+
+ ** Name
++
+Displays the name of the cloud tier when it was created by ONTAP.
+
+ ** Server
++
+Displays the FQDN of the cloud tier.
+
+ ** Port
++
+The port being used to communicate with the cloud provider.
+
+ ** Access Key or Account
++
+Displays the access key or account for the cloud tier.
+
+ ** Container Name
++
+Displays the bucket or container name of the cloud tier.
+
+ ** SSL
++
+Displays whether SSL encryption is enabled for the cloud tier.
+
+== History area
+
+The History area displays graphs that provide information about the capacity of the selected aggregate. Additionally, you can click the *Export* button to create a report in CSV format for the chart that you are viewing.
+
+You can select a graph type from the drop-down list at the top of the History pane. You can also view details for a specific time period by selecting either 1 week, 1 month, or 1 year. History graphs can help you identify trends: for example, if the aggregate usage is consistently breaching the Nearly Full threshold, you can take the appropriate action.
+
+History graphs display the following information:
+
+* *Aggregate Capacity Used (%)*
++
+Displays the used capacity in the aggregate and the trend in how aggregate capacity is used based on the usage history as line graphs, in percentage, on the vertical (y) axis. The time period is displayed on the horizontal (x) axis. You can select a time period of a week, a month, or a year. You can view the details for specific points on the graph by positioning your cursor over a particular area. You can hide or display a line graph by clicking the appropriate legend. For example, when you click the Capacity Used legend, the Capacity Used graph line is hidden.
+
+* *Aggregate Capacity Used vs Total Capacity*
++
+Displays the trend in how aggregate capacity is used based on the usage history, as well as the used capacity and the total capacity, as line graphs, in bytes, kilobytes, megabytes, and so on, on the vertical (y) axis. The time period is displayed on the horizontal (x) axis. You can select a time period of a week, a month, or a year. You can view the details for specific points on the graph by positioning your cursor over a particular area. You can hide or display a line graph by clicking the appropriate legend. For example, when you click the Trend Capacity Used legend, the Trend Capacity Used graph line is hidden.
+
+* *Aggregate Capacity Used (%) vs Committed (%)*
++
+Displays the trend in how aggregate capacity is used based on the usage history, as well as the committed space as line graphs, as a percentage, on the vertical (y) axis. The time period is displayed on the horizontal (x) axis. You can select a time period of a week, a month, or a year. You can view the details for specific points on the graph by positioning your cursor over a particular area. You can hide or display a line graph by clicking the appropriate legend. For example, when you click the Space Committed legend, the Space Committed graph line is hidden.
+
+== Events list
+
+The Events list displays details about new and acknowledged events:
+
+* *Severity*
++
+Displays the severity of the event.
+
+* *Event*
++
+Displays the event name.
+
+* *Triggered Time*
++
+Displays the time that has elapsed since the event was generated. If the time elapsed exceeds a week, the timestamp for when the event was generated is displayed.
+
+== Related Devices pane
+
+The Related Devices pane enables you to view the cluster node, volumes, and disks that are related to the aggregate:
+
+* *Node*
++
+Displays the capacity and the health status of the node that contains the aggregate. Capacity indicates the total usable capacity over available capacity.
+
+* *Aggregates in the Node*
++
+Displays the number and capacity of all the aggregates in the cluster node that contains the selected aggregate. The health status of the aggregates is also displayed, based on the highest severity level. For example, if a cluster node contains ten aggregates, five of which display the Warning status and the remaining five of which display the Critical status, then the status displayed is Critical.
+
+* *Volumes*
++
+Displays the number and capacity of FlexVol volumes and FlexGroup volumes in the aggregate; the number does not include FlexGroup constituents. The health status of the volumes is also displayed, based on the highest severity level.
+
+* *Resource Pool*
++
+Displays the resource pools related to the aggregate.
+
+* *Disks*
++
+Displays the number of disks in the selected aggregate.
+
+== Related Alerts pane
+
+The Related Alerts pane enables you to view the list of alerts that are created for the selected aggregate. You can also add an alert by clicking the Add Alert link or edit an existing alert by clicking the alert name.
+
+*Related information*
+
+link:../health-checker/task_view_storage_pool_details.html[Viewing storage pool details]

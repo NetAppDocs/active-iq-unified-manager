@@ -1,0 +1,272 @@
+---
+permalink: data-protection/reference_relationship_all_relationships_view.html
+sidebar: sidebar
+keywords: volume, relationships
+summary: "The Relationship: All Relationships view displays information about protection relationships on the storage system."
+---
+= Relationship: All Relationships view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Relationship: All Relationships view displays information about protection relationships on the storage system.
+
+By default, when you access the Relationships page, the report that is displayed includes the top level protection relationships for both volumes and storage VMs. The controls along the top of the page enable you to select a particular view, perform searches to locate specific objects, create and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a .csv, .pdf, or .xlsx file. After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis. By default, when you select the *Relationships* menu, the report displayed includes protection relationships for both volumes and storage VMs in your datacenter. You can use the *Filter* option to view only selected storage systems like only volumes or only storage VMs. The same report is displayed in the Storage page and only for the selected storage entity. If you want to view either volume or storage VM relationships, you can access either the *Storage* > *Volumes* > *Relationship: All Relationships* page or access *Protection* > *Relationships* > *Relationship: All Relationships*, and use the *Relationship Object Type* option in the *Filter* to filter out only volumes or storage VMs data.
+
+The Relationships page that lists all the protection relationships has the link *View in System Manager* for the Destination cluster that allows you to view the same objects in ONTAP System Manager.
+
+* *Status*
++
+Displays the current status of the protection relationship.
++
+The status can be one of Error (image:../media/sev_error_um60.png[]), Warning (image:../media/sev_warning_um60.png[]), or OK (image:../media/sev_normal_um60.png[]).
+
+* *Source Storage VM*
++
+Displays the name of the source SVM. You can view more details about the source SVM by clicking the SVM name.
++
+When a SVM exists on the cluster but has not yet been added to the Unified Manager inventory, or that the SVM was created after the cluster's last refresh, this field will be empty. You must ensure that the SVM exists, or perform a rediscovery on the cluster to refresh the list of resources.
+
+* *Source*
++
+Displays either the source volume or source storage VM being protected based on your selection. You can view more details about the source volume or storage VM by clicking the volume or storage VM name.
++
+If the message `Resource-key not discovered` is displayed, this might indicate that the volume exists on the cluster but has not yet been added to the Unified Manager inventory, or that the volume was created after the cluster's last refresh. You must ensure that the volume exists, or perform a rediscovery on the cluster to refresh the list of resources.
+
+* *Destination Storage VM*
++
+Displays the name of the destination SVM. You can view more details about the destination SVM by clicking the SVM name.
+
+* *Destination*
++
+Displays the name of the destination volume or storage VM based on your selection. You can view more details about the destination volume or storage VM by clicking the respective object name.
+
+* *Relationship Object Type*
++
+Displays the type of object used in the relationship, such as storage VM, volume, and Consistency Group. For objects in a Consistency Relationship, the relationship source and destinations display the Consistency Group, and clicking them takes you to the LUNs page to view the relationship.
+
+* *Policy*
++
+Displays the name of the protection policy for SnapMirror relationship. You can click the policy name to view details associated with that policy, including the following information:
+
+ ** Transfer Priority
++
+Specifies the priority at which a transfer runs for asynchronous operations. The transfer priority is Normal or Low. Normal priority transfers are scheduled before low priority transfers. The default is Normal.
+
+ ** Ignore Access Time
++
+Applies only to SnapVault relationships. This specifies whether incremental transfers ignore files which have only their access time changed. The values are either True or False. The default is False.
+
+ ** When Relationship is Out of Sync
++
+Specifies the action ONTAP performs when a synchronous relationship is not able to be synchronized. StrictSync relationships will restrict access to the primary volume if there is a failure to synchronize with the secondary volume. Sync relationships do not restrict access to the primary if there is a failure to synchronize with the secondary.
+
+ ** Tries Limit
++
+Specifies the maximum number of times to attempt each manual or scheduled transfer for a SnapMirror relationship. The default is 8.
+
+ ** Comments
++
+Provides a text field for comments for specific to the selected policy.
+
+ ** SnapMirror Label
++
+Specifies the SnapMirror label for the first schedule associated with the Snapshot copy policy. The SnapMirror label is used by the SnapVault subsystem when you back up Snapshot copies to a SnapVault destination.
+
+ ** Retention Setting
++
+Specifies how long backups are kept, based on the time or the number of backups.
+
+ ** Actual Snapshot Copies
++
+Specifies the number of Snapshot copies on this volume that match the specified label.
+
+ ** Preserve Snapshot Copies
++
+Specifies the number of SnapVault Snapshot copies that are not deleted automatically even if the maximum limit for the policy is reached. The values are either True or False. The default is False.
+
+ ** Retention Warning Threshold
++
+Specifies the Snapshot copy limit at which a warning is sent to indicate that the maximum retention limit is nearly reached.
+
+* *Lag Duration*
++
+Displays the amount of time that the data on the mirror lags behind the source.
++
+The lag duration should be close to, or equal to, 0 seconds for StrictSync relationships.
+
+* *Lag Status*
++
+Displays the lag status for managed relationships, and for unmanaged relationships that have a schedule associated with that relationship. Lag status can be:
+
+ ** Error
++
+The lag duration is greater than or equal to the lag error threshold.
+
+ ** Warning
++
+The lag duration is greater than or equal to the lag warning threshold.
+
+ ** OK
++
+The lag duration is within normal limits.
+
+ ** Not Applicable
++
+The lag status is not applicable for synchronous relationships because a schedule cannot be configured.
+
+* *Last Successful Update*
++
+Displays the time of the last successful SnapMirror or SnapVault operation.
++
+The last successful update is not applicable for synchronous relationships.
+
+* *Constituent Relationships*
++
+Displays whether there are any volumes in the selected object.
+
+* *Relationship Type*
++
+Displays the relationship type used to replicate a volume. Relationship types include:
+
+ ** Asynchronous Mirror
+ ** Asynchronous Vault
+ ** Asynchronous MirrorVault
+ ** StrictSync
+ ** Sync
+
+* *Transfer Status*
++
+Displays the transfer status for the protection relationship. The transfer status can be one of the following:
+
+ ** Aborting
++
+SnapMirror transfers are enabled; however, a transfer abort operation that might include removal of the checkpoint is in progress.
+
+ ** Checking
++
+The destination volume is undergoing a diagnostic check and no transfer is in progress.
+
+ ** Finalizing
++
+SnapMirror transfers are enabled. The volume is currently in the post-transfer phase for incremental SnapVault transfers.
+
+ ** Idle
++
+Transfers are enabled and no transfer is in progress.
+
+ ** In-Sync
++
+The data in the two volumes in the synchronous relationship are synchronized.
+
+ ** Out-of-Sync
++
+The data in the destination volume is not synchronized with the source volume.
+
+ ** Preparing
++
+SnapMirror transfers are enabled. The volume is currently in the pre-transfer phase for incremental SnapVault transfers.
+
+ ** Queued
++
+SnapMirror transfers are enabled. No transfers are in progress.
+
+ ** Quiesced
++
+SnapMirror transfers are disabled. No transfer is in progress.
+
+ ** Quiescing
++
+A SnapMirror transfer is in progress. Additional transfers are disabled.
+
+ ** Transferring
++
+SnapMirror transfers are enabled and a transfer is in progress.
+
+ ** Transitioning
++
+The asynchronous transfer of data from the source to the destination volume is complete, and the transition to synchronous operation has started.
+
+ ** Waiting
++
+A SnapMirror transfer has been initiated, but some associated tasks are waiting to be queued.
+
+* *Last Transfer Duration*
++
+Displays the time taken for the last data transfer to complete.
++
+The transfer duration is not applicable for StrictSync relationships because the transfer should be simultaneous.
+
+* *Last Transfer Size*
++
+Displays the size, in bytes, of the last data transfer.
++
+The transfer size is not applicable for StrictSync relationships.
+
+* *State*
++
+Displays the state of the SnapMirror or SnapVault relationship. The state can be Uninitialized, SnapMirrored, or Broken-Off. If a source volume is selected, the relationship state is not applicable and is not displayed.
+
+* *Relationship Health*
++
+Displays the relationship heath of the cluster.
+
+* *Unhealthy Reason*
++
+The reason the relationship is in an unhealthy state.
+
+* *Transfer Priority*
++
+Displays the priority at which a transfer runs. The transfer priority is Normal or Low. Normal priority transfers are scheduled before low priority transfers.
++
+The transfer priority is not applicable for synchronous relationships because all transfers are treated with the same priority.
+
+* *Schedule*
++
+Displays the name of the protection schedule assigned to the relationship.
++
+The schedule is not applicable for synchronous relationships.
+
+* *Version Flexible Replication*
++
+Displays either Yes, Yes with backup option, or None.
+
+* *Source Cluster*
++
+Displays the FQDN, short name, or IP address of the source cluster for the SnapMirror relationship.
+
+* *Source Cluster FQDN*
++
+Displays the name of the source cluster for the SnapMirror relationship.
+
+* *Source Node*
++
+Displays the name of the source node name link for the SnapMirror relationship of a volume and displays the SnapMirror relationship node count link when the object is a Storage VM or Consistency Group.
+
+In the custom view, when you click the node name link, you can view and extend protection for storage objects on which the volumes of those Consistency Groups that belong to SM-BC relationship.
+
+When you click the node count link, it takes you to the node page with respective nodes associated with that relationship. When the node count is 0, there is no value displayed as there are no nodes associated with the relationship.
+
+* *Destination Node*
++
+Displays the name of the destination node name link for the SnapMirror relationship of a volume and displays the SnapMirror relationship node count link when the object is a Storage VM or Consistency Group.
++
+When you click the node count link, it takes you to the node page with respective nodes associated with that relationship. When the node count is 0, there is no value displayed as there are no nodes associated with the relationship.
+
+* *Destination Cluster*
++
+Displays the name of the destination cluster for the SnapMirror relationship.
+
+* *Destination Cluster FQDN*
++
+Displays the FQDN, short name, or IP address of the destination cluster for the SnapMirror relationship.
+
+* *Protected By*
++
+Displays the different relationships. In this column, you can view volume and consistency group relationships for clusters and storage virtual machines order, including:
+
+ ** SnapMirror
+ ** Storage VM DR
+ ** SnapMirror, Storage VM DR
+ ** Consistency Group
+ ** SnapMirror, Consistency Group.

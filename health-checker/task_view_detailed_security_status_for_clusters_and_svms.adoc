@@ -1,0 +1,40 @@
+---
+permalink: health-checker/task_view_detailed_security_status_for_clusters_and_svms.html
+sidebar: sidebar
+keywords: view, cluster security status, svm security status, volume encryption status
+summary: "The Security page shows high-level security status for all clusters, and detailed security status for individual clusters. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance."
+---
+= Viewing detailed security status for clusters and Storage VMs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Security page shows high-level security status for all clusters, and detailed security status for individual clusters.
+
+As a system administrator, you can use the *Security* page to get visibility into the security strength of your ONTAP clusters and storage VMs at the datacenter and site levels.
+
+Based on the defined parameters, you can collect and analyze information to detect suspicious behavior or any unauthorized system changes on the monitored clusters and storage VMs.
+
+The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance.
+
+The Cluster / Security details page provides a default view of the clusters' security compliance by checking the security parameters, such as Global FIPS, Telnet, insecure SSH settings, login banner, network time protocol, AutoSupport HTTPS Transport, and default Admins.
+
+The Storage VMs/ Security details page provides a default view of the storage VMs' security compliance by checking the security parameters, such as storage VMs, cluster, login banner, audit log, and insecure SSH settings.
+
+You can generate, schedule, and download security compliance reports from the Cluster and Storage VMs details pages as well.
+
+From the *Security Dashboard*, click *View Reports* in the *Cluster Compliance* and *Storage VMs Compliance* cards.
+
+.Steps
+. In the left navigation pane, click *Dashboard*.
+. Depending on whether you want to view security status for all monitored clusters or for a single cluster, select *All Clusters* or select a single cluster from the drop-down menu.
+. Click the right-arrow in the *Security* panel.
++
+The Security page displays the following information:
+
+ ** the cluster security status (number of clusters that are compliant or not compliant)
+ ** the SVM security status (number of SVMs that are compliant or not compliant)
+ ** the volume encryption status (number of volumes that are encrypted or not encrypted)
+ ** the cluster authentication methods being used on each cluster
+
+. Refer to the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9] for instructions on how to make all of your clusters, SVMs, and volumes compliant with NetApp security recommendations.

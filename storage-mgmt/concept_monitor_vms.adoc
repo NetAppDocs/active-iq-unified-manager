@@ -1,0 +1,61 @@
+---
+permalink: storage-mgmt/concept_monitor_vms.html
+sidebar: sidebar
+keywords: monitor, virtual, machines, view, summary, topology, expand
+summary: "For any latency issue on the virtual machine (VM) applications, you might need to monitor the VMs to analyze and troubleshoot the cause. The VMs are available when their vCenter Server and the ONTAP clusters hosting the VM storage are added to Unified Manager."
+---
+= Monitoring virtual machines
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For any latency issue on the virtual machine (VM) applications, you might need to monitor the VMs to analyze and troubleshoot the cause. The VMs are available when their vCenter Server and the ONTAP clusters hosting the VM storage are added to Unified Manager.
+
+You see the details of the VMs on the *VMWARE* > > *Virtual Machines* page. Information, such as the availability, status, used and allocated capacity, network latency, and the IOPS and latency of the VM, datastore, and host is displayed. For a VM supporting multiple datastores, the grid shows the metrics of the datastore with the worst latency, with an asterisk icon (*) indicating additional datastores. If you click on the icon, the metrics of the additional datastore is displayed. Some of these columns are not available for sorting and filtering.
+
+[NOTE]
+====
+For viewing a VM and its details, the discovery (polling or metrics collection) of the ONTAP cluster must be complete. If the cluster is removed from Unified Manager, the VM is no longer available, after the next cycle of discovery.
+====
+
+From this page, you can also view the detailed topology of a VM, displaying the components to which the VM is related, for example, the host, virtual disk, and datastore connected to it. The topology view displays the underlying components in their specific layers, in the following order: *Virtual Disk* > *VM* > *Host* > *Network* > *Datastore* > *VMDK*.
+
+You can determine the I/O path and component-level latencies from a topological aspect and identify whether storage is the cause of the performance issue. The summary view of the topology displays the I/O path, and highlights the component that has IOPS and latency issues for you to decide on the troubleshooting steps. You can also have an expanded view of the topology that depicts each component separately along with latency of that component. You can select a component to determine the I/O path highlighted through the layers.
+
+== Viewing summary topology
+
+To determine performance issues by viewing the VMs in a summary topology:
+
+. Go to *VMWARE* > *Virtual Machines*.
+. Search for your VM by typing its name in the search box. You can also filter your search results based on specific criteria by clicking on the *Filter* button. However, If you cannot find your VM, ensure that the corresponding vCenter Server has been added and discovered.
++
+[NOTE]
+====
+vCenter Servers allow special characters (such as %, &, *, $, #, @, !, \, /, :, *, ?, "`, <, >, |, ;, ') in the names of vSphere entities, such as VM, cluster, datastore, folder, or file. The VMware vCenter Server and ESX/ESXi Server do not escape special characters used in the display names. However, when the name is processed in Unified Manager, it is displayed differently. For example, a VM named as  `%$VC_AIQUM_clone_191124%` in vCenter Server is displayed as `%25$VC_AIQUM_clone_191124%25` in Unified Manager. You must keep a note of this issue when you query a VM with a name having a special characters in it.
+====
+
+. Check the status of the VM. The VM statuses are retrieved from vCenter Server. The following statuses are available. For more information about these statuses, see VMware documentation.
+ ** Normal
+ ** Warning
+ ** Alert
+ ** Not monitored
+ ** Unknown
+. Click the down arrow beside the VM to see the summary view of the topology of the components across the compute, network, and storage layers. The node that has latency issues is highlighted. The summary view displays the worst latency of the components. For example, if a VM has more than one virtual disk, this view displays the virtual disk that has the worst latency among all the virtual disks.
+. To analyze the latency and throughput of the datastore over a period of time, click the *Workload Analyzer* button on top of the datastore object icon. You go to the Workload Analysis page, where you can select a time range and view the performance charts of the datastore. For more information about workload analyzer, see _Troubleshooting workloads using the workload analyzer_.
+
+== Viewing expanded topology
+
+You can drill down to each component separately by viewing the expanded topology of the VM.
+
+.Steps
+. From the summary topology view, click *Expand Topology*. You can see the detailed topology of each component separately with the latency numbers for each object. If there are multiple nodes in a category, for example multiple nodes in the datastore or VMDK, the node with worst latency is highlighted in red.
+. To check the IO path of a specific object, click on that object to see the IO path and the corresponding mapping. For example, to see the mapping of a virtual disk, click the virtual disk to view its highlighted mapping to the respective VMDK. In case of a performance lag of these components, you can collect more data from ONTAP and troubleshoot the issue.
++
+[NOTE]
+====
+Metrics are not reported for VMDKs. In the topology, only the VMDK names are displayed, and not metrics.
+====
+
+*Related information*
+
+link:../performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html[Troubleshooting workloads using the workload Analyzer]

@@ -1,0 +1,21 @@
+---
+permalink: performance-checker/task_view_all_qos_policy_groups_available_on_all_clusters.html
+sidebar: sidebar
+keywords: viewing, qos, policy, groups, available, clusters
+summary: "You can display a list of all the QoS policy groups available on the clusters that Unified Manager is monitoring. This includes traditional QoS policies, adaptive QoS policies, and QoS policies managed by Unified Manager Performance Service Level policies."
+---
+= Viewing all QoS policy groups available on all clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can display a list of all the QoS policy groups available on the clusters that Unified Manager is monitoring. This includes traditional QoS policies, adaptive QoS policies, and QoS policies managed by Unified Manager Performance Service Level policies.
+
+.Steps
+. In the left navigation pane, click *Storage* > *QoS Policy Groups*.
++
+The Performance: Traditional QoS Policy Groups view is displayed by default.
+
+. View the detailed configuration settings for each available traditional QoS policy group.
+. Click the expand button (image:../media/chevron_down.gif[]) next to the QoS Policy Group name to view more details about the policy group.
+. In the View menu, select one of the additional options to view all the adaptive QoS policy groups or to view all the QoS policy groups that were created using Unified Manager Performance Service Levels.

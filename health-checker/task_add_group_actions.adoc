@@ -1,0 +1,28 @@
+---
+permalink: health-checker/task_add_group_actions.html
+sidebar: sidebar
+keywords: add, group, actions
+summary: "You can configure group actions that you want to apply to storage objects in a group. Configuring actions for a group enables you to save time, because you do not have to add these actions to each object individually."
+---
+= Adding group actions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure group actions that you want to apply to storage objects in a group. Configuring actions for a group enables you to save time, because you do not have to add these actions to each object individually.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. In the *Group Actions* tab, click *Add*.
+. In the *Add Group Action* dialog box, enter a name and description for the action.
+. From the *Group* menu, select a group for which you want to configure the action.
+. From the *Action Type* menu, select an action type.
++
+The dialog box expands, enabling you to configure the selected action type with required parameters.
+
+. Enter appropriate values for the required parameters to configure a group action.
+. Click *Add*.

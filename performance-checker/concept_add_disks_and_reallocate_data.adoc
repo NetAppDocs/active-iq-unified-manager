@@ -1,0 +1,29 @@
+---
+permalink: performance-checker/concept_add_disks_and_reallocate_data.html
+sidebar: sidebar
+keywords: add, disks, reallocate, data
+summary: "You can add disks to an aggregate to increase the storage capacity and the performance of that aggregate. After adding the disks, you will see an improvement in read performance only after reallocating the data across the disks you added."
+---
+= Add disks and reallocate data
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add disks to an aggregate to increase the storage capacity and the performance of that aggregate. After adding the disks, you will see an improvement in read performance only after reallocating the data across the disks you added.
+
+You can use these instructions when Unified Manager has received aggregate events triggered by dynamic thresholds or by system-defined performance thresholds:
+
+* When you have received a dynamic threshold event, on the Event details page, the cluster component icon that represents the aggregate in contention is highlighted red.
++
+Beneath the icon, in parentheses, is the name of the aggregate, which identifies the aggregate to which you can add disks.
+
+* When you have received a system-defined threshold event, on the Event details page, the event description text lists the name of the aggregate that is having the problem.
++
+You can add disks and reallocate data on this aggregate.
+
+The disks you add to the aggregate must already exist in the cluster. If the cluster does not have extra disks available, you might need to contact your administrator or purchase more disks. You can use ONTAP System Manager or the ONTAP commands to add disks to an aggregate.
+
+[NOTE]
+====
+You should reallocate data when using HDD and Flash Pool aggregates only. Do not reallocate data on SSD or FabricPool aggregates.
+====

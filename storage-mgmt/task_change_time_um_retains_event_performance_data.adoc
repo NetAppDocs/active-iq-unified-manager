@@ -1,0 +1,36 @@
+---
+permalink: storage-mgmt/task_change_time_um_retains_event_performance_data.html
+sidebar: sidebar
+keywords: change, length, time, unified manager, retains, event, performance, data
+summary: "By default, Unified Manager stores event data and performance data for 6 months for all monitored clusters. After this time, older data is automatically deleted to make room for new data. This default timeframe works well for most configurations, but very large configurations with many clusters and nodes may need to reduce the retention period so that Unified Manager operates optimally."
+---
+= Changing the length of time Unified Manager retains event and performance data
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+By default, Unified Manager stores event data and performance data for 6 months for all monitored clusters. After this time, older data is automatically deleted to make room for new data. This default timeframe works well for most configurations, but very large configurations with many clusters and nodes may need to reduce the retention period so that Unified Manager operates optimally.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+You can change the retention periods for these two types of data in the Data Retention page. These settings affect the retention of data from all clusters that this instance of Unified Manager is monitoring.
+
+[NOTE]
+====
+Unified Manager collects performance statistics every 5 minutes. Each day the 5-minute statistics are summarized into hourly performance statistics. It retains 30 days of 5-minute historical performance data and 6 months of hourly summarized performance data (by default).
+====
+
+You should reduce the retention period only if you are running out of space or if backup and other operations are taking a very long time to complete. Reducing the retention period has the following effects:
+
+* Old performance data is deleted from the Unified Manager database after midnight.
+* Old event data is deleted from the Unified Manager database immediately.
+* Events prior to the retention period will no longer be available to view in the user interface.
+* Locations in the UI where hourly performance statistics are displayed will be blank prior to the retention period.
+* If the event retention period exceeds the performance data retention period, a message will be displayed under the performance slider warning that older performance events may not have backing data in their associated charts.
+
+.Steps
+
+. In the left navigation pane, click *Policies* > *Data Retention*.
+. In the *Data Retention* page, select the slider tool in the Event Retention or Performance Data Retention area and move it to the number of months that data should be retained, and click *Save*.

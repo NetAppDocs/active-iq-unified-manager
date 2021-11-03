@@ -1,0 +1,59 @@
+---
+permalink: performance-checker/task_respond_to_dynamic_performance_event.html
+sidebar: sidebar
+keywords: dynamic, performance, qos, policy, group, throttling
+summary: "You can use Unified Manager to investigate a performance event caused by a Quality of Service (QoS) policy group throttling workload throughput (MB/s). The throttling increased the response times (latency) of volume workloads in the policy group. You can use the event information to determine whether new limits on the policy groups are needed to stop the throttling."
+---
+= Responding to a dynamic performance event caused by QoS policy group throttling
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to investigate a performance event caused by a Quality of Service (QoS) policy group throttling workload throughput (MB/s). The throttling increased the response times (latency) of volume workloads in the policy group. You can use the event information to determine whether new limits on the policy groups are needed to stop the throttling.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+* There must be new, acknowledged, or obsolete performance events.
+
+.Steps
+. Display the *Event details* page to view information about the event.
+. Read the *Description*, which displays the name of the workloads impacted by the throttling.
++
+[NOTE]
+====
+The description can display the same workload for the victim and bully, because the throttling makes the workload a victim of itself.
+====
+
+. Record the name of the volume, using an application such as a text editor.
++
+You can search on the volume name to locate it later.
+
+. In the Workload Latency and Workload Utilization charts, select *Bully Workloads*.
+. Hover your cursor over the charts to view the top user-defined workloads that are affecting the policy group.
++
+The workload at the top of the list has the highest deviation and caused the throttling to occur. The activity is the percentage of the policy group limit used by each workload.
+
+. In the *Suggested Actions* area, click the *Analyze Workload* button for the top workload.
+. In the Workload Analysis page, set the Latency chart to view all Cluster Components, and the Throughput chart to view Breakdown.
++
+The breakdown charts are displayed under the Latency chart and the IOPS chart.
+
+. Compare the QoS Limits in the *Latency* chart to see what amount of throttling impacted the latency at the time of the event.
++
+The QoS policy group has a maximum throughput of 1,000 operations per second (op/sec), which the workloads in it cannot collectively exceed. At the time of the event, the workloads in the policy group had a combined throughput of over 1,200 op/sec, which caused the policy group to throttle its activity back to 1,000 op/sec.
+
+. Compare the *Reads/writes latency* values to the *Reads/writes/other* values.
++
+Both charts show a high number of read requests with high latency, but the number of requests and amount of latency for write requests is low. These values help you determine whether there is a high amount of throughput or number of operations that increased the latency. You can use these values when deciding to put a policy group limit on the throughput or operations.
+
+. Use ONTAP System Manager to increase the current limit on the policy group to 1,300 op/sec.
+. After a day, return to Unified Manager and enter the workload that you recorded in Step 3 in the *Workload Analysis* page.
+. Select the Throughput Breakdown chart.
++
+The Reads/writes/other chart is displayed.
+
+. At the top of the page, point your cursor to the change event icon (image:../media/opm_change_icon.gif[Change event icon]) for the policy group limit change.
+. Compare the *Reads/writes/other* chart to the *Latency* chart.
++
+The read and write requests are the same, but the throttling has stopped and the latency has decreased.

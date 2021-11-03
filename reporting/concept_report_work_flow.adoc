@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_report_work_flow.html
+sidebar: sidebar
+keywords: report, workflow
+summary: "Decision tree that describes the report workflow."
+---
+= Report workflow
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Decision tree that describes the report workflow.
+
+image::../media/reports_view_workflow.png[]

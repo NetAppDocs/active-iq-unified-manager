@@ -1,0 +1,44 @@
+---
+permalink: storage-mgmt/task_monitor_metrocluster_configurations.html
+sidebar: sidebar
+keywords: monitor, metrocluster, configurations
+summary: "You can monitor connectivity issues in your MetroCluster configuration. The details include the status of the components and connectivity within a cluster and the connectivity status between the clusters in the MetroCluster configuration."
+---
+= Monitoring MetroCluster configurations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can monitor connectivity issues in your MetroCluster configuration. The details include the status of the components and connectivity within a cluster and the connectivity status between the clusters in the MetroCluster configuration.
+
+*What you'll need*
+
+* Both the local and remote clusters in the MetroCluster configuration must be added to Active IQ Unified Manager.
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+
+You can use the information displayed in the Cluster / Health details page to rectify any connectivity issues. For example, if the connectivity between the node and the switch in a cluster is down, the following icon is displayed:
+
+image::../media/node_switch_connectivity.gif[]
+
+If you move the pointer over the icon, you can view detailed information about the generated event.
+
+Unified Manager uses system health alerts to monitor the status of the components and connectivity in the MetroCluster configuration.
+
+The MetroCluster Connectivity tab is displayed only for clusters in a MetroCluster configuration.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Clusters*.
++
+A list of all of the monitored clusters is displayed.
+
+. From the *Health: All Clusters* view, click the name of the cluster for which you want to view MetroCluster configuration details.
+. In the *Cluster / Health* details page, click the *MetroCluster Connectivity* tab.
++
+The topology of the MetroCluster configuration is displayed in the corresponding cluster object area.
+
+If you discover connectivity issues in your MetroCluster configuration, you must log in to System Manager or access the ONTAP CLI to resolve the issues.
+
+*Related information*
+
+link:../health-checker/reference_health_cluster_details_page.html[Cluster / Health details page]

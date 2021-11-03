@@ -1,0 +1,34 @@
+---
+permalink: performance-checker/concept_move_logical_interfaces.html
+sidebar: sidebar
+keywords: move, logical, interfaces, lifs
+summary: "Moving logical interfaces (LIFs) to a less busy port can help improve load balancing, assist with maintenance operations and performance tuning, and reduce indirect access."
+---
+= Move logical interfaces (LIFs)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Moving logical interfaces (LIFs) to a less busy port can help improve load balancing, assist with maintenance operations and performance tuning, and reduce indirect access.
+
+Indirect access can reduce system efficiency. It occurs when a volume workload is using different nodes for network processing and data processing. To reduce indirect access, you can rearrange LIFs, which involves moving LIFs to use the same node for network processing and data processing. You can configure load balancing to have ONTAP automatically move busy LIFs to a different port or you can move a LIF manually.
+[cols="2*",options="header"]
+|===
+a|
+*Benefits* | *Considerations*
+a|
+
+* Improve load balancing.
+* Reduce indirect access.
+
+a|
+
+[NOTE]
+====
+When moving a LIF connected to CIFS shares, clients accessing the CIFS shares are disconnected. Any read or write requests to the CIFS shares are disrupted.
+====
+
+|===
+You use the ONTAP commands to configure load balancing. For more information, see the ONTAP networking documentation.
+
+You use ONTAP System Manager and the ONTAP CLI commands to move LIFs manually.

@@ -1,0 +1,187 @@
+section: config
+title: Perform configuration and administrative tasks
+entries:
+  - title: Configuring Active IQ Unified Manager
+    url: "/config/concept_configure_unified_manager.html"
+    entries:
+    - title: Overview of the configuration sequence
+      url: "/config/concept_overview_of_configuration_sequence.html"
+    - title: Accessing the Unified Manager web UI
+      url: "/config/task_access_unified_manager_web_ui.html"
+    - title: Performing the initial setup of the Unified Manager web UI
+      url: "/config/task_perform_initial_setup_of_unified_manager_web_ui.html"
+    - title: Adding clusters
+      url: "/config/task_add_clusters.html"
+    - title: Configuring Unified Manager to send alert notifications
+      url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
+      entries:
+      - title: Configuring event notification settings
+        url: "/config/task_configure_event_notification_settings.html"
+      - title: Enabling remote authentication
+        url: "/config/task_enable_remote_authentication.html"
+      - title: Disabling nested groups from remote authentication
+        url: "/config/task_disable_nested_groups_from_remote_authentication.html"
+      - title: Setting up authentication services
+        url: "/config/task_set_up_authentication_services.html"
+      - title: Adding authentication servers
+        url: "/config/task_add_authentication_servers.html"
+      - title: Testing the configuration of authentication servers
+        url: "/config/task_test_configuration_of_authentication_servers_um_6_0.html"
+      - title: Adding alerts
+        url: "/config/task_add_alerts.html"
+    - title: Changing the local user password
+      url: "/config/task_change_local_user_password.html"
+    - title: Setting the session inactivity timeout
+      url: "/config/task_set_session_inactivity_timeout.html"
+    - title: Changing the Unified Manager host name
+      url: "/config/concept_change_unified_manager_host_name.html"
+      entries:
+      - title: Changing the Unified Manager virtual appliance host name
+        url: "/config/task_change_unified_manager_host_name_on_vmware.html"
+        entries:
+        - title: Generating an HTTPS security certificate
+          url: "/config/task_generate_an_https_security_certificate_ocf.html"
+        - title: Restarting the Unified Manager virtual machine
+          url: "/config/task_restart_unified_manager_virtual_machine.html"
+      - title: Changing the Unified Manager host name on Linux systems
+        url: "/config/task_change_um_host_name_on_rhel_or_centos.html"
+    - title: Enabling and disabling policy-based storage management
+      url: "/config/task_enable_and_disable_policy_based_storage_management.html"
+  - title: Configuring Unified Manager backup
+    url: "/config/concept_configure_um_backup.html"
+  - title: Managing feature settings
+    url: "/config/concept_manage_feature_settings.html"
+    entries:
+    - title: Enabling policy-based storage management
+      url: "/config/concept_policy_based_storage_management.html"
+    - title: Enabling API Gateway
+      url: "/config/concept_api_gateway.html"
+    - title: Specifying inactivity timeout
+      url: "/config/concept_inactivity_timeout.html"
+    - title: Enabling Active IQ portal events
+      url: "/config/concept_active_iq_platform_events.html"
+    - title: Enabling and disabling security settings for compliance
+      url: "/config/concept_security_dashboard.html"
+    - title: Enabling and disabling scripts upload
+      url: "/config/task_enable_and_disable_ability_to_upload_scripts.html"
+    - title: Adding login banner
+      url: "/config/concept_login_banner.html"
+  - title: Using the maintenance console
+    url: "/config/task_use_maintenance_console.html"
+    entries:
+    - title: What functionality the maintenance console provides
+      url: "/config/concept_what_functionality_maintenance_console_provides.html"
+    - title: What the maintenance user does
+      url: "/config/concept_what_maintenance_user_does.html"
+    - title: Diagnostic user capabilities
+      url: "/config/concept_what_diagnostic_user_does.html"
+    - title: Accessing the maintenance console
+      url: "/config/task_access_maintenance_console.html"
+    - title: Accessing the maintenance console using the vSphere VM console
+      url: "/config/task_access_maintenance_console_using_vsphere.html"
+    - title: Maintenance console menus
+      url: "/config/concept_maintenance_console_menu.html"
+      entries:
+      - title: Network Configuration menu
+        url: "/config/reference_network_configuration_menu.html"
+      - title: System Configuration menu
+        url: "/config/reference_system_configuration_menu.html"
+      - title: Support and Diagnostics menu
+        url: "/config/reference_support_and_diagnostics_menu.html"
+      - title: Additional menu options
+        url: "/config/reference_additional_menu_options.html"
+    - title: Changing the maintenance user password on Windows
+      url: "/config/task_change_maintenance_user_password_on_windows.html"
+    - title: Changing the umadmin password on Linux systems
+      url: "/config/task_change_umadmin_password_on_rhel.html"
+    - title: Changing the ports Unified Manager uses for HTTP and HTTPS protocols
+      url: "/config/task_change_ports_um_uses_for_http_and_https_protocols.html"
+    - title: Adding network interfaces
+      url: "/config/task_add_additional_network_interfaces.html"
+    - title: Adding disk space to the Unified Manager database directory
+      url: "/config/concept_add_disk_space_to_um_database_directory.html"
+      entries:
+      - title: Adding space to the data directory of the Linux host
+        url: "/config/task_add_space_to_data_directory_of_um_linux_host.html"
+      - title: Adding space to the data disk of the VMware virtual machine
+        url: "/config/task_add_space_to_data_disk_of_vmware_virtual_machine.html"
+      - title: Adding space to the logical drive of the Microsoft Windows server
+        url: "/config/task_add_space_to_data_disk_of_windows_server.html"
+  - title: Managing user access
+    url: "/config/concept_manage_user_access.html"
+    entries:
+    - title: Adding users
+      url: "/config/task_add_users.html"
+      entries:
+      - title: Creating a database user
+        url: "/config/task_create_database_user.html"
+    - title: Editing the user settings
+      url: "/config/task_edit_user_setts.html"
+    - title: Viewing users
+      url: "/config/task_view_users.html"
+    - title: Deleting users or groups
+      url: "/config/task_delete_users_or_groups.html"
+    - title: What RBAC is
+      url: "/config/concept_what_rbac_is.html"
+    - title: What role-based access control does
+      url: "/config/concept_what_role_based_access_control_does.html"
+    - title: Definitions of user types
+      url: "/config/reference_definitions_of_user_types.html"
+    - title: Definitions of user roles
+      url: "/config/reference_definitions_of_user_roles.html"
+    - title: Unified Manager user roles and capabilities
+      url: "/config/reference_unified_manager_roles_and_capabilities.html"
+  - title: Managing SAML authentication settings
+    url: "/config/concept_manage_saml_authentication_settings_um.html"
+    entries:
+    - title: Identity provider requirements
+      url: "/config/reference_identity_provider_requirements_um.html"
+    - title: Enabling SAML authentication
+      url: "/config/task_enable_saml_authentication_um.html"
+    - title: Changing the identity provider used for SAML authentication
+      url: "/config/task_change_identity_provider_idp_used_for_saml_authentication.html"
+    - title: Updating SAML authentication settings after Unified Manager security
+        certificate change
+      url: "/config/task_update_saml_authentication_after_um_certificate_change.html"
+    - title: Disabling SAML authentication
+      url: "/config/task_disable_saml_authentication_um.html"
+    - title: Disabling SAML authentication from the maintenance console
+      url: "/config/task_disable_saml_authentication_from_maintenance_console_um.html"
+    - title: SAML Authentication page
+      url: "/config/reference_saml_authentication_page_um.html"
+  - title: Managing authentication
+    url: "/config/concept_manage_authentication.html"
+    entries:
+    - title: Editing authentication servers
+      url: "/config/task_edit_authentication_servers.html"
+    - title: Deleting authentication servers
+      url: "/config/task_delete_authentication_servers.html"
+    - title: Authentication with Active Directory or OpenLDAP
+      url: "/config/concept_authentication_with_active_directory_or_openldap.html"
+    - title: Audit Logging
+      url: "/config/concept_audit_logging.html"
+      entries:
+      - title: Configuring audit logs
+        url: "/config/task_configure_audit_logs.html"
+      - title: Enabling remote logging of audit logs
+        url: "/config/task_enable_remote_logging_of_audit_logs.html"
+    - title: Remote Authentication page
+      url: "/config/reference_remote_authentication_page.html"
+  - title: Managing security certificates
+    url: "/config/concept_manage_security_certificates_ocf.html"
+    entries:
+    - title: Viewing the HTTPS security certificate
+      url: "/config/task_view_https_security_certificate_ocf.html"
+    - title: Downloading an HTTPS certificate signing request
+      url: "/config/task_download_an_https_certificate_sign_request_ocf.html"
+    - title: Installing a CA signed and returned HTTPS certificate
+      url: "/config/task_install_ca_signed_and_returned_https_certificate.html"
+    - title: Installing a HTTPS certificate generated using external tools
+      url: "/config/concept_install_https_certificate_generated_using_external_tools.html"
+    - title: Page descriptions for certificate management
+      url: "/config/concept_page_descriptions_for_certificate_management.html"
+      entries:
+      - title: HTTPS Certificate page
+        url: "/config/reference_https_dialog_box_ocf.html"
+      - title: Regenerate HTTPS Certificate dialog box
+        url: "/config/reference_regenerate_https_certificate_dialog_box.html"

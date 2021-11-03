@@ -1,0 +1,170 @@
+---
+permalink: install-windows/reference_protocol_and_port_requirements.html
+sidebar: sidebar
+keywords: unified manager, protocol, port, requirements
+summary: "The required ports and protocols enable communication between the Unified Manager server and the managed storage systems, servers, and other components."
+---
+= Protocol and port requirements
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The required ports and protocols enable communication between the Unified Manager server and the managed storage systems, servers, and other components.
+
+== Connections to the Unified Manager server
+
+In typical installations you do not have to specify port numbers when connecting to the Unified Manager web UI, because default ports are always used. For example, because Unified Manager always attempts to run on its default port, you can enter `+https://<host>+` instead of `+https://<host>:443+`.
+
+The Unified Manager server uses specific protocols to access the following interfaces:
+
+[cols="4*",options="header"]
+|===
+| Interface| Protocol| Port| Description
+a|
+Unified Manager web UI
+a|
+HTTP
+a|
+80
+a|
+Used to access the Unified Manager web UI; automatically redirects to the secure port 443.
+a|
+Unified Manager web UI and programs using APIs
+a|
+HTTPS
+a|
+443
+a|
+Used to securely access the Unified Manager web UI or to make API calls; API calls can only be made using HTTPS.
+a|
+Maintenance console
+a|
+SSH/SFTP
+a|
+22
+a|
+Used to access the maintenance console and retrieve support bundles.
+a|
+Linux command line
+a|
+SSH/SFTP
+a|
+22
+a|
+Used to access the Red Hat Enterprise Linux or CentOS command line and retrieve support bundles.
+a|
+Syslog
+a|
+UDP
+a|
+514
+a|
+Used to access subscription-based EMS messages from ONTAP systems and to create events based on the messages.
+a|
+REST
+a|
+HTTPS
+a|
+9443
+a|
+Used to access realtime REST API-based EMS events from authenticated ONTAP systems.
+a|
+MySQL database
+a|
+MySQL
+a|
+3306
+a|
+Used to enable OnCommand Workflow Automation and OnCommand API Services access to Unified Manager.
+|===
+
+[NOTE]
+====
+The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see the _Active IQ Unified Manager System Configuration Guide_.
+====
+
+link:../config/concept_configure_unified_manager.html[Active IQ Unified Manager System Configuration Guide]
+
+== Connections from the Unified Manager server
+
+You should configure your firewall to open ports that enable communication between the Unified Manager server and managed storage systems, servers, and other components. If a port is not open, communication fails.
+
+Depending on your environment, you can choose to modify the ports and protocols used by the Unified Manager server to connect to specific destinations.
+
+The Unified Manager server connects using the following protocols and ports to the managed storage systems, servers, and other components:
+
+[cols="4*",options="header"]
+
+|===
+| Destination| Protocol| Port| Description
+a|
+Storage system
+a|
+HTTPS
+a|
+443/TCP
+a|
+Used to monitor and manage storage systems.
+a|
+Storage system
+a|
+NDMP
+a|
+10000/TCP
+a|
+Used for certain Snapshot restore operations.
+a|
+AutoSupport server
+a|
+HTTPS
+a|
+443
+a|
+Used to send AutoSupport information. Requires Internet access to perform this function.
+.2+a|
+Authentication server
+a|
+LDAP
+a|
+389
+a|
+Used to make authentication requests, and user and group lookup requests.
+a|
+LDAPS
+a|
+636
+a|
+Used for secure LDAP communication.
+a|
+Mail server
+a|
+SMTP
+a|
+25
+a|
+Used to send alert notification emails.
+a|
+SNMP trap sender
+a|
+SNMPv1 or SNMPv3
+a|
+162/UDP
+a|
+Used to send alert notification SNMP traps.
+a|
+External data provider server
+a|
+TCP
+a|
+2003
+a|
+Used to send performance data to an external data provider, such as Graphite.
+a|
+NTP server
+a|
+NTP
+a|
+123/UDP
+a|
+Used to synchronize the time on the Unified Manager server with an external NTP time server. (VMware systems only)
+|===

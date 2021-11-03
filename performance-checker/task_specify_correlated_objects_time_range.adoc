@@ -1,0 +1,14 @@
+---
+permalink: performance-checker/task_specify_correlated_objects_time_range.html
+sidebar: sidebar
+keywords: specify, time range, correlated objects
+summary: "The Time Range selector on the Performance Explorer page enables you to specify the time range for object data comparison. Specifying a time range refines the contents of the Performance Explorer pages to show only the object data within the time range you have specified."
+---
+= Specifying a time range for correlated objects
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Time Range selector on the Performance Explorer page enables you to specify the time range for object data comparison. Specifying a time range refines the contents of the Performance Explorer pages to show only the object data within the time range you have specified.
+
+Refining the time range provides an efficient method of displaying only the performance data in which you are interested. You can select a predefined time range or specify a custom time range. The default time range is the preceding 72 hours.

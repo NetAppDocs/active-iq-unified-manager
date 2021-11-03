@@ -1,0 +1,36 @@
+---
+permalink: data-protection/task_view_volume_protection_relationships.html
+sidebar: sidebar
+keywords: view, volume, protection relationships
+summary: "From the Relationship: All Relationships view, and from the Volume Relationships page, you can view the status of existing volume SnapMirror and SnapVault relationships. You can also examine details about protection relationships, including transfer and lag status, source and destination details, schedule and policy information, and so on."
+---
+= Viewing volume protection relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Relationship: All Relationships view, and from the Volume Relationships page, you can view the status of existing volume SnapMirror and SnapVault relationships. You can also examine details about protection relationships, including transfer and lag status, source and destination details, schedule and policy information, and so on.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+You can also initiate relationship commands from this page.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Volumes*.
+. From the View menu, select *Relationship* > *All Relationships*.
++
+The Relationship: All Relationships view is displayed.
+
+. Choose one of the following ways to view the volume protection details:
+ ** To view current information about all the volume relationships, remain on the default *All Relationships* page.
+ ** To view detailed information about the volume transfer trends over a period of time, in the View menu, select Relationship: Last 1 month Transfer Status view.
+ ** To view detailed information about the volume transfer activity on a day to day basis, in the View menu, select Relationship: Last 1 month Transfer Rate view.
+
++
+[NOTE]
+====
+The volume transfer views display information for volumes in asynchronous relationships only - volumes in synchronous relationships are not shown.
+====

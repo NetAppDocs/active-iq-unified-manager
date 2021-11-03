@@ -1,0 +1,17 @@
+---
+permalink: performance-checker/task_select_predefined_time_range.html
+sidebar: sidebar
+keywords: select, predefined, time, range
+summary: "Selecting a predefined time range is a quick and efficient way for you to customize and focus data output when viewing cluster object performance data. When selecting a predefined time range, data for up to 13 months is available."
+---
+= Selecting a predefined time range
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Selecting a predefined time range is a quick and efficient way for you to customize and focus data output when viewing cluster object performance data. When selecting a predefined time range, data for up to 13 months is available.
+
+.Steps
+. At the top right of the *Performance Explorer* page, click *Time Range*.
+. From the right side of the *Time Range Selection* panel, select a predefined time range.
+. Click *Apply Range*.

@@ -1,0 +1,85 @@
+---
+permalink: storage-mgmt/reference_dashboard_page.html
+sidebar: sidebar
+keywords: dashboard page,
+summary: "The Dashboard page has “panels” that display the high level capacity, performance, and security health of the clusters you are monitoring. This page also provides a Management Actions panel that lists fixes that Unified Manager can make to resolve certain events."
+---
+= Dashboard page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Dashboard page has "panels" that display the high level capacity, performance, and security health of the clusters you are monitoring. This page also provides a Management Actions panel that lists fixes that Unified Manager can make to resolve certain events.
+
+Most of the panels also display the number of active events in that category, and the number of new events added over the previous 24 hours. This information helps you decide which clusters you may need to analyze further to resolve events. Clicking on the events displays the top events and provides a link to the Event Management inventory page filtered to show the active events in that category.
+
+At the top of the dashboard you can select whether the panels show information for all monitored clusters ("All Clusters") or for an individual cluster. You can start by viewing the status of all clusters and then drill down to individual clusters when you want to view detailed information.
+
+[NOTE]
+====
+Some of the panels listed below will not appear on the page based on your configuration.
+====
+
+* *Management Actions panel*
++
+There are certain issues that Unified Manager can diagnose thoroughly and provide a single resolution. When available, those resolutions are displayed in this panel with a *Fix It* or *Fix All* button. You can fix these issues immediately from Unified Manager instead of having to use ONTAP System Manager or the ONTAP CLI. For viewing all the issues, click on
++
+See link:concept_fix_ontap_issues_directly_from_unified_manager.html[Fixing ONTAP issues directly from Unified Manager] for more information.
+
+* *Capacity panel*
++
+When viewing all clusters, this panel displays the physical used capacity (after applying storage efficiency savings) and physical available capacity (not including potential storage efficiency savings) for each cluster, the number of days until the disks are projected to be full, and the data reduction ratio based on configured ONTAP storage efficiency settings. It also lists the used capacity for any configured cloud tiers. Clicking the bar chart takes you to the Aggregates inventory page for that cluster. Clicking the "Days To Full" text displays a message that identifies the aggregate with the least number of capacity days remaining; click the aggregate name to see more details.
++
+When viewing a single cluster, this panel displays the physical used capacity and physical available capacity for the data aggregates sorted by each individual disk type on the local tier, and for the cloud tier. Clicking the bar chart for a disk type takes you to the Volumes inventory page for the volumes using that disk type.
+
+* *Performance Capacity panel*
++
+When viewing all clusters, this panel displays the performance capacity value for each cluster (averaged over the previous 1 hour) and the number of days until performance capacity reaches the upper limit (based on daily growth rate). Clicking the bar chart takes you to the Nodes inventory page for that cluster. Note that the Nodes inventory page displays the performance capacity averaged over the previous 72 hours. Clicking the "Days To Full" text displays a message that identifies the node with the least number of performance capacity days remaining; click the node name to see more details.
++
+When viewing a single cluster, this panel displays the cluster performance capacity used percentage, total IOPS, and total throughput (MB/s) values, and the number of days until each of these three metrics are anticipated to reach their upper limit.
+
+* *Workload IOPS panel*
++
+When viewing a single cluster, this panel displays the total number workloads that are currently running in a certain range of IOPS, and indicates the number for each disk type when you hover your cursor over the chart.
+
+* *Workload Performance panel*
++
+This panel displays the total number of conforming and non-conforming workloads that are assigned to each Performance Service Level (PSL) policy. It also displays the number of workloads that are not assigned a PSL. Clicking a bar chart takes you to the conforming workloads assigned to that policy in the Workloads page. Clicking the number that follows the bar chart takes you to the conforming and non-conforming workloads assigned to that policy.
+
+* *Security panel*
++
+When viewing all clusters, this panel displays the number of clusters that are compliant and not compliant, the number of storage VMs that are compliant and not compliant, and the number of volumes that are encrypted and not encrypted. Compliance is based on the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9]. Click the right-arrow at the top of the panel to view security details for all clusters in the Security page.
++
+When viewing a single cluster, this panel displays whether the cluster is compliant or not compliant, the number of storage VMs that are compliant and not compliant, and the number of volumes that are encrypted and not encrypted. Click the right-arrow at the top of the panel to view security details for the cluster in the Security page. For more information, see link:../health-checker/concept_manage_cluster_security_objectives.html[Managing cluster security objectives].
+
+* *Data Protection panel*
++
+This panel displays the data protection summary for a single or all the clusters in a data center. It displays the total number of data protection events and number of active events raised in the last 24 hours in ONTAP. The panel displays the number of volumes in a cluster or all the clusters in a data center protected by Snapshot copies and SnapMirror relationships. It also displays the number of volumes with SnapMirror recovery point objective (RPO) lag. You can hover your mouse to view the respective counts and legends. Clicking the bar charts takes you to the Volumes screen with the respective volumes selected. Clicking the link from each of these events takes you to the Event details page. You can click the *View All* link to view all active protection events in the Event Management inventory page. For more information, see link:../data-protection/view-protection-status.html[Viewing volume protection status].
+
+* *Usage Overview panel*
++
+When viewing all clusters, you can choose to view clusters sorted by highest IOPS, highest throughput (MB/s), or highest used physical capacity.
++
+When viewing a single cluster, you can choose to view workloads sorted by highest IOPS, highest throughput (MB/s), or highest used logical capacity.
+
+*Related information*
+
+link:../events/task_fix_issues_using_um_automatic_remediations.html[Fixing issues using Unified Manager automatic remediations]
+
+link:../performance-checker/task_display_information_about_performance_event.html[Displaying information about performance events]
+
+link:../performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html[Managing performance using performance capacity and available IOPS information]
+
+link:../health-checker/reference_health_volume_details_page.html[Volume / Health details page]
+
+link:../performance-checker/reference_performance_event_analysis_and_notification.html[Performance event analysis and notification]
+
+link:../events/reference_description_of_event_severity_types.html[Description of event severity types]
+
+link:../performance-checker/concept_sources_of_performance_events.html[Sources of performance events]
+
+link:../health-checker/concept_manage_cluster_security_objectives.html[Managing cluster security objectives]
+
+link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html[Monitoring cluster performance from the Performance Cluster Landing page]
+
+link:../performance-checker/concept_monitor_performance_using_object_performance.html[Monitoring performance using the Performance Inventory pages]

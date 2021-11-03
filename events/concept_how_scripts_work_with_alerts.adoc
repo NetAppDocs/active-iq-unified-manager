@@ -1,0 +1,47 @@
+---
+permalink: events/concept_how_scripts_work_with_alerts.html
+sidebar: sidebar
+keywords: scripts, work, alerts
+summary: "You can associate an alert with your script so that the script is executed when an alert is raised for an event in Unified Manager. You can use the scripts to resolve issues with storage objects or identify which storage objects are generating the events."
+---
+= How scripts work with alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can associate an alert with your script so that the script is executed when an alert is raised for an event in Unified Manager. You can use the scripts to resolve issues with storage objects or identify which storage objects are generating the events.
+
+When an alert is generated for an event in Unified Manager, an alert email is sent to the specified recipients. If you have associated an alert with a script, the script is executed. You can get the details of the arguments passed to the script from the alert email.
+
+[NOTE]
+====
+If you have created a custom script and associated it with an alert for a specific event type, actions are taken based on your custom script for that event type, and the *Fix it* actions are not available by default on the Management Actions page or Unified Manager dashboard.
+
+====
+
+The script uses the following arguments for execution:
+
+* `-eventID`
+* -`eventName`
+* -`eventSeverity`
+* -`eventSourceID`
+* -`eventSourceName`
+* -`eventSourceType`
+* -`eventState`
+* -`eventArgs`
+
+You can use the arguments in your scripts and gather related event information or modify storage objects.
+
+== Example for obtaining arguments from scripts
+
+----
+`print "$ARGV[0] : $ARGV[1]\n"`
+`print "$ARGV[7] : $ARGV[8]\n"`
+----
+
+When an alert is generated, this script is executed and the following output is displayed:
+
+----
+-`eventID : 290`
+-`eventSourceID : 4138`
+----

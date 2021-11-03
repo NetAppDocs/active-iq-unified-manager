@@ -1,0 +1,14 @@
+---
+permalink: performance-checker/concept_monitor_performance_using_performance_explorer_pages.html
+sidebar: sidebar
+keywords: monitoring, performance, explorer, pages
+summary: "The Performance Explorer pages display detailed information about the performance of each object in a cluster. The page provides a detailed view into the performance of all cluster objects, enabling you to select and compare the performance data of specific objects across various time periods."
+---
+= Monitoring performance using the Performance Explorer pages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Performance Explorer pages display detailed information about the performance of each object in a cluster. The page provides a detailed view into the performance of all cluster objects, enabling you to select and compare the performance data of specific objects across various time periods.
+
+You can also assess the overall performance of all objects, and compare object performance data in a side-by-side format.

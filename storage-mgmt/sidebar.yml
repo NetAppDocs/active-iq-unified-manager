@@ -1,0 +1,168 @@
+section: storage-mgmt
+title: Monitor and manage storage
+entries:
+  - title: Introduction to Active IQ Unified Manager
+    url: "/storage-mgmt/concept_introduction_to_unified_manager.html"
+    entries:
+    - title: Introduction to Active IQ Unified Manager health monitoring
+      url: "/storage-mgmt/concept_introduction_to_unified_manager_health_monitoring.html"
+    - title: Introduction to Active IQ Unified Manager performance monitoring
+      url: "/storage-mgmt/concept_introduction_to_unified_manager_performance_monitoring.html"
+    - title: Using Unified Manager REST APIs
+      url: "/storage-mgmt/concept_use_unified_manager_rest_apis_ocum.html"
+    - title: What the Unified Manager server does
+      url: "/storage-mgmt/concept_what_unified_manager_server_does.html"
+      entries:
+      - title: How the discovery process works
+        url: "/storage-mgmt/concept_how_discovery_process_works_tobe_rmvd.html"
+  - title: Understanding the user interface
+    url: "/storage-mgmt/concept_understand_user_interface.html"
+    entries:
+    - title: Typical window layouts
+      url: "/storage-mgmt/concept_typical_window_layouts_um_6_x.html"
+    - title: Window layout customization
+      url: "/storage-mgmt/reference_window_layout_customization.html"
+    - title: Using the Unified Manager Help
+      url: "/storage-mgmt/task_use_unified_manager_help.html"
+    - title: Bookmarking your favorite Help topics
+      url: "/storage-mgmt/task_bookmark_your_favorite_help_topics_onc.html"
+    - title: Searching for storage objects
+      url: "/storage-mgmt/task_search_for_storage_objects.html"
+    - title: Exporting storage data as reports
+      url: "/storage-mgmt/task_export_storage_data_as_reports.html"
+    - title: Filtering inventory page content
+      url: "/storage-mgmt/task_filter_inventory_page_content.html"
+    - title: Viewing active events from the notification bell
+      url: "/storage-mgmt/task_view_active_events_from_notification_bell.html"
+  - title: Monitoring and managing clusters from the dashboard
+    url: "/storage-mgmt/concept_monitor_and_manage_clusters_from_dashboard.html"
+    entries:
+    - title: Dashboard page
+      url: "/storage-mgmt/reference_dashboard_page.html"
+    - title: Fixing or managing ONTAP issues directly from Unified Manager
+      url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
+      entries:
+      - title: What options do I have when I see the Fix It or Fix All button
+        url: "/storage-mgmt/concept_what_options_do_i_have_in_fix_it_button.html"
+      - title: Viewing the status of management actions you have chosen to fix
+        url: "/storage-mgmt/task_view_status_of_management_actions_to_fix.html"
+      - title: What issues can Unified Manager fix
+        url: "/storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html"
+      - title: Overriding management actions through scripts
+        url: "/storage-mgmt/concept_override_management_actions_through_scripts.html"
+  - title: Managing clusters
+    url: "/storage-mgmt/concept_manage_clusters.html"
+    entries:
+    - title: How the cluster discovery process works
+      url: "/storage-mgmt/concept_how_discovery_process_works.html"
+    - title: Viewing the list of monitored clusters
+      url: "/storage-mgmt/task_view_list_of_monitored_clusters.html"
+    - title: Adding clusters
+      url: "/storage-mgmt/task_add_clusters.html"
+    - title: Editing clusters
+      url: "/storage-mgmt/task_edit_clusters.html"
+    - title: Removing clusters
+      url: "/storage-mgmt/task_remove_clusters.html"
+    - title: Rediscovering clusters
+      url: "/storage-mgmt/task_rediscover_clusters.html"
+  - title: Monitoring VMware virtual infrastructure
+    url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
+    entries:
+    - title: Viewing and adding vCenter Server
+      url: "/storage-mgmt/task_view_and_add_vcenter_servers.html"
+    - title: Monitoring virtual machines
+      url: "/storage-mgmt/concept_monitor_vms.html"
+    - title: Viewing virtual infrastructure in a disaster recovery setup
+      url: "/storage-mgmt/concept_mcc_svmdr_vmawareness.html"
+  - title: Provisioning and managing workloads
+    url: "/storage-mgmt/concept_provision_and_manage_workloads.html"
+    entries:
+    - title: Workloads overview
+      url: "/storage-mgmt/concept_workloads_dashboard.html"
+      entries:
+      - title: Viewing workloads
+        url: "/storage-mgmt/concept_all_workloads.html"
+      - title: Assigning policies to workloads
+        url: "/storage-mgmt/concept_assign_policies_on_workloads.html"
+      - title: Provisioning file share volumes
+        url: "/storage-mgmt/task_provision_fileshares.html"
+      - title: Provisioning LUNs
+        url: "/storage-mgmt/task_provision_luns.html"
+    - title: Managing Performance Service Levels
+      url: "/storage-mgmt/concept_manage_performance_service_levels.html"
+      entries:
+      - title: Creating and editing Performance Service Levels
+        url: "/storage-mgmt/task_create_and_edit_psls.html"
+    - title: Managing Storage Efficiency Policies
+      url: "/storage-mgmt/concept_manage_storage_efficiency_policies.html"
+      entries:
+      - title: Creating and editing Storage Efficiency Policies
+        url: "/storage-mgmt/task_create_and_edit_seps.html"
+  - title: Managing and monitoring MetroCluster configurations
+    url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
+    entries:
+    - title: Performance monitoring of MetroCluster configurations
+      url: "/storage-mgmt/concept_performance_monitoring_of_metrocluster.html"
+      entries:
+      - title: Volume behavior during switchover and switchback
+        url: "/storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html"
+    - title: Cluster connectivity status definitions
+      url: "/storage-mgmt/reference_cluster_connectivity_status_definitions.html"
+    - title: Data mirroring status definitions
+      url: "/storage-mgmt/reference_data_mirroring_status_definitions.html"
+    - title: Monitoring MetroCluster configurations
+      url: "/storage-mgmt/task_monitor_metrocluster_configurations.html"
+    - title: Monitoring MetroCluster replication
+      url: "/storage-mgmt/task_monitor_metrocluster_replication.html"
+  - title: Managing quotas
+    url: "/storage-mgmt/concept_manage_quotas.html"
+    entries:
+    - title: What quota limits are
+      url: "/storage-mgmt/concept_what_quota_limits_are.html"
+    - title: Viewing user and user group quotas
+      url: "/storage-mgmt/task_view_user_and_user_group_quotas.html"
+    - title: Creating rules to generate email addresses
+      url: "/storage-mgmt/task_create_rules_to_generate_email_addresses.html"
+    - title: Creating an email notification format for user and user group quotas
+      url: "/storage-mgmt/task_create_an_email_notification_format.html"
+    - title: Editing user and group quota email addresses
+      url: "/storage-mgmt/task_edit_user_and_group_quota_email_addresses.html"
+    - title: Understanding more about quotas
+      url: "/storage-mgmt/concept_understand_more_about_quotas.html"
+      entries:
+      - title: Overview of the quota process
+        url: "/storage-mgmt/concept_overview_of_quota_process_um_6_1.html"
+      - title: About quotas
+        url: "/storage-mgmt/concept_about_quotas.html"
+      - title: Why you use quotas
+        url: "/storage-mgmt/concept_why_you_use_quotas.html"
+    - title: Description of quotas dialog boxes
+      url: "/storage-mgmt/reference_description_of_quotas_dialog_boxes.html"
+      entries:
+      - title: Email Notification Format page
+        url: "/storage-mgmt/reference_email_notification_format_page.html"
+      - title: Rules to Generate User and Group Quota Email Address page
+        url: "/storage-mgmt/reference_rules_to_generate_user_and_group_quota.html"
+  - title: Troubleshooting
+    url: "/storage-mgmt/concept_troubleshooting.html"
+    entries:
+    - title: Adding disk space to the Unified Manager database directory
+      url: "/storage-mgmt/concept_add_disk_space_to_um_database_directory.html"
+      entries:
+      - title: Adding space to the data disk of the VMware virtual machine
+        url: "/storage-mgmt/task_add_space_to_data_disk_of_vmware.html"
+      - title: Adding space to the data directory of the Linux host
+        url: "/storage-mgmt/task_add_space_to_data_directory_of_um_linux_host.html"
+      - title: Adding space to the logical drive of the Microsoft Windows server
+        url: "/storage-mgmt/task_add_space_to_data_disk_of_microsoft_windows.html"
+    - title: Changing the performance statistics collection interval
+      url: "/storage-mgmt/task_change_performance_statistics_collection_interval.html"
+    - title: Changing the length of time Unified Manager retains event and performance
+        data
+      url: "/storage-mgmt/task_change_time_um_retains_event_performance_data.html"
+    - title: Unknown authentication error
+      url: "/storage-mgmt/reference_unknown_authentication_error.html"
+    - title: User not found
+      url: "/storage-mgmt/reference_user_not_found.html"
+    - title: Issue with adding LDAP using Other authentication services
+      url: "/storage-mgmt/reference_issue_with_ldap_using_other_authentication_services.html"

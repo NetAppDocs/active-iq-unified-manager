@@ -1,0 +1,12 @@
+---
+permalink: data-protection/reference_description_of_protection_relationships_window.html
+sidebar: sidebar
+keywords: description, protect, relationships, windows, dialog boxes
+summary: "You can view and manage protection-related details such as resource pools, SVM associations, and protection jobs. You can use the appropriate Health Thresholds page to configure global health threshold values for aggregates, volumes, and relationships."
+---
+= Description of Protection relationships windows and dialog boxes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view and manage protection-related details such as resource pools, SVM associations, and protection jobs. You can use the appropriate Health Thresholds page to configure global health threshold values for aggregates, volumes, and relationships.

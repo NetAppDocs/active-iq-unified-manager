@@ -1,0 +1,23 @@
+---
+permalink: performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html
+sidebar: sidebar
+keywords: workload analyzer, troubleshoot
+summary: "The workload analyzer provides a way to view important health and performance criteria for a single workload on a single page to assist in troubleshooting. By viewing all current and past events for a workload you can get a better idea why the workload may be having a performance or capacity issue now."
+---
+= Troubleshooting workloads using the workload analyzer
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The workload analyzer provides a way to view important health and performance criteria for a single workload on a single page to assist in troubleshooting. By viewing all current and past events for a workload you can get a better idea why the workload may be having a performance or capacity issue now.
+
+Using this tool can also help you determine if storage is the cause of any performance issues for an application or if the issue is caused by a networking or other related issue.
+
+You can initiate this functionality from a variety of places in the user interface:
+
+* From the Workload Analysis selection on the left-navigation menu
+* From the Event details page by clicking the *Analyze Workload* button
+* From any workload inventory page (volume, LUN, workload, NFS share, or SMB/CIFS share), by clicking the more icon image:../media/more_icon.gif[], then *Analyze Workload*
+* From the Virtual Machines page by clicking the *Analyze Workload* button from any Datastore object
+
+When you launch the tool from the left-navigation menu, you can enter the name of any workload that you want to analyze and select the time range for which you want to troubleshoot. When you launch the tool from any of the workload or virtual machine inventory pages, the name of the workload is filled in automatically, and the workload's data is presented with the default 2 hour time range. When you launch the tool from the Event details page, the name of the workload is filled in automatically, and the data of 10 days is displayed.

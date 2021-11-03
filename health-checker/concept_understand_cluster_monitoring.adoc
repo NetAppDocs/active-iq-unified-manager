@@ -1,0 +1,14 @@
+---
+permalink: health-checker/concept_understand_cluster_monitoring.html
+sidebar: sidebar
+keywords: understand, cluster, monitor
+summary: "You can add clusters to the Unified Manager database to monitor clusters for availability, capacity, and other details, such as CPU usage, interface statistics, free disk space, qtree usage, and chassis environmental."
+---
+= Understanding cluster monitoring
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add clusters to the Unified Manager database to monitor clusters for availability, capacity, and other details, such as CPU usage, interface statistics, free disk space, qtree usage, and chassis environmental.
+
+Events are generated if the status is abnormal or when a predefined threshold is breached. If configured to do so, Unified Manager sends a notification to a specified recipient when an event triggers an alert.

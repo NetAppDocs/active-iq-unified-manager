@@ -1,0 +1,46 @@
+---
+permalink: health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html
+sidebar: sidebar
+keywords: Common, unified, manager, health, workflows, tasks
+summary: "Some common administrative workflows and tasks associated with Unified Manager include selecting the storage clusters that are to be monitored; diagnosing conditions that adversely affect data availability, capacity, and protection; restoring lost data; configuring and managing volumes; and bundling and sending diagnostic data to technical support (when necessary)."
+---
+= Common Unified Manager health workflows and tasks
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Some common administrative workflows and tasks associated with Unified Manager include selecting the storage clusters that are to be monitored; diagnosing conditions that adversely affect data availability, capacity, and protection; restoring lost data; configuring and managing volumes; and bundling and sending diagnostic data to technical support (when necessary).
+
+Unified Manager enables storage administrators to view a dashboard, assess the overall capacity, availability, and protection health of the managed storage clusters, and then quickly identify, locate, diagnose, and assign for resolution any specific issues that might arise.
+
+The most important issues related to a cluster, storage virtual machine (SVM), volume, or FlexGroup volume that affect the storage capacity or data availability of your managed storage objects are displayed in the system health graphs and events on the Dashboard page. When critical issues are identified, this page provides links to support appropriate troubleshooting workflows.
+
+Unified Manager can also be included in workflows that include related manageability tools--such as OnCommand Workflow Automation (WFA)--to support the direct configuration of storage resources.
+
+Common workflows related to the following administrative tasks are described in this document:
+
+* Diagnosing and managing availability issues
++
+If hardware failure or storage resource configuration issues cause the display of data availability events in the Dashboard page, storage administrators can follow the embedded links to view connectivity information about the affected storage resource, view troubleshooting advice, and assign issue resolution to other administrators.
+
+* Configuring and monitoring performance incidents
++
+The Administrator can monitor and manage the performance of the storage system resources that are being monitored. See the link:../performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html[Active IQ Unified Manager Workflow Guide for Managing Cluster Performance] for more information.
+
+* Diagnosing and managing volume capacity issues
++
+If volume storage capacity issues are displayed in the Dashboard page, storage administrators can follow the embedded links to view the current and historical trends related to the storage capacity of the affected volume, view troubleshooting advice, and assign issue resolution to other administrators.
+
+* Configuring, monitoring, and diagnosing protection relationship issues
++
+After creating and configuring protection relationships, storage administrators can view the potential issues related to protection relationships, the current state of the protection relationships, the current and historical protection job success information about the affected relationships, and troubleshooting advice. See the link:../data-protection/concept_create_and_monitor_protection_relationships.html[Active IQ Unified Manager Protection Guide] for more information.
+
+* Creating backup files and restoring data from backup files.
+* Associating storage objects with annotations
++
+By associating storage objects with annotations, storage administrators can filter and view the events that are related to the storage objects, which enables storage administrators to prioritize and resolve the issues that are associated with the events.
+
+* Using REST APIs to help manage your clusters by viewing the health, capacity, and performance information captured by Unified Manager. See the link:../api-automation/concept_get_started_with_um_apis.html[Active IQ Unified Manager API Developer's Guide] for more information.
+* Sending a support bundle to technical support
++
+Storage administrators can retrieve and send a support bundle to technical support by using the maintenance console. Support bundles must be sent to technical support when the issue requires more detailed diagnosis and troubleshooting than what an AutoSupport message provides.

@@ -1,0 +1,56 @@
+---
+permalink: storage-mgmt/task_provision_fileshares.html
+sidebar: sidebar
+keywords: provision, file, share, volumes
+summary: "You can create file share volumes that support CIFS/SMB and NFS protocols, on an existing cluster and Storage Virtual Machine (storage VM) from the Provision Workload page."
+---
+= Provisioning file share volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create file share volumes that support CIFS/SMB and NFS protocols, on an existing cluster and Storage Virtual Machine (storage VM) from the Provision Workload page.
+
+*What you'll need*
+
+* The storage VM must have space for provisioning the file share volume.
+* Either or both of the SMB and NFS services should be enabled on your storage VM.
+* For selecting and assigning the Performance Service Level (PSL) and Storage Efficiency Policy (SEP) on the workload, the policies must have been created before you start creating the workload.
+
+.Steps
+
+. On the *Provision Workload* page, add the name of the workload that you want to create, and then select the cluster from the available list.
+. Based on the cluster that you have selected, the *STORAGE VM* field filters the available storage VMs for that cluster. Select the required storage VM from the list.
++
+Based on the SMB and NFS services supported on the storage VM, the NAS option is enabled in the Host Information section.
+
+. In the Storage and Optimization section, assign the storage capacity and PSL, and optionally, an SEP for the workload.
++
+The specifications for the SEP are assigned to the LUN and the definitions for the PSL are applied to the workload when it is created.
+
+. Select the *Enforce performance limits* check box if you want to enforce the PSL that you have assigned to the workload.
++
+Assigning a PSL to a workload ensures that the aggregate on which the workload is created can support the performance and capacity objectives defined in the respective policy. For example, if a workload is assigned "Extreme Performance "PSL, the aggregate on which the workload is to be provisioned should have the capability of supporting the performance and capacity objectives of the "Extreme Performance" policy, such as SSD storage.
++
+[NOTE]
+====
+Unless you select this check box, the PSL is not applied to the workload, and the status of the workload on the dashboard appears as unassigned.
+====
+
+. Select the *NAS* option.
++
+If you cannot see the *NAS* option enabled, verify whether the storage VM that you have selected supports either SMB or NFS, or both.
++
+[NOTE]
+====
+If your storage VM is enabled for both SMB and NFS services, you can select the *Share by NFS* and *Share by SMB* check boxes and create a file share that supports both NFS and SMB protocols. If you want to create either an SMB or a CIFS share, select only the respective check box.
+====
+
+. For NFS file share volumes, specify the IP address of the host or network to access the file share volume. You can enter comma-separated values for multiple hosts.
++
+On adding the host IP address, an internal check runs for matching the host details with the storage VM and the export policy for that host is created, or in case there is an existing policy, it is reused. If there are several NFS shares created for the same host, then an available export policy for the same host with matching rules is reused for all the files shares. The function of specifying rules of individual policies or reusing policies by providing specific policy keys is available when you provision the NFS share by using APIs.
+
+. For an SMB share, specify which users or user groups can access the SMB share and assign the required permissions. For each group of users, a new access control list (ACL) is generated during the file share creation.
+. Click *Save*.
++
+The workload is added to the list of storage workloads.

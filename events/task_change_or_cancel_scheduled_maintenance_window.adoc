@@ -1,0 +1,49 @@
+---
+permalink: events/task_change_or_cancel_scheduled_maintenance_window.html
+sidebar: sidebar
+keywords: change, cancel, scheduled, maintenance, window
+summary: "If you have configured a Unified Manager maintenance window to occur in the future, you can change the start and end times or cancel the maintenance window from occurring."
+---
+= Changing or canceling a scheduled maintenance window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you have configured a Unified Manager maintenance window to occur in the future, you can change the start and end times or cancel the maintenance window from occurring.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+Canceling a currently running maintenance window is useful if you have completed cluster maintenance before the scheduled maintenance window end time and you want to start receiving events and alerts from the cluster again.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Cluster Setup*.
+. In the *Maintenance Mode* column for the cluster:
++
+[options="header"]
+|===
+| If you want to...| Perform this step...
+a|
+Change the timeframe for a scheduled maintenance window
+a|
+
+ .. Click the text "Scheduled" next to the slider button.
+ .. Change the start and/or end date and time and click *Apply*.
+
+a|
+Extend the length of an active maintenance window
+a|
+
+ .. Click the text "Active" next to the slider button.
+ .. Change the end date and time and click *Apply*.
+
+a|
+Cancel a scheduled maintenance window
+a|
+Select the slider button and move it to the left.
+a|
+Cancel an active maintenance window
+a|
+Select the slider button and move it to the left.
+|===

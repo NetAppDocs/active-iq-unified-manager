@@ -1,0 +1,47 @@
+---
+permalink: health-checker/task_configure_netapp_snapshot_backup_from_maintenance_console.html
+sidebar: sidebar
+keywords: configure, netapp, snapshot, backup, maintenance console
+summary: "You should configure Active IQ Unified Manager backup to NetApp Snapshot backup from the maintenance console."
+---
+= Configuring NetApp Snapshot backup from maintenance console
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You should configure Active IQ Unified Manager backup to NetApp Snapshot backup from the maintenance console.
+
+*What you'll need*
+
+You should have the following details for your system:
+
+* Cluster IP address
+* Storage VM name
+* Volume name
+* LUN name
+* Mount path
+* Storage system credentials
+
+.Steps
+. Access the maintenance console of Unified Manager.
+. Enter 4 to select *Backup Restore*.
+. Enter 2 to select *Backup and Restore using NetApp Snapshot*.
++
+[NOTE]
+====
+If you want to change the backup configuration, then enter 3 for Update NetApp Snapshot Backup Configuration. You can only update the password.
+====
+
+. From the menu, enter 1 to select the *Configure NetApp Snapshot Backup*.
+. Enter 1 to provide the required information.
+. Provide the username and password for the maintenance console, and then provide the confirmation that LUN is mounted on host.
++
+The process then verifies that the data directory, LUN path, storage VM, volumes, space availability, drive, and so on provided by you are correct. The operations that proceed in the background are:
+
+ ** Services are stopped
+ ** Database directory is moved to mounted storage
+ ** Database directory is deleted and symlinks are established
+ ** Services are restarted
+After the configuration completes in the Active IQ Unified Manager interface, the backup type is modified to NetApp Snapshot and reflects in the user interface as Database backup (Snapshot based).
+
+Before beginning a backup operation, you must check whether there is any change in the Snapshot configuration because it might cause the snapshot to be invalid. Suppose you configured backup in G drive and Snapshot taken. You later reconfigured the backup to E drive and data is saved to E drive as per the new configuration. If you try to restore Snapshot taken while it was in G drive, it fails with error that G drive does not exist.

@@ -1,0 +1,47 @@
+---
+permalink: config/reference_definitions_of_user_roles.html
+sidebar: sidebar
+keywords: definitions, user roles
+summary: "The maintenance user or Application Administrator assigns a role to every user. Each role contains certain privileges. The scope of activities that you can perform in Unified Manager depends on the role you are assigned and which privileges the role contains."
+---
+= Definitions of user roles
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The maintenance user or Application Administrator assigns a role to every user. Each role contains certain privileges. The scope of activities that you can perform in Unified Manager depends on the role you are assigned and which privileges the role contains.
+
+Unified Manager includes the following predefined user roles:
+
+* *Operator*
++
+Views storage system information and other data collected by Unified Manager, including histories and capacity trends. This role enables the storage operator to view, assign, acknowledge, resolve, and add notes for the events.
+
+* *Storage Administrator*
++
+Configures storage management operations within Unified Manager. This role enables the storage administrator to configure thresholds and to create alerts and other storage management-specific options and policies.
+
+* *Application Administrator*
++
+Configures settings unrelated to storage management. This role enables the management of users, security certificates, database access, and administrative options, including authentication, SMTP, networking, and AutoSupport.
++
+[NOTE]
+====
+When Unified Manager is installed on Linux systems, the initial user with the Application Administrator role is automatically named "`umadmin`".
+====
+
+* *Integration Schema*
++
+This role enables read-only access to Unified Manager database views for integrating Unified Manager with OnCommand Workflow Automation (WFA).
+
+* *Report Schema*
++
+This role enables read-only access to reporting and other database views directly from the Unified Manager database. The databases that can be viewed include:
+
+ ** netapp_model_view
+ ** netapp_performance
+ ** ocum
+ ** ocum_report
+ ** ocum_report_birt
+ ** opm
+ ** scalemonitor

@@ -1,0 +1,47 @@
+---
+permalink: api-automation/concept_rest_services_offered_in_unified_manager_apis.html
+sidebar: sidebar
+keywords: rest, services, offer, active iq, unified, manager
+summary: "You should be aware of the REST services and operations offered, before you start using the Active IQ Unified Manager APIs."
+---
+= REST services offered in Active IQ Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You should be aware of the REST services and operations offered, before you start using the Active IQ Unified Manager APIs.
+
+The provisioning and administrative APIs that are used for configuring the API server support the read (GET) or write (POST, PATCH, DELETE) operations. The following are some examples of the GET, PATCH, POST, and DELETE operations that are supported by the APIs:
+
+* Example for GET: `GET /datacenter/cluster/clusters` retrieves cluster details in your data center. The maximum number of records that is returned by the `GET` operation is 1000.
++
+[NOTE]
+====
+The APIs enable you to filter, sort, and order the records by supported attributes.
+====
+
+* Example for POST: `POST /datacenter/svm/svms` creates a custom Storage Virtual Machine (SVM).
+* Example for PATCH: `PATCH /datacenter/svm/svms/\{key}` modifies the properties of an SVM, using its unique key.
+* Example for DELETE: `DELETE /storage-provider/access-endpoints/\{key}` deletes an access endpoint from a LUN, SVM, or file share by using its unique key.
+
+The REST operations that can be performed by using the APIs depend on the role of the Operator, Storage Administrator, or Application Administrator user.
+[cols="2*",options="header"]
+|===
+| User role| Supported REST method
+a|
+Operator
+a|
+Read-only access to data. Users with this role can run all GET requests.
+a|
+Storage Administrator
+a|
+Read access to all data. Users with this role can run all GET requests.
+
+Additionally, they have write access (to run PATCH, POST, and DELETE requests) to perform specific activities, such as managing, storage service objects, and storage management options.
+
+a|
+Application Administrator
+a|
+Read and write access to all data. Users with this role can run GET, PATCH, POST, and DELETE requests for all functions.
+|===
+For more information about all the REST operations, see the _Online API documentation_.

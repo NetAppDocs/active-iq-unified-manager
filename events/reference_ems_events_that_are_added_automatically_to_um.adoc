@@ -1,0 +1,418 @@
+---
+permalink: events/reference_ems_events_that_are_added_automatically_to_um.html
+sidebar: sidebar
+keywords: ems events, added, automatically, unified manager
+summary: "The following ONTAP EMS events are added automatically to Unified Manager. These events will be generated when triggered on any cluster that Unified Manager is monitoring."
+---
+= EMS events that are added automatically to Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following ONTAP EMS events are added automatically to Unified Manager. These events will be generated when triggered on any cluster that Unified Manager is monitoring.
+
+The following EMS events are available when monitoring clusters running ONTAP 9.5 or greater software:
+[options="header"]
+|===
+| Unified Manager Event name| EMS Event name| Affected resource| Unified Manager severity
+a|
+Cloud Tier Access Denied for Aggregate Relocation
+a|
+arl.netra.ca.check.failed
+a|
+Aggregate
+a|
+Error
+a|
+Cloud Tier Access Denied for Aggregate Relocation During Storage Failover
+a|
+gb.netra.ca.check.failed
+a|
+Aggregate
+a|
+Error
+a|
+FabricPool Mirror Replication Resync Completed
+a|
+wafl.ca.resync.complete
+a|
+Cluster
+a|
+Error
+a|
+FabricPool Space Nearly Full
+a|
+fabricpool.nearly.full
+a|
+Cluster
+a|
+Error
+a|
+NVMe-oF Grace Period Started
+a|
+nvmf.graceperiod.start
+a|
+Cluster
+a|
+Warning
+a|
+NVMe-oF Grace Period Active
+a|
+nvmf.graceperiod.active
+a|
+Cluster
+a|
+Warning
+a|
+NVMe-oF Grace Period Expired
+a|
+nvmf.graceperiod.expired
+a|
+Cluster
+a|
+Warning
+a|
+LUN Destroyed
+a|
+lun.destroy
+a|
+LUN
+a|
+Information
+a|
+Cloud AWS MetaDataConnFail
+a|
+cloud.aws.metadataConnFail
+a|
+Node
+a|
+Error
+a|
+Cloud AWS IAMCredsExpired
+a|
+cloud.aws.iamCredsExpired
+a|
+Node
+a|
+Error
+a|
+Cloud AWS IAMCredsInvalid
+a|
+cloud.aws.iamCredsInvalid
+a|
+Node
+a|
+Error
+a|
+Cloud AWS IAMCredsNotFound
+a|
+cloud.aws.iamCredsNotFound
+a|
+Node
+a|
+Error
+a|
+Cloud AWS IAMCredsNotInitialized
+a|
+cloud.aws.iamNotInitialized
+a|
+Node
+a|
+Information
+a|
+Cloud AWS IAMRoleInvalid
+a|
+cloud.aws.iamRoleInvalid
+a|
+Node
+a|
+Error
+a|
+Cloud AWS IAMRoleNotFound
+a|
+cloud.aws.iamRoleNotFound
+a|
+Node
+a|
+Error
+a|
+Cloud Tier Host Unresolvable
+a|
+objstore.host.unresolvable
+a|
+Node
+a|
+Error
+a|
+Cloud Tier Intercluster LIF Down
+a|
+objstore.interclusterlifDown
+a|
+Node
+a|
+Error
+a|
+Request Mismatch Cloud Tier Signature
+a|
+osc.signatureMismatch
+a|
+Node
+a|
+Error
+a|
+One of NFSv4 Pools Exhausted
+a|
+Nblade.nfsV4PoolExhaust
+a|
+Node
+a|
+Critical
+a|
+QoS Monitor Memory Maxed
+a|
+qos.monitor.memory.maxed
+a|
+Node
+a|
+Error
+a|
+QoS Monitor Memory Abated
+a|
+qos.monitor.memory.abated
+a|
+Node
+a|
+Information
+a|
+NVMeNS Destroy
+a|
+NVMeNS.destroy
+a|
+Namespace
+a|
+Information
+a|
+NVMeNS Online
+a|
+NVMeNS.offline
+a|
+Namespace
+a|
+Information
+a|
+NVMeNS Offline
+a|
+NVMeNS.online
+a|
+Namespace
+a|
+Information
+a|
+NVMeNS Out of Space
+a|
+NVMeNS.out.of.space
+a|
+Namespace
+a|
+Warning
+a|
+Synchronous Replication Out Of Sync
+a|
+sms.status.out.of.sync
+a|
+SnapMirror relationship
+a|
+Warning
+a|
+Synchronous Replication Restored
+a|
+sms.status.in.sync
+a|
+SnapMirror relationship
+a|
+Information
+a|
+Synchronous Replication Auto Resync Failed
+a|
+sms.resync.attempt.failed
+a|
+SnapMirror relationship
+a|
+Error
+a|
+Many CIFS Connections
+a|
+Nblade.cifsManyAuths
+a|
+SVM
+a|
+Error
+a|
+Max CIFS Connection Exceeded
+a|
+Nblade.cifsMaxOpenSameFile
+a|
+SVM
+a|
+Error
+a|
+Max Number of CIFS Connection Per User Exceeded
+a|
+Nblade.cifsMaxSessPerUsrConn
+a|
+SVM
+a|
+Error
+a|
+CIFS NetBIOS Name Conflict
+a|
+Nblade.cifsNbNameConflict
+a|
+SVM
+a|
+Error
+a|
+Attempts to Connect Nonexistent CIFS Share
+a|
+Nblade.cifsNoPrivShare
+a|
+SVM
+a|
+Critical
+a|
+CIFS Shadow Copy Operation Failed
+a|
+cifs.shadowcopy.failure
+a|
+SVM
+a|
+Error
+a|
+Virus Found By AV Server
+a|
+Nblade.vscanVirusDetected
+a|
+SVM
+a|
+Error
+a|
+No AV Server Connection for Virus Scan
+a|
+Nblade.vscanNoScannerConn
+a|
+SVM
+a|
+Critical
+a|
+No AV Server Registered
+a|
+Nblade.vscanNoRegdScanner
+a|
+SVM
+a|
+Error
+a|
+No Responsive AV Server Connection
+a|
+Nblade.vscanConnInactive
+a|
+SVM
+a|
+Information
+a|
+AV Server too Busy to Accept New Scan Request
+a|
+Nblade.vscanConnBackPressure
+a|
+SVM
+a|
+Error
+a|
+Unauthorized User Attempt to AV Server
+a|
+Nblade.vscanBadUserPrivAccess
+a|
+SVM
+a|
+Error
+a|
+FlexGroup Constituents Have Space Issues
+a|
+flexgroup.constituents.have.space.issues
+a|
+Volume
+a|
+Error
+a|
+FlexGroup Constituents Space Status All OK
+a|
+flexgroup.constituents.space.status.all.ok
+a|
+Volume
+a|
+Information
+a|
+FlexGroup Constituents Have Inodes Issues
+a|
+flexgroup.constituents.have.inodes.issues
+a|
+Volume
+a|
+Error
+a|
+FlexGroup Constituents Inodes Status All OK
+a|
+flexgroup.constituents.inodes.status.all.ok
+a|
+Volume
+a|
+Information
+a|
+Volume Logical Space Nearly Full
+a|
+monitor.vol.nearFull.inc.sav
+a|
+Volume
+a|
+Warning
+a|
+Volume Logical Space Full
+a|
+monitor.vol.full.inc.sav
+a|
+Volume
+a|
+Error
+a|
+Volume Logical Space Normal
+a|
+monitor.vol.one.ok.inc.sav
+a|
+Volume
+a|
+Information
+a|
+WAFL Volume AutoSize Fail
+a|
+wafl.vol.autoSize.fail
+a|
+Volume
+a|
+Error
+a|
+WAFL Volume AutoSize Done
+a|
+wafl.vol.autoSize.done
+a|
+Volume
+a|
+Information
+a|
+WAFL READDIR File Operation Timeout
+a|
+wafl.readdir.expired
+a|
+Volume
+a|
+Error
+|===

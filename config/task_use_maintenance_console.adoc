@@ -1,0 +1,12 @@
+---
+permalink: config/task_use_maintenance_console.html
+sidebar: sidebar
+keywords: use, maintenance, console
+summary: "You can use the maintenance console to configure network settings, to configure and manage the system on which Unified Manager is installed, and to perform other maintenance tasks that help you prevent and troubleshoot possible issues."
+---
+= Using the maintenance console
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the maintenance console to configure network settings, to configure and manage the system on which Unified Manager is installed, and to perform other maintenance tasks that help you prevent and troubleshoot possible issues.

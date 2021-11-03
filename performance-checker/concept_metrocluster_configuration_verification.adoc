@@ -1,0 +1,23 @@
+---
+permalink: performance-checker/concept_metrocluster_configuration_verification.html
+sidebar: sidebar
+keywords: metrocluster, configuration, verification
+summary: "You can prevent performance issues for mirrored workloads in a MetroCluster configuration by ensuring that the MetroCluster configuration is set up correctly. You can also improve workload performance by changing the configuration or upgrading software or hardware components."
+---
+= MetroCluster configuration verification
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can prevent performance issues for mirrored workloads in a MetroCluster configuration by ensuring that the MetroCluster configuration is set up correctly. You can also improve workload performance by changing the configuration or upgrading software or hardware components.
+
+The _MetroCluster Installation and Configuration Guide_ provides instructions for setting up the clusters in the MetroCluster configuration, including the Fibre Channel (FC) switches, cables, and inter-switch links (ISLs). It also helps you configure the MetroCluster software so that the local and remote clusters can communicate with mirror volume data.
+
+You can compare your MetroCluster configuration to the requirements in the _MetroCluster Installation and Configuration Guide_ to determine whether changing or upgrading components in your MetroCluster configuration might improve workload performance. This comparison can help you answer the following questions:
+
+* Are the controllers appropriate for your workloads?
+* Do you need to upgrade your ISL bundles to a larger bandwidth to handle more throughput?
+* Can you adjust the buffer-to-buffer credits (BBC) on your switches to increase the bandwidth?
+* If your workloads have high write throughput to solid state drive (SSD) storage, do you need to upgrade your FC-to-SAS bridges to accommodate the throughput?
+
+For information about replacing or upgrading MetroCluster components, see the _MetroCluster Service Guide_.

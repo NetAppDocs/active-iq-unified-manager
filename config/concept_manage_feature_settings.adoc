@@ -1,0 +1,19 @@
+---
+permalink: config/concept_manage_feature_settings.html
+sidebar: sidebar
+keywords: uploading scripts, api gateway, slo or policy-based storage management, timeout, active iq platform events
+summary: "The Feature Settings page allows you to enable and disable specific features in Active IQ Unified Manager. This includes creating and managing storage objects based on policies, enabling the API Gateway, uploading scripts for managing alerts, timing out a web UI session based on inactivity time, and disabling receipt of Active IQ platform events."
+---
+= Managing feature settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Feature Settings page allows you to enable and disable specific features in Active IQ Unified Manager. This includes creating and managing storage objects based on policies, enabling the API Gateway and Login Banner, uploading scripts for managing alerts, timing out a web UI session based on inactivity time, and disabling receipt of Active IQ platform events.
+
+[NOTE]
+====
+The Feature Settings page is only available for users with Application Administrator role.
+====
+
+For information about Scripts Upload, see link:task_enable_and_disable_ability_to_upload_scripts.html[Enabling and disabling scripts upload].

@@ -1,0 +1,81 @@
+---
+permalink: api-automation/concept_manage_sep.html
+sidebar: sidebar
+keywords: manage, storage, efficiency, policy
+summary: "You can view, create, modify, and delete Storage Efficiency Policies by using the storage provider APIs."
+---
+= Managing Storage Efficiency Policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view, create, modify, and delete Storage Efficiency Policies by using the storage provider APIs.
+
+[NOTE]
+====
+Note the following points:
+
+* It is not mandatory to assign a Storage Efficiency Policy while creating a workload on Unified Manager.
+* You cannot unassign a Storage Efficiency Policy from a workload after a policy is assigned to it.
+* If a workload has some storage settings specified on ONTAP volumes, such as deduplication and compression, those settings can be overwritten by the settings specified in the Storage Efficiency Policy that you apply when you add the storage workloads on Unified Manager.
+
+====
+
+== View Storage Efficiency Policies
+
+You can use the following method to view the Storage Efficiency Policies before assigning them to storage workloads. This API lists all of the system-defined and user-created Storage Efficiency Policies, and retrieves the attributes of all of the Storage Efficiency Policies. If you want to query a specific Storage Efficiency Policy, you need to enter the unique ID of the policy to retrieve its details.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/storage-efficiency-policies`
+
+`/storage-provider/storage-efficiency-policies/\{key}`
+
+|===
+
+== Add Storage Efficiency Policies
+
+You can use the following method to create custom Storage Efficiency Policies, and assign them to your storage workloads if the system-defined policies do not meet the provisioning requirements for your storage workloads. Enter the details of the Storage Efficiency Policy that you want to create, as input parameters.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+POST
+a|
+`/storage-provider/storage-efficiency-policies`
+|===
+
+== Delete Storage Efficiency Policies
+
+You can use the following method to delete a specific Storage Efficiency Policy. You cannot delete a Storage Efficiency Policy if it is assigned to a workload, or if it is the only available Storage Efficiency Policy. You need to provide the unique ID of the Storage Efficiency Policy as an input parameter to delete a particular Storage Efficiency Policy.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+DELETE
+a|
+`/storage-provider/storage-efficiency-policies/\{key}`
+|===
+
+== Modify Storage Efficiency Policies
+
+You can use the following method to modify a Storage Efficiency Policy and update its properties. You cannot modify a Storage Efficiency Policy that is system-defined or is assigned to a workload. You need to provide the unique ID of the Storage Efficiency Policy to modify a particular Storage Efficiency Policy. Additionally, you need to provide the property that you want to update, along with its value.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+PATCH
+a|
+`/storage-provider/storage-efficiency-policies/\{key}`
+|===

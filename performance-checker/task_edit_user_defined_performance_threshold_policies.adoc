@@ -1,0 +1,35 @@
+---
+permalink: performance-checker/task_edit_user_defined_performance_threshold_policies.html
+sidebar: sidebar
+keywords: edit, user-defined, performance, threshold, policies
+summary: "You can edit the threshold settings for existing performance threshold policies. This can be useful if you find that you are receiving too many or too few alerts for certain threshold conditions."
+---
+= Editing user-defined performance threshold policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit the threshold settings for existing performance threshold policies. This can be useful if you find that you are receiving too many or too few alerts for certain threshold conditions.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+You cannot change the policy name or the type of storage object that is being monitored for existing threshold policies.
+
+.Steps
+. In the left navigation pane, select *Event Thresholds* > *Performance*.
++
+The Performance Thresholds page displays.
+
+. Select the threshold policy that you want to change and click *Edit*.
++
+The Edit Performance Threshold Policy page is displayed.
+
+. Make your changes to the threshold policy and click *Save*.
++
+You are returned to the Performance Thresholds page.
+
+After they are saved, changes are updated immediately on all storage objects that use the policy.
+
+Depending on the type of changes that you made to the policy, you may want to review the alert settings configured for the objects that use the policy in the Alert Setup page.

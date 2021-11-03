@@ -1,0 +1,26 @@
+---
+permalink: config/task_access_maintenance_console_using_vsphere.html
+sidebar: sidebar
+keywords: access, maintenance, console, using, vsphere, vm console
+summary: "If the Unified Manager user interface is not in operation, or if you need to perform functions that are not available in the user interface, you can access the maintenance console to reconfigure your virtual appliance."
+---
+= Accessing the maintenance console using the vSphere VM console
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If the Unified Manager user interface is not in operation, or if you need to perform functions that are not available in the user interface, you can access the maintenance console to reconfigure your virtual appliance.
+
+*What you'll need*
+
+* You must be the maintenance user.
+* The virtual appliance must be powered on to access the maintenance console.
+
+.Steps
+
+. In vSphere Client, locate the Unified Manager virtual appliance.
+. Click the *Console* tab.
+. Click inside the console window to log in.
+. Log in to the maintenance console using your user name and password.
++
+After 15 minutes of inactivity, the maintenance console logs you out.

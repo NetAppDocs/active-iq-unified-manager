@@ -1,0 +1,46 @@
+---
+permalink: data-protection/task_resynchronize_protection_relationships.html
+sidebar: sidebar
+keywords: resynchronize, protection, relationships, volume, relationships page
+summary: "From the Volume Relationships page, you can resynchronize a relationship either to recover from an event that disabled your source volume or when you want to change the current source to a different volume."
+---
+= Resynchronizing protection relationships from the Volume Relationships page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Volume Relationships page, you can resynchronize a relationship either to recover from an event that disabled your source volume or when you want to change the current source to a different volume.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+
+.Steps
+
+. From the *Volume Relationships* page, select one or more volumes with quiesced relationships and, from the toolbar, click *Resynchronize*.
++
+The Resynchronize dialog box is displayed.
+
+. In the *Resynchronization Options* tab, select a transfer priority and the maximum transfer rate.
+. Click *Source Snapshot Copies*; then, in the *Snapshot Copy* column, click *Default*.
++
+The Select Source Snapshot Copy dialog box is displayed.
+
+. If you want to specify an existing Snapshot copy rather than transferring the default Snapshot copy, click *Existing Snapshot Copy* and select a Snapshot copy from the list.
+. Click *Submit*.
++
+You are returned to the Resynchronize dialog box.
+
+. If you selected more than one source to resynchronize, click *Default* for the next source for which you want to specify an existing Snapshot copy.
+. Click *Submit* to begin the resynchronization job.
++
+The resynchronization job is started, you are returned to the Volume Relationships page, and a jobs link is displayed at the top of the page.
+
+.  *Optional:* Click *View Jobs* on the *Volume Relationships* page to track the status of each resynchronization job.
++
+A filtered list of jobs is displayed.
+
+.  *Optional:* Click the *Back* arrow on your browser to return to the *Volume Relationships* page.
++
+The resynchronization operation is finished when all job tasks successfully finish.

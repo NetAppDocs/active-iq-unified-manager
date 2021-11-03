@@ -1,0 +1,31 @@
+---
+permalink: health-checker/concept_what_database_restore_is.html
+sidebar: sidebar
+keywords: unified manager, database, restore
+summary: "A MySQL database restore is the process of restoring an existing Unified Manager backup file to the same or a different Unified Manager server. You perform the restore operation from the Unified Manager maintenance console."
+---
+= What a database restore is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A MySQL database restore is the process of restoring an existing Unified Manager backup file to the same or a different Unified Manager server. You perform the restore operation from the Unified Manager maintenance console.
+
+If you are performing a restore operation on the same (local) system, and the backup files are all stored locally, you can run the restore option using the default location. If you are performing a restore operation on a different Unified Manager system (a remote system), you must copy the backup file, or files, from secondary storage to the local disk before running the restore option.
+
+During the restore process, you are logged out of Unified Manager. You can log in to the system after the restore process is complete.
+
+If you are restoring the backup image to a new server, after the restore operation completes you need to generate a new HTTPS security certificate and restart the Unified Manager server. You will also need to reconfigure SAML authentication settings, if they are required, when restoring the backup image to a new server.
+
+[NOTE]
+====
+Old backup files cannot be used to restore an image after Unified Manager has been upgraded to a newer version of software. To save space, all old backup files, except the newest file, are removed automatically when you upgrade Unified Manager.
+====
+
+*Related information*
+
+link:../config/task_generate_an_https_security_certificate_ocf.html[Generating an HTTPS security certificate]
+
+link:../config/task_enable_saml_authentication_um.html[Enabling SAML authentication]
+
+link:..//config/concept_authentication_with_active_directory_or_openldap.html[Authentication with Active Directory or OpenLDAP]

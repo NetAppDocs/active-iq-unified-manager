@@ -1,0 +1,332 @@
+---
+permalink: events/reference_node_events.html
+sidebar: sidebar
+keywords: node, events, impact area, availability, capacity, configuration, performance, security
+summary: "Node events provide you with information about node status so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= Node events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Node events provide you with information about node status so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Node Root Volume Space Nearly Full(ocumEvtClusterNodeRootVolumeSpaceNearlyFull)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+a|
+Cloud AWS MetaDataConnFail *(ocumCloudAwsMetadataConnFail)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+Cloud AWS IAMCredsExpired *(ocumCloudAwsIamCredsExpired)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+Cloud AWS IAMCredsInvalid *(ocumCloudAwsIamCredsInvalid)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+Cloud AWS IAMCredsNotFound *(ocumCloudAwsIamCredsNotFound)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+Cloud AWS IAMCredsNotInitialized *(ocumCloudAwsIamCredsNotInitialized)
+
+a|
+Event
+a|
+Node
+a|
+Information
+a|
+Cloud AWS IAMRoleInvalid *(ocumCloudAwsIamRoleInvalid)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+Cloud AWS IAMRoleNotFound *(ocumCloudAwsIamRoleNotFound)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+Cloud Tier Host Unresolvable *(ocumObjstoreHostUnresolvable)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+Cloud Tier Intercluster LIF Down *(ocumObjstoreInterClusterLifDown)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+One of NFSv4 Pools Exhausted *(nbladeNfsv4PoolEXhaust)
+
+a|
+Incident
+a|
+Node
+a|
+Critical
+a|
+Request Mismatch Cloud Tier Signature *(oscSignatureMismatch)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+|===
+
+== Impact area: capacity
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+QoS Monitor Memory Maxed *(ocumQosMonitorMemoryMaxed)
+
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+QoS Monitor Memory Abated *(ocumQosMonitorMemoryAbated)
+
+a|
+Event
+a|
+Node
+a|
+Information
+|===
+
+== Impact area: configuration
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Node Renamed(Not applicable)
+
+a|
+Event
+a|
+Node
+a|
+Information
+|===
+
+== Impact area: performance
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Node IOPS Critical Threshold Breached(ocumNodeIopsIncident)
+
+a|
+Incident
+a|
+Node
+a|
+Critical
+a|
+Node IOPS Warning Threshold Breached(ocumNodeIopsWarning)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+a|
+Node MB/s Critical Threshold Breached(ocumNodeMbpsIncident)
+
+a|
+Incident
+a|
+Node
+a|
+Critical
+a|
+Node MB/s Warning Threshold Breached(ocumNodeMbpsWarning)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+a|
+Node Latency ms/op Critical Threshold Breached(ocumNodeLatencyIncident)
+
+a|
+Incident
+a|
+Node
+a|
+Critical
+a|
+Node Latency ms/op Warning Threshold Breached(ocumNodeLatencyWarning)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+a|
+Node Performance Capacity Used Critical Threshold Breached(ocumNodePerfCapacityUsedIncident)
+
+a|
+Incident
+a|
+Node
+a|
+Critical
+a|
+Node Performance Capacity Used Warning Threshold Breached(ocumNodePerfCapacityUsedWarning)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+a|
+Node Performance Capacity Used - Takeover Critical Threshold Breached(ocumNodePerfCapacityUsedTakeoverIncident)
+
+a|
+Incident
+a|
+Node
+a|
+Critical
+a|
+Node Performance Capacity Used - Takeover Warning Threshold Breached(ocumNodePerfCapacityUsedTakeoverWarning)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+a|
+Node Utilization Critical Threshold Breached (ocumNodeUtilizationIncident)
+
+a|
+Incident
+a|
+Node
+a|
+Critical
+a|
+Node Utilization Warning Threshold Breached (ocumNodeUtilizationWarning)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+a|
+Node HA Pair Over-utilized Threshold Breached (ocumNodeHaPairOverUtilizedInformation)
+
+a|
+Event
+a|
+Node
+a|
+Information
+a|
+Node Disk Fragmentation Threshold Breached (ocumNodeDiskFragmentationWarning)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+a|
+Performance Capacity Used Threshold Breached (ocumNodeOverUtilizedWarning)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+a|
+Node Dynamic Threshold Breached (ocumNodeDynamicEventWarning)
+
+a|
+Risk
+a|
+Node
+a|
+Warning
+|===
+
+== Impact area: security
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Advisory ID: NTAP-<__advisory ID__>(ocumx)
+
+a|
+Risk
+a|
+Node
+a|
+Critical
+|===

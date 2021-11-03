@@ -1,0 +1,116 @@
+---
+permalink: api-automation/concept_verify_svm_workflow.html
+sidebar: sidebar
+keywords: verify, svms, clusters
+summary: "Before provisioning file shares or LUNs, you must verify whether the clusters have Storage Virtual Machines (SVMs) created on them."
+---
+= Verifying SVMs on clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before provisioning file shares or LUNs, you must verify whether the clusters have Storage Virtual Machines (SVMs) created on them.
+
+[NOTE]
+====
+The workflow assumes that ONTAP clusters to have been added to Unified Manager, and the cluster key has been obtained. Clusters should have the required licenses for provisioning LUNs and file shares on them.
+====
+
+. Verify whether the cluster has an SVM created.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+datacenter
+a|
+GET
+a|
+`/datacenter/svm/svms`
+`/datacenter/svm/svms/\{key}`
+|===
+*Sample cURL*
++
+----
+curl -X GET "https://<hostname>/api/datacenter/svm/svms" -H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+
+. If the SVM key is not returned, then create the SVM. For creating the SVMs, you require the cluster key on which you provision the SVM. You also need to specify the SVM name. Follow these steps.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+datacenter
+a|
+GET
+a|
+`/datacenter/cluster/clusters`
+`/datacenter/cluster/clusters/\{key}`
+|===
+Get the cluster key.
++
+*Sample cURL*
++
+----
+curl -X GET "https://<hostname>/api/datacenter/cluster/clusters" -H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+
+. From the output, get the cluster key, and then use it as an input for creating the SVM.
++
+[NOTE]
+====
+While creating the SVM, ensure that it supports all the protocols required for provisioning LUNs and file shares on them, for example, CIFS, NFS, FCP, and iSCSI. The provisioning workflows might fail if the SVM does not support the required services. It is recommended that the services for the respective types of workloads are also enabled on the SVM.
+====
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+datacenter
+a|
+POST
+a|
+`/datacenter/svm/svms`
+|===
+*Sample cURL*
++
+Enter the SVM object details as input parameters.
++
+----
+curl -X POST "https://<hostname>/api/datacenter/svm/svms" -H "accept: application/json" -H "Content-Type: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" "{ \"aggregates\": [ { \"_links\": {}, \"key\": \"1cd8a442-86d1,type=objecttype,uuid=1cd8a442-86d1-11e0-ae1c-9876567890123\",
+\"name\": \"cluster2\", \"uuid\": \"02c9e252-41be-11e9-81d5-00a0986138f7\" } ],
+\"cifs\": { \"ad_domain\": { \"fqdn\": \"string\", \"password\": \"string\",
+\"user\": \"string\" }, \"enabled\": true, \"name\": \"CIFS1\" },
+\"cluster\": { \"key\": \"1cd8a442-86d1-11e0-ae1c-123478563412,type=object type,uuid=1cd8a442-86d1-11e0-ae1c-9876567890123\" },
+\"dns\": { \"domains\": [ \"example.com\", \"example2.example3.com\" ],
+\"servers\": [ \"10.224.65.20\", \"2001:db08:a0b:12f0::1\" ] },
+\"fcp\": { \"enabled\": true }, \"ip_interface\": [ { \"enabled\": true,
+\"ip\": { \"address\": \"10.10.10.7\", \"netmask\": \"24\" },
+\"location\": { \"home_node\": { \"name\": \"node1\" } }, \"name\":
+\"dataLif1\" } ], \"ipspace\": { \"name\": \"exchange\" },
+\"iscsi\": { \"enabled\": true }, \"language\": \"c.utf_8\",
+\"ldap\": { \"ad_domain\": \"string\", \"base_dn\": \"string\",
+\"bind_dn\": \"string\", \"enabled\": true, \"servers\": [ \"string\" ] },
+\"name\": \"svm1\", \"nfs\": { \"enabled\": true },
+\"nis\": { \"domain\": \"string\", \"enabled\": true,
+\"servers\": [ \"string\" ] }, \"nvme\": { \"enabled\": true },
+\"routes\": [ { \"destination\": { \"address\": \"10.10.10.7\",
+\"netmask\": \"24\" }, \"gateway\": \"string\" } ],
+\"snapshot_policy\": { \"name\": \"default\" },
+\"state\": \"running\", \"subtype\": \"default\"}"
+----
+The JSON output displays a Job object key that you can use to verify the SVM that you created.
+
+. Verify the SVM creation by using the job object key for query. If the SVM is created successfully, the SVM key is returned in the response.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+management-server
+a|
+GET
+a|
+`/management-server/jobs/\{key}`
+|===

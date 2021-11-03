@@ -1,0 +1,222 @@
+---
+permalink: storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html
+sidebar: sidebar
+keywords: ontap issues, fix it action, automatic remediation feature, remediation events, fix-it messages, fix-it events
+summary: "This table describes the ONTAP issues that Unified Manager can resolve directly from the Unified Manager user interface by clicking the Fix It or Fix All button."
+---
+= What issues can Unified Manager fix
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+By using the automatic remediation feature of Active IQ Unified Manager, you can choose to resolve certain ONTAP issues or manage certain ONTAP features, such as anti-ransomware monitoring, effectively through Unified Manager.
+
+This table describes these ONTAP issues or features that you can manage directly through the *Fix It* or *Fix All* button on the Unified Manager web UI.
+
+[options="header"]
+|===
+| Event Name and Description| Management Action| "Fix It" Operation
+a|
+Volume Space Full
+
+The volume is almost out of space and it has breached the capacity full threshold. This threshold is set by default to 90% of the volume size.
+
+a|
+Enable volume autogrow
+a|
+Unified Manager determines that volume autogrow is not configured for this volume, so it enables this feature so the volume will grow in capacity when needed.
+a|
+Inodes Full
+
+This volume has run out of inodes and cannot accept any new files.
+
+a|
+Increase number of inodes on volume
+a|
+Increases the number of inodes on the volume by 2 percent.
+a|
+Storage Tier Policy Mismatch Detected
+
+The volume has lots of inactive data and the current tiering policy is set to "snapshot-only" or "none".
+
+a|
+Enable automatic cloud tiering
+a|
+Since the volume already resides on a FabricPool, it changes the tiering policy to "auto" so that inactive data is moved to the lower cost cloud tier.
+a|
+Storage Tier Mismatch Detected
+
+The volume has lots of inactive data, but it does not reside on a cloud-enabled storage tier (FabricPool).
+
+a|
+Change volumes' storage tier
+a|
+Moves the volume to cloud-enabled storage tier and sets the tiering policy to "auto" to move inactive data to the cloud tier.
+a|
+Audit Log Disabled
+
+The audit log is not enabled for the storage VM
+
+a|
+Enable audit logging for the storage VM
+a|
+Enables audit logging on the storage VM.
+
+Note that the storage VM must already have either a local or remote audit log location configured.
+
+a|
+Login Banner Disabled
+
+The login banner for the cluster should be enabled to increase security by making access restrictions clear.
+
+a|
+Set login banner for the cluster
+a|
+Sets the cluster login banner to "`Access restricted to authorized users`".
+a|
+Login Banner Disabled
+
+The login banner for the storage VM should be enabled to increase security by making access restrictions clear.
+
+a|
+Set login banner for the storage VM
+a|
+Sets the storage VM login banner to "Access restricted to authorized users".
+a|
+SSH is Using Insecure Ciphers
+
+Ciphers with the suffix "-cbc" are considered insecure.
+
+a|
+Remove insecure ciphers from the cluster
+a|
+Removes the insecure ciphers -- such as aes192-cbc and aes128-cbc -- from the cluster.
+a|
+SSH is Using Insecure Ciphers
+
+Ciphers with the suffix "-cbc" are considered insecure.
+
+a|
+Remove insecure ciphers from the storage VM
+a|
+Removes the insecure ciphers -- such as aes192-cbc and aes128-cbc -- from the storage VM.
+a|
+AutoSupport HTTPS transport disabled
+
+The transport protocol used to send AutoSupport messages to technical support should be encrypted.
+
+a|
+Set HTTPS as the transport protocol for AutoSupport messages
+a|
+Sets HTTPS as the transport protocol for AutoSupport messages on the cluster.
+a|
+Cluster Load Imbalance Threshold Breached
+
+Indicates that the load is imbalanced among the nodes in the cluster. This event is generated when the performance capacity used variance is more than 30% between nodes.
+
+a|
+Balance cluster workloads
+a|
+Unified Manager identifies the best volume to move from one node to the other to reduce the imbalance, and then moves the volume.
+a|
+Cluster Capacity Imbalance Threshold Breached
+
+Indicates that the capacity is imbalanced among the aggregates in the cluster. This event is generated when the used capacity variance is more than 70% between aggregates.
+
+a|
+Balance cluster capacity
+a|
+Unified Manager identifies the best volume to move from one aggregate to another to reduce the imbalance, and then moves the volume.
+a|
+Performance Capacity Used Threshold Breached
+
+Indicates that the load on the node could become over utilized if you don't reduce the utilization by one or more highly active workloads. This event is generated when the node performance capacity used value is more than 100% for more than 12 hours.
+
+a|
+Limit high load on node
+a|
+Unified Manager identifies the volume with the highest IOPS and it applies a QoS policy using the historical expected and peak IOPS levels to reduce the load on the node.
+a|
+Dynamic Event Warning Threshold Breached
+
+Indicates that the node is already operating in an overloaded state due to the abnormally high load of some of the workloads.
+
+a|
+Reduce overload in node
+a|
+Unified Manager identifies the volume with the highest IOPS and it applies a QoS policy using the historical expected and peak IOPS levels to reduce the load on the node.
+a|
+Takeover is not possible
+
+Failover is currently disabled, so access to the node's resources during an outage or reboot would be lost until the node became available again.
+
+a|
+Enable node failover
+a|
+Unified Manager sends the appropriate command to enable failover on all nodes in the cluster.
+a|
+Option Cf.takeover.on_panic is Configured OFF
+
+The nodeshell option "cf.takeover.on_panic" is set to *off*, which could cause an issue on HA-configured systems.
+
+a|
+Enable takeover on panic
+a|
+Unified Manager sends the appropriate command to the cluster to change this setting to *on*.
+a|
+Disable nodeshell option snapmirror.enable
+
+The old nodeshell option "snapmirror.enable" is set to *on*, which could cause an issue during boot after upgrading to ONTAP 9.3 or greater.
+
+a|
+Set snapmirror.enable option to off
+a|
+Unified Manager sends the appropriate command to the cluster to change this setting to *off*.
+a|
+Telnet enabled
+
+Indicates a potential security issue because Telnet is insecure and passes data in an unencrypted manner.
+
+a|
+Disable Telnet
+a|
+Unified Manager sends the appropriate command to the cluster to disable Telnet.
+
+a|
+Configure storage VM anti-ransomware learning
+
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Validates whether a storage VM supports only NFS or SMB volumes in such a cluster.
+a|
+Put storage VMs in a `learning` mode of anti-ransomware monitoring
+
+a|
+Unified Manager sets anti-ransomware monitoring to `learning` state for the storage VMs through the cluster management console. Anti-ransomware monitoring on all the new volumes created on the storage VM are automatically moved to a learning mode. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks.
+
+a|
+Configure volume anti-ransomware learning
+
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Validates whether a volume supports only NFS or SMB services in such a cluster.
+a|
+Put volumes in `learning` mode of anti-ransomware monitoring
+a|
+Unified Manager sets anti-ransomware monitoring to `learning` state for the volumes through the cluster management console. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks.
+
+a|
+Enable volume anti-ransomware
+
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects whether the volumes are in the `learning` mode of anti-ransomware monitoring for more than 45 days, and determines the prospect of putting them in active mode.
+a|
+Put volumes in `active` mode of anti-ransomware monitoring
+a|
+Unified Manager sets anti-ransomware monitoring to `active` on the volumes through the cluster management console. Through this enablement, ONTAP can learn the pattern of activity on the volumes and detect the anomalies due to potential malicious attacks, and create alerts for data protection actions.
+
+a|
+Disable volume anti-ransomware
+
+Periodically checks for clusters with licenses for anti-ransomware monitoring. Detects repetitious notifications during active anti-ransomware monitoring on the volumes (for example, multiple warnings of potential ransomware attacks are returned over 30 days).
+a|
+Disable anti-ransomware monitoring on volumes
+a|
+Unified Manager disables anti-ransomware monitoring on the volumes through the cluster management console.
+
+|===

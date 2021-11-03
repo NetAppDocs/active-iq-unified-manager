@@ -1,0 +1,16 @@
+---
+permalink: health-checker/concept_understand_capacity_events_and_thresholds_for_node.html
+sidebar: sidebar
+keywords: understand, events, thresholds, node, root, aggregates
+summary: "You can monitor the node root aggregate by using Unified Manager. The best practice is to thickly provision the root volume in the root aggregate to prevent the node from halting."
+---
+= Understanding events and thresholds for node root aggregates
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can monitor the node root aggregate by using Unified Manager. The best practice is to thickly provision the root volume in the root aggregate to prevent the node from halting.
+
+By default, capacity and performance events are not generated for root aggregates. Also, the threshold values used by Unified Manager are not applicable to the node root aggregates. Only a technical support representative can modify the settings for these events to be generated. When the settings are modified by the technical support representative, the capacity threshold values are applied to the node root aggregate.
+
+You can take appropriate actions to prevent the node from halting by using either ONTAP System Manager or the ONTAP CLI.

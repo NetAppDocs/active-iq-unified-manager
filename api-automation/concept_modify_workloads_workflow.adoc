@@ -1,0 +1,283 @@
+---
+permalink: api-automation/concept_modify_workloads_workflow.html
+sidebar: sidebar
+keywords: modify, storage, workloads
+summary: "Modifying storage workloads consists of updating LUNs or file shares with missing parameters, or changing the existing parameters."
+---
+= Modifying storage workloads
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Modifying storage workloads consists of updating LUNs or file shares with missing parameters, or changing the existing parameters.
+
+This workflow takes the example of updating Performance Service Levels for LUNs and file shares.
+
+[NOTE]
+====
+The workflow assumes that the LUN or file share has been provisioned with Performance Service Levels.
+====
+
+== Modifying file shares
+
+While modifying a file share, you can update the following parameters:
+
+* Capacity or size.
+* Online or offline setting.
+* Storage Efficiency Policy.
+* Performance Service Level.
+* Access control list (ACL) settings.
+* Export policy settings. You can also delete export policy parameters and revert the default (empty) export policy rules on the file share.
+
+[NOTE]
+====
+During a single API run, you can update only one parameter.
+====
+
+This procedure describes adding a Performance Service Level to a file share. You can use the same procedure for updating any other file share property.
+
+. Obtain the CIFS share or NFS file share key of the file share that you want to update. This API queries all the file shares on your data center. Skip this step if you already know the file share key.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/file-shares`
+|===
+
+. View the details of the file share by running the following API with the file share key that you obtained.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/file-shares/\{key}`
+|===
+View the details of the file share in the output.
++
+----
+"assigned_performance_service_level": {
+        "key": null,
+        "name": "Unassigned",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+      },
+----
+
+. Obtain the key for the Performance Service Level that you want to assign on this file share. Currently no policy is assigned to it.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+Performance Service Levels
+a|
+GET
+a|
+`/storage-provider/performance-service-levels`
+|===
++
+[NOTE]
+====
+You can retrieve the details of the system-defined Performance Service Levels by setting the `system_defined` input parameter to `true`. From the output, obtain the key of the Performance Service Level that you want to apply to the file share.
+====
+
+. Apply the Performance Service Level on the file share.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+Storage Provider
+a|
+PATCH
+a|
+`/storage-provider/file-shares/\{key}`
+|===
+In the input, you must specify only the parameter that you want to update, along with the file share key. In this case, it is the key of the Performance Service Level.
++
+*Sample cURL*
++
+----
+curl -X POST "https://<hostname>/api/storage-provider/file-shares"`-H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" -d
+"{
+\"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" },
+}"
+----
++
+The JSON output displays a Job object that you can use to verify the whether the access endpoints on the home and partner nodes have been created successfully.
+
+. Verify whether the Performance Service Level has been added to the file share by using the Job object key displayed in your output.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+Management Server
+a|
+GET
+a|
+`/management-server/jobs/\{key}`
+|===
+If you query by the ID of the Job object, you see whether the file share is updated successfully. In case of a failure, troubleshoot the failure and run the API again. On successful creation, query the file share to see the modified object:
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/file-shares/\{key}`
+|===
+View the details of the file share in the output.
++
+----
+"assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+        }
+----
+
+== Updating LUNs
+
+While updating a LUN, you can modify the following parameters:
+
+* Capacity or size
+* Online or offline setting
+* Storage Efficiency Policy
+* Performance Service Level
+* LUN map
+
+[NOTE]
+====
+During a single API run, you can update only one parameter.
+====
+
+This procedure describes adding a Performance Service Level to a LUN. You can use the same procedure for updating any other LUN property.
+
+. Obtain the LUN key of the LUN that you want to update. This API returns details of all the LUNS in your data center. Skip this step if you already know the LUN key.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+Storage Provider
+a|
+GET
+a|
+`/storage-provider/luns`
+|===
+
+. View the details of the LUN by running the following API with the LUN key that you obtained.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+Storage Provider
+a|
+GET
+a|
+`/storage-provider/luns/\{key}`
+|===
+View the details of the LUN in the output. You can see that there is no Performance Service Level assigned to this LUN.
++
+*Sample JSON output*
++
+----
+
+  "assigned_performance_service_level": {
+        "key": null,
+        "name": "Unassigned",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+      },
+----
+
+. Obtain the key for the Performance Service Level that you want to assign to the LUN.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+Performance Service Levels
+a|
+GET
+a|
+`/storage-provider/performance-service-levels`
+|===
++
+[NOTE]
+====
+You can retrieve the details of the system-defined Performance Service Levels by setting the `system_defined` input parameter to `true`. From the output, obtain the key of the Performance Service Level that you want to apply on the LUN.
+====
+
+. Apply the Performance Service Level on the LUN.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+Storage Provider
+a|
+PATCH
+a|
+`/storage-provider/lun/\{key}`
+|===
+In the input, you must specify only the parameter that you want to update, along with the LUN key. In this case it is the key of the Performance Service Level.
++
+*Sample cURL*
++
+----
+curl -X PATCH "https://<hostname>/api/storage-provider/luns/7d5a59b3-953a-11e8-8857-00a098dcc959" -H "accept: application/json" -H "Content-Type: application/json" H "Authorization: Basic <Base64EncodedCredentials>" -d
+"{ \"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" }"
+----
++
+The JSON output displays a Job object key that you can use to verify the LUN that you updated.
+
+. View the details of the LUN by running the following API with the LUN key that you obtained.
++
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+Storage Provider
+a|
+GET
+a|
+`/storage-provider/luns/\{key}`
+|===
+View the details of the LUN in the output. You can see that the Performance Service Level is assigned to this LUN.
++
+*Sample JSON output*
++
+----
+
+     "assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+----

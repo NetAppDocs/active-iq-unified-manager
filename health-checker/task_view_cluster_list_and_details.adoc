@@ -1,0 +1,29 @@
+---
+permalink: health-checker/task_view_cluster_list_and_details.html
+sidebar: sidebar
+keywords: view, cluster list, details
+summary: "You can use the Health: All Clusters view to view your inventory of clusters. The Capacity: All Clusters view enables you to view summarized information about storage capacity and utilization in all clusters."
+---
+= Viewing the cluster list and details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Health: All Clusters view to view your inventory of clusters. The Capacity: All Clusters view enables you to view summarized information about storage capacity and utilization in all clusters.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+You can also view details for individual clusters such as the cluster health, capacity, configuration, LIFs, nodes, and disks in that cluster by using the Cluster / Health details page.
+
+The details in the Health: All Clusters view, Capacity: All Clusters view, and the Cluster / Health details page help you plan your storage. For example, before provisioning a new aggregate, you can select a specific cluster from the Health: All Clusters view and obtain capacity details to determine if the cluster has the required space.
+
+.Steps
+. In the left navigation pane, click *Storage* > *Clusters*.
+. In the View menu, select *Health: All Clusters* view to view health information, or *Capacity: All Clusters* view to view details about storage capacity and utilization in all clusters.
+. Click the name of a cluster to view complete details of the cluster in the *Cluster / Health* details page.
+
+*Related information*
+
+link:../health-checker/reference_health_cluster_details_page.html[Cluster / Health details page]

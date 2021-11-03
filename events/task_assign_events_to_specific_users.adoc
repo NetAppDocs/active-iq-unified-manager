@@ -1,0 +1,48 @@
+---
+permalink: events/task_assign_events_to_specific_users.html
+sidebar: sidebar
+keywords: assign, events, specific, users
+summary: "You can assign unassigned events to yourself or to other users, including remote users. You can reassign assigned events to another user, if required. For example, when frequent issues occur on a storage object, you can assign the events for these issues to the user who manages that object."
+---
+= Assigning events to specific users
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can assign unassigned events to yourself or to other users, including remote users. You can reassign assigned events to another user, if required. For example, when frequent issues occur on a storage object, you can assign the events for these issues to the user who manages that object.
+
+*What you'll need*
+
+* The user's name and email ID must be configured correctly.
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+
+.Steps
+
+. In the left navigation pane, click *Event Management*.
+. In the *Event Management* inventory page, select one or more events that you want to assign.
+. Assign the event by choosing one of the following options:
++
+[options="header"]
+|===
+| If you want to assign the event to...| Then do this...
+a|
+Yourself
+a|
+Click *Assign To* > *Me*.
+a|
+Another user
+a|
+
+ .. Click *Assign To* > *Another user*.
+ .. In the Assign Owner dialog box, enter the user name, or select a user from the drop-down list.
+ .. Click *Assign*.
++
+An email notification is sent to the user.
++
+[NOTE]
+====
+If you do not enter a user name or select a user from the drop-down list, and click *Assign*, the event remains unassigned.
+====
+
++
+|===

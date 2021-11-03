@@ -1,0 +1,108 @@
+---
+permalink: config/concept_install_https_certificate_generated_using_external_tools.html
+sidebar: sidebar
+keywords: install, HTTPS, certificate, generated from external tools
+summary: "You can install certificates that are self signed or CA signed and are generated using an external tool like OpenSSL, BoringSSL, LetsEncrypt."
+---
+= Installing a HTTPS certificate generated using external tools
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can install certificates that are self signed or CA signed and are generated using an external tool like OpenSSL, BoringSSL, LetsEncrypt.
+
+You should load the private key along with the certificate chain because these certificates are externally generated public-private key pair. The permitted key-pair algorithms are "`RSA`" and "`EC`". The *Install HTTPS Certificate* option is available in the HTTPS Certificates page under the General section. The file you upload should be in the following input format.
+
+. Private Key of the server that belongs to the Active IQ UM host
+. Certificate of the server that matches with the private key
+. Certificate of the CAs in reverse till the root, which are used to sign the above certificate
+
+== Format for loading a certificate with an EC key pair
+
+The permitted curves are "`prime256v1`" and "`secp384r1`". Sample of certificate with an externally generated EC pair:
+
+----
+ -----BEGIN EC PRIVATE KEY-----
+<EC private key of Server>
+-----END EC PRIVATE KEY-----
+----
+
+----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+
+== Format for loading a certificate with an RSA key pair
+
+The allowed key sizes for the RSA key-pair belonging to the host certificate are 2048, 3072, and 4096. certificate with an externally generated *RSA key pair*:
+
+----
+-----BEGIN RSA PRIVATE KEY-----
+ <RSA private key of Server>
+ -----END RSA PRIVATE KEY-----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+
+After the certificate is uploaded, you should restart the Active IQ Unified Manager instance for the changes to take effect.
+
+== Checks while uploading externally generated certificates
+
+The system performs checks while uploading a certificate generated using external tools. If any of the checks fail, then the certificate is rejected. There are also validation included for the certificates that are generated from the CSR within the product and for certificates that are generated using external tools.
+
+* The private key in the input is validated against the host certificate in the input.
+* The Common Name (CN) in the host certificate is checked against the FQDN of the host.
+* The Common Name (CN) of the host certificate should not be empty or blank and should not be set to localhost.
+* The validity start date should not be in future and the validity expiry date of the certificate should not be in the past.
+* If Intermediate CA or CA exists the validity start date of certificate should not be in future and the validity expiry date should not be in the past.
+
+[NOTE]
+====
+The private key in the input should not be encrypted. If there are any private keys that are encrypted, then they are rejected by the system.
+====
+
+Example 1
+
+----
+----BEGIN ENCRYPTED PRIVATE KEY-----
+<Encrypted private key>
+-----END ENCRYPTED PRIVATE KEY-----
+----
+
+Example 2
+
+----
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END RSA PRIVATE KEY-----
+----
+
+Example 3
+
+----
+-----BEGIN EC PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END EC PRIVATE KEY-----
+----

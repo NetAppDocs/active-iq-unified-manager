@@ -1,0 +1,70 @@
+---
+permalink: events/reference_event_details_page.html
+sidebar: sidebar
+keywords: event, details, page
+summary: "From the Event details page, you can view the details of a selected event, such as the event severity, impact level, impact area, and event source. You can also view additional information about possible remediations to resolve the issue."
+---
+= Event details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Event details page, you can view the details of a selected event, such as the event severity, impact level, impact area, and event source. You can also view additional information about possible remediations to resolve the issue.
+
+* *Event Name*
++
+The name of the event and the time the event was last seen.
++
+For non-performance events, while the event is in the New or Acknowledged state the last seen information is not known and is therefore hidden.
+
+* *Event Description*
++
+A brief description of the event.
++
+In some cases a reason for the event being triggered is provided in the event description.
+
+* *Component in Contention*
++
+For dynamic performance events, this section displays icons that represent the logical and physical components of the cluster. If a component is in contention, its icon is circled and highlighted red.
++
+See _Cluster components and why they can be in contention_ for a description of the components that are displayed here.
+
+The Event Information, System Diagnosis, and Suggested Actions sections are described in other topics.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Notes icon*
++
+Enables you to add or update a note about the event, and review all notes left by other users.
+
+*Actions menu*
+
+* *Assign to Me*
++
+Assigns the event to you.
+
+* *Assign to Others*
++
+Opens the Assign Owner dialog box, which enables you to assign or reassign the event to other users.
++
+When you assign an event to a user, the user's name and the time when the event was assigned are added in the events list for the selected events.
++
+You can also unassign events by leaving the ownership field blank.
+
+* *Acknowledge*
++
+Acknowledges the selected events so that you do not continue to receive repeat alert notifications.
++
+When you acknowledge an event, your user name and the time that you acknowledged the event are added in the events list (Acknowledged By) for the selected events. When you acknowledge an event, you take responsibility for managing that event.
+
+* *Mark As Resolved*
++
+Enables you to change the event state to Resolved.
++
+When you resolve an event, your user name and the time that you resolved the event are added in the events list (Resolved By) for the selected events. After you have taken corrective action for the event, you must mark the event as resolved.
+
+* *Add Alert*
++
+Displays the Add Alert dialog box, which enables you to add an alert for the selected event.

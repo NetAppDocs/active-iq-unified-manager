@@ -1,0 +1,14 @@
+---
+permalink: health-checker/concept_monitor_and_troubleshoot_data_availability.html
+sidebar: sidebar
+keywords: monitor, troubleshoot, data availability
+summary: "Unified Manager monitors the reliability with which authorized users can access your stored data, alerts you to conditions that block or impede that access, and enables you to diagnose those conditions and assign and track their resolution."
+---
+= Monitoring and troubleshooting data availability
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager monitors the reliability with which authorized users can access your stored data, alerts you to conditions that block or impede that access, and enables you to diagnose those conditions and assign and track their resolution.
+
+The availability workflow topics in this section describe examples of how a storage administrator can use the Unified Manager web UI to discover, diagnose, and assign for resolution hardware and software conditions that adversely affect data availability.

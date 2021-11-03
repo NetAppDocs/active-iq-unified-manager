@@ -1,0 +1,36 @@
+---
+permalink: data-protection/view-lun-relationships.html
+sidebar: sidebar
+keywords: LUN, SM-BC, SnapMirror Business Continuity, Consistency Group, CG
+summary: "Unified view of LUNs protected by SM-BC."
+---
+= Monitoring LUNs in a Consistency Group relationship
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If your ONTAP environment supports SnapMirror Business Continuity (SM-BC) to
+protect applications with LUNs, you can view and monitor those LUNs on Active IQ Unified Manager.
+
+SM-BC ensures zero recovery time objective (RTO) during failover in SAN environments. In a typical deployment supporting SM-BC, the LUNs on volumes are protected by Consistency Group relationships.
+
+These primary and secondary LUNs are composite LUNs, or a replica LUN pair with the same UUID and serial number. The I/O operations (both read and write) are multiplexed across the source and destination sites on these composite LUNs, ensuring transparency.
+
+For viewing composite LUNs, both the primary and secondary clusters with the LUNs that are a part of the Consistency Group relationship should be added and discovered on Unified Manager. Only iSCSI and FCP LUNs are supported.
+
+For information about SM-BC, see link:https://docs.netapp.com/us-en/ontap/smbc/smbc_intro_overview.html[Documentation for the SnapMirror Business Continuity solution].
+
+To view composite LUNs in your environment follow these steps:
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *LUNs*.
+. From the View menu, select *Relationship* > *All LUNs*.
++
+The Relationship: All LUNs view is displayed.
+
+You can view the LUN details, such as the LUN name, volume, storage VM hosting the LUN, cluster, Consistency Group, and the partner LUN. You can click each of these components to drill down to a detailed view. Clicking the Consistency Group takes you to the Relationships page.
+
+Clicking the partner LUN enables you to view its configuration details on the SAN tab of the Storage VM Details page for the storage VM on which the partner LUN is hosted. Information such as the initiators and initiator groups and other aspects of the partner LUN is displayed.
+
+You can perform the standard grid-level functions of sorting, filtering, generating and uploading reports for the protected LUNs in your environment.

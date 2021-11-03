@@ -1,0 +1,57 @@
+---
+permalink: config/task_change_um_host_name_on_rhel_or_centos.html
+sidebar: sidebar
+keywords: change, unified manager, host name, linux systems
+summary: "At some point, you might want to change the host name of the Red Hat Enterprise Linux or CentOS machine on which you have installed Unified Manager. For example, you might want to rename the host to more easily identify your Unified Manager servers by type, workgroup, or monitored cluster group when you list your Linux machines."
+---
+= Changing the Unified Manager host name on Linux systems
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+At some point, you might want to change the host name of the Red Hat Enterprise Linux or CentOS machine on which you have installed Unified Manager. For example, you might want to rename the host to more easily identify your Unified Manager servers by type, workgroup, or monitored cluster group when you list your Linux machines.
+
+*What you'll need*
+
+You must have root user access to the Linux system on which Unified Manager is installed.
+
+You can use the host name (or the host IP address) to access the Unified Manager web UI. If you configured a static IP address for your network during deployment, then you would have designated a name for the network host. If you configured the network using DHCP, the host name should be taken from the DNS server.
+
+Regardless of how the host name was assigned, if you change the host name and intend to use the new host name to access the Unified Manager web UI, you must generate a new security certificate.
+
+If you access the web UI by using the server's IP address instead of the host name, you do not have to generate a new certificate if you change the host name. However, it is the best practice to update the certificate, so that the host name in the certificate matches the actual host name. The new certificate does not take effect until the Linux machine is restarted.
+
+If you change the host name in Unified Manager, you must manually update the host name in OnCommand Workflow Automation (WFA). The host name is not updated automatically in WFA.
+
+.Steps
+
+. Log in as the root user to the Unified Manager system that you want to modify.
+. Stop the Unified Manager software and the associated MySQL software by entering the following command:
++
+`systemctl stop ocieau ocie mysqld`
+
+. Change the host name using the Linux `hostnamectl` command:
++
+`hostnamectl set-hostname new_FQDN`
++
+`hostnamectl set-hostname nuhost.corp.widget.com`
+
+. Regenerate the HTTPS certificate for the server:
++
+`/opt/netapp/essentials/bin/cert.sh create`
+
+. Restart the network service:
++
+`service network restart`
+
+. After the service is restarted, verify whether the new host name is able to ping itself:
++
+`ping new_hostname`
++
+`ping nuhost`
++
+This command should return the same IP address that was set earlier for the original host name.
+
+. After you complete and verify your host name change, restart Unified Manager by entering the following command:
++
+`systemctl start mysqld ocie ocieau`

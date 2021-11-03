@@ -1,0 +1,34 @@
+---
+permalink: install-linux/task_upgrade_openjdk_on_linux_ocum.html
+sidebar: sidebar
+keywords: openjdk, jre, linux, upgrade
+summary: "You can upgrade to a newer version of OpenJDK on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities."
+---
+= Upgrading OpenJDK on Linux
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can upgrade to a newer version of OpenJDK on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities.
+
+*What you'll need*
+
+You must have root privileges for the Linux system on which Unified Manager is installed.
+
+You can update OpenJDK releases within release families. For example, you can upgrade from OpenJDK 11.0.9 to OpenJDK 11.0.12, but you cannot update directly from OpenJDK 11 to OpenJDK 12.
+
+.Steps
+
+. Log in as a root user on the Unified Manager host machine.
+. Download the appropriate version of OpenJDK (64-bit) to the target system.
+. Stop the Unified Manager services:
++
+`systemctl stop ocieau`
++
+`systemctl stop ocie`
+. Install the latest OpenJDK on the system.
+. Start the Unified Manager services:
++
+`systemctl start ocie`
++
+`systemctl start ocieau`

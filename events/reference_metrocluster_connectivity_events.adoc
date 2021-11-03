@@ -1,0 +1,162 @@
+---
+permalink: events/reference_metrocluster_connectivity_events.html
+sidebar: sidebar
+keywords: metrocluster, connectivity, events, impact area, availability
+summary: "Connectivity events provide you with information about the connectivity between the components of a cluster and between clusters in a MetroCluster configuration so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= MetroCluster Connectivity events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Connectivity events provide you with information about the connectivity between the components of a cluster and between clusters in a MetroCluster configuration so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+All Inter-Switch Links Down(ocumEvtMetroClusterAllISLBetweenSwitchesDown)
+
+a|
+Incident
+a|
+MetroCluster inter-switch connection
+a|
+Critical
+a|
+All Links Between MetroCluster Partners Down(ocumEvtMetroClusterAllLinksBetweenPartnersDown)
+
+a|
+Incident
+a|
+MetroCluster relationship
+a|
+Critical
+a|
+FC-SAS Bridge To Storage Stack Link Down(ocumEvtBridgeSasPortDown)
+
+a|
+Incident
+a|
+MetroCluster bridge stack connection
+a|
+Critical
+a|
+MetroCluster Configuration Switched Over(ocumEvtMetroClusterDRStatusImpacted)
+
+a|
+Risk
+a|
+MetroCluster relationship
+a|
+Warning
+a|
+MetroCluster Configuration Partially Switched Over(ocumEvtMetroClusterDRStatusPartiallyImpacted)
+
+a|
+Risk
+a|
+MetroCluster relationship
+a|
+Error
+a|
+MetroCluster Disaster Recovery Capability Impacted(ocumEvtMetroClusterDRStatusImpacted)
+
+a|
+Risk
+a|
+MetroCluster relationship
+a|
+Critical
+a|
+MetroCluster Partners Not Reachable Over Peering Network(ocumEvtMetroClusterPartnersNotReachableOverPeeringNetwork)
+
+a|
+Incident
+a|
+MetroCluster relationship
+a|
+Critical
+a|
+Node To FC Switch All FC-VI Interconnect Links Down(ocumEvtMccNodeSwitchFcviLinksDown)
+
+a|
+Incident
+a|
+MetroCluster node switch connection
+a|
+Critical
+a|
+Node To FC Switch One Or More FC-Initiator Links Down(ocumEvtMccNodeSwitchFcLinksOneOrMoreDown)
+
+a|
+Risk
+a|
+MetroCluster node switch connection
+a|
+Warning
+a|
+Node To FC Switch All FC-Initiator Links Down(ocumEvtMccNodeSwitchFcLinksDown)
+
+a|
+Incident
+a|
+MetroCluster node switch connection
+a|
+Critical
+a|
+Switch To FC-SAS Bridge FC Link Down (ocumEvtMccSwitchBridgeFcLinksDown)
+
+a|
+Incident
+a|
+MetroCluster switch bridge connection
+a|
+Critical
+a|
+Inter Node All FC VI InterConnect Links Down (ocumEvtMccInterNodeLinksDown)
+
+a|
+Incident
+a|
+Inter-node connection
+a|
+Critical
+a|
+Inter Node One Or More FC VI InterConnect Links Down (ocumEvtMccInterNodeLinksOneOrMoreDown)
+
+a|
+Risk
+a|
+Inter-node connection
+a|
+Warning
+a|
+Node To Bridge Link Down (ocumEvtMccNodeBridgeLinksDown)
+
+a|
+Incident
+a|
+Node bridge connection
+a|
+Critical
+a|
+Node to Storage Stack All SAS Links Down ( ocumEvtMccNodeStackLinksDown)
+
+a|
+Incident
+a|
+Node stack connection
+a|
+Critical
+a|
+Node to Storage Stack One Or More SAS Links Down ( ocumEvtMccNodeStackLinksOneOrMoreDown)
+
+a|
+Risk
+a|
+Node stack connection
+a|
+Warning
+|===

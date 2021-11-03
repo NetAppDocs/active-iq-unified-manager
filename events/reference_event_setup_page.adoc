@@ -1,0 +1,50 @@
+---
+permalink: events/reference_event_setup_page.html
+sidebar: sidebar
+keywords: event, setup, page, command, buttons, list, view
+summary: "The Event Setup page displays the list of events that are disabled, and provides information such as the associated object type and severity of the event. You can also perform tasks such as disabling or enabling events globally."
+---
+= Event Setup page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Event Setup page displays the list of events that are disabled, and provides information such as the associated object type and severity of the event. You can also perform tasks such as disabling or enabling events globally.
+
+You can access this page only if you have the Application Administrator or Storage Administrator role.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks for selected events:
+
+* *Disable*
++
+Launches the Disable Events dialog box, which you can use to disable events.
+
+* *Enable*
++
+Enables selected events that you had chosen to disable previously.
+
+* *Upload Rules*
++
+Launches the Upload Rules dialog box, which enables sites with no external network access to manually upload the Active IQ rules file to Unified Manager. The rules are run against cluster AutoSupport messages to generate events for system configuration, cabling, best practice, and availability as defined by the Active IQ platform.
+
+* *Subscribe to EMS Events*
++
+Launches the Subscribe to EMS Events dialog box, which enables you to subscribe to receive specific Event Management System (EMS) events from the clusters that you are monitoring. The EMS collects information about events that occur on the cluster. When a notification is received for a subscribed EMS event, a Unified Manager event is generated with the appropriate severity.
+
+== List view
+
+The List view displays (in tabular format) information about events that are disabled. You can use the column filters to customize the data that is displayed.
+
+* *Event*
++
+Displays the name of the event that is disabled.
+
+* *Severity*
++
+Displays the severity of the event. The severity can be Critical, Error, Warning, or Information.
+
+* *Source Type*
++
+Displays the source type for which the event is generated.

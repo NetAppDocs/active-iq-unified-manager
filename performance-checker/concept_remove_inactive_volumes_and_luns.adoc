@@ -1,0 +1,29 @@
+---
+permalink: performance-checker/concept_remove_inactive_volumes_and_luns.html
+sidebar: sidebar
+keywords:  remove, inactive, volumes, luns
+summary: "When aggregate free space has been identified as an issue, you can search for unused volumes and LUNs and delete them from the aggregate. This can help to alleviate the low disk space issue."
+---
+= Remove inactive volumes and LUNs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When aggregate free space has been identified as an issue, you can search for unused volumes and LUNs and delete them from the aggregate. This can help to alleviate the low disk space issue.
+
+If a performance event on an aggregate is caused by low disk space, there are a few ways you can determine which volumes and LUNs are no longer being used.
+
+To identify unused volumes:
+
+* On the Event details page, the *Affected Objects Count* field provides a link that displays the list of affected volumes.
++
+Click the link to display the volumes on the Performance: All Volumes view. From there you can sort the affected volumes by *IOPS* to see which volumes have not been active.
+
+To identify unused LUNs:
+
+. From the Event details page, write down the name of the aggregate on which the event occurred.
+. In the left navigation pane, click *Storage* > *LUNs* and select *Performance* > *All LUNs* from the View menu.
+. Click *Filtering*, select *Aggregate* from the left drop-down menu, type the name of the aggregate in the text field, and then click *Apply Filter*.
+. Sort the resulting list of affected LUNs by *IOPS* to view the LUNs that are not active.
+
+After you have identified the unused volumes and LUNs, you can use ONTAP System Manager or the ONTAP commands to delete those objects.

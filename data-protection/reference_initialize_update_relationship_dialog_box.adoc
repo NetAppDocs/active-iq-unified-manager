@@ -1,0 +1,68 @@
+---
+permalink: data-protection/reference_initialize_update_relationship_dialog_box.html
+sidebar: sidebar
+keywords: initialize, update, dialog box
+summary: "The Initialize/Update dialog box enables you to perform a first-time baseline transfer on a new protection relationship, or to update a relationship if it is already initialized and you want to perform a manual, unscheduled, incremental update."
+---
+= Initialize/Update dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Initialize/Update dialog box enables you to perform a first-time baseline transfer on a new protection relationship, or to update a relationship if it is already initialized and you want to perform a manual, unscheduled, incremental update.
+
+== Transfer Options tab
+
+The Transfer Options tab enables you to change the initialization priority of a transfer and to change the bandwidth used during transfers.
+
+* *Transfer Priority*
++
+The priority at which the transfer is run. You can select either Normal or Low. Relationships with policies that specify a normal transfer priority run before those that specify a low transfer priority. Normal is selected by default.
+
+* *Max Transfer Rate*
++
+Specifies the maximum rate at which data is transferred between clusters over the network. If you choose not to use a maximum transfer rate, the baseline transfer between relationships is unlimited. If you select more than one relationship with different maximum transfer rates, you can specify one of the following maximum transfer rate settings:
+
+ ** Use values specified during individual relationship setup or edit
++
+When selected, initialization and update operations use the maximum transfer rate specified at the time of each relationship's creation or edit. This field is available only when multiple relationships with different transfer rates are being initialized or updated.
+
+ ** Unlimited
++
+Indicates that there is no bandwidth limitation on transfers between relationships. This field is available only when multiple relationships with different transfer rates are being initialized or updated.
+
+ ** Limit bandwidth to
++
+When selected, network bandwidth is limited to the value you specify. You can enter a numerical value and then select either kilobytes per second (KBps), Megabytes per second (MBps), Gigabytes per second (GBps), or Terabytes per second (TBps). The maximum transfer rate that you specify must be greater than 1 KBps and less than 4 TBps.
+
+== Source Snapshot Copies tab
+
+The Source Snapshot Copies tab displays the following information about the source Snapshot copy that is used for the baseline transfer:
+
+* *Source Volume*
++
+Displays the names of the corresponding source volumes.
+
+* *Destination Volume*
++
+Displays the names of the selected destination volumes.
+
+* *Source Type*
++
+Displays the volume type. The type can be either Read/write or Data Protection.
+
+* *Snapshot Copy*
++
+Displays the Snapshot copy that is used for the data transfer. Clicking the Snapshot copy value displays the Select Source Snapshot Copy dialog box, in which you can select a specific Snapshot copy for your transfer, depending on the type of protection relationship that you have and the operation that you are performing. The option to specify a different Snapshot copy is not available for data protection type sources.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Cancel*
++
+Discards your selections and closes the Initialize/Update dialog box.
+
+* *Submit*
++
+Saves your selections and starts the initialize or update job.

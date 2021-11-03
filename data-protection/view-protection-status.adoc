@@ -1,0 +1,55 @@
+---
+permalink: data-protection/view-protection-status.html
+sidebar: sidebar
+keywords: view, volume, protection status, dashboard protection card, protection panel, protection widget
+summary: "The Data Protection page presents a holistic view of the data protection details for all the protected volumes in your data center."
+---
+= Viewing volume protection status
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Data Protection page presents a holistic view of the data protection details for all the protected volumes in a single cluster, or all clusters in a data center.
+
+You can view these details when you click the right-arrow at the top of the Data Protection panel on the dashboard. There are two sections on this screen. When you select all clusters on the dashboard, the *All Clusters* section displays the protection status of all the clusters at a data center level protected by SnapMirror relationships and Snapshot copy. You can select a specific cluster in the *Individual Cluster* section to view the status of the protected volumes in that cluster.
+
+If you select a single cluster on the dashboard, this page displays the details of the protected volumes on that cluster.
+
+You can hover your mouse over each of the bar charts to view the respective counts. Clicking the bar charts takes you to the Volumes screen with the respective volumes selected. Clicking the link from each of these events takes you to the Event details page. You can click the *View All* link to view all active protection events in the Event Management inventory page.
+
+.Steps
+. In the left navigation pane, click *Dashboard*.
+. Depending on whether you want to view data protection status for all monitored clusters or for a single cluster, select *All Clusters* or select a single cluster from the drop-down menu.
+. Click the right-arrow in the Data Protection panel.
+
+== Data Protection page
+
+The Data Protection page displays the following panels for protected volumes for all clusters.
+
+[NOTE]
+For the volume count of the Snapshot copies, both source and destination volumes are considered. For SnapMirror relationships, the source volumes, which are enabled for reading and writing, are counted. Destination and root volumes are not considered. The SnapMirror count includes the number of volumes with sources and destinations on the same or different clusters.
+
+* *Snapshot Overview*: An overview of the volumes protected by Snapshot copies, such as:
+** The total number of volumes protected and not protected by Snapshot copies.
+[NOTE]
+For considering a volume as protected, the schedule for the Snapshot copy of the volume should be enabled.
+
+** The total number of volumes that are using or exceeding the reserve space for the Snapshot copies. This value is important for viewing the amount of disk space utilized or calculating the space that can be reclaimed if one or more Snapshot copies are deleted.
+* *SnapMirror Overview*: An overview of the volumes protected by SnapMirror policies, such as:
+** The number of volumes protected by the respective SnapMirror policies, such as, volume SnapMirror relationships, storage VM disaster recovery (SVM-DR), and their combinations.
+** The total number of volumes experiencing lag in SnapMirror relationships. If a volume has multiple SnapMirror relationships, the worst lag is selected.
+
+The individual cluster list displays the status of the SnapMirror relationships and Snapshot protection for a specific cluster.
+
+* *Snapshot Copies Analysis* details the following information:
+** Individual events for Snapshot copies, including the events raised in the last 24 hours.
+**	Detailed chart for volumes protected and not protected by Snapshot copies.
+**	Volumes using, not using, and breaching the reserved Snapshot copy capacity. You can use this information to calculate the space that is utilized or can be reclaimed if one or more Snapshot copies are deleted.
+** Break-up of the volume counts in terms of the number of their Snapshot copies. The number of Snapshot copies returned is for only the volumes that are online and available.
+
+*	*SnapMirror Analysis* details the following information:
+**	Individual events raised for SnapMirror relationships, including the events raised in the last 24 hours
+**	The number of volumes protected by each of the SnapMirror policies, such as, volume SnapMirror relationships, storage VM disaster recovery (SVM-DR), and their combinations.
+**	The number of volumes protected by the SnapMirror relationship types, such as Asynchronous Mirror, Asynchronous Vault, Asynchronous MirrorVault, StrictSync, SnapMirror Business Continuity (SMBC) consistency group, and Sync.
+**	The number of volumes with healthy or unhealthy relationship status. A volume is considered healthy only if all its SnapMirror relationships are healthy.
+**	Break-up of the volume counts by the rate of their recovery point objective (RPO) lag duration.

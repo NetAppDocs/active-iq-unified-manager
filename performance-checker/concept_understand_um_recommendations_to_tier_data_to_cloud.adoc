@@ -1,0 +1,52 @@
+---
+permalink: performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html
+sidebar: sidebar
+keywords: understand, unified manager, recommendations, tier, data, cloud
+summary: "The Performance: All Volumes view displays information related to the size of the user data stored on the volume that is inactive (cold). In some cases, Unified Manager identifies certain volumes that would benefit by tiering the inactive data to the cloud tier (cloud provider or StorageGRID) of a FabricPool-enabled aggregate."
+---
+= Understanding the Unified Manager recommendations to tier data to the cloud
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Performance: All Volumes view displays information related to the size of the user data stored on the volume that is inactive (cold). In some cases, Unified Manager identifies certain volumes that would benefit by tiering the inactive data to the cloud tier (cloud provider or StorageGRID) of a FabricPool-enabled aggregate.
+
+[NOTE]
+====
+FabricPool was introduced in ONTAP 9.2, so if you are using a version of ONTAP software prior to 9.2, the Unified Manager recommendation to tier data requires upgrading your ONTAP software. Additionally, the `*auto*` tiering policy was introduced in ONTAP 9.4, and the `*all*` tiering policy was introduced in ONTAP 9.6, so if the recommendation is to use the auto tiering policy, you must upgrade to ONTAP 9.4 or greater.
+====
+
+The following three fields on Performance: All Volumes view provide information about whether you can improve your storage system's disk utilization and save space on the performance tier by moving inactive data to the cloud tier.
+
+* *Tiering Policy*
++
+The tiering policy determines whether the data on the volume remains on the performance tier or whether some of the data is moved from the performance tier to the cloud tier.
++
+The value in this field indicates the tiering policy set on the volume, even if the volume does not currently reside on a FabricPool aggregate. The tiering policy takes effect only when the volume is on a FabricPool aggregate.
+
+* *Cold Data*
++
+The cold data displays the size of the user data stored on the volume that is inactive (cold).
++
+A value is displayed here only when using ONTAP 9.4 or greater software because it requires that the aggregate on which the volume is deployed has the `*inactive data reporting parameter*` set to `*enabled*`, and that the minimum number of cooling days threshold has been met (for volumes that use the `*snapshot-only*` or `*auto*` tiering policy). Otherwise the value is listed as "`N/A`".
+
+* *Cloud Recommendation*
++
+After enough information has been captured about the data activity on the volume, Unified Manager may determine there is no action required, or that you could save space on the performance tier by tiering inactive data to the cloud tier.
+
+[NOTE]
+====
+The Cold Data field is updated every 15 minutes, but the Cloud Recommendation field is updated every 7 days when the cold data analysis is performed on the volume. Therefore, the exact amount of cold data may differ between the fields. The Cloud Recommendation field displays the date when the analysis was run.
+====
+
+When Inactive Data Reporting is enabled, the Cold Data field displays the exact amount of inactive data. Without the inactive data reporting capability Unified Manager uses performance statistics to determine if data is inactive on a volume. The amount of inactive data is not displayed in the Cold Data field in this case, but it is displayed when you hover your cursor over the word *Tier* to view the cloud recommendation.
+
+The cloud recommendations you will see are:
+
+* *Learning*. Not enough data has been collected to make a recommendation.
+* *Tier*. Analysis has determined that the volume contains inactive (cold) data and that you should configure the volume to move that data to the cloud tier. In some cases this may require that you move the volume to a FabricPool-enabled aggregate first. In other cases where the volume is already on a FabricPool aggregate, you just have to change the tiering policy.
+* *No Action*. Either the volume has very little inactive data, the volume is already set to the "`auto`" tiering policy on a FabricPool aggregate, or the volume is a data protection volume. This value is also displayed when the volume is offline or when it is being used in a MetroCluster configuration.
+
+To move a volume, or to change the volume tiering policy or the aggregate inactive data reporting settings, use ONTAP System Manager, the ONTAP CLI commands, or a combination of these tools.
+
+If you are logged in to Unified Manager with the Application Administrator or Storage Administrator role, the *Configure Volume* link is available in the cloud recommendation when you hover your cursor over the word *Tier*. Click this button to open the Volumes page in System Manager to make the recommended change.

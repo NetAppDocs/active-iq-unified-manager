@@ -1,0 +1,28 @@
+---
+permalink: api-automation/concept_um_apis_list_intro.html
+sidebar: sidebar
+keywords: unified, manager, rest, api
+summary: "The REST APIs for Active IQ Unified Manager are listed in this section, based on their categories."
+---
+= Unified Manager REST APIs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The REST APIs for Active IQ Unified Manager are listed in this section, based on their categories.
+
+You can view the online documentation page from your Unified Manager instance that includes the details of every REST API call. This document does not repeat the details of the online documentation. Each API call listed or described in this document includes only the information you need to locate the call on the documentation page. After locating a specific API call, you can review the complete details of that call, including the input parameters, output formats, HTTP status codes, and request processing type.
+
+The following information is included for each API call within a workflow to help locate the call on the documentation page:
+
+* Category
++
+The API calls are organized on the documentation page into functionally-related areas or categories. To locate a specific API call, scroll down to the bottom of the page, and then click the applicable API category.
+
+* HTTP verb (call)
++
+The HTTP verb identifies the action performed on a resource. Each API call is executed through a single HTTP verb.
+
+* Path
++
+The path determines the specific resource which the action uses to as a part of performing a call. The path string is appended to the core URL to form the complete URL identifying the resource.

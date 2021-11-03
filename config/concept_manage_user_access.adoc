@@ -1,0 +1,12 @@
+---
+permalink: config/concept_manage_user_access.html
+sidebar: sidebar
+keywords: manage, user, access
+summary: "You can create roles and assign capabilities to control user access to selected cluster objects. You can identify users who have the required capabilities to access selected objects within a cluster. Only these users are provided access to manage the cluster objects."
+---
+= Managing user access
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create roles and assign capabilities to control user access to selected cluster objects. You can identify users who have the required capabilities to access selected objects within a cluster. Only these users are provided access to manage the cluster objects.

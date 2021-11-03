@@ -1,0 +1,82 @@
+---
+permalink: api-automation/concept_administration_apis.html
+sidebar: sidebar
+keywords: perform, administrative, tasks
+summary: "You can use the APIs under the administration category to modify backup settings, verify the backup file information and cluster certificates, and also manage ONTAP clusters as Active IQ Unified Manager datasources."
+---
+= Performing administrative tasks
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the APIs under the `administration` category to modify backup settings, verify the backup file information and cluster certificates, and also manage ONTAP clusters as Active IQ Unified Manager datasources.
+
+[NOTE]
+====
+You must have the Application Administrator role for running these operations. You can also use the Unified Manager web UI for configuring these settings.
+====
+[cols="3*",options="header"]
+|===
+| HTTP verb| Path| Description
+a|
+`GET`
+
+`PATCH`
+
+a|
+`/admin/backup-settings`
+
+`/admin/backup-settings`
+
+a|
+You can use the `GET` method to view the settings of the backup schedule configured in Unified Manager by default. You can verify the following:
+
+* Whether the schedule is enabled or disabled
+* Frequency of the backup scheduled (daily or weekly)
+* Time of the backup
+* Maximum number of backup files that should be retained in the application
+
+The time of the backup is in server time zone.
+
+The database backup settings are available on Unified Manager by default, and you cannot create a backup schedule. However, you can use the `PATCH` method to modify the default settings.
+
+a|
+`GET`
+
+a|
+`/admin/backup-file-info`
+
+a|
+A backup dump file is generated every time the backup schedule is modified for Unified Manager. You can use this method to verify whether the backup file is generated according to the modified backup settings, and whether the information on the file matches the modified settings.
+
+a|
+`GET`
+
+a|
+`/admin/datasource-certificate`
+
+a|
+You can use this method to view the datasource (cluster) certificate from the trust store. Validating the certificate is required before adding an ONTAP cluster as a Unified Manager datasource.
+
+a|
+`GET`
+
+`POST`
+
+`PATCH`
+
+`DELETE`
+
+a|
+`/admin/datasources/clusters`
+
+`/admin/datasources/clusters/\{key}`
+
+a|
+You can use the `GET` method to retrieve the details of the datasources (ONTAP clusters) managed by Unified Manager.
+
+You can also add a new cluster to Unified Manager as a datasource. For adding a cluster, you must know its host name, user name, and password.
+
+For modifying and deleting a cluster managed as a datasource by Unified Manager, use the ONTAP cluster key.
+
+|===

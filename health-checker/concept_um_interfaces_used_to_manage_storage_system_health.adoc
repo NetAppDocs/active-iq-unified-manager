@@ -1,0 +1,26 @@
+---
+permalink: health-checker/concept_um_interfaces_used_to_manage_storage_system_health.html
+sidebar: sidebar
+keywords: unified manager, interfaces, manage, storage system, health
+summary: "This guide contains information about the two user interfaces that Active IQ Unified Manager provides for troubleshooting data storage capacity, availability, and protection issues. The two UIs are the Unified Manager web UI and the maintenance console."
+---
+= Unified Manager interfaces used to manage storage system health
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This guide contains information about the two user interfaces that Active IQ Unified Manager provides for troubleshooting data storage capacity, availability, and protection issues. The two UIs are the Unified Manager web UI and the maintenance console.
+
+If you want to use the protection features in Unified Manager, you must also install and configure OnCommand Workflow Automation (WFA).
+
+== Unified Manager web UI
+
+The Unified Manager web UI enables an administrator to monitor and troubleshoot cluster issues relating to data storage capacity, availability, and protection.
+
+This guide describes some common workflows that an administrator can follow to troubleshoot storage capacity, data availability, or protection issues displayed in the Unified Manager web UI.
+
+== Maintenance console
+
+The Unified Manager maintenance console enables an administrator to monitor, diagnose, and address operating system issues, version upgrade issues, user access issues, and network issues related to the Unified Manager server itself. If the Unified Manager web UI is unavailable, the maintenance console is the only form of access to Unified Manager.
+
+This guide provides directions for accessing the maintenance console and using it to resolve issues related to the functioning of the Unified Manager server.

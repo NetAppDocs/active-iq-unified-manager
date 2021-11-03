@@ -1,0 +1,28 @@
+---
+permalink: health-checker/task_view_encryption_status_of_all_volumes.html
+sidebar: sidebar
+keywords: view, encryption status, volumes
+summary: "You can view a list of all the volumes and their current encryption status so you can determine whether the data on your volumes is adequately protected from being accessed by unauthorized users."
+---
+= Viewing the encryption status of all volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view a list of all the volumes and their current encryption status so you can determine whether the data on your volumes is adequately protected from being accessed by unauthorized users.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+The types of encryption that can be applied to a volume are:
+
+* Software - Volumes that are protected using NetApp Volume Encryption (NVE) or NetApp Aggregate Encryption (NAE) software encryption solutions.
+* Hardware - Volumes that are protected using NetApp Storage Encryption (NSE) hardware encryption.
+* Software and Hardware - Volumes that are protected by both software and hardware encryption.
+* None - Volumes that are not encrypted.
+
+.Steps
+. In the left navigation pane, click *Storage* > *Volumes*.
+. In the View menu, select *Health* > *Volumes Encryption*
+. In the *Health: Volumes Encryption* view, sort on the *Encryption Type* field, or use the Filter to display volumes that have a specific encryption type, or that are not encrypted (Encryption Type of "`None`").

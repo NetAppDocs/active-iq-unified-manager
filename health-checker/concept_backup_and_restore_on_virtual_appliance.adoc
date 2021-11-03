@@ -1,0 +1,26 @@
+---
+permalink: health-checker/concept_backup_and_restore_on_virtual_appliance.html
+sidebar: sidebar
+keywords: backup, restore, unified manager, virtual, appliance
+summary: "The backup and restore model for Unified Manager when installed on a virtual appliance is to capture and restore an image of the full virtual application."
+---
+= Backup and restore for Unified Manager on virtual appliance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The backup and restore model for Unified Manager when installed on a virtual appliance is to capture and restore an image of the full virtual application.
+
+The following tasks enable you to complete a backup of the virtual appliance:
+
+. Power off the VM and take a VMware snapshot of the Unified Manager virtual appliance.
+. Make a NetApp Snapshot copy on the datastore to capture the VMware snapshot.
++
+If the datastore is not hosted on a system running ONTAP software, follow the storage vendor guidelines to create a backup of the VMware snapshot.
+
+. Replicate the NetApp Snapshot copy, or snapshot equivalent, to alternate storage.
+. Delete the VMware snapshot.
+
+You should implement a backup schedule using these tasks to ensure that the Unified Manager virtual appliance is protected if issues arise.
+
+To restore the VM, you can use the VMware snapshot you created to restore the VM to the backup point-in-time state.

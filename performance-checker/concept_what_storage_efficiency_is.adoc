@@ -1,0 +1,22 @@
+---
+permalink: performance-checker/concept_what_storage_efficiency_is.html
+sidebar: sidebar
+keywords: storage, efficiency
+summary: "Storage efficiency enables you to store the maximum amount of data for the lowest cost and accommodates rapid data growth while consuming less space. NetApp strategy for storage efficiency is based on the built-in foundation of storage virtualization and unified storage provided by its core ONTAP operating system and Write Anywhere File Layout (WAFL) file system."
+---
+= What storage efficiency is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Storage efficiency enables you to store the maximum amount of data for the lowest cost and accommodates rapid data growth while consuming less space. NetApp strategy for storage efficiency is based on the built-in foundation of storage virtualization and unified storage provided by its core ONTAP operating system and Write Anywhere File Layout (WAFL) file system.
+
+Storage efficiency includes using technologies such as thin provisioning, Snapshot copy, deduplication, data compression, FlexClone, thin replication with SnapVault and volume SnapMirror, RAID-DP, Flash Cache, Flash Pool aggregate, and FabricPool-enabled aggregates which help to increase storage utilization and decrease storage costs.
+
+The unified storage architecture allows you to efficiently consolidate a storage area network (SAN), network-attached storage (NAS), and secondary storage on a single platform.
+
+High-density disk drives, such as serial advanced technology attachment (SATA) drives configured within Flash Pool aggregate or with Flash Cache and RAID-DP technology, increase efficiency without affecting performance and resiliency.
+
+A FabricPool-enabled aggregate includes an all SSD aggregate or HDD aggregate (starting with ONTAP 9.8) as the local performance tier and an object store that you specify as the cloud tier. Configuring FabricPool helps you manage which storage tier (the local tier or the cloud tier) data should be stored based on whether the data is frequently accessed.
+
+Technologies such as thin provisioning, Snapshot copy, deduplication, data compression, thin replication with SnapVault and volume SnapMirror, and FlexClone offer better savings. You can use these technologies individually or together to achieve maximum storage efficiency.

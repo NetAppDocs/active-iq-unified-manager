@@ -1,0 +1,34 @@
+---
+permalink: reporting/task_create_report_to_view_volumes_with_default_export_policy.html
+sidebar: sidebar
+keywords: create, report, view, volumes, default, export, policy
+summary: "You can create a report to find volumes that are using the default export policy."
+---
+= Creating a report to view volumes that are using the default export policy
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a report to find volumes that are using the default export policy.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+
+Use the following steps to create a custom view for volumes that are using the default export policy, and then schedule a report to be generated for that view.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *NFS Shares*.
+. Select *Show/Hide* to remove any columns that you do not want in the report.
+. Drag the "`Export Policy`" column near the "`Volume`" column.
+. Click the filter icon, add the following filter, and then click *Apply Filter*:
+ ** Export Policy contains default
+. Save the view with a specific name that reflects what the view is showing, for example "`Volumes with a default export policy`" and click the check mark (image:../media/blue_check.gif[]).
+. Click the *Scheduled Reports* button on the inventory page.
+. Click *Add Schedule* to add a new row to the Report Schedules page so you can define the schedule characteristics for the new report.
+. Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
++
+The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
+
+Based on the results shown in the report, you might want to configure a custom export policy.

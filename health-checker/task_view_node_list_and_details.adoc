@@ -1,0 +1,39 @@
+---
+permalink: health-checker/task_view_node_list_and_details.html
+sidebar: sidebar
+keywords: view, node list, details
+summary: "You can use the Health: All Nodes view to view the list of nodes in your clusters. You can use the Cluster / Health details page to view detailed information about nodes that are part of the cluster that is monitored."
+---
+= Viewing the node list and details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Health: All Nodes view to view the list of nodes in your clusters. You can use the Cluster / Health details page to view detailed information about nodes that are part of the cluster that is monitored.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+You can view details such as the node state, cluster that contains the node, aggregate capacity details (used and total), and raw capacity details (usable, spare, and total). You can also obtain information about HA pairs, disks shelves, and ports.
+
+.Steps
+. In the left navigation pane, click *Storage* > *Nodes*.
+. On the *Health: All Nodes* view, click the node whose details you want to view.
++
+The detailed information for the selected node is displayed in the Cluster / Health details page. The left pane displays the list of HA pairs. By default, the HA Details is open, which displays HA state details and events related to the selected HA pair.
+
+. To view other details about the node, perform the appropriate action:
++
+[cols="2*",options="header"]
+|===
+| To view...| Click...
+a|
+Details about the disk shelves
+a|
+*Disk Shelves*.
+a|
+Port-related information
+a|
+*Ports*.
+|===

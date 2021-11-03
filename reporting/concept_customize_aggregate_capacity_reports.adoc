@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_customize_aggregate_capacity_reports.html
+sidebar: sidebar
+keywords: customize, aggregate, capacity, reports
+summary: "These sample custom reports are used to help you identify and respond to potential problems related to aggregate storage capacity."
+---
+= Customizing aggregate capacity reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+These sample custom reports are used to help you identify and respond to potential problems related to aggregate storage capacity.
+
+The reports in this section are just samples to help you understand how to create reports about aggregate capacity to help you monitor you storage system resources.

@@ -1,0 +1,29 @@
+---
+permalink: performance-checker/task_search_on_object_inventory_performance_pages.html
+sidebar: sidebar
+keywords: object, inventory, performance, pages
+summary: "You can search strings on Object Inventory Performance pages. Use the Search field located at the top right of the page to quickly locate data based on either object name or policy name. This enables you to quickly locate specific objects and their associated data, or to quickly locate policies and view associated policy object data."
+---
+= Searching on Object Inventory Performance pages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can search strings on Object Inventory Performance pages. Use the *Search* field located at the top right of the page to quickly locate data based on either object name or policy name. This enables you to quickly locate specific objects and their associated data, or to quickly locate policies and view associated policy object data.
+
+.Step
+. Perform one of the following options, based on your search requirements:
++
+[options="header"]
+|===
+| To locate this...| Type this...
+a|
+A specific object
+a|
+The object name into the *Search* field, and click *Search*.    The object for which you searched and its related data is displayed.
+a|
+A user-defined performance threshold policy
+a|
+All or part of the policy name into the *Search* field, and click *Search*.    The objects assigned to the policy for which you searched are displayed.
+
+|===

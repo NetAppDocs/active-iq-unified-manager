@@ -1,0 +1,35 @@
+---
+permalink: reporting/task_create_report_to_identify_space_with_thin_provisioning_disabled.html
+sidebar: sidebar
+keywords: volume, provision, disk, volume, thin-provisioning
+summary: "When a volume is not thin provisioned it takes up the full amount of space on the disk as defined when the volume was created. Identifying volumes that have thin provisioning disabled helps you decide whether you want to enable thin-provisioning on certain volumes."
+---
+= Creating a report to identify space used by volumes with thin provisioning disabled
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When a volume is not thin provisioned it takes up the full amount of space on the disk as defined when the volume was created. Identifying volumes that have thin provisioning disabled helps you decide whether you want to enable thin-provisioning on certain volumes.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+
+Follow the steps below to create a custom view that displays the required columns in the correct order, and then schedule a report to be generated for that view.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Volumes*.
+. In the View menu, select *Capacity* > *All Volumes*.
+. Select *Show/Hide* to remove any columns you do not want in the report.
+. Drag and drop the "`Used Data %`" and the "`Thin Provisioned`" columns near the "`Available Data Capacity`" column.
+. Click the filter icon, add the following filter, *Thin provisioned* is *No*, and then click *Apply Filter*.
+. Click the top of the "`Used Data %`" column to sort the results so that the volumes with the highest percentage appear at the top of the list.
+. Save the view with a name to reflect what the view is showing, for example "`Vols no thin provisioning`".
+. Click the *Scheduled Reports* button on the inventory page.
+. Click *Add Schedule* to add a new row to the *Report Schedules* page so you can define the schedule characteristics for the new report.
+. Enter a name for the report schedule and complete the other report fields, then click the checkmark (image:../media/blue_check.gif[]) at the end of the row.
++
+The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
+
+Based on the results shown in the report, you might want to enable thin provisioning on certain volumes.

@@ -1,0 +1,33 @@
+---
+permalink: data-protection/task_edit_protection_relationships_from_health_volume.html
+sidebar: sidebar
+keywords: edit, protection, relationships, volume, health details page
+summary: "You can edit existing protection relationships to change the current maximum transfer rate, protection policy, or protection schedule. You might edit a relationship to decrease the bandwidth used for transfers, or to increase the frequency of scheduled transfers because data is changing often."
+---
+= Editing protection relationships from the Volume / Health details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit existing protection relationships to change the current maximum transfer rate, protection policy, or protection schedule. You might edit a relationship to decrease the bandwidth used for transfers, or to increase the frequency of scheduled transfers because data is changing often.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have installed and configured Workflow Automation.
+
+The selected volumes must be protection relationship destinations. You cannot edit relationships when source volumes, load-sharing volumes, or volumes that are not the destination of a SnapMirror or SnapVault relationship are selected.
+
+.Steps
+
+. From the *Protection* tab of the *Volume / Health* details page, locate in the topology the protection relationship you want to edit and right-click it.
+. Select *Edit* from the menu.
++
+Alternatively, from the *Actions* menu, select *Relationship* > *Edit* to edit the relationship for which you are currently viewing the details.
++
+The *Edit Relationship* dialog box is displayed.
+
+. In the Edit Relationship dialog box, edit the maximum transfer rate, protection policy, or protection schedule, as needed.
+. Click *Apply*.
++
+The changes are applied to the selected relationships.

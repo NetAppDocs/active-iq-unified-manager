@@ -1,0 +1,219 @@
+---
+permalink: data-protection/reference_configure_protection_dialog_box.html
+sidebar: sidebar
+keywords: configure, protection, dialog box
+summary: "You can use the Configure Protection dialog box to create SnapMirror and SnapVault relationships for all read, write, and data protection volumes on clusters to ensure that the data on a source volume or primary volume is replicated."
+---
+= Configure Protection dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Configure Protection dialog box to create SnapMirror and SnapVault relationships for all read, write, and data protection volumes on clusters to ensure that the data on a source volume or primary volume is replicated.
+
+
+== Source tab
+
+* *Topology view*
++
+Displays a visual representation of the relationship that you are creating. The source in the topology is highlighted by default.
+
+* *Source Information*
++
+Displays details about the selected source volumes, including the following information:
+
+ ** Source cluster name
+ ** Source SVM name
+ ** Cumulative volume total size
++
+Displays the total size of all the source volumes that are selected.
+
+ ** Cumulative volume used size
++
+Displays the cumulative volume used size for all the selected source volumes.
+
+ ** Source volume
++
+Displays the following information in a table:
+
+  *** Source Volume
++
+Displays the names of the selected source volumes.
+
+  *** Type
++
+Displays the volume type.
+
+  *** SnapLock Type
++
+Displays the SnapLock type of the volume. The options are Compliance, Enterprise, and Non-SnapLock.
+
+  *** Snapshot Copy
++
+Displays the Snapshot copy that is used for the baseline transfer. If the source volume is read/write, the value of Default in the Snapshot copy column indicates that a new Snapshot copy is created by default, and is used for the baseline transfer. If the source volume is a data protection volume, the value of Default in the Snapshot copy column indicates that no new Snapshot copy is created, and all existing Snapshot copies are transferred to the destination. Clicking the Snapshot copy value displays a list of Snapshot copies from which you can select an existing Snapshot copy to use for the baseline transfer. You cannot select a different default Snapshot copy if the source type is data protection.
+
+== SnapMirror tab
+
+Enables you to specify a destination cluster, storage virtual machine (SVM), and aggregate for a protection relationship, as well as a naming convention for destinations while creating a SnapMirror relationship. You can also specify a SnapMirror policy and schedule.
+
+* *Topology view*
++
+Displays a visual representation of the relationship that you are creating. The SnapMirror destination resource in the topology is highlighted by default.
+
+* *Destination Information*
++
+Enables you to select the destination resources for a protection relationship:
+
+ ** Advanced link
++
+Launches the Advanced Destination Settings dialog box when you are creating a SnapMirror relationship.
+
+ ** Cluster
++
+Lists the clusters that are available as protection destination hosts. This field is required.
+
+ ** storage virtual machine (SVM)
++
+Lists the SVMs that are available on the selected cluster. A cluster must be selected before the SVM list is populated. This field is required.
+
+ ** Aggregate
++
+Lists the aggregates that are available on the selected SVM. A cluster must be selected before the Aggregate list is populated. This field is required. The Aggregate list displays the following information:
+
+  *** Rank
++
+When multiple aggregates satisfy all the requirements for a destination, the rank indicates the priority in which the aggregate is listed, according to the following conditions:
+
+   .... An aggregate that is located on a different node than the source volume node is preferred to enable fault domain separation.
+   .... An aggregate on a node with fewer volumes is preferred to enable load balancing across nodes in a cluster.
+   .... An aggregate that has more free space than other aggregates is preferred to enable capacity balancing.
+A rank of 1 means that the aggregate is the most preferred according to the three criteria.
+
+  *** Aggregate Name
++
+Name of the aggregate
+
+  *** Available Capacity
+  *** Amount of space that is available on the aggregate for data
+  *** Resource Pool
++
+Name of the resource pool to which the aggregate belongs
+
+ ** Naming Convention
++
+Specifies the default naming convention that is applied to the destination volume. You can accept the naming convention that is provided, or you can create a custom one. The naming convention can have the following attributes: %C, %M, %V, and %N, where %C is the cluster name, %M is the SVM name, %V is the source volume, and %N is the topology destination node name.
++
+The naming convention field is highlighted in red if your entry is invalid. Clicking the "`Preview Name`" link displays a preview of the naming convention that you entered, and the preview text updates dynamically as you type a naming convention in the text field. A suffix between 001 and 999 is appended to the destination name when the relationship is created, replacing the nnn that displays in the preview text, with 001 being assigned first, 002 assigned second, and so on.
+
+* *Relationship Settings*
++
+Enables you to specify the maximum transfer rate, SnapMirror policy, and schedule that the protection relationship uses:
+
+ ** Max Transfer Rate
++
+Specifies the maximum rate at which data is transferred between clusters over the network. If you choose not to use a maximum transfer rate, the baseline transfer between relationships is unlimited.
+
+ ** SnapMirror Policy
++
+Specifies the ONTAP SnapMirror policy for the relationship. The default is DPDefault.
+
+ ** Create Policy
++
+Launches the Create SnapMirror Policy dialog box, which enables you to create and use a new SnapMirror policy.
+
+ ** SnapMirror Schedule
++
+Specifies the ONTAP SnapMirror policy for the relationship. Available schedules include None, 5min, 8hour, daily, hourly, and weekly. The default is None, indicating that no schedule is associated with the relationship. Relationships without schedules have no lag status values unless they belong to a storage service.
+
+ ** Create Schedule
++
+Launches the Create Schedule dialog box, which enables you to create a new SnapMirror schedule.
+
+== SnapVault tab
+
+Enables you to specify a secondary cluster, SVM, and aggregate for a protection relationship, as well as a naming convention for secondary volumes while creating a SnapVault relationship. You can also specify a SnapVault policy and schedule.
+
+* *Topology view*
++
+Displays a visual representation of the relationship that you are creating. The SnapVault secondary resource in the topology is highlighted by default.
+
+* *Secondary Information*
++
+Enables you to select the secondary resources for a protection relationship:
+
+ ** Advanced link
++
+Launches the Advanced Secondary Settings dialog box.
+
+ ** Cluster
++
+Lists the clusters that are available as secondary protection hosts. This field is required.
+
+ ** storage virtual machine (SVM)
++
+Lists the SVMs that are available on the selected cluster. A cluster must be selected before the SVM list is populated. This field is required.
+
+ ** Aggregate
++
+Lists the aggregates that are available on the selected SVM. A cluster must be selected before the Aggregate list is populated. This field is required. The Aggregate list displays the following information:
+
+  *** Rank
++
+When multiple aggregates satisfy all the requirements for a destination, the rank indicates the priority in which the aggregate is listed, according to the following conditions:
+
+   .... An aggregate that is located on a different node than the primary volume node is preferred to enable fault domain separation.
+   .... An aggregate on a node with fewer volumes is preferred to enable load balancing across nodes in a cluster.
+   .... An aggregate that has more free space than other aggregates is preferred to enable capacity balancing.
+A rank of 1 means that the aggregate is the most preferred according to the three criteria.
+
+  *** Aggregate Name
++
+Name of the aggregate
+
+  *** Available Capacity
+  *** Amount of space that is available on the aggregate for data
+  *** Resource Pool
++
+Name of the resource pool to which the aggregate belongs
+
+ ** Naming Convention
++
+Specifies the default naming convention that is applied to the secondary volume. You can accept the naming convention that is provided, or you can create a custom one. The naming convention can have the following attributes: %C, %M, %V, and %N, where %C is the cluster name, %M is the SVM name, %V is the source volume, and %N is the topology secondary node name.
++
+The naming convention field is highlighted in red if your entry is invalid. Clicking the "`Preview Name`" link displays a preview of the naming convention that you entered, and the preview text updates dynamically as you type a naming convention in the text field. If you type an invalid value, the invalid information displays as red question marks in the preview area. A suffix between 001 and 999 is appended to the secondary name when the relationship is created, replacing the nnn that displays in the preview text, with 001 being assigned first, 002 assigned second, and so on.
+
+* *Relationship Settings*
++
+Enables you to specify the maximum transfer rate, SnapVault policy, and SnapVault schedule that the protection relationship uses:
+
+ ** Max Transfer Rate
++
+Specifies the maximum rate at which data is transferred between clusters over the network. If you choose not to use a maximum transfer rate, the baseline transfer between relationships is unlimited.
+
+ ** SnapVault Policy
++
+Specifies the ONTAP SnapVault policy for the relationship. The default is XDPDefault.
+
+ ** Create Policy
++
+Launches the Create SnapVault Policy dialog box, which enables you to create and use a new SnapVault policy.
+
+ ** SnapVault Schedule
++
+Specifies the ONTAP SnapVault schedule for the relationship. Available schedules include None, 5min, 8hour, daily, hourly, and weekly. The default is None, indicating that no schedule is associated with the relationship. Relationships without schedules have no lag status values unless they belong to a storage service.
+
+ ** Create Schedule
++
+Launches the Create Schedule dialog box, which enables you to create a SnapVault schedule.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Cancel*
++
+Discards your selections, and closes the Configure Protection dialog box.
+
+* *Apply*
++
+Applies your selections, and begins the protection process.

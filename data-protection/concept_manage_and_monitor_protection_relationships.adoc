@@ -1,0 +1,24 @@
+---
+permalink: data-protection/concept_manage_and_monitor_protection_relationships.html
+sidebar: sidebar
+keywords: manage, monitor, protection, relationships
+summary: "Active IQ Unified Manager enables you to create protection relationships, to monitor and troubleshoot SnapMirror and SnapVault relationships on managed clusters, and to restore data when it is overwritten or lost."
+---
+= Managing and monitoring protection relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager enables you to create protection relationships, to monitor and troubleshoot SnapMirror and SnapVault relationships on managed clusters, and to restore data when it is overwritten or lost.
+
+For SnapMirror operations there are two replication types:
+
+* Asynchronous
++
+Replication from the primary to the secondary volume is determined by a schedule.
+
+* Synchronous
++
+Replication is performed simultaneously on the primary and secondary volume.
+
+You can perform up to 10 protection jobs simultaneously with no performance impact. You might experience some performance impact when you run between 11 and 30 jobs simultaneously. Running more than 30 jobs simultaneously is not recommended.

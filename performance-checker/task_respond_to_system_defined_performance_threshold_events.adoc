@@ -1,0 +1,30 @@
+---
+permalink: performance-checker/task_respond_to_system_defined_performance_threshold_events.html
+sidebar: sidebar
+keywords: system-defined, performance, threshold, events
+summary: "You can use Unified Manager to investigate performance events caused by a performance counter crossing a system-defined warning threshold. You can also use Unified Manager to check the health of the cluster component to see whether recent events detected on the component contributed to the performance event."
+---
+= Responding to system-defined performance threshold events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to investigate performance events caused by a performance counter crossing a system-defined warning threshold. You can also use Unified Manager to check the health of the cluster component to see whether recent events detected on the component contributed to the performance event.
+
+*What you'll need*
+
+* You must have the Operator, Application Administrator, or Storage Administrator role.
+* There must be new or obsolete performance events.
+
+.Steps
+. Display the *Event details* page to view information about the event.
+. Review the *Description*, which describes the threshold breach that caused the event.
++
+For example, the message "`Node utilization value of 90 % has triggered a WARNING event based on threshold setting of 85 %`" indicates that a node utilization warning event occurred for the cluster object.
+
+. Make a note of the *Event Trigger Time* so you can investigate whether other events might have occurred at the same time that could have contributed to this event.
+. Under *System Diagnosis*, review the brief description of the type of analysis the system-defined policy is performing on the cluster object.
++
+For some events a green or red icon is displayed next to the diagnosis to indicate whether an issue was found in that particular diagnosis. For other types of system-defined events counter charts display the performance for the object.
+
+. Under *Suggested Actions*, click the *Help me do this* link to view the suggested actions you can perform to try and resolve the performance event on your own.

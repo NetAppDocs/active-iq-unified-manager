@@ -1,0 +1,65 @@
+---
+permalink: performance-checker/reference_components_of_node_failover_planning_page.html
+sidebar: sidebar
+keywords: components, node, failover, planning page, performance, statistics, grid
+summary: "The components of the Performance/Node Failover Planning page are displayed in a grid and in the Comparing pane. These sections enable you to assess the impact of a node failover on the performance of the takeover node."
+---
+= Components of the Node Failover Planning page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The components of the Performance/Node Failover Planning page are displayed in a grid and in the Comparing pane. These sections enable you to assess the impact of a node failover on the performance of the takeover node.
+
+== Performance statistics grid
+
+The Performance/Node Failover Planning page displays a grid containing statistics for latency, IOPS, utilization, and performance capacity used.
+
+[NOTE]
+====
+Latency and IOPS values displayed in this page and in the Performance/Node Performance Explorer page might not match because different performance counters are used to calculate the values to predict node failover.
+====
+
+In the grid, each node is assigned one of the following roles:
+
+* Primary
++
+The node that takes over for the HA partner when the partner fails. The root object is always the Primary node.
+
+* Partner
++
+The node that fails in the failover scenario.
+
+* Estimated Takeover
++
+The same as the Primary node. Performance statistics displayed for this node show the takeover node's performance after it takes over the failed partner.
+
+[NOTE]
+====
+Although the workload of the takeover node is equivalent to the combined workloads of both nodes after a failover, the statistics for the Estimated Takeover node are not the sum of the statistics of the Primary node and the Partner node. For example, if the latency of the Primary node is 2 ms/op and the latency of the Partner node is 3 ms/op, the Estimated Takeover node might have a latency of 4 ms/op. This value is a calculation that Unified Manager performs.
+====
+
+You can click the name of the Partner node if you want it to become the root object. After the Performance/Node Performance Explorer page is displayed, you can click the *Failover Planning* tab to see how performance changes in this node failure scenario. For example, if Node1 is the Primary node and Node2 is the Partner node, you can click Node2 to make it the Primary node. In this way, you can see how the estimated performance changes depending on which node fails.
+
+== Comparing pane
+
+The following list describes the components displayed in the Comparing pane by default:
+
+* *Events charts*
++
+They are displayed in the same format as those in the Performance/Node Performance Explorer page. They pertain to the Primary node only.
+
+* *Counter charts*
++
+They display historical statistics for the performance counter shown in the grid. In each chart, the graph for the Estimated Takeover node shows the estimated performance if a failover had occurred at any given time.
++
+For example, suppose the Utilization chart shows 73% for the Estimated Takeover node at 11 a.m. on February 8. If a failover had occurred at that time, the utilization of the takeover node would have been 73%.
++
+The historical statistics help you find the optimal time for initiating a failover, minimizing the possibility of overloading the takeover node. You can schedule a failover only at times when the predicted performance of the takeover node is acceptable.
+
+By default, statistics for both the root object and the partner node are displayed in the Comparing pane. Unlike in the Performance/Node Performance Explorer page, this page does not display the *Add* button for you to add objects for statistics comparison.
+
+You can customize the Comparing pane in the same way as you do in the Performance/Node Performance Explorer page. The following list shows examples of customizing the charts:
+
+* Click a node name to show or hide the node's statistics in the Counter charts.
+* Click *Zoom View* to display a detailed chart for a particular counter in a new window.

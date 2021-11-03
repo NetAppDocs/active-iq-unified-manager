@@ -1,0 +1,24 @@
+---
+permalink: events/reference_what_suggested_actions_section_displays.html
+sidebar: sidebar
+keywords: suggest, actions, section, displays
+summary: "The Suggested Actions section of the Event details page provides possible reasons for the event and suggests a few actions so that you can try to resolve the event on your own. The suggested actions are customized based on the type of event or type of threshold that has been breached."
+---
+= What the Suggested Actions section displays
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Suggested Actions section of the Event details page provides possible reasons for the event and suggests a few actions so that you can try to resolve the event on your own. The suggested actions are customized based on the type of event or type of threshold that has been breached.
+
+This area is displayed only for some types of events.
+
+In some cases there are *Help* links provided on the page that reference additional information for many suggested actions, including instructions for performing a specific action. Some of the actions may involve using Unified Manager, ONTAP System Manager, OnCommand Workflow Automation, ONTAP CLI commands, or a combination of these tools.
+
+You should consider the actions suggested here as only a guidance in resolving this event. The action you take to resolve this event should be based on the context of your environment.
+
+If you want to analyze the object and event in more detail, click the *Analyze Workload* button to display the Workload Analysis page.
+
+There are certain events that Unified Manager can diagnose thoroughly and provide a single resolution. When available, those resolutions are displayed with a *Fix It* button. Click this button to have Unified Manager fix the issue causing the event.
+
+For Active IQ platform events, this section may contain a link to a NetApp Knowledgebase article, when available, that describes the issue and possible resolutions. In sites with no external network access, a PDF of the Knowledgebase article is opened locally; the PDF is part of the rules file that you manually download to the Unified Manager instance.

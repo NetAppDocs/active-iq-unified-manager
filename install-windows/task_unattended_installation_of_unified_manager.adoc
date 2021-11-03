@@ -1,0 +1,49 @@
+---
+permalink: install-windows/task_unattended_installation_of_unified_manager.html
+sidebar: sidebar
+keywords: perform, unattended, installation, unified manager
+summary: "You can install Unified Manager without user intervention by using the command-line interface. You can complete the unattended installation by passing the parameters in key-value pairs."
+---
+= Performing an unattended installation of Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can install Unified Manager without user intervention by using the command-line interface. You can complete the unattended installation by passing the parameters in key-value pairs.
+
+.Steps
+
+. Log in to the Windows command-line interface by using the default local administrator account.
+. Navigate to the location where you want to install Unified Manager, and choose one of the following options:
++
+[cols="4a,4a" options="header"]
+|===
+// header row
+| Option
+| Instructions
+
+// first body row
+| If third-party packages are pre-installed
+|`ActiveIQUnifiedManager-x.y.exe /V"MYSQL_PASSWORD=mysql_password INSTALLDIR=\\"Installation directory\" MYSQL_DATA_DIR=\"MySQL data directory\" MAINTENANCE_PASSWORD=maintenance_password MAINTENANCE_USERNAME=maintenance_username /qn /l*v CompletePathForLogFile"`
+
+*Example:*
+
+`ActiveIQUnifiedManager.exe /s /v"MYSQL_PASSWORD=netapp21! INSTALLDIR=\"C:\Program Files\NetApp\" MYSQL_DATA_DIR=\"C:\ProgramData\MYSQL\MySQLServer\" MAINTENANCE_PASSWORD=******* MAINTENANCE_USERNAME=admin /qn /l*v C:\install.log"`
+
+| If third-party packages are not installed
+|`ActiveIQUnifiedManager-x.y.exe /V"MYSQL_PASSWORD=mysql_password INSTALLDIR=\\"Installation directory\" MYSQL_DATA_DIR=\"MySQL data directory\" MAINTENANCE_PASSWORD=maintenance_password MAINTENANCE_USERNAME=maintenance_username /qr /l*v CompletePathForLogFile"`
+
+*Example:*
+
+`ActiveIQUnifiedManager.exe /s /v"MYSQL_PASSWORD=netapp21! INSTALLDIR=\"C:\Program Files\NetApp\" MYSQL_DATA_DIR=\"C:\ProgramData\MYSQL\MySQLServer\" MAINTENANCE_PASSWORD=******* MAINTENANCE_USERNAME=admin /qr /l*v C:\install.log"`
+
+// table end
+|===
++
+The `/qr` option enables quiet mode with a reduced user interface. A basic user interface is displayed, which shows the installation progress. You are not prompted for inputs. If third-party packages such as JRE, MySQL, and 7zip are not pre-installed, you should use the `/qr` option. Installation fails if the `/qn` option is used on a server where third-party packages are not installed.
++
+The `/qn` option enables quiet mode with no user interface. No user interface or details are displayed during installation. You should not use the `/qn` option when third-party packages are not installed.
+
+. Log in to the Unified Manager web user interface by using the following URL:
++
+`\https://IP address`

@@ -1,0 +1,364 @@
+section: performance-checker
+title: Monitor and manage cluster performance
+entries:
+  - title: Introduction to Active IQ Unified Manager performance monitoring
+    url: "/performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html"
+    entries:
+    - title: Unified Manager performance monitoring features
+      url: "/performance-checker/concept_unified_manager_performance_monitoring_features.html"
+    - title: Unified Manager interfaces used to manage storage system performance
+      url: "/performance-checker/concept_um_interfaces_used_to_manage_storage_system_performance.html"
+    - title: Cluster configuration and performance data collection activity
+      url: "/performance-checker/concept_cluster_configuration_and_performance_data_collection_activity.html"
+    - title: What a data continuity collection cycle is
+      url: "/performance-checker/concept_what_data_continuity_collection_cycle_is.html"
+    - title: What the timestamp means in collected data and events
+      url: "/performance-checker/concept_what_timestamp_means_in_collected_data_and_events.html"
+  - title: Navigating performance workflows in the Unified Manager GUI
+    url: "/performance-checker/concept_navigate_performance_workflows_in_unified_manager_ui.html"
+    entries:
+    - title: Logging in to the UI
+      url: "/performance-checker/task_log_in_to_gui.html"
+    - title: Graphical interface and navigational paths
+      url: "/performance-checker/concept_graphical_interface_and_navigational_paths.html"
+      entries:
+      - title: Monitor cluster object navigation
+        url: "/performance-checker/concept_monitor_cluster_object_navigation.html"
+      - title: Monitor cluster performance navigation
+        url: "/performance-checker/concept_monitor_cluster_performance_navigation.html"
+      - title: Event investigation navigation
+        url: "/performance-checker/concept_event_investigation_navigation.html"
+    - title: Searching for storage objects
+      url: "/performance-checker/concept_search_for_storage_objects.html"
+    - title: Filtering inventory page content
+      url: "/performance-checker/task_filter_inventory_page_content.html"
+  - title: Understanding performance events and alerts
+    url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
+    entries:
+    - title: Sources of performance events
+      url: "/performance-checker/concept_sources_of_performance_events.html"
+    - title: Performance event severity types
+      url: "/performance-checker/reference_performance_event_severity_types.html"
+    - title: Configuration changes detected by Unified Manager
+      url: "/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html"
+    - title: Types of system-defined performance threshold policies
+      url: "/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html"
+  - title: Managing performance thresholds
+    url: "/performance-checker/concept_manage_performance_thresholds.html"
+    entries:
+    - title: How user-defined performance threshold policies work
+      url: "/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html"
+    - title: What happens when a performance threshold policy is breached
+      url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html"
+    - title: What performance counters can be tracked using thresholds
+      url: "/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html"
+    - title: What objects and counters can be used in combination threshold policies
+      url: "/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html"
+    - title: Creating user-defined performance threshold policies
+      url: "/performance-checker/task_create_user_defined_performance_threshold_policies.html"
+    - title: Assigning performance threshold policies to storage objects
+      url: "/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html"
+    - title: Viewing performance threshold policies
+      url: "/performance-checker/task_view_performance_threshold_policies.html"
+    - title: Editing user-defined performance threshold policies
+      url: "/performance-checker/task_edit_user_defined_performance_threshold_policies.html"
+    - title: Removing performance threshold policies from storage objects
+      url: "/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html"
+    - title: What happens when a performance threshold policy is changed
+      url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html"
+    - title: What happens to performance threshold policies when an object is moved
+      url: "/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html"
+  - title: Monitoring cluster performance from the Dashboard
+    url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
+    entries:
+    - title: Understanding performance panels on the Dashboard
+      url: "/performance-checker/concept_understand_performance_panels_on_dashboard.html"
+    - title: Performance banner messages and descriptions
+      url: "/performance-checker/reference_performance_dashboard_cluster_banner_messages.html"
+    - title: Changing the performance statistics collection interval
+      url: "/performance-checker/task_change_performance_statistics_collection_interval.html"
+  - title: Troubleshooting workloads using the workload analyzer
+    url: "/performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html"
+    entries:
+    - title: What data does the workload analyzer display
+      url: "/performance-checker/reference_what_data_does_workload_analyzer_display.html"
+    - title: When would I use the workload analyzer
+      url: "/performance-checker/concept_when_would_i_use_workload_analyzer.html"
+    - title: Using the workload analyzer
+      url: "/performance-checker/task_use_workload_analyzer.html"
+  - title: Monitoring cluster performance from the Performance Cluster Landing page
+    url: "/performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html"
+    entries:
+    - title: Understanding the Performance Cluster Landing page
+      url: "/performance-checker/concept_understand_performance_cluster_landing_page.html"
+    - title: Performance Cluster Landing page
+      url: "/performance-checker/reference_performance_cluster_landing_page.html"
+      entries:
+      - title: Performance Cluster Summary page
+        url: "/performance-checker/reference_cluster_summary_page_opm.html"
+        entries:
+        - title: Cluster performance events pane
+          url: "/performance-checker/reference_cluster_performance_events_pane.html"
+        - title: Managed Objects pane
+          url: "/performance-checker/reference_managed_objects_pane.html"
+      - title: Top Performers page
+        url: "/performance-checker/reference_top_performers_page.html"
+  - title: Monitoring performance using the Performance Inventory pages
+    url: "/performance-checker/concept_monitor_performance_using_object_performance.html"
+    entries:
+    - title: Object monitoring using the Performance object inventory pages
+      url: "/performance-checker/concept_object_monitoring_using_object_inventory_performance_pages.html"
+    - title: Refining Performance inventory page contents
+      url: "/performance-checker/concept_refine_object_inventory_performance_page_content.html"
+      entries:
+      - title: Searching on Object Inventory Performance pages
+        url: "/performance-checker/task_search_on_object_inventory_performance_pages.html"
+      - title: Sorting on the Object Inventory Performance pages
+        url: "/performance-checker/task_sort_on_object_inventory_performance_pages.html"
+      - title: Filtering data in the Object Inventory Performance pages
+        url: "/performance-checker/task_filter_on_object_inventory_performance_pages.html"
+    - title: Understanding the Unified Manager recommendations to tier data to the
+        cloud
+      url: "/performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html"
+  - title: Monitoring performance using the Performance Explorer pages
+    url: "/performance-checker/concept_monitor_performance_using_performance_explorer_pages.html"
+    entries:
+    - title: Understanding the root object
+      url: "/performance-checker/concept_understand_root_object.html"
+    - title: Apply filtering to reduce the list of correlated objects in the grid
+      url: "/performance-checker/concept_apply_filtering_to_correlated_objects.html"
+    - title: Specifying a time range for correlated objects
+      url: "/performance-checker/task_specify_correlated_objects_time_range.html"
+      entries:
+      - title: Selecting a predefined time range
+        url: "/performance-checker/task_select_predefined_time_range.html"
+      - title: Specifying a custom time range
+        url: "/performance-checker/task_specify_custom_time_range.html"
+    - title: Defining the list of correlated objects for comparison graphing
+      url: "/performance-checker/task_define_list_of_correlated_objects_for_comparison_graphing.html"
+    - title: Understanding counter charts
+      url: "/performance-checker/concept_understand_counter_charts.html"
+    - title: Types of performance counter charts
+      url: "/performance-checker/reference_types_of_performance_counter_charts.html"
+    - title: Selecting performance charts to display
+      url: "/performance-checker/task_select_performance_charts_to_display.html"
+    - title: Expanding the Counter Charts pane
+      url: "/performance-checker/task_expand_counter_charts_pane.html"
+    - title: Changing the Counter Charts focus to a shorter period of time
+      url: "/performance-checker/task_change_counter_charts_focus_to_smaller_period_of_time.html"
+    - title: Viewing event details in the Events Timeline
+      url: "/performance-checker/task_view_event_details_in_performance_explorer_events_timeline.html"
+    - title: Counter Charts Zoom View
+      url: "/performance-checker/concept_counter_charts_zoom_view.html"
+      entries:
+      - title: Displaying the Counter Charts Zoom View
+        url: "/performance-checker/task_display_counter_charts_zoom_view.html"
+      - title: Specifying the time range in Zoom View
+        url: "/performance-checker/task_specify_time_range_in_zoom_view.html"
+      - title: Selecting performance thresholds in Counter Charts Zoom View
+        url: "/performance-checker/task_select_performance_thresholds_in_zoom_view.html"
+    - title: Viewing volume latency by cluster component
+      url: "/performance-checker/task_view_volume_latency_by_cluster_component.html"
+    - title: Viewing SVM IOPS traffic by protocol
+      url: "/performance-checker/task_view_svm_iops_traffic_by_protocol.html"
+    - title: Viewing volume and LUN latency charts to verify performance guarantee
+      url: "/performance-checker/task_view_volume_and_lun_latency_charts_to_verify_performance_guarantee.html"
+    - title: Viewing the performance for All SAN Array clusters
+      url: "/performance-checker/task_view_performance_status_of_all_san_array_clusters.html"
+    - title: Viewing node IOPS based on workloads that reside only on the local node
+      url: "/performance-checker/task_view_node_iops_based_on_workloads_on_local_node.html"
+    - title: Components of the Object Landing pages
+      url: "/performance-checker/concept_components_of_object_landing_pages_opm.html"
+      entries:
+      - title: Summary page
+        url: "/performance-checker/reference_summary_page_opm.html"
+      - title: Components of the Performance Explorer page
+        url: "/performance-checker/concept_components_of_performance_explorer_page.html"
+  - title: Managing performance using QoS policy group information
+    url: "/performance-checker/concept_manage_performance_using_qos_policy_group_information.html"
+    entries:
+    - title: How storage QoS can control workload throughput
+      url: "/performance-checker/concept_how_storage_qos_can_control_workload_throughput.html"
+    - title: Viewing all QoS policy groups available on all clusters
+      url: "/performance-checker/task_view_all_qos_policy_groups_available_on_all_clusters.html"
+    - title: Viewing volumes or LUNs that are in the same QoS policy group
+      url: "/performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html"
+    - title: Viewing the QoS policy group settings applied to specific volumes or
+        LUNs
+      url: "/performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html"
+    - title: Viewing performance charts to compare volumes or LUNs that are in the
+        same QoS policy group
+      url: "/performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html"
+    - title: How different types of QoS policies are displayed in the throughput charts
+      url: "/performance-checker/concept_how_qos_policies_are_displayed_in_throughput_charts.html"
+    - title: Viewing workload QoS minimum and maximum settings in the Performance
+        Explorer
+      url: "/performance-checker/task_view_workload_qos_minimum_and_maximum_settings.html"
+  - title: Managing performance using performance capacity and available IOPS information
+    url: "/performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html"
+    entries:
+    - title: What performance capacity used is
+      url: "/performance-checker/concept_what_performance_capacity_used_is.html"
+    - title: What the performance capacity used value means
+      url: "/performance-checker/concept_what_used_headroom_value_means.html"
+    - title: What available IOPS is
+      url: "/performance-checker/concept_what_available_iops_is.html"
+    - title: Viewing node and aggregate performance capacity used values
+      url: "/performance-checker/concept_view_node_and_aggregate_performance_capacity_used_values.html"
+    - title: Viewing node and aggregate available IOPS values
+      url: "/performance-checker/concept_view_node_and_aggregate_available_iops_values.html"
+    - title: Viewing performance capacity counter charts to identify issues
+      url: "/performance-checker/task_view_performance_capacity_counter_charts_to_identify_issues.html"
+    - title: Performance capacity used performance threshold conditions
+      url: "/performance-checker/concept_performance_capacity_used_threshold_conditions.html"
+    - title: Using the performance capacity used counter to manage performance
+      url: "/performance-checker/concept_use_performance_capacity_used_counter.html"
+  - title: Understanding and using the Node Failover Planning page
+    url: "/performance-checker/reference_understand_and_use_node_failover_planning_page.html"
+    entries:
+    - title: Using the Node Failover Planning page to determine corrective actions
+      url: "/performance-checker/concept_use_failover_planning_page_to_determine_corrective_actions.html"
+    - title: Components of the Node Failover Planning page
+      url: "/performance-checker/reference_components_of_node_failover_planning_page.html"
+    - title: Using a threshold policy with the Node Failover Planning page
+      url: "/performance-checker/concept_use_threshold_policy_with_node_failover_planning_page.html"
+    - title: Using the Performance Capacity Used Breakdown chart for failover planning
+      url: "/performance-checker/task_use_perf_capacity_used_breakdown_chart_for_failover_planning.html"
+  - title: Collecting data and monitoring workload performance
+    url: "/performance-checker/concept_collect_data_and_monitor_workload_performance.html"
+    entries:
+    - title: Types of workloads monitored by Unified Manager
+      url: "/performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html"
+    - title: Workload performance measurement values
+      url: "/performance-checker/reference_workload_performance_measurement_values.html"
+    - title: What the expected range of performance is
+      url: "/performance-checker/concept_what_expected_range_of_performance_is.html"
+    - title: How the latency forecast is used in performance analysis
+      url: "/performance-checker/reference_how_expected_range_is_used_in_performance_analysis.html"
+    - title: How Unified Manager uses workload latency to identify performance issues
+      url: "/performance-checker/concept_how_unified_manager_uses_workload_response_time.html"
+    - title: How cluster operations can affect workload latency
+      url: "/performance-checker/concept_how_cluster_operations_can_affect_workload_latency.html"
+    - title: Performance monitoring of MetroCluster configurations
+      url: "/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html"
+      entries:
+      - title: Volume behavior during switchover and switchback
+        url: "/performance-checker/concept_volume_behavior_during_switchover_and_switchback.html"
+    - title: What performance events are
+      url: "/performance-checker/concept_what_performance_events_are.html"
+      entries:
+      - title: Performance event analysis and notification
+        url: "/performance-checker/reference_performance_event_analysis_and_notification.html"
+      - title: How Unified Manager determines the performance impact for an event
+        url: "/performance-checker/concept_how_um_determines_performance_impact_for_incident.html"
+      - title: Cluster components and why they can be in contention
+        url: "/performance-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
+      - title: Roles of workloads involved in a performance event
+        url: "/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html"
+  - title: Analyzing performance events
+    url: "/performance-checker/concept_analyze_performance_events.html"
+    entries:
+    - title: Displaying information about performance events
+      url: "/performance-checker/task_display_information_about_performance_event.html"
+    - title: Analyzing events from user-defined performance thresholds
+      url: "/performance-checker/concept_analyze_events_from_user_defined_performance_thresholds.html"
+      entries:
+      - title: Responding to user-defined performance threshold events
+        url: "/performance-checker/task_respond_to_user_defined_performance_threshold_events.html"
+    - title: Analyzing events from system-defined performance thresholds
+      url: "/performance-checker/concept_analyze_events_from_system_defined_performance_thresholds.html"
+      entries:
+      - title: Responding to system-defined performance threshold events
+        url: "/performance-checker/task_respond_to_system_defined_performance_threshold_events.html"
+      - title: Responding to QoS policy group performance events
+        url: "/performance-checker/task_respond_to_system_defined_qos_policy_group_performance_event.html"
+      - title: Understanding events from adaptive QoS policies that have a defined
+          block size
+        url: "/performance-checker/concept_understand_events_from_adaptive_qos_policies.html"
+      - title: Responding to node resources overutilized performance events
+        url: "/performance-checker/task_respond_to_system_defined_node_resources_overutilized.html"
+      - title: Responding to cluster imbalance performance events
+        url: "/performance-checker/task_respond_to_cluster_imbalance_performance_events.html"
+    - title: Analyzing events from dynamic performance thresholds
+      url: "/performance-checker/concept_analyze_events_from_dynamic_performance_thresholds.html"
+      entries:
+      - title: Identifying victim workloads involved in a dynamic performance event
+        url: "/performance-checker/task_identify_victim_workloads_involved_in_performance_event.html"
+      - title: Identifying bully workloads involved in a dynamic performance event
+        url: "/performance-checker/task_identify_bully_workloads_involved_in_performance_event.html"
+      - title: Identifying shark workloads involved in a dynamic performance event
+        url: "/performance-checker/task_identify_shark_workloads_involved_in_performance_event.html"
+      - title: Performance event analysis for a MetroCluster configuration
+        url: "/performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html"
+        entries:
+        - title: Analyzing a dynamic performance event on a cluster in a MetroCluster
+            configuration
+          url: "/performance-checker/task_analyze_performance_incident_on_cluster_in_metrocluster.html"
+        - title: Analyzing a dynamic performance event for a remote cluster on a MetroCluster
+            configuration
+          url: "/performance-checker/task_analyze_performance_incident_in_metrocluster.html"
+      - title: Responding to a dynamic performance event caused by QoS policy group
+          throttling
+        url: "/performance-checker/task_respond_to_dynamic_performance_event.html"
+      - title: Responding to a dynamic performance event caused by a disk failure
+        url: "/performance-checker/task_respond_to_performance_incident_caused_by_disk_failure.html"
+      - title: Responding to a dynamic performance event caused by HA takeover
+        url: "/performance-checker/task_respond_to_performance_incident_caused_by_ha_takeover.html"
+  - title: Resolving performance events
+    url: "/performance-checker/reference_resolve_performance_events.html"
+    entries:
+    - title: Confirming that the latency is within the expected range
+      url: "/performance-checker/concept_confirm_that_response_time_is_within_expected_range.html"
+    - title: Review the impact of configuration changes on workload performance
+      url: "/performance-checker/concept_review_impact_of_configuration_changes.html"
+    - title: Options for improving workload performance from the client-side
+      url: "/performance-checker/concept_options_for_improving_workload_performance_from_client.html"
+    - title: Check for client or network issues
+      url: "/performance-checker/concept_check_for_client_or_network_issues.html"
+    - title: Verify whether other volumes in the QoS policy group have unusually high
+        activity
+      url: "/performance-checker/concept_verify_qos_policy_group.html"
+    - title: Move logical interfaces (LIFs)
+      url: "/performance-checker/concept_move_logical_interfaces.html"
+    - title: Run storage efficiency operations at less busy times
+      url: "/performance-checker/concept_run_storage_efficiency_operations_at_less_busy_times.html"
+      entries:
+      - title: What storage efficiency is
+        url: "/performance-checker/concept_what_storage_efficiency_is.html"
+    - title: Add disks and reallocate data
+      url: "/performance-checker/concept_add_disks_and_reallocate_data.html"
+    - title: How enabling Flash Cache on a node can improve workload performance
+      url: "/performance-checker/reference_how_enabling_flash_cache_improve_workload_performance.html"
+    - title: How enabling Flash Pool on a storage aggregate can improve workload performance
+      url: "/performance-checker/concept_how_enabling_flash_pool_can_improve_workload_performance.html"
+    - title: MetroCluster configuration health check
+      url: "/performance-checker/concept_metrocluster_configuration_health_check.html"
+    - title: MetroCluster configuration verification
+      url: "/performance-checker/concept_metrocluster_configuration_verification.html"
+    - title: Moving workloads to a different aggregate
+      url: "/performance-checker/task_move_workloads_to_different_aggregate.html"
+    - title: Moving workloads to a different node
+      url: "/performance-checker/task_move_workloads_to_different_node.html"
+    - title: Moving workloads to an aggregate on a different node
+      url: "/performance-checker/task_move_workloads_to_an_aggregate_on_different_node.html"
+    - title: Moving workloads to a node in a different HA pair
+      url: "/performance-checker/task_move_workloads_to_node_in_different_ha_pair.html"
+    - title: Moving workloads to another node in a different HA pair
+      url: "/performance-checker/task_move_workloads_to_another_node_in_different_ha_pair.html"
+    - title: Use QoS policy settings to prioritize the work on this node
+      url: "/performance-checker/concept_use_qos_policy_settings_to_prioritize_work_on_this_node.html"
+    - title: Remove inactive volumes and LUNs
+      url: "/performance-checker/concept_remove_inactive_volumes_and_luns.html"
+    - title: Add disks and perform aggregate layout reconstruction
+      url: "/performance-checker/concept_add_disks_and_perform_aggregate_layout_reconstruction.html"
+  - title: Setting up a connection between a Unified Manager server and an external
+      data provider
+    url: "/performance-checker/concept_set_up_connection_between_um_and_external_data_provider.html"
+    entries:
+    - title: Performance data that can be sent to an external server
+      url: "/performance-checker/reference_performance_data_that_can_be_sent_to_an_external_server.html"
+    - title: Setting up Graphite to receive performance data from Unified Manager
+      url: "/performance-checker/concept_set_up_graphite_to_receive_performance_data.html"
+    - title: Configuring a connection from a Unified Manager server to an external
+        data provider
+      url: "/performance-checker/task_configure_connection_between_um_server_and_external_data_provider.html"

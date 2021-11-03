@@ -1,0 +1,14 @@
+---
+permalink: install-vapp/concept_overview_of_deployment_process.html
+sidebar: sidebar
+keywords: overview, deployment, process
+summary: "The deployment workflow describes the tasks that you must perform before you can use Unified Manager."
+---
+= Overview of the deployment process
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The deployment workflow describes the tasks that you must perform before you can use Unified Manager.
+
+image::../media/deployment_sequence_oc_6_0.gif[]

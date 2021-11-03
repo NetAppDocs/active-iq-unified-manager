@@ -1,0 +1,34 @@
+---
+permalink: health-checker/task_retrieve_support_bundle_using_windows_client.html
+sidebar: sidebar
+keywords: retrieve, support bundle, windows client
+summary: "If you are a Windows user, you can download and install a tool to retrieve the support bundle from your Unified Manager server. You can send the support bundle to technical support for a more detailed diagnosis of an issue. Filezilla or WinSCP are examples of tools you can use."
+---
+= Retrieving the support bundle using a Windows client
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you are a Windows user, you can download and install a tool to retrieve the support bundle from your Unified Manager server. You can send the support bundle to technical support for a more detailed diagnosis of an issue. Filezilla or WinSCP are examples of tools you can use.
+
+*What you'll need*
+
+You must be the maintenance user to perform this task.
+
+You must use a tool that supports SCP or SFTP.
+
+.Steps
+. Download and install a tool to retrieve the support bundle.
+. Open the tool.
+. Connect to your Unified Manager management server over SFTP.
++
+The tool displays the contents of the /support directory and you can view all existing support bundles.
+
+. Select the destination directory for the support bundle you want to copy.
+. Select the support bundle you want to copy and use the tool to copy the file from the Unified Manager server to your local system.
+
+*Related information*
+
+https://filezilla-project.org/[Filezilla - https://filezilla-project.org/]
+
+http://winscp.net[WinSCP - http://winscp.net]

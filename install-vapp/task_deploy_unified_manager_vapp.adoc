@@ -1,0 +1,41 @@
+---
+permalink: install-vapp/task_deploy_unified_manager_vapp.html
+sidebar: sidebar
+keywords: deploy, unified manager
+summary: "Deploying Unified Manager includes downloading software, deploying the virtual appliance, creating a maintenance user name and password, and performing the initial setup in the web UI."
+---
+= Deploying Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Deploying Unified Manager includes downloading software, deploying the virtual appliance, creating a maintenance user name and password, and performing the initial setup in the web UI.
+
+*What you'll need*
+
+* You should verify and complete the system requirements for deployment.
++
+link:concept_requirements_for_installing_unified_manager.html[System requirements]
+
+* Ensure that you have the following information:
+ ** Login credentials for the NetApp Support Site
+ ** Credentials for accessing the VMware vCenter Server and vSphere Web Client
+ ** IP address of the ESXi server on which you are deploying the Unified Manager virtual appliance
+ ** Details about the data center, such as storage space in the datastore and memory requirements
+ ** IPv6 should be enabled on the host if you are planning to use IPv6 addressing.
+
+You can deploy Unified Manager as a virtual appliance on a VMware ESXi server.
+
+You should access the maintenance console by using the VMware console, and not by using SSH.
+
+[NOTE]
+====
+Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM Tools (`open-vm-tools`). You no longer have to install VMware Tools as part of the installation because `open-vm-tools` is included with the Unified Manager installation package.
+====
+
+After finishing the deployment and initial setup, you can either add clusters, or configure additional network settings in the maintenance console, and then access the web UI.
+
+.Steps
+. link:task_download_unified_manager_ova_file.html[Download Unified Manager]
+. link:task_deploy_unified_manager_virtual_appliance_vapp.html[Deploy the Unified Manager virtual appliance]
+

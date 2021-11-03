@@ -1,0 +1,12 @@
+---
+permalink: storage-mgmt/concept_understand_more_about_quotas.html
+sidebar: sidebar
+keywords: understand, more, quotas
+summary: "Understanding the concepts about quotas helps you to manage your user quotas and user group quotas efficiently."
+---
+= Understanding more about quotas
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Understanding the concepts about quotas helps you to manage your user quotas and user group quotas efficiently.

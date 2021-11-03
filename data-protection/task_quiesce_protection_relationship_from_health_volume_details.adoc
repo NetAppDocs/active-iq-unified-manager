@@ -1,0 +1,36 @@
+---
+permalink: data-protection/task_quiesce_protection_relationship_from_health_volume_details.html
+sidebar: sidebar
+keywords: quiesce, protection, relationship, volume, health details page
+summary: "You can quiesce a protection relationship to temporarily prevent data transfers from occurring. You might quiesce a relationship when you want to create a Snapshot copy of a SnapMirror destination volume that contains a database, and you want to ensure that its contents are stable during the Snapshot copy."
+---
+= Quiescing a protection relationship from the Volume / Health details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can quiesce a protection relationship to temporarily prevent data transfers from occurring. You might quiesce a relationship when you want to create a Snapshot copy of a SnapMirror destination volume that contains a database, and you want to ensure that its contents are stable during the Snapshot copy.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+
+The quiesce action does not display in the following instances:
+
+* If RBAC settings do not allow this action, for example, if you have only operator privileges
+* When the volume ID is unknown, for example, when you have an intercluster relationship and the destination cluster has not yet been discovered
+* When you have not paired Workflow Automation and Unified Manager
+
+.Steps
+
+. In the *Protection* tab of the *Volume / Health* details page, right-click the relationship in the topology view for the protection relationship that you want to quiesce.
+. Select *Quiesce* from the menu.
+. Click *Yes* to continue.
++
+The status of the quiesce job is displayed at the top of the Volume / Health details page, along with a link to the job details.
+
+. Click the *View details* link to go to the *Job* details page for additional details and job progress.
+.  *Optional:* Click the Back arrow on your browser to return to the *Volume / Health* details page.
++
+The quiesce job is finished when all job tasks are successfully completed.

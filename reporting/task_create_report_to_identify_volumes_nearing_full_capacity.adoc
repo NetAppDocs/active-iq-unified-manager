@@ -1,0 +1,36 @@
+---
+permalink: reporting/task_create_report_to_identify_volumes_nearing_full_capacity.html
+sidebar: sidebar
+keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off
+summary: "You can create a report that contains the list of volumes that are approaching full capacity with the Snapshot Autodelete feature disabled. The results can help identify volumes where you might want to configure Snapshot Autodelete."
+---
+= Creating a report to identify volumes nearing full capacity that have Snapshot Autodelete turned off
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a report that contains the list of volumes that are approaching full capacity with the Snapshot Autodelete feature disabled. The results can help identify volumes where you might want to configure Snapshot Autodelete.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+
+Follow the steps below to create a custom view that displays the required columns in the correct order, and then schedule a report to be generated for that view.
+
+.Steps
+
+. In the left navigation pane, click *Storage* > *Volumes*.
+. In the View menu, select *Capacity* > *All Volumes*.
+. Select *Show/Hide* to remove any columns you do not want in the report.
+. Drag and drop the "`Snapshot Autodelete`" and "`Days To Full`" columns near the "`Available Data Capacity`" column.
+. Click the filter icon, add the following two filters, and then click *Apply Filter*:
+ ** Days To Full less than 30 days
+ ** Snapshot Autodelete is Disabled
+. Click the top of the *Days To Full* column so that the volumes with the fewest remaining days appear at the top of the list.
+. Save the view with a specific name that reflects what the view is showing, for example "`Vols near capacity`".
+. Click the *Scheduled Reports* button on the inventory page.
+. Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
++
+The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
+
+Based on the results shown in the report, you might want to enable Snapshot Autodelete on the volumes or find a way to increase the available space.

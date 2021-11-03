@@ -1,0 +1,88 @@
+---
+permalink: api-automation/concept_manage_psl.html
+sidebar: sidebar
+keywords: manage, performance, service, level
+summary: "You can view, create, modify, and delete Performance Service Levels by using the storage provider APIs for on your Active IQ Unified Manager."
+---
+= Managing Performance Service Levels
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view, create, modify, and delete Performance Service Levels by using the storage provider APIs for on your Active IQ Unified Manager.
+
+== View Performance Service Levels
+
+You can use the following method to view the Performance Service Levels for assigning them to storage workloads. The API lists all of the system-defined and user-created Performance Service Levels, and retrieves the attributes of all of the Performance Service Levels. If you want to query a specific Performance Service Level, you need to enter the unique ID of the Performance Service Level to retrieve its details.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/performance-service-levels`
+
+`/storage-provider/performance-service-levels/\{key}`
+
+|===
+
+== Add Performance Service Levels
+
+You can use the following method to create custom Performance Service Levels and assign them to your storage workloads if the system-defined Performance Service Levels do not meet the required service level objectives (SLOs) for the storage workloads. Enter the details for the Performance Service Level that you want to create. For the IOPS properties, ensure that you enter valid range of values.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+POST
+a|
+`/storage-provider/performance-service-levels`
+|===
+
+== Delete Performance Service Levels
+
+You can use the following method to delete a specific Performance Service Level. You cannot delete a Performance Service Level if it is assigned to a workload, or if it is the only available Performance Service Level. You need to provide the unique ID of the Performance Service Level as an input parameter to delete a particular Performance Service Level.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+DELETE
+a|
+`/storage-provider/performance-service-levels/\{key}`
+|===
+
+== Modify Performance Service Levels
+
+You can use the following method to modify a Performance Service Level and update its properties. You cannot modify a Performance Service Level that is system-defined or is assigned to a workload. You need to provide the unique ID of the to modify a particular Performance Service Level. You must also enter the IOPS property that you want to update, along with a valid value.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+PATCH
+a|
+`/storage-provider/performance-service-levels/\{key}`
+|===
+
+== Viewing aggregate capabilities based on Performance Service Levels
+
+You can use the following method to query the aggregate capabilities based on Performance Service Levels. This API returns the list of aggregates available in your data center and indicates the capabilities in terms of the Performance Service Levels that can be supported in those aggregates. While provisioning workloads on a volume, you can view the capability of an aggregate to support a particular Performance Service Level, and provision workloads based on that capability. Your ability to specify the aggregate is available only when you are provisioning a workload by using APIs. This functionality is not available on the Unified Manager web UI.
+[cols="3*",options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+storage-provider
+a|
+GET
+a|
+`/storage-provider/aggregate-capabilities`
+
+`/storage-provider/aggregate-capabilities/\{key}`
+
+|===

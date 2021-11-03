@@ -1,0 +1,37 @@
+---
+permalink: config/task_configure_event_notification_settings.html
+sidebar: sidebar
+keywords: configure, event, notification, settings
+summary: "You can configure Unified Manager to send alert notifications when an event is generated or when an event is assigned to a user. You can configure the SMTP server that is used to send the alert, and you can set various notification mechanisms—for example, alert notifications can be sent as emails or SNMP traps."
+---
+= Configuring event notification settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure Unified Manager to send alert notifications when an event is generated or when an event is assigned to a user. You can configure the SMTP server that is used to send the alert, and you can set various notification mechanisms--for example, alert notifications can be sent as emails or SNMP traps.
+
+*What you'll need*
+
+You must have the following information:
+
+* Email address from which the alert notification is sent
++
+The email address appears in the "`From`" field in sent alert notifications. If the email cannot be delivered for any reason, this email address is also used as the recipient for undeliverable mail.
+
+* SMTP server host name, and the user name and password to access the server
+* Host name or IP address for the trap destination host that will receive the SNMP trap, along with the SNMP version, outbound trap port, community, and other required SNMP configuration values
++
+To specify multiple trap destinations, separate each host with a comma. In this case, all other SNMP settings, such as version and outbound trap port, must be the same for all hosts in the list.
+
+You must have the Application Administrator or Storage Administrator role.
+
+.Steps
+
+. In the left navigation pane, click *General* > *Notifications*.
+. In the Notifications page, configure the appropriate settings and click *Save*.
++
+*Notes:*
+
+ ** If the From Address is pre-filled with the address "+ActiveIQUnifiedManager@localhost.com+", you should change it to a real, working email address to make sure that all email notifications are delivered successfully.
+ ** If the host name of the SMTP server cannot be resolved, you can specify the IP address (IPv4 or IPv6) of the SMTP server instead of the host name.

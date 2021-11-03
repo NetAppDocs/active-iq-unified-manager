@@ -1,0 +1,22 @@
+---
+permalink: config/concept_maintenance_console_menu.html
+sidebar: sidebar
+keywords: maintenance, console, menus
+summary: "The maintenance console consists of different menus that enable you to maintain and manage special features and configuration settings of the Unified Manager server."
+---
+= Maintenance console menus
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The maintenance console consists of different menus that enable you to maintain and manage special features and configuration settings of the Unified Manager server.
+
+Depending on the operating system on which you have installed Unified Manager, the maintenance console consists of the following menus:
+
+* Upgrade Unified Manager (VMware only)
+* Network Configuration (VMware only)
+* System Configuration (VMware only)
+* Support/ Diagnostics
+* Reset Server Certificate
+* External Data Provider
+* Performance Polling Interval Configuration

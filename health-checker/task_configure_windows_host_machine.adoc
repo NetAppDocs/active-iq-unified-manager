@@ -1,0 +1,27 @@
+---
+permalink: health-checker/task_configure_windows_host_machine.html
+sidebar: sidebar
+keywords: netapp, snapshot, backup, windows, configure, windows host machine
+summary: "You need to configure your Windows host machine, on which Active IQ Unified Manager is installed, to prepare for NetApp Snapshot backup. To start the Microsoft iSCSI initiator on a Windows host machine, type “iscsi” in the search bar and click iSCSI Initiator."
+---
+= Configuring Windows host machine
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You need to configure your Windows host machine, on which Active IQ Unified Manager is installed, to prepare for NetApp Snapshot backup. To start the Microsoft iSCSI initiator on a Windows host machine, type "`iscsi`" in the search bar and click *iSCSI Initiator*.
+
+*What you'll need*
+
+You should clean up any previous configurations on the host machine.
+
+If you are trying to start the iSCSI initiator on a fresh installation of Windows, you are prompted for confirmation, and on your confirmation, the iSCSI Properties dialog box is displayed. If it is an existing Windows installation, then the iSCSI Properties dialog box displayed with a target that is either inactive or trying to connect. So, you will need to ensure that all the previous configurations on the Windows host are removed.
+
+.Steps
+. Clean up any previous configurations on the host machine.
+. Discover the target portal.
+. Connect to the target portal.
+. Connect using multipath to the target portal.
+. Discover both the LIFs.
+. Discover the LUN configured in the Windows machine as a device.
+. Configure the discovered LUN as a new volume drive in Windows.

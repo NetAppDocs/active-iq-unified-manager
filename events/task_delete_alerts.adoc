@@ -1,0 +1,22 @@
+---
+permalink: events/task_delete_alerts.html
+sidebar: sidebar
+keywords: delete, alerts
+summary: "You can delete an alert when it is no longer required. For example, you can delete an alert that was created for a particular resource when that resource is no longer monitored by Unified Manager."
+---
+= Deleting alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete an alert when it is no longer required. For example, you can delete an alert that was created for a particular resource when that resource is no longer monitored by Unified Manager.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+.Steps
+
+. In the left navigation pane, click *Storage Management* > *Alert Setup*.
+. On the *Alert Setup* page, select the alerts that you want to delete, and click *Delete*.
+. Click *Yes* to confirm the delete request.

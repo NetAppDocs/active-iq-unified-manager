@@ -1,0 +1,49 @@
+---
+permalink: data-protection/task_resynchronize_protection_relationships_voldtls.html
+sidebar: sidebar
+keywords: resynchronize, protection, relationships, volume, health details page
+summary: "You can resynchronize data on a SnapMirror or SnapVault relationship that was broken and then the destination was made read/write so that data on the source matches the data on the destination. You might also resynchronize when a required common Snapshot copy on the source volume is deleted causing SnapMirror or SnapVault updates to fail."
+---
+= Resynchronizing protection relationships from the Volume / Health details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can resynchronize data on a SnapMirror or SnapVault relationship that was broken and then the destination was made read/write so that data on the source matches the data on the destination. You might also resynchronize when a required common Snapshot copy on the source volume is deleted causing SnapMirror or SnapVault updates to fail.
+
+*What you'll need*
+
+* You must have the Application Administrator or Storage Administrator role.
+* You must have set up OnCommand Workflow Automation.
+
+.Steps
+
+. From the *Protection* tab of the *Volume / Health* details page, locate in the topology the protection relationship that you want to resynchronize and right-click it.
+. Select *Resynchronize* from the menu.
++
+Alternatively, from the *Actions* menu, select *Relationship* > *Resynchronize* to resynchronize the relationship for which you are currently viewing the details.
++
+The Resynchronize dialog box is displayed.
+
+. In the *Resynchronization Options* tab, select a transfer priority and the maximum transfer rate.
+. Click *Source Snapshot Copies*; then, in the *Snapshot Copy* column, click *Default*.
++
+The Select Source Snapshot Copy dialog box is displayed.
+
+. If you want to specify an existing Snapshot copy rather than transferring the default Snapshot copy, click *Existing Snapshot Copy* and select a Snapshot copy from the list.
+. Click *Submit*.
++
+You are returned to the Resynchronize dialog box.
+
+. If you selected more than one source to resynchronize, click *Default* for the next source for which you want to specify an existing Snapshot copy.
+. Click *Submit* to begin the resynchronization job.
++
+The resynchronization job is started, you are returned to the Volume / Health details page and a jobs link is displayed at the top of the page.
+
+.  *Optional:* Click *View Jobs* on the *Volume / Health details* page to track the status of each resynchronization job.
++
+A filtered list of jobs is displayed.
+
+.  *Optional:* Click the *Back* arrow on your browser to return to the *Volume / Health* details page.
++
+The resynchronization job is finished when all job tasks successfully complete.

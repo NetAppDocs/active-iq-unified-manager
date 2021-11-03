@@ -1,0 +1,35 @@
+---
+permalink: events/task_exclude_disaster_recovery_destination_volumes_from_alerts.html
+sidebar: sidebar
+keywords: exclude, disaster, recovery, destination, volumes, generate, alerts
+summary: "When configuring volume alerts you can specify a string in the Alert dialog box that identifies a volume or group of volumes. If you have configured disaster recovery for SVMs, however, the source and destination volumes have the same name, so you will receive alerts for both volumes."
+---
+= Excluding disaster recovery destination volumes from generating alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When configuring volume alerts you can specify a string in the Alert dialog box that identifies a volume or group of volumes. If you have configured disaster recovery for SVMs, however, the source and destination volumes have the same name, so you will receive alerts for both volumes.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+You can disable alerts for disaster recovery destination volumes by excluding volumes that have the name of the destination SVM. This is possible because the identifier for volume events contains both the SVM name and volume name in the format "<svm_name>:/<volume_name>".
+
+The example below shows how to create alerts for volume "vol1" on the primary SVM "vs1", but exclude the alert from being generated on a volume with the same name on SVM "vs1-dr".
+
+Perform the following steps in the Add Alert dialog box:
+
+.Steps
+. Click *Name* and enter a name and description for the alert.
+. Click *Resources*, and then select the *Include* tab.
+ .. Select *Volume* from the drop-down list, and then enter *`vol1`* in the *Name contains* field to display the volumes whose name contains "vol1".
+ .. Select *+<<All Volumes whose name contains 'vol1'>>+* from the *Available Resources* area, and move it to the *Selected Resources* area.
+. Select the *Exclude* tab, select *Volume*, enter *`vs1-dr`* in the *Name contains* field, and then click *Add*.
++
+This excludes the alert from being generated for volume "vol1" on SVM "vs1-dr".
+
+. Click *Events* and select the event or events that you want to apply to the volume or volumes.
+. Click *Actions* and then select the name of the user who will receive the alert email in the *Alert these users* field.
+. Configure any other options on this page for issuing SNMP traps and executing a script, and then click *Save*.

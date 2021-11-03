@@ -1,0 +1,24 @@
+---
+permalink: data-protection/task_create_resource_pools.html
+sidebar: sidebar
+keywords: creating, resource, pools
+summary: "You can use the Create Resource Pool dialog box to group aggregates for provisioning purposes."
+---
+= Creating resource pools
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Create Resource Pool dialog box to group aggregates for provisioning purposes.
+
+*What you'll need*
+
+You must have the Application Administrator or Storage Administrator role.
+
+.Steps
+
+Resource pools can contain aggregates from different clusters, but the same aggregate cannot belong to different resource pools.
+
+. In the left navigation pane, click *Protection* > *Resource Pools*.
+. In the *Resource Pools page*, click *Create*.
+. Follow the instructions in the *Create Resource Pool* dialog box to provide a name and description and to add aggregates as members to the resource pool you want to create.

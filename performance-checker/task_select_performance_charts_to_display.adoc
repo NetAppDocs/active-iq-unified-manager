@@ -1,0 +1,34 @@
+---
+permalink: performance-checker/task_select_performance_charts_to_display.html
+sidebar: sidebar
+keywords: select, performance, charts, display
+summary: "The Choose charts drop-down list enables you to select the types of performance counter charts to display in the Counter Charts pane. This enables you to view specific data and counters, based on your performance requirements."
+---
+= Selecting performance charts to display
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Choose charts drop-down list enables you to select the types of performance counter charts to display in the Counter Charts pane. This enables you to view specific data and counters, based on your performance requirements.
+
+.Steps
+. In the *Counter Charts* pane, click the *Choose charts* drop-down list.
+. Add or remove charts:
++
+[options="header"]
+|===
+| To...| Do this...
+a|
+Add or remove individual charts
+a|
+Click the check boxes next to the charts you want to show or hide
+a|
+Add all charts
+a|
+Click *Select All*
+a|
+Remove all charts
+a|
+Click *Unselect All*
+|===
+Your chart selections are displayed in the Counter Charts pane. Note that as you add charts, the new charts are inserted into the Counter Charts pane to match the order of the charts listed in the Choose charts drop-down list. Selecting additional charts might require additional scrolling.

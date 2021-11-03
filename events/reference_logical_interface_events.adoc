@@ -1,0 +1,129 @@
+---
+permalink: events/reference_logical_interface_events.html
+sidebar: sidebar
+keywords: network, interface, (lif) events, impact area, availability, configuration, performance
+summary: "Network interface events provide information about the status of your network interface (LIFs), so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
+---
+= Network interface (LIF) events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Network interface events provide information about the status of your network interface (LIFs), so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Network Interface Status Down(ocumEvtLifStatusDown)
+
+a|
+Risk
+a|
+Interface
+a|
+Error
+a|
+FC/FCoE Network Interface Status Down(ocumEvtFCLifStatusDown)
+
+a|
+Risk
+a|
+Interface
+a|
+Error
+a|
+Network Interface Failover Not Possible(ocumEvtLifFailoverNotPossible)
+
+a|
+Risk
+a|
+Interface
+a|
+Warning
+a|
+Network Interface Not At Home Port(ocumEvtLifNotAtHomePort)
+
+a|
+Risk
+a|
+Interface
+a|
+Warning
+|===
+
+== Impact area: configuration
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Network Interface Route Not Configured(Not applicable)
+
+a|
+Event
+a|
+Interface
+a|
+Information
+|===
+
+== Impact area: performance
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Network Interface MB/s Critical Threshold Breached(ocumNetworkLifMbpsIncident)
+
+a|
+Incident
+a|
+Interface
+a|
+Critical
+a|
+Network Interface MB/s Warning Threshold Breached(ocumNetworkLifMbpsWarning)
+
+a|
+Risk
+a|
+Interface
+a|
+Warning
+a|
+FC Network Interface MB/s Critical Threshold Breached(ocumFcpLifMbpsIncident)
+
+a|
+Incident
+a|
+Interface
+a|
+Critical
+a|
+FC Network Interface MB/s Warning Threshold Breached(ocumFcpLifMbpsWarning)
+
+a|
+Risk
+a|
+Interface
+a|
+Warning
+a|
+NVMf FC Network Interface MB/s Critical Threshold Breached(ocumNvmfFcLifMbpsIncident)
+
+a|
+Incident
+a|
+Interface
+a|
+Critical
+a|
+NVMf FC Network Interface MB/s Warning Threshold Breached(ocumNvmfFcLifMbpsWarning)
+
+a|
+Risk
+a|
+Interface
+a|
+Warning
+|===

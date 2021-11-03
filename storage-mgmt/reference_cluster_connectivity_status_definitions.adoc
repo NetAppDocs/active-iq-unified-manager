@@ -1,0 +1,43 @@
+---
+permalink: storage-mgmt/reference_cluster_connectivity_status_definitions.html
+sidebar: sidebar
+keywords: cluster, connectivity, status, definitions
+summary: "Connectivity between the clusters in a MetroCluster configuration can be one of the following statuses: Optimal, Impacted, or Down. Understanding the connectivity statuses enables you to manage your MetroCluster configurations effectively."
+---
+= Cluster connectivity status definitions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Connectivity between the clusters in a MetroCluster configuration can be one of the following statuses: Optimal, Impacted, or Down. Understanding the connectivity statuses enables you to manage your MetroCluster configurations effectively.
+[options="header"]
+|===
+| Connectivity status| Description| Icon displayed
+a|
+Optimal
+a|
+Connectivity between the clusters in the MetroCluster configuration is normal.
+a|
+image:../media/metrocluster_connectivity_optimal.gif[]
+
+a|
+Impacted
+a|
+One or more errors compromise the status of failover availability; however, both of the clusters in the MetroCluster configuration are still up. For example, when the ISL link is down, when the intercluster IP link is down, or when the partner cluster is not reachable.
+a|
+image:../media/metrocluster_connectivity_impacted.gif[]
+
+a|
+Down
+a|
+Connectivity between the clusters in the MetroCluster configuration is down because one or both of the clusters are down or the clusters are in failover mode. For example, when the partner cluster is down because of a disaster or when there is a planned switchover for testing purposes.
+a|
+Switchover with errors:
+
+image::../media/metrocluster_connectivity_down.gif[]
+
+Switchover successful:
+
+image::../media/metrocluster_connectivity_failover.gif[]
+
+|===
