@@ -37,7 +37,7 @@ management-server
 a|
 PATCH
 a|
-`management-server/events/{key}``
+`management-server/events/{key}`
 a|
 Run this API to assign an event or change the state to acknowledged or resolved. You can also use this method to assign the event to yourself or another user. It is a synchronous operation.
 |===
@@ -57,7 +57,7 @@ a|
 GET
 a|
 `/management-server/alerts`
-``/management-server/alerts/{key}``
+`/management-server/alerts/{key}`
 a|
 Query all the existing alerts in your environment or a specific alert, by using the alert key. You can view the information about the alerts generated in your environment such as the alert description, action, email ID to which the notification is sent, event and severity.
 a|
@@ -74,7 +74,7 @@ a|
 PATCH and
 DELETE
 a|
-`management-server/events/{key}``
+`management-server/events/{key}`
 a|
 You can use these methods to modify and delete specific alerts. You can modify different attributes, such as description, name, and enabling and disabling the alert.
 You can delete an alert when the alert is no longer required.

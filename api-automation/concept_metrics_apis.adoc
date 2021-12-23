@@ -282,7 +282,7 @@ Retrieves the high-level performance metrics for all the ethernet ports in your 
 a|
 `GET`
 a|
-``/datacenter/network/fc/interfaces/{key}/metrics`
+`/datacenter/network/fc/interfaces/{key}/metrics`
 a|
 Retrieves the performance metrics for a specific network FC interface specified by the input parameter of the interface key. When an interval (time range) is provided from the supported range, the API returns the accumulated counters, such as minimum, maximum, and the average performance values over the period of time.
 
@@ -295,7 +295,7 @@ Retrieves the high-level performance metrics for all the ethernet ports in your 
 
 a|`GET`
 a|
-``/datacenter/network/fc/ports/{key}/metrics`
+`/datacenter/network/fc/ports/{key}/metrics`
 a|
 Retrieves the performance metrics for a specific FC port specified by the input parameter of the port key. When an interval (time range) is provided from the supported range, the API returns the accumulated counters, such as minimum, maximum, and the average performance values over the period of time.
 a|

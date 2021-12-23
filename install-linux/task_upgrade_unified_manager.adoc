@@ -29,13 +29,13 @@ link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux]
 * During upgrade, you may be prompted to confirm whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data after 6 months is purged.
 * You should have completed any running operations, because Unified Manager is unavailable during the upgrade process.
 * *MySQL Requirement*:
-MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.25, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.25.
+MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.27, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.27.
 +
-However, you may want to upgrade MySQL to the latest minor version on your system. Before an upgrade to the next minor version, ensure that the base version of MySQL on your system is 8.0.25.
+However, you may want to upgrade MySQL to the latest minor version on your system. Before an upgrade to the next minor version, ensure that the base version of MySQL on your system is 8.0.27.
 +
-If your site does not have a repository configured with MySQL 8.0.25, you might not be able to upgrade Unified Manager. To configure the repository before upgrade, follow these steps:
+If your site does not have a repository configured with MySQL 8.0.27, you might not be able to upgrade Unified Manager. To configure the repository before upgrade, follow these steps:
 
-. Download the MySQL RPM packages with the minimum version required (in this case 8.0.25), and save them in the same directory where `netapp-um<version>.x86_64.rpm` is stored.
+. Download the MySQL RPM packages with the minimum version required (in this case 8.0.27), and save them in the same directory where `netapp-um<version>.x86_64.rpm` is stored.
 . Run this command to install the new version:
 `yum install *.rpm`
 . Start the Unified Manager server. Run these commands:
