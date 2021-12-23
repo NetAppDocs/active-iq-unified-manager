@@ -54,6 +54,10 @@ Changes the time zone to your location.
 +
 Changes the NTP Server settings, such as IP address or fully qualified domain name (FQDN).
 
+* *Change NTP Service*
++
+Switches between the `ntp` and `systemd-timesyncd` services.
+
 * *Restore from a Unified Manager Backup*
 +
 Restores the Unified Manager database and configuration settings from a previously backed up version.

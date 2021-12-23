@@ -43,7 +43,7 @@ You can use this method to view the details of the ONTAP clusters across the dat
 a|
 `GET`
 a|
-`/datacenter/cluster/licensing/licenses /datacenter/cluster/licensing/licenses/\{key}``
+`/datacenter/cluster/licensing/licenses /datacenter/cluster/licensing/licenses/\{key}`
 
 a|
 Returns the details of the licenses installed on the clusters in your data center. You can filter your results based on the required criteria. Information, such as the license key, cluster key, expiry date, and license scope is returned. You can enter a license key to retrieve the details of a specific license.

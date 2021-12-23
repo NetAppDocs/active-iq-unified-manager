@@ -11,4 +11,4 @@ summary: "You can configure the backup capability on Unified Manager through a s
 [.lead]
 You can configure the backup capability on Unified Manager through a set of configuration steps to be performed on the host systems and the through maintenance console.
 
-For information about the configuration steps, see "`Managing backup and restore operations`" in _Active IQ® Unified Manager Workflow Guide for Managing Cluster Health_.
+For information about the configuration steps, see link:..//health-checker/concept_manage_backup_and_restore_operations.html[Managing backup and restore operations].
