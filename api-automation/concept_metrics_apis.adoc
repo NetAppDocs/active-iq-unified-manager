@@ -70,7 +70,7 @@ a|
 
 |===
 
-== API sample for metrics APIs
+== Output sample for metrics APIs
 
 For example, the `/datacenter/cluster/nodes/\{key}/metrics` API retrieves the following details (among others) for a node:
 [NOTE]
@@ -143,7 +143,7 @@ The 95 percentile in the summary value indicates that 95% of the samples collect
        }
      },
 ----
-== API sample for analytics APIs
+== Output sample for analytics APIs
 
 For example, the `/datacenter/cluster/nodes/analytics` API retrieves the following values (among others) for all the nodes:
 
@@ -174,11 +174,17 @@ For example, the `/datacenter/cluster/nodes/analytics` API retrieves the followi
        "_links": {
          "self": {
            "href": "/api/datacenter/cluster/clusters/37387241-8b57-11e9-8974-00a098e0219a:type=cluster,uuid=37387241-8b57-11e9-8974-00a098e0219a"
-         }
+         },
+     "_links": {
+       "self": {
+         "href": "/api/datacenter/cluster/nodes/analytics"
+       }
+     }
+   },
 ----
 
 
-== API details
+== List of the available APIs
 
 The following table describes the `/metrics` and `/analytics` APIs in details.
 
