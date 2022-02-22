@@ -20,27 +20,27 @@ At the top of the dashboard you can select whether the panels show information f
 Some of the panels listed below appear on the dashboard based on your configuration.
 ====
 
-== *Management Actions panel*
+== Management Actions panel
 There are certain issues that Unified Manager can diagnose thoroughly and provide a single resolution. When available, those resolutions are displayed in this panel with a *Fix It* or *Fix All* button. You can fix these issues immediately from Unified Manager instead of having to use ONTAP System Manager or the ONTAP CLI. For viewing all the issues, click on
 See link:concept_fix_ontap_issues_directly_from_unified_manager.html[Fixing ONTAP issues directly from Unified Manager] for more information.
 
-== *Capacity panel*
+== Capacity panel
 When viewing all clusters, this panel displays the physical used capacity (after applying storage efficiency savings) and physical available capacity (not including potential storage efficiency savings) for each cluster, the number of days until the disks are projected to be full, and the data reduction ratio based on configured ONTAP storage efficiency settings. It also lists the used capacity for any configured cloud tiers. Clicking the bar chart takes you to the Aggregates inventory page for that cluster. Clicking the "Days To Full" text displays a message that identifies the aggregate with the least number of capacity days remaining; click the aggregate name to see more details.
 
 When viewing a single cluster, this panel displays the physical used capacity and physical available capacity for the data aggregates sorted by each individual disk type on the local tier, and for the cloud tier. Clicking the bar chart for a disk type takes you to the Volumes inventory page for the volumes using that disk type.
 
-== *Performance Capacity panel*
+== Performance Capacity panel
 When viewing all clusters, this panel displays the performance capacity value for each cluster (averaged over the previous 1 hour) and the number of days until performance capacity reaches the upper limit (based on daily growth rate). Clicking the bar chart takes you to the Nodes inventory page for that cluster. Note that the Nodes inventory page displays the performance capacity averaged over the previous 72 hours. Clicking the "Days To Full" text displays a message that identifies the node with the least number of performance capacity days remaining; click the node name to see more details.
 
 When viewing a single cluster, this panel displays the cluster performance capacity used percentage, total IOPS, and total throughput (MB/s) values, and the number of days until each of these three metrics are anticipated to reach their upper limit.
 
-== *Workload IOPS panel*
+== Workload IOPS panel
 When viewing a single cluster, this panel displays the total number workloads that are currently running in a certain range of IOPS, and indicates the number for each disk type when you hover your cursor over the chart.
 
-== *Workload Performance panel*
+== Workload Performance panel
 This panel displays the total number of conforming and non-conforming workloads that are assigned to each Performance Service Level (PSL) policy. It also displays the number of workloads that are not assigned a PSL. Clicking a bar chart takes you to the conforming workloads assigned to that policy in the Workloads page. Clicking the number that follows the bar chart takes you to the conforming and non-conforming workloads assigned to that policy.
 
-== *Security panel*
+== Security panel
 The Security panel presents the high-level security status for all clusters or a single cluster, depending on your current view. This panel displays:
 
  ** a list of the security events received in the past 24 hours. Click an event to view the details on the Event details page
@@ -51,7 +51,7 @@ The Security panel presents the high-level security status for all clusters or a
 Compliance is based on the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9]. Click the right-arrow at the top of the panel to view security details for all clusters on the Security page. For information, see
 link:..//health-checker/task_view_detailed_security_status_for_clusters_and_svms.html[Viewing detailed security status for clusters and Storage VMs]
 
-== *Data Protection panel*
+== Data Protection panel
 This panel displays the data protection summary for a single or all the clusters in a data center. It displays the total number of data protection events and number of active events raised in the last 24 hours in ONTAP. Clicking the link from each of these events takes you to the Event details page. You can click the *View All* link to view all active protection events in the Event Management inventory page.
 
 The panel also displays the number of volumes in a cluster or all the clusters in a data center protected by Snapshot copies and SnapMirror relationships. For SnapMirror relationships, the volume count at the source cluster is considered. You can also view the number of volume relationships with SnapMirror recovery point objective (RPO) lag based on the lag duration and status.
@@ -62,7 +62,7 @@ You can hover your mouse to view the respective counts and legends. You can clic
 
 For more information, see link:../data-protection/view-protection-status.html[Viewing volume protection status].
 
-== *Usage Overview panel*
+== Usage Overview panel
 When viewing all clusters, you can choose to view clusters sorted by highest IOPS, highest throughput (MB/s), or highest used physical capacity.
 
 When viewing a single cluster, you can choose to view workloads sorted by highest IOPS, highest throughput (MB/s), or highest used logical capacity.
