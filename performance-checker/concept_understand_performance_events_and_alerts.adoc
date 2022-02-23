@@ -9,6 +9,8 @@ summary: "Performance events are notifications that Unified Manager generates au
 :imagesdir: ../media/
 
 [.lead]
-Performance events are notifications that Unified Manager generates automatically when a predefined condition occurs, or when a performance counter value crosses a threshold. Events help you identify performance issues in the clusters that are monitored.
+Performance events are incidents related to workload performance on a cluster. They help you identify workloads with slow response times. Together with health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times.
+
+When Unified Manager detects multiple occurrences of the same event condition for the same cluster component, it treats all occurrences as a single event, not as separate events.
 
 You can configure alerts to send email notification automatically when performance events of certain severity types occur.
