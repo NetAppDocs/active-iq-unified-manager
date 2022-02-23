@@ -54,7 +54,7 @@ link:..//health-checker/task_view_detailed_security_status_for_clusters_and_svms
 == Data Protection panel
 This panel displays the data protection summary for a single or all the clusters in a data center. It displays the total number of data protection events and number of active events raised in the last 24 hours in ONTAP. Clicking the link from each of these events takes you to the Event details page. You can click the *View All* link to view all active protection events in the Event Management inventory page.
 
-The panel also displays the number of volumes in a cluster or all the clusters in a data center protected by Snapshot copies and SnapMirror relationships. For SnapMirror relationships, the volume count at the source cluster is considered. You can also view the number of volume relationships with SnapMirror recovery point objective (RPO) lag based on the lag duration and status.
+The panel also displays the number of volumes in a cluster or all the clusters in a data center protected by Snapshot copies and SnapMirror relationships. For SnapMirror relationships, the volume count at the source cluster is considered. You can also view the number of volume relationships with SnapMirror recovery point objective (RPO) lag based on the lag status.
 You can hover your mouse to view the respective counts and legends. You can click:
 
 * The bar charts for unprotected volumes and volumes protected by Snapshot copies to go to the Volumes page and view the details.

@@ -47,7 +47,7 @@ Clicking the events on this page takes you to the Event details page. You can cl
 *SnapMirror Overview*: An overview of the volumes protected by SnapMirror policies, such as:
 
 * The number of volumes protected by the respective SnapMirror policies, such as, volume SnapMirror relationships, storage VM disaster recovery (SVM-DR), and their combinations.
-* The total number of SnapMirror relationships experiencing recovery point objective (RPO) lag based on the lag duration and status.
+* The total number of SnapMirror relationships experiencing recovery point objective (RPO) lag based on the lag status.
 
 *SnapMirror Analysis* details the following information:
 
