@@ -518,4 +518,28 @@ Cluster
 a|
 Warning
 a|
+Cluster Certificate About to Expire(ocumEvtClusterCertificateAboutToExpire)
+a|
+Risk
+a|
+Cluster
+a|
+Warning
+a|
+Cluster Certificate Expired(ocumEvtClusterCertificateExpired)
+a|
+Risk
+a|
+Cluster
+a|
+Error
+a|
+Cluster Certificate Active(ocumEvtClusterCertificateActive)
+a|
+Event
+a|
+Cluster
+a|
+Information
+a|
 |===
