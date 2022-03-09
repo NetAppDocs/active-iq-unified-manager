@@ -69,15 +69,10 @@ You should shut down a running instance of Unified Manager before upgrading any 
 * You should disable Microsoft IIS worldwide web publishing service and ensure that ports 80 and 443 are free.
 * You should make sure that the Remote Desktop Session Host setting for "`Windows Installer RDS Compatibility`" is disabled during the installation.
 * UDP port 514 should be free, and should not be used by any other service.
+* If you have an active anti-virus software installed on your Windows system, Unified Manager installation might fail. You should disable all virus scan software on your system before installing Unified Manager. After your installation is complete, make sure to manually exclude the following paths from anti-virus scan:
 
-[NOTE]
-====
-The Unified Manager installation program configures the following exclusions in Windows Defender:
-
-* Unified Manager data directory
-* Unified Manager installation directory
-* MySQL data directory
-
-If your server has a different antivirus scanner installed, you should configure these exclusions manually.
+** Unified Manager data directory
+** Unified Manager installation directory
+** MySQL data directory
 
 ====

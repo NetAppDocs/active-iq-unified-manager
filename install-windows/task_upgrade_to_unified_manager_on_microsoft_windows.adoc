@@ -39,6 +39,7 @@ The available space on the installation drive should be 2.5 GB larger than the s
 
 * During upgrade, you may be prompted to confirm whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data after 6 months is purged.
 * Before upgrading, you should close any open files or folder in _<InstallDir>\JDK_ and _MySQL Data Directory_.
+* If you have an active anti-virus software installed on your Windows system, Unified Manager upgrade might fail. You should disable all virus scan software on your system before upgrading Unified Manager.
 
 During the upgrade process, Unified Manager is unavailable. You should complete any running operations before upgrading Unified Manager.
 
@@ -62,6 +63,11 @@ This setup will perform an upgrade of Unified Manager. Do you want to continue?
 . Click *Yes*, and then click *Next*.
 . Enter the MySQL8 root password that was set during installation, and then click *Next*.
 . Log in to the Unified Manager web UI, and verify the version number.
+. If you have an active anti-virus software installed on your Windows system, make sure to manually exclude the following paths from anti-virus scan after your upgrade is complete:
+
+* Unified Manager data directory
+* Unified Manager installation directory
+* MySQL data directory
 
 [NOTE]
 ====
