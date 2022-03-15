@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, system, details
 summary: "The events API enables you to retrieve the events that are generated for the monitored clusters in your data center."
 ---
-= Managing events and alerts
+= Managing events and alerts by using APIs
 :icons: font
 :imagesdir: ../media/
 

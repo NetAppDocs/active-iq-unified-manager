@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workflow, workload, management
 summary: "Using Active IQ Unified Manager, you can provision and modify storage workloads (LUNs, NFS file shares, and CIFS shares). Provisioning consists of multiple steps, from the creation of the Storage Virtual Machine (SVM) to applying Performance Service Level and Storage Efficiency Policies on the storage workloads. Modifying workloads consist of the steps for modifying specific parameters and enabling additional features on them."
 ---
-= Workflows for workload management
+= API workflows for workload management
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, active, directory, mapping
 summary: "You can use the APIs listed here to manage Active Directory mappings on the SVM that are required for provisioning CIFS shares on the SVMs. Active Directory mappings need to be configured for mapping the SVMs with ONTAP."
 ---
-= Managing Active Directory mapping
+= Managing Active Directory mapping by using APIs
 :icons: font
 :imagesdir: ../media/
 

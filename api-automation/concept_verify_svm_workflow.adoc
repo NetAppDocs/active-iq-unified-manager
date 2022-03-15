@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, svms, clusters
 summary: "Before provisioning file shares or LUNs, you must verify whether the clusters have Storage Virtual Machines (SVMs) created on them."
 ---
-= Verifying SVMs on clusters
+= Verifying SVMs on clusters by using APIs
 :icons: font
 :imagesdir: ../media/
 

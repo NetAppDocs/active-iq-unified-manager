@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, luns
 summary: "You can provision LUNs on your Storage Virtual Machines (SVMs) by using the provisioning APIs provided as a part of Active IQ Unified Manager. This provisioning workflow details the steps for retrieving the keys of the SVMs, Performance Service Levels, and Storage Efficiency Policies before creating the LUN."
 ---
-= Provisioning LUNs
+= Provisioning LUNs by using APIs
 :icons: font
 :imagesdir: ../media/
 

@@ -1,22 +1,30 @@
 ---
 permalink: storage-mgmt/concept_manage_performance_service_levels.html
 sidebar: sidebar
-keywords: manage, performance, service, levels
+keywords: manage, performance service level, PSL, User-defined, system-defined PSL, bursty, Database PSL, extreme PSL, beyond extreme PSL
 summary: "A Performance Service Level enables you to define the performance and storage objectives for a workload. You can assign a Performance Service Level to a workload when initially creating the workload, or afterwards by editing the workload."
 ---
-= Managing Performance Service Levels
+= Performance Service Levels
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-A Performance Service Level enables you to define the performance and storage objectives for a workload. You can assign a Performance Service Level to a workload when initially creating the workload, or afterwards by editing the workload.
+A Performance Service Level (PSL) enables you to define the performance and storage objectives for a workload. You can assign a PSL to a workload when initially creating the workload, or afterwards by editing the workload.
 
-The management and monitoring of storage resources are based on Service Level Objectives (SLOs). SLOs are defined by service level agreements that are based on required performance and capacity. In Unified Manager, SLOs refer to the PSL definitions of the applications that are running on NetApp storage. Storage services are differentiated based on the performance and utilization of the underlying resources. A PSL is a description of the storage service objectives. A PSL enables the storage provider to specify the performance and capacity objectives for the workload.
+The management and monitoring of storage resources are based on Service Level Objectives (SLOs). SLOs are defined by service level agreements that are based on required performance and capacity. In Unified Manager, SLOs refer to the PSL definitions of the applications that are running on NetApp storage. Storage services are differentiated based on the performance and utilization of the underlying resources. A PSL is a description of the storage service objectives. A PSL enables the storage provider to specify the performance and capacity objectives for the workload.  When you assign a PSL on a workload, the corresponding workload on ONTAP is managed by its performance and capacity objectives. Each PSL is governed by peak, expected, and absolute minimum IOPs, and expected latency.
 
-Unified Manager provides a few canned policies that cannot be changed. These predefined Performance Service Levels are: Extreme Performance, Performance, and Value. The Extreme Performance, Performance, and Value PSLs are applicable for most of the common storage workloads in a data center. Unified Manager also offers three PSLs for database applications: Extreme for Database Logs, Extreme for Database Shared Data, and Extreme for Database Data. These are extremely high-performance PSLs that support bursty IOPS and are appropriate for database applications with the highest throughput demand. If these predefined PSLs do not meet your requirements, then you can create new PSLs to meet your needs.
+Unified Manager has the following types of PSLs:
 
-You can access the PSLs from the *Policies* > *Performance Service Levels* page and by using the storage provider APIs. Managing storage workloads by assigning PSLs to them is convenient as you do not have to individually manage the storage workloads. Any modifications can also be managed by reassigning another PSL rather than managing them individually.
+* *System-defined*: Unified Manager provides a few canned policies that cannot be changed. These predefined PSLs are: Extreme Performance, Performance, and Value. The Extreme Performance, Performance, and Value PSLs are applicable for most of the common storage workloads in a data center. Unified Manager also offers three Performance Service Levels for database applications: Extreme for Database Logs, Extreme for Database Shared Data, and Extreme for Database Data. These are extremely high-performance PSLs that support bursty IOPS and are appropriate for database applications with the highest throughput demand.
+* *User-defined*: If the predefined Performance Service Levels do not meet your requirements, then you can create new PSLs to meet your needs.
+* *Beyond Extreme*: The beyond  PSL is a synthetic bucket that we use for workloads that demand IOPs higher than Extreme and we use max observed IOPs within a workload bucket to define QoS policy mapped to “Beyond Extreme” PSL, as result QoS policy IOPs parameters are dynamically generated, depending on workload behavior.
 
+The Beyond Extreme PSLs contain the peak IOPs and expected IOPs in the name, as in the format `Beyond Extreme <number-(peak IOPS)> <number(expected IOPS)>`. For example, if the system determines a PSL to have the peak and expected IOPs as `106345` and `37929` respectively, the Beyond Extreme PSL would be named as `Beyond Extreme 106345 37929`.
+
+== Managing PSLs
+You can access PSLs from the *Policies* > *Performance Service Levels* page and by using the storage provider APIs. Managing storage workloads by assigning PSLs to them is convenient as you do not have to individually manage the storage workloads. Any modifications can also be managed by reassigning another PSL rather than managing them individually.
+
+[NOTE]
 You cannot modify a PSL that is system-defined or that is currently assigned to a workload. You cannot delete a PSL that is assigned to a workload, or if it is the only available PSL.
 
 The Performance Service Levels page lists the available PSL policies and enables you to add, edit, and delete them. This page displays the following information:
@@ -27,7 +35,7 @@ The Performance Service Levels page lists the available PSL policies and enables
 a|
 Name
 a|
-Name of the Performance Service Level.
+Name of the PSL.
 
 a|
 Type
@@ -79,10 +87,23 @@ a|
 Number of storage workloads that have been assigned the PSL.
 |===
 For information about how the peak IOPS and expected IOPs help in achieving consistent differentiated performance on ONTAP clusters, see the following KB article:
-
 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F[What is Performance Budgeting?]
 
-Note that if workloads exceed the expected latency value for 30% of the time during the previous hour, Unified Manager will generate one of the following events to notify you of a potential performance issue: "Workload Volume Latency Threshold Breached as defined by Performance Service Level Policy" or "Workload LUN Latency Threshold Breached as defined by Performance Service Level Policy". You may want to analyze the workload to see what may be causing the higher latency values.
+=== Events generated for workloads breaching the threshold defined by PSLs
+
+Note that if workloads exceed the expected latency value for 30% of the time during the previous hour, Unified Manager generates one of the following events to notify you of a potential performance issue:
+
+* Workload Volume Latency Threshold Breached as defined by Performance Service Level Policy
+* Workload LUN Latency Threshold Breached as defined by Performance Service Level Policy.
+
+You may want to analyze the workload to see what may be causing the higher latency values.
+
+For more information, see the following links:
+
+* link:../events/reference_volume_events.html#impact-area-performance[Volume events]
+* link:../performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html[What happens when a performance threshold policy is breached]
+* link:..//performance-checker/concept_how_unified_manager_uses_workload_response_time.html[How Unified Manager uses workload latency to identify performance issues]
+* link:../performance-checker/concept_what_performance_events_are.html[What performance events are]
 
 The following table provides information about the system-defined PSLs:
 [options="header"]

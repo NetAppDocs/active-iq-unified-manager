@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: common, workflows, storage, management
 summary: "The common workflows provide client application developers with examples of how Active IQ Unified Manager APIs can be called by a client application to execute common storage management functions. This section contains some of these sample workflows."
 ---
-= Common workflows for storage management
+= Common API workflows for storage management
 :icons: font
 :imagesdir: ../media/
 

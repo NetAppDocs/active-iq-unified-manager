@@ -74,5 +74,3 @@ You should shut down a running instance of Unified Manager before upgrading any 
 ** Unified Manager data directory
 ** Unified Manager installation directory
 ** MySQL data directory
-
-====

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, endpoints, access
 summary: "You need to create access endpoints or logical interfaces (LIFs), which are required for provisioning Storage Virtual Machines (SVMs), LUNs, and file shares. You can view, create, modify, and delete the access endpoints for the SVMs, LUNs, or file shares in your Active IQ Unified Manager environment."
 ---
-= Managing access endpoints
+= Managing access endpoints by using APIs
 :icons: font
 :imagesdir: ../media/
 

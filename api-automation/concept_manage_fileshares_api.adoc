@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, file, share
 summary: "You can use the /storage-provider/file-shares API to view, add, modify, and delete the CIFS and NFS file share volumes in your data center environment."
 ---
-= Managing file shares
+= Managing file shares by using APIs
 :icons: font
 :imagesdir: ../media/
 
