@@ -2,7 +2,7 @@
 permalink: storage-mgmt/concept_manage_performance_service_levels.html
 sidebar: sidebar
 keywords: manage, performance service level, PSL, User-defined, system-defined PSL, bursty, Database PSL, extreme PSL, beyond extreme PSL
-summary: "A Performance Service Level enables you to define the performance and storage objectives for a workload. You can assign a Performance Service Level to a workload when initially creating the workload, or afterwards by editing the workload."
+summary: "Performance service level calculations and management."
 ---
 = Performance Service Levels
 :icons: font
@@ -15,19 +15,36 @@ The management and monitoring of storage resources are based on Service Level Ob
 
 Unified Manager has the following types of PSLs:
 
-* *System-defined*: Unified Manager provides a few canned policies that cannot be changed. These predefined PSLs are: Extreme Performance, Performance, and Value. The Extreme Performance, Performance, and Value PSLs are applicable for most of the common storage workloads in a data center. Unified Manager also offers three Performance Service Levels for database applications: Extreme for Database Logs, Extreme for Database Shared Data, and Extreme for Database Data. These are extremely high-performance PSLs that support bursty IOPS and are appropriate for database applications with the highest throughput demand.
-* *User-defined*: If the predefined Performance Service Levels do not meet your requirements, then you can create new PSLs to meet your needs.
-* *Beyond Extreme*: The beyond  PSL is a synthetic bucket that we use for workloads that demand IOPs higher than Extreme and we use max observed IOPs within a workload bucket to define QoS policy mapped to “Beyond Extreme” PSL, as result QoS policy IOPs parameters are dynamically generated, depending on workload behavior.
+* *System-defined*: Unified Manager provides a few canned policies that cannot be changed. These predefined PSLs are:
 
-The Beyond Extreme PSLs contain the peak IOPs and expected IOPs in the name, as in the format `Beyond Extreme <number-(peak IOPS)> <number(expected IOPS)>`. For example, if the system determines a PSL to have the peak and expected IOPs as `106345` and `37929` respectively, the Beyond Extreme PSL would be named as `Beyond Extreme 106345 37929`.
+** Extreme Performance
+** Performance
+** Value
++
+The Extreme Performance, Performance, and Value PSLs are applicable for most of the common storage workloads in a data center.
++
+Unified Manager also offers three Performance Service Levels for database applications. These are extremely high-performance PSLs that support bursty IOPS and are appropriate for database applications with the highest throughput demand.
 
-== Managing PSLs
-You can access PSLs from the *Policies* > *Performance Service Levels* page and by using the storage provider APIs. Managing storage workloads by assigning PSLs to them is convenient as you do not have to individually manage the storage workloads. Any modifications can also be managed by reassigning another PSL rather than managing them individually.
+** Extreme for Database Logs
+** Extreme for Database Shared Data
+** Extreme for Database Data
+
+* *User-defined*: If the predefined Performance Service Levels do not meet your requirements, then you can create new PSLs to meet your needs. For information, see link:../storage-mgmt/task_create_and_edit_psls.html[Creating and editing Performance Service Levels].
+* *Beyond Extreme*: The Beyond Extreme PSLs are the system-recommended PSLs that are suggested for workloads that demand IOPs higher than Extreme. The workloads are internally analyzed based on their IOPS, capacity, and latency, and Beyond Extreme PSLs are recommended for them that you can apply to ensure an optimum performance. The IOPs parameters are dynamically generated, depending on the workload behavior, and appended to the name of the Beyond Extreme PSL in the format `Beyond Extreme <number-(peak IOPS)> <number(expected IOPS)>`. For example, if the system determines a workload to have the peak and expected IOPs as `106345` and `37929` respectively, the Beyond Extreme PSL that is generated for the workload is named as `Beyond Extreme 106345 37929`. Though these PSLs are recommended by the system, when you assign them to workloads, these PSLs are labeled as `User-defined` in type.
+
+For more information about the IOPs calculation of the Beyond Extreme PSLs, see the Knowledge base (KB) article:
+
+== Managing workloads by assigning PSLs
+You can access PSLs from the *Policies* > *Performance Service Levels* page and by using the storage provider APIs. Managing storage workloads by assigning PSLs to them is convenient as you do not have to individually manage the storage workloads. Any modifications can also be managed by reassigning another PSL rather than managing them individually. Unified Manager helps you to assign PSLs on your workloads based on internal assessment and recommendations.
+
+For information on assigning system-recommended PSLs to workloads, see link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assigning-system-recommended-psls-to-workloads[Assigning system-recommended PSLs to workloads]
+
+The Performance Service Levels page lists the available PSL policies and enables you to add, edit, and delete them.
 
 [NOTE]
 You cannot modify a PSL that is system-defined or that is currently assigned to a workload. You cannot delete a PSL that is assigned to a workload, or if it is the only available PSL.
 
-The Performance Service Levels page lists the available PSL policies and enables you to add, edit, and delete them. This page displays the following information:
+This page displays the following information:
 [options="header"]
 |===
 
@@ -104,6 +121,8 @@ For more information, see the following links:
 * link:../performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html[What happens when a performance threshold policy is breached]
 * link:..//performance-checker/concept_how_unified_manager_uses_workload_response_time.html[How Unified Manager uses workload latency to identify performance issues]
 * link:../performance-checker/concept_what_performance_events_are.html[What performance events are]
+
+=== System-defined PSLs
 
 The following table provides information about the system-defined PSLs:
 [options="header"]
