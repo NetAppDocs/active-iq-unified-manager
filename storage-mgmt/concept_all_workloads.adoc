@@ -11,13 +11,15 @@ summary: "The All Workloads view displays the list of all the workloads availabl
 [.lead]
 The All Workloads view displays the list of all the workloads available on the clusters in a data center.
 
+When you add clusters to Unified Manager, the storage workloads on each cluster are automatically discovered and displayed on the *Storage > Workloads > All Workloads* view, except FlexGroup volumes and its constituents.
+
 The All Workloads view lists the storage workloads associated with the ONTAP clusters managed by Unified Manager. The page also enables you to assign Storage Efficiency Policies (SEPs) and Performance Service Levels (PSLs) to storage workloads.
 
-When you add clusters to Unified Manager, the storage workloads on each cluster are automatically discovered and displayed on this page, except FlexGroup volumes and its constituents.
+
 
 Unified Manager begins to analyze the workloads for recommendation (recommended PSLs) only after I/O operations start on the storage workloads. For the newly-discovered storage workloads on which there have been no I/O operations, the status is "`Waiting for I/O`". After I/O operations begin on the storage workloads, Unified Manager begins the analysis and the workload status changes to "`Learning...`". After the analysis is complete (within 24 hours from the beginning of the I/O operations), the recommended PSLs are displayed for the storage workloads.
 
-Using the *Workloads* > *All Workloads* option, you can perform multiple tasks:
+From *Storage > Workloads > All Workloads*, you can perform multiple tasks:
 
 * Add or provision storage workloads
 * View and filter the list of workloads
