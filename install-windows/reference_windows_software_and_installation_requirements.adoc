@@ -15,6 +15,7 @@ For the successful installation of Unified Manager on Windows, you should ensure
 == Operating system software
 
 You can install Unified Manager on the following Windows editions:
+
 * Microsoft Windows Server 2016 Standard and Datacenter Edition
 * Microsoft Windows Server 2019 Standard and Datacenter Edition
 

@@ -2,14 +2,16 @@
 permalink: health-checker/task_generate_and_upload_support_bundle.html
 sidebar: sidebar
 keywords: generate, upload, support bundle
-summary: "You can generate a support bundle, containing diagnostic information, so that you can send it to technical support for troubleshooting help. Starting with Unified Manager 9.8, if your Unified Manager server is connected to the internet, you can also upload the support bundle to NetApp from the maintenance console."
+summary: "You can generate a support bundle, containing diagnostic information, so that you can send it to technical support for troubleshooting help. You can also upload the support bundle to NetApp from the maintenance console."
 ---
 = Generating and uploading a support bundle
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can generate a support bundle, containing diagnostic information, so that you can send it to technical support for troubleshooting help. Starting with Unified Manager 9.8, if your Unified Manager server is connected to the internet, you can also upload the support bundle to NetApp from the maintenance console.
+You can generate a support bundle, containing diagnostic information, so that you can send it to technical support for troubleshooting help.
+
+Starting with Unified Manager 9.8, if your Unified Manager server is connected to the internet, you can also upload the support bundle to NetApp from the maintenance console.
 
 *What you'll need*
 

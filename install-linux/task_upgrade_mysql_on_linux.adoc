@@ -9,7 +9,7 @@ summary: "You can upgrade to a newer version of MySQL on the Linux server on whi
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade to a newer version of MySQL on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities. If the installed version of MySQL on your system is earlier than 8.0.27, the Unified Manager 9.10 upgrade process automatically upgrades MySQL to 8.0.27. You should not run a standalone upgrade of MySQL from an earlier version to 8.0.27.
+You can upgrade to a newer version of MySQL on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities. If the installed version of MySQL on your system is earlier than 8.0.27, the Unified Manager 9.11 upgrade process automatically upgrades MySQL to 8.0.27. You should not run a standalone upgrade of MySQL from an earlier version to 8.0.27.
 
 *What you'll need*
 

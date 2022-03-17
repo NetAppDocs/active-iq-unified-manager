@@ -9,7 +9,7 @@ summary: "You can upgrade Unified Manager by downloading and running the install
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade from Unified Manager 9.8 or 9.9 to 9.10 by downloading and running the installation file on the Red Hat platform.
+You can upgrade from Unified Manager 9.9 or 9.10 to 9.11 by downloading and running the installation file on the Red Hat platform.
 
 *What you'll need*
 

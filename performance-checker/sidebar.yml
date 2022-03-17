@@ -32,42 +32,6 @@ entries:
       url: "/performance-checker/concept_search_for_storage_objects.html"
     - title: Filtering inventory page content
       url: "/performance-checker/task_filter_inventory_page_content.html"
-  - title: Understanding performance events and alerts
-    url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
-    entries:
-    - title: Sources of performance events
-      url: "/performance-checker/concept_sources_of_performance_events.html"
-    - title: Performance event severity types
-      url: "/performance-checker/reference_performance_event_severity_types.html"
-    - title: Configuration changes detected by Unified Manager
-      url: "/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html"
-    - title: Types of system-defined performance threshold policies
-      url: "/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html"
-  - title: Managing performance thresholds
-    url: "/performance-checker/concept_manage_performance_thresholds.html"
-    entries:
-    - title: How user-defined performance threshold policies work
-      url: "/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html"
-    - title: What happens when a performance threshold policy is breached
-      url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html"
-    - title: What performance counters can be tracked using thresholds
-      url: "/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html"
-    - title: What objects and counters can be used in combination threshold policies
-      url: "/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html"
-    - title: Creating user-defined performance threshold policies
-      url: "/performance-checker/task_create_user_defined_performance_threshold_policies.html"
-    - title: Assigning performance threshold policies to storage objects
-      url: "/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html"
-    - title: Viewing performance threshold policies
-      url: "/performance-checker/task_view_performance_threshold_policies.html"
-    - title: Editing user-defined performance threshold policies
-      url: "/performance-checker/task_edit_user_defined_performance_threshold_policies.html"
-    - title: Removing performance threshold policies from storage objects
-      url: "/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html"
-    - title: What happens when a performance threshold policy is changed
-      url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html"
-    - title: What happens to performance threshold policies when an object is moved
-      url: "/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html"
   - title: Monitoring cluster performance from the Dashboard
     url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
     entries:
@@ -241,20 +205,50 @@ entries:
       url: "/performance-checker/concept_how_cluster_operations_can_affect_workload_latency.html"
     - title: Performance monitoring of MetroCluster configurations
       url: "/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html"
-      entries:
-      - title: Volume behavior during switchover and switchback
-        url: "/performance-checker/concept_volume_behavior_during_switchover_and_switchback.html"
-    - title: What performance events are
-      url: "/performance-checker/concept_what_performance_events_are.html"
-      entries:
-      - title: Performance event analysis and notification
-        url: "/performance-checker/reference_performance_event_analysis_and_notification.html"
-      - title: How Unified Manager determines the performance impact for an event
-        url: "/performance-checker/concept_how_um_determines_performance_impact_for_incident.html"
-      - title: Cluster components and why they can be in contention
-        url: "/performance-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
-      - title: Roles of workloads involved in a performance event
-        url: "/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html"
+  - title: Understanding performance events and alerts
+    url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
+    entries:
+    - title: Sources of performance events
+      url: "/performance-checker/concept_sources_of_performance_events.html"
+    - title: Performance event severity types
+      url: "/performance-checker/reference_performance_event_severity_types.html"
+    - title: Configuration changes detected by Unified Manager
+      url: "/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html"
+    - title: Types of system-defined performance threshold policies
+      url: "/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html"
+    - title: Performance event analysis and notification
+      url: "/performance-checker/reference_performance_event_analysis_and_notification.html"
+    - title: How Unified Manager determines the performance impact for an event
+      url: "/performance-checker/concept_how_um_determines_performance_impact_for_incident.html"
+    - title: Cluster components and why they can be in contention
+      url: "/performance-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
+    - title: Roles of workloads involved in a performance event
+      url: "/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html"
+  - title: Managing performance thresholds
+    url: "/performance-checker/concept_manage_performance_thresholds.html"
+    entries:
+    - title: How user-defined performance threshold policies work
+      url: "/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html"
+    - title: What happens when a performance threshold policy is breached
+      url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html"
+    - title: What performance counters can be tracked using thresholds
+      url: "/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html"
+    - title: What objects and counters can be used in combination threshold policies
+      url: "/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html"
+    - title: Creating user-defined performance threshold policies
+      url: "/performance-checker/task_create_user_defined_performance_threshold_policies.html"
+    - title: Assigning performance threshold policies to storage objects
+      url: "/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html"
+    - title: Viewing performance threshold policies
+      url: "/performance-checker/task_view_performance_threshold_policies.html"
+    - title: Editing user-defined performance threshold policies
+      url: "/performance-checker/task_edit_user_defined_performance_threshold_policies.html"
+    - title: Removing performance threshold policies from storage objects
+      url: "/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html"
+    - title: What happens when a performance threshold policy is changed
+      url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html"
+    - title: What happens to performance threshold policies when an object is moved
+      url: "/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html"
   - title: Analyzing performance events
     url: "/performance-checker/concept_analyze_performance_events.html"
     entries:
