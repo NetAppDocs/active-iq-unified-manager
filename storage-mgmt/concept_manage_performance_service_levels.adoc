@@ -32,7 +32,7 @@ Unified Manager also offers three Performance Service Levels for database applic
 * *User-defined*: If the predefined Performance Service Levels do not meet your requirements, then you can create new PSLs to meet your needs. For information, see link:../storage-mgmt/task_create_and_edit_psls.html[Creating and editing Performance Service Levels].
 * *Beyond Extreme*: The Beyond Extreme PSLs are the system-recommended PSLs that are suggested for workloads that demand IOPs higher than Extreme. The workloads are internally analyzed based on their IOPS, capacity, and latency, and a Beyond Extreme PSL is recommended for each of these workloads on the *Storage > Workloads > All Workloads* screen. You can apply the PSLs to the workloads to ensure an optimum performance.
 +
-The IOPs parameters for the workloads are dynamically generated, depending on the workload behavior, and appended to the name of the Beyond Extreme PSL in the format `Beyond Extreme <number-(peak IOPS)> <number(expected IOPS)>`. For example, if the system determines a workload to have the peak and expected IOPs as `106345` and `37929` respectively, the Beyond Extreme PSL that is generated for the workload is named as `Beyond Extreme 106345 37929`. Though these PSLs are recommended by the system, when you assign them to workloads, these PSLs are labeled as `User-defined` in type.
+The IOPs parameters for the workloads are dynamically generated, depending on the workload behavior, and appended to the name of the Beyond Extreme PSL in the format `Beyond Extreme <number-(peak IOPS/TB)> <number(expected IOPS/TB)>`. For example, if the system determines a workload to have the peak and expected IOPs as `106345` and `37929` respectively, the Beyond Extreme PSL that is generated for the workload is named as `Beyond Extreme 106345 37929`. Though these PSLs are recommended by the system, when you assign them to workloads, these PSLs are labeled as `User-defined` in type.
 
 For more information about the IOPs calculation of the Beyond Extreme PSLs, see the Knowledge base (KB) article:
 
@@ -62,12 +62,12 @@ a|
 Whether the policy is system-defined or user-defined.
 
 a|
-Expected IOPS
+Expected IOPS/TB
 a|
 Minimum number of IOPS that an application is expected to perform on a LUN or file share. Expected IOPS specifies the minimum expected IOPS allocated, based on the storage object allocated size.
 
 a|
-Peak IOPS
+Peak IOPS/TB
 a|
 Maximum number of IOPS that an application can perform on a LUN or file share. Peak IOPS specifies the maximum possible IOPS allocated, based on the storage object allocated size or the storage object used size.
 
