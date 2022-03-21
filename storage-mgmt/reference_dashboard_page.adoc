@@ -44,11 +44,11 @@ This panel displays the total number of conforming and non-conforming workloads 
 The Security panel presents the high-level security status for all clusters or a single cluster, depending on your current view. This panel displays:
 
  ** a list of the security events received in the past 24 hours. Click an event to view the details on the Event details page
- ** the cluster security status (number of clusters that are compliant or not compliant)
- ** the storage VM security status (number of storage VMs that are compliant or not compliant)
- ** the volume encryption status (number of volumes that are encrypted or not encrypted)
+ ** the cluster security status (count of compliant and non-compliant clusters)
+ ** the storage VM security status (count of compliant and non compliant storage VMs)
+ ** the volume encryption status (count of the volumes that are encrypted or not encrypted)
 
-You can click the counts and the bar charts to go into the Clusters and Storage VMs pages to view the security details for the respective clusters and storage VMs. 
+You can click the bar charts of the compliant and non-compliant clusters, storage VMS, and encrypted and unencrypted volumes to go to the respective pages and view the security details of the filtered clusters, storage VMs, and volumes. 
 
 Compliance is based on the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9]. Click the right-arrow at the top of the panel to view security details for all clusters on the Security page. For information, see
 link:..//health-checker/task_view_detailed_security_status_for_clusters_and_svms.html[Viewing detailed security status for clusters and Storage VMs]

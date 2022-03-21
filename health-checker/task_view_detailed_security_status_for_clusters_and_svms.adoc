@@ -13,8 +13,8 @@ Active IQ Unified Manager enables you to view the security status of the storage
 
 For the security recommendations, see the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9]
 
-== View security status of clusters and storage VMs on the Security page
-As a system administrator, you can use the *Security* page to get visibility into the security strength of your ONTAP clusters and storage VMs at the data center and site levels. Follow these steps:
+== View object level security status on Security page
+As a system administrator, you can use the *Security* page to get visibility into the security strength of your ONTAP clusters and storage VMs at the data center and site levels. The supported objects are cluster, storage VMs, and volumes. Follow these steps:
 
 .Steps
 
