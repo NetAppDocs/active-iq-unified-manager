@@ -34,8 +34,6 @@ Unified Manager also offers three Performance Service Levels for database applic
 +
 The IOPs parameters for the workloads are dynamically generated, depending on the workload behavior, and appended to the name of the Beyond Extreme PSL in the format `Beyond Extreme <number-(peak IOPS/TB)> <number(expected IOPS/TB)>`. For example, if the system determines a workload to have the peak and expected IOPs as `106345` and `37929` respectively, the Beyond Extreme PSL that is generated for the workload is named as `Beyond Extreme 106345 37929`. Though these PSLs are recommended by the system, when you assign them to workloads, these PSLs are labeled as `User-defined` in type.
 
-For more information about the IOPs calculation of the Beyond Extreme PSLs, see the Knowledge base (KB) article:
-
 == Managing workloads by assigning PSLs
 You can access PSLs from the *Policies* > *Performance Service Levels* page and by using the storage provider APIs. Managing storage workloads by assigning PSLs to them is convenient as you do not have to individually manage the storage workloads. Any modifications can also be managed by reassigning another PSL rather than managing them individually. Unified Manager helps you to assign PSLs on your workloads based on internal assessment and recommendations.
 
