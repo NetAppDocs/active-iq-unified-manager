@@ -104,4 +104,4 @@ curl -X GET "https://<hostname>/api/gateways/e4f33f90-f75f-11e8-9ed9-00a098e3215
 
 For more information about using ONTAP REST APIs, see the ONTAP REST API Developers Guide.
 
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-nxt-help-960/GUID-7B141B6B-CDCD-4E4A-95CD-C9E407702BF6.html[ONTAP REST API Developers Guide]
+https://docs.netapp.com/us-en/ontap-automation/index.html[ONTAP REST API Automation]
