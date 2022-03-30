@@ -42,5 +42,3 @@ If deployment fails using your High Availability-enabled environment because of 
 
 [NOTE]
 While installing or upgrading Unified Manager, the required third-party software and security patches are automatically installed or upgraded on a VMware vSphere system. Because the Unified Manager installation and upgrade processes control these components, you should not attempt a standalone install or upgrade of any third-party component.
-
-|===
