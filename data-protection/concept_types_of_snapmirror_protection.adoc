@@ -65,4 +65,4 @@ When you view the volumes and LUNs protected by the SM-BC relationship, you can 
 
 On the Relationships page, you can also sort, filter, and extend protection on the source and destination storage objects and their relationship that are protected by the Consistency Group.
 
-To know more about SnapMirror Synchronous Business Continuity, refer to the https://docs.netapp.com/us-en/ontap/smbc/smbc_intro_overview.html[ONTAP 9 Documentation].
+To know more about SnapMirror Synchronous Business Continuity, refer to the link:https://docs.netapp.com/us-en/ontap/smbc/index.html[ONTAP 9 Documentation for SM-BC].
