@@ -19,4 +19,4 @@ https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/
 
 *Related information*
 
-https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
+For more information, see https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
