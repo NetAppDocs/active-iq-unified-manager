@@ -24,5 +24,6 @@ This panel displays:
  ** the cluster security status (number of clusters that are compliant or not compliant)
  ** the SVM security status (number of SVMs that are compliant or not compliant)
  ** the volume encryption status (number of volumes that are encrypted or not encrypted)
+ ** the volume anti-ransomware status (number of volumes with anti-ransomware that are enabled or disabled)
 
 . Click the right-arrow at the top of the panel to view security details in the *Security* page.

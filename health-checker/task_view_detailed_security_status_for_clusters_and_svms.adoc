@@ -29,6 +29,7 @@ The Security page displays the following panels:
  * *Cluster Compliance*: the security status (number of clusters that are compliant or not compliant) of all the clusters in a data center
  * *Storage VM Compliance*: the security status (number of storage VMs that are compliant or not compliant) for all the storage VMs in your data center
  * *Volume Encryption*: the volume encryption status (number of volumes that are encrypted or not encrypted) of all the volumes in your environment
+ * *Volume Anti-ransomware Status*: the security status (number of volumes with anti-ransomware enabled or disabled) of all the volumes in your environment
  * *Cluster Authentication and Certificates*: the number of clusters using each type of authentication method, such as SAML, Active Directory, or through certificates and local authentication. The panel also displays the number of clusters whose certificates have either expired or are about to expire in 60 days.
 
 == View security details of all clusters on the Clusters page
