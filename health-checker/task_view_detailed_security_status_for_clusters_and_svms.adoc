@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/task_view_detailed_security_status_for_clusters_and_svms.html
 sidebar: sidebar
-keywords: view, cluster security status, svm security status, volume encryption status, compliance, security hardening, encryption, anti-ransomware, certificate expiry, clusters page, storage VMs page
+keywords: view, cluster security status, svm security status, volume encryption status, compliance, security hardening, encryption, anti-ransomware, certificate expiry, clusters page, storage VMs page, System Manager
 summary: "The Security page shows high-level security status for all clusters and storage VMs. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance."
 ---
 = Viewing security status for clusters and Storage VMs
