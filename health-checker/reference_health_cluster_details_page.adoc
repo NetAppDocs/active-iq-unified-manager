@@ -291,15 +291,7 @@ The cluster supports mediators, but the mediator is not configured.
 The cluster doesn't support mediators.
 *** IP Address
 +
-Displays when the cluster supports mediators and the mediator is configured. The health status of the mediator is indicated by the following colors:
-
- **** Green
-
- The mediator is reachable.
-
- **** Red
-
- The mediator is unreachable.
+Displays when the cluster supports mediators and the mediator is configured. The color green indicates the mediator is reachable. The color red indicates the mediator is unreachable.
 
 * *Cloud Tiers*
 +
