@@ -47,9 +47,9 @@ You can click image:icon_kabob.gif[kabob icon] and choose to view the security d
 [NOTE]
 If a cluster has an expired certificate, you can click `expired` under *Cluster Certificate Validity*, and renew it from System Manager (9.10.1 and later). You cannot click `expired` if the System Manager instance is of a release earlier than 9.10.1.
 
-== View security details of all storage VMs from the Storage VMs page
+== View security details from the Storage VMs page
 The *Storage VMs / Security* details page enables you to view the security compliance status at a storage VM level.
-
+=== View security details of all storage VMs
 .Steps
 
 . In the left navigation pane, click *Storage > Storage VMs*.
@@ -57,3 +57,11 @@ The *Storage VMs / Security* details page enables you to view the security compl
 
 You can have a default view of the storage VMs' security compliance by checking the security parameters, such as storage VMs, cluster, login banner, audit log, and insecure SSH settings.
 You can click image:icon_kabob.gif[kabob icon] and choose to view the security details on the *Security* page of Unified Manager or on System Manager. You should have valid credentials for viewing the details on System Manager.
+
+=== View security details of storage VMs with anti-ransomware detection
+.Steps
+
+. In the left navigation pane, click *Storage > Storage VMs*.
+. Select *View > Security > Anti-ransomware*. A list of clusters with the security parameters is displayed.
+
+NOTE: Anti-ransomware is not supported for SVMs enabled with NAS protocols.

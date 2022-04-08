@@ -128,6 +128,8 @@ entries:
         url: "/health-checker/task_view_how_user_authentication_is_being_managed_on_all_clusters.html"
       - title: Viewing the encryption status of all volumes
         url: "/health-checker/task_view_encryption_status_of_all_volumes.html"
+      - title: Viewing the anti-ransomware status of all volumes
+        url: "/health-checker/task_view_antiransomware_status_of_all_volumes.html"  
       - title: Viewing all active security events
         url: "/health-checker/task_view_all_security_events.html"
       - title: Adding alerts for security events
