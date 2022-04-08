@@ -18,7 +18,6 @@ Active IQ rules are also referred to as Config Advisor (CA) secure rules.
 When you are installing or upgrading Unified Manager to a specific release in a site without network connectivity, the bundled Active IQ rules are automatically available for upload. However, it is recommended that you download a new rules file approximately once a month from the support site to make sure that updated events are generated and your storage systems continue to perform optimally.
 
 The bundled rules package includes the rules repository, data sources, and a NetApp KB article.
-+
 [NOTE]
 On Windows systems, in an unconnected site, the KB article is not available by default in the bundled rules file. You can download and view the KB article from the support site.
 
