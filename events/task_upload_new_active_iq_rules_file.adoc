@@ -17,19 +17,21 @@ Active IQ rules are also referred to as Config Advisor (CA) secure rules.
 
 When you are installing or upgrading Unified Manager to a specific release in a site without network connectivity, the bundled Active IQ rules are automatically available for upload. However, it is recommended that you download a new rules file approximately once a month from the support site to make sure that updated events are generated and your storage systems continue to perform optimally.
 
-The bundled rules package includes the rules repository, data sources, and a NetApp KB article.
-[NOTE]
-On Windows systems, in an unconnected site, the KB article is not available by default in the bundled rules file. You can download and view the KB article from the support site.
-
-The rules file is located at: https://mysupport.netapp.com/api/content-service/staticcontents/content/public/tools/unifiedmanager/ca/secure_rules.zip
-
 *What you'll need*
 
-* Active IQ event reporting must be enabled.
+* Active IQ portal event reporting must be enabled. This feature is enabled by default. For information, see link:../config/concept_active_iq_platform_events.html[Enabling Active IQ portal events].
 * You must download the rules file from the NetApp Support Site.
++
+The rules file is located at: https://mysupport.netapp.com/api/content-service/staticcontents/content/public/tools/unifiedmanager/ca/secure_rules.zip
 
 .Steps
 . On a computer that has network access, navigate to the NetApp Support Site and download the current rules `.zip` file.
++
+The bundled rules package includes the rules repository, data sources, and a NetApp KB article.
++
+[NOTE]
+On Windows systems, in an unconnected site, the NetApp KB article is not bundled by default with the installer. You can download the _secure_rules.zip_ from the support site and upload it to view the KB article for all applicable rules.
+
 . Transfer the rules file to some media that you can bring into the secure area and then copy it onto a system in the secure area.
 . In the left navigation pane, click *Storage Management* > *Event Setup*.
 . In the *Event Setup* page, click the *Upload Rules* button.

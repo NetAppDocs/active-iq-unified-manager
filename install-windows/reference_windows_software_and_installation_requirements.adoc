@@ -29,6 +29,11 @@ See the Interoperability Matrix for the complete and most current list of suppor
 
 http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
 
+[NOTE]
+NetApp does not support installation of Unified Manager by using 3rd party tools, such as Microsoft System Center Configuration Manager (SCCM).
+
+//BURT-1413675
+
 The server should be dedicated to running Unified Manager. No other applications should be installed on the server.
 
 == Third-party software
@@ -38,8 +43,8 @@ The following third-party packages are bundled with Unified Manager. If these th
 * Microsoft Visual C{pp} 2015 Redistributable package version 14.26.28720.3
 * Microsoft Visual C{pp} Redistributable Packages for Visual Studio 2013 version 12.0.40660.0
 * MySQL Community Edition version 8.0.28
-* Python 3.9.x
-* OpenJDK version 11.0.12
+* Python 3.9.2
+* OpenJDK version 11.0.13
 * p7zip version 18.05 or later
 
 [NOTE]
