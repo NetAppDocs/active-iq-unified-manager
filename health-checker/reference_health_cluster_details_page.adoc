@@ -281,9 +281,17 @@ Displays the list of licensed data protocols that are enabled for the cluster. T
 * *Protection*
  ** Mediators
 +
-Displays the mediator status with its IP address. Mediator status is indicated by color.
-*** Green: The mediator is reachable.
-*** Red: The mediator is unreachable.
+Displays whether the cluster supports mediators and the connectivity status of the mediator.
+
+*** Not Applicable
++
+Displays when the cluster doesn't support mediators.
+*** Not Configured
++
+Displays when the cluster supports mediators, but the mediator is not configured.
+*** IP Address
++
+Displays when the cluster supports mediators and the mediator is configured. The mediator status is indicated by color. The color green indicates the mediator status is reachable. The color red indicates the mediator status is unreachable.
 
 * *Cloud Tiers*
 +
