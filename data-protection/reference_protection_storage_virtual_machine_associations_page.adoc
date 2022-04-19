@@ -1,48 +1,84 @@
 ---
 permalink: data-protection/reference_protection_storage_virtual_machine_associations_page.html
 sidebar: sidebar
-keywords: svm, peers, page
-summary: "The SVM Peers page enables you to view existing storage VM peers between source and destination storage VM and to create new storage VM for use by partner applications to create SnapMirror and SnapVault relationships."
+keywords: svm, association, page
+summary: "The Storage VM association page enables you to view existing storage VM associations between source and destination storage VMs."
 ---
-= SVM Peers page
+= Understanding Storage VM associations
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The SVM Peers page enables you to view existing storage VM peers between source and destination storage VM and to create new storage VM for use by partner applications to create SnapMirror and SnapVault relationships.
+Storage virtual machine (storage VM) associations are mappings from a source storage VM to a destination storage VM that are used by partner applications for resource selection and secondary volume provisioning.
 
-== Command buttons
+Associations are created between a source storage VM and a destination storage VM, regardless of whether the destination storage VM is a secondary destination or a tertiary destination. You cannot use a secondary destination storage VM as a source to create an association with a tertiary destination storage VM.
 
-The command buttons enable you to perform the following tasks:
+As an Application Administrator or Storage Administrator, you can view the storage VM associations in your environment on the *Protection* > *Storage VM Associations* page.
 
-* *Create*
+You can associate SVMs in three ways:
+
+* *Associate any storage VM*: You can create an association between any primary source storage VM and one or more destination SVMs. This means that all existing SVMs that currently require protection, as well as any SVMs that are created in the future, are associated with the specified destination SVMs. For example, you might want applications from several different sources at different locations to be backed up to one or more destination SVMs in one location.
+* *Associate a particular storage VM*: You can create an association between a specific source storage VM and one or more specific destination SVMs. For example, if you are providing storage services to many clients whose data must be separate from one another, you can choose this option to associate a specific source storage VM to a specific destination storage VM that is assigned to only that client.
+* *Associate with an external storage VM*: You can create an association between a source storage VM and an external flexible volume of a destination storage VM.
+
+== Create storage VM associations
+The Create Storage Virtual Machine Associations wizard enables partner protection applications to associate a source storage VM with a destination storage VM for use with SnapMirror and SnapVault relationships. Partner applications use these associations at the time of initial provisioning of destination volumes to determine which resources to select.dd
+
+*What you'll need*
+
+* The storage VM you are associating must already exist.
+* You must have the Application Administrator or Storage Administrator role.
+
+For any source storage VM and relationship type, you can choose only one destination storage VM on each destination cluster.
+
+Changing associations using the delete and create functions affects only future provisioning operations. It does not move existing destination volumes.
+
+.Steps
+
+. In the left navigation pane, click *Protection* > *Storage VM Associations*.
+. On the *Storage VM Associations* page, click *Create*.
 +
-Opens the Create Storage Virtual Machine Peers page.
+The *Create Storage Virtual Machine Associations* wizard is launched.
 
-* *Delete*
+. Select one of the following sources:
+ ** *Any*
 +
-Enables you to delete the selected storage VM peers.
+Choose this option when you want to create an association between any primary storage VM source to one or more destination storage VM. This means that all existing storage VM that currently require protection, as well as any storage VM that are created in the future, are associated with the specified destination storage VM. For example, you might want applications from several different sources at different locations backed up to one or more destination storage VM in one location.
 
-== Storage VM Peers list
-
-The SVM Peers list displays in a table the source and destination storage VM associations that have been created and the type of protection relationship allowed for each association.
-
-* *Source Storage Virtual Machine*
+ ** *Single*
 +
-Displays the name of the source SVM.
+Choose this option when you want to select a specific source storage VM associated with one or more destination storage VM. For example, if you are providing storage services to many clients whose data must be separate from one another, choose this option to associate a specific storage VM source to a specific storage VM destination that is assigned only to that client.
 
-* *Source Cluster*
+ ** *None (External)*
 +
-Displays the name of the source cluster.
+Choose this option when you want to create an association between a source storage VM and an external flexible volume of a destination storage VM.
+. Select one or both of the protection relationship types you want to create:
+ ** *SnapMirror*
+ ** *SnapVault*
+. Click *Next*.
+. Select one or more storage VM protection destination.
+. Click *Finish*.
 
-* *Destination Storage Virtual Machine*
-+
-Displays the name of the destination SVM.
+== Delete storage VM associations
+You can delete storage VM associations for partner applications to remove the secondary provisioning relationship between source and destination storage VM; for example, you might do this when the destination storage VM is full and you want to create a new storage VM protection associations.
 
-* *Destination Cluster*
-+
-Displays the name of the destination cluster.
+*What you'll need*
 
-* *Type*
+You must have the Application Administrator or Storage Administrator role.
+
+The *Delete* button is disabled until at least one storage VM association is selected. Changing associations using the delete and create functions affects only future provisioning operations; it does not move existing destination volumes.
+
+.Steps
+
+. In the left navigation pane, click *Protection* > *Storage VM Associations*.
+. Select at least one storage VM association.
 +
-Displays the type of protection relationship. Relationship types are either SnapMirror or SnapVault.
+The *Delete* button is enabled.
+
+. Click *Delete.*
++
+A warning dialog box is displayed.
+
+. Click *Yes* to continue.
++
+The selected storage VM association is removed from the list.

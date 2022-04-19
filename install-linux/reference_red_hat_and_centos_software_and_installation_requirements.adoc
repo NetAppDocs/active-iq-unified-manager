@@ -15,16 +15,11 @@ The Linux system on which you install Unified Manager requires specific versions
 
 The Linux system must have the following versions of the operating system and supporting software installed:
 
-* Red Hat Enterprise Linux or CentOS version 7.x and 8.x, based on x86_64 architecture. CentOS Stream is not supported.
+* Red Hat Enterprise Linux version 7.x and 8.x or CentOS version 7.x, based on x86_64 architecture. CentOS Stream is not supported.
 
 See the Interoperability Matrix for the complete and most current list of supported Red Hat Enterprise Linux and CentOS versions.
 
 http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
-
-[NOTE]
-NetApp does not support installation of Unified Manager by using 3rd party tools, such as Microsoft System Center Configuration Manager (SCCM).
-
-//BURT-1413675
 
 == Third-party software
 
@@ -32,8 +27,8 @@ Unified Manager is deployed on a WildFly web server. WildFly 19.0.0 is bundled a
 
 The following third-party packages are required, but not included with Unified Manager. These packages are automatically installed by the `yum` installer during installation, provided you have configured the repositories as mentioned in the following sections.
 
-* MySQL Community Edition version 8.0.27 (from the MySQL repository).
-* OpenJDK version 11.0.12 (from the Red Hat Extra Enterprise Linux Server repository)
+* MySQL Community Edition version 8.0.28 (from the MySQL repository).
+* OpenJDK version 11.0.14 (from the Red Hat Extra Enterprise Linux Server repository)
 * Python 3.6.x
 * p7zip version 16.02 or later (from the Red Hat Extra Packages for Enterprise Linux repository)
 

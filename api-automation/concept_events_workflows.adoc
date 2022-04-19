@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, issues, storage, objects, events
 summary: "When a storage object in your data center crosses a threshold, you get a notification about that event. Using this notification, you can analyze the issue and take corrective action by using the events APIs."
 ---
-= Determining issues in storage objects using events
+= Determining issues in storage objects using event APIs
 :icons: font
 :imagesdir: ../media/
 

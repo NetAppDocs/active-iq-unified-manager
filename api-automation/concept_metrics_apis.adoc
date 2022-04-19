@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, metrics
 summary: "Active IQ Unified Manager provides you with a set of APIs under the /datacenter category that enable you to view the performance data of your clusters and storage objects in a data center. These APIs retrieve the performance data of the different storage objects, such as clusters, nodes, LUNs, volumes, aggregates, and storage VMs."
 ---
-= Viewing performance metrics
+= Viewing performance metrics by using APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -28,7 +28,7 @@ The `/metrics` and `/analytics` APIs give different views of the performance met
 The following table draws a comparison between the `/metrics` and `/analytics` APIs with respect to the particulars of the performance data retrieved.
 [cols="2*",options="header"]
 |===
-| Metrics| Analytics
+| Metrics | Analytics
 a|
 Performance details for a single object. For example, the `/datacenter/cluster/clusters/\{key}/metrics` API requires the cluster key to be entered as the path parameter for retrieving the metrics for that specific cluster.
 a|
@@ -42,7 +42,37 @@ Basic details of the object are retrieved, such as details of a node or cluster.
 a|
 No specific details are retrieved.
 a|
-Accumulated counters, such as minimum, maximum, 95th percentile, and the average performance values over a period of time are retrieved for a single object, such as read, write, total, and other counters. For example, the `/datacenter/cluster/nodes/\{key}/metrics` API retrieves the following details (among others) for a node :
+Accumulated counters, such as minimum, maximum, 95th percentile, and the average performance values over a period of time are retrieved for a single object, such as read, write, total, and other counters.
+a|
+A single aggregated value is displayed for all the objects of the same type.
+a|
+The time range and sample data is based on the following schedule: The time range for the data. Examples can be 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1m, 2m, 3m, 6m. You get 1 hour samples if the range is more than 3 days (72 hr) else it is 5 minutes samples. The period for each time range is as follows:
+
+* 1h: Metrics over the most recent hour sampled over 5 minutes.
+* 12h: Metrics over the most recent 12 hours sampled over 5 minutes.
+* 1d: Metrics over the most recent day sampled over 5 minutes.
+* 2d: Metrics over the most recent 2 days sampled over 5 minutes.
+* 3d: Metrics over the most recent 3 days sampled over 5 minutes.
+* 15d: Metrics over the most recent 15 days sampled over 1 hour.
+* 1w: Metrics over the most recent week sampled over 1 hour.
+* 1m: Metrics over the most recent month sampled over 1 hour.
+* 2m: Metrics over the most recent 2 months sampled over 1 hour.
+* 3m: Metrics over the most recent 3 months sampled over 1 hour.
+* 6m: Metrics over the most recent 6 months sampled over 1 hour.
++
+Available values : 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1m, 2m, 3m, 6m
++
+Default value : 1h
+
+a|
+Above 72 hours. The duration over which this sample is calculated are represented in the ISO-8601 standard format.
+a|
+
+|===
+
+== Output sample for metrics APIs
+
+For example, the `/datacenter/cluster/nodes/\{key}/metrics` API retrieves the following details (among others) for a node:
 [NOTE]
 The 95 percentile in the summary value indicates that 95% of the samples collected for the period have a counter value less than the value specified as the 95 percentile.
 
@@ -113,13 +143,12 @@ The 95 percentile in the summary value indicates that 95% of the samples collect
        }
      },
 ----
+== Output sample for analytics APIs
 
-a|
-A single aggregated value is displayed for all the objects of the same type. For example, the `/datacenter/cluster/nodes/analytics` API retrieves the following values (among others) for all the nodes:
+For example, the `/datacenter/cluster/nodes/analytics` API retrieves the following values (among others) for all the nodes:
 
 ----
-{
-     "iops": 1.7471,
+{     "iops": 1.7471,
      "latency": 60.0933,
      "throughput": 5548.4678,
      "utilization_percent": 4.8569,
@@ -145,9 +174,7 @@ A single aggregated value is displayed for all the objects of the same type. For
        "_links": {
          "self": {
            "href": "/api/datacenter/cluster/clusters/37387241-8b57-11e9-8974-00a098e0219a:type=cluster,uuid=37387241-8b57-11e9-8974-00a098e0219a"
-         }
-       }
-     },
+         },
      "_links": {
        "self": {
          "href": "/api/datacenter/cluster/nodes/analytics"
@@ -156,28 +183,9 @@ A single aggregated value is displayed for all the objects of the same type. For
    },
 ----
 
-a|
-The time range and sample data is based on the following schedule:The time range for the data. Examples can be 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1m, 2m, 3m, 6m. You get 1 hour samples if the range is more than 3 days (72 hr) else it is 5 minutes samples. The period for each time range is as follows:
 
-* 1h: Metrics over the most recent hour sampled over 5 minutes.
-* 12h: Metrics over the most recent 12 hours sampled over 5 minutes.
-* 1d: Metrics over the most recent day sampled over 5 minutes.
-* 2d: Metrics over the most recent 2 days sampled over 5 minutes.
-* 3d: Metrics over the most recent 3 days sampled over 5 minutes.
-* 15d: Metrics over the most recent 15 days sampled over 1 hour.
-* 1w: Metrics over the most recent week sampled over 1 hour.
-* 1m: Metrics over the most recent month sampled over 1 hour.
-* 2m: Metrics over the most recent 2 months sampled over 1 hour.
-* 3m: Metrics over the most recent 3 months sampled over 1 hour.
-* 6m: Metrics over the most recent 6 months sampled over 1 hour.
-+
-Available values : 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1m, 2m, 3m, 6m
-+
-Default value : 1h
+== List of the available APIs
 
-a|
-Above 72 hours. The duration over which this sample is calculated are represented in the ISO-8601 standard format.
-|===
 The following table describes the `/metrics` and `/analytics` APIs in details.
 
 [NOTE]

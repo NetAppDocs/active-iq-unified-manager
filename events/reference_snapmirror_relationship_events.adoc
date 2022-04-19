@@ -112,4 +112,51 @@ a|
 SnapMirror relationship
 a|
 Error
+a|
+Ontap Mediator is added on the Cluster (snapmirrorMediatorAdded)
+
+a|
+Event
+a|
+Cluster
+a|
+Information
+a|
+Ontap Mediator is removed from the Cluster (snapmirrorMediatorRemoved)
+
+a|
+Event
+a|
+Cluster
+a|
+Information
+a|
+Ontap Mediator is unreachable from the cluster (snapmirrorMediatorUnreachable)
+
+a|
+Risk
+a|
+Mediator
+a|
+Warning
+a|
+Ontap Mediator is not accessible from the cluster (snapmirrorMediatorMisconfigured)
+
+a|
+Risk
+a|
+Mediator
+a|
+Error
+a|
+Ontap Mediator Connectivity has been reestablished, and is resynced and ready for SMBC (snapmirrorMediatorInQuorum)
+
+a|
+Event
+a|
+Mediator
+a|
+Information
+a|
+
 |===

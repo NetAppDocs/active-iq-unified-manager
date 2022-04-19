@@ -203,6 +203,22 @@ Displays the size, in bytes, of the last data transfer.
 +
 The transfer size is not applicable for StrictSync relationships.
 
+* *Mediators*
++
+Displays the mediator status.
+
+** Not Applicable
++
+If the cluster does not support SnapMirror Business Continuity.
+
+** Not Configured
++
+If it is not configured, or if it is configured but only the destination cluster is added and the source cluster is not added in Unified Manager.
+
+** Mediator IP Address
++
+If it is configured, and both source and destination clusters are added in Unified Manager.
+
 * *State*
 +
 Displays the state of the SnapMirror or SnapVault relationship. The state can be Uninitialized, SnapMirrored, or Broken-Off. If a source volume is selected, the relationship state is not applicable and is not displayed.

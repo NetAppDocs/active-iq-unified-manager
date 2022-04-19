@@ -54,6 +54,11 @@ If you do not change the installation directory, Unified Manager is installed in
 . Click *Next*.
 . In the Ready to Install Shield wizard, click *Install*.
 . After the installation is complete, click *Finish*.
+. If you have an active anti-virus software installed on your Windows system, manually exclude the following paths from anti-virus scan after your installation is complete:
+
+* Unified Manager data directory
+* Unified Manager installation directory
+* MySQL data directory
 
 The installation creates multiple directories:
 

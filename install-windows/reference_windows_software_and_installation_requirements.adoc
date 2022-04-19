@@ -15,6 +15,7 @@ For the successful installation of Unified Manager on Windows, you should ensure
 == Operating system software
 
 You can install Unified Manager on the following Windows editions:
+
 * Microsoft Windows Server 2016 Standard and Datacenter Edition
 * Microsoft Windows Server 2019 Standard and Datacenter Edition
 
@@ -28,6 +29,11 @@ See the Interoperability Matrix for the complete and most current list of suppor
 
 http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
 
+[NOTE]
+NetApp does not support installation of Unified Manager by using 3rd party tools, such as Microsoft System Center Configuration Manager (SCCM).
+
+//BURT-1413675
+
 The server should be dedicated to running Unified Manager. No other applications should be installed on the server.
 
 == Third-party software
@@ -36,9 +42,9 @@ The following third-party packages are bundled with Unified Manager. If these th
 
 * Microsoft Visual C{pp} 2015 Redistributable package version 14.26.28720.3
 * Microsoft Visual C{pp} Redistributable Packages for Visual Studio 2013 version 12.0.40660.0
-* MySQL Community Edition version 8.0.27
-* Python 3.9.x
-* OpenJDK version 11.0.12
+* MySQL Community Edition version 8.0.28
+* Python 3.9.2
+* OpenJDK version 11.0.13
 * p7zip version 18.05 or later
 
 [NOTE]
@@ -68,15 +74,8 @@ You should shut down a running instance of Unified Manager before upgrading any 
 * You should disable Microsoft IIS worldwide web publishing service and ensure that ports 80 and 443 are free.
 * You should make sure that the Remote Desktop Session Host setting for "`Windows Installer RDS Compatibility`" is disabled during the installation.
 * UDP port 514 should be free, and should not be used by any other service.
+* If you have an active anti-virus software installed on your Windows system, Unified Manager installation might fail. You should disable all virus scan software on your system before installing Unified Manager. After your installation is complete, make sure to manually exclude the following paths from anti-virus scan:
 
-[NOTE]
-====
-The Unified Manager installation program configures the following exclusions in Windows Defender:
-
-* Unified Manager data directory
-* Unified Manager installation directory
-* MySQL data directory
-
-If your server has a different antivirus scanner installed, you should configure these exclusions manually.
-
-====
+** Unified Manager data directory
+** Unified Manager installation directory
+** MySQL data directory
