@@ -9,7 +9,7 @@ summary: "Quick start guide for Unified Manager on Linux platform."
 
 == System requirements
 
-*	Operating system: Microsoft Windows Server 2016 and 2019 64-bit Standard and Datacenter Editions. The following languages are supported:
+*	Operating system: Microsoft Windows Server 2019 and 2022 64-bit Standard and Datacenter Editions. The following languages are supported:
 **	English
 **	Japanese
 **	Simplified Chinese

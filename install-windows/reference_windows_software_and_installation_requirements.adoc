@@ -16,8 +16,8 @@ For the successful installation of Unified Manager on Windows, you should ensure
 
 You can install Unified Manager on the following Windows editions:
 
-* Microsoft Windows Server 2016 Standard and Datacenter Edition
 * Microsoft Windows Server 2019 Standard and Datacenter Edition
+* Microsoft Windows Server 2022 Standard and Datacenter Edition
 
 Unified Manager is supported on 64 bits Windows operating system for the following languages:
 
