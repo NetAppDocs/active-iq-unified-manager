@@ -18,7 +18,7 @@ These primary and secondary LUNs are composite LUNs, or a replica LUN pair with 
 
 For viewing composite LUNs, both the primary and secondary clusters with the LUNs that are a part of the Consistency Group relationship should be added and discovered on Unified Manager. Only iSCSI and FCP LUNs are supported.
 
-For information about SM-BC, see the link:https://docs.netapp.com/us-en/ontap/smbc/index.html[ONTAP 9 Documentation for SM-BC].
+For information about SM-BC, see link:https://docs.netapp.com/us-en/ontap/smbc/index.html[ONTAP 9 Documentation for SM-BC].
 
 To view composite LUNs in your environment follow these steps:
 
