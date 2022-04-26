@@ -15,7 +15,7 @@ However, in sites with no external network access, you need to upload the rules 
 [NOTE]
 Active IQ rules are also referred to as Config Advisor (CA) secure rules.
 
-When you are installing or upgrading Unified Manager to a specific release in a site without network connectivity, the bundled Active IQ rules are automatically available for upload. However, it is recommended that you download a new rules file approximately once a month from the support site to make sure that updated events are generated and your storage systems continue to perform optimally.
+When you are installing or upgrading Unified Manager to a specific release in a site without network connectivity, the bundled Active IQ rules are automatically available for upload. However, it is recommended that you download a new rules file approximately once a month from NetApp's Support Site to make sure that updated events are generated and your storage systems continue to perform optimally.
 
 *What you'll need*
 
@@ -30,7 +30,7 @@ The rules file is located at: https://mysupport.netapp.com/api/content-service/s
 The bundled rules package includes the rules repository, data sources, and a NetApp KB article.
 +
 [NOTE]
-On Windows systems, in a site without network connectivity, the NetApp KB article is not bundled by default with the installer. You can download the _secure_rules.zip_ from the support site and upload it to view the KB article for all the rules.
+On Windows systems, in a site without network connectivity, the NetApp KB article is not bundled by default with the installer. You can download the _secure_rules.zip_ file from the support site and upload it to view the KB article for all the rules.
 
 . Transfer the rules file to some media that you can bring into the secure area and then copy it onto a system in the secure area.
 . In the left navigation pane, click *Storage Management* > *Event Setup*.

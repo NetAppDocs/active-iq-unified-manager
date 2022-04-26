@@ -534,12 +534,5 @@ Cluster
 a|
 Error
 a|
-Cluster Certificate Active(ocumEvtClusterCertificateActive)
-a|
-Event
-a|
-Cluster
-a|
-Information
-a|
+
 |===
