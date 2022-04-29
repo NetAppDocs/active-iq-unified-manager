@@ -43,4 +43,4 @@ NOTE: Anti-ransomware is not supported for offline volumes, restricted volumes, 
 . In the left navigation pane, click *Storage > Storage VMs*.
 . Select *View > Security > Anti-ransomware*. A list of SVMs with the anti-ransomware status is displayed.
 
-NOTE: Anti-ransomware is not supported for SVMs enabled with NAS protocols.
+NOTE: Anti-ransomware monitoring is not supported on storage VMs that do not have NAS protocol enabled.
