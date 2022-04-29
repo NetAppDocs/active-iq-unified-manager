@@ -34,7 +34,7 @@ For more information on the different anti-ransomware statuses, see link:https:/
 . In the View menu, select *Health* > *Security* > *Anti-ransomware*
 . In the *Security: Anti-ransomware* view, you can sort by the various fields or use the Filter.
 
-NOTE: Anti-ransomware is not supported for offline volumes, restricted volumes, Snaplock volumes, FlexGroup volumes, FlexCache volumes, SAN-only volumes, volumes of stopped storage VMs, root volumes of storage VMs, or data protection volumes.
+NOTE: Anti-ransomware is not supported for offline volumes, restricted volumes, SnapLock volumes, FlexGroup volumes, FlexCache volumes, SAN-only volumes, volumes of stopped storage VMs, root volumes of storage VMs, or data protection volumes.
 
 == View security details of all storage VMs with anti-ransomware detection
 
