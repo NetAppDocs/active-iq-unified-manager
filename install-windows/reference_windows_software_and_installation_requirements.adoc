@@ -30,7 +30,7 @@ See the Interoperability Matrix for the complete and most current list of suppor
 http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
 
 [NOTE]
-NetApp does not support installation of Unified Manager by using 3rd party tools, such as Microsoft System Center Configuration Manager (SCCM).
+NetApp does not support installation of Unified Manager by using third-party tools, such as Microsoft System Center Configuration Manager (SCCM).
 
 //BURT-1413675
 

@@ -33,10 +33,9 @@ In this output, the context is `default_t`. You should change this context to `m
 
 . Perform these steps to set the context based on how you have mounted `/opt/netapp/data`.
  .. Run the following commands to set the context to `mysqld_db_t`:
-----
-semanage fcontext -a -t mysqld_db_t "/opt/netapp/data"
-restorecon -R -v /opt/netapp/data
-----
+`semanage fcontext -a -t mysqld_db_t "/opt/netapp/data"``
+`restorecon -R -v /opt/netapp/data`
+
  .. If you have configured `/opt/netapp/data` in `/etc/fstab`, you should edit the `/etc/fstab` file. For the `/opt/netapp/data/` mount option, add the MySQL label as:
 +
 `context=system_u:object_r:mysqld_db_t:s0`
@@ -103,34 +102,27 @@ If you have mounted  `/opt/netapp` in your system and SELinux is set to `Enforci
 `ls -dZ /opt/netapp`
 +
 A sample output:
-
++
 ----
 drwxr-xr-x. mysql root unconfined_u:object_r:default_t:s0 /opt/netapp
 ----
-
++
 [NOTE]
 In this output, the context is `default_t`. You should change this context to `mysqld_db_t`.
 
 .	Perform the following steps to set the context based on how you have mounted `/opt/netapp`.
 ..	Run the following commands to set the context to `mysqld_db_t`:
-----
-semanage fcontext -a -t mysqld_db_t "/opt/netapp"
-restorecon -R -v /opt/netapp
-----
+`semanage fcontext -a -t mysqld_db_t "/opt/netapp"``
+`restorecon -R -v /opt/netapp`
 ..	If you have configured `/opt/netapp` in `/etc/fstab`, edit the `/etc/fstab` file. For the `/opt/netapp/` mount option, add the MySQL label as:
-----
-context=system_u:object_r:mysqld_db_t:s0
-----
+`context=system_u:object_r:mysqld_db_t:s0`
 ..	Unmount, and then again mount `/opt/netapp/` for enabling the context.
-
 ..	If you have a direct NFS mount, run the following command to set the context to `mysqld_db_t`:
-----
-mount <nfsshare>:/<mountpoint> /opt/netapp -o context=system_u:object_r:mysqld_db_t:s0
-----
+`mount <nfsshare>:/<mountpoint> /opt/netapp -o context=system_u:object_r:mysqld_db_t:s0`
 . Verify whether the context is set correctly:
-+
+
 `ls -dZ /opt/netapp/`
-+
+
 A sample output:
 
 ----
