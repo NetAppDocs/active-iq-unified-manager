@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, service, level
 summary: "You can view, create, modify, and delete Performance Service Levels by using the storage provider APIs for on your Active IQ Unified Manager."
 ---
-= Managing Performance Service Levels
+= Managing Performance Service Levels by using APIs
 :icons: font
 :imagesdir: ../media/
 

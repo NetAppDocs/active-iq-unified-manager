@@ -9,4 +9,4 @@ summary: "You can create roles and assign capabilities to control user access to
 :imagesdir: ../media/
 
 [.lead]
-You can create roles and assign capabilities to control user access to selected cluster objects. You can identify users who have the required capabilities to access selected objects within a cluster. Only these users are provided access to manage the cluster objects.
+You can create roles and assign capabilities to control user access to Active IQ Unified Manager. You can identify users who have the required capabilities to access selected objects within Unified Manager. Only those users who have these roles and capabilities can manage the objects in Unified Manager.

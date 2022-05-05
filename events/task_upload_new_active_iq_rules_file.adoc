@@ -1,7 +1,7 @@
 ---
 permalink: events/task_upload_new_active_iq_rules_file.html
 sidebar: sidebar
-keywords: upload, new, active iq, rules, file
+keywords: upload, new, active iq AIQ rules, rules file, CA secure rules, config advisor rules
 summary: "Unified Manager checks for a new Active IQ rules file automatically and downloads a new file when there are newer rules. However, in sites with no external network access, you need to upload the rules file manually."
 ---
 = Uploading a new Active IQ rules file
@@ -9,17 +9,29 @@ summary: "Unified Manager checks for a new Active IQ rules file automatically an
 :imagesdir: ../media/
 
 [.lead]
-Unified Manager checks for a new Active IQ rules file automatically and downloads a new file when there are newer rules. However, in sites with no external network access, you need to upload the rules file manually.
+Unified Manager checks for a new Active IQ events (rules) file automatically and downloads a new file when there are newer rules.
+However, in sites with no external network access, you need to upload the rules file manually.
+
+[NOTE]
+Active IQ rules are also referred to as Config Advisor (CA) secure rules.
+
+When you are installing or upgrading Unified Manager to a specific release in a site without network connectivity, the bundled Active IQ rules are automatically available for upload. However, it is recommended that you download a new rules file approximately once a month from NetApp's Support Site to make sure that updated events are generated and your storage systems continue to perform optimally.
 
 *What you'll need*
 
-* Active IQ event reporting must be enabled.
+* Active IQ portal event reporting must be enabled. This feature is enabled by default. For information, see link:../config/concept_active_iq_platform_events.html[Enabling Active IQ portal events].
 * You must download the rules file from the NetApp Support Site.
-
-It is recommended that you download a new rules file approximately once a month to make sure your storage systems are being protected and that they are running optimally. The rules file is located at: http://mysupport.netapp.com/NOW/public/unified_manager/bin/secure_rules.zip
++
+The rules file is located at: https://mysupport.netapp.com/api/content-service/staticcontents/content/public/tools/unifiedmanager/ca/secure_rules.zip
 
 .Steps
 . On a computer that has network access, navigate to the NetApp Support Site and download the current rules `.zip` file.
++
+The bundled rules package includes the rules repository, data sources, and a NetApp KB article.
++
+[NOTE]
+On Windows systems, in a site without network connectivity, the NetApp KB article is not bundled by default with the installer. You can download the _secure_rules.zip_ file from the support site and upload it to view the KB article for all the rules.
+
 . Transfer the rules file to some media that you can bring into the secure area and then copy it onto a system in the secure area.
 . In the left navigation pane, click *Storage Management* > *Event Setup*.
 . In the *Event Setup* page, click the *Upload Rules* button.
@@ -27,4 +39,4 @@ It is recommended that you download a new rules file approximately once a month 
 +
 This process can take a few minutes.
 
-The rules file is unzipped on the Unified Manager server. After your managed clusters generate an AutoSupport file after midnight Unified Manager will check the clusters against the rules file and generate new risk and incident events if required.
+The rules file is unzipped on the Unified Manager server. After your managed clusters generate an AutoSupport file after midnight, Unified Manager checks the clusters against the rules file and generates new risk and incident events as required.

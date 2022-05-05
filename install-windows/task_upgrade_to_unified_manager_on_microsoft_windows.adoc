@@ -9,7 +9,7 @@ summary: "You can upgrade Unified Manager by downloading and running the install
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade Unified Manager 9.8 or 9.9 to 9.10 by downloading and running the installation file on the Windows platform.
+You can upgrade Unified Manager 9.9 or 9.10 to 9.11 by downloading and running the installation file on the Windows platform.
 
 *What you'll need*
 
@@ -29,7 +29,7 @@ Starting with Unified Manager 9.5, OpenJDK is provided in the installation packa
 Ensure that Microsoft .NET 4.5.2 or greater is installed on your system before starting the upgrade.
 ====
 
-* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.27, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.27. You must not run a standalone upgrade of an earlier version of MySQL to 8.0.27.
+* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.28, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.28. You must not run a standalone upgrade of an earlier version of MySQL to 8.0.27.
 * You should have Windows administrator privileges. Ensure that your user name does not begin with an exclamation mark "`!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`!`".
 * You should have valid credentials to log in to the NetApp Support Site.
 * To avoid data loss, you should have created a backup of the Unified Manager machine in case there is an issue during the upgrade.
@@ -39,6 +39,7 @@ The available space on the installation drive should be 2.5 GB larger than the s
 
 * During upgrade, you may be prompted to confirm whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data after 6 months is purged.
 * Before upgrading, you should close any open files or folder in _<InstallDir>\JDK_ and _MySQL Data Directory_.
+* If you have an active anti-virus software installed on your Windows system, Unified Manager upgrade might fail. You should disable all virus scan software on your system before upgrading Unified Manager.
 
 During the upgrade process, Unified Manager is unavailable. You should complete any running operations before upgrading Unified Manager.
 
@@ -62,6 +63,11 @@ This setup will perform an upgrade of Unified Manager. Do you want to continue?
 . Click *Yes*, and then click *Next*.
 . Enter the MySQL8 root password that was set during installation, and then click *Next*.
 . Log in to the Unified Manager web UI, and verify the version number.
+. If you have an active anti-virus software installed on your Windows system, make sure to manually exclude the following paths from anti-virus scan after your upgrade is complete:
+
+* Unified Manager data directory
+* Unified Manager installation directory
+* MySQL data directory
 
 [NOTE]
 ====

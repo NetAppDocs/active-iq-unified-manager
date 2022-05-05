@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads
 summary: "Modifying storage workloads consists of updating LUNs or file shares with missing parameters, or changing the existing parameters."
 ---
-= Modifying storage workloads
+= Modifying storage workloads by using APIs
 :icons: font
 :imagesdir: ../media/
 

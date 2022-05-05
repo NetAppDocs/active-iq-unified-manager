@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_supported_unified_manager_cli_commands.html
 sidebar: sidebar
-keywords: supported, unified manager, cli, commands
-summary: "As a storage administrator you can use the CLI commands to perform queries on the storage objects; for example, on clusters, aggregates, volumes, qtrees, and LUNs. You can use the CLI commands to query the Unified Manager internal database and the ONTAP database. You can also use CLI commands in scripts that are executed at the beginning or end of an operation or are executed when an alert is triggered."
+keywords: supported, unified manager, cli, commands, cmd, um cli, um run,
+summary: "As a storage administrator you can use the CLI commands to perform queries on the storage objects; for example, on clusters, aggregates, volumes, qtrees, and LUNs."
 ---
 = Supported Unified Manager CLI commands
 :icons: font
@@ -12,6 +12,9 @@ summary: "As a storage administrator you can use the CLI commands to perform que
 As a storage administrator you can use the CLI commands to perform queries on the storage objects; for example, on clusters, aggregates, volumes, qtrees, and LUNs. You can use the CLI commands to query the Unified Manager internal database and the ONTAP database. You can also use CLI commands in scripts that are executed at the beginning or end of an operation or are executed when an alert is triggered.
 
 All commands must be preceded with the command `um cli login` and a valid user name and password for authentication.
+[NOTE]
+For running the _um run_ command, ensure that your account has the _console_ application access.
+
 [options="header"]
 |===
 | CLI command| Description| Output

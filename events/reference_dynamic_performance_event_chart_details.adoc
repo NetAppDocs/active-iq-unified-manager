@@ -9,18 +9,22 @@ summary: "For dynamic performance events, the System Diagnosis section of the Ev
 :imagesdir: ../media/
 
 [.lead]
-For dynamic performance events, the System Diagnosis section of the Event details page lists the top workloads with the highest latency or usage of the cluster component that is in contention. The performance statistics are based on the time the performance event was detected up to the last time the event was analyzed. The charts also display historical performance statistics for the cluster component that is in contention.
+For dynamic performance events, the System Diagnosis section of the Event details page lists the top workloads with the highest latency or usage of the cluster component that is in contention.
 
-For example, you can identify workloads with high utilization of a component to determine which workload to move to a less-utilized component. Moving the workload would reduce the amount of work on the current component, possibly bringing the component out of contention. At the of this section is the time and date range when an event was detected and last analyzed. For active events (new or acknowledged), the last analyzed time continues to update.
+The performance statistics are based on the time the performance event was detected up to the last time the event was analyzed. The charts also display historical performance statistics for the cluster component that is in contention.
 
-The latency and activity charts display the names of the top workloads when you hover your cursor over the chart. Clicking the Workload Type menu at the right of the chart enables you to sort the workloads based on their role in the event, including _sharks_, _bullies_, or _victims_, and displays details about their latency and their usage on the cluster component in contention. You can compare the actual value to the expected value to see when the workload was outside its expected range of latency or usage. See _Workloads monitored by Unified Manager_.
+For example, you can identify workloads with high utilization of a component to determine which workload to move to a less-utilized component. Moving the workload would reduce the amount of work on the current component, possibly bringing the component out of contention. At the top of this section is the time and date range when an event was detected and last analyzed. For active events (new or acknowledged), the last analyzed time is updated.
+
+The latency and activity charts display the names of the top workloads when you hover your cursor over the chart. Clicking the Workload Type menu at the right of the chart enables you to sort the workloads based on their role in the event, including _sharks_, _bullies_, or _victims_, and displays details about their latency and their usage on the cluster component in contention. You can compare the actual value to the expected value to see when the workload was outside its expected range of latency or usage. For information, see link:..//performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html[Types of workloads monitored by Unified Manager].
 
 [NOTE]
 ====
 When you sort by peak deviation in latency, system-defined workloads are not displayed in the table, because latency applies only to user-defined workloads. Workloads with very low latency values are not displayed in the table.
 ====
 
-For more information about the dynamic performance thresholds, see _What events are_. For information about how Unified Manager ranks the workloads and determines the sort order, see _How Unified Manager determines the performance impact for an event_.
+For more information about the dynamic performance thresholds, see link:../performance-checker/concept_analyze_events_from_dynamic_performance_thresholds.html[Analyzing events from dynamic performance thresholds].
+
+For information about how Unified Manager ranks the workloads and determines the sort order, see link:../performance-checker/concept_how_um_determines_performance_impact_for_incident.html[How Unified Manager determines the performance impact for an event].
 
 The data in the graphs shows 24 hours of performance statistics prior to the last time the event was analyzed. The actual values and expected values for each workload are based on the time the workload was involved in the event. For example, a workload might become involved in an event after the event was detected, so its performance statistics might not match the values at the time of event detection. By default, the workloads are sorted by peak (highest) deviation in latency.
 
@@ -36,7 +40,7 @@ Displays the impact of the event to the latency of the workload during the last 
 
  ** *Component Usage column*
 +
-Displays details about the workload usage of the cluster component in contention. In the graphs, the actual usage is a blue line. A red bar highlights the event duration, from the detection time to the last analyzed time. For more information, see _Workload performance measurements_.
+Displays details about the workload usage of the cluster component in contention. In the graphs, the actual usage is a blue line. A red bar highlights the event duration, from the detection time to the last analyzed time. For more information, see link:../performance-checker/reference_workload_performance_measurement_values.html[Workload performance measurement values].
 +
 [NOTE]
 ====

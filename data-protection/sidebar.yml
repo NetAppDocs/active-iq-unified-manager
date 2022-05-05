@@ -140,16 +140,10 @@ entries:
         url: "/data-protection/task_view_protection_relationships_from_storage_vms_page.html"
       - title: Viewing Storage VMs based on protection status
         url: "/data-protection/task_view_storage_vms_based_on_protection_status.html"
-    - title: Understanding Storage VM Peers
-      url: "/data-protection/concept_understand_svm_associations.html"
+    - title: Understanding Storage VM Associations
+      url: "/data-protection/reference_protection_storage_virtual_machine_associations_page.html"
     - title: SVM and resource pool requirements to support storage services
       url: "/data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html"
-    - title: Creating Storage VM Peers
-      url: "/data-protection/task_create_storage_virtual_machine_svm_associations.html"
-    - title: Viewing Storage VM Peers
-      url: "/data-protection/task_view_svm_associations.html"
-    - title: Deleting Storage VM Peers
-      url: "/data-protection/task_delete_svm_associations.html"
     - title: What jobs are
       url: "/data-protection/concept_what_jobs_are.html"
     - title: Monitoring jobs
@@ -171,10 +165,6 @@ entries:
         url: "/data-protection/reference_edit_resource_pool_dialog_box.html"
       - title: Aggregates dialog box
         url: "/data-protection/reference_aggregates_dialog_box.html"
-      - title: SVM Peers page
-        url: "/data-protection/reference_protection_storage_virtual_machine_associations_page.html"
-      - title: Create Storage Virtual Machine Peers wizard
-        url: "/data-protection/reference_create_storage_virtual_machine_associations_wizard.html"
       - title: Jobs page
         url: "/data-protection/reference_protection_jobs_page.html"
       - title: Job details page

@@ -346,6 +346,24 @@ a|
 Volume
 a|
 Warning
+a|
+Volume Snapshot Reserve Under-utilized (volumeSnaphotReserveUnderutilizedWarning)
+
+a|
+Event
+a|
+Volume
+a|
+Warning
+a|
+Volume Snapshot Reserve Under-utilized (volumeSnaphotReserveUnderutilizedCleared)
+a|
+Event
+a|
+Volume
+a|
+Warning
+
 |===
 
 == Impact area: configuration
@@ -716,6 +734,28 @@ Warning
 a|
 Volume exhibits noisy anti-ransomware alerting (antiRansomwareFeatureNoisyVolume)
 
+a|
+Risk
+a|
+Volume
+a|
+Warning
+|===
+
+== Impact area: data protection
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+Volume Has Insufficient Local Snapshot Protection (volumeLacksLocalProtectionWarning)
+a|
+Risk
+a|
+Volume
+a|
+Warning
+a|
+Volume Has Insufficient Local Snapshot Protection (volumeLacksLocalProtectionCleared)
 a|
 Risk
 a|
