@@ -1,0 +1,46 @@
+---
+permalink: health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html
+sidebar: sidebar
+keywords: view, anti-ransomware status, volumes, storage VMs, SVMs
+summary: "You can view a list of all the volumes and storage VMs and their current anti-ransomware status so you can determine whether the data on your volumes is adequately protected from ransomware attacks."
+---
+= Viewing the anti-ransomware status of all volumes and storage VMs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view a list of all volumes and storage VMs (SVMs) and their current anti-ransomware status so you can determine whether the data on your volumes and SVMs are adequately protected from ransomware attacks.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+For more information on the different anti-ransomware statuses, see link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure[ONTAP: Enable anti-ransomware].
+
+== View security details of all volumes with anti-ransomware detection
+
+//The following may be too much detail. Leaving it hidden for now. - RL
+//Volumes can have the following anti-ransomware statuses:
+
+//* Disabled
+//* Disabling
+//* Enabled (Learning mode)
+//* Enabled (Active mode)
+//* Paused (Active mode)
+//* Paused (Learning mode)
+
+.Steps
+. In the left navigation pane, click *Storage* > *Volumes*.
+. In the View menu, select *Health* > *Security* > *Anti-ransomware*
+. In the *Security: Anti-ransomware* view, you can sort by the various fields or use the Filter.
+
+NOTE: Anti-ransomware is not supported for offline volumes, restricted volumes, SnapLock volumes, FlexGroup volumes, FlexCache volumes, SAN-only volumes, volumes of stopped storage VMs, root volumes of storage VMs, or data protection volumes.
+
+== View security details of all storage VMs with anti-ransomware detection
+
+.Steps
+
+. In the left navigation pane, click *Storage > Storage VMs*.
+. Select *View > Security > Anti-ransomware*. A list of SVMs with the anti-ransomware status is displayed.
+
+NOTE: Anti-ransomware monitoring is not supported on storage VMs that do not have NAS protocol enabled.

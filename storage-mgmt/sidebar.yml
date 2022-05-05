@@ -101,11 +101,8 @@ entries:
   - title: Managing and monitoring MetroCluster configurations
     url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
     entries:
-    - title: Performance monitoring of MetroCluster configurations
-      url: "/storage-mgmt/concept_performance_monitoring_of_metrocluster.html"
-      entries:
-      - title: Volume behavior during switchover and switchback
-        url: "/storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html"
+    - title: Volume behavior during switchover and switchback
+      url: "/storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html"
     - title: Cluster connectivity status definitions
       url: "/storage-mgmt/reference_cluster_connectivity_status_definitions.html"
     - title: Data mirroring status definitions

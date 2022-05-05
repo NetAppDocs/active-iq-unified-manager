@@ -120,9 +120,7 @@ entries:
           url: "/health-checker/reference_volume_compliance_categories.html"
       - title: What does not compliant mean
         url: "/health-checker/concept_what_does_not_compliant_mean.html"
-      - title: Viewing high-level cluster security status
-        url: "/health-checker/task_view_high_level_cluster_security_status.html"
-      - title: Viewing detailed security status for clusters and SVMs
+      - title: Viewing detailed security status for clusters and storage VMs
         url: "/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html"
       - title: Viewing security events that may require software or firmware updates
         url: "/health-checker/task_view_security_events_that_require_software_or_firmware_updates.html"
@@ -130,6 +128,8 @@ entries:
         url: "/health-checker/task_view_how_user_authentication_is_being_managed_on_all_clusters.html"
       - title: Viewing the encryption status of all volumes
         url: "/health-checker/task_view_encryption_status_of_all_volumes.html"
+      - title: Viewing the anti-ransomware status of all volumes and storage VMs
+        url: "health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html"
       - title: Viewing all active security events
         url: "/health-checker/task_view_all_security_events.html"
       - title: Adding alerts for security events

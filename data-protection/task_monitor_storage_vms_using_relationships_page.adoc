@@ -2,14 +2,14 @@
 permalink: data-protection/task_monitor_storage_vms_using_relationships_page.html
 sidebar: sidebar
 keywords: relationships page, monitor, storage, vm
-summary: "You can monitor your storage VM disaster recovery relationships from the Relationships page in the PROTECTION section of the INVENTORY. By default, the Relationships page lists only the top level relationships as the constituent relationships filter is applied."
+summary: "You can monitor your storage VM disaster recovery relationships from the Relationships page in the PROTECTION section of the INVENTORY. By default, the Relationships page lists only the top-level relationships as the constituent relationships filter is applied."
 ---
 = Monitoring Storage VMs using Relationships page
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can monitor your storage VM disaster recovery relationships from the Relationships page in the PROTECTION section of the INVENTORY. By default, the Relationships page lists only the top level relationships as the constituent relationships filter is applied.
+You can monitor your storage VM disaster recovery relationships from the Relationships page in the PROTECTION section of the INVENTORY. By default, the Relationships page lists only the top-level relationships as the constituent relationships filter is applied.
 
 *What you'll need*
 

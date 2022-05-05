@@ -31,7 +31,7 @@ Additionally, the default Unified Manager installation includes the umadmin user
 
 The security policies in your environment must not restrict sudo privileges for the Unified Manager maintenance user. Some Unified Manager operations might fail if the privileges are restricted. Verify that you are able to run the following sudo command when logged in as the umadmin user after successful installation.
 
-`sudo /etc/init.d/ocie status`
+`sudo systemctl  status ocie`
 
 This command should return the appropriate status of the ocie service without any errors.
 

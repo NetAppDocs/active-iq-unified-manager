@@ -24,7 +24,7 @@ The cluster-management IP address must be the cluster-management LIF of the admi
  ** The cluster must be running ONTAP version 9.1 software or greater.
  ** ONTAP administrator user name and password
 +
-This account must have the _admin_ role with Application access set to _ontapi_, _ssh_, and _http_.
+This account must have the _admin_ role with Application access set to _ontapi_, _console_, and _http_.
 
  ** The port number to connect to the cluster using the HTTPS protocol (typically port 443)
  ** You have the required certificates. Two types of certificates are required:

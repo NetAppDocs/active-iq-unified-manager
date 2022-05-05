@@ -278,6 +278,21 @@ Displays the number of intercluster LIFs.
  ** Data Protocols
 +
 Displays the list of licensed data protocols that are enabled for the cluster. The data protocols include iSCSI, CIFS, NFS, NVMe, and FC/FCoE.
+* *Protection*
+ ** Mediators
++
+Displays whether the cluster supports mediators and the connectivity status of the mediator.
+
+*** Not Applicable
++
+Displays when the cluster doesn't support mediators.
+*** Not Configured
++
+Displays when the cluster supports mediators, but the mediator is not configured.
+*** IP Address
++
+Displays when the cluster supports mediators and the mediator is configured. The mediator status is indicated by color. The color green indicates the mediator status is reachable. The color red indicates the mediator status is unreachable.
+
 * *Cloud Tiers*
 +
 Lists the names of the cloud tiers to which this cluster is connected. It also lists the type (Amazon S3, Microsoft Azure Cloud, IBM Cloud Object Storage, Google Cloud Storage, Alibaba Cloud Object Storage, or StorageGRID), and the states of the cloud tiers (Available or Unavailable).

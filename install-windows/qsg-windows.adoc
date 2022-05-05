@@ -9,10 +9,14 @@ summary: "Quick start guide for Unified Manager on Linux platform."
 
 == System requirements
 
-*	Operating system: Microsoft Windows Server 2016 and 2019 64-bit Standard and Datacenter Editions. The following languages are supported:
-**	English
-**	Japanese
-**	Simplified Chinese
+* Operating Systems
+** Microsoft Windows Server 2019 Standard and Datacenter Edition
+** Microsoft Windows Server 2022 Standard and Datacenter Edition
++
+Unified Manager is supported on 64 bits Windows operating system for the following languages:
+ ** English
+ ** Japanese
+ ** Simplified Chinese
 *	RAM: 12 GB
 *	CPU: 9572 MHz total
 *	Free disk space: 100 GB of disk space for the installation directory, 50 GB of disk space for the MySQL data directory

@@ -20,7 +20,8 @@ When using the host name, it must resolve to the cluster management IP address f
 
 * You must have the user name and password to access the cluster.
 +
-This account must have the _admin_ role with Application access set to _ontapi_, _ssh_, and _http_.
+This account must have the _admin_ role with Application access set to _ontapi_, _console_, and _http_.
+//BURT 1452466
 
 * You must know the port number to connect to the cluster using the HTTPS protocol (typically port 443).
 * The cluster must be running ONTAP version 9.1 software or greater.
