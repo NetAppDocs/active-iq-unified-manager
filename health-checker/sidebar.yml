@@ -129,7 +129,7 @@ entries:
       - title: Viewing the encryption status of all volumes
         url: "/health-checker/task_view_encryption_status_of_all_volumes.html"
       - title: Viewing the anti-ransomware status of all volumes and storage VMs
-        url: "health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html"
+        url: "/health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html"
       - title: Viewing all active security events
         url: "/health-checker/task_view_all_security_events.html"
       - title: Adding alerts for security events
