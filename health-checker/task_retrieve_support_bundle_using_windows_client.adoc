@@ -26,9 +26,3 @@ The tool displays the contents of the /support directory and you can view all ex
 
 . Select the destination directory for the support bundle you want to copy.
 . Select the support bundle you want to copy and use the tool to copy the file from the Unified Manager server to your local system.
-
-*Related information*
-
-https://filezilla-project.org/[Filezilla - https://filezilla-project.org/]
-
-http://winscp.net[WinSCP - http://winscp.net]

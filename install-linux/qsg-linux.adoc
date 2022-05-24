@@ -1,7 +1,7 @@
 ---
 permalink: install-linux/qsg-linux.html
 sidebar: sidebar
-keywords: quick start guide, QSG, Linux QSG, RHEL QSG, quick installation
+keywords: quick start guide, getting started, QSG, Linux QSG, RHEL QSG, quick installation
 summary: "Quick start guide for Unified Manager on Linux platform."
 ---
 
