@@ -36,7 +36,8 @@ For Red Hat Enterprise Linux 8 system, if you have internal repositories with ja
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
 ----
 
-If you receive an error on missing key or key mismatch, and your installation fails, try these workarounds:
+
+If you receive an error on missing key or key mismatch, and your installation fails, try these steps:
 
 * On a connected system, import the updated MySQL key by running the following command:
 
