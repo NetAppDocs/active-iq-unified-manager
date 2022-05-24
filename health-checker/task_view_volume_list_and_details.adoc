@@ -30,6 +30,4 @@ You can also view the complete details by clicking *View Details* in the minimal
 
 *Related information*
 
-link:../task_view_aggregate_list_and_details.html[Health / Volumes page]
-
 link:../reporting/task_create_report_to_view_available_volume_capacity_charts.html[Creating a report to view available volume capacity charts]

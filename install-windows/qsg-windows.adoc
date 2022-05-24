@@ -1,7 +1,7 @@
 ---
 permalink: install-windows/qsg-windows.html
 sidebar: sidebar
-keywords: quick start guide, QSG, Windows QSG, quick installation, Windows installer
+keywords: quick start guide, getting started, QSG, Windows QSG, quick installation, Windows installer
 summary: "Quick start guide for Unified Manager on Linux platform."
 ---
 
