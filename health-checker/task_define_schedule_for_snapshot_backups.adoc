@@ -2,21 +2,21 @@
 permalink: health-checker/task_define_schedule_for_snapshot_backups.html
 sidebar: sidebar
 keywords: define, backup, schedule, linux, windows
-summary: "You can configure the schedule at which Unified Manager Snapshot backups are created by using the Unified Manager UI."
+summary: "You can configure the schedule at which Unified Manager Snapshot copies are created by using the Unified Manager UI."
 ---
 = Defining a backup schedule for Linux and Windows
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can configure the schedule at which Unified Manager Snapshot backups are created by using the Unified Manager UI.
+You can configure the schedule at which Unified Manager Snapshot copies are created by using the Unified Manager UI.
 
 *What you'll need*
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
-* You must have configured the NetApp Snapshot backup settings from the maintenance console to identify the destination where the snapshots will be created.
+* You must have configured the NetApp Snapshot copy settings from the maintenance console to identify the destination where the snapshots will be created.
 
-Snapshot backups are created in just a few minutes and the Unified Manager database is locked only for few seconds.
+Snapshot copies are created in just a few minutes and the Unified Manager database is locked only for few seconds.
 
 [NOTE]
 ====
@@ -33,7 +33,7 @@ The default value for retention count is 10. The maximum number of Snapshot copi
 . Select the *Scheduled Daily* or *Scheduled Weekly* button, and then specify the schedule details.
 . Click *Apply*.
 
-Snapshot backup files are created based on the schedule. You can see the available backup files in the Database Backup page.
+Snapshot copy files are created based on the schedule. You can see the available backup files in the Database Backup page.
 
 Because of the importance of this volume and the snapshots, you may want to create one or two alerts for this volume so you are notified when either:
 
@@ -43,6 +43,6 @@ You can add capacity to the volume using ONTAP System Manager or the ONTAP CLI s
 
 * The number of snapshots is close to reaching the maximum number. Use the event *Too Many Snapshot Copies* to set up the alert.
 +
-You can delete older snapshots using ONTAP System Manager or the ONTAP CLI so that there is always room for new snapshot backups.
+You can delete older snapshots using ONTAP System Manager or the ONTAP CLI so that there is always room for new Snapshot copies.
 
 You configure alerts in the Alert Setup page.

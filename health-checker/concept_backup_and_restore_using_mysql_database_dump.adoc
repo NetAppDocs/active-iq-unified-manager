@@ -13,7 +13,7 @@ A MySQL database dump backup is a copy of the Active IQ Unified Manager database
 
 [NOTE]
 ====
-MySQL database dump is the default backup mechanism when Unified Manager is installed on a Linux and Windows server. For Red Hat Enterprise Linux, CentOS Linux systems or Windows, you can use the NetApp Snapshot backup method if Active IQ Unified Manager is managing a large number of cluster and nodes, or if your MySQL backups are taking many hours to complete.
+MySQL database dump is the default backup mechanism when Unified Manager is installed on a Linux and Windows server. For Red Hat Enterprise Linux, CentOS Linux systems or Windows, you can use the NetApp Snapshot copy method if Active IQ Unified Manager is managing a large number of cluster and nodes, or if your MySQL backups are taking many hours to complete.
 ====
 
 A database dump backup consists of a single file in the backup directory and one or more files in the database repository directory. The file in the backup directory is very small because it contains only a pointer to the files located in the database repository directory that are required to recreate the backup.

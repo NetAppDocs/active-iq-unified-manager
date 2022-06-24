@@ -1,15 +1,15 @@
 ---
 permalink: health-checker/task_specify_destination_location_for_snapshot_backups.html
 sidebar: sidebar
-keywords: specify, destination location, snapshot backups
-summary: "You configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters. You define the location from the Active IQ Unified Manager maintenance console."
+keywords: specify, destination location, snapshot copies
+summary: "You configure the destination location for Active IQ Unified Manager Snapshot copies on a volume you have already configured in one of your ONTAP clusters. You define the location from the Active IQ Unified Manager maintenance console."
 ---
-= Specifying the destination location for Snapshot backups
+= Specifying the destination location for Snapshot copies
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters. You define the location from the Active IQ Unified Manager maintenance console.
+You configure the destination location for Active IQ Unified Manager Snapshot copies on a volume you have already configured in one of your ONTAP clusters. You define the location from the Active IQ Unified Manager maintenance console.
 
 * You must have the root user credentials for the Linux host on which Active IQ Unified Manager is installed.
 * You must have a user ID and password authorized to log in to the maintenance console of the Unified Manager server.
@@ -35,4 +35,4 @@ The system performs the following tasks:
  ** Deletes the files from Active IQ Unified Manager and creates a symlink to the new database directory
  ** Restarts all the services
 
-. Exit the maintenance console and launch the Active IQ Unified Manager interface to create the Snapshot backup schedule if you have not already done this.
+. Exit the maintenance console and launch the Active IQ Unified Manager interface to create a schedule for the Snapshot copy if you have not already done this.
