@@ -40,7 +40,7 @@ Power Shell
 If you are performing a restore onto a new server, after installing Unified Manager do not launch the UI or configure any clusters, users, or authentication settings when the installation is complete. Enter the number for *Configure NetApp Snapshot Backup* and configure the settings for Snapshot copies as they are on the original system.
 
 . Enter the number for *Restore using NetApp Snapshot*.
-. Select the Snapshot copy file that you want to restore and press *Enter*.
+. Select the Snapshot copy that you want to restore and press *Enter*.
 . After the restore process is complete, log in to the Unified Manager user interface.
 
 After you restore the backup, if the Workflow Automation server does not work, perform the following steps:

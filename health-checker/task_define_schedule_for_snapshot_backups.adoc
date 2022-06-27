@@ -14,7 +14,7 @@ You can configure the schedule at which Unified Manager Snapshot copies are crea
 *What you'll need*
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
-* You must have configured the NetApp Snapshot copy settings from the maintenance console to identify the destination where the snapshots will be created.
+* You must have configured the settings for NetApp Snapshot copy from the maintenance console to identify the destination where the snapshots will be created.
 
 Snapshot copies are created in just a few minutes and the Unified Manager database is locked only for few seconds.
 
@@ -33,7 +33,7 @@ The default value for retention count is 10. The maximum number of Snapshot copi
 . Select the *Scheduled Daily* or *Scheduled Weekly* button, and then specify the schedule details.
 . Click *Apply*.
 
-Snapshot copy files are created based on the schedule. You can see the available backup files in the Database Backup page.
+Snapshot copies are created based on the schedule. You can see the available backup files in the Database Backup page.
 
 Because of the importance of this volume and the snapshots, you may want to create one or two alerts for this volume so you are notified when either:
 
