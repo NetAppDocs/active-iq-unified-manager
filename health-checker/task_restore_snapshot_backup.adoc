@@ -20,17 +20,8 @@ The restore feature is platform-specific and version-specific. You can restore a
 
 .Steps
 . Connect to the IP address or fully qualified domain name of the Unified Manager system.
-+
-|===
-    a|
-*Linux*
-a|
-Secure Shell
-a|
-*Windows*
-a|
-Power Shell
-|===
+* Linux: Secure Shell
+* Windows: Power Shell
 
 . Log in to the system with the root user credentials.
 . Enter the command `maintenance_console` and press Enter.
