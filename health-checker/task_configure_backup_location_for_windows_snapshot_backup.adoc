@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/task_configure_backup_location_for_windows_snapshot_backup.html
 sidebar: sidebar
-keywords: configure, backup, location, windows
+keywords: configure, backup, location, windows, snapshot copy, copies
 summary: "You should configure the volume for Snapshot copies to be stored even when you have Active IQ Unified Manager installed on Windows."
 ---
 = Configuring backup location for Windows

@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/concept_backup_and_restore_using_mysql_database_dump.html
 sidebar: sidebar
-keywords: backup, restore, using, mysql, database, dump
+keywords: backup, restore, using, mysql, database, dump, snapshot copy, copies
 summary: "A MySQL database dump backup is a copy of the Active IQ Unified Manager database and configuration files that you can use in case of a system failure or data loss. You can schedule a backup to be written to a local destination or to a remote destination. It is highly recommended that you define a remote location that is external to the Active IQ Unified Manager host system."
 ---
 = Backup and restore using a MySQL database dump

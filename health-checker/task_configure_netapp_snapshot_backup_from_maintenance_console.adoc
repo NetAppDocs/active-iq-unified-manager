@@ -1,15 +1,15 @@
 ---
 permalink: health-checker/task_configure_netapp_snapshot_backup_from_maintenance_console.html
 sidebar: sidebar
-keywords: configure, netapp, snapshot, copy, maintenance console
-summary: "You should configure Active IQ Unified Manager backup to NetApp Snapshot copy from the maintenance console."
+keywords: configure, netapp, snapshot copy, copies maintenance console
+summary: "To take Active IQ Unified Manager backup by using Snapshot copy, you should perform a few configuration steps from the maintenance console."
 ---
 = Configuring NetApp Snapshot copy from maintenance console
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You should configure Active IQ Unified Manager backup to NetApp Snapshot copy from the maintenance console.
+To take Active IQ Unified Manager backup by using Snapshot copy, you should perform a few configuration steps from the maintenance console.
 
 *What you'll need*
 

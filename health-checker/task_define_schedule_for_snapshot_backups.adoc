@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/task_define_schedule_for_snapshot_backups.html
 sidebar: sidebar
-keywords: define, backup, schedule, linux, windows
+keywords: define, backup, schedule, linux, windows, snapshot copy, copies
 summary: "You can configure the schedule at which Unified Manager Snapshot copies are created by using the Unified Manager UI."
 ---
 = Defining a backup schedule for Linux and Windows

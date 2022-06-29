@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/task_restore_snapshot_backup.html
 sidebar: sidebar
-keywords: restore, linux, snapshot, copy, windows
+keywords: restore, linux, snapshot copy, copies, windows
 summary: "If data loss or data corruption occurs, you can restore Unified Manager to the previous stable state with minimum loss of data. You can restore the Unified Manager Snapshot database to a local or remote operating system by using the Unified Manager maintenance console."
 ---
 = Restoring a Snapshot copy for Linux and Windows
