@@ -14,7 +14,7 @@ You can configure the schedule at which Unified Manager Snapshot copies are crea
 *What you'll need*
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
-* You must have configured the settings for NetApp Snapshot copy from the maintenance console to identify the destination where the snapshots will be created.
+* You must have configured the settings for creating Snapshot copies from the maintenance console to identify the destination where the snapshots will be created.
 
 Snapshot copies are created in just a few minutes and the Unified Manager database is locked only for few seconds.
 

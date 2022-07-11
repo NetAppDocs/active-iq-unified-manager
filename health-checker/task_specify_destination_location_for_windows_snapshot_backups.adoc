@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, destination location, windows, snapshot copy, copies
 summary: "You should configure the destination location for Active IQ Unified Manager Snapshot copies on a volume that you have already configured in one of your ONTAP clusters. You should use maintenance console to define the location."
 ---
-= Specifying the destination location for Windows Snapshot copies
+= Specifying the destination location for Snapshot copies on Windows
 :icons: font
 :imagesdir: ../media/
 
@@ -40,4 +40,4 @@ The system performs the following tasks:
  ** GUID of the volume where the network drive is mounted
  ** iSCSI initiator used to communicate with ONTAP
 
-. Exit the maintenance console and launch the Active IQ Unified Manager interface to create a schedule for the Snapshot copy if you have not already done this.
+. Exit the maintenance console and launch the Active IQ Unified Manager interface to create a schedule for Snapshot copies.
