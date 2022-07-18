@@ -1,15 +1,15 @@
 ---
 permalink: health-checker/task_specify_destination_location_for_windows_snapshot_backups.html
 sidebar: sidebar
-keywords: specify, destination location, windows, snapshot, backups
-summary: "You should configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters and use maintenance console to define the location."
+keywords: specify, destination location, windows, snapshot copy, copies
+summary: "You should configure the destination location for Active IQ Unified Manager Snapshot copies on a volume that you have already configured in one of your ONTAP clusters. You should use maintenance console to define the location."
 ---
-= Specifying the destination location for Windows Snapshot backups
+= Specifying the destination location for Snapshot copies on Windows
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You should configure the destination location for Active IQ Unified Manager Snapshot backups on a volume you have already configured in one of your ONTAP clusters and use maintenance console to define the location.
+You should configure the destination location for Active IQ Unified Manager Snapshot copies on a volume that you have already configured in one of your ONTAP clusters. You should use maintenance console to define the location.
 
 * You must have the administrator privilege for Windows host on which Active IQ Unified Manager is installed.
 * You must have a user ID and password authorized to log in to the maintenance console of the Unified Manager server.
@@ -40,4 +40,4 @@ The system performs the following tasks:
  ** GUID of the volume where the network drive is mounted
  ** iSCSI initiator used to communicate with ONTAP
 
-. Exit the maintenance console and launch the Active IQ Unified Manager interface to create the Snapshot backup schedule if you have not already done this.
+. Exit the maintenance console and launch the Active IQ Unified Manager interface to create a schedule for Snapshot copies.

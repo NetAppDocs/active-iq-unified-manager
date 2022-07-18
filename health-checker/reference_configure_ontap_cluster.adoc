@@ -1,15 +1,15 @@
 ---
 permalink: health-checker/reference_configure_ontap_cluster.html
 sidebar: sidebar
-keywords: netapp, snapshot, backup, windows, configure, ontap, cluster
-summary: "Before configuring Active IQ Unified Manager for Snapshot backup and restore for Windows, you should perform few pre-configurations for ONTAP and Windows host machine."
+keywords: netapp, snapshot copy, copies, backup, windows, configure, ontap, cluster
+summary: "You need to perform few pre-configuration steps on ONTAP clusters before you can back up and restore Active IQ Unified Manager using Snapshot copy on Windows systems."
 ---
 = Configuring ONTAP cluster
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Before configuring Active IQ Unified Manager for Snapshot backup and restore for Windows, you should perform few pre-configurations for ONTAP and Windows host machine.
+You need to perform few pre-configuration steps on ONTAP clusters before you can back up and restore Active IQ Unified Manager using Snapshot copy on Windows systems.
 
 You can configure ONTAP cluster using either the command prompt or System Manager user interface. The configuration of ONTAP cluster involves configuring Data LIFs to be available to be assigned as iSCSI LIFs to the storage VM. The next step is to configure an iSCSI enabled storage VM using the System Manager user interface. You will need to configure a static network route for this storage VM to control how LIFs use the network for outbound traffic.
 
