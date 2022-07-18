@@ -26,7 +26,7 @@ The system-defined cluster performance threshold policies are assigned, by defau
 +
 Identifies situations in which one node is operating at a much higher load than other nodes in the cluster, and therefore potentially affecting workload latencies.
 +
-It does this by comparing the performance capacity used value for all nodes in the cluster to see if there is a load difference of 30% between any nodes. This is a warning event.
+It does this by comparing the performance capacity used value for all nodes in a cluster to see if any node has exceeded the 30% threshold value for more than 24 hours. This is a warning event.
 
 * *Cluster capacity imbalance*
 +
