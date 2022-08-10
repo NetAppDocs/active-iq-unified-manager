@@ -53,6 +53,4 @@ If the volume is using 2TB of the available space, and the IOPS is 4,000, and th
 
 For this reason, when an event is triggered based on a MB/s breach for an adaptive QoS policy that includes the block size, a MB/s chart is displayed in the System Diagnosis section of the Event details page. If the event is triggered based on an IOPS breach for the adaptive QoS policy, an IOPS chart is displayed in the System Diagnosis section. If a breach occurs for both IOPS and MB/s you will receive two events.
 
-For more information on adjusting QoS settings, see the _ONTAP 9 Performance Monitoring Power Guide_.
-
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html[ONTAP 9 Performance Monitoring Power Guide]
+For more information on adjusting QoS settings, see https://docs.netapp.com/us-en/ontap/performance-admin/index.html[Performance management overview].

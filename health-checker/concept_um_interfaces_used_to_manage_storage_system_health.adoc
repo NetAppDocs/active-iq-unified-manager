@@ -2,7 +2,7 @@
 permalink: health-checker/concept_um_interfaces_used_to_manage_storage_system_health.html
 sidebar: sidebar
 keywords: unified manager, interfaces, manage, storage system, health
-summary: "This guide contains information about the two user interfaces that Active IQ Unified Manager provides for troubleshooting data storage capacity, availability, and protection issues. The two UIs are the Unified Manager web UI and the maintenance console."
+summary: "This section contains information about the two user interfaces that Active IQ Unified Manager provides for troubleshooting data storage capacity, availability, and protection issues. The two UIs are the Unified Manager web UI and the maintenance console."
 ---
 = Unified Manager interfaces used to manage storage system health
 :icons: font
