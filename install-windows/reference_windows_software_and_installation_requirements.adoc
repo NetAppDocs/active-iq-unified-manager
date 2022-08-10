@@ -77,5 +77,5 @@ You should shut down a running instance of Unified Manager before upgrading any 
 * If you have an active anti-virus software installed on your Windows system, Unified Manager installation might fail. You should disable all virus scan software on your system before installing Unified Manager. After your installation is complete, make sure to manually exclude the following paths from anti-virus scan:
 
 ** Unified Manager data directory, for example, `C:\ProgramData\NetApp\OnCommandAppData\`
-** Unified Manager installation directory, for example, ``
-** MySQL data directory, for example, `\C:\Program Files\NetApp\ ` `C:\ProgramData\MySQL\MySQLServerData` 
+** Unified Manager installation directory, for example, `\C:\Program Files\NetApp\`
+** MySQL data directory, for example, `\C:\Program Files\NetApp\ ` `C:\ProgramData\MySQL\MySQLServerData`
