@@ -99,6 +99,4 @@ The maintenance user name should start with a letter from a-z, followed by any c
 +
 The VM console displays the URL for the Unified Manager web UI.
 
-You can access the web UI to perform the initial setup of Unified Manager, as described in the _Active IQ Unified Manager System Configuration Guide_.
-
-link:../config/concept_configure_unified_manager.html[Active IQ Unified Manager System Configuration Guide]
+You can access the web UI to perform the initial setup of Unified Manager, as described in the link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager].

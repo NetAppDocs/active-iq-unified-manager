@@ -78,4 +78,4 @@ This is the directory where OpenJDK is installed. Example: `C:\Program Files\Net
 +
 This is the directory where all the application-generated data is stored. This includes logs, support bundles, backup, and all other additional data. Example: `C:\ProgramData\NetApp\OnCommandAppData\`
 
-You can access the web UI to perform the initial setup of Unified Manager, as described in the link:../config/concept_configure_unified_manager.html[Active IQ Unified Manager System Configuration Guide].
+You can access the web UI to perform the initial setup of Unified Manager, as described in the link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager].

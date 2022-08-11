@@ -21,9 +21,8 @@ Before running the workflow steps, ensure the following:
 +
 link:concept_gateway_apis.html[Accessing ONTAP APIs through proxy access]
 
-* You are aware of the usage of ONTAP REST APIs. For information about using ONTAP REST APIs, see the _ONTAP REST API Developers guide_.
-+
-https://docs.netapp.com/us-en/ontap-automation/index.html[ONTAP REST API Developers guide]
+* You are aware of the usage of ONTAP REST APIs. For information about using ONTAP REST APIs, see
+https://docs.netapp.com/us-en/ontap-automation/index.html[ONTAP Automation documentation].
 
 * You are an Application Administrator.
 * The cluster on which you want to run the REST API operations is supported by ONTAP 9.5 or later, and the cluster is added to Unified Manager over HTTPS.
