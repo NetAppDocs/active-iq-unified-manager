@@ -4,7 +4,7 @@ entries:
   - title: Getting started with Active IQ Unified Manager
     url: "/api-automation/concept_get_started_with_um_apis.html"
     entries:
-    - title: Audience for this guide
+    - title: Audience for this content
       url: "/api-automation/reference_intended_audience_for_this_guide.html"
     - title: Active IQ Unified Manager API access and categories
       url: "/api-automation/concept_api_url_and_categories.html"

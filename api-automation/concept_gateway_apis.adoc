@@ -102,6 +102,5 @@ curl -X GET "https://<hostname>/api/gateways/e4f33f90-f75f-11e8-9ed9-00a098e3215
 -H "Authorization: Basic <Base64EncodedCredentials>"
 ----
 
-For more information about using ONTAP REST APIs, see the ONTAP REST API Developers Guide.
-
+For more information about using ONTAP REST APIs, see 
 https://docs.netapp.com/us-en/ontap-automation/index.html[ONTAP REST API Automation]

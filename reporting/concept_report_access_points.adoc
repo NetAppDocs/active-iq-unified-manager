@@ -11,7 +11,7 @@ summary: "You can gather information in Unified Manager about your clusters to c
 [.lead]
 You can gather information in Unified Manager about your clusters to create reports from the UI, MySQL database queries, and REST APIs.
 
-This guide covers Unified Manager reporting and scheduling through the UI.
+These sections describe Unified Manager reporting and scheduling through the UI.
 
 There are three ways you can access the reporting capabilities provided by Unified Manager:
 
@@ -19,4 +19,4 @@ There are three ways you can access the reporting capabilities provided by Unifi
 * Using Open Database Connectivity (ODBC) and ODBC tools to access all the available objects.
 * Executing Unified Manager REST APIs to return the information that you want to review.
 
-This guide covers Unified Manager reporting and scheduling through the UI.
+These sections describe Unified Manager reporting and scheduling through the UI.

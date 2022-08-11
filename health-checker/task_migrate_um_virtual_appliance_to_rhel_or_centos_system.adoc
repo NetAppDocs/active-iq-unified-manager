@@ -17,7 +17,7 @@ You can restore a Unified Manager MySQL database dump backup from a virtual appl
  ** You must have the Operator, Application Administrator, or Storage Administrator role.
  ** You must know the name of the Unified Manager maintenance user for the restore operation.
 * On the Linux system:
- ** You must have installed Unified Manager on a RHEL or CentOS server following the instructions in the Installation Guide.
+ ** You must have installed Unified Manager on a Linux server following the instructions in link:../install-linux/concept_install_unified_manager_on_rhel_or_centos.html[Installing Unified Manager on Linux systems].
  ** The version of Unified Manager on this server must be the same as the version on the virtual appliance from which you are using the backup file.
  ** Do not launch the UI or configure any clusters, users, or authentication settings on the Linux system after installation. The backup file populates this information during the restore process.
  ** You must have the root user credentials for the Linux host.

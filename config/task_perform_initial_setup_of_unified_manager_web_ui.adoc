@@ -34,7 +34,7 @@ If you need to designate a proxy to provide internet access in order to send Aut
 . On Red Hat and CentOS systems you can change the umadmin user password from the default "`admin`" string to a personalized string.
 . In the Set up API Gateway page, select whether you want to use the API Gateway feature that allows Unified Manager to manage the ONTAP clusters you are planning to monitor using ONTAP REST APIs. Then click *Continue*.
 +
-You can enable or disable this setting later in the web UI from *General* > *Feature Settings* > *API Gateway*. For more information about the APIs, see the link:../api-automation/concept_get_started_with_um_apis.html[Active IQ Unified Manager API Developer's Guide].
+You can enable or disable this setting later in the web UI from *General* > *Feature Settings* > *API Gateway*. For more information about the APIs, see link:../api-automation/concept_get_started_with_um_apis.html[Getting started with Active IQ Unified Manager REST APIs].
 
 . Add the clusters that you want Unified Manager to manage, and then click *Next*. For each cluster you plan to manage, you must have the host name or cluster management IP address (IPv4 or IPv6) along with the user name and password credentials - the user must have the "`admin`" role.
 +

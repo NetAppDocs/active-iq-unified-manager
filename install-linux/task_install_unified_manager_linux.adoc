@@ -133,4 +133,4 @@ Log in to Unified Manager in a web browser by using following details:
 +
 `usermod -s /bin/maintenance-user-shell.sh umadmin`
 
-Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in the link:../config/concept_configure_unified_manager.html[Active IQ Unified Manager System Configuration Guide].
+Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager].
