@@ -14,7 +14,6 @@ You can use the APIs under the `administration` category to modify backup settin
 [NOTE]
 ====
 You must have the Application Administrator role for running these operations. You can also use the Unified Manager web UI for configuring these settings.
-Testing
 ====
 [cols="3*",options="header"]
 |===
