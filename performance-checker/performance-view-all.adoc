@@ -17,7 +17,6 @@ The controls along the top of the page enable you to select a particular view (f
 
 All the fields on these pages can be used in custom views and in reports. Some of the fields are linked to related pages enabling a more detailed view.
 
-
 == Performance: All Clusters view
 The Performance: All Clusters view displays an overview of the performance events, data, and configuration information for each cluster that is monitored by an instance of Unified Manager. This page enables you to monitor the performance of your clusters, and to troubleshoot performance issues and threshold events. 
 
@@ -63,6 +62,7 @@ See the following links for more information:
 * link:../performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html[Types of workloads monitored by Unified Manager]
 * link:../performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html[Viewing the QoS policy group settings applied to specific volumes or LUNs]
 * link:../performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html[Understanding the Unified Manager recommendations to tier data to the cloud]
+* link:../performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html[Viewing performance charts to compare volumes or LUNs that are in the same QoS policy group]
 
 == Performance: All Aggregates view
 The Performance: All Aggregates view displays an overview of the performance events, data, and configuration information for each aggregate that is monitored by an instance of Unified Manager. This page enables you to monitor the performance of your aggregates, and to troubleshoot performance issues and threshold events.
@@ -120,9 +120,13 @@ If you want to analyze the latency and throughput of a specific object, click th
 
 See the following links for more information:
 
+* link:../data-protection/view-lun-relationships.html[Monitoring LUNs in a Consistency Group relationship]
+* link:../storage-mgmt/task_provision_luns.html[Provisioning LUNs]
 * link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html[Assigning performance threshold policies to storage objects]
 * link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html[Removing performance threshold policies from storage objects]
 * link:../performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html[Viewing volumes or LUNs that are in the same QoS policy group].
+* link:../performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html[Viewing the QoS policy group settings applied to specific volumes or LUNs]
+* link:../api-automation/concept_provision_luns.html[Provisioning LUNs by using APIs]
 
 == Performance: All NVMe Namespaces view
 The Performance: All NVMe Namespaces view displays an overview of the performance events, data, and configuration information for each NVMe Namespace that is being monitored by an instance of Unified Manager. This enables you to quickly monitor the performance and health of your Namespaces, and to troubleshoot issues and threshold events.

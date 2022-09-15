@@ -25,3 +25,11 @@ You can view SVM details, such as the capacity, efficiency, and configuration of
 +
 You can also view the complete details by clicking *View Details* in the minimal details dialog box.
 . View the objects related to the SVM by clicking *View Related* in the minimal details dialog box.
+
+*Related information*
+
+* link:../health-checker/reference_health_svm_details_page.html[Storage VM: Health details page]
+* link:../performance-checker/performance-view-all.html#performance-all-storage-vms-view[Performance: All Storage VMs view]
+* link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html#view-security-details-of-all-volumes-with-anti-ransomware-detection[Security: Anti-ransomware view]
+* link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html[Viewing security status for clusters and Storage VMs]
+* link:../data-protection/reference_relationship_all_relationships_view.html[Relationship: All Relationships view]
