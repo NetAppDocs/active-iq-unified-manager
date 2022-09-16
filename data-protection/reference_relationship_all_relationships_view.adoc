@@ -286,3 +286,9 @@ Displays the different relationships. In this column, you can view volume and co
  ** SnapMirror, Storage VM DR
  ** Consistency Group
  ** SnapMirror, Consistency Group.
+
+*Related information*
+
+* For information about *Relationship:MetroCluster* view, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html
+* For information about *Relationship: Last 1 month Transfer Status* view, see link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html
+* For information about *Relationship: Last 1 month Transfer Rate* view, see link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html

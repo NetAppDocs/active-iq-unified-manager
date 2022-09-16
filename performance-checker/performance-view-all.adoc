@@ -13,7 +13,7 @@ You use the Performance inventory pages to see a summary of performance informat
 
 By default, objects in the view pages are sorted based on event criticality. Objects with critical events are listed first, and objects with warning events are listed second. This provides an immediate visual indication of issues that must be addressed.
 
-The controls along the top of the page enable you to select a particular view (for health, performance, capacity, and so on), perform searches to locate specific objects, create and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a `.csv, .pdf, or .xlsx` file. After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis.
+You can export data from these pages to a comma-separated values (`.csv`) file, Microsoft Excel file (`.xlsx`), or (`.pdf`) document by using the *Reports* button, and then use the exported data to build reports. Additionally, you can customize the page and then schedule a report to be created and emailed on a regular basis by using the *Scheduled Reports* button.
 
 All the fields on these pages can be used in custom views and in reports. Some of the fields are linked to related pages enabling a more detailed view.
 
