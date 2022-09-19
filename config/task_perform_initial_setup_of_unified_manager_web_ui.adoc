@@ -31,7 +31,7 @@ If you want to change any of these options later, you can select your choice fro
 +
 If you need to designate a proxy to provide internet access in order to send AutoSupport content, or if you want to disable AutoSupport, use the *General* > *AutoSupport* option from the web UI.
 
-. On Red Hat and CentOS systems you can change the umadmin user password from the default "`admin`" string to a personalized string.
+. On Red Hat and CentOS systems, change the umadmin user password from the default "`admin`" string to a personalized string.
 . In the Set up API Gateway page, select whether you want to use the API Gateway feature that allows Unified Manager to manage the ONTAP clusters you are planning to monitor using ONTAP REST APIs. Then click *Continue*.
 +
 You can enable or disable this setting later in the web UI from *General* > *Feature Settings* > *API Gateway*. For more information about the APIs, see link:../api-automation/concept_get_started_with_um_apis.html[Getting started with Active IQ Unified Manager REST APIs].
