@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/reference_relationship_all_relationships_view.html
 sidebar: sidebar
-keywords: volume, relationships, "Relationship: MetroCluster"
+keywords: volume, relationships, metrocluster
 summary: "The Relationship: All Relationships view displays information about protection relationships on the storage system."
 ---
 = Relationship: All Relationships view
