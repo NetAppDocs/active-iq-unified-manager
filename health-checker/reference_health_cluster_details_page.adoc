@@ -225,11 +225,13 @@ Provides details about the local cluster in a MetroCluster over FC or MetroClust
 
  ** Type
 +
-Displays whether the MetroCluster type is two-node or four-node.
+Displays whether the MetroCluster type is two-node or four-node. #For MetroCluster over IP, only four-node is supported.#
 
  ** Configuration
 +
-Displays the MetroCluster configuration, which can have the following values:
+Displays the MetroCluster configuration for IP and FC, which can have the following values:
+
+*For FC*
 
   *** Stretch Configuration with SAS cables
   *** Stretch Configuration with FC-SAS bridge
@@ -241,9 +243,16 @@ Displays the MetroCluster configuration, which can have the following values:
 For a four-node MetroCluster, only Fabric Configuration with FC switches is supported.
 ====
 
+*For IP* 
+
+***  IP configuration with Ethernet switches
+
  ** Automated Unplanned Switch Over (AUSO)
 +
-Displays whether automated unplanned switchover is enabled for the local cluster. By default, AUSO is enabled for all clusters in a two-node MetroCluster configuration in Unified Manager. You can use the command-line interface to change the AUSO setting.
+Displays whether automated unplanned switchover is enabled for the local cluster. By default, AUSO is enabled for all clusters in a two-node MetroCluster configuration in Unified Manager. You can use the command-line interface to change the AUSO setting. This is supported for only MetroCluster over FC.
+** Switch-Over mode
++
+#Displays the switch-over mode for the MetroCluster over IP configuration. The available values are: `Active`, `Negotiated Switchover`, and `Automatic Unplanned Switchover`.#
 
 === Nodes
 
@@ -292,7 +301,7 @@ Displays the list of licensed data protocols that are enabled for the cluster. T
 === Protection
  ** Mediators
 +
-Displays whether the cluster supports mediators and the connectivity status of the mediator.
+Displays whether the cluster supports mediators and the connectivity status of the mediator. It indicates whether the mediator is configured, and if configured, it displays the status of the mediators.
 
 *** Not Applicable
 +
@@ -635,3 +644,4 @@ The Related Alerts pane enables you to view the list of alerts for the selected 
 *Related information*
 
 link:../health-checker/task_view_volume_list_and_details.html[Volumes page]
+link:..//health-checker/task_view_cluster_list_and_details.html[Viewing the cluster list and details]
