@@ -43,3 +43,5 @@ a|
 
 +
 |===
+
+For more information, see link:../api-automation/concept_provision_file_share.html[Provisioning CIFS and NFS file shares by using APIs]

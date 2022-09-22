@@ -11,7 +11,10 @@ summary: "Connectivity events provide you with information about the connectivit
 [.lead]
 Connectivity events provide you with information about the connectivity between the components of a cluster and between clusters in a MetroCluster configuration so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
 
-== Impact area: availability
+== MetroCluster over FC configuration
+These events pertain to MetroCluster over FC configurations.
+
+=== Impact area: availability
 [options="header"]
 |===
 | Event name (Trap name)| Impact level| Source type| Severity
@@ -160,3 +163,29 @@ Node stack connection
 a|
 Warning
 |===
+
+== MetroCluster over IP configuration
+These events pertain to MetroCluster over IP configurations.
+
+Impact area: availability
+[options="header"]
+|===
+| Event name (Trap name)| Impact level| Source type| Severity
+a|
+MetroCluster IP intersite connectivity status is down (mccIntersiteconnectivityStatusDown)
+a|
+Risk
+a|
+MetroCluster Relationship
+a|
+Critical
+a|
+MetroCluster-IP Node to Switch Connection Offline (mccIpPortStatusOffline)
+a|
+Risk
+a|
+Node
+a|
+Error
+a|
+=== 
