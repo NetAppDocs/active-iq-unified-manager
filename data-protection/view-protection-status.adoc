@@ -41,7 +41,7 @@ Clicking the events on this page takes you to the Event details page. You can cl
 
 * For counting the volumes protected by Snapshot copies, both source and destination volumes are considered.
 * The number of Snapshot copies returned is for only the volumes that are online and available.
-* The number of Snapshot copies has a dynamic range. It is based on the data of clusters added in the Unified Manager.
+* The graph range for the number of Snapshot copies is dynamic. It is generated based on the number of snapshots present in the selected cluster.
 * For considering a volume as protected, the schedule for the Snapshot copy of the volume should be enabled.
 * The value for the reserve space for Snapshot copies is important for viewing the amount of disk space utilized or for calculating the space that can be reclaimed if one or more Snapshot copies are deleted.
 
@@ -58,7 +58,7 @@ Clicking the events on this page takes you to the Event details page. You can cl
 *	The number of relationships protected by the SnapMirror relationship types, such as Asynchronous Mirror, Asynchronous Vault, Asynchronous MirrorVault, StricxtSync, SnapMirror Business Continuity (SMBC) consistency group, and Sync.
 *	The number of healthy and unhealthy relationships.
 *	Break-up of the volume relationship count. You can toggle the charts by RPO lag time and status.
-*   Lag thresholds for unmanaged relationship. You can click the setting icon (image:../media/Settings.PNG[Icon for lag threshold settings]) to configure the lag threshold settings. For more information, see link:../health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html[Configuring lag threshold settings for unmanaged protection relationships].
+*   Lag thresholds for unmanaged relationship. You can click the settings icon (image:../media/Settings.PNG[Icon for lag threshold settings]) to configure the lag threshold settings. For more information, see link:../health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html[Configuring lag threshold settings for unmanaged protection relationships].
 
 === Points to note for SnapMirror relationships
 
