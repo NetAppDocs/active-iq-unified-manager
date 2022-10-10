@@ -9,7 +9,7 @@ summary: "The Data Protection page presents a holistic view of the data protecti
 :imagesdir: ../media/
 
 [.lead]
-The Data Protection page presents a holistic view of the data protection details for all the protected volumes in a single cluster, or all clusters in a data center.
+The Data Protection page presents a holistic view of the data protection details for all the protected volumes in a single cluster, or all clusters in a data center: MM
 
 .Steps
 . In the left navigation pane, click *Dashboard*.
