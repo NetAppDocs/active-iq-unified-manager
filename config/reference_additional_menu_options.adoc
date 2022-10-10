@@ -44,6 +44,9 @@ You can change this interval to 10 or 15 minutes if you find that collections fr
 +
 Provides an option to change the default ports that Unified Manager uses for HTTP and HTTPS protocols, if required for security. The default ports are 80 for HTTP and 443 for HTTPS.
 
+* *Control access to MySQL port 3306*
++
+Controls the access to the default MySQL port 3306. For reasons of security, the access through this port is restricted only to localhost during a fresh installation of Unified Manager on Linux, Windows, and VMware vSphere systems. By using this option, you can make this port available to other hosts. If the access was enabled on multiple hosts previously, the same configuration is retained in an upgrade scenario. 
 * *Exit*
 +
 Exits the maintenance console menu.
