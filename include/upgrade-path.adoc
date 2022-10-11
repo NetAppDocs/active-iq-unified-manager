@@ -1,0 +1,25 @@
+---
+permalink: include/upgrade-path.html
+sidebar: sidebar
+keywords: supported upgrade path, upgrade path, n-2, which versions can be upgraded
+summary: "Supported upgrade path"
+---
+= Supported upgrade path for Unified Manager versions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager supports a specific upgrade path for each version.
+
+Not all versions of Unified Manager can perform an in-place upgrade to later versions. The Unified Manager upgrades are limited to an N-2 model, meaning an upgrade can only be performed within the next 2 releases on all platforms. For example, you can upgrade Unified Manager to 9.12 from Unified Manager 9.10 and 9.11 only. 
+
+Earlier versions of Unified Manager follow this sample path:
+
+.Sample upgrade path from OnCommand Unified Manager 9.5 to Active IQ Unified Manager 9.12: 
+
+. Upgrade from OnCommand Unified Manager 9.5 to Active IQ Unified Manager 9.7 
+. Upgrade from 9.7 to 9.9 
+. Upgrade from 9.9 to 9.11 
+. Upgrade from 9.11 to 9.12
+
+

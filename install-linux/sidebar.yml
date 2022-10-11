@@ -55,6 +55,8 @@ entries:
       entries:
       - title: Upgrading Unified Manager
         url: "/install-linux/task_upgrade_unified_manager.html"
+      - title: Supported upgrade path for Unified Manager versions
+        url: "/include/upgrade-path.html"  
       - title: Upgrading the host OS from Red Hat Enterprise Linux 7.x to 8.x
         url: "/install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html"
     - title: Upgrading third-party products post Unified Manager installation

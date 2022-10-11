@@ -36,6 +36,8 @@ entries:
     - title: Upgrading Unified Manager
       url: "/install-vapp/task_upgrade_unified_manager_vapp.html"
       entries:
+      - title: Supported upgrade path for Unified Manager versions
+        url: "/include/upgrade-path.html" 
       - title: Downloading the Unified Manager upgrade file
         url: "/install-vapp/task_download_unified_manager_iso_image_vapp.html"
       - title: Upgrading the Unified Manager virtual appliance
