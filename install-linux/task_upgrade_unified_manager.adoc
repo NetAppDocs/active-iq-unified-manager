@@ -9,7 +9,7 @@ summary: "You can upgrade Unified Manager by downloading and running the install
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade from Unified Manager 9.9 or 9.10 to 9.11 by downloading and running the installation file on the Red Hat platform.
+You can upgrade from Unified Manager 9.10 or 9.11 to 9.12 by downloading and running the installation file on the Red Hat platform.
 
 *What you'll need*
 
@@ -28,7 +28,7 @@ link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux]
 * To avoid data loss, you must have created a backup of the Unified Manager database in case there is an issue during the upgrade. It is also recommended that you move the backup file from the `/opt/netapp/data` directory to an external location.
 * During upgrade, you may be prompted to confirm whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data after 6 months is purged.
 * You should have completed any running operations, because Unified Manager is unavailable during the upgrade process.
-* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.28, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.28.
+* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.30, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.30.
 
 .Steps
 
@@ -85,7 +85,7 @@ The pre-installation script checks that the system has a valid Red Hat subscript
 +
 `upgrade.sh`
 +
-This script automatically executes the RPM modules, upgrading the necessary supporting software and the Unified Manager modules that run on them. Additionally, the upgrade script checks whether there are any system configuration settings or any installed software that might conflict with the upgrade. If the script identifies any issues, you must fix the issues before upgrading Unified Manager.
+This script automatically executes the RPM modules, upgrading the necessary supporting software and the Unified Manager modules that run on them. Additionally, the upgrade script checks whether there are any system configuration settings or any installed software that might conflict with the upgrade. If the script identifies any issues, you must fix the issues before upgrading Unified Manager. If you have previously installed packages, such as _net-snmp_ before you upgraded Unified Manager, the MySQL dependency might uninstall the package during upgrade. You need to install the package manually again for continuing to use it.
 
 . After the upgrade is complete, scroll back through the messages until you see the message displaying an IP address or URL for the Unified Manager web UI, the maintenance user name (umadmin), and the default password.
 +
@@ -100,4 +100,4 @@ https://[default_ip_address]/  (if using IPv6)
 https://fully_qualified_domain_name/
 ----
 
-Enter the specified IP address or URL into a supported web browser to start the Unified Manager web UI, and then log in by using the same maintenance user name (umadmin) and password that you set earlier.
+Enter the specified IP address or URL in a new window of a supported web browser to start the Unified Manager web UI, and then log in by using the same maintenance user name (umadmin) and password that you set earlier. 
