@@ -188,4 +188,4 @@ when the expected IOPS is less than this value.
 * Associated Objects: The number of workloads that are assigned to the QoS policy group, separated into volumes
 and LUNs. You can click the number to navigate to a page that provides more details about the selected volumes or LUNs.
 
-For more information see the topics under link:..//performance-checker/concept_manage_performance_using_qos_policy_group_information.html[Managing performance using QoS policy group information]
+For more information see the topics under link:..//performance-checker/concept_manage_performance_using_qos_policy_group_information.html[Managing performance using QoS policy group information].

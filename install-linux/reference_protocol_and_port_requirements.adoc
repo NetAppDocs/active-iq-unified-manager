@@ -88,8 +88,6 @@ Used to access realtime REST API-based EMS events from authenticated ONTAP syste
 The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see see link:../config/concept_maintenance_console_menu.html[Maintenance console menus].
 ====
 
-link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager]
-
 == Connections from the Unified Manager server
 
 You should configure your firewall to open ports that enable communication between the Unified Manager server and managed storage systems, servers, and other components. If a port is not open, communication fails.

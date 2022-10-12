@@ -85,10 +85,10 @@ Used to enable OnCommand Workflow Automation and OnCommand API Services access t
 
 [NOTE]
 ====
-The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see the _Configuring Active IQ Unified Manager_.
+The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager].
 ====
 
-link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager]
+
 
 == Connections from the Unified Manager server
 

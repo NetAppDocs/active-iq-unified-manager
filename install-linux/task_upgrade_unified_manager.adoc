@@ -15,13 +15,13 @@ You can upgrade from Unified Manager 9.10 or 9.11 to 9.12 by downloading and run
 
 * The system on which you are upgrading Unified Manager must meet the system and software requirements.
 +
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements]
+See link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements].
 +
-link:reference_red_hat_and_centos_software_and_installation_requirements.html[Red Hat and CentOS software and installation requirements]
+See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Red Hat and CentOS software and installation requirements].
 
 * You must install, or upgrade to the correct version of OpenJDK prior to upgrading Unified Manager.
 +
-link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux]
+See link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux].
 +
 
 * You must have a subscription to the Red Hat Enterprise Linux Subscription Manager.
@@ -35,7 +35,7 @@ link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux]
 . Log in to the target Red Hat Enterprise Linux or CentOS server.
 . Download the Unified Manager bundle to the server.
 +
-link:task_download_unified_manager.html[Downloading Unified Manager for Red Hat or CentOS]
+See link:task_download_unified_manager.html[Downloading Unified Manager for Red Hat or CentOS].
 
 . Navigate to the target directory and expand the Unified Manager bundle:
 +

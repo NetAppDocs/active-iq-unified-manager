@@ -33,7 +33,7 @@ If the validity of certificate for which a CSR was created is more than 397 days
 . In the dialog box that is displayed, click *Choose file...* to locate the file to upload.
 . Select the file, and then click *Install* to install the file.
 +
-link:concept_install_https_certificate_generated_using_external_tools.html[Installing a HTTPS certificate generated using external tools]
+For information, see link:concept_install_https_certificate_generated_using_external_tools.html[Installing a HTTPS certificate generated using external tools].
 
 == Example certificate chain
 

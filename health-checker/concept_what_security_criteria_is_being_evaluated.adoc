@@ -25,4 +25,4 @@ See the topics on compliance categories and the http://www.netapp.com/us/media/t
 Upgrade events that are reported from the Active IQ platform are also considered security events. These events identify issues where the resolution requires you to upgrade ONTAP software, node firmware, or operating system software (for security advisories). These events are not displayed in the Security panel, but they are available from the Event Management inventory page.
 ====
 
-For more information, see link:..health-checker/concept_manage_cluster_security_objectives.html[Managing cluster security objectives]
+For more information, see link:..health-checker/concept_manage_cluster_security_objectives.html[Managing cluster security objectives].

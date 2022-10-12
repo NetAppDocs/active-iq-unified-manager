@@ -17,4 +17,4 @@ See the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Gui
 
 In addition to reporting security status, Unified Manager also generates security events for any cluster or SVM that has security violations. You can track these issues in the Event Management inventory page and you can configure alerts for these events so that your storage administrator is notified when new security events occur.
 
-For more information, see link:../health-checker/concept_what_security_criteria_is_being_evaluated.html[What security criteria are being evaluated]
+For more information, see link:../health-checker/concept_what_security_criteria_is_being_evaluated.html[What security criteria are being evaluated].
