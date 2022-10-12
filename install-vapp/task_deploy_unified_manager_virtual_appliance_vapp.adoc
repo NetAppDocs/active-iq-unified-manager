@@ -13,7 +13,7 @@ After downloading the installation file, you deploy Unified Manager as a virtual
 
 *What you'll need*
 
-You should review the system requirements. make the necessary changes before deploying the Unified Manager virtual appliance.
+You should review the system requirements. Make the necessary changes before deploying the Unified Manager virtual appliance.
 
 link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Virtual infrastructure requirements]
 
@@ -47,7 +47,13 @@ VMware High Availability for the Unified Manager virtual appliance is supported.
 . In the vSphere Client, click *File* > *Deploy OVF Template*.
 . Complete the Deploy OVF Template wizard to deploy the Unified Manager virtual appliance.
 +
-On the Networking Configuration page:
+On the Review Details page:
++
+ ** Verify the details of the Publisher section. The message *Entrust Code Signing - OVCS2 (Trusted certificate)* confirms the integrity of the downloaded `OVA` file.
+  +
+ If you see the message *Entrust Code Signing - OVCS2 (Invalid certificate)*, then upgrade the VMware vCenter Server to 7.0U3E or greater version.
++
+On the Customize Template page:
 
  ** Leave all the fields blank when using DHCP and IPv4 addressing.
  ** Check the "`Enable Auto IPv6 addressing`" box, and leave all the other fields blank when using DHCP and IPv6 addressing.

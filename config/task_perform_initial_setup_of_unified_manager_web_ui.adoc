@@ -20,13 +20,19 @@ You must have performed the following operations:
 
 The Active IQ Unified ManagerGetting Started page appears only when you first access the web UI. The page below is from an installation on VMware.
 
-image::../media/first_experience_wizard.png[]
+image::../media/first_experience_wizard.JPG[]
 
 If you want to change any of these options later, you can select your choice from the General options in the Unified Manager left-navigation pane. Note that the NTP setting is only for VMware installations, and it can be changed later using the Unified Manager maintenance console.
 
 .Steps
 
 . In the Active IQ Unified Manager Initial Setup page, enter the maintenance user email address, the SMTP server host name and any additional SMTP options, and the NTP server (VMware installations only). Then click *Continue*.
++
+[NOTE] 
+====
+For a secure connection to the SMTP server, you should check the box for *Use STARTLS* or *Use SSL* option. If you select the *Use STARTTLS* or *Use SSL* option, a certificate page displays after you click the *Continue* button. Verify the certificate details and accept the certificate to continue with the initial setup settings of the web UI.
+====
+
 . In the AutoSupport page click *Agree and Continue* to enable the sending of AutoSupport messages from Unified Manager to NetAppActive IQ.
 +
 If you need to designate a proxy to provide internet access in order to send AutoSupport content, or if you want to disable AutoSupport, use the *General* > *AutoSupport* option from the web UI.
