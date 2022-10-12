@@ -14,7 +14,7 @@ You can monitor connectivity issues in your MetroCluster configuration. The deta
 You can monitor the MetroCluster configurations from the following views from the Active IQ Unified Manager left navigation pane:
 
 * *Storage* > *Clusters* > *Protection: MetroCluster* view
-* *Storage* > *Relationships* > *Relationship:MetroCluster* view
+* *Protection* > *Relationships* > *Relationship: MetroCluster* view
 
 Unified Manager uses system health alerts to indicate the status of the components and connectivity in the MetroCluster configuration.
 
@@ -37,6 +37,8 @@ A list of all of the monitored clusters is displayed.
 . From the *Protection: MetroCluster* view, click the name of the cluster for which you want to view MetroCluster over FC configuration details. Alternately, you can filter by clusters in a MetroCluster configuration.
 . In the *Cluster / Health* details page, click the *MetroCluster Connectivity* tab. The *MetroCluster Connectivity* tab is available for only MetroCluster over FC configurations.
 + 
+image::../media/opm_um_mcc_connectivity_tab_png.gif[Unified Manager MetroCluster Connectivity tab]
++
 The topology of the MetroCluster configuration is displayed in the corresponding cluster object area.
 You can use the information displayed in the Cluster / Health details page to rectify any connectivity issues. For example, if the connectivity between the node and the switch in a cluster is down, the following icon is displayed:
 
@@ -45,6 +47,8 @@ image::../media/node_switch_connectivity.gif[]
 If you move the pointer over the icon, you can view detailed information about the generated event.
 
 If you discover connectivity issues in your MetroCluster configuration, you must log in to System Manager or access the ONTAP CLI to resolve the issues.
+
+For more information about determining cluster health, see link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determining-cluster-health-in-metrocluster-over-fc-configuration[Determining cluster health in MetroCluster over FC configuration].
 
 == Monitor connectivity issues in MetroCluster over IP configuration
 
@@ -83,7 +87,6 @@ Only for a MetroCluster over IP configuration, you can have view the cluster top
 *Related information*
 
 * link:../health-checker/reference_health_cluster_details_page.html[Cluster / Health details page]
-* link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html[Checking the health of clusters in a MetroCluster configuration]
 * For information about *Relationship:MetroCluster* view, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitoring MetroCluster configurations]
 * For information about *Relationship: Last 1 month Transfer Status* view, see link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html[Relationship: Last 1 month Transfer Status view]
 * For information about *Relationship: Last 1 month Transfer Rate* view, see link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html[Relationship: Last 1 month Transfer Rate view]

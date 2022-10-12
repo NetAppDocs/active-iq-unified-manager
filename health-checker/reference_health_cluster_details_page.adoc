@@ -225,11 +225,11 @@ Provides details about the local cluster in a MetroCluster over FC or MetroClust
 
  ** Type
 +
-Displays whether the MetroCluster type is two-node or four-node. #For MetroCluster over IP, only four-node is supported.#
+Displays whether the MetroCluster type is two-node or four-node. For MetroCluster over IP, only four-node is supported.
 
  ** Configuration
 +
-Displays the MetroCluster configuration for IP and FC, which can have the following values:
+Displays the MetroCluster configuration over FC and IP, which can have the following values:
 
 *For FC*
 
@@ -245,14 +245,14 @@ For a four-node MetroCluster, only Fabric Configuration with FC switches is supp
 
 *For IP* 
 
-***  IP configuration with Ethernet switches
+***  IP configuration with Ethernet switches (L2 or L3, depending on how the cluster is configured)
 
  ** Automated Unplanned Switch Over (AUSO)
 +
 Displays whether automated unplanned switchover is enabled for the local cluster. By default, AUSO is enabled for all clusters in a two-node MetroCluster configuration in Unified Manager. You can use the command-line interface to change the AUSO setting. This is supported for only MetroCluster over FC.
 ** Switch-Over mode
 +
-#Displays the switch-over mode for the MetroCluster over IP configuration. The available values are: `Active`, `Negotiated Switchover`, and `Automatic Unplanned Switchover`.#
+Displays the switch-over mode for the MetroCluster over IP configuration. The available values are: `Active`, `Negotiated Switchover`, and `Automatic Unplanned Switchover`.
 
 === Nodes
 

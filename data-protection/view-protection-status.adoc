@@ -14,14 +14,15 @@ The Data Protection page presents a holistic view of the data protection details
 .Steps
 . In the left navigation pane, click *Dashboard*.
 . Depending on whether you want to view data protection status for all monitored clusters or for a single cluster, select *All Clusters* or select a single cluster from the drop-down menu.
-. Click the right-arrow at the top of the Data Protection panel. The Data Protection page is displayed.
+. Click the right-arrow at the top of the Data Protection panel. The *Data Protection* page is displayed.
 
-Depending on whether you selected a single or all clusters in your data center, this page displays the data protection status of the volumes protected by Snapshot copies or SnapMirror policies, and also displays the count of the unprotected volumes. Selecting a cluster from the *Individual Cluster* list displays the Snapshot protection and SnapMirror relationship status of the protected volumes in that cluster.
+Depending on whether you selected a single or all clusters in your data center, this page displays the data protection status of the volumes protected by Snapshot copies or SnapMirror policies, and also displays the count of the unprotected volumes.
+
+Selecting a cluster from the *Individual Cluster* list displays the Snapshot protection and SnapMirror relationship status of the protected volumes in that cluster.
 
 Clicking the events on this page takes you to the Event details page. You can click the *View All* link to view all active protection events in the Event Management inventory page. You can hover your mouse to view the respective counts and legends. You can click:
 
 * The bar charts for unprotected volumes and volumes protected by Snapshot copies to go to the Volumes page and view the details.
-* The bar charts for unprotected clusters and protected clusters by MetroCluster configuration to go to the Clusters page and view the details.
 * The bar charts for all relationships to go to the Relationships page, where the details are filtered by the source cluster.
 
 == View protection status of volumes protected by Snapshot copies
@@ -68,3 +69,7 @@ Clicking the events on this page takes you to the Event details page. You can cl
 * The lag duration of the RPO lag in data replication is based on the SnapMirror relation. The status is categorized as `ok`, `warning`, or `error`, based on the relationship threshold set. You can look at the status to determine whether the parameters are working as expected, or whether you need to address any issue.
 * If a volume has multiple SnapMirror relationships, each relationship type is counted for the RPO lag.
 * Volume relationships are considered unhealthy if there are issues in data replication between the source and destination, for example, when the relationship is broken.
+
+== View clusters protected by MetroCluster configuration
+
+The *MetroCluster Protection* panel on the *Data Protection* page displays the number of clusters protected by MetroCluster over FC or IP configuration at your site. Clicking the bar charts on this panel takes you to the Clusters page where the cluster details are filtered based on the clusters protected or unprotected by MetroCluster. For information about monitoring your MetroCluster configuration, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitoring MetroCluster configurations].
