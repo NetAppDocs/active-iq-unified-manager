@@ -81,6 +81,7 @@ Enables you to reestablish a previously broken protection relationship, reversin
  ** Restore
 +
 Enables you to restore data from one volume to another volume.
+For information, see link:../data-protection/task_restore_data_use_health_volume_details_page.html[Restoring data using the Volume / Health details page].
 
 +
 [NOTE]

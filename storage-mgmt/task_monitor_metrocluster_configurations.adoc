@@ -87,7 +87,7 @@ Only for a MetroCluster over IP configuration, you can have view the cluster top
 *Related information*
 
 * link:../health-checker/reference_health_cluster_details_page.html[Cluster / Health details page]
-* For information about *Relationship:MetroCluster* view, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitoring MetroCluster configurations]
-* For information about *Relationship: Last 1 month Transfer Status* view, see link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html[Relationship: Last 1 month Transfer Status view]
-* For information about *Relationship: Last 1 month Transfer Rate* view, see link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html[Relationship: Last 1 month Transfer Rate view]
-* For information about *Relationship: All Relationships* view, see link:../data-protection/reference_relationship_all_relationships_view.html[Relationship: All Relationships view]
+* For information about *Relationship:MetroCluster* view, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitoring MetroCluster configurations].
+* For information about *Relationship: Last 1 month Transfer Status* view, see link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html[Relationship: Last 1 month Transfer Status view].
+* For information about *Relationship: Last 1 month Transfer Rate* view, see link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html[Relationship: Last 1 month Transfer Rate view].
+* For information about *Relationship: All Relationships* view, see link:../data-protection/reference_relationship_all_relationships_view.html[Relationship: All Relationships view].
