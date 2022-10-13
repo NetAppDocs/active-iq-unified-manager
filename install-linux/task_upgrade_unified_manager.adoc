@@ -48,39 +48,12 @@ The required RPM modules for Unified Manager are unzipped to the target director
 `ls *.rpm`
 +
 `netapp-um<version>.x86_64.rpm`
-+
-. *Optional:* For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages:
- .. View the list of available and unavailable packages:
-+
-`yum install netapp-um<version>.x86_64.rpm --assumeno`
-+
-The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
-
- .. On a different system that has Internet access, run the following command to download the missing packages.
-+
-`yum install package_name --downloadonly --downloaddir=.`
-+
-The packages are downloaded in the directory specified as `--downloaddir=`.
-+
-Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat Enterprise Linux systems, you might need to enable the functionality to download a package without installing it:
-+
-`yum install yum-plugin-downloadonly`
-
- .. Create a new directory in the installation system and copy the downloaded packages from the Internet-connected system.
- .. Change directories to the new directory on the installation system and run the following command for installing MySQL Community Edition, along with its dependencies.
-+
-`yum install *.rpm`
-.. Start the Unified Manager server. Run these commands:
-+
-`systemctl start ocie`
-+
-`systemctl start ocieau`
 . Run the pre-installation script to ensure that there are no system configuration settings or any installed software that might conflict with the upgrade:
 +
 `sudo ./pre_install_check.sh`
 +
-The pre-installation script checks that the system has a valid Red Hat subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues before upgrading Unified Manager.
-
+The pre-installation script checks that the system has a valid Red Hat subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues before upgrading Unified Manager. Perform the steps mentioned in link:../install-linux/task_upgrade_unified_manager.html[Additional steps to perform for missing packages], and continue with the next steps afterwards.
++
 . Upgrade Unified Manager using the following script:
 +
 `upgrade.sh`
@@ -101,3 +74,36 @@ https://fully_qualified_domain_name/
 ----
 
 Enter the specified IP address or URL in a new window of a supported web browser to start the Unified Manager web UI, and then log in by using the same maintenance user name (umadmin) and password that you set earlier. 
+
+== Additional steps to perform for missing packages
+If there are any missing packages detected at your site during upgrade, or if your system is not connected to the Internet, or you are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages.
+
+[NOTE]
+These steps need to be performed after step _5_ of the main procedure and following this, continue with step _6_.
+
+. View the list of available and unavailable packages:
++
+`yum install netapp-um<version>.x86_64.rpm --assumeno`
++
+The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
+
+. On a different system that has Internet access, run the following command to download the missing packages.
++
+`yum install package_name --downloadonly --downloaddir=.`
++
+The packages are downloaded in the directory specified as `--downloaddir=`.
++
+Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat Enterprise Linux systems, you might need to enable the functionality to download a package without installing it:
++
+`yum install yum-plugin-downloadonly`
+
+. Create a new directory in the installation system and copy the downloaded packages from the Internet-connected system.
+. Change directories to the new directory on the installation system and run the following command for installing MySQL Community Edition, along with its dependencies.
++
+`yum install *.rpm`
+. Start the Unified Manager server. Run these commands:
++
+`systemctl start ocie`
++
+`systemctl start ocieau`
+
