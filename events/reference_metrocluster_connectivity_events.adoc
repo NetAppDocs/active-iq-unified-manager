@@ -35,7 +35,7 @@ MetroCluster relationship
 a|
 Critical
 a|
-MetroCluster Disaster Recovery Capabilities Impacted(ocumEvtMetroClusterDRStatusImpacted)
+MetroCluster Disaster Recovery Capability Impacted(ocumEvtMetroClusterDRStatusImpacted)
 a|
 Risk
 a|
@@ -43,7 +43,7 @@ MetroCluster relationship
 a|
 Critical
 a|
-MetroCluster Configuration SwitchOver(ocumEvtMetroClusterDRStatusImpacted)
+MetroCluster Configuration Switched Over(ocumEvtMetroClusterDRStatusImpacted)
 a|
 Risk
 a|
