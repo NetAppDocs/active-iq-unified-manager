@@ -9,7 +9,7 @@ summary: "You can upgrade Unified Manager by downloading and running the install
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade from Unified Manager 9.10 or 9.11 to 9.12 by downloading and running the installation file on the Red Hat platform.
+You can upgrade from Unified Manager 9.10 or 9.11 to 9.12 by downloading and running the installation file on the Linux platform.
 
 *What you'll need*
 
@@ -79,7 +79,7 @@ Enter the specified IP address or URL in a new window of a supported web browser
 If there are any missing packages detected at your site during upgrade, or if your system is not connected to the Internet, or you are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages.
 
 [NOTE]
-These steps need to be performed after step _5_ of the main procedure and following this, continue with step _6_.
+These steps need to be performed after step _5_ of the main procedure and following this, and run the `upgrade.sh` command to continue with step _6_.
 
 . View the list of available and unavailable packages:
 +
@@ -98,7 +98,7 @@ Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat
 `yum install yum-plugin-downloadonly`
 
 . Create a new directory in the installation system and copy the downloaded packages from the Internet-connected system.
-. Change directories to the new directory on the installation system and run the following command for installing MySQL Community Edition, along with its dependencies.
+. Change directories to the new directory on the installation system and run the following command for installing the missing packages, along with their dependencies.
 +
 `yum install *.rpm`
 . Start the Unified Manager server. Run these commands:
