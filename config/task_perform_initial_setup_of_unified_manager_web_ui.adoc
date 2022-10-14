@@ -30,7 +30,7 @@ If you want to change any of these options later, you can select your choice fro
 +
 [NOTE] 
 ====
-For a secure connection to the SMTP server, you should check the box for *Use STARTLS* or *Use SSL* option. If you select the *Use STARTTLS* or *Use SSL* option, a certificate page displays after you click the *Continue* button. Verify the certificate details and accept the certificate to continue with the initial setup settings of the web UI.
+If you have selected the *Use STARTTLS* or *Use SSL* option, a certificate page displays after you click the *Continue* button. Verify the certificate details and accept the certificate to continue with the initial setup settings of the web UI.
 ====
 
 . In the AutoSupport page click *Agree and Continue* to enable the sending of AutoSupport messages from Unified Manager to NetAppActive IQ.
