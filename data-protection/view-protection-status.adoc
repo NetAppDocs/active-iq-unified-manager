@@ -72,4 +72,4 @@ Clicking the events on this page takes you to the Event details page. You can cl
 
 == View clusters protected by MetroCluster configuration
 
-The *MetroCluster Protection* panel on the *Data Protection* page displays the number of clusters protected by MetroCluster over FC or IP configuration at your site. Clicking the bar charts on this panel takes you to the Clusters page where the cluster details are filtered based on the clusters protected or unprotected by MetroCluster. For information about monitoring your MetroCluster configuration, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitoring MetroCluster configurations].
+The *MetroCluster Protection* panel on the *Data Protection* page displays the number of clusters protected or not protected by MetroCluster over FC or IP configuration at your site. Clicking the bar charts on this panel takes you to the Clusters page where the cluster details are filtered based on the protected or unprotected clusters. For information about monitoring your MetroCluster configuration, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitoring MetroCluster configurations].
