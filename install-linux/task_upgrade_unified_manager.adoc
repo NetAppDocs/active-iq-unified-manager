@@ -52,7 +52,7 @@ The required RPM modules for Unified Manager are unzipped to the target director
 +
 `sudo ./pre_install_check.sh`
 +
-The pre-installation script checks that the system has a valid Red Hat subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues before upgrading Unified Manager. Perform the steps mentioned in link:../install-linux/install-linux/task_upgrade_unified_manager.html#additional-steps-to-perform-for-missing-packages[Additional steps to perform for missing packages], and continue with the next steps afterwards.
+The pre-installation script checks that the system has a valid Red Hat subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues before upgrading Unified Manager. Perform the steps mentioned in link:..//install-linux/task_upgrade_unified_manager.html#additional-steps-to-perform-for-missing-packages[Additional steps to perform for missing packages], and continue with the next steps afterwards.
 +
 . Upgrade Unified Manager using the following script:
 +

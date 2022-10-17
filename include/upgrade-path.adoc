@@ -23,4 +23,4 @@ For example, if your installed version is OnCommand Unified Manager 9.5 and you 
 . Upgrade 9.7 -> 9.9.
 . Upgrade 9.9 -> 9.11.
 
-For more information on the upgrade path matrix, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions[knowledge base (KB) article].
+For more information on the upgrade path matrix, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions[knowledge base (KB) article^].
