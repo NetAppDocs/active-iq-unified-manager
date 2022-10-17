@@ -24,7 +24,11 @@ Starting with Unified Manager 9.7, clusters can be added using HTTPS only.
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
 . On the *Cluster Setup* page, select the cluster you want to edit, and then click *Edit*.
 . In the *Edit Cluster* dialog box, modify the values as required.
+    +
+  If you have modified the details for a cluster running ONTAP 9.5 version or greater, or upgraded a cluster running ONTAP older version to higher version, you can view the certificate details for Mutual TLS communication by clicking *Certificate Details*. If the certificate is expired, click the *Regenerate* button to incorporate the new certificate.
 . Click *Submit*.
+. In the Authorize Host dialog box, click *View Certificate* to view the certificate information about the cluster.
+. Click *Yes*.
 
 *Related information*
 

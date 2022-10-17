@@ -15,7 +15,7 @@ The VMware vSphere system on which you install Unified Manager requires specific
 
 The following versions of VMware ESXi are supported:
 
-* ESXi 6.5, 6.7, and 7.0.
+* ESXi 6.5, 6.7, and 7.0.x.
 
 [NOTE]
 ====
@@ -25,7 +25,7 @@ Unified Manager OVA on VMware vSphere systems runs Debian OS 11 (bullseye) inter
 
 The following versions of vSphere are supported:
 
-* VMware vCenter Server 6.5, 6.7, and 7.0.
+* VMware vCenter Server 6.5, 6.7, and 7.0.x.
 
 See the Interoperability Matrix for the complete and most current list of supported ESXi versions.
 
