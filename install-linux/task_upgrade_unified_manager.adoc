@@ -2,7 +2,7 @@
 permalink: install-linux/task_upgrade_unified_manager.html
 sidebar: sidebar
 keywords: upgrade, unified manager
-summary: "You can upgrade Unified Manager by downloading and running the installation file on the Red Hat platform."
+summary: "You can upgrade Unified Manager by downloading and running the installation file on the Linux platform."
 ---
 = Upgrading Unified Manager
 :icons: font
@@ -17,7 +17,7 @@ You can upgrade from Unified Manager 9.10 or 9.11 to 9.12 by downloading and run
 +
 See link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements].
 +
-See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Red Hat and CentOS software and installation requirements].
+See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Linux software and installation requirements].
 
 * You must install, or upgrade to the correct version of OpenJDK prior to upgrading Unified Manager.
 +
@@ -35,7 +35,7 @@ See link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux].
 . Log in to the target Red Hat Enterprise Linux or CentOS server.
 . Download the Unified Manager bundle to the server.
 +
-See link:task_download_unified_manager.html[Downloading Unified Manager for Red Hat or CentOS].
+See link:task_download_unified_manager.html[Downloading Unified Manager for Linux].
 
 . Navigate to the target directory and expand the Unified Manager bundle:
 +
@@ -52,7 +52,7 @@ The required RPM modules for Unified Manager are unzipped to the target director
 +
 `sudo ./pre_install_check.sh`
 +
-The pre-installation script checks that the system has a valid Red Hat subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues before upgrading Unified Manager. Perform the steps mentioned in link:../install-linux/task_upgrade_unified_manager.html#additional-steps-to-perform-for-missing-packages[Additional steps to perform for missing packages], and continue with the next steps afterwards.
+The pre-installation script checks that the system has a valid Red Hat Enterprise Linux subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues and continue with the upgrade. Perform the steps mentioned in link:../install-linux/task_upgrade_unified_manager.html#additional-steps-to-perform-for-missing-packages[Additional steps to perform for missing packages]. If there are no missing packages, continue with the next steps.
 +
 . Upgrade Unified Manager using the following script:
 +
@@ -79,7 +79,7 @@ Enter the specified IP address or URL in a new window of a supported web browser
 If there are any missing packages detected at your site during upgrade, or if your system is not connected to the Internet, or you are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages.
 
 [NOTE]
-These steps need to be performed after step _5_ of the main procedure and following this, and run the `upgrade.sh` command to continue with step _6_.
+These steps need to be performed after step _5_ of the main procedure. This procedure upgrades Unified Manager and you do not need to run any additional steps for upgrade.
 
 . View the list of available and unavailable packages:
 +
@@ -97,8 +97,8 @@ Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat
 +
 `yum install yum-plugin-downloadonly`
 
-. Create a new directory in the installation system and copy the downloaded packages from the Internet-connected system.
-. Change directories to the new directory on the installation system and run the following command for installing the missing packages, along with their dependencies.
+. Copy the downloaded packages to the directory where you unzipped the Unified Manager bundle on the installation system.
+. Change directories to that directory and run the following command for installing the missing packages, along with their dependencies.
 +
 `yum install *.rpm`
 . Start the Unified Manager server. Run these commands:
@@ -106,4 +106,5 @@ Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat
 `systemctl start ocie`
 +
 `systemctl start ocieau`
-
++
+This process completes the Unified Manager upgrade process. Enter the specified IP address or URL in a new window of a supported web browser to start the Unified Manager web UI, and then log in by using the same maintenance user name (umadmin) and password that you set earlier.

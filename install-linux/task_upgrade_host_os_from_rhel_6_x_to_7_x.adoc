@@ -23,11 +23,11 @@ Follow these steps if you have a spare system on which you can install Red Hat E
 
 . Install and configure a new server with Red Hat Enterprise Linux 8.x software.
 +
-See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Red Hat software and installation requirements].
+See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Linux software and installation requirements].
 
 . On the Red Hat Enterprise Linux 8.x system, install the same version of Unified Manager software that you have on the existing Red Hat Enterprise Linux 7.x system.
 +
-See link:concept_install_unified_manager_on_rhel_or_centos.html[Installing Unified Manager on Red Hat Enterprise Linux].
+See link:concept_install_unified_manager_on_rhel_or_centos.html[Installing Unified Manager on Linux].
 +
 Do not launch the UI or configure any clusters, users, or authentication settings when the installation is complete. The backup file populates this information during the restore process.
 
@@ -49,11 +49,11 @@ Follow these steps if you do not have a spare system on which you can install Re
 . Remove the Red Hat Enterprise Linux 7.x image from the system and completely wipe the system.
 . Install and configure Red Hat Enterprise Linux 8.x software on the same system.
 +
-See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Red Hat software and installation requirements].
+See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Linux software and installation requirements].
 
 . On the Red Hat Enterprise Linux 8.x system, install the same version of Unified Manager software that you had on the Red Hat Enterprise Linux 7.x system.
 +
-See link:concept_install_unified_manager_on_rhel_or_centos.html[Installing Unified Manager on Red Hat Enterprise Linux].
+See link:concept_install_unified_manager_on_rhel_or_centos.html[Installing Unified Manager on Linux].
 +
 Do not launch the UI or configure any clusters, users, or authentication settings when the installation is complete. The backup file populates this information during the restore process.
 

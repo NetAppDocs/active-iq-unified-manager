@@ -28,7 +28,7 @@ Follow these steps for determining cluster health in a MetroCluster over FC conf
 +
 [NOTE]
 ====
-If no MetroCluster events are displayed, you can use the Search bar to search for the name of the cluster involved in the performance event.
+If no MetroCluster events are displayed, you can use the Search bar to search for the name of the cluster involved in the event related to you MetroCluster over FC configuration.
 ====
 +
 The Health: All Clusters view is displayed with detailed information about the event.
