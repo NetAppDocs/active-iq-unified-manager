@@ -30,12 +30,14 @@ This account must have the _admin_ role with Application access set to _ontapi_,
 +
 *Server certificates*: This certificate is owned by Unified Manager.A default self-signed SSL (HTTPS) certificate is generated with a fresh installation of Unified Manager. NetApp recommends that you upgrade it to CA-signed certificate for better security. If the server certificate expires, you should regenerate it and restart Unified Manager for the services to incorporate the new certificate. For more information about regenerating SSL certificate, see link:../config/task_generate_an_https_security_certificate_ocf.adoc[Generating an HTTPS security certificate].
 +
-*Certificates for Mutual TLS communication*: Used during Mutual TLS communication between Unified Manager and ONTAP. It enables certificate-based authentication for a cluster. A certificate is generated at the time of adding a cluster running ONTAP 9.5 software version or greater, or upgrading a cluster running ONTAP older version to 9.5 version or greater. If the certificate expires, you should regenerate it to incorporate the new certificate. For more information about viewing and regenerating the certificate, see link:../storage-mgmt/task_edit_clusters.html[Editing clusters]. 
+*Certificates for Mutual TLS communication*:Used during Mutual TLS communication between Unified Manager and ONTAP. It enables certificate-based authentication for a cluster, based on the ONTAP version. If the cluster running the ONTAP version is lower than the 9.5, certificate-based authentication is not enabled.
++
+When a cluster is added to Unified Manager 9.12, the certificate creates automatically.Though, the certificate is not created automatically for a cluster, if you are updating an older version of Unified Manager to Unified Manager 9.12. However, you can create it by modifying and saving the cluster details. If the certificate expires, you should regenerate it to incorporate the new certificate. For more information about viewing and regenerating the certificate, see link:../storage-mgmt/task_edit_clusters.adoc[Editing clusters]. 
 +
 [NOTE]
-The certificate-based authentication enables automatically, if you add a cluster for ONTAP version 9.5 software or greater from the web UI. If you add a cluster from the maintenance console, the certificate-based authentication is not enabled.
+The certificate-based authentication enables automatically, if you add a cluster from the web UI. If you add a cluster from the maintenance console, the certificate-based authentication is not enabled.
 +
-*Client certificates*: Used during authentication for EMS messages received from ONTAP. This certificate is owned by ONTAP and required when adding an ONTAP cluster to Unified Manager. You cannot add a cluster to Unified Manager with an expired certificate and if the client certificate has already expired, you should regenerate it before adding the cluster. However, if this certificate expires for a cluster that is already added, and is being used by Unified Manager, EMS messaging continues to function with the expired certificate. You do not need to regenerate the client certificate. For information about certificate generation, see the knowledge base (KB) article https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9[How to renew an ONTAP self-signed certificate in System Manager user interface].
+*Client certificates*: Used during authentication for EMS messages received from ONTAP. This certificate is owned by ONTAP and required when adding an ONTAP cluster to Unified Manager. You cannot add a cluster to Unified Manager with an expired certificate and if the client certificate has already expired, you should regenerate it before adding the cluster. However, if this certificate expires for a cluster that is already added, and is being used by Unified Manager, EMS messaging continues to function with the expired certificate. For information about certificate generation, see the knowledge base (KB) article https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9[How to renew an ONTAP self-signed certificate in System Manager user interface].
 
 * A single instance of Unified Manager can support a specific number of nodes. If you need to monitor an environment that exceeds the supported node count, you must install an additional instance of Unified Manager to monitor some of the clusters.
 * You can monitor a single cluster by two instances of Unified Manager provided that you have configured a second cluster-management LIF on the cluster so that each instance of Unified Manager connects through a different LIF.
@@ -45,6 +47,9 @@ The certificate-based authentication enables automatically, if you add a cluster
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
 . On the Cluster Setup page, click *Add*.
 . In the Add Cluster dialog box, specify the values as required, and then click *Submit*.
++
+[NOTE] 
+If you are adding a cluster to Unified Manager 9.12, see link:..../storage-mgmt/task_edit_clusters.html#certificates-for-mutual-tls-communication[Certificates for Mutual TLS communication]
 . In the Authorize Host dialog box, click *View Certificate* to view the certificate information about the cluster.
 . Click *Yes*.
 +
