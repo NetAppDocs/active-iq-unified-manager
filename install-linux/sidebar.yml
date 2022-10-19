@@ -53,6 +53,8 @@ entries:
     - title: Upgrading Unified Manager on Red Hat Enterprise Linux or CentOS
       url: "/install-linux/concept_upgrade_unified_manager_on_rhel_or_centos.html"
       entries:
+      - title: Supported upgrade path for Unified Manager versions
+        url: "/include/upgrade-path.html"        
       - title: Upgrading Unified Manager
         url: "/install-linux/task_upgrade_unified_manager.html"
       - title: Upgrading the host OS from Red Hat Enterprise Linux 7.x to 8.x
