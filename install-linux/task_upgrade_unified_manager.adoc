@@ -52,14 +52,16 @@ The required RPM modules for Unified Manager are unzipped to the target director
 +
 `sudo ./pre_install_check.sh`
 +
-The pre-installation script checks that the system has a valid Red Hat Enterprise Linux subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues and continue with the upgrade. Perform the steps mentioned in link:../install-linux/task_upgrade_unified_manager.html#additional-steps-to-perform-for-missing-packages[Additional steps to perform for missing packages]. If there are no missing packages, continue with the next steps.
+The pre-installation script checks that the system has a valid Red Hat Enterprise Linux subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues and continue with the upgrade. 
 +
+If there are any missing packages detected, perform the steps mentioned in link:../install-linux/task_upgrade_unified_manager.html#additional-steps-to-perform-for-missing-packages[Additional steps to perform for missing packages]. If there are no missing packages, continue with the next steps.
+
 . Upgrade Unified Manager using the following script:
 +
 `upgrade.sh`
 +
 This script automatically executes the RPM modules, upgrading the necessary supporting software and the Unified Manager modules that run on them. Additionally, the upgrade script checks whether there are any system configuration settings or any installed software that might conflict with the upgrade. If the script identifies any issues, you must fix the issues before upgrading Unified Manager. If you have previously installed packages, such as _net-snmp_ before you upgraded Unified Manager, the MySQL dependency might uninstall the package during upgrade. You need to install the package manually again for continuing to use it.
-
++
 . After the upgrade is complete, scroll back through the messages until you see the message displaying an IP address or URL for the Unified Manager web UI, the maintenance user name (umadmin), and the default password.
 +
 The message is similar to the following:
@@ -106,5 +108,5 @@ Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat
 `systemctl start ocie`
 +
 `systemctl start ocieau`
-+
+
 This process completes the Unified Manager upgrade process. Enter the specified IP address or URL in a new window of a supported web browser to start the Unified Manager web UI, and then log in by using the same maintenance user name (umadmin) and password that you set earlier.
