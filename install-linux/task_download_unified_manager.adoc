@@ -27,21 +27,17 @@ https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/
 +
 [NOTE]
 ====
-Ensure that you download the correct version of the installer file for your Red Hat Enterprise Linux system. Based on whether you have Red Hat Enterprise Linux 7 or 8 installed, ensure that you download the appropriate version of the Unified Manager `.zip` file.
+** Ensure that you download the correct version of the installer file for your Red Hat Enterprise Linux system. Based on whether you have Red Hat Enterprise Linux 7 or 8 installed, ensure that you download the appropriate version of the Unified Manager `.zip` file.
+** NetApp recommends that you download the code certificate and digital certificate along with the `.zip` file. 
 ====
-+
-[NOTE]
-====
-It is recommended that you download the code signing certificate and digital signing certificate along with the `.zip` file. 
-====
-. Verify the checksum to ensure that the software downloaded correctly.
-. If you have downloaded the code signing certificate and digital signing certificate, you can prevent unauthorized access and tamper with the installer file. You can use the following commands to verify the integrity of the installer file:
-** Run the following command to extract the public key from the code signing certificate:
+. Verify the checksum for integrity of the  downloaded software.
+. If you have downloaded the code certificate and digital certificate, you can prevent unauthorized access and tamper with the installer file. You can use the following commands to verify the integrity of the installer file:
+** This command extracts the public key from the code certificate:
 +
 ----
 openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > AIQUM-RHEL-public.key
 ----
-** Run the following command to verify the signature on the installer file:
+** This command verifies the signature on the installer file:
 +
 ----
 openssl dgst -sha256 -verify <public_key_name> -signature <signature_file_name>
