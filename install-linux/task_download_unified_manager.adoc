@@ -37,10 +37,12 @@ https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/
 ----
 openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > AIQUM-RHEL-public.key
 ----
+*** Where *AIQUM-RHEL-CLIENT-INTER-ROOT.pem* is the file that contains the code certificate.
+
 ** This command verifies the signature on the installer file:
 +
 ----
-openssl dgst -sha256 -verify <public_key_name> -signature <signature_file_name>
+openssl dgst -sha256 -verify <public_key_name> -signature <signature_file_name> ActiveIQUnifiedManager-<version>.zip
 ----
 +
 The message similar to `Verified Ok` confirms that the installer file is safe to use.
