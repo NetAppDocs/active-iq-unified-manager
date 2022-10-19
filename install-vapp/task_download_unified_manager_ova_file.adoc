@@ -15,7 +15,7 @@ Download the Unified Manager installation file from the NetApp Support Site to d
 
 You should have the login credentials for the NetApp Support Site.
 
-The installation file is a `.tar` file that contains a root certificate, a README file, and an `OVA` file containing Unified Manager software configured for a virtual appliance.
+The installation file is a `.tar` file that contains a root certificate, a `README` file, and an `OVA` file containing Unified Manager software configured for a virtual appliance.
 
 .Steps
 
@@ -30,6 +30,6 @@ https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/
 tar -xvzf ActiveIQUnifiedManager-<version>.tar.gz
 ----
 +
-The required `OVA` file, a root certificate, and a `README`` file for Unified Manager are unzipped to the target directory.
+The required `OVA` file, a root certificate, and a `README` file for Unified Manager are unzipped to the target directory.
 . Verify the checksum to ensure that the software downloaded correctly.
 . Verify the integrity of the `OVA` file by following the steps provided in the `README` file.
