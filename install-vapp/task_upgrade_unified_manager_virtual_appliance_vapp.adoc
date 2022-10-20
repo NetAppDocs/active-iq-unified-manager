@@ -63,4 +63,4 @@ You are automatically logged out of the maintenance console.
 
 . *Optional:* Log in to the maintenance console, and verify the version of Unified Manager.
 
-You can log in to the web UI to use the upgraded version of Unified Manager. Note that you need to wait for the discovery process to finish before performing any task in the UI.
+You can launch the web UI on a new window on a supported web browser and log in to use the upgraded version of Unified Manager. Note that you need to wait for the discovery process to finish before performing any task in the UI.

@@ -62,7 +62,7 @@ This setup will perform an upgrade of Unified Manager. Do you want to continue?
 
 . Click *Yes*, and then click *Next*.
 . Enter the MySQL8 root password that was set during installation, and then click *Next*.
-. Log in to the Unified Manager web UI, and verify the version number.
+. Launch the web UI on a new window on a supported web browser and log in to use the upgraded version of Unified Manager.
 . If you have an active anti-virus software installed on your Windows system, make sure to manually exclude the following paths from anti-virus scan after your upgrade is complete:
 
 * Unified Manager data directory
