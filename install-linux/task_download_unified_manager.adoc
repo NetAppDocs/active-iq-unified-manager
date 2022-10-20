@@ -28,21 +28,21 @@ https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/
 [NOTE]
 ====
 ** Ensure that you download the correct version of the installer file for your Red Hat Enterprise Linux system. Based on whether you have Red Hat Enterprise Linux 7 or 8 installed, ensure that you download the appropriate version of the Unified Manager `.zip` file.
-** NetApp recommends that you download the code certificate and digital certificate along with the `.zip` file. 
+** NetApp recommends that you download the code signing certificate (`.pem`) and digital signature (`.sig`) along with the `.zip` file. 
 ====
 . Verify the checksum for integrity of the  downloaded software.
-. If you have downloaded the code certificate and digital certificate, you can prevent unauthorized access and tamper with the installer file. You can use the following commands to verify the integrity of the installer file:
-** This command extracts the public key from the code certificate:
+. If you have downloaded the code signing certificate and digital signature, you can verify the integrity of the installer file. You can use the following commands to verify the integrity of the installer file:
+** This command creates a file with the public key from the code signing certificate:
 +
 ----
-openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > AIQUM-RHEL-public.key
+openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > <public_key_file_name>
 ----
-*** Where *AIQUM-RHEL-CLIENT-INTER-ROOT.pem* is the file that contains the code certificate.
+*** Where *AIQUM-RHEL-CLIENT-INTER-ROOT.pem* is the file that contains the code signing certificate.
 
 ** This command verifies the signature on the installer file:
 +
 ----
-openssl dgst -sha256 -verify <public_key_name> -signature <signature_file_name> ActiveIQUnifiedManager-<version>.zip
+openssl dgst -sha256 -verify <public_key_file_name> -signature <signature_file_name> ActiveIQUnifiedManager-<version>.zip
 ----
 +
 The message similar to `Verified Ok` confirms that the installer file is safe to use.
