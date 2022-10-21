@@ -82,12 +82,12 @@ Displays the storable capacity available for storage in all the spare disks.
 Displays the capacity that is provisioned for all the underlying volumes.
 
 === Details
-+
-Displays detailed information about the used and available capacity.
+
+Displays detailed information about the used and available capacity. The calculation excludes the root aggregate data.
 
  ** Total Capacity
 +
-Displays the total capacity of the cluster. This does not include the capacity that is assigned for parity.
+Displays the total capacity of the cluster. This does not include the capacity that is assigned for parity. 
 
  ** Used
 +
