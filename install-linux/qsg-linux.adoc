@@ -18,10 +18,16 @@ For detailed system requirements and for information about installing the produc
 == Installing Active IQ Unified Manager
 
 === Download the installer
-1.	Download the `ActiveIQUnifiedManager-<version>.zip` installation package.
+1.	Download the `ActiveIQUnifiedManager-<version>.zip` installation package along with code signing certificate (`.pem`) and digital signature (`.sig`) .
 2.	In the directory where you have downloaded the installation file, run:
 +
 `# unzip ActiveIQUnifiedManager-<version>.zip`
+
+=== Verify integrity
+Run the following commands to verify the integrity of the installer package:
+
+* Run `openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > <public_key_file_name>` to create a file with the public key from the code signing certificate.
+* Run `openssl dgst -sha256 -verify <public_key_file_name> -signature <signature_file_name> ActiveIQUnifiedManager-<version>.zip` to verify the signature on the installer package.
 
 === Verify repository configuration
 The procedures for configuring Red Hat Enterprise Linux or CentOS repositories are site specific. You can use the `pre_install_check.sh` script included in the installation package to verify the configuration of your operating system. If your system is connected to the internet, you automatically receive instructions for setting up the Red Hat Enterprise Linux or CentOS repositories.
