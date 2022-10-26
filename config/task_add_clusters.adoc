@@ -63,8 +63,7 @@ You can change the cluster-management IP address from IPv6 to IPv4 or from IPv4 
 +
 In Unified Manager 9.12, after saving the cluster details, you can see the certificate for Mutual TLS communication for a cluster.
 +
-If a certifcate-based authentication is enabled for a cluster and you delete and restore the cluster to the Unified Manager server, then you can see the failure in monitoring of the cluster. To avoid the failure, edit and save the cluster details. 
-Unified Manager checks the certificate only when the cluster is added initially. Unified Manager does not check the certificate for each API call to ONTAP.
+If the certificate-based authentication is not enabled, Unified Manager checks the certificate only when the cluster is added initially. Unified Manager does not check the certificate for each API call to ONTAP.
 
 After all the objects for a new cluster are discovered, Unified Manager starts to gather historical performance data for the previous 15 days. These statistics are collected using the data continuity collection functionality. This feature provides you with over two weeks of performance information for a cluster immediately after it is added. After the data continuity collection cycle is completed, real-time cluster performance data is collected, by default, every five minutes.
 
