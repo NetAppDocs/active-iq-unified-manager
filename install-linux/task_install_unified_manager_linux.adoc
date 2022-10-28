@@ -35,7 +35,7 @@ The Red Hat Enterprise Linux or CentOS system might have all the required versio
 |===
 | Required software and minimum version| Command to verify software and version
 a|
-OpenJDK version 11.0.14
+OpenJDK version 11.0.17
 a|
 `java -version`
 a|
