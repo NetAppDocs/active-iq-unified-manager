@@ -41,16 +41,16 @@ Displays detailed information about the data availability and data capacity issu
 You can click the graph of an object to view a filtered list of the objects. For example, you can click the SVM capacity graph that displays warnings to view a filtered list of SVMs. This list contains SVMs that have volumes or qtrees that have capacity issues with a severity level of Warning. You can also click the SVMs availability graph that displays warnings to view the list of SVMs that have availability issues with a severity level of Warning.
 
 === Availability Issues
-+
+
 Graphically displays the total number of objects, including objects that have availability issues and objects that do not have any availability-related issues. The colors in the graph represent the different severity levels of the issues. The information below the graph provides details about availability issues that can impact or have already impacted the availability of data in the cluster. For example, information is displayed about disk shelves that are down and aggregates that are offline.
-+
+
 [NOTE]
 ====
 The data displayed for the SFO bar graph is based on the HA state of the nodes. The data displayed for all other bar graphs is calculated based on the events generated.
 ====
 
 === Capacity Issues
-+
+
 Graphically displays the total number of objects, including objects that have capacity issues and objects that do not have any capacity-related issues. The colors in the graph represent the different severity levels of the issues. The information below the graph provides details about capacity issues that can impact or have already impacted the capacity of data in the cluster. For example, information is displayed about aggregates that are likely to breach the set threshold values.
 
 == Capacity tab
@@ -58,7 +58,7 @@ Graphically displays the total number of objects, including objects that have ca
 Displays detailed information about the capacity of the selected cluster.
 
 === Capacity
-+
+
 Displays the data capacity graph about the used capacity and available capacity from all allocated aggregates:
 
  ** Logical Space Used
@@ -106,11 +106,11 @@ Displays the capacity that is provisioned for all the underlying volumes.
 Displays the storable capacity available for storage in all the spare disks.
 
 === Cloud Tier
-+
+
 Displays the total cloud tier capacity used, and the capacity used for each connected cloud tier for FabricPool-enabled aggregates on the cluster. A FabricPool can be either licensed or unlicensed.
 
 === Physical Capacity Breakout by Disk Type
-+
+
 The Physical Capacity Breakout by Disk Type area displays detailed information about the disk capacity of the various types of disks in the cluster. By clicking the disk type, you can view more information about the disk type from the Disks tab.
 
  ** Total Usable Capacity
@@ -138,7 +138,7 @@ Graphically displays the spare capacity of the SSD, data, and cache disks in the
 Displays the number of unassigned disks in the cluster.
 
 === Aggregates with Capacity Issues list
-+
+
 Displays in tabular format details about the used capacity and available capacity of the aggregates that have capacity risk issues.
 
  ** Status
@@ -204,7 +204,6 @@ Identifies if this is an All SAN Array configured cluster.
 
 === Remote Cluster Overview
 
-+
 Provides details about the remote cluster in a MetroCluster configuration. This information is displayed only for MetroCluster configurations.
 
  ** Cluster
@@ -391,7 +390,7 @@ Displays the failover policy that is configured for the interface.
 === Routing Groups
 
 Displays the name of the routing group. You can view more information about the routes and the destination gateway by clicking the routing group name.
-+
+
 Routing groups are not supported for ONTAP 8.3 or later and therefore a blank column is displayed for these clusters.
 
 === Failover Group
@@ -430,7 +429,7 @@ If there are single-node clusters, you can also view details about the nodes.
 === Disk Shelves
 
 Displays information about the disk shelves in the HA pair.
-+
+
 You can also view events generated for the disk shelves and the environmental components, and the time when the events were triggered.
 
  ** *Shelf ID*
@@ -474,11 +473,11 @@ Displays the unique identifier of the disk shelf.
 Displays the firmware version of the disk shelf.
 
 === Ports
-+
+
 Displays information about the associated FC, FCoE, and Ethernet ports. You can view details about the ports and the associated LIFs by clicking the port icons.
-+
+
 You can also view the events generated for the ports.
-+
+
 You can view the following port details:
 
  ** Port ID
@@ -517,7 +516,7 @@ Displays details about the disks in the selected cluster. You can view disk-rela
 Displays the number of disks, which are categorized by effective types (FCAL, SAS, SATA, MSATA, SSD, NVMe SSD, SSD CAP, Array LUN, and VMDISK), and the state of the disks. You can also view other details, such as the number of aggregates, shared disks, spare disks, broken disks, unassigned disks, and unsupported disks. If you click the effective disk type count link, disks of the selected state and effective type are displayed. For example, if you click the count link for the disk state Broken and effective type SAS, all disks with the disk state Broken and effective type SAS are displayed.
 
 === Disk
-+
+
 Displays the name of the disk.
 
 === RAID Groups
@@ -543,7 +542,7 @@ Displays the position of the disk based on its container type: for example, Copy
 === Impacted Aggregates
 
 Displays the number of aggregates that are impacted due to the failed disk. You can move the pointer over the count link to view the impacted aggregates and then click the aggregate name to view details of the aggregate. You can also click the aggregate count to view the list of impacted aggregates in the Health: All Aggregates view.
-+
+
 No value is displayed in this column for the following cases:
 
  ** For broken disks when a cluster containing such disks is added to Unified Manager
@@ -568,7 +567,7 @@ Displays the types of disks: for example, ATA, SATA, FCAL, or VMDISK.
 === Effective Type
 
 Displays the disk type assigned by ONTAP.
-+
+
 Certain ONTAP disk types are considered equivalent for the purposes of creating and adding to aggregates, and spare management. ONTAP assigns an effective disk type for each disk type.
 
 === Spare Blocks Consumed %

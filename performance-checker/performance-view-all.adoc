@@ -42,7 +42,7 @@ The Performance: All Volumes view displays an overview of the performance events
 
 If you want to analyze the latency and throughput of a specific object, click the more options button image:icon_kabob.gif[] then *Analyze Workload* and you can view performance and capacity charts on the Workload Analysis page. You can view the details on System Manager, given you have valid credentials for System Manager.
 
-[NOTE]: 
+[NOTE]
 For data protection (DP) volumes, only counter values for user-generated traffic are displayed. Root volumes are not displayed on this page.
 
 The following are some important fields in the Performance: All Volumes view. 

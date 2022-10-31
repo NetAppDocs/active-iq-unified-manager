@@ -543,7 +543,7 @@ Displays in a graph the history of incoming SnapMirror and SnapVault protection 
 
 +
 You can select a graph type from the drop-down list at the top of the History pane. You can also view details for a specific time period by selecting either 1 week, 1 month, or 1 year. History graphs can help you identify trends: for example, if large amounts of data are being transferred at the same time of the day or week, or if the lag warning or lag error threshold is consistently being breached, you can take the appropriate action. Additionally, you can click the *Export* button to create a report in CSV format for the chart that you are viewing.
-+
+
 Protection history graphs display the following information:
 
  ** *Relationship Lag Duration*

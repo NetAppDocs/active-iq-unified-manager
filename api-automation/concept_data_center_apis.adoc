@@ -108,7 +108,7 @@ a|
 `/datacenter/storage/qos/policies/\{key}`
 
 a|
-You can use this method to view the details of all the QoS policies applicable for the storage objects in the data center. Information, such as the cluster and SVM details, the fixed or adaptive policy details,and number of objects applicable for that policy is returned.
+You can use this method to view the details of all the QoS policies applicable for the storage objects in the data center. Information, such as the cluster and SVM details, the fixed or adaptive policy details, and number of objects applicable for that policy is returned.
 
 a|
 `GET`

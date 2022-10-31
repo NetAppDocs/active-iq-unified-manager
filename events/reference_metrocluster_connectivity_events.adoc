@@ -161,7 +161,7 @@ Warning
 == MetroCluster over IP configuration
 These events pertain to MetroCluster over IP configurations.
 
-Impact area: availability
+=== Impact area: availability
 [options="header"]
 |===
 | Event name (Trap name)| Impact level| Source type| Severity

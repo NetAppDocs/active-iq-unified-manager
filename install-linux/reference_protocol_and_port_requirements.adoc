@@ -80,7 +80,7 @@ Used to access realtime REST API-based EMS events from authenticated ONTAP syste
 
 [NOTE]
 ====
-The default port for MySQL, 3306, is restricted only to localhost while installing Unified Manager on Linux systems. This does not impact any upgrade scenario, where the previous configuration is maintained. This configuration can be modified, and the connection can be made available to other hosts by using the `Control access to MySQL port 3306` option on the maintenance console. For information, see link:../config/reference_additional_menu_options.html[Additional menu options]. The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see see link:../config/concept_maintenance_console_menu.html[Maintenance console menus].
+The default port for MySQL, 3306, is restricted only to localhost while installing Unified Manager on Linux systems. This does not impact any upgrade scenario, where the previous configuration is maintained. This configuration can be modified, and the connection can be made available to other hosts by using the `Control access to MySQL port 3306` option on the maintenance console. For information, see link:../config/reference_additional_menu_options.html[Additional menu options]. The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see link:../config/concept_maintenance_console_menu.html[Maintenance console menus].
 ====
 //BURT 144226
 
