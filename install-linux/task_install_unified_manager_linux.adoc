@@ -78,14 +78,14 @@ For Red Hat Enterprise Linux 8 system, if you have internal repositories with JD
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
 ----
 
-. *Optional:* You must perform step 7 only if your system is not connected to the internet and you have to manually download the packages that are required for your installation. If your system has Internet access and all the required packages are available, go to step 8. For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages, and then download those packages:
+. *Optional:* You must perform step 7 only if your system is not connected to the internet and you have to manually download the packages that are required for your installation. If your system has the internet access and all the required packages are available, go to step 8. For systems that are not connected to the internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages, and then download those packages:
  .. On the system on which you are installing Unified Manager, view the list of available and unavailable packages:
 
 `yum install netapp-um<version>.x86_64.rpm --assumeno`
 
 The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
 
- .. On a system that has Internet access, download the missing packages:
+ .. On a system that has the internet access, download the missing packages:
 +
 `yum install <package_name> --downloadonly --downloaddir=.`
 +
@@ -96,7 +96,7 @@ Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat
 `yum install yum-plugin-downloadonly`
 ====
 
- .. Copy the missing packages from the Internet-connected system to your installation system.
+ .. Copy the missing packages from the internet-connected system to your installation system.
 . As the root user, or using `sudo`, run the following command to install the software:
 +
 `yum install netapp-um<version>.x86_64.rpm`

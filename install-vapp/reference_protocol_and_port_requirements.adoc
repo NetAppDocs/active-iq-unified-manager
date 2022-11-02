@@ -114,7 +114,7 @@ HTTPS
 a|
 443
 a|
-Used to send AutoSupport information. Requires Internet access to perform this function.
+Used to send AutoSupport information. Requires the internet access to perform this function.
 .2+a|
 Authentication server
 a|

@@ -18,15 +18,13 @@ You can upgrade from Unified Manager 9.10 or 9.11 to 9.12 by downloading and run
 See link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements].
 +
 See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Linux software and installation requirements].
-
+* You must have a subscription to the Red Hat Enterprise Linux Subscription Manager.
 * You must install, or upgrade to the correct version of OpenJDK prior to upgrading Unified Manager.
 +
 See link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux].
 +
-
-* You must have a subscription to the Red Hat Enterprise Linux Subscription Manager.
-* To avoid data loss, you must have created a backup of the Unified Manager database in case there is an issue during the upgrade. It is also recommended that you move the backup file from the `/opt/netapp/data` directory to an external location.
-* During upgrade, you may be prompted to confirm whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data after 6 months is purged.
+* To avoid data loss, you must have created a backup of the Unified Manager database in case there is an issue during the upgrade. NetApp recommends that you move the backup file from the `/opt/netapp/data` directory to an external location.
+* During upgrade, you may be prompted to confirm whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data is purged after 6 months.
 * You should have completed any running operations, because Unified Manager is unavailable during the upgrade process.
 * MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.30, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.30.
 
@@ -78,7 +76,7 @@ https://fully_qualified_domain_name/
 Enter the specified IP address or URL in a new window of a supported web browser to start the Unified Manager web UI, and then log in by using the same maintenance user name (umadmin) and password that you set earlier. 
 
 == Additional steps to perform for missing packages
-If there are any missing packages detected at your site during upgrade, or if your system is not connected to the Internet, or you are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages.
+If there are any missing packages detected at your site during upgrade, or if your system is not connected to the internet, or you are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages and download those packages.
 
 [NOTE]
 These steps need to be performed after step _5_ of the main procedure. This procedure upgrades Unified Manager and you do not need to run any additional steps for upgrade.
@@ -89,7 +87,7 @@ These steps need to be performed after step _5_ of the main procedure. This proc
 +
 The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
 
-. On a different system that has Internet access, run the following command to download the missing packages.
+. On a different system that has the internet access, run the following command to download the missing packages.
 +
 `yum install package_name --downloadonly --downloaddir=.`
 +
