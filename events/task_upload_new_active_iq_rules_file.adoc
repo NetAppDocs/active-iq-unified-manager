@@ -41,4 +41,4 @@ This process can take a few minutes.
 
 The rules file is unzipped on the Unified Manager server. After your managed clusters generate an AutoSupport file after midnight, Unified Manager checks the clusters against the rules file and generates new risk and incident events as required.
 
-For more information, see this Knowledge Base (KB) article: link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/How_to_update_AIQCASecure_rules_manually_in_AIQUM[How to update AIQCASecure rules manually in AIQUM].
+For more information, see this Knowledge Base (KB) article: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/How_to_update_AIQCASecure_rules_manually_in_Active_IQ_Unified_Manager[How to update AIQCASecure rules manually in Active IQ Unified Manager].
