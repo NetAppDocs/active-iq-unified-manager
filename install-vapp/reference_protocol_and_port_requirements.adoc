@@ -105,9 +105,6 @@ a|
 NDMP
 a|
 10000/TCP
-
-
-7/TCP
 a|
 Used for certain Snapshot restore operations.
 a|
