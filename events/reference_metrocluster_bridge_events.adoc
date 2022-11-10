@@ -9,7 +9,7 @@ summary: "MetroCluster Bridge events provide you with information about the stat
 :imagesdir: ../media/
 
 [.lead]
-MetroCluster Bridge events provide you with information about the status of the bridges so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+MetroCluster Bridge events provide you with information about the status of the bridges so that you can monitor for potential problems in a MetroCluster over FC configuration. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
 
 == Impact area: availability
 [options="header"]

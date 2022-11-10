@@ -54,7 +54,7 @@ Specifies the location of the remote users in the authentication server. For exa
 
   *** Use Secure Connection
 +
-Specifies that Secure LDAP is used for communicating with LDAPS authentication servers.
+Specifies that Secure LDAP is used for communicating with LDAP authentication servers.
  ** *Others*
   *** Bind Distinguished Name
 +
@@ -99,7 +99,11 @@ Specifies the object class of a user in the remote authentication server.
   *** Group Object Class
 +
 Specifies the object class of all groups in the remote authentication server.
-
++
+[NOTE]
+The values that you enter for the _Member_, _User Object Class_, and _Group Object Class_ attributes should be the same as those added in your Active Directory, OpenLDAP, and LDAP configurations. Otherwise, the authentication might fail.
+//1480444
++
   *** Use Secure Connection
 +
 Specifies the authentication service used for communicating with authentication servers.

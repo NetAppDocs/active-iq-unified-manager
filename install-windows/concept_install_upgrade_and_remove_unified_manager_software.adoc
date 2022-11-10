@@ -9,4 +9,4 @@ summary: "You can install Unified Manager software, upgrade to a newer version o
 :imagesdir: ../media/
 
 [.lead]
-You can install Unified Manager software, upgrade to a newer version of software, or remove the Unified Manager application.
+You can install Unified Manager, upgrade to a newer version, or remove the Unified Manager application.

@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.11
+  name: Active IQ Unified Manager 9.12
   internal:
     pdf_enabled: true
   prod:
@@ -10,16 +10,19 @@ settings:
     # Current repo stanza comes first
     - name: Unified Manager
       url: /active-iq-unified-manager
-      version-number: "9.11"
+      version-number: "9.12"
     # Additional releases newest to oldest
     # Release in GitHub (typical)
+    - name: Unified Manager
+      url: /active-iq-unified-manager-911
+      version-number: "9.11"
     - name: Unified Manager
       url: /active-iq-unified-manager-910
       version-number: "9.10"
 
 sidebar:
   entries:
-    - title: Active IQ Unified Manager 9.11 docs
+    - title: Active IQ Unified Manager 9.12 docs
       url: "/index.html"
     - title: Release notes
       url: /reference_release_notes.html
@@ -147,7 +150,7 @@ homepage:
           url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
         - title: Unified Manager blogs
           url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
-        - title: Documentation for Active IQ Unified Manager 9.10
-          url: https://docs.netapp.com/us-en/active-iq-unified-manager-910/
+        - title: Documentation for Active IQ Unified Manager 9.11
+          url: https://docs.netapp.com/us-en/active-iq-unified-manager-911/
         - title: Documentation for earlier versions
           url: https://docs.netapp.com/ocum-99/topic/com.netapp.ndc.ocum-vers/GUID-DA5B426C-61E1-45E3-B2BE-834636433934.html

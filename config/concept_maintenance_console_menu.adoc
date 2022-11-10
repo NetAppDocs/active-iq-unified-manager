@@ -16,7 +16,16 @@ Depending on the operating system on which you have installed Unified Manager, t
 * Upgrade Unified Manager (VMware only)
 * Network Configuration (VMware only)
 * System Configuration (VMware only)
-* Support/ Diagnostics
-* Reset Server Certificate
-* External Data Provider
-* Performance Polling Interval Configuration
+
+. Support/Diagnostics
+. Reset Server Certificate
+. External Data Provider
+. Backup Restore
+. Performance Polling Interval Configuration
+. Disable SAML authentication
+. View/Change Application Ports
+. Debug Log Configuration
+. Control access to MySQL port 3306
+. Exit
+
+You select the number from the list for accessing the specific menu option. For example, for backup and restore, you select _4_.

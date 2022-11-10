@@ -15,7 +15,7 @@ Deploying Unified Manager includes downloading software, deploying the virtual a
 
 * You should verify and complete the system requirements for deployment.
 +
-link:concept_requirements_for_installing_unified_manager.html[System requirements]
+See link:concept_requirements_for_installing_unified_manager.html[System requirements].
 
 * Ensure that you have the following information:
  ** Login credentials for the NetApp Support Site
@@ -36,6 +36,6 @@ Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM T
 After finishing the deployment and initial setup, you can either add clusters, or configure additional network settings in the maintenance console, and then access the web UI.
 
 .Steps
-. link:task_download_unified_manager_ova_file.html[Download Unified Manager]
-. link:task_deploy_unified_manager_virtual_appliance_vapp.html[Deploy the Unified Manager virtual appliance]
+. Follow the steps in link:task_download_unified_manager_ova_file.html[Download Unified Manager].
+. Additionally, follow the steps in link:task_deploy_unified_manager_virtual_appliance_vapp.html[Deploy the Unified Manager virtual appliance].
 

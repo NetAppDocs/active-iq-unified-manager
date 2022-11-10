@@ -33,7 +33,7 @@ In this output, the context is `default_t`. You should change this context to `m
 
 . Perform these steps to set the context based on how you have mounted `/opt/netapp/data`.
  .. Run the following commands to set the context to `mysqld_db_t`:
-`semanage fcontext -a -t mysqld_db_t "/opt/netapp/data"``
+`semanage fcontext -a -t mysqld_db_t "/opt/netapp/data"
 `restorecon -R -v /opt/netapp/data`
 
  .. If you have configured `/opt/netapp/data` in `/etc/fstab`, you should edit the `/etc/fstab` file. For the `/opt/netapp/data/` mount option, add the MySQL label as:
@@ -112,7 +112,7 @@ In this output, the context is `default_t`. You should change this context to `m
 
 .	Perform the following steps to set the context based on how you have mounted `/opt/netapp`.
 ..	Run the following commands to set the context to `mysqld_db_t`:
-`semanage fcontext -a -t mysqld_db_t "/opt/netapp"``
+`semanage fcontext -a -t mysqld_db_t "/opt/netapp"
 `restorecon -R -v /opt/netapp`
 ..	If you have configured `/opt/netapp` in `/etc/fstab`, edit the `/etc/fstab` file. For the `/opt/netapp/` mount option, add the MySQL label as:
 `context=system_u:object_r:mysqld_db_t:s0`

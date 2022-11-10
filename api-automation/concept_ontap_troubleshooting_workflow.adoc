@@ -17,10 +17,8 @@ This workflow takes up a sample use case in which an event is raised when an ONT
 ====
 Before running the workflow steps, ensure the following:
 
-* You are aware of the gateway APIs and how they are used. For information, see the "`Gateway APIs`" section.
+* You are aware of the gateway APIs and how they are used. For information, see link:concept_gateway_apis.html[Accessing ONTAP APIs through proxy access].
 +
-link:concept_gateway_apis.html[Accessing ONTAP APIs through proxy access]
-
 * You are aware of the usage of ONTAP REST APIs. For information about using ONTAP REST APIs, see
 https://docs.netapp.com/us-en/ontap-automation/index.html[ONTAP Automation documentation].
 

@@ -30,7 +30,7 @@ We recommend that you back up the Unified Manager database before increasing the
 . If SE Linux is enabled:
  .. Get the SE Linux type for folders on existing `/opt/netapp/data` folder:
 +
-`se_type= `ls -Z /opt/netapp/data | awk '{print $4}' | awk -F: '{print $3}' | head -1`
+`se_type= ls -Z /opt/netapp/data | awk '{print $4}' | awk -F: '{print $3}' | head -1`
 +
 The system returns a confirmation similar to the following:
 +

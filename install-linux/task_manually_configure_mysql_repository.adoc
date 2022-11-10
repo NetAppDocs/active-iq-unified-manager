@@ -15,7 +15,7 @@ The MySQL repository provides access to the required MySQL software that must be
 
 [NOTE]
 ====
-This task might fail if the system does not have Internet connectivity. Refer to the MySQL documentation if the system on which you are installing Unified Manager does not have Internet access.
+This task might fail if the system does not have the internet connectivity. Refer to the MySQL documentation if the system on which you are installing Unified Manager does not have the internet access.
 ====
 .Steps
 

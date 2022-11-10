@@ -4,35 +4,31 @@ sidebar: sidebar
 keywords: restore, data, volume, health details page
 summary: "You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Volume / Health details page."
 ---
-= Restoring data using the Volume / Health details page
+= Restoring data using the Volume and Volume / Health details pages
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Volume / Health details page.
+You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Volume and Volume / Health details pages.
 
 *What you'll need*
 
 You must have the Application Administrator or Storage Administrator role.
 
-You cannot restore NTFS file streams.
+[NOTE]
+Note the following points:
 
-The restore option is not available when:
-
-* The volume ID is unknown: for example, when you have an intercluster relationship and the destination cluster has not yet been discovered.
-* The volume is configured for SnapMirror Synchronous replication.
+* You cannot restore NTFS file streams.
+* The restore option is not available when:
+** The volume ID is unknown: for example, when you have an intercluster relationship and the destination cluster has not yet been discovered.
+** The volume is configured for SnapMirror Synchronous replication.
 
 .Steps
 
-. In the *Protection tab* of the *Volume / Health* details page, right-click in the topology view the name of the volume that you want to restore.
-. Select *Restore* from the menu.
-+
-Alternatively, select *Restore* from the *Actions* menu to protect the current volume for which you are viewing the details.
-+
-The Restore dialog box is displayed.
-
+. From the left navigation pane, go to *Storage > Volumes*.
+. Select the volume and click the *Restore* button. Alternately, click on the volume to go to *Volume / Health details > Actions > Restore*. The Restore dialog box is displayed. For information on this page, see link:../data-protection/reference_restore_dialog_box.html[Restore dialog box].
 . Select the volume and Snapshot copy from which you want to restore data, if different from the default.
-. Select the items you want to restore.
+. Select the items you want to restore, for example, the source LUN.
 +
 You can restore the entire volume, or you can specify folders and files you want to restore.
 
@@ -40,14 +36,16 @@ You can restore the entire volume, or you can specify folders and files you want
 . If you select an alternate existing location, do one of the following:
  ** In the Restore Path text field, type the path of the location to which you want to restore the data and then click *Select Directory*.
  ** Click *Browse* to launch the Browse Directories dialog box and complete the following steps:
-  ... Select the cluster, SVM, and volume to which you want to restore.
-  ... In the Name table, select a directory name.
+  ... Select the destination cluster, storage VM (SVM), and volume to which you want to restore.
+  ... In the Name table, select a directory name that has to be restored.
   ... Click *Select Directory*.
 . Click *Restore*.
 +
-The restore process begins.
+The restore process begins. A job is created at the backend to complete the restore process. 
+. If you want to view the job progress, from the left navigation pane, navigate to *Protection > Jobs* to view the status of the restore job from the list of jobs.
+
 +
 [NOTE]
 ====
-If a restore operation fails between Cloud Volumes ONTAP HA clusters with an NDMP error, you may need to add an explicit AWS route in the destination cluster so that the destination can communicate with the source system's cluster management LIF. You perform this configuration step using OnCommand Cloud Manager.
+If a restore operation fails between Cloud Volumes ONTAP HA clusters with an NDMP error, you may need to add an explicit AWS route in the destination cluster so that the destination can communicate with the source system's cluster management LIF. You perform this configuration step by using BlueXP.
 ====

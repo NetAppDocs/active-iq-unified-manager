@@ -20,7 +20,7 @@ Unified Manager includes the following features:
  ** Storage efficiency: SSD aggregates, Flash Pool aggregates, FabricPool aggregates, deduplication, and compression
  ** Protection: SnapMirror relationships (synchronous and asynchronous) and SnapVault relationships
 * Viewing the cluster discovery and monitoring status
-* MetroCluster configuration: viewing and monitoring the configuration, MetroCluster switches and bridges, issues, and connectivity status of the cluster components
+* MetroCluster over FC and IP configurations: viewing and monitoring the configuration, issues, and connectivity status of the cluster components. MetroCluster switches and bridges for MetroCluster over FC configurations
 * Enhanced alerts, events, and threshold infrastructure
 * LDAP, LDAPS, SAML authentication, and local user support
 * RBAC (for a predefined set of roles)

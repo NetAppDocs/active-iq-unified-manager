@@ -16,8 +16,8 @@ There are several steps that you must perform to use Unified Manager and OnComma
 * You must have the Application Administrator or Storage Administrator role.
 * You must have established peer relationships between two clusters or two storage virtual machines (SVMs).
 * OnCommand Workflow Automation must be integrated with Unified Manager:
- ** link:task_configure_connection_between_workflow_automation_um.html[Set up OnCommand Workflow Automation]
- ** link:task_verify_um_data_source_caching_in_workflow_automation.html[Verifying Unified Manager data source caching in Workflow Automation]
+ ** link:task_configure_connection_between_workflow_automation_um.html[Set up OnCommand Workflow Automation].
+ ** link:task_verify_um_data_source_caching_in_workflow_automation.html[Verifying Unified Manager data source caching in Workflow Automation].
 
 .Steps
 

@@ -16,4 +16,4 @@ include::https://raw.githubusercontent.com/NetAppDocs/common/main/_include/commo
 == Open source
 Information about third-party copyright and licenses used in this product.
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2881957[Notice for Active IQ Unified Manager 9.11]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2884717[Notice for Active IQ Unified Manager 9.12]

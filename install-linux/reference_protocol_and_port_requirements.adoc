@@ -15,11 +15,6 @@ The required ports and protocols enable communication between the Unified Manage
 
 In typical installations you do not have to specify port numbers when connecting to the Unified Manager web UI, because default ports are always used. For example, because Unified Manager always attempts to run on its default port, you can enter `+https://<host>+` instead of `+https://<host>:443+`.
 
-[NOTE]
-The default port for MySQL, 3306, is restricted only to localhost while installing Unified Manager on Linux systems. This does not impact any upgrade scenario, where the previous configuration is maintained. This configuration can be modified, and the connection can be made available to other hosts by using the `Control access to MySQL port 3306` option on the maintenance console.
-
-//BURT 144226
-
 The Unified Manager server uses specific protocols to access the following interfaces:
 
 [cols="4*",options="header"]
@@ -85,10 +80,9 @@ Used to access realtime REST API-based EMS events from authenticated ONTAP syste
 
 [NOTE]
 ====
-The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager].
+The default port for MySQL, 3306, is restricted only to localhost while installing Unified Manager on Linux systems. This does not impact any upgrade scenario, where the previous configuration is maintained. This configuration can be modified, and the connection can be made available to other hosts by using the `Control access to MySQL port 3306` option on the maintenance console. For information, see link:../config/reference_additional_menu_options.html[Additional menu options]. The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see link:../config/concept_maintenance_console_menu.html[Maintenance console menus].
 ====
-
-link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager]
+//BURT 144226
 
 == Connections from the Unified Manager server
 
@@ -126,7 +120,7 @@ HTTPS
 a|
 443
 a|
-Used to send AutoSupport information. Requires Internet access to perform this function.
+Used to send AutoSupport information. Requires the internet access to perform this function.
 .2+a|
 Authentication server
 a|

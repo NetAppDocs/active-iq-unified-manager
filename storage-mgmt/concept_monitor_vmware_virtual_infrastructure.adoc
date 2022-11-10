@@ -43,7 +43,7 @@ image::../media/vm_workflow.gif[]
 * Datastores that are outside of ONTAP and are mapped to the vCenter Server instances are not supported on Unified Manager. Any VMs with virtual disks on those datastores are also not supported.
 * A datastore that spans across multiple LUNs is not supported.
 * Datastores using Network address translation (NAT) for mapping data LIF (access endpoint) are not supported.
-* Exporting volumes or LUNs as datastores on different clusters with same IP addresses in a mulitple LIFs configuration, is not supported as UM is unable to identify which datastore belongs to which cluster.
+* Exporting volumes or LUNs as datastores on different clusters with same IP addresses in a multiple-LIFs configuration is not supported as Unified Manager is unable to identify which datastore belongs to which cluster.
 +
 Example: Suppose cluster A has datastore A. Datastore A is exported via data LIF with same IP address x.x.x.x and VM A is created on this datastore. Similarly, cluster B has datastore B. The datastore B is exported via data LIF with same IP address x.x.x.x and VM B is created on the datastore B. UM will neither be able to map the datastore A for VM A's topology to corresponding ONTAP volume/LUN nor map VM B.
 

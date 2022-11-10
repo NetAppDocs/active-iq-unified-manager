@@ -33,6 +33,9 @@ Provides options for connecting Unified Manager to an external data provider. Af
  ** *Delete Server Connection*--Deletes the connection to an external data provider.
 +
 After the connection is deleted, Unified Manager loses its connection to the external server.
+* *Backup Restore*
++
+For information, see the topics under link:../health-checker/concept_manage_backup_and_restore_operations.html[Managing backup and restore operations].
 
 * *Performance Polling Interval Configuration*
 +
@@ -44,6 +47,10 @@ You can change this interval to 10 or 15 minutes if you find that collections fr
 +
 Provides an option to change the default ports that Unified Manager uses for HTTP and HTTPS protocols, if required for security. The default ports are 80 for HTTP and 443 for HTTPS.
 
+* *Control access to MySQL port 3306*
++
+Controls host access to the default MySQL port 3306. For reasons of security, the access through this port is restricted only to localhost during a fresh installation of Unified Manager on Linux, Windows, and VMware vSphere systems. This option enables you to toggle the visibility of this port between the localhost and remote hosts, that is, if it is enabled for localhost only in your environment, you can make this port available to remote hosts as well. Alternately, when enabled for all hosts, you can restrict the access of this port to localhost only. 
+If the access was enabled on remote hosts previously, the configuration is retained in an upgrade scenario.
 * *Exit*
 +
 Exits the maintenance console menu.

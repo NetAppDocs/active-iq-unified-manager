@@ -19,7 +19,7 @@ After you have installed Graphite according to the installation instructions, yo
 +
 Depending on the number of clusters in your configuration and the statistics objects you have selected to send, there might be thousands of new files that need to be created initially. At 200 files per minute it might take 15 minutes or longer before all metric files are initially created. After all the unique metric files have been created, this parameter is no longer relevant.
 
-* If you are running Graphite on a server deployed using an IPv6 address, the value for LINE_RECEIVER_INTERFACE in the /opt/graphite/conf/carbon.conf` file must be changed from "`0.0.0.0`" to "`::`" (`*LINE_RECEIVER_INTERFACE = ::*`)
+* If you are running Graphite on a server deployed using an IPv6 address, the value for LINE_RECEIVER_INTERFACE in the `/opt/graphite/conf/carbon.conf` file must be changed from "`0.0.0.0`" to "`::`" (`*LINE_RECEIVER_INTERFACE = ::*`)
 * In the `/opt/graphite/conf/storage-schemas.conf` file, the `retentions` parameter must be used to set the frequency to 5 minutes and the retention period to the number of days that is relevant for your environment.
 +
 The retention period can be as long as what your environment allows, but the frequency value must be set to 5 minutes for at least one retention setting. In the following example, a section is defined for Unified Manager using the `pattern` parameter, and the values set the initial frequency to 5 minutes and the retention period to 100 days: `*[OPM]*`

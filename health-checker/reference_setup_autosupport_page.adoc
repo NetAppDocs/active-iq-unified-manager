@@ -61,7 +61,7 @@ Even if you do not select any data type, the support bundle is still generated w
 
 == Setting up HTTP proxy server
 
-You can designate a proxy to provide Internet access in order to send AutoSupport content to support if your environment does not provide direct access from the Unified Manager server. This section is available for only administrator and maintenance users.
+You can designate a proxy to provide the internet access in order to send AutoSupport content to support if your environment does not provide direct access from the Unified Manager server. This section is available for only administrator and maintenance users.
 
 * *Use HTTP proxy*
 +

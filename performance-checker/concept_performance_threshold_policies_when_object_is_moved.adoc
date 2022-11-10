@@ -39,4 +39,4 @@ If you move an aggregate from one node to another node using the `aggregate relo
 
 Objects that move from one cluster to another cluster in a MetroCluster configuration do not retain their user-defined threshold policy settings. If required, you can apply threshold policies on the volumes and LUNs that have moved to the partner cluster. After an object has moved back to its original cluster, the user-defined threshold policy is reapplied automatically.
 
-link:../storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html[Volume behavior during switchover and switchback]
+For information, see link:../storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html[Volume behavior during switchover and switchback].

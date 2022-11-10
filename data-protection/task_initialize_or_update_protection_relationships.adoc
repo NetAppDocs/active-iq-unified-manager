@@ -12,10 +12,7 @@ summary: "From the Volume Relationships page, you can perform a first-time basel
 From the Volume Relationships page, you can perform a first-time baseline transfer on a new protection relationship, or update a relationship if it is already initialized and you want to perform a manual, unscheduled incremental update to transfer immediately.
 
 [NOTE]
-====
 You cannot initialize or update volumes protected by Consistency Groups.
-====
-
 
 *What you'll need*
 

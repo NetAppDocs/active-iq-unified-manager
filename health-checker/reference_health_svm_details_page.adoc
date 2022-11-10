@@ -592,7 +592,6 @@ The initiator group is connected to a single access path.
  ** *No Paths*
 +
 There is no access path connected to the initiator group.
-
 +
 You can view whether initiator groups are mapped to all the interfaces or specific interfaces through a port set. When you click the count link in the Mapped interfaces column, either all interfaces are displayed or specific interfaces for a port set are displayed. Interfaces that are mapped through the target portal are not displayed. The total number of initiators and LUNs that are mapped to an initiator group is displayed.
 +
@@ -602,7 +601,7 @@ You can also view the LUNs and initiators that are mapped to the selected initia
 +
 Displays the name and type of the initiator and the total number of initiator groups mapped to this initiator for the selected storage VM.
 +
-You can also view the LUNs and initiator groups that are mapped to the selected initiator group.
+ initiator groups that are mapped to the selected initiator group.
 
 == Related Annotations pane
 

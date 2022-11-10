@@ -1,0 +1,191 @@
+---
+permalink: performance-checker/performance-view-all.html
+sidebar: sidebar
+keywords: performance view
+summary: all storage objects performance view
+---
+= Viewing Performance inventory pages for all storage objects
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You use the Performance inventory pages to see a summary of performance information about each of the available storage objects, such as clusters, aggregates, volumes, and so on. You can link to the Performance object detail pages to view detailed information for a particular object.
+
+By default, objects in the view pages are sorted based on event criticality. Objects with critical events are listed first, and objects with warning events are listed second. This provides an immediate visual indication of issues that must be addressed.
+
+You can export data from these pages to a comma-separated values (`.csv`) file, Microsoft Excel file (`.xlsx`), or (`.pdf`) document by using the *Reports* button, and then use the exported data to build reports. Additionally, you can customize the page and then schedule a report to be created and emailed on a regular basis by using the *Scheduled Reports* button.
+
+All the fields on these pages can be used in custom views and in reports. Some of the fields are linked to related pages enabling a more detailed view.
+
+== Performance: All Clusters view
+The Performance: All Clusters view displays an overview of the performance events, data, and configuration information for each cluster that is monitored by an instance of Unified Manager. This page enables you to monitor the performance of your clusters, and to troubleshoot performance issues and threshold events. 
+
+You can assign performance threshold policies to, or clear threshold policies from, any object on the object inventory pages using the *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons.
+
+The following are some important fields in the Performance: All Clusters view. 
+
+* Cluster FQDN: The fully qualified domain name (FQDN) of the cluster.
+* IOPS: The input/output operations per second on the cluster.
+* MB/s: The throughput on the cluster, measured in MiB per second.
+* Capacity fields: Free and total capacity in GiB.
+* Host Name or IP Address: The host name or IP address (IPv4 or IPv6) of the cluster management LIF.
+* OS Version: The version of ONTAP software that is installed on the cluster.
++
+[NOTE]
+If different versions of ONTAP software are installed on the nodes in the cluster, the lowest version number is listed. You can view the ONTAP version that is installed on each node from the Performance: All Nodes view.
++
+* Threshold Policy: The user-defined performance threshold policy, or policies, that are active on this storage
+object. You can position your cursor over policy names containing an ellipsis (...) to view the full policy name or the list of assigned policy names. The Assign Performance Threshold Policy and Clear Performance Threshold Policy buttons remain disabled until you select one or more objects by clicking the check boxes located at the far left.
+
+== Performance: All Volumes view
+The Performance: All Volumes view displays an overview of the performance events, counter data, and configuration information for each FlexVol volume and FlexGroup volume that is being monitored by an instance of Unified Manager. This enables you to quickly monitor the performance of your volumes, and to troubleshoot performance issues and threshold events.
+
+If you want to analyze the latency and throughput of a specific object, click the more options button image:icon_kabob.gif[] then *Analyze Workload* and you can view performance and capacity charts on the Workload Analysis page. You can view the details on System Manager, given you have valid credentials for System Manager.
+
+[NOTE]
+For data protection (DP) volumes, only counter values for user-generated traffic are displayed. Root volumes are not displayed on this page.
+
+The following are some important fields in the Performance: All Volumes view. 
+
+* Style: Either FlexVol or FlexGroup.
+* Latency: For FlexVol volumes, this is the average response time of the volume for all I/O requests, expressed in milliseconds per operation. For FlexGroup volumes, this is the average latency of all constituent volumes.
+* IOPS/TB: The number of input/output operations processed per second based on the total space that is being consumed by the workload, in terabytes. This counter measures how much performance can be delivered by a given amount of storage capacity.
+* IOPS: For FlexVol volumes, this is the number of input/output operations per second for the volume. For FlexGroup volumes, this is the sum of IOPS for all constituent volumes.
+* MB/s: For FlexVol volumes, this is the throughput on the volume, measured in megabytes per
+second. For FlexGroup volumes, this is the sum of MB/s for all constituent volumes.
+* Capacity fields: Free and total capacity in GiB. 
+
+See the following links for more information:
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html[Assigning performance threshold policies to storage objects]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html[Removing performance threshold policies from storage objects]
+* link:../performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html[Types of workloads monitored by Unified Manager]
+* link:../performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html[Viewing the QoS policy group settings applied to specific volumes or LUNs]
+* link:../performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html[Understanding the Unified Manager recommendations to tier data to the cloud]
+* link:../performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html[Viewing performance charts to compare volumes or LUNs that are in the same QoS policy group]
+
+== Performance: All Aggregates view
+The Performance: All Aggregates view displays an overview of the performance events, data, and configuration information for each aggregate that is monitored by an instance of Unified Manager. This page enables you to monitor the performance of your aggregates, and to troubleshoot performance issues and threshold events.
+
+The following are some important fields in the Performance: All Aggregates view. 
+
+* Type: The type of aggregate:
+** HDD
+** Hybrid. Combines HDDs and SSDs, but Flash Pool has not been enabled.
+** Hybrid (Flash Pool). Combines HDDs and SSDs, and Flash Pool has been enabled.
+** SSD
+** SSD (FabricPool). Combines SSDs and a cloud tier
+** HDD (FabricPool). Combines HDDs and a cloud tier
+** VMDisk (SDS). Virtual disks within a virtual machine
+** VMDisk (FabricPool). Combines virtual disks and a cloud tier
+** LUN (FlexArray)
+* Inactive Data Reporting: Whether the inactive data reporting capability is enabled or disabled on this aggregate. When enabled, volumes on this aggregate display the amount of cold data in the Performance: All Volumes view. The value in this field is "N/A" when the version of ONTAP does not support inactive data reporting.
+* Threshold Policy: The user-defined performance threshold policy, or policies, that are active on this storage object. You can position your cursor over policy names containing an ellipsis (...) to view the full policy name or the list of assigned policy names. The Assign Performance Threshold Policy and Clear Performance Threshold Policy buttons remain disabled until you select one or more objects by clicking the check boxes located at the far left.
+See the following links for more information:
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html[Assigning performance threshold policies to storage objects]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html[Removing performance threshold policies from storage objects]
+
+== Performance: All Nodes view
+The Performance: All Nodes view displays an overview of the performance events, data, and configuration information for each node that is being monitored by an instance of Unified Manager. This enables you to quickly monitor the performance of your nodes, and to troubleshoot performance issues and threshold events.
+
+[NOTE]
+Flash Cache Reads returns the percentage of read operations on the node that are satisfied by cache, instead of being returned from the disk. Flash Cache data is displayed only for nodes, and only when a Flash Cache
+module is installed in the node.
+
+In the *Reports* menu, the *Hardware Inventory Report* option is provided when Unified Manager, and the clusters it is managing, are installed in a site with no external network connectivity. This button generates a .csv file that contains a complete list of cluster and node information; such as hardware model numbers and serial numbers, disk types and counts, installed licenses, and more. This reporting functionality is helpful for contract renewal within secure sites that are not connected to the NetApp Active IQ platform.
+You can assign performance threshold policies to, or clear threshold policies from, any object on the object inventory pages using the *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons.
+
+See the following links for more information:
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html[Assigning performance threshold policies to storage objects]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html[Removing performance threshold policies from storage objects]
+* link:../health-checker/task_generate_hardware_inventory_report_for_contract_renewal.html[Generating a hardware inventory report for contract renewal]
+
+== Performance: All Storage VMs view
+The Performance: All Storage VMs view displays an overview of the performance events, data, and configuration information for each storage virtual machine (SVM) that is being monitored by an instance of Unified Manager. This enables you to quickly monitor the performance of your SVMs, and to troubleshoot performance issues and threshold events. The Latency field on this page reports the average response time for all I/O requests, expressed in milliseconds per operation.
+
+[NOTE]
+The SVMs that are listed on this page include only Data and Cluster SVMs. Unified Manager does not use or display Admin or Node SVMs.
+
+See the following links for more information:
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html[Assigning performance threshold policies to storage objects]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html[Removing performance threshold policies from storage objects]
+
+== Performance: All LUNs view
+The Performance: All LUNs view displays an overview of the performance events, data, and configuration information for each LUN that is being monitored by an instance of Unified Manager. This enables you to quickly monitor the performance of your LUNs, and to troubleshoot performance issues and threshold events. 
+
+If you want to analyze the latency and throughput of a specific object, click the more icon image:icon_kabob.gif[], then *Analyze Workload* and you can view performance and capacity charts on the *Workload Analysis* page.
+
+See the following links for more information:
+
+* link:../data-protection/view-lun-relationships.html[Monitoring LUNs in a Consistency Group relationship]
+* link:../storage-mgmt/task_provision_luns.html[Provisioning LUNs]
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html[Assigning performance threshold policies to storage objects]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html[Removing performance threshold policies from storage objects]
+* link:../performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html[Viewing volumes or LUNs that are in the same QoS policy group].
+* link:../performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html[Viewing the QoS policy group settings applied to specific volumes or LUNs]
+* link:../api-automation/concept_provision_luns.html[Provisioning LUNs by using APIs]
+
+== Performance: All NVMe Namespaces view
+The Performance: All NVMe Namespaces view displays an overview of the performance events, data, and configuration information for each NVMe Namespace that is being monitored by an instance of Unified Manager. This enables you to quickly monitor the performance and health of your Namespaces, and to troubleshoot issues and threshold events.
+
+The following information, among others is reported:
+The current state of the Namespace.
+* Offline - Read or write access to the Namespace is not allowed.
+* Online - Read and write access to the Namespace is allowed.
+* NVFail - The Namespace was automatically taken offline due to an NVRAM failure.
+* Space Error - The Namespace has run out of space.
+
+See the following links for more information:
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html[Assigning performance threshold policies to storage objects]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html[Removing performance threshold policies from storage objects]
+
+== Performance: All Network Interfaces view
+The Performance: All Network Interfaces view displays an overview of the performance events, data, and configuration information for each network interface (LIF) that is being monitored by this instance of Unified Manager. This page enables you to quickly monitor the performance of your interfaces, and to troubleshoot performance issues and threshold events.
+The following are some important fields in the Performance: All Network Interfaces view. 
+
+* IOPS: The input/output operations per second. IOPS is not applicable to NFS LIFs and CIFS LIFs, and is displayed as N/A for these types.
+* Latency: The average response time for all I/O requests, expressed in milliseconds per operation. Latency is not applicable to NFS LIFs and CIFS LIFs, and is displayed as N/A for these types.
+* Home Location: The home location for the interface, displayed as node name and port name, separated by a colon (:). If the location is displayed with an ellipsis (...), you can position your cursor over the location name to view the full location. 
+* Current Location: The current location for the interface, displayed as node name and port name, separated by a colon (:). If the location is displayed with an ellipsis (...), you can position your cursor over the location name to view the full location.
+* Role: The interface role: Data, Cluster, Node Management, or Intercluster.
+
+[NOTE]
+The interfaces that are listed on this page include Data LIFs, Cluster LIFs, Node Management LIFs, and intercluster LIFs. Unified Manager does not use or display System LIFs.
+
+== Performance: All Ports view
+The Performance: All Ports view displays an overview of the performance events, data, and configuration information for each port that is being monitored by an instance of Unified Manager. This enables you to quickly monitor the performance of your ports, and to troubleshoot performance issues and threshold events. For a port role, the network port function is displayed, either Data or Cluster. FCP ports cannot have a role, and the role
+is displayed as N/A.
+[NOTE] 
+Performance counter values are displayed for physical ports only. Counter values are not displayed for VLANs or interface groups. 
+
+See the following links for more information:
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html[Assigning performance threshold policies to storage objects]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html[Removing performance threshold policies from storage objects]
+
+== Performance: QoS Policy Groups view
+The QoS Policy Groups view displays the QoS policy groups available on the clusters that Unified Manager is monitoring. This includes traditional QoS policies, adaptive QoS policies, and QoS policies assigned by using Performance Service Levels.
+
+The following are some important fields in the Performance: QoS Policy Groups view. 
+
+* QoS Policy Group: The name of the QoS policy group. 
+For NetApp Service Level Manager (NSLM) 1.3 policies that have been imported into Unified Manager 9.7 or greater, the name displayed here includes the SVM name and other information that is not in the name when the Performance Service Levelwas defined in NSLM. For example, the name "NSLM_vs6_Performance_2_0" means this is the NSLM system-defined "Performance" PSL policy created on SVM "vs6" with an expected latency of "2 ms/op".
+* SVM: The storage VM (SVM) to which the QoS policy group belongs. You can click the storage VM name to navigate to that storage VM's details page. Note that this field is blank if the QoS policy has been created on the Admin storage VM as this storage VM type represents the cluster.
+* Min Throughput: The minimum throughput, in IOPS, that the policy group will be guaranteed to provide. For adaptive policies this is the minimum expected IOPS per TB allocated to the volume or LUN, based on the storage object allocated size.
+* Max Throughput: The throughput, in IOPS and/or MB/s, that the policy group must not exceed. When this field is blank it means the max throughout defined in ONTAP is infinite. For adaptive policies this is the maximum (peak) possible IOPS per TB allocated to the volume or LUN, based on either the storage object allocated size or the storage object used size.
+* Absolute Minimum IOPS: For adaptive policies this is the absolute minimum IOPS value that is used as an override
+when the expected IOPS is less than this value.
+* Block Size: The block size specified for the QoS adaptive policy.
+* Min Allocation: Whether "allocated space" or "used space" is used to determine the maximum throughput (peak) IOPS.
+* Expected Latency: The expected average latency for storage input/output operations. 
+* Shared: For traditional QoS policies, whether the throughput values defined in the policy group are shared among multiple objects. 
+* Associated Objects: The number of workloads that are assigned to the QoS policy group. You can click the expand button ( ) next to the QoS Policy Group Name to view more details about the policy group.
+* Allocated Capacity: The amount of space that the objects that are in the QoS policy group are currently using.
+* Associated Objects: The number of workloads that are assigned to the QoS policy group, separated into volumes
+and LUNs. You can click the number to navigate to a page that provides more details about the selected volumes or LUNs.
+
+For more information see the topics under link:..//performance-checker/concept_manage_performance_using_qos_policy_group_information.html[Managing performance using QoS policy group information].

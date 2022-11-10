@@ -38,11 +38,11 @@ You can add comments to explain the rules. You should use # at the start of each
 
 The syntax of the rule must be one of the following:
 
-* if ( `valid variableoperator` *) then `email ID@domain name`
+* if ( `valid variableoperator *`) then `email ID@domain name`
 +
 if is a keyword and is in lowercase. The operator is ==. The email ID can contain any character, the valid variables $USER_OR_GROUP, $USER, or $GROUP, or a combination of any character and the valid variables $USER_OR_GROUP, $USER, or $GROUP. The domain name can contain any character, the valid variable $DOMAIN, or a combination of any character and the valid variable $DOMAIN. Valid variables can be in uppercase or lowercase but must not be a combination of both. For example, $domain and $DOMAIN are valid, but $Domain is not a valid variable.
 
-* if ( `valid variableoperator 'string '``) then `email ID@domain name`
+* if ( `valid variableoperator `string``) then `email ID@domain name`
 +
 if is a keyword and is lowercase. The operator can be contains or ==. The email ID can contain any character, the valid variables $USER_OR_GROUP, $USER, or $GROUP, or a combination of any character and the valid variables $USER_OR_GROUP, $USER, or $GROUP. The domain name can contain any character, the valid variable $DOMAIN, or a combination of any character and the valid variable $DOMAIN. Valid variables can be in uppercase or lowercase but must not be a combination of both. For example, $domain and $DOMAIN are valid, but $Domain is not a valid variable.
 

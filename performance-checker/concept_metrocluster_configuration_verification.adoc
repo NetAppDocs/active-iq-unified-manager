@@ -9,9 +9,10 @@ summary: "You can prevent performance issues for mirrored workloads in a MetroCl
 :imagesdir: ../media/
 
 [.lead]
-You can prevent performance issues for mirrored workloads in a MetroCluster configuration by ensuring that the MetroCluster configuration is set up correctly. You can also improve workload performance by changing the configuration or upgrading software or hardware components.
+You can prevent performance issues for mirrored workloads in a MetroCluster over FC and IP configurations by ensuring that the MetroCluster configuration is set up correctly. You can also improve workload performance by changing the configuration or upgrading software or hardware components.
 
 Refer to https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation] for the instructions of setting up the clusters in the MetroCluster configuration, including the Fibre Channel (FC) switches, cables, and inter-switch links (ISLs). It also helps you configure the MetroCluster software so that the local and remote clusters can communicate with mirror volume data.
+For information specific to your MetroCluster over IP setup, see https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html[Install a MetroCluster IP configuration].
 
 You can compare your MetroCluster configuration to the requirements in https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation] to determine whether changing or upgrading components in your MetroCluster configuration might improve workload performance. This comparison can help you answer the following questions:
 
@@ -20,4 +21,8 @@ You can compare your MetroCluster configuration to the requirements in https://d
 * Can you adjust the buffer-to-buffer credits (BBC) on your switches to increase the bandwidth?
 * If your workloads have high write throughput to solid state drive (SSD) storage, do you need to upgrade your FC-to-SAS bridges to accommodate the throughput?
 
-For information about replacing or upgrading MetroCluster components, see the https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation].
+*Related information*
+
+* For information about replacing or upgrading MetroCluster components, see the https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation].
+
+* For information about upgrading controllers see https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_fc_mcc_us_switchover_and_switchback_mcc_fc_4n_cu.html[Upgrading controllers in a MetroCluster FC configuration using switchover and switchback] and https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_ip_mcc_us_switchover_and_switchback_mcc_ip.html[Upgrading controllers in a MetroCluster IP configuration using switchover and switchback]
