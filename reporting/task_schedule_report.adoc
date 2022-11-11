@@ -21,7 +21,7 @@ Use the following steps to test and schedule a report to be generated for a view
 
 .Steps
 
-. Open your view. This example uses the default network view that shows LIF performance. In the left navigation pane, click**Network** > *Network Interfaces*.
+. Open your view. This example uses the default network view that shows LIF performance. In the left navigation pane, click *Network > Network Interfaces*.
 . Customize the view as needed using the built-in Unified Manager features.
 . After you customized the view, you can provide a unique name in the *View* field and click the check mark to save it.
 +

@@ -39,7 +39,7 @@ You can add or provision the storage workloads to supported LUNs (supporting bot
 
 .Steps
 . Click *Storage > Workloads > All Workloads > Create*.
-. Create workloads. For information, see link:../storage-mgmt/concept_provision_and_manage_workloads.html[Provisioning and managing workloads]
+. Create workloads. For information, see link:../storage-mgmt/concept_provision_and_manage_workloads.html[Provisioning and managing workloads].
 
 === Viewing and filtering workloads
 On the All Workloads screen, you can view all the workloads in your data center or search for specific storage workloads based on either their PSLs or names. You can use the filter icon to enter specific conditions for your search. You can search by different filter conditions, such as by the host cluster or storage VM. The *Capacity Total* option allows filtering by the total capacity of the workloads (by MB). However, in this case, the number of workloads returned might vary, because the total capacity is compared at a byte level.
@@ -49,8 +49,8 @@ For each workload, information, such as the host cluster and storage VM is displ
 The page also enables you to view the performance details of a workload. You can view detailed information about the IOPS, capacity, and latency of the workload by clicking the *Choose / Order Columns* button and selecting specific columns to view. The Performance View column displays the average and peak IOPS for a workload, and you can click the workload analyser icon to view the detailed IOPS analysis.
 
 === Analyzing performance and capacity criteria for a workload
-The *Analyze Workload* button on the *IOPS Analysis* pop-up takes you to the Workload Analysis page, where you can select a time range and view the latency, throughput, and capacity trends for the selected workload. For more information about workload analyzer, see link:..//performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html[Troubleshooting workloads using the workload analyzer]
+The *Analyze Workload* button on the *IOPS Analysis* pop-up takes you to the Workload Analysis page, where you can select a time range and view the latency, throughput, and capacity trends for the selected workload. For more information about workload analyzer, see link:..//performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html[Troubleshooting workloads using the workload analyzer].
 
 You can view performance information about a workload to help with troubleshooting by clicking the bar chart icon in the *Performance View* column. To view performance and capacity charts on the Workload Analysis page to analyze the object, click the *Analyze Workload* button.
 
-For more information, see link:../performance-checker/reference_what_data_does_workload_analyzer_display.html[What data does the workload analyzer display]
+For more information, see link:../performance-checker/reference_what_data_does_workload_analyzer_display.html[What data does the workload analyzer display].

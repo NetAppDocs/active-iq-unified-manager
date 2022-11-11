@@ -28,7 +28,7 @@ Add or remove other columns to create a view that is important for your report.
 
 . Drag and drop the "`Disk Type`" column near the "`Cloud Recommendation`" column.
 . Click the filter icon, add the following three filters, and then click *Apply Filter*:
- ** Disk Type contains fabricpool
+ ** Disk Type contains FabricPool
  ** Cloud Recommendation contains tier
  ** Cold Data greater than 10 GB
 image:../media/filter_cold_data.gif[]

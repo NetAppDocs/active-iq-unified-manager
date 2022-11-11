@@ -9,7 +9,7 @@ summary: "MetroCluster switch events provide you with information about the stat
 :imagesdir: ../media/
 
 [.lead]
-MetroCluster switch events provide you with information about the status of the MetroCluster switches so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+MetroCluster switch events for MetroCluster over FC configurations provide you with information about the status of the MetroCluster switches so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
 
 == Impact area: availability
 [options="header"]
@@ -17,7 +17,6 @@ MetroCluster switch events provide you with information about the status of the 
 | Event name (Trap name)| Impact level| Source type| Severity
 a|
 Switch Temperature Abnormal(ocumEvtSwitchTemperatureAbnormal)
-
 a|
 Incident
 a|
@@ -26,7 +25,6 @@ a|
 Critical
 a|
 Switch Unreachable(ocumEvtSwitchUnreachable)
-
 a|
 Incident
 a|
@@ -35,7 +33,6 @@ a|
 Critical
 a|
 Switch Fans Failed(ocumEvtSwitchFansOneOrMoreFailed)
-
 a|
 Incident
 a|
@@ -44,7 +41,6 @@ a|
 Critical
 a|
 Switch Power Supplies Failed(ocumEvtSwitchPowerSuppliesOneOrMoreFailed)
-
 a|
 Incident
 a|

@@ -40,25 +40,25 @@ Displays detailed information about the data availability and data capacity issu
 
 You can click the graph of an object to view a filtered list of the objects. For example, you can click the SVM capacity graph that displays warnings to view a filtered list of SVMs. This list contains SVMs that have volumes or qtrees that have capacity issues with a severity level of Warning. You can also click the SVMs availability graph that displays warnings to view the list of SVMs that have availability issues with a severity level of Warning.
 
-* *Availability Issues*
-+
+=== Availability Issues
+
 Graphically displays the total number of objects, including objects that have availability issues and objects that do not have any availability-related issues. The colors in the graph represent the different severity levels of the issues. The information below the graph provides details about availability issues that can impact or have already impacted the availability of data in the cluster. For example, information is displayed about disk shelves that are down and aggregates that are offline.
-+
+
 [NOTE]
 ====
 The data displayed for the SFO bar graph is based on the HA state of the nodes. The data displayed for all other bar graphs is calculated based on the events generated.
 ====
 
-* *Capacity Issues*
-+
+=== Capacity Issues
+
 Graphically displays the total number of objects, including objects that have capacity issues and objects that do not have any capacity-related issues. The colors in the graph represent the different severity levels of the issues. The information below the graph provides details about capacity issues that can impact or have already impacted the capacity of data in the cluster. For example, information is displayed about aggregates that are likely to breach the set threshold values.
 
 == Capacity tab
 
 Displays detailed information about the capacity of the selected cluster.
 
-* *Capacity*
-+
+=== Capacity
+
 Displays the data capacity graph about the used capacity and available capacity from all allocated aggregates:
 
  ** Logical Space Used
@@ -81,13 +81,13 @@ Displays the storable capacity available for storage in all the spare disks.
 +
 Displays the capacity that is provisioned for all the underlying volumes.
 
-* *Details*
-+
-Displays detailed information about the used and available capacity.
+=== Details
+
+Displays detailed information about the used and available capacity. The calculation excludes the root aggregate data.
 
  ** Total Capacity
 +
-Displays the total capacity of the cluster. This does not include the capacity that is assigned for parity.
+Displays the total capacity of the cluster. This does not include the capacity that is assigned for parity. 
 
  ** Used
 +
@@ -105,12 +105,12 @@ Displays the capacity that is provisioned for all the underlying volumes.
 +
 Displays the storable capacity available for storage in all the spare disks.
 
-* *Cloud Tier*
-+
+=== Cloud Tier
+
 Displays the total cloud tier capacity used, and the capacity used for each connected cloud tier for FabricPool-enabled aggregates on the cluster. A FabricPool can be either licensed or unlicensed.
 
-* *Physical Capacity Breakout by Disk Type*
-+
+=== Physical Capacity Breakout by Disk Type
+
 The Physical Capacity Breakout by Disk Type area displays detailed information about the disk capacity of the various types of disks in the cluster. By clicking the disk type, you can view more information about the disk type from the Disks tab.
 
  ** Total Usable Capacity
@@ -137,8 +137,8 @@ Graphically displays the spare capacity of the SSD, data, and cache disks in the
 +
 Displays the number of unassigned disks in the cluster.
 
-* *Aggregates with Capacity Issues list*
-+
+=== Aggregates with Capacity Issues list
+
 Displays in tabular format details about the used capacity and available capacity of the aggregates that have capacity risk issues.
 
  ** Status
@@ -172,7 +172,8 @@ Displays the estimated number of days remaining before the aggregate reaches ful
 
 Displays details about the selected cluster, such as IP address, contact, and location:
 
-* *Cluster Overview*
+=== Cluster Overview
+
  ** Management Interface
 +
 Displays the cluster-management LIF that Unified Manager uses to connect to the cluster. The operational status of the interface is also displayed.
@@ -200,8 +201,9 @@ Displays the location of the cluster.
  ** Personality
 +
 Identifies if this is an All SAN Array configured cluster.
-* *Remote Cluster Overview*
-+
+
+=== Remote Cluster Overview
+
 Provides details about the remote cluster in a MetroCluster configuration. This information is displayed only for MetroCluster configurations.
 
  ** Cluster
@@ -216,17 +218,19 @@ Displays the FQDN, short name, or IP address of the remote cluster.
 +
 Displays the location of the remote cluster.
 
-* *MetroCluster Overview*
-+
-Provides details about the local cluster in a MetroCluster configuration. This information is displayed only for MetroCluster configurations.
+=== MetroCluster Overview
+
+Provides details about the local cluster in a MetroCluster over FC or MetroCluster over IP configurations. This information is displayed only for MetroCluster over FC or IP configurations.
 
  ** Type
 +
-Displays whether the MetroCluster type is two-node or four-node.
+Displays whether the MetroCluster type is two-node or four-node. For MetroCluster over IP, only four-node is supported.
 
  ** Configuration
 +
-Displays the MetroCluster configuration, which can have the following values:
+Displays the MetroCluster configuration over FC and IP, which can have the following values:
+
+*For FC*
 
   *** Stretch Configuration with SAS cables
   *** Stretch Configuration with FC-SAS bridge
@@ -238,11 +242,19 @@ Displays the MetroCluster configuration, which can have the following values:
 For a four-node MetroCluster, only Fabric Configuration with FC switches is supported.
 ====
 
+*For IP* 
+
+***  IP configuration with Ethernet switches (L2 or L3, depending on how the cluster is configured)
+
  ** Automated Unplanned Switch Over (AUSO)
 +
-Displays whether automated unplanned switchover is enabled for the local cluster. By default, AUSO is enabled for all clusters in a two-node MetroCluster configuration in Unified Manager. You can use the command-line interface to change the AUSO setting.
+Displays whether automated unplanned switchover is enabled for the local cluster. By default, AUSO is enabled for all clusters in a two-node MetroCluster configuration in Unified Manager. You can use the command-line interface to change the AUSO setting. This is supported for only MetroCluster over FC.
+** Switch-Over mode
++
+Displays the switch-over mode for the MetroCluster over IP configuration. The available values are: `Active`, `Negotiated Switchover`, and `Automatic Unplanned Switchover`.
 
-* *Nodes*
+=== Nodes
+
  ** Availability
 +
 Displays the number of nodes that are up (image:../media/availability_up_um60.gif[Icon for LIF availability – Up]) or down (image:../media/availability_down_um60.gif[Icon for LIF availability – Down]) in the cluster.
@@ -250,11 +262,15 @@ Displays the number of nodes that are up (image:../media/availability_up_um60.gi
  ** OS Versions
 +
 Displays the ONTAP versions that the nodes are running as well as the number of nodes running a particular version of ONTAP. For example, 9.6 (2), 9.3 (1) specifies that two nodes are running ONTAP 9.6, and one node is running ONTAP 9.3.
-* *Storage Virtual Machines*
+
+=== Storage Virtual Machines
+
  ** Availability
 +
 Displays the number of SVMs that are up (image:../media/availability_up_um60.gif[Icon for LIF availability – Up]) or down (image:../media/availability_down_um60.gif[Icon for LIF availability – Down]) in the cluster.
-* *Network Interfaces*
+
+=== Network Interfaces
+
  ** Availability
 +
 Displays the number of non-data LIFs that are up (image:../media/availability_up_um60.gif[Icon for LIF availability – Up]) or down (image:../media/availability_down_um60.gif[Icon for LIF availability – Down]) in the cluster.
@@ -274,14 +290,17 @@ Displays the number of cluster LIFs.
  ** Intercluster Interfaces
 +
 Displays the number of intercluster LIFs.
-* *Protocols*
+
+=== Protocols
+
  ** Data Protocols
 +
 Displays the list of licensed data protocols that are enabled for the cluster. The data protocols include iSCSI, CIFS, NFS, NVMe, and FC/FCoE.
-* *Protection*
+
+=== Protection
  ** Mediators
 +
-Displays whether the cluster supports mediators and the connectivity status of the mediator.
+Displays whether the cluster supports mediators and the connectivity status of the mediator. It indicates whether the mediator is configured, and if configured, it displays the status of the mediators.
 
 *** Not Applicable
 +
@@ -293,17 +312,17 @@ Displays when the cluster supports mediators, but the mediator is not configured
 +
 Displays when the cluster supports mediators and the mediator is configured. The mediator status is indicated by color. The color green indicates the mediator status is reachable. The color red indicates the mediator status is unreachable.
 
-* *Cloud Tiers*
-+
+=== Cloud Tiers
+
 Lists the names of the cloud tiers to which this cluster is connected. It also lists the type (Amazon S3, Microsoft Azure Cloud, IBM Cloud Object Storage, Google Cloud Storage, Alibaba Cloud Object Storage, or StorageGRID), and the states of the cloud tiers (Available or Unavailable).
 
 == MetroCluster Connectivity tab
 
-Displays the issues and connectivity status of the cluster components in the MetroCluster configuration. A cluster is displayed in a red box when the disaster recovery partner of the cluster has issues.
+Displays the issues and connectivity status of the cluster components in the MetroCluster over FC configuration. A cluster is displayed in a red box when the disaster recovery partner of the cluster has issues.
 
 [NOTE]
 ====
-The MetroCluster Connectivity tab is displayed only for clusters that are in a MetroCluster configuration.
+The MetroCluster Connectivity tab is displayed only for clusters that are in a MetroCluster over FC configuration.
 ====
 
 You can navigate to the details page of a remote cluster by clicking the name of the remote cluster. You can also view the details of the components by clicking the count link of a component. For example, clicking the count link of the node in the cluster displays the node tab in the details page of the cluster. Clicking the count link of the disks in the remote cluster displays the disk tab in the details page of the remote cluster.
@@ -321,11 +340,11 @@ If status of the connectivity issue between components is determined by multiple
 
 == MetroCluster Replication tab
 
-Displays the status of the data that is being replicated. You can use the MetroCluster Replication tab to ensure data protection by synchronously mirroring the data with the already peered clusters. A cluster is displayed in a red box when the disaster recovery partner of the cluster has issues.
+Displays the status of the data that is being replicated in a MetroCluster over FC configuration. You can use the MetroCluster Replication tab to ensure data protection by synchronously mirroring the data with the already peered clusters. A cluster is displayed in a red box when the disaster recovery partner of the cluster has issues.
 
 [NOTE]
 ====
-The MetroCluster Replication tab is displayed only for clusters that are in a MetroCluster configuration.
+The MetroCluster Replication tab is displayed only for clusters that are in a MetroCluster over FC configuration.
 ====
 
 In a MetroCluster environment, you can use this tab to verify the logical connections and peering of the local cluster with the remote cluster. You can view the objective representation of the cluster components with their logical connections. This helps to identify the issues that might occur during mirroring of metadata and data.
@@ -336,54 +355,54 @@ In the MetroCluster Replication tab, local cluster provides the detailed graphic
 
 Displays details about all the non-data LIFs that are created on the selected cluster.
 
-* *Network Interface*
-+
+=== Network Interface
+
 Displays the name of the LIF that is created on the selected cluster.
 
-* *Operational Status*
-+
+=== Operational Status
+
 Displays the operational status of the interface, which can be Up (image:../media/lif_status_up.gif[Icon for LIF status – Up]), Down (image:../media/lif_status_down.gif[Icon for LIF status – Down]), or Unknown (image:../media/hastate_unknown.gif[Icon for HA state – unknown]). The operational status of a network interface is determined by the status of its physical ports.
 
-* *Administrative Status*
-+
+=== Administrative Status
+
 Displays the administrative status of the interface, which can be Up (image:../media/lif_status_up.gif[Icon for LIF status – Up]), Down (image:../media/lif_status_down.gif[Icon for LIF status – Down]), or Unknown (image:../media/hastate_unknown.gif[Icon for HA state – unknown]). You can control the administrative status of an interface when you make changes to the configuration or during maintenance. The administrative status can be different from the operational status. However, if the administrative status of a LIF is Down, the operational status is Down by default.
 
-* *IP Address*
-+
+=== IP Address
+
 Displays the IP address of the interface.
 
-* *Role*
-+
+=== Role
+
 Displays the role of the interface. Possible roles are Cluster-Management LIFs, Node-Management LIFs, Cluster LIFs, and Intercluster LIFs.
 
-* *Home Port*
-+
+=== Home Port
+
 Displays the physical port to which the interface was originally associated.
 
-* *Current Port*
-+
+=== Current Port
+
 Displays the physical port to which the interface is currently associated. After LIF migration, the current port might be different from the home port.
 
-* *Failover Policy*
-+
+=== Failover Policy
+
 Displays the failover policy that is configured for the interface.
 
-* *Routing Groups*
-+
+=== Routing Groups
+
 Displays the name of the routing group. You can view more information about the routes and the destination gateway by clicking the routing group name.
-+
+
 Routing groups are not supported for ONTAP 8.3 or later and therefore a blank column is displayed for these clusters.
 
-* *Failover Group*
-+
+=== Failover Group
+
 Displays the name of the failover group.
 
 == Nodes tab
 
 Displays information about nodes in the selected cluster. You can view detailed information about the HA pairs, disk shelves, and ports:
 
-* *HA Details*
-+
+=== HA Details
+
 Provides a pictorial representation of the HA state and the health status of the nodes in the HA pair. The health status of the node is indicated by the following colors:
 
  ** *Green*
@@ -407,10 +426,10 @@ You can view other node-related information, such as the model number.
 
 If there are single-node clusters, you can also view details about the nodes.
 
-* *Disk Shelves*
-+
+=== Disk Shelves
+
 Displays information about the disk shelves in the HA pair.
-+
+
 You can also view events generated for the disk shelves and the environmental components, and the time when the events were triggered.
 
  ** *Shelf ID*
@@ -453,12 +472,12 @@ Displays the unique identifier of the disk shelf.
 +
 Displays the firmware version of the disk shelf.
 
-* *Ports*
-+
+=== Ports
+
 Displays information about the associated FC, FCoE, and Ethernet ports. You can view details about the ports and the associated LIFs by clicking the port icons.
-+
+
 You can also view the events generated for the ports.
-+
+
 You can view the following port details:
 
  ** Port ID
@@ -492,95 +511,95 @@ You can view the port-related events from the Events list. You can also view the
 
 Displays details about the disks in the selected cluster. You can view disk-related information such as the number of used disks, spare disks, broken disks, and unassigned disks. You can also view other details such as the disk name, disk type, and the owner node of the disk.
 
-* *Disk Pool Summary*
-+
+=== Disk Pool Summary
+
 Displays the number of disks, which are categorized by effective types (FCAL, SAS, SATA, MSATA, SSD, NVMe SSD, SSD CAP, Array LUN, and VMDISK), and the state of the disks. You can also view other details, such as the number of aggregates, shared disks, spare disks, broken disks, unassigned disks, and unsupported disks. If you click the effective disk type count link, disks of the selected state and effective type are displayed. For example, if you click the count link for the disk state Broken and effective type SAS, all disks with the disk state Broken and effective type SAS are displayed.
 
-* *Disk*
-+
+=== Disk
+
 Displays the name of the disk.
 
-* *RAID Groups*
-+
+=== RAID Groups
+
 Displays the name of the RAID group.
 
-* *Owner Node*
-+
+=== Owner Node
+
 Displays the name of the node to which the disk belongs. If the disk is unassigned, no value is displayed in this column.
 
-* *State*
-+
+=== State
+
 Displays the state of the disk: Aggregate, Shared, Spare, Broken, Unassigned, Unsupported or Unknown. By default, this column is sorted to display the states in the following order: Broken, Unassigned, Unsupported, Spare, Aggregate, and Shared.
 
-* *Local Disk*
-+
+=== Local Disk
+
 Displays either Yes or No to indicate whether the disk is located on the local cluster or the remote cluster. This column is displayed only for clusters in a MetroCluster configuration.
 
-* *Position*
-+
+=== Position
+
 Displays the position of the disk based on its container type: for example, Copy, Data, or Parity. By default, this column is hidden.
 
-* *Impacted Aggregates*
-+
+=== Impacted Aggregates
+
 Displays the number of aggregates that are impacted due to the failed disk. You can move the pointer over the count link to view the impacted aggregates and then click the aggregate name to view details of the aggregate. You can also click the aggregate count to view the list of impacted aggregates in the Health: All Aggregates view.
-+
+
 No value is displayed in this column for the following cases:
 
  ** For broken disks when a cluster containing such disks is added to Unified Manager
  ** When there are no failed disks
 
-* *Storage Pool*
-+
+=== Storage Pool
+
 Displays the name of the storage pool to which the SSD belongs. You can move the pointer over the storage pool name to view details of the storage pool.
 
-* *Storable Capacity*
-+
+=== Storable Capacity
+
 Displays the disk capacity that is available for use.
 
-* *Raw Capacity*
-+
+=== Raw Capacity
+
 Displays the capacity of the raw, unformatted disk before right-sizing and RAID configuration. By default, this column is hidden.
 
-* *Type*
-+
+=== Type
+
 Displays the types of disks: for example, ATA, SATA, FCAL, or VMDISK.
 
-* *Effective Type*
-+
+=== Effective Type
+
 Displays the disk type assigned by ONTAP.
-+
+
 Certain ONTAP disk types are considered equivalent for the purposes of creating and adding to aggregates, and spare management. ONTAP assigns an effective disk type for each disk type.
 
-* *Spare Blocks Consumed %*
-+
+=== Spare Blocks Consumed %
+
 Displays in percentage the spare blocks that are consumed in the SSD disk. This column is blank for disks other than SSD disks.
 
-* *Rated Life Used %*
-+
+=== Rated Life Used %
+
 Displays in percentage an estimate of the SSD life used, based on the actual SSD usage and the manufacturer's prediction of SSD life. A value greater than 99 indicates that the estimated endurance has been consumed, but may not indicate SSD failure. If the value is unknown, then the disk is omitted.
 
-* *Firmware*
-+
+=== Firmware
+
 Displays the firmware version of the disk.
 
-* *RPM*
-+
+=== RPM
+
 Displays the revolutions per minute (RPM) of the disk. By default, this column is hidden.
 
-* *Model*
-+
+=== Model
+
 Displays the model number of the disk. By default, this column is hidden.
 
-* *Vendor*
-+
+=== Vendor
+
 Displays the name of the disk vendor. By default, this column is hidden.
 
-* *Shelf ID*
-+
+=== Shelf ID
+
 Displays the ID of the shelf where the disk is located.
 
-* *Bay*
-+
+=== Bay
+
 Displays the ID of the bay where the disk is located.
 
 == Related Annotations pane
@@ -597,20 +616,20 @@ You can use MetroCluster Partner pane to obtain count and also details on the re
 
 The Related Devices pane enables you to view and navigate to the nodes, SVMs, and aggregates that are related to the cluster:
 
-* *MetroCluster Partner*
-+
+=== MetroCluster Partner
+
 Displays the health status of the MetroCluster partner. Using the count link, you can navigate further and obtain information about the health and capacity of the cluster components.
 
-* *Nodes*
-+
+=== Nodes
+
 Displays the number, capacity, and health status of the nodes that belong to the selected cluster. Capacity indicates the total usable capacity over available capacity.
 
-* *Storage Virtual Machines*
-+
+=== Storage Virtual Machines
+
 Displays the number of SVMs that belong to the selected cluster.
 
-* *Aggregates*
-+
+=== Aggregates
+
 Displays the number, capacity, and the health status of the aggregates that belong to the selected cluster.
 
 == Related Groups pane
@@ -623,4 +642,5 @@ The Related Alerts pane enables you to view the list of alerts for the selected 
 
 *Related information*
 
-link:[Storage Pool dialog box]
+link:../health-checker/task_view_volume_list_and_details.html[Volumes page]
+link:..//health-checker/task_view_cluster_list_and_details.html[Viewing the cluster list and details]

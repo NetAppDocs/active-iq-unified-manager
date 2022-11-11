@@ -113,8 +113,6 @@ entries:
       url: "/data-protection/task_resynchronize_protection_relationships.html"
     - title: Reversing protection relationships from the Volume Relationships page
       url: "/data-protection/task_reverse_protection_relationships.html"
-    - title: Restoring data using the Health / All Volumes view
-      url: "/data-protection/task_restore_data_use_health_volumes_page.html"
     - title: Restoring data using the Volume / Health details page
       url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
     - title: What resource pools are

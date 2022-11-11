@@ -14,7 +14,7 @@ You can stop and uninstall Unified Manager from the Red Hat Enterprise Linux or 
 *What you'll need*
 
 * You must have root user access to the server from which you want to remove Unified Manager.
-* Security-Enhanced Linux (SELinux) must be disabled on the Red Hat machine. Change the SELinux runtime mode to "`Permissive`" by using the `setenforce 0` command.
+* Security-Enhanced Linux (SELinux) must be disabled on the Linux system. Change the SELinux runtime mode to "`Permissive`" by using the `setenforce 0` command.
 * All clusters (data sources) must be removed from the Unified Manager server before removing the software.
 
 .Steps

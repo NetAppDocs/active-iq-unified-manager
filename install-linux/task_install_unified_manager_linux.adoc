@@ -15,11 +15,12 @@ You can install Unified Manager on a physical or virtual Red Hat Enterprise Linu
 
 * The system on which you want to install Unified Manager must meet the system and software requirements.
 +
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements]
+See link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements].
 +
-link:reference_red_hat_and_centos_software_and_installation_requirements.html[Red Hat and CentOS software and installation requirements]
+See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Linux software and installation requirements].
 
 * You must have downloaded the Unified Manager `.zip` file from the NetApp Support Site to the target system.
+* You should have verified the integrity of the downloaded `.zip` file.
 * You must have a supported web browser.
 * Your terminal emulation software must have scrollback enabled.
 
@@ -34,11 +35,11 @@ The Red Hat Enterprise Linux or CentOS system might have all the required versio
 |===
 | Required software and minimum version| Command to verify software and version
 a|
-OpenJDK version 11.0.14
+OpenJDK version 11.0.17
 a|
 `java -version`
 a|
-MySQL 8.0.28 Community Edition
+MySQL 8.0.30 Community Edition
 a|
 `rpm -qa \| grep -i mysql`
 a|
@@ -47,7 +48,7 @@ a|
 `rpm -qa \| grep p7zip`
 |===
 
-. If the installed version of MySQL is earlier than MySQL 8.0.28 Community Edition, enter the following command to uninstall it:
+. If the installed version of MySQL is earlier than MySQL 8.0.30 Community Edition, enter the following command to uninstall it:
 +
 `rpm -e <mysql_package_name>`
 +
@@ -69,7 +70,7 @@ The required `.rpm` modules for Unified Manager are unzipped to the target direc
 +
 `sudo ./pre_install_check.sh`
 +
-The pre-installation script checks that the system has a valid Red Hat subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues prior to installing Unified Manager.
+The pre-installation script checks that the system has a valid Red Hat Enterprise Linux subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues prior to installing Unified Manager.
 +
 For Red Hat Enterprise Linux 8 system, if you have internal repositories with JDK 11 - OpenJDK, p7zip, and other software packages provided by the AppStream repository, you must disable your AppStream repository and install MySQL Community Server. Run the following command:
 +
@@ -77,15 +78,14 @@ For Red Hat Enterprise Linux 8 system, if you have internal repositories with JD
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
 ----
 
-. *Optional:* You must perform step 7 only if your system is not connected to the internet and you have to manually download the packages that are required for your installation. If your system has Internet access and all the required packages are available, go to step 8. For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages, and then download those packages:
+. *Optional:* You must perform step 7 only if your system is not connected to the internet and you have to manually download the packages that are required for your installation. If your system has the internet access and all the required packages are available, go to step 8. For systems that are not connected to the internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages, and then download those packages:
  .. On the system on which you are installing Unified Manager, view the list of available and unavailable packages:
-+
- `yum install netapp-um<version>.x86_64.rpm --assumeno`
-+
+
+`yum install netapp-um<version>.x86_64.rpm --assumeno`
 
 The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
 
- .. On a system that has Internet access, download the missing packages:
+ .. On a system that has the internet access, download the missing packages:
 +
 `yum install <package_name> --downloadonly --downloaddir=.`
 +
@@ -96,7 +96,7 @@ Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat
 `yum install yum-plugin-downloadonly`
 ====
 
- .. Copy the missing packages from the Internet-connected system to your installation system.
+ .. Copy the missing packages from the internet-connected system to your installation system.
 . As the root user, or using `sudo`, run the following command to install the software:
 +
 `yum install netapp-um<version>.x86_64.rpm`
@@ -133,4 +133,4 @@ Log in to Unified Manager in a web browser by using following details:
 +
 `usermod -s /bin/maintenance-user-shell.sh umadmin`
 
-Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager].
+Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager]. It is mandatory to change the default password of the umadmin user.

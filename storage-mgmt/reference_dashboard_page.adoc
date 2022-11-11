@@ -52,15 +52,20 @@ The Security panel presents the high-level security status for all clusters or a
 You can click the bar charts of the compliant and non-compliant clusters, storage VMS, encrypted and unencrypted volumes, and volume anti-ransomware status to go to the respective pages and view the security details of the filtered clusters, storage VMs, and volumes.
 
 Compliance is based on the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9]. Click the right-arrow at the top of the panel to view security details for all clusters on the Security page. For information, see
-link:..//health-checker/task_view_detailed_security_status_for_clusters_and_svms.html[Viewing detailed security status for clusters and Storage VMs]
+link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html[Viewing detailed security status for clusters and Storage VMs].
 
 == Data Protection panel
-This panel displays the data protection summary for a single or all the clusters in a data center. It displays the total number of data protection events and number of active events raised in the last 24 hours in ONTAP. Clicking the link from each of these events takes you to the Event details page. You can click the *View All* link to view all active protection events in the Event Management inventory page.
+This panel displays the data protection summary for a single or all the clusters in a data center. It displays the total number of data protection events, MetroCluster events, and number of active events raised in the last 24 hours in ONTAP. Clicking the link from each of these events takes you to the Event details page. You can click the *View All* link to view all active protection events in the Event Management inventory page. The panel displays:
 
-The panel also displays the number of volumes in a cluster or all the clusters in a data center protected by Snapshot copies and SnapMirror relationships. For SnapMirror relationships, the volume count at the source cluster is considered. You can also view the number of volume relationships with SnapMirror recovery point objective (RPO) lag based on the lag status.
-You can hover your mouse to view the respective counts and legends. You can click:
+** The number of volumes in a cluster or all the clusters in a data center protected by Snapshot copies.
+** The number of volumes in a cluster or all the clusters in a data center protected by SnapMirror relationships. For SnapMirror relationships, the volume count at the source cluster is considered.
+** The number of clusters or all the clusters in a data center protected by MetroCluster configuration over IP or FC.
+** The number of volume relationships with SnapMirror recovery point objective (RPO) lag based on the lag status.
+
+You can hover your mouse to view the respective counts and legends. You can click the right arrow at the top of the panel to view the details for a single or all the clusters on the Data Protection page. Also, you can click:
 
 * The bar charts for unprotected volumes and volumes protected by Snapshot copies to go to the Volumes page and view the details.
+* The bar charts for the clusters protected or not protected by MetroCluster configuration to go to the Clusters page and view the details.
 * The bar charts for all relationships to go to the Relationships page, where the details are filtered based on the source cluster.
 
 For more information, see link:../data-protection/view-protection-status.html[Viewing volume protection status].

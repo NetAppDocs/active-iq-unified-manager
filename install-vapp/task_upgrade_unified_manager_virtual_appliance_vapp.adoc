@@ -9,7 +9,7 @@ summary: "You can upgrade the Unified Manager virtual appliance"
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade the Active IQ Unified Manager virtual appliance from releases 9.9 or 9.10 to 9.11.
+You can upgrade the Active IQ Unified Manager virtual appliance from releases 9.10 or 9.11 to 9.12.
 
 *What you'll need*
 
@@ -18,9 +18,9 @@ Ensure the following:
 * You have downloaded the upgrade file, the ISO image from the NetApp Support Site.
 * The system on which you are upgrading Unified Manager meet the system and software requirements.
 +
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Virtual infrastructure requirements]
+See link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Virtual infrastructure requirements].
 +
-link:reference_vmware_software_and_installation_requirements.html[VMware software and installation requirements]
+See link:reference_vmware_software_and_installation_requirements.html[VMware software and installation requirements].
 
 * For vSphere 6.5 and later users, you have installed the VMware Remote Console (VMRC).
 * During upgrade, you may be prompted to confirm on whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data is purged after 6 months.
@@ -63,4 +63,4 @@ You are automatically logged out of the maintenance console.
 
 . *Optional:* Log in to the maintenance console, and verify the version of Unified Manager.
 
-You can log in to the web UI to use the upgraded version of Unified Manager. Note that you need to wait for the discovery process to finish before performing any task in the UI.
+You can launch the web UI on a new window on a supported web browser and log in to use the upgraded version of Unified Manager. Note that you need to wait for the discovery process to finish before performing any task in the UI.

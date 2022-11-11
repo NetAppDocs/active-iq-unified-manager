@@ -70,8 +70,8 @@ entries:
   - title: Monitoring performance using the Performance Inventory pages
     url: "/performance-checker/concept_monitor_performance_using_object_performance.html"
     entries:
-    - title: Object monitoring using the Performance object inventory pages
-      url: "/performance-checker/concept_object_monitoring_using_object_inventory_performance_pages.html"
+    - title: Viewing Performance inventory pages for all storage objects
+      url: "/performance-checker/performance-view-all.html"
     - title: Refining Performance inventory page contents
       url: "/performance-checker/concept_refine_object_inventory_performance_page_content.html"
       entries:

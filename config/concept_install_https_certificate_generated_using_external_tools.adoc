@@ -13,7 +13,7 @@ You can install certificates that are self signed or CA signed and are generated
 
 You should load the private key along with the certificate chain because these certificates are externally generated public-private key pair. The permitted key-pair algorithms are "`RSA`" and "`EC`". The *Install HTTPS Certificate* option is available in the HTTPS Certificates page under the General section. The file you upload should be in the following input format.
 
-. Private Key of the server that belongs to the Active IQ UM host
+. Private Key of the server that belongs to the Active IQ Unified Manager host
 . Certificate of the server that matches with the private key
 . Certificate of the CAs in reverse till the root, which are used to sign the above certificate
 

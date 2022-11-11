@@ -49,7 +49,7 @@ Displays the number of clusters that are compliant or not compliant, the number 
 a|
 Protection
 a|
-Displays the number of Storage VM's that are protected by SVM-DR relationship, volumes protected by SnapMirror relationship, and volumes protected by Snapshot.
+Displays the number of Storage VMs that are protected by SVM-DR relationship, volumes protected by SnapMirror relationship, volumes protected by Snapshot, and clusters protected by MetroCluster.
 a|
 Usage Overview
 a|

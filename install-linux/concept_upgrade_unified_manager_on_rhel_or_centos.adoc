@@ -9,7 +9,7 @@ summary: "You can upgrade Unified Manager when a new version of software is avai
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade Unified Manager when a new version of software is available.
+You can upgrade Unified Manager when a new version is available.
 
 Patch releases of Unified Manager software, when provided by NetApp, are installed using the same procedure as new releases.
 

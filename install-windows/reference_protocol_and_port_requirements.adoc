@@ -80,10 +80,10 @@ Used to enable OnCommand Workflow Automation and OnCommand API Services access t
 
 [NOTE]
 ====
-The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see the _Configuring Active IQ Unified Manager_.
+The default port for MySQL, 3306, is restricted only to localhost while installing Unified Manager on Windows systems. This does not impact any upgrade scenario, where the previous configuration is maintained. This configuration can be modified, and the connection can be made available to other hosts by using the `Control access to MySQL port 3306` option on the maintenance console. For information, see link:../config/reference_additional_menu_options.html[Additional menu options]. The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager].
 ====
+//BURT 1404470
 
-link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager]
 
 == Connections from the Unified Manager server
 
@@ -111,8 +111,6 @@ a|
 NDMP
 a|
 10000/TCP
-
-7/TCP
 a|
 Used for certain Snapshot restore operations.
 a|
@@ -122,7 +120,7 @@ HTTPS
 a|
 443
 a|
-Used to send AutoSupport information. Requires Internet access to perform this function.
+Used to send AutoSupport information. Requires the internet access to perform this function.
 .2+a|
 Authentication server
 a|

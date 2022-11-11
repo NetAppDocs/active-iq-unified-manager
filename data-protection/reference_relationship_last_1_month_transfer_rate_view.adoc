@@ -24,3 +24,9 @@ Displays the day on which the volume transfer was initiated.
 * *End Time*
 +
 Displays the volume transfer end time with date.
+
+*Related information*
+
+* For information about *Relationship:MetroCluster* view, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitoring MetroCluster configurations].
+* For information about *Relationship: Last 1 month Transfer Status* view, see link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html[Relationship: Last 1 month Transfer Status view].
+* For information about *Relationship: All Relationships* view, see link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html[Relationship: Last 1 month Transfer Rate view]

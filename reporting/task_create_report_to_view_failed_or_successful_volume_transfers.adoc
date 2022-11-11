@@ -23,7 +23,7 @@ Use the following steps to create a custom view to show which transfers failed a
 . In the View menu, select *Relationship* > *Last 1 month Transfer Status*.
 . Select *Show/Hide* to remove any columns that you do not want in the report.
 . Drag the "`Operation Result`" column near the "`State`" column.
-. Click the top of the "`Opeateration Result`" column to sort the volumes by the status.
+. Click the top of the "`Operation Result`" column to sort the volumes by the status.
 . Save the view with a specific name that reflects what the view is showing, for example "`Volumes by transfer status`".
 . Click the *Scheduled Reports* button on the inventory page.
 . Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.

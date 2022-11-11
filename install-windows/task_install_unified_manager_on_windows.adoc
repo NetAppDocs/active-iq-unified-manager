@@ -15,9 +15,9 @@ You can install Unified Manager to monitor and troubleshoot data storage capacit
 
 * The system on which you plan to install Unified Manager should meet the system and software requirements.
 +
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements]
+See link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements].
 +
-link:reference_windows_software_and_installation_requirements.html[Windows software and installation requirements]
+See link:reference_windows_software_and_installation_requirements.html[Windows software and installation requirements].
 +
 [NOTE]
 ====

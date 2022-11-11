@@ -9,7 +9,7 @@ summary: "Quick start guide for Unified Manager on VMWare vSphere platform."
 
 == System requirements
 
-*	Operating system: VMware ESXi 6.5, 6.7, and 7.0
+*	Operating system: VMware ESXi 6.5, 6.7, and 7.0.x
 *	RAM: 12 GB
 *	CPU: 9572 MHz total
 *	Free disk space: 5 GB (thin provisioning), 152 GB (thick provisioning)
@@ -20,14 +20,22 @@ For detailed system requirements, see the link:../install-vapp/concept_requireme
 
 === Download the installer
 
-.	Download the `ActiveIQUnifiedManager-<version>.ova` installation package.
+.	Download the `.tar` file that contains a root certificate, a `README` file, and an `OVA` file.
 .	Save the file to a local directory or network directory that is accessible to your vSphere Client.
+.   In the directory where you downloaded the `.tar` file, enter the `tar -xvzf ActiveIQUnifiedManager-<version>.tar.gz` command.
+      +
+    The required `OVA` file, a root certificate, and a `README` file are unzipped to the target directory.
+
+=== Verify integrity
+    
+You can verify the integrity of the `OVA` file by following the steps provided in the `README` file.
 
 === Install Unified Manager
 
 .	In the vSphere Client, click *File > Deploy OVF Template*.
 .	Locate the OVA file and use the wizard to deploy the virtual appliance on the ESXi server.
-.	On the Network Configuration page, in the Properties tab, populate the fields as required for the type of installation you are performing:
+.   On the Review Details page, in the Publisher section, the message  `Entrust Code Signing - OVCS2 (Trusted certificate)` confirms the integrity of the downloaded `OVA` file. For the message `Entrust Code Signing - OVCS2 (Invalid certificate)`, upgrade the VMware vCenter Server to 7.0U3E or greater version.
+.	On the Customize Template page, in the Properties tab, populate the fields as required for the type of installation you are performing:
 *	For static configuration, enter the required information in all the fields. Adding information for the *Secondary DNS* field is not required.
 *	For DHCP using IPv4, do not add any information in any field.
 *	For DHCP using IPv6, check the “Enable Auto IPv6 addressing” box. Do not add any information in any other field.

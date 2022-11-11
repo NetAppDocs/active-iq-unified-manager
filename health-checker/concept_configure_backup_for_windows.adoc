@@ -11,7 +11,7 @@ summary: "Active IQ Unified Manager supports backup and restore using NetApp Sna
 [.lead]
 Active IQ Unified Manager supports backup and restore using NetApp Snapshots on Windows operating system with the help of LUN using iSCSI protocol.
 
-Snapshot based backup can be taken while all UM services are running. A consistent state of database is captured as part of the Snapshot as the backup puts a global read lock on the entire database that prevents any concurrent write. For your Unified Manager system installed on Windows OS to perform backup and restore using NetApp Snapshots, you should first configure Unified Manager backup to Snapshot based using the maintenance console.
+Snapshot based backup can be taken while all Unified Manager services are running. A consistent state of database is captured as part of the Snapshot as the backup puts a global read lock on the entire database that prevents any concurrent write. For your Unified Manager system installed on Windows OS to perform backup and restore using NetApp Snapshots, you should first configure Unified Manager backup to Snapshot based using the maintenance console.
 
 Before you configure Unified Manager for creating Snapshot copies, you should perform the following configuration tasks.
 

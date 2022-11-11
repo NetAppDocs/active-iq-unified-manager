@@ -53,4 +53,4 @@ The recommendation is internally determined by system analytics, and is skipped 
 There are special keywords that Unified Manager looks for in the workload name to override the system analytics and recommend a different PSL for the workload. When the workload has the letters "`ora`" in the name, the **Extreme Performance**PSL is recommended. And when the workload has the letters "`vm`" in the name, the **Performance**PSL is recommended.
 ====
 
-Also see the knowledge base (KB) article https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Performance_Service_Level'_is_not_adaptive_to_a_highly_variable_workload[ActiveIQ UM 'Assign System Recommended Performance Service Level' is not adaptive to a highly variable workload]
+Also see the knowledge base (KB) article https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Performance_Service_Level'_is_not_adaptive_to_a_highly_variable_workload[ActiveIQ Unified Manager 'Assign System Recommended Performance Service Level' is not adaptive to a highly variable workload]
