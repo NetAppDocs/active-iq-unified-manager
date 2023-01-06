@@ -47,8 +47,6 @@ Certificate-based authentication is not enabled automatically for a cluster, if 
 
 For a MetroCluster configuration, you must add both the local and remote clusters, and the clusters must be configured correctly.
 
-You can monitor a single cluster by two instances of Unified Manager provided that you have configured a second cluster-management LIF on the cluster so that each instance of Unified Manager connects through a different LIF.
-
 .Steps
 
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
