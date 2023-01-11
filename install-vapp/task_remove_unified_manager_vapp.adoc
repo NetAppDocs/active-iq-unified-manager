@@ -16,6 +16,7 @@ You can uninstall Unified Manager by removing the virtual machine (VM) on which 
 * You should have credentials for accessing VMware vCenter Server and vSphere Web Client.
 * Any active connection of the Unified Manager server to a Workflow Automation server should be closed.
 * All clusters (data sources) should be removed from the Unified Manager server before you remove the virtual machine (VM).
+* If the firewall rules are created to allow or block remote connections to MySQL port 3306, delete them manually. 
 
 .Steps
 
