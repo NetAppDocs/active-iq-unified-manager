@@ -34,7 +34,7 @@ NetApp does not support installation of Unified Manager by using third-party too
 
 //BURT-1413675
 
-The server should be dedicated to running Unified Manager. No other applications should be installed on the server. It is possible that an active anti-virus software is installed on your Windows system because of company regulations. You should disable the anti-virus software before installing Unified Manager to prevent the installation from failing.
+The server should be dedicated to running Unified Manager. No other applications should be installed on the server. It is possible that an active anti-virus software is installed on your Windows system because of company regulations. You should disable the anti-virus software before installing Unified Manager to prevent the installation from failing. 
 
 == Third-party software
 

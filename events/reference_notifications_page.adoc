@@ -101,3 +101,6 @@ Specifies the privacy protocol used to encrypt SNMP messages. Protocol options i
 * *Privacy Password*
 +
 Specifies the password when using privacy protocol. Privacy password is available with SNMP Version 3 with Authentication and Encryption.
+
+For more information about SNMP objects and traps, you can download the link:https://mysupport.netapp.com/site/tools/tool-eula/aiqum-mib[Active IQ Unified Manager MIB] from the NetApp Support Site.
+
