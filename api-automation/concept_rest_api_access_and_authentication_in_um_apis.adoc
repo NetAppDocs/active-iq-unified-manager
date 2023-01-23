@@ -95,7 +95,7 @@ https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 443 is the default HTTPS port. You can customize the HTTPS port, if required.
 
 +
-To issue POST, PATCH, and DELETE HTTP requests from a web browser, you have to use REST API browser plugins. You can also access the REST API by using scripting platforms such as cURL and Perl.
+To issue HTTP requests from a web browser, you have to use REST API browser plugins. You can also access the REST API by using scripting platforms such as cURL and Perl.
 
 == Authentication
 
