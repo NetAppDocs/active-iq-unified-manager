@@ -15,8 +15,8 @@ A sample request and response:
 
 * *Request*
 +
-GET
 ----
+Get
 https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 ----
 

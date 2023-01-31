@@ -15,8 +15,8 @@ NetApp does not support any modification of the Unified Manager application code
 
 For more details about applying security measures to the Unified Manager server, see the Knowledge Base article.
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Supportability_for_Security_Measures_applied_to_Active_IQ_Unified_Manager_for_Clustered_Data_ONTAP[Supportability for Security Measures applied to Active IQ Unified Manager for Clustered Data ONTAP]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Supportability_for_Security_Measures_applied_to_Active_IQ_Unified_Manager_for_Clustered_Data_ONTAP[Supportability for Security Measures applied to Active IQ Unified Manager for Clustered Data ONTAP^]
 
 *Related information*
 
-https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
+https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^]

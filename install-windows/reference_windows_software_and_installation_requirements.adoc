@@ -27,7 +27,7 @@ Unified Manager is supported on 64 bits Windows operating system for the followi
 
 See the Interoperability Matrix for the complete and most current list of supported Windows versions.
 
-http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
+http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix^]
 
 [NOTE]
 NetApp does not support installation of Unified Manager by using third-party tools, such as Microsoft System Center Configuration Manager (SCCM).
@@ -43,7 +43,7 @@ The following third-party packages are bundled with Unified Manager. If these th
 * Microsoft Visual C{pp} 2015 Redistributable package version 14.26.28720.3
 * Microsoft Visual C{pp} Redistributable Packages for Visual Studio 2013 version 12.0.40660.0
 * MySQL Community Edition version 8.0.30
-* Python 3.10.5
+* Python 3.11.1
 * OpenJDK version 11.0.16
 * p7zip version 18.05 or later
 
