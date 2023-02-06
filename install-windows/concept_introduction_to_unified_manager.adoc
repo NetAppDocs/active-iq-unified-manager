@@ -15,4 +15,4 @@ After you have completed the installation and have added the clusters that you w
 
 *Related information*
 
-https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
+https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^]

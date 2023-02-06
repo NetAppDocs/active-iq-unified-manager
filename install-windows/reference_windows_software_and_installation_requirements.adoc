@@ -27,14 +27,14 @@ Unified Manager is supported on 64 bits Windows operating system for the followi
 
 See the Interoperability Matrix for the complete and most current list of supported Windows versions.
 
-http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
+http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix^]
 
 [NOTE]
 NetApp does not support installation of Unified Manager by using third-party tools, such as Microsoft System Center Configuration Manager (SCCM).
 
 //BURT-1413675
 
-The server should be dedicated to running Unified Manager. No other applications should be installed on the server.
+The server should be dedicated to running Unified Manager. No other applications should be installed on the server. It is possible that an active anti-virus software is installed on your Windows system because of company regulations. You should disable the anti-virus software before installing Unified Manager to prevent the installation from failing. 
 
 == Third-party software
 
@@ -43,7 +43,7 @@ The following third-party packages are bundled with Unified Manager. If these th
 * Microsoft Visual C{pp} 2015 Redistributable package version 14.26.28720.3
 * Microsoft Visual C{pp} Redistributable Packages for Visual Studio 2013 version 12.0.40660.0
 * MySQL Community Edition version 8.0.30
-* Python 3.10.5
+* Python 3.11.1
 * OpenJDK version 11.0.16
 * p7zip version 18.05 or later
 
@@ -74,7 +74,7 @@ You should shut down a running instance of Unified Manager before upgrading any 
 * You should disable Microsoft IIS worldwide web publishing service and ensure that ports 80 and 443 are free.
 * You should make sure that the Remote Desktop Session Host setting for "`Windows Installer RDS Compatibility`" is disabled during the installation.
 * UDP port 514 should be free, and should not be used by any other service.
-* If you have an active anti-virus software installed on your Windows system, Unified Manager installation might fail. You should disable all virus scan software on your system before installing Unified Manager. After your installation is complete, make sure to manually exclude the following paths from anti-virus scan:
+* You should disable all anti-virus software on your system before installing Unified Manager. After your installation is complete, make sure to manually exclude the following paths from anti-virus scan:
 
 ** Unified Manager data directory, for example, `C:\ProgramData\NetApp\OnCommandAppData\`
 ** Unified Manager installation directory, for example, `\C:\Program Files\NetApp\`

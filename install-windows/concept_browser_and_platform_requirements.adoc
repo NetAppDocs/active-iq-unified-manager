@@ -13,7 +13,7 @@ To access the Unified Manager web UI, use a supported browser.
 
 The Interoperability Matrix has the list of supported browser versions.
 
-http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
+http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix^]
 
 For all browsers, disabling pop-up blockers ensures that software features are displayed properly.
 
