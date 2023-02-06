@@ -9,16 +9,14 @@ summary: "The Active IQ Unified Manager REST API is accessible by using any web 
 :imagesdir: ../media/
 
 [.lead]
-The Active IQ Unified Manager REST API is accessible by using any web browser or programming platform that can issue HTTP requests. Unified Manager supports basic HTTP authentication mechanism. Before you call the Unified Manager REST API, you must authenticate a user.
+The Active IQ Unified Manager REST API is accessible by using any REST client or programming platform that can issue HTTP requests with a basic HTTP authentication mechanism. 
 
-== REST access
-
-You can use any web browser or programming platform that can issue HTTP requests to access the Unified Manager REST API. For example, after logging in to Unified Manager, you can type the URL in any browser to retrieve the attributes of all of the management stations, such as the management station name, key, and IP address.
+A sample request and response:
 
 * *Request*
 +
-GET
 ----
+Get
 https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 ----
 
@@ -97,7 +95,7 @@ https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 443 is the default HTTPS port. You can customize the HTTPS port, if required.
 
 +
-To issue POST, PATCH, and DELETE HTTP requests from a web browser, you have to use browser plugins. You can also access the REST API by using scripting platforms such as cURL and Perl.
+To issue HTTP requests from a web browser, you have to use REST API browser plugins. You can also access the REST API by using scripting platforms such as cURL and Perl.
 
 == Authentication
 
