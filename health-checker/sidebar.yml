@@ -42,7 +42,7 @@ entries:
       url: "/health-checker/task_view_volume_list_and_details.html"
     - title: Viewing details about NFS shares
       url: "/health-checker/task_view_details_about_nfs_shares.html"
-    - title: Viewing details about SMB/CIFS shares
+    - title: Viewing details about SMB or CIFS shares
       url: "/health-checker/task_view_details_about_cifs_shares.html"
     - title: Viewing the list of Snapshot copies
       url: "/health-checker/task_view_list_of_snapshot_copies.html"
@@ -286,11 +286,11 @@ entries:
       entries:
       - title: Cluster components and why they can be in contention
         url: "/health-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
-      - title: Volume / Health details page
+      - title: Volume health details 
         url: "/health-checker/reference_health_volume_details_page.html"
-      - title: Storage VM / Health details page
+      - title: Storage VM health details
         url: "/health-checker/reference_health_svm_details_page.html"
-      - title: Cluster / Health details page
+      - title: Cluster health details
         url: "/health-checker/reference_health_cluster_details_page.html"
-      - title: Aggregate / Health details page
+      - title: Aggregate health details
         url: "/health-checker/reference_health_aggregate_details_page.html"

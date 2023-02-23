@@ -78,7 +78,7 @@ entries:
       entries:
       - title: Creating a report to view aggregates reaching full capacity
         url: "/reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html"
-      - title: Creating a report to view aggregates that are 80% or more full
+      - title: Creating a report to view aggregates that are almost full
         url: "/reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html"
       - title: Creating a report to view aggregates that are overcommitted
         url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"
