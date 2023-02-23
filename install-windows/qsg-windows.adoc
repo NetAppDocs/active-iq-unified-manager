@@ -2,10 +2,14 @@
 permalink: install-windows/qsg-windows.html
 sidebar: sidebar
 keywords: quick start guide, getting started, QSG, Windows QSG, quick installation, Windows installer
-summary: "Quick start guide for Unified Manager on Linux platform."
+summary: "Quick start guide for Unified Manager on Windows platform."
 ---
-
 = Quick start instructions for Windows installations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can download the installation package and install Unified Manager to monitor and troubleshoot data storage capacity, availability, performance, and protection issues.
 
 == System requirements
 

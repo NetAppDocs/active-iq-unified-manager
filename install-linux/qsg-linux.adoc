@@ -4,8 +4,12 @@ sidebar: sidebar
 keywords: quick start guide, getting started, QSG, Linux QSG, RHEL QSG, quick installation
 summary: "Quick start guide for Unified Manager on Linux platform."
 ---
-
 = Quick start instructions for Linux installations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can download the installation package and install Unified Manager on a physical or virtual Red Hat Enterprise Linux or CentOS platform.
 
 == System requirements
 
