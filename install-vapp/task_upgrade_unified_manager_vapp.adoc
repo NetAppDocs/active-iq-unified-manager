@@ -9,7 +9,7 @@ summary: "You can upgrade to Unified Manager on VMware vSphere"
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade Active IQ Unified Manager to release 9.12 from release 9.10 or 9.11 only.
+You can upgrade Active IQ Unified Manager to release 9.13 from release 9.11 or 9.12 only.
 
 During the upgrade process, Unified Manager is unavailable. You should complete any running operations before upgrading Unified Manager.
 
