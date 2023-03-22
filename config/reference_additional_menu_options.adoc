@@ -49,8 +49,7 @@ Provides an option to change the default ports that Unified Manager uses for HTT
 
 * *Control access to MySQL port 3306*
 +
-Controls host access to the default MySQL port 3306. For reasons of security, the access through this port is restricted only to localhost during a fresh installation of Unified Manager on Linux, Windows, and VMware vSphere systems. This option enables you to toggle the visibility of this port between the localhost and remote hosts, that is, if it is enabled for localhost only in your environment, you can make this port available to remote hosts as well. Alternately, when enabled for all hosts, you can restrict the access of this port to localhost only. 
-If the access was enabled on remote hosts previously, the configuration is retained in an upgrade scenario.
+Controls host access to the default MySQL port 3306. For reasons of security, the access through this port is restricted only to localhost during a fresh installation of Unified Manager on Linux, Windows, and VMware vSphere systems. This option enables you to toggle the visibility of this port between the localhost and remote hosts, that is, if it is enabled for localhost only in your environment, you can make this port available to remote hosts as well. Alternately, when enabled for all hosts, you can restrict the access of this port to localhost only. If the access was enabled on remote hosts previously, the configuration is retained in an upgrade scenario. You should check the firewall settings om Windows systems after toggling the port visibility, and disable the firewall settings if the settings are configured to restrict access to MySQL port 3306.
 * *Exit*
 +
 Exits the maintenance console menu.

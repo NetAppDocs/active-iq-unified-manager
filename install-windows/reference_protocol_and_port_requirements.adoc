@@ -80,7 +80,7 @@ Used to enable OnCommand Workflow Automation and OnCommand API Services access t
 
 [NOTE]
 ====
-The default port for MySQL, 3306, is restricted only to localhost while installing Unified Manager on Windows systems. This does not impact any upgrade scenario, where the previous configuration is maintained. This configuration can be modified, and the connection can be made available to other hosts by using the `Control access to MySQL port 3306` option on the maintenance console. For information, see link:../config/reference_additional_menu_options.html[Additional menu options]. The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager].
+The default port for MySQL, 3306, is restricted only to localhost while installing Unified Manager on Windows systems. Enable the firewall to restrict access for the port MySQL,3306, once the installation is complete. This does not impact any upgrade scenario, where the previous configuration is maintained. This configuration can be modified, and the connection can be made available to other hosts by using the `Control access to MySQL port 3306` option on the maintenance console. For information, see link:../config/reference_additional_menu_options.html[Additional menu options]. The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager].
 ====
 //BURT 1404470
 

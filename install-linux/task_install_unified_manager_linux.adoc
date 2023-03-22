@@ -80,9 +80,9 @@ For Red Hat Enterprise Linux 8 system, if you have internal repositories with JD
 
 . *Optional:* You must perform step 7 only if your system is not connected to the internet and you have to manually download the packages that are required for your installation. If your system has the internet access and all the required packages are available, go to step 8. For systems that are not connected to the internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages, and then download those packages:
  .. On the system on which you are installing Unified Manager, view the list of available and unavailable packages:
-
+ +
 `yum install netapp-um<version>.x86_64.rpm --assumeno`
-
++
 The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
 
  .. On a system that has the internet access, download the missing packages:
@@ -103,6 +103,11 @@ Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat
 +
 This command installs the .rpm packages, all other necessary supporting software, and the Unified Manager software.
 +
+If the installation fails with the GPG NOKEY error , use `rpm --import` to import the keys from a URL:
++
+`rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
++
+
 [NOTE]
 ====
 Do not attempt installation by using alternative commands (such as `rpm -ivh`). A successful installation of Unified Manager on a Red Hat Enterprise Linux or CentOS system requires that all Unified Manager files and related files are installed in a specific order into a specific directory structure that is enforced automatically by the `yum install netapp-um<version>.x86_64.rpm` command.

@@ -18,17 +18,22 @@ You must have root user access to the Red Hat Enterprise Linux or CentOS server 
 .Steps
 
 . Log in as root user to the server on which you want to restart the Unified Manager service.
-. Stop the Unified Manager service and the associated MySQL software in the order shown:
+. Stop the Unified Manager service and the associated MySQL service in this order:
 +
 `systemctl stop ocieau`
 +
 `systemctl stop ocie`
 +
 `systemctl stop mysqld`
-. Start Unified Manager in the order shown:
+. Start MySQL and Unified Manager services in this order:
 +
 `systemctl start mysqld`
 +
 `systemctl start ocie`
 +
 `systemctl start ocieau`
+
+[NOTE]
+====
+`mysqld` is a daemon program required to start and stop the MySQL server.
+====
