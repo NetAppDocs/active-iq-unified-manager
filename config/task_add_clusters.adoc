@@ -43,6 +43,8 @@ Certificate-based authentication is not enabled automatically for a cluster, if 
 +
 *Client certificates*: Used during authentication for EMS messages received from ONTAP. This certificate is owned by ONTAP and required when adding an ONTAP cluster to Unified Manager. You cannot add a cluster to Unified Manager with an expired certificate and if the client certificate has already expired, you should regenerate it before adding the cluster. However, if this certificate expires for a cluster that is already added, and is being used by Unified Manager, EMS messaging continues to function with the expired certificate. For information about certificate generation, see the knowledge base (KB) article https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9[How to renew an ONTAP self-signed certificate in System Manager user interface^].
 
+//1374930
+
 * You must have adequate space on the Unified Manager server. You are prevented from adding a cluster to the server when greater than 90% of space in the database directory is already consumed.
 
 For a MetroCluster configuration, you must add both the local and remote clusters, and the clusters must be configured correctly.
