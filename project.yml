@@ -153,7 +153,5 @@ homepage:
           url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
         - title: Unified Manager blogs
           url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
-        - title: Documentation for Active IQ Unified Manager 9.11
-          url: https://docs.netapp.com/us-en/active-iq-unified-manager-911/
         - title: Documentation for Active IQ Unified Manager 9.9 or earlier
           url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791
