@@ -15,6 +15,7 @@ You can add a cluster to Active IQ Unified Manager so that you can monitor the c
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have the following information:
+ ** Unified Manager supports on-premises ONTAP clusters, ONTAP Select, Cloud Volumes ONTAP.
  ** Host name or cluster-management IP address
 +
 The host name is the FQDN or short name that Unified Manager uses to connect to the cluster. The host name must resolve to the cluster-management IP address.
@@ -27,11 +28,11 @@ The cluster-management IP address must be the cluster-management LIF of the admi
 This account must have the _admin_ role with Application access set to _ontapi_, _console_, and _http_.
 
  ** The port number to connect to the cluster using the HTTPS protocol (typically port 443)
- ** You have the required certificates. Unified Manager installs security certificates when adding a cluster:
+ ** You have the required certificates:
 +
 *SSL (HTTPS) certificates*: This certificate is owned by Unified Manager. A default self-signed SSL (HTTPS) certificate is generated with a fresh installation of Unified Manager. NetApp recommends that you upgrade it to CA-signed certificate for better security. If the server certificate expires, you should regenerate it and restart Unified Manager for the services to incorporate the new certificate. For more information about regenerating SSL certificate, see link:../config/task_generate_an_https_security_certificate_ocf.html[Generating an HTTPS security certificate].
 +
-*EMS certificates*: Used during authentication for EMS notifications received from ONTAP. This certificate is owned by Unified Manager.
+*EMS certificates*: This certificate is owned by Unified Manager. It is used during authentication for EMS notifications received from ONTAP. 
 +
 *Certificates for Mutual TLS communication*: Used during Mutual TLS communication between Unified Manager and ONTAP. The certificate-based authentication is enabled for a cluster, based on the ONTAP version. If the cluster running the ONTAP version is lower than the 9.5, certificate-based authentication is not enabled. 
 +

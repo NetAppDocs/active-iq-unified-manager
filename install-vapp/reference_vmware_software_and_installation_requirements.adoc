@@ -31,7 +31,6 @@ The support of Unified Manager for VMware ESXi and vCenter Server is available i
 
 * English
 * Japanese
-* Simplified Chinese
 
 See the Interoperability Matrix for the complete and most current list of supported ESXi versions.
 
