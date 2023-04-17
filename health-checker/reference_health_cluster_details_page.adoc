@@ -63,7 +63,7 @@ Displays the data capacity graph about the used capacity and available capacity 
 
  ** Logical Space Used
 +
-The real size of the data that is being stored on all aggregates on this cluster without applying the savings from using ONTAP storage efficiency technologies. This measurement along  does not include Snapshot copies.
+The real size of the data that is being stored on all aggregates on this cluster without applying the savings from using ONTAP storage efficiency technologies. This measurement does not include Snapshot copies.
 
  ** Used
 +
