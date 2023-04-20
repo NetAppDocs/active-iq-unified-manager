@@ -67,7 +67,7 @@ The real size of the data that is being stored on all aggregates on this cluster
 
  ** Data Reduction
 +
-Display the ratio without Snapshot copies and with two significant digits, for example, 1.8 to 1. This ratio is based on configured ONTAP storage efficiency settings.
+Displays the ratio without Snapshot copies and with two significant digits, for example, 1.8 to 1. This ratio is based on the configured ONTAP storage efficiency settings.
 
  ** Used
 +
