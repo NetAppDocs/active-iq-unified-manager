@@ -117,6 +117,8 @@ homepage:
           url: /data-protection/concept_manage_and_monitor_protection_relationships.html
         - title: Monitor disaster recovery relationships
           url: /data-protection/task_monitor_storage_vms_using_relationships_page.html
+        - title: Monitor MetroCluster configurations
+          url: /storage-mgmt/task_monitor_metrocluster_configurations.html
         - title: Generate reports
           url: /reporting/concept_unified_manager_reporting.html
     - title: Use REST APIs
