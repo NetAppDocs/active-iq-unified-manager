@@ -27,11 +27,6 @@ The following versions of vSphere are supported:
 
 * VMware vCenter Server 7.0 and 8.0
 
-The support of Unified Manager for VMware ESXi and vCenter Server is available in the following languages:
-
-* English
-* Japanese
-
 See the Interoperability Matrix for the complete and most current list of supported ESXi versions.
 
 http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
