@@ -1,5 +1,5 @@
 ---
-permalink: _include/upgrade-path.html
+permalink: include/upgrade-path.html
 sidebar: sidebar
 keywords: supported upgrade path, upgrade path, n-2, which versions can be upgraded
 summary: "Supported upgrade path"
