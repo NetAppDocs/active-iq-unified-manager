@@ -36,7 +36,7 @@ entries:
     - title: Changing the JBoss password 
       url: "/install-windows/task_change_jboss_password_on_windows.html"
     - title: Supported upgrade path for Unified Manager versions
-      url: "/include/upgrade-path.html"   
+      url: "/include/upgrade-path.html" 
     - title: Upgrading Unified Manager
       url: "/install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html"
     - title: Upgrading third-party products

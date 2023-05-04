@@ -18,6 +18,9 @@ Before adding or viewing vCenter Servers, ensure the following:
 * You are aware of the vCenter Server names.
 * You know the IP address of vCenter Server and have the required credentials. The credentials must be of a vCenter Server administrator or a root user with read-only access to vCenter Server.
 * The vCenter Server that you want to add runs vSphere 6.5 or later.
++
+[NOTE]
+The support of Unified Manager for VMware ESXi and vCenter Server is available in English and Japanese languages.
 * The data collection setting in vCenter Server is set to the statistics level of `_Level 3_`, ensuring the required level of metrics collection for all the monitored objects. The interval duration should be `_5 minutes_`, and the save period should be `_1 day_`.
 +
 For more information, see "`Data Collection Levels`" section of _vSphere Monitoring and Performance Guide_ in VMware documentation.

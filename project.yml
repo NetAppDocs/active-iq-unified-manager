@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.12
+  name: Active IQ Unified Manager 9.13
   internal:
     pdf_enabled: true
   prod:
@@ -10,9 +10,12 @@ settings:
     # Current repo stanza comes first
     - name: Unified Manager
       url: /active-iq-unified-manager
-      version-number: "9.12"
+      version-number: "9.13"
     # Additional releases newest to oldest
     # Release in GitHub (typical)
+    - name: Unified Manager
+      url: /active-iq-unified-manager-912  
+      version-number: "9.12"
     - name: Unified Manager
       url: /active-iq-unified-manager-911
       version-number: "9.11"
@@ -22,7 +25,7 @@ settings:
 
 sidebar:
   entries:
-    - title: Active IQ Unified Manager 9.12 docs
+    - title: Active IQ Unified Manager 9.13 docs
       url: "/index.html"
     - title: Release notes
       url: /reference_release_notes.html
@@ -114,6 +117,8 @@ homepage:
           url: /data-protection/concept_manage_and_monitor_protection_relationships.html
         - title: Monitor disaster recovery relationships
           url: /data-protection/task_monitor_storage_vms_using_relationships_page.html
+        - title: Monitor MetroCluster configurations
+          url: /storage-mgmt/task_monitor_metrocluster_configurations.html
         - title: Generate reports
           url: /reporting/concept_unified_manager_reporting.html
     - title: Use REST APIs
@@ -130,6 +135,8 @@ homepage:
           url: /api-automation/concept_workflow_intro.html
         - title: Provision storage
           url: /api-automation/concept_provision_workflow.html
+        - title: API reference for Unified Manager
+          url: https://library.netapp.com/ecmdocs/ECMLP2885890/html/index.html
     - title: Events and alerts
       links:
         - title: Dashboard
@@ -150,7 +157,5 @@ homepage:
           url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
         - title: Unified Manager blogs
           url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
-        - title: Documentation for Active IQ Unified Manager 9.11
-          url: https://docs.netapp.com/us-en/active-iq-unified-manager-911/
         - title: Documentation for Active IQ Unified Manager 9.9 or earlier
           url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791
