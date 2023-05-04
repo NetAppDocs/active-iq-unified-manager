@@ -15,12 +15,8 @@ You can use the Cluster Setup page to view your inventory of clusters. You can v
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
-The list of clusters is sorted by the collection state severity level column. You can click a column header to sort the clusters by different columns.
-
 .Step
 
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
-
-*Related information*
-
-link:[Configuration/Cluster Data Sources page]
++
+All the clusters in your storage environment managed by Unified Manager are displayed.The list of clusters is sorted by the collection state severity level column. You can click a column header to sort the clusters by different columns.

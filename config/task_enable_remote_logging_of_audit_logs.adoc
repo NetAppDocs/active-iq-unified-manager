@@ -38,3 +38,8 @@ Example: syslog-ng requires a <hash> of the certificate to be created using the 
 . Click *Save* to configure the connection with your server and enable remote logging.
 +
 You will be redirected to the Audit Logs page.
++
+[NOTE]
+====
+The *Connection Timeout* value can affect the configuration. If the configuration takes longer time to respond than the defined value, it can lead to configuration failure due to a connection error. To establish a successful connection, increase the *Connection Timeout* value, and try the configuration again.
+====

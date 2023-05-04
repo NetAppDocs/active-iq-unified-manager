@@ -39,7 +39,7 @@ OpenJDK version 11.0.17
 a|
 `java -version`
 a|
-MySQL 8.0.30 Community Edition
+MySQL 8.0.32 Community Edition
 a|
 `rpm -qa \| grep -i mysql`
 a|
@@ -48,7 +48,7 @@ a|
 `rpm -qa \| grep p7zip`
 |===
 
-. If the installed version of MySQL is earlier than MySQL 8.0.30 Community Edition, enter the following command to uninstall it:
+. If the installed version of MySQL is earlier than MySQL 8.0.32 Community Edition, enter the following command to uninstall it:
 +
 `rpm -e <mysql_package_name>`
 +
@@ -103,6 +103,11 @@ Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat
 +
 This command installs the .rpm packages, all other necessary supporting software, and the Unified Manager software.
 +
+If the installation fails with the GPG NOKEY error , use `rpm --import` to import the keys from a URL:
++
+`rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
++
+
 [NOTE]
 ====
 Do not attempt installation by using alternative commands (such as `rpm -ivh`). A successful installation of Unified Manager on a Red Hat Enterprise Linux or CentOS system requires that all Unified Manager files and related files are installed in a specific order into a specific directory structure that is enforced automatically by the `yum install netapp-um<version>.x86_64.rpm` command.
