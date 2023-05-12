@@ -183,7 +183,7 @@ when the expected IOPS is less than this value.
 * Min Allocation: Whether "allocated space" or "used space" is used to determine the maximum throughput (peak) IOPS.
 * Expected Latency: The expected average latency for storage input/output operations. 
 * Shared: For traditional QoS policies, whether the throughput values defined in the policy group are shared among multiple objects. 
-* Associated Objects: The number of workloads that are assigned to the QoS policy group. You can click the expand button ( ) next to the QoS Policy Group Name to view more details about the policy group.
+* Associated Objects: The number of workloads that are assigned to the QoS policy group. You can click the expand button (image:../media/chevron_down.gif[]) next to the QoS Policy Group Name to view more details about the policy group.
 * Allocated Capacity: The amount of space that the objects that are in the QoS policy group are currently using.
 * Associated Objects: The number of workloads that are assigned to the QoS policy group, separated into volumes
 and LUNs. You can click the number to navigate to a page that provides more details about the selected volumes or LUNs.
