@@ -30,7 +30,7 @@ If the folder names contain a space, you must include the absolute path or relat
 .Steps
 . If you are performing a restore onto a new server, after installing Unified Manager do not launch the UI or configure any clusters, users, or authentication settings when the installation is complete. The backup file populates this information during the restore process.
 . Log in to the Unified Manager system with administrator credentials.
-. Launch PowerShell as a Windows administrator.
+. Launch PowerShell or command prompt as a Windows administrator.
 . Enter the command `maintenance_console` and press Enter.
 . In the maintenance console *Main Menu*, enter the number for the *Backup Restore* option.
 . Enter the number for the *Restore MySQL Backup*.
