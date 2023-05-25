@@ -15,7 +15,7 @@ The difference between the two options listed below is that in one case you are 
 
 Because this task requires that you create a backup of Unified Manager on the Red Hat Enterprise Linux 7.x system, you should create the backup only when you are prepared to complete the entire upgrade process so that Unified Manager is offline for the shortest period of time. Gaps in collected data appear in the Unified Manager UI for the period of time during which the Red Hat Enterprise Linux 7.x system is shut down and before the new Red Hat Enterprise Linux 8.x is started.
 
-See link:concept_manage_backup_and_restore_operations.html[Managing backup and restore operations] if you need to review detailed instructions for the backup and restore processes.
+See link:../health-checker/concept_manage_backup_and_restore_operations.html[Managing backup and restore operations] if you need to review detailed instructions for the backup and restore processes.
 
 Follow these steps if you have a spare system on which you can install Red Hat Enterprise Linux 8.x software so that you can perform the Unified Manager restore on that system while the Red Hat Enterprise Linux 7.x system is still available.
 
