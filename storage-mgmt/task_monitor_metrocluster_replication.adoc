@@ -40,7 +40,7 @@ A list of the monitored clusters is displayed.
 +
 The topology of the MetroCluster configuration to be replicated is displayed at the local site in the corresponding cluster object area with the information about the remote site where the data is being mirrored. If you move the pointer over the icon, you can view detailed information about the generated event.
 
-You can use the information displayed in the to rectify any replication issues. If you discover mirroring issues in your MetroCluster configuration, you must log in to System Manager or access the ONTAP CLI to resolve the issues.
+You can use the information displayed in the Cluster / Health details page to rectify any replication issues. If you discover mirroring issues in your MetroCluster configuration, you must log in to System Manager or access the ONTAP CLI to resolve the issues.
 
 
 
