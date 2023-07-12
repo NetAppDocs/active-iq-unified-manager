@@ -13,7 +13,7 @@ The performance capacity used value helps you identify the nodes and aggregates 
 
 The following figure shows the latency versus utilization curve for a resource and identifies, with colored dots, three areas where the current operational point could be located.
 
-image::../media/headroom_chart_over_under.gif[]
+image::../media/headroom_chart_over_under.gif[A UI screenshot that shows latency versus utilization curve for a resource.]
 
 * A performance capacity used percentage equal to 100 is at the optimal point.
 +

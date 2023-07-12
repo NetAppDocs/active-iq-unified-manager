@@ -23,4 +23,4 @@ This is one example of an event investigation navigation.
 . Click the name of the event that you want to investigate and the Event details page is displayed.
 . View the Description of the event and review the Suggested Actions (where available) to view more details about the event that may help you resolve the issue. You can click the *Analyze Workload* button to display detailed performance charts to help further analyze the issue.
 
-image::../media/event_flow.png[]
+image::../media/event_flow.png[A UI screenshot that shows an event investigation navigation.]

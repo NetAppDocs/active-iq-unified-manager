@@ -13,7 +13,7 @@ You can monitor the performance capacity used values for all nodes or for all ag
 
 Performance capacity used values appear in the Dashboard, Performance Inventory pages, Top Performers page, Create Threshold Policy page, Performance Explorer pages, and in detail charts. For example, the Performance: All Aggregates page provides a column Performance Capacity Used to view the performance capacity used value for all aggregates.
 
-image::../media/node_inventory_used_headroom.gif[]
+image::../media/node_inventory_used_headroom.gif[A UI screenshot that shows the performance in All Aggregates page.]
 
 Monitoring the performance capacity used counter enables you to identify the following:
 
