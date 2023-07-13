@@ -13,7 +13,7 @@ You can monitor the available IOPS values for all nodes or for all aggregates in
 
 Available IOPS values appear in the Performance Inventory pages and in the Performance Explorer page charts for nodes and aggregates. For example, when viewing a node in the Node/Performance Explorer page, you can select the "`Available IOPS`" counter chart from the list so you can compare the available IOPS values for the node and multiple aggregates on that node.
 
-image::../media/available_iops_zoom.gif[]
+image::../media/available_iops_zoom.gif[A UI screenshot that shows how you can view a node in the Node/Performance Explorer page and select the “Available IOPS” from the list.]
 
 Monitoring the available IOPS counter enables you to identify:
 
