@@ -36,7 +36,7 @@ Select the check box at the left of each object.
 a|
 All objects on the page
 a|
-Click image:../media/select_dropdown_65_png.gif[] in the column header.
+Click image:../media/select_dropdown_65_png.gif[select dropdown icon] in the column header.
 |===
 
 . Click *Clear Performance Threshold Policy*.
