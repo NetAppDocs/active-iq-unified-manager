@@ -26,7 +26,7 @@ Use the following steps to open a Health: All Volumes view, download the view in
 . Name and save the custom view `Available IOPS Per Aggr.`
 . Select *Reports* > *Download Excel*.
 +
-image::../media/download_excel_menu.png[]
+image::../media/download_excel_menu.png[A UI screenshot that shows how to download excel from reports.]
 +
 Depending on your browser, you might need to click *OK* to save the file.
 
@@ -55,7 +55,7 @@ Make sure you are in the same view where you downloaded the Excel file.
 +
 A check mark appears beside the *Reports* > *Upload Excel* menu item.
 +
-image::../media/upload_excel.png[]
+image::../media/upload_excel.png[A UI screenshot that shows how to upload excel to reports.]
 
 . Click *Scheduled Reports*.
 . Click *Add Schedule* to add a new row to the Report Schedules page so that you can define the schedule characteristics for the new report.

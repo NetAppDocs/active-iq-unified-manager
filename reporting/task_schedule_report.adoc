@@ -25,7 +25,7 @@ Use the following steps to test and schedule a report to be generated for a view
 . Customize the view as needed using the built-in Unified Manager features.
 . After you customized the view, you can provide a unique name in the *View* field and click the check mark to save it.
 +
-image::../media/view_save.gif[]
+image::../media/view_save.gif[A UI screenshot that shows how to save a view.]
 
 . You can use the advanced features of Microsoft® Excel to customize your report. For details, see link:task_use_excel_to_customize_your_report.html[Using Excel to customize your report].
 . To see the output before you schedule or share it:
@@ -58,6 +58,6 @@ For reports where you used Excel to customize the content, always select *XSLX*.
 
 . Click the checkmark (image:../media/blue_check.gif[]) to save the report schedule.
 +
-image::../media/scheduled_reports.gif[]
+image::../media/scheduled_reports.gif[A UI screenshot that shows how to save the report schedule.]
 +
 The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the scheduled frequency.

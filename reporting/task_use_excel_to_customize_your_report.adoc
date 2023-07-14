@@ -32,7 +32,7 @@ For example, some advanced Excel features you can use in your report include:
  ** Do not change the existing sheets, data and info. Instead, copy the data to a new page that you create.
  ** One exception to the above rule is that you can create formulas on the "`data`" page. Use the data page formulas to create charts on new pages.
  ** Do not name a new sheet data or info.
-* If a customized Excel file exists, there is a check mark beside the *Reports* > *Upload Excel* menu item. When you download the Excel file, the version with the customizations is used.image:../media/upload_excel.png[]
+* If a customized Excel file exists, there is a check mark beside the *Reports* > *Upload Excel* menu item. When you download the Excel file, the version with the customizations is used.image:../media/upload_excel.png[A UI screenshot that shows how to upload excel to reports.]
 
 ====
 .Steps
