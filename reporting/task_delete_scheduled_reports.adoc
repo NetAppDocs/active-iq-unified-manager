@@ -19,14 +19,14 @@ After reports are scheduled, you can delete them from the Report Schedules page.
 
 . In the left navigation pane, click *Storage Management* > *Report Schedules*.
 +
-image::../media/scheduled_reports_2.gif[]
+image::../media/scheduled_reports_2.gif[A UI screenshot that shows scheduled reports.]
 +
 [NOTE]
 ====
 If you have the appropriate permissions you can remove any report and its schedule in the system.
 ====
 
-. Click the more icon image:../media/more_icon.gif[] for the schedule you want to remove.
+. Click the more icon image:../media/more_icon.gif[""] for the schedule you want to remove.
 . Click *Delete*.
 . Confirm your decision.
 +

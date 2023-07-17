@@ -23,4 +23,4 @@ Logical storage resources include volumes of all types and qtrees, as well as th
 
 The following illustration shows the storage resources in a 2-node cluster:
 
-image::../media/storage_resource_model.gif[]
+image::../media/storage_resource_model.gif[A UI screenshot that shows storage resources in a 2-node cluster.]

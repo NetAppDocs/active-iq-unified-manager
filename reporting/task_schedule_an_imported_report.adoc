@@ -22,11 +22,11 @@ After upgrading to Unified Manager 9.6 GA or later, the Report Schedules page li
 
 . Open the Report Schedules page. If you have imported reports, a message appears.
 +
-image::../media/message_non_scehduled_reports.png[]
+image::../media/message_non_scehduled_reports.png[A UI screenshot that shows the message appears if imported reports are there.]
 
 . Click the *View* name to display the SQL query that is being used to generate the report.
 +
-image::../media/importedreport1.png[]
+image::../media/importedreport1.png[A UI screenshot that shows the SQL query used to generate the report.]
 
 . Click the more icon image:../media/more_icon.gif[], click *Edit*, define the report schedule details, and save the report.
 +
