@@ -31,7 +31,7 @@ Enables you to type the file path to which you want data restored. The path you 
 
 * *Name*
 +
-Displays the names of the available folders for the selected volume. Clicking a folder in the Name list displays the subfolders, if any exist. Files contained in the folders are not displayed. Clicking image:../media/icon_upfolder.gif[] after you have selected a folder moves you up one level in the directory structure.
+Displays the names of the available folders for the selected volume. Clicking a folder in the Name list displays the subfolders, if any exist. Files contained in the folders are not displayed. Clicking image:../media/icon_upfolder.gif[upfolder icon] after you have selected a folder moves you up one level in the directory structure.
 
 == Command buttons
 

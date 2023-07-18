@@ -28,7 +28,7 @@ When the original source volume is available again, you might decide to reestabl
 +
 The reversed relationship looks similar to a cascaded relationship:
 +
-image::../media/um_toplogy_reverse_resync.gif[]
+image::../media/um_toplogy_reverse_resync.gif[A UI screenshot that shows the process of reverse relationship.]
 
 . link:task_break_snapmirror_relationship_from_health_volume_details.html[Break the reversed SnapMirror relationship].
 +
