@@ -45,7 +45,7 @@ Note that each filter is joined with a logical AND so that all volumes returned 
 . Click the top of the Cold Data column to sort the results so that the volumes with the most cold data appear at the top of the view.
 . When the view is customized, the view name is Unsaved View. Name the view to reflect what the view is showing, for example "`Vols change tiering policy`". When done, click the check mark or press *Enter* to save the view with the new name.
 +
-image::../media/report_vol_code_data_2.png[A UI screenshot that shows an example of the view saved with a particular name.]
+image::../media/report_vol_code_data_2.png[A UI screenshot that shows Vols change tiering policy page with the required columns in the correct order.]
 
 . Download the report as a *CSV*, *Excel*, or *PDF* file to see the output before you schedule or share it.
 +

@@ -33,7 +33,7 @@ Add or remove other columns to create a view that is important for your report.
  ** Cold Data greater than 10 GB
 image:../media/filter_cold_data.gif[A UI screenshot that shows how you can add and apply filter.]
 . Click the top of the Cold Data column so that the volumes with the most cold data appear at the top of the view.
-. Save the view with a name to reflect what the view is showing, for example "`Vols change tiering policy`".image:../media/report_vol_cold_data.gif[A UI screenshot that shows an example of a view.]
+. Save the view with a name to reflect what the view is showing, for example "`Vols change tiering policy`".image:../media/report_vol_cold_data.gif[A UI screenshot that shows Vols change tiering policy page with the required columns in the correct order.]
 . Click the *Scheduled Reports* button on the inventory page.
 . Click *Add Schedule* to add a new row to the Report Schedules page so that you can define the schedule characteristics for the new report.
 . Enter a name for the report schedule and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.

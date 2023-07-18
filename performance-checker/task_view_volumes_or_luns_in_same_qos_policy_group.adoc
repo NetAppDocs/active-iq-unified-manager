@@ -21,7 +21,7 @@ In the case of adaptive QoS policies and Unified Manager Performance Service Lev
 The Performance: Traditional QoS Policy Groups view is displayed by default.
 
 . If you are interested in traditional policy group, stay on this page. Otherwise, select one of the additional View options to display all the adaptive QoS policy groups or all the QoS policy groups that were created by Unified Manager Performance Service Levels.
-. In the QoS policy that you are interested in, click the expand button (image:../media/chevron_down.gif[expand button]) next to the QoS Policy Group name to view more details.image:../media/adaptive_qos_expanded.gif[]
+. In the QoS policy that you are interested in, click the expand button (image:../media/chevron_down.gif[expand button icon]) next to the QoS Policy Group name to view more details.image:../media/adaptive_qos_expanded.gif[]
 . Click the Volumes or the LUNs link to view the objects using this QoS policy.
 +
 The Performance inventory page for Volumes or LUNs is displayed with the sorted list of objects that are using the QoS policy.

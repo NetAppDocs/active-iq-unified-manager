@@ -23,6 +23,6 @@ In the view drop down, items with the delete icon are existing custom views that
 
 ====
 
-image::../media/view_drop_down_3.png[]
+image::../media/view_drop_down_3.png[A UI screenshot of View drop down.]
 
 Only users with the Application Administrator or Storage Administrator role can see the delete icon, change or delete a view, or change or delete a scheduled report.

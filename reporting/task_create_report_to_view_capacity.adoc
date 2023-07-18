@@ -43,7 +43,7 @@ Depending on your browser, you might need to click *OK* to save the file.
 +
 The formula totals each column based on the current data.
 
-image::../media/capacitysums.png[A UI screenshot that shows the total capacity based on current data.]
+image::../media/capacitysums.png[A UI screenshot of a data sheet that shows the total capacity based on current data.]
 
 . On the data sheet, select the *Total Data Capacity (GB)* and *Committed Capacity (GB)* columns.
 . Select *Recommended Charts* from the *Insert* menu and select the *Clustered Column* chart.
@@ -51,7 +51,7 @@ image::../media/capacitysums.png[A UI screenshot that shows the total capacity b
 . Using the *Design* and *Format* menus, which are available when the chart is selected, you can customize how the chart looks.
 . When satisfied, save the file with your changes. Do not change the file name or location.
 +
-image::../media/cluster_column_chart_2.png[A UI screenshot that shows the chart with total data and committed capacity.]
+image::../media/cluster_column_chart_2.png[A UI screenshot of a chart that shows the total data and committed capacity.]
 
 . In Unified Manager, select *Reports* > *Upload Excel*.
 +
