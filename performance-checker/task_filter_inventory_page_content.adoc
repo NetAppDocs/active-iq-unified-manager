@@ -47,6 +47,6 @@ You can add filters using the Filtering panel.
 
 The illustration shows the Filtering panel with three filters. The *+Add Filter* button displays when you have fewer than the maximum of four filters.
 
-image::../media/opm_filtering_panel_draft_3.gif[]
+image::../media/opm_filtering_panel_draft_3.gif[A UI screenshot that shows Filtering panel with three filters.]
 
 After clicking *Apply Filter*, the Filtering panel closes, applies your filters, and shows the number of filters applied (image:../media/opm_filters_applied.gif[]).

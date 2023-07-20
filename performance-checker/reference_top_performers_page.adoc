@@ -42,7 +42,7 @@ Click the *Sort* menu to select an ascending or descending sort for the selected
 +
 The counter bar in the graph shows the performance statistics for each object, represented as a bar for that item. The bar graphs are color-coded. If the counter is not breaching a performance threshold, the counter bar is displayed in blue. If a threshold breach is active (a new or acknowledged event), the bar is displayed in the color for the event: warning events are displayed in yellow (image:../media/treemapstatus_warning_png.gif[Icon for TreeMap – Warning status]), and critical events are displayed in red (image:../media/treemapred_png.gif[Icon for TreeMap – Red color]). Threshold breaches are further indicated by severity event indicator icons for warning and critical events.
 +
-image::../media/top_10_example.gif[]
+image::../media/top_10_example.gif[A UI screenshot that shows the performance statistics for each object represented as counter bar in the graph.]
 +
 For each graph, the X axis displays the top performers for the selected object type. The Y axis displays units applicable to the selected counter. Clicking the object name link below each vertical bar graph element navigates to the Performance Landing page for the selected object.
 

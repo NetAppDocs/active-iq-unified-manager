@@ -13,7 +13,7 @@ Events that trigger a switchover or switchback cause active volumes to be moved 
 
 Because volumes are moved from one cluster to another, it is recommended that you monitor both clusters. A single instance of Unified Manager can monitor both clusters in a MetroCluster configuration, but sometimes the distance between the two locations necessitates using two Unified Manager instances to monitor both clusters. The following figure shows a single instance of Unified Manager:
 
-image::../media/opm_mcc_switchover.gif[]
+image::../media/opm_mcc_switchover.gif[A UI screenshot that shows a single instance of Unified Manager.]
 
 The volumes with p in their names indicate the primary volumes, and the volumes with b in their names are mirrored backup volumes that are created by SnapMirror.
 
@@ -40,7 +40,7 @@ Note that Vol3p and Vol3b are not the same volumes, because they are on differen
 
 When Cluster B is repaired and a switchback is performed, Vol3p is active again on Cluster B, with the historical statistics and a gap of statistics for the period during the switchover. Vol3b is not viewable from Cluster A until another switchover occurs:
 
-image::../media/opm_mcc_volumes.gif[]
+image::../media/opm_mcc_volumes.gif[A UI screenshot that shows volume behavior during switchover.]
 
 [NOTE]
 ====

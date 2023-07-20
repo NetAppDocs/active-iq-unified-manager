@@ -27,7 +27,7 @@ The current release provides thresholds that send events when a counter value ex
 
 An example counter chart is shown here, indicating that a warning threshold (yellow icon) was breached at 1:00, and that a critical threshold (red icon) was breached at 12:10, 12:30, and 1:10:
 
-image::../media/opm2_threshold_breach.gif[]
+image::../media/opm2_threshold_breach.gif[A UI screenshot that shows an example counter chart.]
 
 A threshold breach must occur continuously for the specified duration. If the threshold dips below the limit values for any reason, a subsequent breach is considered the start of a new duration.
 

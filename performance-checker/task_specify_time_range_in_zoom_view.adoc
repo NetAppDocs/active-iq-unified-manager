@@ -17,7 +17,7 @@ Selecting the *Last 13 Months* option or specifying a custom date range greater 
 
 When selecting a time range (either custom or predefined), time ranges of 30 days or fewer are based on 5-minute interval data samples. Time ranges greater than 30 days are based on one-hour interval data samples.
 
-image::../media/time_range_selector.gif[]
+image::../media/time_range_selector.gif[A UI screenshot that shows Time Range panel.]
 
 . Click the *Time Range* drop-down box and the Time Range panel displays.
 . To select a predefined time range, click one of the *Last...* buttons at the right of the *Time Range* panel. When selecting a predefined time range, data for up to 13 months is available. The predefined time range button you selected is highlighted, and the corresponding days and time display in the calendars and time selectors.

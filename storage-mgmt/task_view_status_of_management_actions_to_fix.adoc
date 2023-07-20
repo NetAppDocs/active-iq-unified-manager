@@ -19,7 +19,7 @@ There are three filters available on the Management Actions page:
 
 .Steps
 
-. Click *Management Actions* on the left navigation pane. Alternately, click image:../media/more_icon.gif[] at the top of the *Management Actions* panel on the *Dashboard* and select the View you want to see.
+. Click *Management Actions* on the left navigation pane. Alternately, click image:../media/more_icon.gif[more icon] at the top of the *Management Actions* panel on the *Dashboard* and select the View you want to see.
 +
 The Management Actions page is displayed.
 

@@ -53,7 +53,7 @@ Positioning the cursor over the event count for Active events shows the type and
 
 The number at the top right of the chart in the gray bar is the average value from the last 72-hour period. Numbers shown at the bottom and top of the trend line graph are the minimum and maximum values for the last 72-hour period. The gray bar below the chart contains the count of active (new and acknowledged) events and obsolete events from the last 72-hour period.
 
-image::../media/iops_graph.gif[]
+image::../media/iops_graph.gif[A UI screenshot that shows the IOPS graph.]
 
 * *Latency counter chart*
 +

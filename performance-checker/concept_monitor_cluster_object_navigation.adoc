@@ -22,4 +22,4 @@ This is one example of many possible cluster object navigations:
 
 You should investigate these volumes to see if you should apply a QoS policy or Performance Service Level policy, or change the policy settings, so that those volumes do not use such a large percentage of IOPS on the cluster.
 
-image::../media/monitor_cluster_object.png[]
+image::../media/monitor_cluster_object.png[A UI screenshot that shows one example of many possible cluster object navigations. ]

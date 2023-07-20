@@ -16,7 +16,7 @@ Most events have a variety of possible resolutions that are displayed in the Eve
 .Steps
 . To view events that can be fixed from the *Dashboard*, click *Dashboard*.
 +
-image::../media/management_actions.png[]
+image::../media/management_actions.png[A UI screenshot that shows how to view and fix events from Dashboard.]
 
 . To resolve any of the issues that Unified Manager can fix, click the *Fix It* button. To fix an issue that exists on multiple objects, click the *Fix All* button.
 

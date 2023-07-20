@@ -22,7 +22,7 @@ Use the following steps to open a Health: All Aggregates view, download the view
 . In the left navigation pane, click *Storage* > *Aggregates*.
 . Select *Reports* > *Download Excel*.
 +
-image::../media/download_excel_menu.png[]
+image::../media/download_excel_menu.png[A UI screenshot that shows how to download excel from reports.]
 +
 Depending on your browser, you might need to click *OK* to save the file.
 
@@ -30,7 +30,7 @@ Depending on your browser, you might need to click *OK* to save the file.
 . If needed, click *Enable Editing*.
 . On the data sheet, right-click the Type column and select *Sort* > *Sort A to Z*.
 +
-image::../media/sort_01.png[]
+image::../media/sort_01.png[A UI screenshot that shows how to select sort in the type column.]
 +
 This will arrange your data by storage type, such as:
 
@@ -44,7 +44,7 @@ This will arrange your data by storage type, such as:
 +
 The chart appears on the data sheet.
 +
-image::../media/3d_column_01.png[]
+image::../media/3d_column_01.png[A UI screenshot that shows the 3D column chart.]
 
 . Right-click the chart and select *Move Chart*.
 . Select *New sheet* and name the sheet *Total Storage Charts*.
@@ -58,7 +58,7 @@ Make sure the new sheet appears after the info and data sheets.
 . Using the *Design* and *Format* menus, available when the chart is selected, you can customize how the chart looks.
 . When satisfied, save the file with your changes. Do not change the file name or location.
 +
-image::../media/total_vs_available_capacity.png[]
+image::../media/total_vs_available_capacity.png[A UI screenshot that shows total versus available capacity chart.]
 
 . In Unified Manager, select *Reports* > *Upload Excel*.
 +
@@ -73,7 +73,7 @@ Make sure you are in the same view where you downloaded the Excel file.
 +
 A check mark appears beside the *Reports* > *Upload Excel* menu item.
 +
-image::../media/upload_excel.png[]
+image::../media/upload_excel.png[A UI screenshot that shows how to upload excel to reports.]
 
 . Click *Scheduled Reports*.
 . Click *Add Schedule* to add a new row to the *Report Schedules* page so that you can define the schedule characteristics for the new report.

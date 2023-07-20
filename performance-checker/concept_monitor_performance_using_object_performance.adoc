@@ -13,7 +13,7 @@ The object inventory performance pages display performance information, performa
 
 Object inventory performance pages provide a high-level overview of object status, enabling you to assess the overall performance of all objects and compare object performance data. You can refine the content of object inventory pages by searching, sorting, and filtering. This is beneficial when monitoring and managing object performance, because it enables you to quickly locate objects with performance issues and to begin the troubleshooting process.
 
-image::../media/perf_node_inventory.gif[]
+image::../media/perf_node_inventory.gif[A UI screenshot that shows the details of the object in the Performance/All Nodes inventory page.]
 
 By default, objects on the performance inventory pages are sorted based on object performance criticality. Objects with new critical performance events are listed first, and objects with warning events are listed second. This provides an immediate visual indication of issues that must be addressed. All performance data is based on a 72-hour average.
 
