@@ -42,11 +42,11 @@ The check box at the left of each object.
 a|
 All objects on the page
 a|
-The image:../media/select_dropdown_65_png.gif[] drop-down box, and choose *Select all objects on this page*.
+The image:../media/select_dropdown_65_png.gif[select dropdown icon] drop-down box, and choose *Select all objects on this page*.
 a|
 All objects of the same type
 a|
-The image:../media/select_dropdown_65_png.gif[] drop-down box, and choose *Select all objects*.
+The image:../media/select_dropdown_65_png.gif[select dropdown icon] drop-down box, and choose *Select all objects*.
 |===
 You can use the sorting and filtering functionality to refine the list of objects on the inventory page to make it easier to apply threshold policies to many objects.
 

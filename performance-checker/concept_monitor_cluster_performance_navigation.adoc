@@ -22,4 +22,4 @@ Statistics for both objects will appear in the counter charts for comparison.
 
 . In the Comparing pane at the right on the Explorer page, click *Zoom View* in one of the counter charts to view details about the performance history for that aggregate.
 
-image::../media/monitor_cluster_performance.png[]
+image::../media/monitor_cluster_performance.png[A UI screenshot that shows how you can investigate a particular aggregate.]

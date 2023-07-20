@@ -13,7 +13,7 @@ The Performance Cluster Landing page provides a high-level performance overview 
 
 The Performance Cluster Landing page provides a high-level overview of each cluster that is managed by an instance of Unified Manager. This page provides you with information about events and performance, and enables you to monitor and troubleshoot clusters. The following image shows an example of the Performance Cluster Landing page for the cluster called opm-mobility:
 
-image::../media/opm_cluster_landing_page_draft.gif[]
+image::../media/opm_cluster_landing_page_draft.gif[A UI screenshot that shows an example of the Performance Cluster Landing page for the cluster called opm-mobility.]
 
 The event count on the Cluster Summary page may not match the event count on the Performance Event Inventory page. This is because the Cluster Summary page can show one event each in the Latency and Utilization bars when combination threshold policies have been breached, whereas the Performance Event Inventory page shows only one event when a combination policy has been breached.
 

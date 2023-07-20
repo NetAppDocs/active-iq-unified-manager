@@ -19,14 +19,14 @@ After reports are scheduled, you can edit them on the Report Schedules page.
 
 . In the left navigation pane, click *Storage Management* > *Report Schedules*.
 +
-image::../media/scheduled_reports_2.gif[]
+image::../media/scheduled_reports_2.gif[A UI screenshot that shows scheduled reports.]
 +
 [NOTE]
 ====
 If you have the appropriate permissions you can alter any report and its schedule in the system.
 ====
 
-. Click the more icon image:../media/more_icon.gif[] for the schedule you want to change.
+. Click the more icon image:../media/more_icon.gif[""] for the schedule you want to change.
 . Click *Edit*.
 . You can change the *Schedule Name*, *Recipient* list, *Frequency*, and *Format* for the report schedule.
 . When done, click the check mark to save your changes.

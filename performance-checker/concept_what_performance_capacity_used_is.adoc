@@ -13,7 +13,7 @@ The performance capacity used counter helps you to identify whether the performa
 
 The optimal used performance capacity is the point at which a node or an aggregate has optimal utilization and latency (response time), and is being used efficiently. A sample latency versus utilization curve is shown for an aggregate in the following figure.
 
-image::../media/headroom_chart.gif[]
+image::../media/headroom_chart.gif[A UI screenshot that shows a sample latency versus utilization curve for an aggregate.]
 
 In this example, the _operational point_ identifies that the aggregate is currently operating at 50% utilization with latency of 1.0 ms/op. Based on the statistics captured from the aggregate, Unified Manager determines that additional performance capacity is available for this aggregate. In this example, the _optimal point_ is identified as the point when the aggregate is at 80% utilization with latency of 2.0 ms/op. Therefore, you can add more volumes and LUNs to this aggregate so that your systems are used more efficiently.
 

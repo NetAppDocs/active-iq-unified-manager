@@ -32,6 +32,6 @@ The Latency - Cluster Components chart is displayed.
 
 . To view a larger version of the chart, select *Zoom View*.
 +
-The cluster component comparative chart is displayed. You can restrict the comparison by deselecting or selecting the image:../media/eye_icon.gif[] that is associated with each cluster component.
+The cluster component comparative chart is displayed. You can restrict the comparison by deselecting or selecting the image:../media/eye_icon.gif[eye icon] that is associated with each cluster component.
 
 . To view the specific values, move your cursor into the chart area to see the popup window.

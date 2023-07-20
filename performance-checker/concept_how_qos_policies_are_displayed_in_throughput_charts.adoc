@@ -40,7 +40,7 @@ Displays "`(QoS Adaptive)`"
 |===
 The following figure shows an example of how the three options are shown in the counter charts.
 
-image::../media/3_qos_policy_charts.gif[]
+image::../media/3_qos_policy_charts.gif[A UI screenshot that shows an example of how the three options are shown in the counter charts.]
 
 When a normal QoS policy that has been defined in IOPS appears in the IOPS/TB chart for a workload, ONTAP converts the IOPS value to an IOPS/TB value and Unified Manager displays that policy in the IOPS/TB chart along with the text "`QoS, defined in IOPS`".
 

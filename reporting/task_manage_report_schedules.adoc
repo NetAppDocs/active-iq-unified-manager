@@ -35,7 +35,7 @@ a|
 Edit an existing schedule
 a|
 
- .. Click the more icon image:../media/more_icon.gif[] for the schedule you want to use.
+ .. Click the more icon image:../media/more_icon.gif[""] for the schedule you want to use.
  .. Click *Edit*.
  .. Make the necessary changes.
  .. Click the check mark to save your changes.
@@ -44,7 +44,7 @@ a|
 Delete an existing schedule
 a|
 
- .. Click the more icon image:../media/more_icon.gif[] for the schedule you want to use.
+ .. Click the more icon image:../media/more_icon.gif[""] for the schedule you want to use.
  .. Click *Delete*.
  .. Confirm your decision.
 

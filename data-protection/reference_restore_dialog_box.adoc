@@ -33,7 +33,7 @@ The Select items to restore area enables you to select either the entire volume 
 
 * *Path field*
 +
-Displays the path to the data you want to restore. You can either navigate to the folder and files you want to restore, or you can type the path. This field is empty until you select or type a path. Clicking image:../media/icon_upfolder.gif[] after you have chosen a path moves you up one level in the directory structure.
+Displays the path to the data you want to restore. You can either navigate to the folder and files you want to restore, or you can type the path. This field is empty until you select or type a path. Clicking image:../media/icon_upfolder.gif[upfolder icon] after you have chosen a path moves you up one level in the directory structure.
 
 * *Folders and files list*
 +

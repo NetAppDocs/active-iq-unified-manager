@@ -17,4 +17,4 @@ If a performance counter or capacity value has a large change during a collectio
 
 A sample alert email is shown below:
 
-image::../media/um_email_alert.gif[]
+image::../media/um_email_alert.gif[A UI screenshot that shows a sample alert email.]

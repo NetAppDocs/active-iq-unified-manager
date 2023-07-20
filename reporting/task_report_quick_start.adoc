@@ -29,7 +29,7 @@ Follow the steps below to:
 . In the View menu, select *Performance* > *All Volumes*.
 . Click *Show/Hide* to make sure the "`Disk Types`" column appears in the view.
 +
-image::../media/show_hide_3.png[]
+image::../media/show_hide_3.png[A UI screenshot that shows the drop down list of Show/Hide menu.]
 +
 Add or remove other columns to create a view that contains the fields that are important for your report.
 
@@ -38,14 +38,14 @@ Add or remove other columns to create a view that contains the fields that are i
  ** Disk Types contains FabricPool
  ** Cloud Recommendation contains tier
  ** Cold Data greater than 10 GB
-image:../media/filter_cold_data_2.png[]
+image:../media/filter_cold_data_2.png[A UI screenshot that shows how to apply filter from the filter option.]
 
 +
 Note that each filter is joined with a logical AND so that all volumes returned must meet all the criteria. You can add a maximum of five filters.
 . Click the top of the Cold Data column to sort the results so that the volumes with the most cold data appear at the top of the view.
 . When the view is customized, the view name is Unsaved View. Name the view to reflect what the view is showing, for example "`Vols change tiering policy`". When done, click the check mark or press *Enter* to save the view with the new name.
 +
-image::../media/report_vol_code_data_2.png[]
+image::../media/report_vol_code_data_2.png[A UI screenshot that shows Vols change tiering policy page with the required columns in the correct order.]
 
 . Download the report as a *CSV*, *Excel*, or *PDF* file to see the output before you schedule or share it.
 +
@@ -60,7 +60,7 @@ For more information on customizing reports using Excel, see _Sample Microsoft E
 
 . Click the *Scheduled Reports* button on the inventory page. All scheduled reports relating to the object, in this case volumes, appear in the list.
 +
-image::../media/scheduled_reports_3.gif[]
+image::../media/scheduled_reports_3.gif[A UI screenshot that shows all the scheduled reports related to the object.]
 
 . Click *Add Schedule* to add a new row to the Report Schedules page so you can define the schedule characteristics for the new report.
 . Enter a name for the report and complete the other report fields, then click the check mark (image:../media/blue_check.gif[]) at the end of the row.
@@ -69,10 +69,10 @@ The report is sent immediately as a test. After that, the report generates and i
 +
 The following sample report is in CSV format:
 +
-image::../media/csv_sample_report.gif[]
+image::../media/csv_sample_report.gif[A UI screenshot that shows a sample report in CSV format.]
 +
 The following sample report is in PDF format:
 +
-image::../media/pdf_sample_report.gif[]
+image::../media/pdf_sample_report.gif[A UI screenshot that shows a sample report in PDF format.]
 
 Based on the results shown in the report, you might want to use ONTAP System Manager or the ONTAP CLI to change the tiering policy to "`auto`" or "`all`" for certain volumes to offload more cold data to the cloud tier.
