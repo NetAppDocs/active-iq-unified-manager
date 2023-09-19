@@ -58,7 +58,7 @@ If MySQL is pre-installed, you should ensure that:
 * The sample databases are not installed.
 * The service name is "`MYSQL8`".
 
-Unified Manager is deployed on a WildFly web server. WildFly 19.0.0 is bundled and configured with Unified Manager.
+Unified Manager is deployed on a WildFly web server. WildFly 26.1.3 is bundled and configured with Unified Manager.
 
 [NOTE]
 ====
