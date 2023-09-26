@@ -41,7 +41,7 @@ Certificate-based authentication is not enabled automatically for a cluster, if 
 [NOTE]
 ====
 ** You can add a cluster from the web UI, and certificate-based authentication is automatically enabled.
-** You can add a cluster through Unified Manager CLI, the certificate-based authentication is not enabled by default. If you add a cluster using Unified Manager CLI, it is required to edit the cluster using Unified Manager CLI. You can see link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html[Supported Unified Manager CLI commands] to add a cluster using Unified Manager CLI.
+** You can add a cluster through Unified Manager CLI, the certificate-based authentication is not enabled by default. If you add a cluster using Unified Manager CLI, it is required to edit the cluster using Unified Manager UI. You can see link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html[Supported Unified Manager CLI commands] to add a cluster using Unified Manager CLI.
 ** If certificate-based authentication is enabled for a cluster, and you take the backup of Unified Manager from a server and restore to another Unified Manager server where hostname or IP address is changed, then monitoring of the cluster can fail. To avoid the failure, edit and save the cluster details. For more information about editing cluster details, see link:../storage-mgmt/task_edit_clusters.html[Editing clusters].
 ====
 +
