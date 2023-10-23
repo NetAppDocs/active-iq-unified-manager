@@ -13,7 +13,7 @@ Active IQ platform incidents and risks are similar to other Unified Manager even
 
 The following diagram shows the actions you must take (in green) and the action that Unified Manager takes (in black) when resolving events that were generated from the Active IQ platform.
 
-image::../media/aiq_and_um_event_resolution.png[]
+image::../media/aiq_and_um_event_resolution.png[A UI screenshot that shows the actions you must take and the action that Unified Manager takes when resolving events.]
 
 When performing a manual resolution you must log into System Manager or the ONTAP command-line interface to fix the issue. You will be able to verify the issue only after the cluster generates a new AutoSupport message at midnight.
 

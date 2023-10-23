@@ -21,7 +21,7 @@ For example, if you are using a pair of FAS2520 and FAS8060 storage systems, a p
 
 A sample latency versus IOPS curve for a node is shown in the following figure.
 
-image::../media/available_iops.gif[]
+image::../media/available_iops.gif[A UI screenshot that shows a sample latency versus IOPS curve for a node.]
 
 The maximum number of IOPS that a resource can provide is the number of IOPS when the performance capacity used counter is at 100% (the optimal point). The operational point identifies that the node is currently operating at 100K IOPS with latency of 1.0 ms/op. Based on the statistics captured from the node, Unified Manager determines that the maximum IOPS for the node is 160K, which means that there are 60K free or available IOPS. Therefore, you can add more workloads to this node so that your systems are used more efficiently.
 

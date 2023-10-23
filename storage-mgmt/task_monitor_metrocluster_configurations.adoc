@@ -42,7 +42,7 @@ image::../media/opm_um_mcc_connectivity_tab_png.gif[Unified Manager MetroCluster
 The topology of the MetroCluster configuration is displayed in the corresponding cluster object area.
 You can use the information displayed in the Cluster / Health details page to rectify any connectivity issues. For example, if the connectivity between the node and the switch in a cluster is down, the following icon is displayed:
 
-image::../media/node_switch_connectivity.gif[]
+image::../media/node_switch_connectivity.gif[node switch connectivity icon]
 
 If you move the pointer over the icon, you can view detailed information about the generated event.
 
@@ -75,7 +75,7 @@ The following statuses are reported: Critical (image:sev_critical_um60.png[]), E
 +
 In the following diagram, you can see that the intersite connectivity between the source and destination clusters is unavailable, and the Mediator between them is not configured. 
 +
-image:mcc-ip-conn-status.png[]
+image:mcc-ip-conn-status.png[A UI screenshot that shows the topology of the source and mirror sites, as well as the Mediator.]
 +
 . Click the status icon. A message with the error definition is displayed. If an event has been raised for the issue in your MetroCluster over IP configuration, you can click the *View Event* button on the message and view the event details. When you have resolved the issue and the event, the status icon in this topology turns to normal (image:sev_normal_um60.png[]).
 . You can view further configuration details in the *MetroCluster Overview* and *Protection* sections on the *Configuration* tab of the *Cluster / Health* details page.

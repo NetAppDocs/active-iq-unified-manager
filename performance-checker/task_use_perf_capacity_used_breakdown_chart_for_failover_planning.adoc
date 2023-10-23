@@ -29,7 +29,7 @@ The counter charts with statistics for the Primary node, Partner node, and Estim
 +
 The detailed chart for Perf. Capacity Used is displayed.
 +
-image::../media/headroom_advanced_zoom_chart.gif[]
+image::../media/headroom_advanced_zoom_chart.gif[A UI screenshot that shows the detailed chart for Perf. Capacity Used.]
 
 . Move the cursor over the detailed chart to view the performance capacity used information in the popup window.
 +

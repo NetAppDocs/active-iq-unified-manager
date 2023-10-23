@@ -20,7 +20,7 @@ You must have performed the following operations:
 
 The Active IQ Unified ManagerGetting Started page appears only when you first access the web UI. The page below is from an installation on VMware.
 
-image::../media/first_experience_wizard.JPG[]
+image::../media/first_experience_wizard.JPG[A UI screenshot that shows a page from installation on VMware.]
 
 If you want to change any of these options later, you can select your choice from the General options in the Unified Manager left-navigation pane. Note that the NTP setting is only for VMware installations, and it can be changed later using the Unified Manager maintenance console.
 

@@ -40,7 +40,7 @@ object. You can position your cursor over policy names containing an ellipsis (.
 == Performance: All Volumes view
 The Performance: All Volumes view displays an overview of the performance events, counter data, and configuration information for each FlexVol volume and FlexGroup volume that is being monitored by an instance of Unified Manager. This enables you to quickly monitor the performance of your volumes, and to troubleshoot performance issues and threshold events.
 
-If you want to analyze the latency and throughput of a specific object, click the more options button image:icon_kabob.gif[] then *Analyze Workload* and you can view performance and capacity charts on the Workload Analysis page. You can view the details on System Manager, given you have valid credentials for System Manager.
+If you want to analyze the latency and throughput of a specific object, click the more options button image:icon_kabob.gif[""] then *Analyze Workload* and you can view performance and capacity charts on the Workload Analysis page. You can view the details on System Manager, given you have valid credentials for System Manager.
 
 [NOTE]
 For data protection (DP) volumes, only counter values for user-generated traffic are displayed. Root volumes are not displayed on this page.
@@ -183,7 +183,7 @@ when the expected IOPS is less than this value.
 * Min Allocation: Whether "allocated space" or "used space" is used to determine the maximum throughput (peak) IOPS.
 * Expected Latency: The expected average latency for storage input/output operations. 
 * Shared: For traditional QoS policies, whether the throughput values defined in the policy group are shared among multiple objects. 
-* Associated Objects: The number of workloads that are assigned to the QoS policy group. You can click the expand button ( ) next to the QoS Policy Group Name to view more details about the policy group.
+* Associated Objects: The number of workloads that are assigned to the QoS policy group. You can click the expand button (image:../media/chevron_down.gif[]) next to the QoS Policy Group Name to view more details about the policy group.
 * Allocated Capacity: The amount of space that the objects that are in the QoS policy group are currently using.
 * Associated Objects: The number of workloads that are assigned to the QoS policy group, separated into volumes
 and LUNs. You can click the number to navigate to a page that provides more details about the selected volumes or LUNs.

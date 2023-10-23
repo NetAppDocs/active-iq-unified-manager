@@ -24,7 +24,7 @@ Because some background activities associated with system and data management ar
 +
 The colors of the standard chart show when the object is in the optimal range (yellow), when the object is underutilized (green), and when the object is overutilized (red). The Breakdown chart shows detailed performance capacity details for the root object only.
 +
-image::../media/headroom_counter_charts.gif[]
+image::../media/headroom_counter_charts.gif[A UI screenshot that shows the breakdown chart with detailed performance capacity for the root object only.]
 
 . If you want to view either chart in a full size format, click *Zoom View*.
 +

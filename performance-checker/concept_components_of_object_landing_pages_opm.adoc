@@ -20,7 +20,7 @@ The data displayed in the counter summary panels and in the Counter Charts are b
 
 The following image shows an example of an Object Landing page displaying the Explorer information:
 
-image::../media/perf_manager_page_1.gif[]
+image::../media/perf_manager_page_1.gif[A UI screenshot that shows an example of an Object Landing page displaying the Explorer information.]
 
 Depending on the storage object that is being viewed, the Object Landing page can have the following tabs that provide performance data about the object:
 
