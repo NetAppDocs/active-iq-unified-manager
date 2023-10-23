@@ -70,6 +70,8 @@ entries:
     entries:
     - title: Viewing and adding vCenter Server
       url: "/storage-mgmt/task_view_and_add_vcenter_servers.html"
+    - title: Removing vCenter Server
+      url: "/storage-mgmt/task_remove_vcenter_server.html"
     - title: Monitoring virtual machines
       url: "/storage-mgmt/concept_monitor_vms.html"
     - title: Viewing virtual infrastructure in a disaster recovery setup
