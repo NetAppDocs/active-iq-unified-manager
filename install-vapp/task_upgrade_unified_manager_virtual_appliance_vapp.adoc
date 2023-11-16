@@ -9,7 +9,7 @@ summary: "You can upgrade the Unified Manager virtual appliance"
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade the Active IQ Unified Manager virtual appliance from releases 9.11 or 9.12 to 9.13.
+You can upgrade the Active IQ Unified Manager virtual appliance from releases 9.12 or 9.13 to 9.14.
 
 *What you'll need*
 

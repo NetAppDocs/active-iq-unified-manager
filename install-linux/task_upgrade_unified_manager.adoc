@@ -9,7 +9,7 @@ summary: "You can upgrade Unified Manager by downloading and running the install
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade from Unified Manager 9.11 or 9.12 to 9.13 by downloading and running the installation file on the Linux platform.
+You can upgrade from Unified Manager 9.12 or 9.13 to 9.14 by downloading and running the installation file on the Linux platform.
 
 *What you'll need*
 
