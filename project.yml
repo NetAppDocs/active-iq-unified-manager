@@ -12,7 +12,7 @@ settings:
       url: /active-iq-unified-manager
     # Additional releases newest to oldest
     # Release in GitHub (typical)
-    -version-number: "9.13"
+    - version-number: "9.13"
       url: /active-iq-unified-manager-913
     - version-number: "9.12"
       url: /active-iq-unified-manager-912  
