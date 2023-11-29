@@ -12,4 +12,4 @@ summary: "Provides a summary of new features, limitations, and known issues for 
 
 Provides a summary of new features, limitations, and known issues for Active IQ Unified Manager 9.14.
 
-For more information, see the https://library.netapp.com/ecm/ecm_download_file/ECMLP2885771[Active IQ Unified Manager Release Notes].
+For more information, see the https://library.netapp.com/ecm/ecm_download_file/ECMLP2886866[Active IQ Unified Manager Release Notes].
