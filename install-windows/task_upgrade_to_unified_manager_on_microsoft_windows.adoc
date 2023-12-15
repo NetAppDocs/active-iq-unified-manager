@@ -9,7 +9,7 @@ summary: "You can upgrade Unified Manager by downloading and running the install
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade Unified Manager 9.11 or 9.12 to 9.13 by downloading and running the installation file on the Windows platform.
+You can upgrade Unified Manager 9.12 or 9.13 to 9.14 by downloading and running the installation file on the Windows platform.
 
 *What you'll need*
 
@@ -29,7 +29,7 @@ Starting with Unified Manager 9.5, OpenJDK is provided in the installation packa
 Ensure that Microsoft .NET 4.5.2 or greater is installed on your system before starting the upgrade.
 ====
 
-* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.32, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.32. You must not run a standalone upgrade of an earlier version of MySQL to 8.0.32.
+* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.34, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.34. You must not run a standalone upgrade of an earlier version of MySQL to 8.0.34.
 * You should have Windows administrator privileges. Ensure that your user name does not begin with an exclamation mark "`!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`!`".
 * You should have valid credentials to log in to the NetApp Support Site.
 * To avoid data loss, you should have created a backup of the Unified Manager machine in case there is an issue during the upgrade.

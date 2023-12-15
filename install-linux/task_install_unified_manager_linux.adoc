@@ -35,11 +35,11 @@ The Red Hat Enterprise Linux or CentOS system might have all the required versio
 |===
 | Required software and minimum version| Command to verify software and version
 a|
-OpenJDK version 11.0.17
+OpenJDK version 11.0.21
 a|
 `java -version`
 a|
-MySQL 8.0.32 Community Edition
+MySQL 8.0.34 Community Edition
 a|
 `rpm -qa \| grep -i mysql`
 a|
@@ -48,7 +48,7 @@ a|
 `rpm -qa \| grep p7zip`
 |===
 
-. If the installed version of MySQL is earlier than MySQL 8.0.32 Community Edition, enter the following command to uninstall it:
+. If the installed version of MySQL is earlier than MySQL 8.0.34 Community Edition, enter the following command to uninstall it:
 +
 `rpm -e <mysql_package_name>`
 +

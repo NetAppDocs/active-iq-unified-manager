@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.13
+  name: Active IQ Unified Manager 9.14
   internal:
     pdf_enabled: true
   prod:
@@ -8,10 +8,12 @@ settings:
     harmony_enabled: true
   versions:
     # Current repo stanza comes first
-    - version-number: "9.13"
+    - version-number: "9.14"
       url: /active-iq-unified-manager
     # Additional releases newest to oldest
     # Release in GitHub (typical)
+    - version-number: "9.13"
+      url: /active-iq-unified-manager-913
     - version-number: "9.12"
       url: /active-iq-unified-manager-912  
     - version-number: "9.11"
@@ -21,7 +23,7 @@ settings:
       
 sidebar:
   entries:
-    - title: Active IQ Unified Manager 9.13 docs
+    - title: Active IQ Unified Manager 9.14 docs
       url: "/index.html"
     - title: Release notes
       url: /reference_release_notes.html
@@ -132,7 +134,7 @@ homepage:
         - title: Provision storage
           url: /api-automation/concept_provision_workflow.html
         - title: API reference for Unified Manager
-          url: https://library.netapp.com/ecmdocs/ECMLP2885890/html/index.html
+          url: https://library.netapp.com/ecmdocs/ECMLP2886876/html/index.html
     - title: Events and alerts
       links:
         - title: Dashboard
