@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>active-iq-unified-manager | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/us-en/active-iq-unified-manager/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/us-en/active-iq-unified-manager</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <pubDate>Tue, 05 Mar 2024 10:44:07 +0000</pubDate>
+    <lastBuildDate>Tue, 05 Mar 2024 10:44:07 +0000</lastBuildDate>
+    
+  </channel>
+</rss>
