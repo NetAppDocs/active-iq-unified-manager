@@ -20,7 +20,9 @@ The Linux system must have the following versions of the operating system and su
 
 See the Interoperability Matrix for the complete and most current list of supported Red Hat Enterprise Linux and CentOS versions.
 
-http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
+http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix^]
+
+The server should be dedicated to running Unified Manager. No other applications should be installed on the server. It is possible that vulnerability scanner like Qualys is installed on your Linux system because of company regulations. You should disable the vulnerability scanner before installing Unified Manager to prevent the installation from failing. 
 
 == Third-party software
 
