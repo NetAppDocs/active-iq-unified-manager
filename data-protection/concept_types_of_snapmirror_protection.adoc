@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/concept_types_of_snapmirror_protection.html
 sidebar: sidebar
-keywords: types, snapmirror, protection, consistency group, snapmirror business continuity, smbc, sm-bc
+keywords: types, snapmirror, protection, consistency group, snapmirror business continuity, SnapMirror active sync, sm-bc
 summary: "Depending on the deployment of your data storage topology, Unified Manager enables you to configure multiple types of SnapMirror protection relationships. All variations of SnapMirror protection offer failover disaster recovery protection, but offer differing capabilities in performance, version flexibility, and multiple backup copy protection."
 ---
 = Types of SnapMirror protection
