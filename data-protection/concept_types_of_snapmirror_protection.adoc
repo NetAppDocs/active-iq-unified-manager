@@ -55,7 +55,7 @@ SnapMirror Synchronous protection with "`regular`" synchronization does not requ
 The Restore button and the Relationship operation buttons are not available when monitoring synchronous protection relationships from the Health: All Volumes view or the Volume / Health details page.
 ====
 
-== SnapMirror Synchronous Business Continuity
+== SnapMirror active sync
 
 The SnapMirror active sync feature is available with ONTAP 9.8 and later, and you can use it to protect applications with LUNs, enabling applications to fail over transparently, ensuring business continuity in case of a disaster.
 
@@ -65,4 +65,4 @@ When you view the volumes and LUNs protected by the SnapMirror active sync relat
 
 On the Relationships page, you can also sort, filter, and extend protection on the source and destination storage objects and their relationship that are protected by the Consistency Group.
 
-To know more about SnapMirror Synchronous Business Continuity, refer to link:https://docs.netapp.com/us-en/ontap/smbc/index.html[ONTAP 9 Documentation for Snapmirror active sync (formerly SM-BC)].
+To know more about SnapMirror active sync, refer to link:https://docs.netapp.com/us-en/ontap/smbc/index.html[ONTAP 9 Documentation for Snapmirror active sync (formerly SM-BC)].
