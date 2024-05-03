@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/view-lun-relationships.html
 sidebar: sidebar
-keywords: LUN, SnapMirror active sync, SnapMirror active sync, Consistency Group, CG
+keywords: LUN, SnapMirror active sync, Consistency Group, CG
 summary: "Unified view of LUNs protected by SnapMirror active sync."
 ---
 = Monitoring LUNs in a Consistency Group relationship
