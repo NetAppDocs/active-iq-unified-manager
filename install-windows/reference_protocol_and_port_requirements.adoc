@@ -76,6 +76,39 @@ a|
 3306
 a|
 Used to enable OnCommand Workflow Automation and OnCommand API Services access to Unified Manager.
+a|
+AMQP QPID broker
+a|
+TCP/IP
+a|
+56072
+a|
+Used for internal message communication.
+a|
+AMQP QPID broker
+a|
+WebSocket over TCP
+a|
+56080
+a|
+Used to listen on this port for messages received from ONTAP (cloud agent).
+a|
+AMQP QPID broker
+a|
+WebSocket over TCP
+a|
+56443
+a|
+Used to listen on this port for messages received from ONTAP (cloud agent).The communication over this port supports encryption provided by TLS or SSL.
+a|
+AMQP QPID broker
+a|
+HTTP
+a|
+9000
+a|
+Used to launch the AMQP management UI interface on this page.
+
 |===
 
 [NOTE]
@@ -167,4 +200,28 @@ a|
 123/UDP
 a|
 Used to synchronize the time on the Unified Manager server with an external NTP time server. (VMware systems only)
+a|
+AMQP QPID broker
+a|
+TCP/IP
+a|
+56072
+a|
+Used for internal message communication.
+a|
+AMQP QPID broker
+a|
+WebSocket over TCP
+a|
+56080
+a|
+Used to listen on this port for messages received from ONTAP (cloud agent).
+a|
+AMQP QPID broker
+a|
+WebSocket over TCP
+a|
+56443
+a|
+Used to listen on this port for messages received from ONTAP (cloud agent). The communication through this port supports encryption provided by TLS or SSL.
 |===

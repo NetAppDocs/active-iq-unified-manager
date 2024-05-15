@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/concept_types_of_snapmirror_protection.html
 sidebar: sidebar
-keywords: types, snapmirror, protection, consistency group, snapmirror business continuity, smbc, sm-bc
+keywords: types, snapmirror, protection, consistency group, SnapMirror active sync
 summary: "Depending on the deployment of your data storage topology, Unified Manager enables you to configure multiple types of SnapMirror protection relationships. All variations of SnapMirror protection offer failover disaster recovery protection, but offer differing capabilities in performance, version flexibility, and multiple backup copy protection."
 ---
 = Types of SnapMirror protection
@@ -55,14 +55,14 @@ SnapMirror Synchronous protection with "`regular`" synchronization does not requ
 The Restore button and the Relationship operation buttons are not available when monitoring synchronous protection relationships from the Health: All Volumes view or the Volume / Health details page.
 ====
 
-== SnapMirror Synchronous Business Continuity
+== SnapMirror active sync
 
-The SnapMirror Business Continuity (SM-BC) feature is available with ONTAP 9.8 and later, and you can use it to protect applications with LUNs, enabling applications to fail over transparently, ensuring business continuity in case of a disaster.
+The SnapMirror active sync feature is available with ONTAP 9.8 and later, and you can use it to protect applications with LUNs, enabling applications to fail over transparently, ensuring business continuity in case of a disaster.
 
-It allows you to discover and monitor the synchronous SnapMirror relationships for Consistency Groups (CGs) available on clusters and storage virtual machines from Unified Manager. SM-BC is supported on AFF clusters or All SAN Array (ASA) clusters, where the primary and secondary clusters can be either AFF or ASA. SM-BC protects applications with iSCSI or FCP LUNs.
+It allows you to discover and monitor the synchronous SnapMirror relationships for Consistency Groups (CGs) available on clusters and storage virtual machines from Unified Manager. SnapMirror active sync is supported on AFF clusters or All SAN Array (ASA) clusters, where the primary and secondary clusters can be either AFF or ASA. SnapMirror active sync protects applications with iSCSI or FCP LUNs.
 
-When you view the volumes and LUNs protected by the SM-BC relationship, you can get a unified view for protection relationships, Consistency Groups in volume inventory, view protection topology for Consistency Group relationships, view historical data for Consistency Group relationships up to a year. You can also download the report. You can also view the summary of Consistency Group relationships, search support for Consistency Group relationships, and gain information about volumes that are protected by the Consistency Group.
+When you view the volumes and LUNs protected by the SnapMirror active sync relationship, you can get a unified view for protection relationships, Consistency Groups in volume inventory, view protection topology for Consistency Group relationships, view historical data for Consistency Group relationships up to a year. You can also download the report. You can also view the summary of Consistency Group relationships, search support for Consistency Group relationships, and gain information about volumes that are protected by the Consistency Group.
 
 On the Relationships page, you can also sort, filter, and extend protection on the source and destination storage objects and their relationship that are protected by the Consistency Group.
 
-To know more about SnapMirror Synchronous Business Continuity, refer to link:https://docs.netapp.com/us-en/ontap/smbc/index.html[ONTAP 9 Documentation for SM-BC].
+To know more about SnapMirror active sync, refer to link:https://docs.netapp.com/us-en/ontap/smbc/index.html[ONTAP 9 Documentation for Snapmirror active sync (formerly SM-BC)].
