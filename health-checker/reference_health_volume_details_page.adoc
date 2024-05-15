@@ -498,7 +498,7 @@ Displays the type of protection used for the selected volume. For example, if a 
 
  ** Consistency Group
 +
-For volumes protected by SnapMirror Business Continuity (SM-BC) relationships, this column displays the Consistency Group of the volume.
+For volumes protected by SnapMirror active sync relationships, this column displays the Consistency Group of the volume.
 
 
 * *Views*

@@ -1,24 +1,24 @@
 ---
 permalink: data-protection/view-lun-relationships.html
 sidebar: sidebar
-keywords: LUN, SM-BC, SnapMirror Business Continuity, Consistency Group, CG
-summary: "Unified view of LUNs protected by SM-BC."
+keywords: LUN, SnapMirror active sync, Consistency Group, CG
+summary: "Unified view of LUNs protected by SnapMirror active sync."
 ---
 = Monitoring LUNs in a Consistency Group relationship
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-If your ONTAP environment supports SnapMirror Business Continuity (SM-BC) to
+If your ONTAP environment supports SnapMirror active sync to
 protect applications with LUNs, you can view and monitor those LUNs on Active IQ Unified Manager.
 
-SM-BC ensures zero recovery time objective (RTO) during failover in SAN environments. In a typical deployment supporting SM-BC, the LUNs on volumes are protected by Consistency Group relationships.
+SnapMirror active sync ensures zero recovery time objective (RTO) during failover in SAN environments. In a typical deployment supporting SnapMirror active sync, the LUNs on volumes are protected by Consistency Group relationships.
 
 These primary and secondary LUNs are composite LUNs, or a replica LUN pair with the same UUID and serial number. The I/O operations (both read and write) are multiplexed across the source and destination sites on these composite LUNs, ensuring transparency.
 
 For viewing composite LUNs, both the primary and secondary clusters with the LUNs that are a part of the Consistency Group relationship should be added and discovered on Unified Manager. Only iSCSI and FCP LUNs are supported.
 
-For information about SM-BC, see link:https://docs.netapp.com/us-en/ontap/smbc/index.html[ONTAP 9 Documentation for SM-BC].
+For information about SnapMirror active sync, see link:https://docs.netapp.com/us-en/ontap/smbc/index.html[ONTAP 9 Documentation for SnapMirror active sync (formerly SM-BC)].
 
 To view composite LUNs in your environment follow these steps:
 

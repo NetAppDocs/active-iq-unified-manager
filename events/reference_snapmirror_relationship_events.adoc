@@ -149,7 +149,7 @@ Mediator
 a|
 Error
 a|
-Ontap Mediator Connectivity has been reestablished, and is resynced and ready for SMBC (snapmirrorMediatorInQuorum)
+Ontap Mediator Connectivity has been reestablished, and is resynced and ready for SnapMirror active sync (snapmirrorMediatorInQuorum)
 
 a|
 Event
