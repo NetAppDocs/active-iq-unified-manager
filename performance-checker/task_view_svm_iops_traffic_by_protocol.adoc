@@ -17,7 +17,7 @@ Additionally, the IOPS - Protocols chart shows a detailed comparison of the IOPS
 * NFS
 * FCP
 * iSCSI
-* NVMe
+* NVMe-FC
 
 .Steps
 . In the *Performance/SVM Explorer* page for your selected SVM, from the IOPS chart, select *Protocols* from the drop-down menu.
