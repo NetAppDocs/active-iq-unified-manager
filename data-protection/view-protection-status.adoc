@@ -56,7 +56,7 @@ Clicking the events on this page takes you to the Event details page. You can cl
 
 *	Individual events raised for SnapMirror relationships, including the events raised in the last 24 hours
 *	The number of volumes protected by each type of SnapMirror policy.
-*	The number of relationships protected by the SnapMirror relationship types, such as Asynchronous Mirror, Asynchronous Vault, Asynchronous MirrorVault, StricxtSync, SnapMirror Business Continuity (SMBC) consistency group, and Sync.
+*	The number of relationships protected by the SnapMirror relationship types, such as Asynchronous Mirror, Asynchronous Vault, Asynchronous MirrorVault, StricxtSync, SnapMirror active sync consistency group, and Sync.
 *	The number of healthy and unhealthy relationships.
 *	Break-up of the volume relationship count. You can toggle the charts by RPO lag time and status.
 *   Lag thresholds for unmanaged relationship. You can click the settings icon (image:../media/Settings.PNG[Icon for lag threshold settings]) to configure the lag threshold settings. For more information, see link:../health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html[Configuring lag threshold settings for unmanaged protection relationships].
