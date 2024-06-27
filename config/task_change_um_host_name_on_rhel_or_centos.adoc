@@ -42,7 +42,7 @@ If you change the host name in Unified Manager, you must manually update the hos
 
 . Restart the network service:
 +
-`service network restart`
+`systemctl restart NetworkManager.service`
 
 . After the service is restarted, verify whether the new host name is able to ping itself:
 +
