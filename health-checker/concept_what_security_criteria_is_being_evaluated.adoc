@@ -18,7 +18,7 @@ Some of the security checks include:
 * whether a storage VM has its audit log enabled
 * whether your volumes have software or hardware encryption enabled
 
-See the topics on compliance categories and the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9] for detailed information.
+See the topics on compliance categories and the https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf[NetApp Security Hardening Guide for ONTAP 9^] for detailed information.
 
 [NOTE]
 ====

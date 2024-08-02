@@ -13,7 +13,7 @@ Unified Manager provides a dashboard that identifies how secure your ONTAP clust
 
 The goal of the security dashboard is to show any areas where your ONTAP clusters do not align with the NetApp recommended guidelines so that you can fix these potential issues. In most cases you will fix the issues using ONTAP System Manager or the ONTAP CLI. Your organization may not follow all of the recommendations, so in some cases you will not need to make any changes.
 
-See the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9] (TR-4569) for detailed recommendations and resolutions.
+See the https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf[NetApp Security Hardening Guide for ONTAP 9^] (TR-4569) for detailed recommendations and resolutions.
 
 In addition to reporting security status, Unified Manager also generates security events for any cluster or SVM that has security violations. You can track these issues in the Event Management inventory page and you can configure alerts for these events so that your storage administrator is notified when new security events occur.
 
