@@ -18,7 +18,7 @@ An asterisk (*) identifies EMS events that have been converted to Unified Manage
 |===
 | Event name (Trap name)| Impact level| Source type| Severity
 a|
-SVM CIFS Service Down(ocumEvtVserverCifsServiceStatusDown)
+Storage VM CIFS Service Down(ocumEvtVserverCifsServiceStatusDown)
 
 a|
 Incident
@@ -108,7 +108,7 @@ SVM
 a|
 Critical
 a|
-SVM NFS Service Down(ocumEvtVserverNfsServiceStatusDown)
+Storage VM NFS Service Down(ocumEvtVserverNfsServiceStatusDown)
 
 a|
 Incident
@@ -144,7 +144,7 @@ SVM
 a|
 Information
 a|
-SVM Stopped(ocumEvtVserverDown)
+Storage VM Stopped(ocumEvtVserverDown)
 
 a|
 Risk
@@ -372,3 +372,5 @@ SVM
 a|
 Information
 |===
+
+// 2024 AUG 13, CAIQUM-6306

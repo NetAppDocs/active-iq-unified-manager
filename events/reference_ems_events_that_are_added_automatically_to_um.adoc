@@ -144,7 +144,7 @@ Node
 a|
 Error
 a|
-Cloud Tier Intercluster LIF Down
+Cloud Tier Intercluster network interface Down
 a|
 objstore.interclusterlifDown
 a|
@@ -416,3 +416,5 @@ Volume
 a|
 Error
 |===
+
+// 2024 AUG 13, CAIQUM-6306
