@@ -69,7 +69,7 @@ Yes
 a|
 OCSP
 a|
-Indicates if there are applications in ONTAP that are not configured with OCSP (Online Certificate Status Protocol) and therefore communications are not encrypted. The non-compliant applications are listed.
+Indicates if there are applications in ONTAP that are not configured with OCSP (Online Certificate Status Protocol) and therefore communications are not encrypted.
 a|
 Enabled
 a|
@@ -163,3 +163,5 @@ CA-Signed
 a|
 No
 |===
+
+// 2024 AUG 13, CAIQUM-6181
