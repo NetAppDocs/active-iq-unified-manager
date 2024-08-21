@@ -15,4 +15,4 @@ When you receive a system-defined threshold event on the Event details page, the
 
 The disks you add to the aggregate must already exist in the cluster. If the cluster does not have extra disks available, you might need to contact your administrator or purchase more disks. You can use ONTAP System Manager or the ONTAP commands to add disks to an aggregate.
 
-http://www.netapp.com/us/media/tr-3838.pdf[Technical Report 3838: Storage Subsystem Configuration Guide]
+https://www.netapp.com/pdf.html?item=/media/19675-tr-3838.pdf[Technical Report 3838: Storage Subsystem Configuration Guide^]
