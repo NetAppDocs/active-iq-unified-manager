@@ -144,7 +144,7 @@ Node
 a|
 Error
 a|
-Cloud Tier Intercluster network interface Down
+Cloud Tier Intercluster Network Interface Down
 a|
 objstore.interclusterlifDown
 a|

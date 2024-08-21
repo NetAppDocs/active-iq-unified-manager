@@ -99,7 +99,7 @@ Node
 a|
 Error
 a|
-Cloud Tier Intercluster network interface Down *(ocumObjstoreInterClusterLifDown)
+Cloud Tier Intercluster Network Interface Down *(ocumObjstoreInterClusterLifDown)
 
 a|
 Risk
