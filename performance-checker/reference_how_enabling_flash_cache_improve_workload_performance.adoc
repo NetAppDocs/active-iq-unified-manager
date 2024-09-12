@@ -19,4 +19,4 @@ You can use ONTAP System Manager or the ONTAP commands to see whether Flash Cach
 
 For more information about Flash Cache and the requirements for using it, see the following technical report:
 
-http://www.netapp.com/us/media/tr-3832.pdf[Technical Report 3832: Flash Cache Best Practices Guide]
+https://www.netapp.com/pdf.html?item=/media/19754-tr-3832.pdf[Technical Report 3832: Flash Cache Best Practices Guide^]
