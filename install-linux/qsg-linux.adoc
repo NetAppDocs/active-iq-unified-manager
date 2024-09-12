@@ -13,7 +13,7 @@ You can download the installation package and install Unified Manager on a physi
 
 == System requirements
 
-*	Operating system: Red Hat Enterprise Linux versions 7.x and from 8.0 to 8.8, or CentOS version 7.x based on x86_64 architecture, installed using the “Server with GUI” base environment from the *Software Selection* option of the OS installer
+*	Operating system: Red Hat Enterprise Linux versions 7.x and from 8.0 to 8.9, or CentOS version 7.x based on x86_64 architecture, installed using the “Server with GUI” base environment from the *Software Selection* option of the OS installer
 *	RAM: 12 GB, CPU: 9572 MHz total
 *	Free disk space: 100 GB of disk space in the `/opt/netapp/data` directory, 50 GB in the root partition. For separately mounted `/opt` and `/var/log` directories, ensure that `/opt` has 15 GB, `/var/log` has 16 GB, and `/tmp` has 10 GB of free space.
 
@@ -50,3 +50,5 @@ or
 `% sudo yum install netapp-um<version>.x86_64.rpm`
 
 At the end of the installation, the information to connect to the Unified Manager web UI is displayed. If you are unable to connect to the web UI, refer to the `README` file packaged with the software for more information about port 443 restrictions.
+
+// 2024 AUG 12, CAIQUM-6284

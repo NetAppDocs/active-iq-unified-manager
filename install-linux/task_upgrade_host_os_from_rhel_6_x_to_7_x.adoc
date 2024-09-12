@@ -9,7 +9,7 @@ summary: "If you previously installed Unified Manager on a Red Hat Enterprise Li
 :imagesdir: ../media/
 
 [.lead]
-If you previously installed Unified Manager on a Red Hat Enterprise Linux 7.x system and need to upgrade to Red Hat Enterprise Linux 8.x, you must follow one of the procedures listed in this topic. In both cases you must create a backup of Unified Manager on the Red Hat Enterprise Linux 7.x system, and then restore the backup onto a Red Hat Enterprise Linux 8.x system. Note that the supported versions of Red Hat Enterprise Linux are from 8.0 to 8.7.
+If you previously installed Unified Manager on a Red Hat Enterprise Linux 7.x system and need to upgrade to Red Hat Enterprise Linux 8.x, you must follow one of the procedures listed in this topic. In both cases you must create a backup of Unified Manager on the Red Hat Enterprise Linux 7.x system, and then restore the backup onto a Red Hat Enterprise Linux 8.x system. Note that the supported versions of Red Hat Enterprise Linux are from 8.0 to 8.9.
 
 The difference between the two options listed below is that in one case you are performing the Unified Manager restore onto a new 8.x server, and in the other case you are performing the restore operation onto the same server.
 
@@ -60,3 +60,5 @@ Do not launch the UI or configure any clusters, users, or authentication setting
 +
 `um backup restore -f /opt/netapp/data/ocum-backup/<backup_file_name>`
 . Enter the IP address or URL into your web browser to start the Unified Manager web UI, and then log in to the system.
+
+// 2024 AUG 12, CAIQUM-6284
