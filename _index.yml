@@ -111,6 +111,6 @@ indexpage:
         - title: Documentation for Active IQ Unified Manager 9.9 or earlier
           url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791
         - title: Unified Manager Management Information Base (MIB)
-        url: https://mysupport.netapp.com/site/tools/tool-eula/aiqum-mib        
+          url: https://mysupport.netapp.com/site/tools/tool-eula/aiqum-mib        
         - title: Unified Manager database schema      
-        url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791        
+          url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791        
