@@ -112,5 +112,5 @@ indexpage:
           url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791
         - title: Unified Manager Management Information Base (MIB)
         url: https://mysupport.netapp.com/site/tools/tool-eula/aiqum-mib        
-        - title: Unified Manager database schema zip file      
-        url:         
+        - title: Unified Manager database schema      
+        url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791        
