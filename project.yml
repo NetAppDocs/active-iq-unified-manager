@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.14
+  name: Active IQ Unified Manager 9.16
   internal:
     pdf_enabled: true
   prod:
@@ -23,7 +23,7 @@ settings:
       
 sidebar:
   entries:
-    - title: Active IQ Unified Manager 9.14 docs
+    - title: Active IQ Unified Manager 9.16 docs
       url: "/index.html"
     - title: Release notes
       url: /reference_release_notes.html
