@@ -25,6 +25,7 @@ Starting with Unified Manager 9.5, OpenJDK is provided in the installation packa
 ====
 
 * You should have Windows administrator privileges. Ensure that your user name does not begin with an exclamation mark "`!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`!`".
+* All clusters are supported, except for ASA r2 systems.
 * You should have a supported web browser.
 * The Unified Manager maintenance user password should be between 8 and 20 characters, should contain upper-case letters or lower-case letters, numerals, and special characters.
 * The following special characters are not allowed in the password string for the maintenance user or for the MySQL root user: " ' ` % , = & < > | {caret} \ / ( ) [ ] ;:
@@ -79,3 +80,4 @@ This is the directory where OpenJDK is installed. Example: `C:\Program Files\Net
 This is the directory where all the application-generated data is stored. This includes logs, support bundles, backup, and all other additional data. Example: `C:\ProgramData\NetApp\OnCommandAppData\`
 
 You can access the web UI to perform the initial setup of Unified Manager, as described in the link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager].
+// 2024-10-22, OTHERDOC89
