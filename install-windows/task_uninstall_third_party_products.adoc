@@ -1,0 +1,32 @@
+---
+permalink: install-windows/task_uninstall_third_party_products.html
+sidebar: sidebar
+keywords: MS Visual C++, python, uninstall, uninstalling, 9.16
+summary: "How to uninstall third party products including Python and Microsoft Visual C++."
+---
+= Uninstalling third party products
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After upgrading Unified Manager, you can uninstall third party products, such as Python or Microsoft Visual C++. This is optional. 
+
+== Uninstalling Python
+
+.Steps
+. Go to the *Control Panel* on your device.
+. Select *Programs*.
+. Select *Programs and Features*. The file path in the Control Panel shows as *Control Panel\Programs\Programs and Features*.
+. Select Python from the list of programs.
+. Select *Uninstall this program*. Uninstall any version of Python except for 3.12. Retain Python version 3.12.
+
+== Uninstalling Microsoft Visual C++
+
+.Steps
+
+. Go to the *Control Panel* on your device.
+. Select *Programs*.
+. Select *Programs and Features*. The file path in the Control Panel shows as *Control Panel\Programs\Programs and Features*.
+. Select *Microsoft Visual C++* from the list of programs.
+. Select *Uninstall this program*. 
+// 2024-10-21,OTHERDOC87

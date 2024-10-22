@@ -8,10 +8,12 @@ settings:
     harmony_enabled: true
   versions:
     # Current repo stanza comes first
-    - version-number: "9.14"
+    - version-number: "9.16"
       url: /active-iq-unified-manager
     # Additional releases newest to oldest
     # Release in GitHub (typical)
+    - version-number: "9.14"
+      url: /active-iq-unified-manager-914    
     - version-number: "9.13"
       url: /active-iq-unified-manager-913
     - version-number: "9.12"
