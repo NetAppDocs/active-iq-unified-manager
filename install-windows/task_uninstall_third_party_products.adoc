@@ -14,19 +14,15 @@ After upgrading Unified Manager, you can uninstall third party products, such as
 == Uninstalling Python
 
 .Steps
-. Go to the *Control Panel*.
-. Select *Programs*.
-. Select *Programs and Features*. The file path in the Control Panel shows as `Control Panel\Programs\Programs and Features`.
+. From the *Control Panel* select *Programs* > *Programs and Features*.
 . Select Python from the list of programs.
-. Select *Uninstall this program*. Uninstall any version of Python except for 3.12. Retain Python version 3.12.
+. Select *Uninstall this program*. Uninstall any version of Python except for 3.12. Ensure you retain Python version 3.12.
 
 == Uninstalling Microsoft Visual C++ 2013
 
 .Steps
 
-. Go to the *Control Panel*.
-. Select *Programs*.
-. Select *Programs and Features*. The file path in the Control Panel shows as `Control Panel\Programs\Programs and Features`.
+. From the *Control Panel* select *Programs* > *Programs and Features*. 
 . Select *Microsoft Visual C++ 2013* from the list of programs.
 . Select *Uninstall this program*. 
 // 2024-10-21,OTHERDOC87
