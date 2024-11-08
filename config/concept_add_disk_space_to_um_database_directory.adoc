@@ -18,4 +18,5 @@ For example, the database directory may get full if Unified Manager is collectin
 No additional data is collected from clusters after the directory reaches 95% full.
 ====
 
-The steps required to add capacity to the data directory are different depending on whether Unified Manager is running on a VMware ESXi server, on a Red Hat or CentOS Linux server, or on a Microsoft Windows server.
+The steps required to add capacity to the data directory are different depending on whether Unified Manager is running on a VMware ESXi server, on a Red Hat server, or on a Microsoft Windows server.
+// 2024-11-8, OTHERDOC87

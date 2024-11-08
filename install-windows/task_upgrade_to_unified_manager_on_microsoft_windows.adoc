@@ -52,8 +52,7 @@ If Unified Manager is paired with an instance of OnCommand Workflow Automation, 
 +
 https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site^].
 . Select the required version of Unified Manager and accept the end-users license agreement (EULA).
-. Download the Unified Manager Windows installation file to a target directory on the Windows system.
-. Right-click and run the Unified Manager installer executable (.exe) file as an administrator.
+. Download the Unified Manager Windows installation file or zip file to a target directory on the Windows system. If you downloaded the zip file, unzip the file to find the installation file. Right-click and run the Unified Manager installer executable (.exe) file as an administrator.
 +
 Unified Manager prompts you with the following message:
 +

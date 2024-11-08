@@ -30,7 +30,7 @@ See link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux].
 
 .Steps
 
-. Log in to the target Red Hat Enterprise Linux or CentOS server.
+. Log in to the target Red Hat Enterprise Linux server.
 . Download the Unified Manager bundle to the server.
 +
 See link:task_download_unified_manager.html[Downloading Unified Manager for Linux].
@@ -108,3 +108,4 @@ Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat
 `systemctl start ocieau`
 
 This process completes the Unified Manager upgrade process. Enter the specified IP address or URL in a new window of a supported web browser to start the Unified Manager web UI, and then log in by using the same maintenance user name (umadmin) and password that you set earlier.
+// 2024-11-8, OTHERDOC87

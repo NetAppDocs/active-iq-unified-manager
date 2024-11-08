@@ -9,6 +9,6 @@ summary: "The maintenance user is created during the installation of Unified Man
 :imagesdir: ../media/
 
 [.lead]
-The maintenance user is created during the installation of Unified Manager on a Red Hat Enterprise Linux or CentOS system. The maintenance user name is the "`umadmin`" user. The maintenance user has the Application Administrator role in the web UI, and that user can create subsequent users and assign them roles.
+The maintenance user is created during the installation of Unified Manager on a Red Hat Enterprise Linux system. The maintenance user name is the "`umadmin`" user. The maintenance user has the Application Administrator role in the web UI, and that user can create subsequent users and assign them roles.
 
 The maintenance user, or umadmin user, can also access the Unified Manager maintenance console.
