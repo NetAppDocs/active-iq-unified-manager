@@ -2,7 +2,7 @@
 permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html
 sidebar: sidebar
 keywords: unified manager, migrate, virtual, appliance, linux system
-summary: "You can restore a Unified Manager MySQL database dump backup from a virtual appliance to a Red Hat Enterprise Linux or CentOS Linux system if you want to change the host operating system on which Unified Manager is running."
+summary: "You can restore a Unified Manager MySQL database dump backup from a virtual appliance to a Red Hat Enterprise Linux system if you want to change the host operating system on which Unified Manager is running."
 ---
 = Migrating a Unified Manager virtual appliance to a Linux system
 :icons: font

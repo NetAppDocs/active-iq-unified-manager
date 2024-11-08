@@ -2,7 +2,7 @@
 permalink: install-linux/task_install_unified_manager_linux.html
 sidebar: sidebar
 keywords: install, unified manager
-summary: "You can install Unified Manager on a physical or virtual Red Hat Enterprise Linux or CentOS platform."
+summary: "You can install Unified Manager on a physical or virtual Red Hat Enterprise Linux platform."
 ---
 = Installing Unified Manager
 :icons: font
