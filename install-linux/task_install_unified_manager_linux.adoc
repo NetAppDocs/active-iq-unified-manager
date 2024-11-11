@@ -2,14 +2,14 @@
 permalink: install-linux/task_install_unified_manager_linux.html
 sidebar: sidebar
 keywords: install, unified manager
-summary: "You can install Unified Manager on a physical or virtual Red Hat Enterprise Linux or CentOS platform."
+summary: "You can install Unified Manager on a physical or virtual Red Hat Enterprise Linux platform."
 ---
 = Installing Unified Manager
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can install Unified Manager on a physical or virtual Red Hat Enterprise Linux or CentOS platform.
+You can install Unified Manager on a physical or virtual Red Hat Enterprise Linux platform.
 
 *What you'll need*
 
@@ -24,7 +24,7 @@ See link:reference_red_hat_and_centos_software_and_installation_requirements.htm
 * You must have a supported web browser.
 * Your terminal emulation software must have scrollback enabled.
 
-The Red Hat Enterprise Linux or CentOS system might have all the required versions of the required supporting software (Java, MySQL, additional utilities) installed, only some of the required software installed, or might be a newly installed system with none of the required software installed.
+The Red Hat Enterprise Linux system might have all the required versions of the required supporting software (Java, MySQL, additional utilities) installed, only some of the required software installed, or might be a newly installed system with none of the required software installed.
 
 .Steps
 
@@ -110,7 +110,7 @@ If the installation fails with the GPG NOKEY error , use `rpm --import` to impor
 
 [NOTE]
 ====
-Do not attempt installation by using alternative commands (such as `rpm -ivh`). A successful installation of Unified Manager on a Red Hat Enterprise Linux or CentOS system requires that all Unified Manager files and related files are installed in a specific order into a specific directory structure that is enforced automatically by the `yum install netapp-um<version>.x86_64.rpm` command.
+Do not attempt installation by using alternative commands (such as `rpm -ivh`). A successful installation of Unified Manager on a Red Hat Enterprise Linux system requires that all Unified Manager files and related files are installed in a specific order into a specific directory structure that is enforced automatically by the `yum install netapp-um<version>.x86_64.rpm` command.
 ====
 
 . Disregard the email notification that is displayed immediately after the installation messages.
@@ -139,3 +139,4 @@ Log in to Unified Manager in a web browser by using following details:
 `usermod -s /bin/maintenance-user-shell.sh umadmin`
 
 Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager]. It is mandatory to change the default password of the umadmin user.
+// 2024-11-8, OTHERDOC87
