@@ -40,7 +40,7 @@ The following special characters are allowed: ~ ! @ # $ * - ? . + { }
 https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site^]
 . Select the required version of Unified Manager and accept the end-users license agreement (EULA).
 . Download the Unified Manager Windows installation file or zip file to a target directory on the Windows system. 
-. If you downloaded the zip file, unzip the file to find the installation file. If you downloaded the installation file, navigate to the directory where the installation file is located.
+. Extract the zip file, if needed, and navigate to the directory where the installation file is located.
 . Right-click and run the Unified Manager installer executable (.exe) file as an administrator.
 +
 Unified Manager detects missing or pre-installed third-party packages and lists them. If the required third-party packages are not installed in the system, Unified Manager installs them as part of the installation.
