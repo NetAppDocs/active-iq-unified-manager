@@ -2,14 +2,14 @@
 permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html
 sidebar: sidebar
 keywords: restore, linux system, mysql, database, backup
-summary: "If data loss or data corruption occurs, you can restore Unified Manager to the previous stable state with minimum loss of data. You can restore the Unified Manager database to a local or remote Red Hat Enterprise Linux or CentOS system by using the Unified Manager maintenance console."
+summary: "If data loss or data corruption occurs, you can restore Unified Manager to the previous stable state with minimum loss of data. You can restore the Unified Manager database to a local or remote Red Hat Enterprise Linux system by using the Unified Manager maintenance console."
 ---
 = Restoring a MySQL database backup on a Linux system
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-If data loss or data corruption occurs, you can restore Unified Manager to the previous stable state with minimum loss of data. You can restore the Unified Manager database to a local or remote Red Hat Enterprise Linux or CentOS system by using the Unified Manager maintenance console.
+If data loss or data corruption occurs, you can restore Unified Manager to the previous stable state with minimum loss of data. You can restore the Unified Manager database to a local or remote Red Hat Enterprise Linux system by using the Unified Manager maintenance console.
 
 *What you'll need*
 
@@ -21,7 +21,7 @@ It is recommended that you copy the backup file to the default directory /`data/
 
 * The backup files must be of `.7z` type.
 
-The restore feature is platform-specific and version-specific. You can restore a Unified Manager backup only on the same version of Unified Manager. You can restore a Linux backup file or a virtual appliance backup file to a Red Hat Enterprise Linux or CentOS system.
+The restore feature is platform-specific and version-specific. You can restore a Unified Manager backup only on the same version of Unified Manager. You can restore a Linux backup file or a virtual appliance backup file to a Red Hat Enterprise Linux system.
 
 [TIP]
 ====
@@ -47,3 +47,4 @@ After you restore the backup, if the OnCommand Workflow Automation server does n
 
 . On the Workflow Automation server, change the IP address of the Unified Manager server to point to the latest machine.
 . On the Unified Manager server, reset the database password if the acquisition fails in step 1.
+// 2024-11-8, OTHERDOC87

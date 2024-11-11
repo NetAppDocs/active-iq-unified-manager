@@ -15,7 +15,7 @@ Unified Manager user types are as follows:
 
 * *Maintenance user*
 +
-Created during the initial configuration of Unified Manager. The maintenance user then creates additional users and assigns roles. The maintenance user is also the only user with access to the maintenance console. When Unified Manager is installed on a Red Hat Enterprise Linux or CentOS system, the maintenance user is given the user name "`umadmin.`"
+Created during the initial configuration of Unified Manager. The maintenance user then creates additional users and assigns roles. The maintenance user is also the only user with access to the maintenance console. When Unified Manager is installed on a Red Hat Enterprise Linux system, the maintenance user is given the user name "`umadmin.`"
 
 * *Local user*
 +
@@ -32,3 +32,4 @@ Accesses the Unified Manager UI using the credentials stored on the authenticati
 * *Database user*
 +
 Has read-only access to data in the Unified Manager database, has no access to the Unified Manager web interface or the maintenance console, and cannot execute API calls.
+// 2024-11-8, OTHERDOC87
