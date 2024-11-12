@@ -15,10 +15,9 @@ The Linux system on which you install Unified Manager requires specific versions
 
 The Linux system must have the following versions of the operating system and supporting software installed:
 
-* Red Hat Enterprise Linux versions 7.x and from 8.0 to 8.9, based on x86_64 architecture.
-* CentOS version 7.x based on x86_64 architecture. CentOS Stream is not supported.
+* Red Hat Enterprise Linux versions 8.x and 9.4, based on x86_64 architecture.
 
-See the Interoperability Matrix for the complete and most current list of supported Red Hat Enterprise Linux and CentOS versions.
+See the Interoperability Matrix for the complete and most current list of supported Red Hat Enterprise Linux versions.
 
 http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix^]
 
@@ -33,8 +32,8 @@ Unified Manager is deployed on a WildFly web server. WildFly 26.1.3 is bundled a
 
 The following third-party packages are required, but not included with Unified Manager. These packages are automatically installed by the `yum` installer during installation, provided you have configured the repositories as mentioned in the following sections.
 
-* MySQL Community Edition version 8.0.34 (from the MySQL repository).
-* OpenJDK version 11.0.21 (from the Red Hat Extra Enterprise Linux Server repository)
+* MySQL Community Edition version 8.0.37 (from the MySQL repository).
+* OpenJDK version 11.0.23 (from the Red Hat Extra Enterprise Linux Server repository)
 * Python 3.6.x
 * p7zip version 16.02 or later (from the Red Hat Extra Packages for Enterprise Linux repository)
 
@@ -49,10 +48,10 @@ Installation of Unified Manager on a Linux system can be performed by the root u
 
 == Installation requirements
 
-The best practices for installing Red Hat Enterprise Linux or CentOS and the associated repositories on your system are listed below. Systems installed or configured differently, or deployed off premise (in the cloud), might require additional steps, and Unified Manager might not run properly in such deployments.
+The best practices for installing Red Hat Enterprise Linux and the associated repositories on your system are listed below. Systems installed or configured differently, or deployed off premise (in the cloud), might require additional steps, and Unified Manager might not run properly in such deployments.
 
-* You must install Red Hat Enterprise Linux or CentOS according to Red Hat best practices, and you should select the following default options, which requires selecting the "`Server with GUI`" base environment.
-* While installing Unified Manager on Red Hat Enterprise Linux or CentOS, the system must have access to the appropriate repository so that the installation program can access and install all the required software dependencies.
+* You must install Red Hat Enterprise Linux according to Red Hat best practices, and you should select the following default options, which requires selecting the "`Server with GUI`" base environment.
+* While installing Unified Manager on Red Hat Enterprise Linux, the system must have access to the appropriate repository so that the installation program can access and install all the required software dependencies.
 * For the `yum` installer to find dependent software in the Red Hat Enterprise Linux repositories, you must have registered the system during the Red Hat Enterprise Linux installation or afterwards by using a valid Red Hat subscription.
 +
 See the Red Hat documentation for information about the Red Hat Subscription Manager.
@@ -69,7 +68,7 @@ If the MySQL repository is not configured on your system, you must manually down
 +
 See link:task_manually_configure_mysql_repository.html[Manually configuring the MySQL repository].
 
-If your system does not have internet access, and the repositories are not mirrored from an internet-connected system to the unconnected system, you should follow the installation instructions to determine the external software dependencies of your system. Then you can download the required software to the internet-connected system, and copy the `.rpm` files to the system on which you plan to install Unified Manager. To download the artifacts and packages, you must use the `yum install` command. You must ensure that the two systems are running the same operating system version and that the subscription license is for the appropriate Red Hat Enterprise Linux or CentOS version.
+If your system does not have internet access, and the repositories are not mirrored from an internet-connected system to the unconnected system, you should follow the installation instructions to determine the external software dependencies of your system. Then you can download the required software to the internet-connected system, and copy the `.rpm` files to the system on which you plan to install Unified Manager. To download the artifacts and packages, you must use the `yum install` command. You must ensure that the two systems are running the same operating system version and that the subscription license is for the appropriate Red Hat Enterprise Linux.
 
 [NOTE]
 ====
@@ -78,11 +77,11 @@ You must not install the required third-party software from repositories other t
 
 == Port 443 requirement
 
-Generic images of Red Hat Enterprise Linux and CentOS might block external access to port 443. Due to this restriction, you might be unable to connect to the Administrator web UI after installing Unified Manager. Running the following command allows access to port 443 for all external users and applications on a generic Red Hat Enterprise Linux or CentOS system.
+Generic images of Red Hat Enterprise Linux might block external access to port 443. Due to this restriction, you might be unable to connect to the Administrator web UI after installing Unified Manager. Running the following command allows access to port 443 for all external users and applications on a generic Red Hat Enterprise Linux.
 
 `# firewall-cmd --zone=public --add-port=443/tcp --permanent; firewall-cmd --reload`
 
-You must install Red Hat Enterprise Linux and CentOS with the "`Server with GUI`" base environment. It provides the commands used by Unified Manager installation instructions. Other base environments might require you to install additional commands to validate or complete the installation. If the `firewall-cmd` is not available on your system, you must install it by running the following command:
+You must install Red Hat Enterprise Linux with the "`Server with GUI`" base environment. It provides the commands used by Unified Manager installation instructions. Other base environments might require you to install additional commands to validate or complete the installation. If the `firewall-cmd` is not available on your system, you must install it by running the following command:
 
 `# sudo yum install firewalld`
 
@@ -90,7 +89,7 @@ Contact your IT department before running the commands to see if your security p
 
 [NOTE]
 ====
-THP (Transparent Huge Pages) should be disabled on CentOS and Red Hat systems. When enabled, in some cases it can cause Unified Manager to be shut down when certain processes consume too much memory and are terminated.
+THP (Transparent Huge Pages) should be disabled on Red Hat systems. When enabled, in some cases it can cause Unified Manager to be shut down when certain processes consume too much memory and are terminated.
 ====
-
+// 2024-8-11, jira OTHERDOC-87
 // 2024 AUG 12, CAIQUM-6284

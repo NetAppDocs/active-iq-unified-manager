@@ -15,7 +15,7 @@ You must download the Unified Manager `.zip` file from the NetApp Support Site t
 
 You must have login credentials for the NetApp Support Site.
 
-You download the same Unified Manager installation package for both Red Hat Enterprise Linux and CentOS systems.
+You download the Unified Manager installation package for the Red Hat Enterprise Linux system.
 
 .Steps
 
@@ -46,3 +46,4 @@ openssl dgst -sha256 -verify <public_key_file_name> -signature <signature_file_n
 ----
 +
 The message similar to `Verified Ok` confirms that the installer file is safe to use.
+// 2024-11-8, OTHERDOC87
