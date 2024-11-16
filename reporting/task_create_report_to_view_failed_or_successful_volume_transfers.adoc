@@ -11,7 +11,7 @@ summary: "You can create a report that displays the status of volume transfers. 
 [.lead]
 You can create a report that displays the status of volume transfers. You can view both failed and successful volume transfers in this report.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 

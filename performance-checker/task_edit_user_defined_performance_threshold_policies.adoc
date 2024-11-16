@@ -11,7 +11,7 @@ summary: "You can edit the threshold settings for existing performance threshold
 [.lead]
 You can edit the threshold settings for existing performance threshold policies. This can be useful if you find that you are receiving too many or too few alerts for certain threshold conditions.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

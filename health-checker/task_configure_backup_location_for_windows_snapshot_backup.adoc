@@ -11,7 +11,7 @@ summary: "You should configure the volume for storing Snapshot copies after back
 [.lead]
 You should configure the volume for storing Snapshot copies after backing up Unified Manager on Windows.
 
-*What you'll need*
+.Before you begin
 
 The cluster, storage VM, and volume must meet the following requirements:
 

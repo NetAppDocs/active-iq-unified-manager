@@ -11,7 +11,7 @@ summary: "You can restart the virtual machine from the maintenance console of Un
 [.lead]
 You can restart the virtual machine from the maintenance console of Unified Manager. You must restart after generating a new security certificate or if there is a problem with the virtual machine.
 
-*What you'll need*
+.Before you begin
 
 The virtual appliance is powered on.
 

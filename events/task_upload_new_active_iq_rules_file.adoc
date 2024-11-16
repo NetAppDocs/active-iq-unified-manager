@@ -17,7 +17,7 @@ Active IQ rules are also referred to as Config Advisor (CA) secure rules.
 
 When you are installing or upgrading Unified Manager to a specific release in a site without network connectivity, the bundled Active IQ rules are automatically available for upload. However, it is recommended that you download a new rules file approximately once a month from NetApp's Support Site to make sure that updated events are generated and your storage systems continue to perform optimally.
 
-*What you'll need*
+.Before you begin
 
 * Active IQ portal event reporting must be enabled. This feature is enabled by default. For information, see link:../config/concept_active_iq_platform_events.html[Enabling Active IQ portal events].
 * You must download the rules file from the NetApp Support Site.

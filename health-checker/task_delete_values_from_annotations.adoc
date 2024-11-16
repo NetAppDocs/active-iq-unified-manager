@@ -11,7 +11,7 @@ summary: "You can delete values associated with custom annotations when that val
 [.lead]
 You can delete values associated with custom annotations when that value no longer applies to the annotation.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * The annotation value must not be associated with any annotation rules or group rules.

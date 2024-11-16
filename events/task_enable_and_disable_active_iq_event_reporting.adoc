@@ -11,7 +11,7 @@ summary: "Active IQ platform events are generated and displayed in the Unified M
 [.lead]
 Active IQ platform events are generated and displayed in the Unified Manager user interface by default. If you find that these events are too "noisy", or that you do not want to view these events in Unified Manager, then you can disable these events from being generated. You can enable them at a later time if you want to resume receiving these notifications.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

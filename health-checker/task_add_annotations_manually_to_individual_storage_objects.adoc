@@ -11,7 +11,7 @@ summary: "You can manually annotate selected volumes, clusters, and SVMs without
 [.lead]
 You can manually annotate selected volumes, clusters, and SVMs without using annotation rules. You can annotate a single storage object or multiple storage objects, and specify the required name-value pair combination for the annotation.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

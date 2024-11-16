@@ -11,7 +11,7 @@ summary: "Using the Storage VMs page, you can view the status of existing storag
 [.lead]
 Using the Storage VMs page, you can view the status of existing storage VMs`' disaster recovery relationships.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

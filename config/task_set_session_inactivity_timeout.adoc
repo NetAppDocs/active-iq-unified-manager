@@ -11,7 +11,7 @@ summary: "You can specify the inactivity timeout value for Unified Manager so th
 [.lead]
 You can specify the inactivity timeout value for Unified Manager so that the session is terminated automatically after a certain period of time. By default the timeout is set to 4,320 minutes (72 hours).
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

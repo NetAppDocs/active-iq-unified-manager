@@ -12,7 +12,7 @@ summary: "You can uninstall Unified Manager by using the Programs and Features w
 [.lead]
 You can uninstall Unified Manager by using the Programs and Features wizard, or by performing an unattended uninstallation from the command-line interface.
 
-*What you'll need*
+.Before you begin
 
 * You must have Windows administrator privileges.
 * All clusters (data sources) must be removed from the Unified Manager server before uninstalling the software.

@@ -11,7 +11,7 @@ summary: "The ability to upload scripts to Unified Manager and run them is enabl
 [.lead]
 The ability to upload scripts to Unified Manager and run them is enabled by default. If your organization does not want to allow this activity because of security reasons, you can disable this functionality.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

@@ -11,7 +11,7 @@ summary: "You can create file share volumes that support CIFS/SMB and NFS protoc
 [.lead]
 You can create file share volumes that support CIFS/SMB and NFS protocols, on an existing cluster and Storage Virtual Machine (storage VM) from the Provision Workload page.
 
-*What you'll need*
+.Before you begin
 
 * The storage VM must have space for provisioning the file share volume.
 * Either or both of the SMB and NFS services should be enabled on your storage VM.

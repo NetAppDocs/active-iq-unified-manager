@@ -13,7 +13,7 @@ You can generate a support bundle, containing diagnostic information, so that yo
 
 Starting with Unified Manager 9.8, if your Unified Manager server is connected to the internet, you can also upload the support bundle to NetApp from the maintenance console.
 
-*What you'll need*
+.Before you begin
 
 You must have access to the maintenance console as the maintenance user.
 

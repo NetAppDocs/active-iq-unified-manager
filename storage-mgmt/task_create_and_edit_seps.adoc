@@ -11,7 +11,7 @@ summary: "When the system-defined Storage Efficiency Policies do not match your 
 [.lead]
 When the system-defined Storage Efficiency Policies do not match your workload requirements, you can create your own Storage Efficiency Policies that are optimized for your workloads.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator role.
 * The Storage Efficiency Policy name must be unique, and you cannot use the following reserved keywords:

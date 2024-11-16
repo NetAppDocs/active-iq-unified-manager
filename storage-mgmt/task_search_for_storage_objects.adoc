@@ -11,7 +11,7 @@ summary: "To quickly access a specific object, you can use the Search all Storag
 [.lead]
 To quickly access a specific object, you can use the *Search all Storage Objects* field at the top of the menu bar. This method of global search across all objects enables you to quickly locate specific objects by type. Search results are sorted by storage object type and you can filter them further by object using the drop-down menu.
 
-*What you'll need*
+.Before you begin
 
 * You must have one of the following roles to perform this task: Operator, Application Administrator, or Storage Administrator.
 * A valid search must contain at least three characters.

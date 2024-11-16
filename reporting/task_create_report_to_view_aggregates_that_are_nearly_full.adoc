@@ -11,7 +11,7 @@ summary: "You can create a report to highlight the aggregates that are 80% or mo
 [.lead]
 You can create a report to highlight the aggregates that are 80% or more full.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 

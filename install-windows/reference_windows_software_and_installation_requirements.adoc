@@ -43,7 +43,7 @@ The following third-party packages are bundled with Unified Manager. If these th
 * Microsoft Visual C{pp} 2015 Redistributable package version 14.26.28720.3
 * Microsoft Visual C{pp} Redistributable Packages for Visual Studio 2015 version 14.26.28720.3
 * MySQL Community Edition version 8.0.37
-* Python 3.12x
+* Python 3.12.4
 * OpenJDK version 11.0.23
 * p7zip version 23.01 or later
 
@@ -80,4 +80,5 @@ You should shut down a running instance of Unified Manager before upgrading any 
 ** Unified Manager installation directory, for example, `\C:\Program Files\NetApp\`
 ** MySQL data directory, for example, `C:\ProgramData\MySQL\MySQLServerData`
 
+// 15-November-2024 OTHERDOC-81
 // 14-November-2024 OTHERDOC-81

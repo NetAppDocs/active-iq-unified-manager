@@ -11,7 +11,7 @@ summary: "You can create basic or advanced SnapMirror and SnapVault schedules to
 [.lead]
 You can create basic or advanced SnapMirror and SnapVault schedules to enable automatic data protection transfers on a source or primary volume so that transfers take place more frequently or less frequently, depending on how often the data changes on your volumes.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have already completed the Destination Information area in the Configure Protection dialog box.

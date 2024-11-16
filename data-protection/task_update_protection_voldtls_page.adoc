@@ -13,7 +13,7 @@ You can perform a first-time baseline transfer on a new protection relationship,
 
 *NOTE*: You cannot initialize or update volumes protected by Consistency Groups.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up OnCommand Workflow Automation.

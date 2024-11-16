@@ -11,7 +11,7 @@ summary: "You can remove a user-defined performance threshold policy from a stor
 [.lead]
 You can remove a user-defined performance threshold policy from a storage object when you no longer want Unified Manager to monitor the value of the performance counter.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

@@ -11,7 +11,7 @@ summary: "You can download a certification signing request for the current HTTPS
 [.lead]
 You can download a certification signing request for the current HTTPS security certificate so that you can provide the file to a Certificate Authority to sign. A CA-signed certificate helps prevent man-in-the-middle attacks and provides better security protection than a self-signed certificate.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

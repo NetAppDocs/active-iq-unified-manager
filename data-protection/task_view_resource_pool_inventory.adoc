@@ -11,7 +11,7 @@ summary: "You can use the Resource Pools page to view the resource pool inventor
 [.lead]
 You can use the Resource Pools page to view the resource pool inventory and to monitor the remaining capacity for each resource pool.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

@@ -11,7 +11,7 @@ summary: "All events are enabled by default. You can disable events globally to 
 [.lead]
 All events are enabled by default. You can disable events globally to prevent the generation of notifications for events that are not important in your environment. You can enable events that are disabled when you want to resume receiving notifications for them.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

@@ -11,7 +11,7 @@ summary: "You can monitor your storage VM disaster recovery relationships from t
 [.lead]
 You can monitor your storage VM disaster recovery relationships from the Relationships page in the PROTECTION section of the INVENTORY. By default, the Relationships page lists only the top-level relationships as the constituent relationships filter is applied.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

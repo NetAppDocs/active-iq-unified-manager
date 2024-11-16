@@ -11,7 +11,7 @@ summary: "You can configure the schedule at which Unified Manager Snapshot copie
 [.lead]
 You can configure the schedule at which Unified Manager Snapshot copies are created by using the Unified Manager UI.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * You must have configured the settings for creating Snapshot copies from the maintenance console to identify the destination where the snapshots will be created.

@@ -11,7 +11,7 @@ summary: "You can use the Unified Manager web UI to confirm or eliminate the pos
 [.lead]
 You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because RAID disk problems have taken its host aggregate offline.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

@@ -1,5 +1,5 @@
 ---
-permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html
+permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_system.html
 sidebar: sidebar
 keywords: unified manager, migrate, virtual, appliance, linux system
 summary: "You can restore a Unified Manager MySQL database dump backup from a virtual appliance to a Red Hat Enterprise Linux system if you want to change the host operating system on which Unified Manager is running."
@@ -11,13 +11,13 @@ summary: "You can restore a Unified Manager MySQL database dump backup from a vi
 [.lead]
 You can restore a Unified Manager MySQL database dump backup from a virtual appliance to a Red Hat Enterprise Linux system if you want to change the host operating system on which Unified Manager is running.
 
-*What you'll need*
+.Before you begin
 
 * On the virtual appliance:
  ** You must have the Operator, Application Administrator, or Storage Administrator role.
  ** You must know the name of the Unified Manager maintenance user for the restore operation.
 * On the Linux system:
- ** You must have installed Unified Manager on a Linux server following the instructions in link:../install-linux/concept_install_unified_manager_on_rhel_or_centos.html[Installing Unified Manager on Linux systems].
+ ** You must have installed Unified Manager on a Linux server following the instructions in link:../install-linux/concept_install_unified_manager_on_rhel.html[Installing Unified Manager on Linux systems].
  ** The version of Unified Manager on this server must be the same as the version on the virtual appliance from which you are using the backup file.
  ** Do not launch the UI or configure any clusters, users, or authentication settings on the Linux system after installation. The backup file populates this information during the restore process.
  ** You must have the root user credentials for the Linux host.
@@ -54,4 +54,6 @@ You should perform the following tasks:
 * Reconfigure SAML authentication settings, if you are using SAML.
 
 After you have verified that everything is running as expected on your Linux system, you can shut down and remove the Unified Manager virtual appliance.
+
+// 15-November-2024 OTHERDOC-81
 // 2024-11-8, OTHERDOC87
