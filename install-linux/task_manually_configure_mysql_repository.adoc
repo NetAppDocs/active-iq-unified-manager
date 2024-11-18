@@ -21,7 +21,7 @@ This task might fail if the system does not have the internet connectivity. Refe
 
 . Download the appropriate MySQL repository for your installation. For version 8, download it from:
 +
-`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm`
+`wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm`
 +
 For version 9, download it from:
 +
