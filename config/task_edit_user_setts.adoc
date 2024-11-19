@@ -11,7 +11,7 @@ summary: "You can edit user settings—such as the email address and role—that
 [.lead]
 You can edit user settings--such as the email address and role--that are specified each user. For example, you might want to change the role of a user who is a storage operator, and assign storage administrator privileges to the user.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

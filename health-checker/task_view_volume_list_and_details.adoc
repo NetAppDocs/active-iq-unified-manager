@@ -11,7 +11,7 @@ summary: "From the Health: All Volumes view, you can monitor your inventory of v
 [.lead]
 From the Health: All Volumes view, you can monitor your inventory of volumes. The Capacity: All Volumes view enables you to view information about the capacity and utilization of volumes in a cluster.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

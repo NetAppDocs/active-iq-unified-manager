@@ -11,7 +11,7 @@ summary: "Unified Manager generates node resources overutilized warning events w
 [.lead]
 Unified Manager generates node resources overutilized warning events when a single node is operating above the bounds of its operational efficiency, and therefore potentially affecting workload latencies. These system-defined events provide the opportunity to correct potential performance issues before many workloads are affected by latency.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * There must be new or obsolete performance events.

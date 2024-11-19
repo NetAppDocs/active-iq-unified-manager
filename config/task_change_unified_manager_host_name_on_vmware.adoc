@@ -11,7 +11,7 @@ summary: "The network host is assigned a name when the Unified Manager virtual a
 [.lead]
 The network host is assigned a name when the Unified Manager virtual appliance is first deployed. You can change the host name after deployment. If you change the host name, you must also regenerate the HTTPS certificate.
 
-*What you'll need*
+.Before you begin
 
 You must be logged in to Unified Manager as the maintenance user, or have the Application Administrator role assigned to you to perform these tasks.
 

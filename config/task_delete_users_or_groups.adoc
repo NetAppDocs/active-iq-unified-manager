@@ -11,7 +11,7 @@ summary: "You can delete one or more users from the management server database t
 [.lead]
 You can delete one or more users from the management server database to prevent specific users from accessing Unified Manager. You can also delete groups so that all the users in the group can no longer access the management server.
 
-*What you'll need*
+.Before you begin
 
 * When you are deleting remote groups, you must have reassigned the events that are assigned to the users of the remote groups.
 +

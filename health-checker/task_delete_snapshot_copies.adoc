@@ -11,7 +11,7 @@ summary: "You can delete a Snapshot copy to conserve space or to free disk space
 [.lead]
 You can delete a Snapshot copy to conserve space or to free disk space, or you can delete the Snapshot copy if it is no longer required.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

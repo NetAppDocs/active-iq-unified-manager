@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html
+permalink: install-linux/reference_red_hat_software_and_installation_requirements.html
 sidebar: sidebar
 keywords: linux software, installation requirements, system, authorization,  requirements
 summary: "The Linux system on which you install Unified Manager requires specific versions of the operating system and supporting software."
@@ -34,7 +34,7 @@ The following third-party packages are required, but not included with Unified M
 
 * MySQL Community Edition version 8.0.37 (from the MySQL repository).
 * OpenJDK version 11.0.23 (from the Red Hat Extra Enterprise Linux Server repository)
-* Python 3.6.x
+* Python 3.9.x (from the Red Hat Extra Enterprise Linux Server repository)
 * p7zip version 16.02 or later (from the Red Hat Extra Packages for Enterprise Linux repository)
 
 [NOTE]
@@ -91,5 +91,7 @@ Contact your IT department before running the commands to see if your security p
 ====
 THP (Transparent Huge Pages) should be disabled on Red Hat systems. When enabled, in some cases it can cause Unified Manager to be shut down when certain processes consume too much memory and are terminated.
 ====
+
+// 15-November-2024 OTHERDOC-81
 // 2024-8-11, jira OTHERDOC-87
 // 2024 AUG 12, CAIQUM-6284

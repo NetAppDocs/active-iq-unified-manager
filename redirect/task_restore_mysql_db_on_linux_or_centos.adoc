@@ -1,0 +1,6 @@
+---
+permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html
+redirect:  active-iq-unified-manager/health-checker/task_restore_mysql_db_on_linux.html
+---
+
+// 15-November-2024 OTHERDOC-81

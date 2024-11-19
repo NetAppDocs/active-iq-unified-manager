@@ -14,7 +14,7 @@ You can extend protection from an existing relationship by creating either a fan
 You can extend protection to volumes using consistency group, which is a container that holds several volumes so that you can manage all of the volumes as one entity. You can view the SnapMirror active sync Consistency Group and the synchronous consistency group relationship in the Relationships page of Unified Manager.
 
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up Workflow Automation.

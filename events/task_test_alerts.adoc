@@ -11,7 +11,7 @@ summary: "You can test an alert to verify that you have configured it correctly.
 [.lead]
 You can test an alert to verify that you have configured it correctly. When an event is triggered, an alert is generated, and an alert email is sent to the configured recipients. You can verify whether the notification is sent and whether your script is executed by using the test alert.
 
-*What you'll need*
+.Before you begin
 
 * You must have configured notification settings such as the email address of the recipients, SMTP server, and SNMP trap.
 +

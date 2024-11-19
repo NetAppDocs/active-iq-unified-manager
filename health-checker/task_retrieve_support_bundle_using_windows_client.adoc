@@ -11,7 +11,7 @@ summary: "If you are a Windows user, you can download and install a tool to retr
 [.lead]
 If you are a Windows user, you can download and install a tool to retrieve the support bundle from your Unified Manager server. You can send the support bundle to technical support for a more detailed diagnosis of an issue. Filezilla or WinSCP are examples of tools you can use.
 
-*What you'll need*
+.Before you begin
 
 You must be the maintenance user to perform this task.
 

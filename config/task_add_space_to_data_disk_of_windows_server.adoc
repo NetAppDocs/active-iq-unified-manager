@@ -11,7 +11,7 @@ summary: "If you need to increase the amount of disk space for the Unified Manag
 [.lead]
 If you need to increase the amount of disk space for the Unified Manager database, you can add capacity to the logical drive on which Unified Manager is installed.
 
-*What you'll need*
+.Before you begin
 
 You must have Windows administrator privileges.
 
@@ -44,3 +44,5 @@ Follow the steps in the VMware topic:
 
 https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1004071[Increasing the size of a disk partition]
 |===
+
+// 15-November-2024 OTHERDOC-81

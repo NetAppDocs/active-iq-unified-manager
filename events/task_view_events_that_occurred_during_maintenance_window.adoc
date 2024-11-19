@@ -11,7 +11,7 @@ summary: "If necessary, you can view the events that were generated for all stor
 [.lead]
 If necessary, you can view the events that were generated for all storage objects during a Unified Manager maintenance window. Most events will appear in the Obsolete state once the maintenance window has completed and all system resources are back up and running.
 
-*What you'll need*
+.Before you begin
 
 At least one maintenance window must have completed before any events are available.
 

@@ -11,7 +11,7 @@ summary: "You can use the Performance: All Clusters view to display the performa
 [.lead]
 You can use the Performance: All Clusters view to display the performance status of your All SAN Array clusters.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

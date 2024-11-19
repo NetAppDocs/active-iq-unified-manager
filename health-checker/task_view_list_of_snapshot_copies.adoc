@@ -11,7 +11,7 @@ summary: "You can view the list of Snapshot copies for a selected volume. You ca
 [.lead]
 You can view the list of Snapshot copies for a selected volume. You can use the list of Snapshot copies to calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted, and you can delete the Snapshot copies if required.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * The volume containing the Snapshot copies must be online.

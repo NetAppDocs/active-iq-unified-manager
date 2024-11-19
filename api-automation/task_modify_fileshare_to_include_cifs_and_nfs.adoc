@@ -11,7 +11,7 @@ summary: "You can modify an NFS file share to support CIFS protocol. During file
 [.lead]
 You can modify an NFS file share to support CIFS protocol. During file share creation, it is possible to specify both access control list (ACL) parameters and export policy rules for the same file share. However, if you want to enable CIFS on the same volume where you created an NFS file share, you can update the ACL parameters on that file share to support CIFS.
 
-*What you'll need*
+.Before you begin
 
 . An NFS file share must have been created with only the export policy details. For information, see _Managing file shares_ and _Modifying storage workloads_.
 . You must have the file share key to run this operation. For information about viewing file share details and retrieving the file share key by using the Job ID, see _Provisioning CIFS and NFS file shares_.
@@ -140,3 +140,5 @@ a|
 ----
 +
 You can see the ACL assigned along with the export policy to the same file share.
+
+// 15-November-2024 OTHERDOC-81

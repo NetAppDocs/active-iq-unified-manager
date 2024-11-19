@@ -11,7 +11,7 @@ summary: "You can create a report that contains the list of volumes that current
 [.lead]
 You can create a report that contains the list of volumes that currently reside on FabricPool aggregates, that have a cloud recommendation of Tier, and that have a large amount of cold data. This report can help you decide if you should change the tiering policy for certain volumes to "`auto`" or "`all`" to offload more cold (inactive) data to the cloud tier.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have configured FabricPool aggregates and have volumes on those aggregates.

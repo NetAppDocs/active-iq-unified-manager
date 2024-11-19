@@ -11,7 +11,7 @@ summary: "You can enable Security Assertion Markup Language (SAML) authenticatio
 [.lead]
 You can enable Security Assertion Markup Language (SAML) authentication so that remote users are authenticated by a secure identity provider (IdP) before they can access the Unified Manager web UI.
 
-*What you'll need*
+.Before you begin
 
 * You must have configured remote authentication and verified that it is successful.
 * You must have created at least one Remote User, or a Remote Group, with the Application Administrator role.

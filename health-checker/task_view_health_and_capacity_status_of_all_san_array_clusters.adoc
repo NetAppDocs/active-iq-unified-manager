@@ -11,7 +11,7 @@ summary: "You can use the Cluster inventory pages to display the health and capa
 [.lead]
 You can use the Cluster inventory pages to display the health and capacity status of your All SAN Array clusters.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

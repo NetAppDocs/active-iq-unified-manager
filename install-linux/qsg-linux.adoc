@@ -39,7 +39,7 @@ The procedures for configuring a Red Hat Enterprise Linux repository is site spe
 `# sudo ./pre_install_check.sh`
 
 === Install Unified Manager
-Unified Manager uses the `yum` utility to install the software and any dependent software. Because there are varying images of Red Hat Enterprise Linux, the packages installed depend on the software present in the images. The `yum` utility determines the dependent software packages for installation. If you need more information on the dependent software packages, see the link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html[Linux software and installation requirements].
+Unified Manager uses the `yum` utility to install the software and any dependent software. Because there are varying images of Red Hat Enterprise Linux, the packages installed depend on the software present in the images. The `yum` utility determines the dependent software packages for installation. If you need more information on the dependent software packages, see the link:../install-linux/reference_red_hat_software_and_installation_requirements.html[Linux software and installation requirements].
 
 To install Unified Manager, run the following command, either as the root user or using `sudo`, from the directory where the installation file was unzipped:
 
@@ -50,5 +50,7 @@ or
 `% sudo yum install netapp-um<version>.x86_64.rpm`
 
 At the end of the installation, the information to connect to the Unified Manager web UI is displayed. If you are unable to connect to the web UI, refer to the `README` file packaged with the software for more information about port 443 restrictions.
+
+// 15-November-2024 OTHERDOC-81
 // 2024-11-8, OTHERDOC87
 // 2024 AUG 12, CAIQUM-6284

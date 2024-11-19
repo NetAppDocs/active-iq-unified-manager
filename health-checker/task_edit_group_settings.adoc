@@ -11,7 +11,7 @@ summary: "You can edit the name and description of a group that you created in U
 [.lead]
 You can edit the name and description of a group that you created in Unified Manager.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

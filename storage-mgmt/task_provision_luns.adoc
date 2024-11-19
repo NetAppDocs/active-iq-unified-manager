@@ -11,7 +11,7 @@ summary: "You can create LUNs that support CIFS/SMB and NFS protocols, on an exi
 [.lead]
 You can create LUNs that support CIFS/SMB and NFS protocols, on an existing cluster and Storage Virtual Machine (storage VM) from the Provision Workload page.
 
-*What you'll need*
+.Before you begin
 
 * The storage VM must have space for provisioning the LUN.
 * Both iSCSI and FCP must be enabled on the storage VM on which you create the LUN.

@@ -11,7 +11,7 @@ summary: "You can configure Unified Manager to send alert notifications when an 
 [.lead]
 You can configure Unified Manager to send alert notifications when an event is generated or when an event is assigned to a user. You can configure the SMTP server that is used to send the alert, and you can set various notification mechanisms--for example, alert notifications can be sent as emails or SNMP traps.
 
-*What you'll need*
+.Before you begin
 
 You must have the following information:
 

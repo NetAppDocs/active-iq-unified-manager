@@ -11,7 +11,7 @@ summary: "From the Volume Relationships page, you can resynchronize a relationsh
 [.lead]
 From the Volume Relationships page, you can resynchronize a relationship either to recover from an event that disabled your source volume or when you want to change the current source to a different volume.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up Workflow Automation.

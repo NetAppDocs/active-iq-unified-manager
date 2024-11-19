@@ -11,7 +11,7 @@ summary: "You can use the Users page to view the list of users who manage storag
 [.lead]
 You can use the Users page to view the list of users who manage storage objects and data using Unified Manager. You can view details about the users, such as the user name, type of user, email address, and the role that is assigned to the users.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

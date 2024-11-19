@@ -11,7 +11,7 @@ summary: 'You can manage your report schedules from the Report Schedules page. Y
 [.lead]
 You can manage your report schedules from the Report Schedules page. You can view, modify, or delete existing schedules.
 
-*What you'll need*
+.Before you begin
 
 [NOTE]
 ====

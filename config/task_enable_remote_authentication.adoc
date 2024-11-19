@@ -11,7 +11,7 @@ summary: "You can enable remote authentication so that the Unified Manager serve
 [.lead]
 You can enable remote authentication so that the Unified Manager server can communicate with your authentication servers. The users of the authentication server can access the Unified Manager graphical interface to manage storage objects and data.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

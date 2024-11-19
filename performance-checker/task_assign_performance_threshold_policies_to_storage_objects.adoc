@@ -11,7 +11,7 @@ summary: "You assign a user-defined performance threshold policy to a storage ob
 [.lead]
 You assign a user-defined performance threshold policy to a storage object so that Unified Manager reports an event if the value of the performance counter exceeds the policy setting.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

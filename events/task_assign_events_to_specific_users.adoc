@@ -11,7 +11,7 @@ summary: "You can assign unassigned events to yourself or to other users, includ
 [.lead]
 You can assign unassigned events to yourself or to other users, including remote users. You can reassign assigned events to another user, if required. For example, when frequent issues occur on a storage object, you can assign the events for these issues to the user who manages that object.
 
-*What you'll need*
+.Before you begin
 
 * The user's name and email ID must be configured correctly.
 * You must have the Operator, Application Administrator, or Storage Administrator role.

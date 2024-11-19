@@ -11,7 +11,7 @@ summary: "You can use your mouse to reduce the time range to focus on a specific
 [.lead]
 You can use your mouse to reduce the time range to focus on a specific period of time in the Counter Chart pane or in the Counter Charts Zoom View window. This enables you to see a more granular and microscopic view of any part of the timeline of performance data, events, and thresholds.
 
-*What you'll need*
+.Before you begin
 
 The cursor must have changed to a magnifying glass to indicate that this functionality is active.
 

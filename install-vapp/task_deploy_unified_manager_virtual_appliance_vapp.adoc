@@ -11,7 +11,7 @@ summary: "After downloading the installation file, you deploy Unified Manager as
 [.lead]
 After downloading the installation file, you deploy Unified Manager as a virtual appliance. Use the vSphere Web Client to deploy the virtual appliance on an ESXi server. When you deploy the virtual appliance, a virtual machine is created.
 
-*What you'll need*
+.Before you begin
 
 You should review the system requirements. Make the necessary changes before deploying the Unified Manager virtual appliance.
 
