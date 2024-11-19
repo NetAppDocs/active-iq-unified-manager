@@ -11,7 +11,7 @@ summary: "You can restart the Unified Manager virtual machine (VM) from the main
 [.lead]
 You can restart the Unified Manager virtual machine (VM) from the maintenance console. You should restart the VM after generating a new security certificate, or if there is a problem with the VM.
 
-*What you'll need*
+.Before you begin
 
 * The virtual appliance should be powered on.
 * You should be logged in to the Unified Manager maintenance console as the maintenance user.

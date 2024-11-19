@@ -11,7 +11,7 @@ summary: "You can create a report to analyze storage capacity and use of aggrega
 [.lead]
 You can create a report to analyze storage capacity and use of aggregates, and to view aggregates that are overcommitted.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 

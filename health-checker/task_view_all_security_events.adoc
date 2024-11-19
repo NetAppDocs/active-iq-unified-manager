@@ -11,7 +11,7 @@ summary: "You can view all the active security events and then assign each of th
 [.lead]
 You can view all the active security events and then assign each of them to a user who can resolve the issue. Additionally, if there are certain security events that you do not want to receive, this list can help you identify the events that you want to disable.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

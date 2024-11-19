@@ -11,7 +11,7 @@ summary: "You can configure destination efficiency settings such as deduplicatio
 [.lead]
 You can configure destination efficiency settings such as deduplication, compression, autogrow, and space guarantee on a protection destination using the Advanced Destination Settings dialog box. You use these settings when you want to maximize space utilization on a destination or secondary volume.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

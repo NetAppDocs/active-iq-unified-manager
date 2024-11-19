@@ -11,13 +11,13 @@ summary: "You can install Unified Manager on a physical or virtual Red Hat Enter
 [.lead]
 You can install Unified Manager on a physical or virtual Red Hat Enterprise Linux platform.
 
-*What you'll need*
+.Before you begin
 
 * The system on which you want to install Unified Manager must meet the system and software requirements.
 +
 See link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements].
 +
-See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Linux software and installation requirements].
+See link:reference_red_hat_software_and_installation_requirements.html[Linux software and installation requirements].
 
 * You must have downloaded the Unified Manager `.zip` file from the NetApp Support Site to the target system.
 * You should have verified the integrity of the downloaded `.zip` file.
@@ -35,11 +35,11 @@ The Red Hat Enterprise Linux system might have all the required versions of the 
 |===
 | Required software and minimum version| Command to verify software and version
 a|
-OpenJDK version 11.0.21
+OpenJDK version 11.0.23
 a|
 `java -version`
 a|
-MySQL 8.0.34 Community Edition
+MySQL 8.0.37 Community Edition
 a|
 `rpm -qa \| grep -i mysql`
 a|
@@ -48,7 +48,7 @@ a|
 `rpm -qa \| grep p7zip`
 |===
 
-. If the installed version of MySQL is earlier than MySQL 8.0.34 Community Edition, enter the following command to uninstall it:
+. If the installed version of MySQL is earlier than MySQL 8.0.37 Community Edition, enter the following command to uninstall it:
 +
 `rpm -e <mysql_package_name>`
 +
@@ -139,4 +139,6 @@ Log in to Unified Manager in a web browser by using following details:
 `usermod -s /bin/maintenance-user-shell.sh umadmin`
 
 Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager]. It is mandatory to change the default password of the umadmin user.
+
+// 15-November-2024 OTHERDOC-81
 // 2024-11-8, OTHERDOC87

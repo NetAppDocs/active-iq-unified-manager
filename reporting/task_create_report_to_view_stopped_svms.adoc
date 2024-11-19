@@ -11,7 +11,7 @@ summary: "You can create a report to display a list of all stopped SVMs."
 [.lead]
 You can create a report to display a list of all stopped SVMs.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 

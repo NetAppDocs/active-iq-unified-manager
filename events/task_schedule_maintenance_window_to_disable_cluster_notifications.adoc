@@ -11,7 +11,7 @@ summary: "If you have a planned downtime for a cluster, for example, to upgrade 
 [.lead]
 If you have a planned downtime for a cluster, for example, to upgrade the cluster or to move one of the nodes, you can suppress the events and alerts that would normally be generated during that timeframe by scheduling a Unified Manager maintenance window.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

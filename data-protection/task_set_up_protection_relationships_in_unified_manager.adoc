@@ -11,7 +11,7 @@ summary: "There are several steps that you must perform to use Unified Manager a
 [.lead]
 There are several steps that you must perform to use Unified Manager and OnCommand Workflow Automation to set up SnapMirror and SnapVault relationships to protect your data.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have established peer relationships between two clusters or two storage virtual machines (SVMs).

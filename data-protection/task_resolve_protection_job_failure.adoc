@@ -11,7 +11,7 @@ summary: "This workflow provides an example of how you might identify and resolv
 [.lead]
 This workflow provides an example of how you might identify and resolve a protection job failure from the Unified Manager dashboard.
 
-*What you'll need*
+.Before you begin
 
 Because some tasks in this workflow require that you log in using the Administrator role, you must be familiar with the roles required to use various functionality.
 

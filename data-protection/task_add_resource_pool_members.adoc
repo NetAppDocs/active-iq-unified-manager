@@ -11,7 +11,7 @@ summary: "A resource pool consists of a number of member aggregates. You can add
 [.lead]
 A resource pool consists of a number of member aggregates. You can add aggregates to existing resource pools to increase the amount of space available for secondary volume provisioning.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

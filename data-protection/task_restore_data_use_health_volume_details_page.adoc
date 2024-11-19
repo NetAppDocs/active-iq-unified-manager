@@ -11,7 +11,7 @@ summary: "You can restore overwritten or deleted files, directories, or an entir
 [.lead]
 You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Volume and Volume / Health details pages.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

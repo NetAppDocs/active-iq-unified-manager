@@ -11,7 +11,7 @@ summary: "You can use Unified Manager to investigate performance events caused b
 [.lead]
 You can use Unified Manager to investigate performance events caused by a performance counter crossing a system-defined warning threshold. You can also use Unified Manager to check the health of the cluster component to see whether recent events detected on the component contributed to the performance event.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * There must be new or obsolete performance events.

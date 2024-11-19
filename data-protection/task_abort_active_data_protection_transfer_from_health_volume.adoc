@@ -16,7 +16,7 @@ You can abort an active data protection transfer when you want to stop a SnapMir
 You cannot abort volumes relationships that are protected by the Consistency Group.
 ====
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up Workflow Automation.

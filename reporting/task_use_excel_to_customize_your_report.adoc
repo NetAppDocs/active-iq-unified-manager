@@ -11,7 +11,7 @@ summary: "After you have saved the view, you can download it in Excel Workbook f
 [.lead]
 After you have saved the view, you can download it in Excel Workbook format (.xlsx). When you open the Excel file, you can use advanced Excel features to customize your report.
 
-*What you'll need*
+.Before you begin
 
 You can only upload an Excel Workbook file with the .xlsx extension.
 

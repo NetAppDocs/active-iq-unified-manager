@@ -11,7 +11,7 @@ summary: "You can change the identity provider (IdP) that Unified Manager uses t
 [.lead]
 You can change the identity provider (IdP) that Unified Manager uses to authenticate remote users.
 
-*What you'll need*
+.Before you begin
 
 * You must have the IdP URL and metadata.
 * You must have access to the IdP.

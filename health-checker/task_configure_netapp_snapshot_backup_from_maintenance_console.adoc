@@ -11,7 +11,7 @@ summary: "To take Active IQ Unified Manager backup by using Snapshot copy, you s
 [.lead]
 To take Active IQ Unified Manager backup by using Snapshot copy, you should perform a few configuration steps from the maintenance console.
 
-*What you'll need*
+.Before you begin
 
 You should have the following details for your system:
 

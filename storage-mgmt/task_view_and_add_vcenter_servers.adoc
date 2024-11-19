@@ -11,7 +11,7 @@ summary: "For viewing and troubleshooting the performance of the virtual machine
 [.lead]
 For viewing and troubleshooting the performance of the virtual machines (VMs), the associated vCenter Servers must be added on your Active IQ Unified Manager instance.
 
-*What you'll need*
+.Before you begin
 
 Before adding or viewing vCenter Servers, ensure the following:
 

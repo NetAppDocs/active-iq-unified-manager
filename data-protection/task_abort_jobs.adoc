@@ -11,7 +11,7 @@ summary: "You can use the Jobs page to abort a job if it is taking too long to f
 [.lead]
 You can use the Jobs page to abort a job if it is taking too long to finish, is encountering too many errors, or is no longer needed. You can abort a job only if its status and type allow it. You can abort any running job.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

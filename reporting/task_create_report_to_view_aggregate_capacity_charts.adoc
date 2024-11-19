@@ -11,7 +11,7 @@ summary: "You can create a report to analyze storage total and committed capacit
 [.lead]
 You can create a report to analyze storage total and committed capacity in an Excel chart format.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 

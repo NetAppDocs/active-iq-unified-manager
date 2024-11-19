@@ -11,7 +11,7 @@ summary: "You can verify that your script is executed correctly when an alert is
 [.lead]
 You can verify that your script is executed correctly when an alert is generated for a storage object.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have uploaded a script in the supported file format to Unified Manager.

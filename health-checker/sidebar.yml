@@ -151,7 +151,7 @@ entries:
         - title: What a database restore is
           url: "/health-checker/concept_what_database_restore_is.html"
         - title: Restoring a MySQL database backup on a Linux system
-          url: "/health-checker/task_restore_mysql_db_on_linux_or_centos.html"
+          url: "/health-checker/task_restore_mysql_db_on_linux.html"
         - title: Restoring a MySQL database backup on Windows
           url: "/health-checker/task_restore_mysql_database_backup_on_windows.html"
       - title: Backup and restore using NetApp Snapshots
@@ -186,7 +186,7 @@ entries:
       - title: On-demand backup for Unified Manager
         url: "/health-checker/concept_on_demand_backup_for_unified_manger.html"
       - title: Migrating a Unified Manager virtual appliance to a Linux system
-        url: "/health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html"
+        url: "/health-checker/task_migrate_um_virtual_appliance_to_rhel_system.html"
     - title: Managing scripts
       url: "/health-checker/concept_manage_scripts.html"
       entries:

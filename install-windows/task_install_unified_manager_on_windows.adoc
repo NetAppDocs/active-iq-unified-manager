@@ -11,7 +11,7 @@ summary: "You can install Unified Manager to monitor and troubleshoot data stora
 [.lead]
 You can install Unified Manager to monitor and troubleshoot data storage capacity, availability, performance, and protection issues.
 
-*What you'll need*
+.Before you begin
 
 * The system on which you plan to install Unified Manager should meet the system and software requirements.
 +

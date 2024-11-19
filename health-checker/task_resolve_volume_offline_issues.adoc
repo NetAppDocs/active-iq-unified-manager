@@ -11,7 +11,7 @@ summary: "This workflow provides an example of how you might evaluate and resolv
 [.lead]
 This workflow provides an example of how you might evaluate and resolve a volume offline event that Unified Manager might display in the Event Management inventory page. In this scenario, you are an administrator using Unified Manager to troubleshoot one or more volume offline events.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

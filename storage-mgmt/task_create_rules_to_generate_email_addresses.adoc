@@ -11,7 +11,7 @@ summary: "You can create rules to specify the email address based on the user qu
 [.lead]
 You can create rules to specify the email address based on the user quota associated with clusters, storage virtual machines (SVMs), volumes, qtrees, users, or user groups. A notification is sent to the specified email address when there is a quota breach.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have reviewed the guidelines on the Rules to Generate User and Group Quota Email Address page.

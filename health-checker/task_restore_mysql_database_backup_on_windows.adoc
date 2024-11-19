@@ -11,7 +11,7 @@ summary: "In case of data loss or data corruption, you can use the restore featu
 [.lead]
 In case of data loss or data corruption, you can use the restore feature to restore Unified Manager to the previous stable state with minimal loss. You can restore the Unified Manager MySQL database to a local Windows system or a remote Windows system by using the Unified Manager maintenance console.
 
-*What you'll need*
+.Before you begin
 
 * You must have Windows administrator privileges.
 * You must have copied the Unified Manager backup file and the contents of the database repository directory to the system on which you will perform the restore operation.

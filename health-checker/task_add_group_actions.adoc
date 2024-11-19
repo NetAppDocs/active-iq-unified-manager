@@ -11,7 +11,7 @@ summary: "You can configure group actions that you want to apply to storage obje
 [.lead]
 You can configure group actions that you want to apply to storage objects in a group. Configuring actions for a group enables you to save time, because you do not have to add these actions to each object individually.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

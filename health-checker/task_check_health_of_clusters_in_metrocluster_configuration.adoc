@@ -11,7 +11,7 @@ summary: "You can use Unified Manager to check the operational health of cluster
 [.lead]
 You can use Active IQ Unified Manager (Unified Manager) to check the operational health of clusters, and their components, in MetroCluster over FC and MetroCluster over IP configurations. If the clusters were involved in a performance event detected by Unified Manager, the health status can help you determine whether a hardware or software issue contributed to the event.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * You must have analyzed a performance event for a MetroCluster configuration and obtained the name of the cluster involved.

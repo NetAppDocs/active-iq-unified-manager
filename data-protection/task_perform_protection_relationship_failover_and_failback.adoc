@@ -11,7 +11,7 @@ summary: "When a source volume in your protection relationship is disabled becau
 [.lead]
 When a source volume in your protection relationship is disabled because of a hardware failure or a disaster, you can use the protection relationship features in Unified Manager to make the protection destination read/write accessible and fail over to that volume until the source is online again; then, you can fail back to the original source when it is available to serve data.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up OnCommand Workflow Automation to perform this operation.

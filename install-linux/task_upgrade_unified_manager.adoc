@@ -11,13 +11,13 @@ summary: "You can upgrade Unified Manager by downloading and running the install
 [.lead]
 You can upgrade from Unified Manager 9.13 or 9.14 to 9.16 by downloading and running the installation file on the Linux platform.
 
-*What you'll need*
+.Before you begin
 
 * The system on which you are upgrading Unified Manager must meet the system and software requirements.
 +
 See link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements].
 +
-See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Linux software and installation requirements].
+See link:reference_red_hat_software_and_installation_requirements.html[Linux software and installation requirements].
 * You must have a subscription to the Red Hat Enterprise Linux Subscription Manager.
 * You must install, or upgrade to the correct version of OpenJDK prior to upgrading Unified Manager.
 +
@@ -26,7 +26,7 @@ See link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux].
 * To avoid data loss, you must have created a backup of the Unified Manager database in case there is an issue during the upgrade. NetApp recommends that you move the backup file from the `/opt/netapp/data` directory to an external location.
 * During upgrade, you may be prompted to confirm whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data is purged after 6 months.
 * You should have completed any running operations, because Unified Manager is unavailable during the upgrade process.
-* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.34, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.34.
+* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.37, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.37.
 
 .Steps
 
@@ -108,4 +108,6 @@ Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat
 `systemctl start ocieau`
 
 This process completes the Unified Manager upgrade process. Enter the specified IP address or URL in a new window of a supported web browser to start the Unified Manager web UI, and then log in by using the same maintenance user name (umadmin) and password that you set earlier.
+
+// 15-November-2024 OTHERDOC-81
 // 2024-11-8, OTHERDOC87

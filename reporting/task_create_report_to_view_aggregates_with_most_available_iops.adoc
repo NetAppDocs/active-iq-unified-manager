@@ -11,7 +11,7 @@ summary: "This report shows which aggregates have the most available IOPS per ag
 [.lead]
 This report shows which aggregates have the most available IOPS per aggregate type on which you can provision new workloads.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 

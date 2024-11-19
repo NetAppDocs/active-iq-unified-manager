@@ -11,7 +11,7 @@ summary: "You can upgrade to a newer version of OpenJDK on the Windows server on
 [.lead]
 You can upgrade to a newer version of OpenJDK on the Windows server on which Unified Manager is installed to obtain fixes for security vulnerabilities.
 
-*What you'll need*
+.Before you begin
 
 You must have Windows admin privileges for the system on which Unified Manager is installed.
 

@@ -11,7 +11,7 @@ summary: "After you have taken measures to fix a failed protection job, you can 
 [.lead]
 After you have taken measures to fix a failed protection job, you can use *Retry* to run the job again. Retrying a job creates a new job using the original job ID.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

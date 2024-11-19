@@ -11,7 +11,7 @@ summary: "You can configure Unified Manager to send notifications that alert you
 [.lead]
 You can configure Unified Manager to send notifications that alert you about events in your environment. Before notifications can be sent, you must configure several other Unified Manager options.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

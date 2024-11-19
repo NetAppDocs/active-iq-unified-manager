@@ -11,7 +11,7 @@ summary: "You must download the Unified Manager `.zip` file from the NetApp Supp
 [.lead]
 You must download the Unified Manager `.zip` file from the NetApp Support Site to install Unified Manager.
 
-*What you'll need*
+.Before you begin
 
 You must have login credentials for the NetApp Support Site.
 
@@ -27,7 +27,7 @@ https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/
 +
 [NOTE]
 ====
-** Ensure that you download the correct version of the installer file for your Red Hat Enterprise Linux system. Based on whether you have Red Hat Enterprise Linux 7 or 8 installed, ensure that you download the appropriate version of the Unified Manager `.zip` file.
+** Ensure that you download the correct version of the installer file for your Red Hat Enterprise Linux system. Based on whether you have Red Hat Enterprise Linux 8 or 9 installed, ensure that you download the appropriate version of the Unified Manager `.zip` file.
 ** NetApp recommends that you download the code signing certificate (`.pem`) and digital signature (`.sig`) along with the `.zip` file. 
 ====
 . Verify the checksum for integrity of the  downloaded software.
@@ -46,4 +46,6 @@ openssl dgst -sha256 -verify <public_key_file_name> -signature <signature_file_n
 ----
 +
 The message similar to `Verified Ok` confirms that the installer file is safe to use.
+
+// 15-November-2024 OTHERDOC-81
 // 2024-11-8, OTHERDOC87

@@ -11,7 +11,7 @@ summary: "You can create a report that displays volume transfer trends at specif
 [.lead]
 You can create a report that displays volume transfer trends at specific time intervals.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 

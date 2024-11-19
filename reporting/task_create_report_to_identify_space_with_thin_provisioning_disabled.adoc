@@ -11,7 +11,7 @@ summary: "When a volume is not thin provisioned it takes up the full amount of s
 [.lead]
 When a volume is not thin provisioned it takes up the full amount of space on the disk as defined when the volume was created. Identifying volumes that have thin provisioning disabled helps you decide whether you want to enable thin-provisioning on certain volumes.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 
