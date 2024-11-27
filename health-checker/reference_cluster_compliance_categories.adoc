@@ -69,7 +69,7 @@ Yes
 a|
 OCSP
 a|
-Beginning with 9.14.1, Active IQ Unified manager provides Online Certificate Status Protocol (OCSP) status information at the storage virtual machine (SVM, formerly known as Vserver) level. This ensures the SSL/TLS connections are using valid certificates by applying OCSP validation to all SSL/TLS connections made to the SVM.
+Beginning with 9.14.1, Active IQ Unified Manager provides Online Certificate Status Protocol (OCSP) status information at the storage virtual machine (SVM, formerly known as Vserver) level. This ensures the SSL/TLS connections are using valid certificates by applying OCSP validation to all SSL/TLS connections made to the SVM.
 a|
 Enabled
 a|
