@@ -1,0 +1,41 @@
+---
+permalink: config/task_set_session_inactivity_timeout_CLI.html
+sidebar: sidebar
+keywords: inactivity, timeout, CLI, session
+summary: "?"
+---
+= Setting the maximum inactivity timeout through CLI
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can specify the maximum inactivity timeout value for Unified Manager using the CLI so that the session is terminated automatically after a defined period of inactivity. 
+By default, your inactivity timeout value is set to 4,320 minutes (72 hours). After 72 hours of inactivity, your session is automatically terminated.
+
+*What you'll need*
+
+You must have the Application Administrator role.
+
+This setting affects all logged in user sessions.
+
+.Steps
+
+. Log in to the Unified Manager CLI with the command `um cli login` using a valid username and password for authentication.
+
+[cols="2*",options="header"]
+|===
+| If you want to...| Then do this...
+a|
+Have no timeout set so that the session is never closed automatically
+a|
+?
+a|
+Set a specific number of minutes as the timeout value
+a|
+?
+a|
+Set the maxiumum inactivity timeout value
+a|
+Use the following command: `um option set max.session.timeout.value=<in mins>`
+|===
+// 2025-1-2, OTHERDOC 101
