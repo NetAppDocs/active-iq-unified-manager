@@ -38,4 +38,4 @@ Set the maxiumum inactivity timeout value
 a|
 Use the following command: `um option set max.session.timeout.value=<in mins>`
 |===
-// 2025-1-2, OTHERDOC 101
+// 2025-1-3, OTHERDOC 101
