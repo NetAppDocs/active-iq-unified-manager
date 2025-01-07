@@ -10,7 +10,7 @@ summary: "You can set a maximum session timeout value for Unified Manager using 
 
 [.lead]
 You can set a maximum session timeout value for Unified Manager using the CLI so that the session is terminated automatically after a certain period of time. 
-By default, your session timeout is set to 4,320 minutes (72 hours), which means that your session ends automatically after 72 hours, even if you are logged in and and actively using Unified Manager.
+By default, your session timeout is set to 4,320 minutes (72 hours), which means that your session ends automatically after 72 hours, even if you are logged in and actively using Unified Manager.
 
 *What you'll need*
 
