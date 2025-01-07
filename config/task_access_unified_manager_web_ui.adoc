@@ -11,7 +11,7 @@ summary: "After you have installed Unified Manager, you can access the web UI to
 [.lead]
 After you have installed Unified Manager, you can access the web UI to set up Unified Manager so that you can begin monitoring your ONTAP systems.
 
-*What you'll need*
+.Before you begin
 
 * If this is the first time you are accessing the web UI, you must log in as the maintenance user (or umadmin user for Linux installations).
 * If you plan to allow users to access Unified Manager using the short name instead of using the fully qualified domain name (FQDN) or IP address, then your network configuration has to resolve this short name to a valid FQDN.
@@ -28,4 +28,5 @@ The link is in the following format: `\https://URL`.
 [NOTE]
 If you make three consecutive unsuccessful attempts to log into the web UI within an hour, you will be locked out of the system, and will need to contact your system administrator. This is applicable for only local users.
 
+// 15-November-2024 OTHERDOC-81
 //BURT 1388944

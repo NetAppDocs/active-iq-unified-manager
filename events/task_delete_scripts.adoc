@@ -11,7 +11,7 @@ summary: "You can delete a script from Unified Manager when the script is no lon
 [.lead]
 You can delete a script from Unified Manager when the script is no longer required or valid.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * The script must not be associated with an alert.

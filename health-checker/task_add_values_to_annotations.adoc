@@ -11,7 +11,7 @@ summary: "You can add values to annotations, and then associate storage objects 
 [.lead]
 You can add values to annotations, and then associate storage objects with a particular annotation name-value pair. Adding values to annotations helps you to manage storage objects more effectively.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

@@ -11,7 +11,7 @@ summary: "You can configure one or more conditions to create annotation rules th
 [.lead]
 You can configure one or more conditions to create annotation rules that Unified Manager applies on the storage objects. The storage objects that satisfy the annotation rule are annotated with the value specified in the rule.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

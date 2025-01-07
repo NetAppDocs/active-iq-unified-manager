@@ -11,7 +11,7 @@ summary: "Using the Health: All Volumes view enables you to create several SnapM
 [.lead]
 Using the Health: All Volumes view enables you to create several SnapMirror protection relationships at one time by selecting more than one volume on the same storage VM.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up Workflow Automation.

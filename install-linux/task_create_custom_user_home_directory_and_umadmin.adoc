@@ -11,10 +11,10 @@ summary: "You can create a custom home directory and define your own umadmin use
 [.lead]
 You can create a custom home directory and define your own umadmin user password prior to installing Unified Manager. This task is optional, but some sites might need the flexibility to override Unified Manager installation default settings.
 
-*What you'll need*
+.Before you begin
 
 * The system must meet the requirements described in link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Hardware system requirements].
-* You must be able to log in as the root user to the Red Hat Enterprise Linux or CentOS system.
+* You must be able to log in as the root user to the Red Hat Enterprise Linux system.
 
 The default Unified Manager installation performs the following tasks:
 
@@ -51,3 +51,4 @@ This command should return the appropriate status of the ocie service without an
 The system prompts you to enter a new password string for the umadmin user.
 
 After you have installed Unified Manager you must specify the umadmin user login shell.
+// 2024-11-8, OTHERDOC87

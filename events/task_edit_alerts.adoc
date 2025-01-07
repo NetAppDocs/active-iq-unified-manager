@@ -11,7 +11,7 @@ summary: "You can edit alert properties such as the resource with which the aler
 [.lead]
 You can edit alert properties such as the resource with which the alert is associated, events, recipients, notification options, notification frequency, and associated scripts.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

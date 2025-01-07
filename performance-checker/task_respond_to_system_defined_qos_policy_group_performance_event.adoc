@@ -11,7 +11,7 @@ summary: "Unified Manager generates QoS policy warning events when workload thro
 [.lead]
 Unified Manager generates QoS policy warning events when workload throughput (IOPS, IOPS/TB, or MBps) has exceeded the defined ONTAP QoS policy setting and workload latency is becoming affected. These system-defined events provide the opportunity to correct potential performance issues before many workloads are affected by latency.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * There must be new, acknowledged, or obsolete performance events.

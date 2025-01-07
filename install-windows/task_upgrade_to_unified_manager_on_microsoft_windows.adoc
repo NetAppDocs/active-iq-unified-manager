@@ -9,9 +9,9 @@ summary: "You can upgrade Unified Manager by downloading and running the install
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade Unified Manager 9.12 or 9.13 to 9.14 by downloading and running the installation file on the Windows platform.
+You can upgrade Unified Manager 9.13 or 9.14 to 9.16 by downloading and running the installation file on the Windows platform.
 
-*What you'll need*
+.Before you begin
 
 * The system on which you are upgrading Unified Manager should meet the system and software requirements.
 +
@@ -29,7 +29,8 @@ Starting with Unified Manager 9.5, OpenJDK is provided in the installation packa
 Ensure that Microsoft .NET 4.5.2 or greater is installed on your system before starting the upgrade.
 ====
 
-* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.34, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.34. You must not run a standalone upgrade of an earlier version of MySQL to 8.0.34.
+* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.37, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.37. You must not run a standalone upgrade of an earlier version of MySQL to 8.0.37.
+* All clusters are supported, except for ASA r2 Systems.
 * You should have Windows administrator privileges. Ensure that your user name does not begin with an exclamation mark "`!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`!`".
 * You should have valid credentials to log in to the NetApp Support Site.
 * To avoid data loss, you should have created a backup of the Unified Manager machine in case there is an issue during the upgrade.
@@ -51,8 +52,7 @@ If Unified Manager is paired with an instance of OnCommand Workflow Automation, 
 +
 https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab[NetApp Support Site^].
 . Select the required version of Unified Manager and accept the end-users license agreement (EULA).
-. Download the Unified Manager Windows installation file to a target directory on the Windows system.
-. Right-click and run the Unified Manager installer executable (.exe) file as an administrator.
+. Download the Unified Manager Windows installation file or zip file to a target directory on the Windows system. Extract the zip file, if needed, and navigate to the directory where the installation file is located. Right-click and run the Unified Manager installer executable (.exe) file as an administrator.
 +
 Unified Manager prompts you with the following message:
 +
@@ -74,3 +74,6 @@ This setup will perform an upgrade of Unified Manager. Do you want to continue?
 To perform a silent upgrade of Unified Manager, run the following command:
 `ActiveIQUnifiedManager-<version\>.exe /s /v"MYSQL_PASSWORD=<password> /qn /l*v <system_drive>:\install.log"`
 ====
+
+// 15-November-2024 OTHERDOC-81
+// 2024-10-24, OTHERDOC-89

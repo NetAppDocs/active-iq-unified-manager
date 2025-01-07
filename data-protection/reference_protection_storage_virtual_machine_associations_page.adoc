@@ -24,7 +24,7 @@ You can associate SVMs in three ways:
 == Create storage VM associations
 The Create Storage Virtual Machine Associations wizard enables partner protection applications to associate a source storage VM with a destination storage VM for use with SnapMirror and SnapVault relationships. Partner applications use these associations at the time of initial provisioning of destination volumes to determine which resources to select.dd
 
-*What you'll need*
+.Before you begin
 
 * The storage VM you are associating must already exist.
 * You must have the Application Administrator or Storage Administrator role.
@@ -62,7 +62,7 @@ Choose this option when you want to create an association between a source stora
 == Delete storage VM associations
 You can delete storage VM associations for partner applications to remove the secondary provisioning relationship between source and destination storage VM; for example, you might do this when the destination storage VM is full and you want to create a new storage VM protection associations.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

@@ -11,9 +11,9 @@ summary: "If you allotted insufficient disk space to the `/opt/netapp/data` dire
 [.lead]
 If you allotted insufficient disk space to the `/opt/netapp/data` directory to support Unified Manager when you originally set up the Linux host and then installed Unified Manager, you can add disk space after installation by increasing disk space on the `/opt/netapp/data` directory.
 
-*What you'll need*
+.Before you begin
 
-You must have root user access to the Red Hat Enterprise Linux or CentOS Linux machine on which Unified Manager is installed.
+You must have root user access to the Red Hat Enterprise Linux machine on which Unified Manager is installed.
 
 We recommend that you back up the Unified Manager database before increasing the size of the data directory.
 
@@ -84,3 +84,4 @@ The system returns a confirmation similar to the following:
 . After all of the services are started, delete the backup folder `/backup-data`:
 +
 `rm -rf /backup-data`
+// 2024-11-8, OTHERDOC87

@@ -11,7 +11,7 @@ summary: "After receiving a “Volume Space Full” error event, you review the 
 [.lead]
 After receiving a "`Volume Space Full`" error event, you review the suggested remedial actions on the Event details page and decide to perform one of the suggested actions.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

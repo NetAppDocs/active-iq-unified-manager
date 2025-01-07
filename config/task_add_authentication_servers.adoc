@@ -11,7 +11,7 @@ summary: "You can add authentication servers and enable remote authentication on
 [.lead]
 You can add authentication servers and enable remote authentication on the management server so that remote users within the authentication server can access Unified Manager.
 
-*What you'll need*
+.Before you begin
 
 * The following information must be available:
  ** Host name or IP address of the authentication server
@@ -59,3 +59,5 @@ a|
 The authentication server that you added is displayed in the Servers area.
 
 . Perform a test authentication to confirm that you can authenticate users in the authentication server that you added.
+
+// 15-November-2024 OTHERDOC-81

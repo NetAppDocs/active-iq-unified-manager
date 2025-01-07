@@ -11,7 +11,7 @@ summary: "You can view details about an event that is triggered by Unified Manag
 [.lead]
 You can view details about an event that is triggered by Unified Manager to take corrective action. For example, if there is a health event Volume Offline, you can click that event to view the details and perform corrective actions.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

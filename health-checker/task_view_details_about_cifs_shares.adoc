@@ -11,7 +11,7 @@ summary: "You can view details about all SMB/CIFS shares, such as the share name
 [.lead]
 You can view details about all SMB/CIFS shares, such as the share name, junction path, containing objects, security settings, and export policies defined for the share. Use the Health: All SMB Shares view to see all SMB shares on all monitored clusters, and use the Storage VM / Health details page to view all SMB shares on a specific storage virtual machine (SVM).
 
-*What you'll need*
+.Before you begin
 
 * CIFS license must be enabled on the cluster.
 * Network interfaces serving the SMB/CIFS shares must be configured.

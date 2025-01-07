@@ -11,7 +11,7 @@ summary: "You can use the Health: All Nodes view to view the list of nodes in yo
 [.lead]
 You can use the Health: All Nodes view to view the list of nodes in your clusters. You can use the Cluster / Health details page to view detailed information about nodes that are part of the cluster that is monitored.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

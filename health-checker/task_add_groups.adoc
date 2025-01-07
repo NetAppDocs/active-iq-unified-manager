@@ -11,7 +11,7 @@ summary: "You can create groups to combine clusters, volumes, and storage virtua
 [.lead]
 You can create groups to combine clusters, volumes, and storage virtual machines (SVMs) for ease of management.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 

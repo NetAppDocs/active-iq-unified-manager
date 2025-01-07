@@ -11,7 +11,7 @@ summary: "Authentication services enable the authentication of remote users or r
 [.lead]
 Authentication services enable the authentication of remote users or remote groups in an authentication server before providing them access to Unified Manager. You can authenticate users by using predefined authentication services (such as Active Directory or OpenLDAP), or by configuring your own authentication mechanism.
 
-*What you'll need*
+.Before you begin
 
 * You must have enabled remote authentication.
 * You must have the Application Administrator role.

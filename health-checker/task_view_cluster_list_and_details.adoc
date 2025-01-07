@@ -11,7 +11,7 @@ summary: "You can use the Health: All Clusters view to view your inventory of cl
 [.lead]
 You can use the Health: All Clusters view to view your inventory of clusters. The Capacity: All Clusters view enables you to view summarized information about storage capacity and utilization in all clusters.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

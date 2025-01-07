@@ -11,19 +11,22 @@ summary: "If the system on which you are installing Unified Manager does not hav
 [.lead]
 If the system on which you are installing Unified Manager does not have access to the Extra Packages for Enterprise Linux (EPEL) repository, then you must manually download and configure the repository for a successful installation.
 
-The EPEL repository provides access to the required third-party utilities that must be installed on your system. You use the EPEL repository whether you are installing Unified Manager on a Red Hat Enterprise Linux or CentOS system.
+The EPEL repository provides access to the required third-party utilities that must be installed on your system. You use the EPEL repository to install Unified Manager on a Red Hat Enterprise Linux system.
 
 .Steps
 
-. Download the EPEL repository for your installation. For Red Hat Enterprise Linux 7, download it from:
-+
-`+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm+`
-+
-For version 8, download it from:
+. Download the EPEL repository for your installation. For version 8, download it from:
 +
 `+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm+`
++
+For version 9, download it from:
++
+`wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm`
 . Configure the EPEL repository:
 +
 `yum install epel-release-latest-<version>.noarch.rpm`
 
 For Red Hat Enterprise Linux 8 systems, if you have internal repositories with modular RPM packages, for example, `_javapackages-filesystem-<version>.module.rpm_`, ensure that the metadata for the modular packages is also available in the same repository.
+
+// 15-November-2024 OTHERDOC-81
+// 2024-11-8, OTHERDOC87

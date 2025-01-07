@@ -11,7 +11,7 @@ summary: "You can delete a group from Unified Manager when the group is no longe
 [.lead]
 You can delete a group from Unified Manager when the group is no longer required.
 
-*What you'll need*
+.Before you begin
 
 * None of the storage objects (clusters, SVMs, or volumes) must be associated with any group rule that is associated with the group that you want to delete.
 * You must have the Application Administrator or Storage Administrator role.

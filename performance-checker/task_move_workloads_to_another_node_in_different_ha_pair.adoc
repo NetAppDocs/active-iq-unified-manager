@@ -11,7 +11,7 @@ summary: "You can use Unified Manager to help identify an aggregate on a node in
 [.lead]
 You can use Unified Manager to help identify an aggregate on a node in a different HA pair that is less busy than the HA pair where your workloads are currently running. Then you can move selected volumes to aggregates on the new HA pair. Moving high-performing workloads to an aggregate on a less busy node allows workloads on both nodes to perform more efficiently.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * Your cluster must consist of a minimum of two HA pairs; you cannot use this remediation process if you have only one HA pair in your cluster.

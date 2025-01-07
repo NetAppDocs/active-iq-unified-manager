@@ -18,7 +18,7 @@ You can monitor the MetroCluster configurations from the following views from th
 
 Unified Manager uses system health alerts to indicate the status of the components and connectivity in the MetroCluster configuration.
 
-*What you'll need*
+.Before you begin
 
 * Both the local and remote clusters in a MetroCluster configuration must be added to Active IQ Unified Manager.
 * In a MetroCluster over IP configuration, if a Mediator is to be supported, the Mediator should be configured and added to the cluster by corresponding API.

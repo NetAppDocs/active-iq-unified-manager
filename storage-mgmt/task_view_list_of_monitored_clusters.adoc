@@ -11,7 +11,7 @@ summary: "You can use the Cluster Setup page to view your inventory of clusters.
 [.lead]
 You can use the Cluster Setup page to view your inventory of clusters. You can view details about the clusters, such as their name or IP address and communication status.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

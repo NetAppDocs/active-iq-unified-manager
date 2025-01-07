@@ -1,0 +1,6 @@
+---
+permalink: /install-linux/concept_upgrade_unified_manager_on_rhel_or_centos.html
+redirect:  active-iq-unified-manager/install-linux/concept_upgrade_unified_manager_on_rhel.html
+---
+
+// 15-November-2024 OTHERDOC-81

@@ -11,7 +11,7 @@ summary: "After you have a view or Excel file that you want to schedule for regu
 [.lead]
 After you have a view or Excel file that you want to schedule for regular generation and distribution, you can schedule the report.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have configured the SMTP server settings in the *General* > *Notifications* page so that the reporting engine can send reports as email attachments to the list of recipients from the Unified Manager server.

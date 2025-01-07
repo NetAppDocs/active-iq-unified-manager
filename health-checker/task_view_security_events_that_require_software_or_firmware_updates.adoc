@@ -11,7 +11,7 @@ summary: "There are certain security events that have an impact area of “Upgra
 [.lead]
 There are certain security events that have an impact area of "`Upgrade`". These events are reported from the Active IQ platform, and they identify issues where the resolution requires you to upgrade ONTAP software, node firmware, or operating system software (for security advisories).
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

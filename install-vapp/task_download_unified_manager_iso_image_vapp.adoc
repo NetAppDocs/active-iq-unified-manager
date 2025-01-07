@@ -11,7 +11,7 @@ summary: "Before upgrading Unified Manager, download the Unified Manager upgrade
 [.lead]
 Before upgrading Unified Manager, download the Unified Manager upgrade file from the NetApp Support Site.
 
-*What you'll need*
+.Before you begin
 
 You should have login credentials for the NetApp Support Site.
 

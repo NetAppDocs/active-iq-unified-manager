@@ -11,7 +11,7 @@ summary: "If you need to increase the amount of space on the data disk for the U
 [.lead]
 If you need to increase the amount of space on the data disk for the Unified Manager database, you can add capacity after installation by increasing disk space using the Unified Manager maintenance console.
 
-*What you'll need*
+.Before you begin
 
 * You must have access to the vSphere Client.
 * The virtual machine must have no snapshots stored locally.

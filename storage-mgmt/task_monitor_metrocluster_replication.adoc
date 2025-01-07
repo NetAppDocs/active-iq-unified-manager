@@ -13,7 +13,7 @@ You can monitor and diagnose the overall health condition of the logical connect
 
 Unified Manager uses system health alerts to monitor the status of the components and connectivity in the MetroCluster configuration.
 
-*What you'll need*
+.Before you begin
 
 Both the local and remote cluster in the MetroCluster configuration must be added to Unified Manager
 

@@ -11,7 +11,7 @@ summary: "You can upload and install a security certificate after a Certificate 
 [.lead]
 You can upload and install a security certificate after a Certificate Authority has signed and returned it. The file that you upload and install must be a signed version of the existing self-signed certificate. A CA-signed certificate helps prevent man-in-the middle attacks and provides better security protection than a self-signed certificate.
 
-*What you'll need*
+*What .Before you begin
 
 You must have completed the following actions:
 

@@ -51,7 +51,7 @@ SSH/SFTP
 a|
 22
 a|
-Used to access the Red Hat Enterprise Linux or CentOS command line and retrieve support bundles.
+Used to access the Red Hat Enterprise Linux command line and retrieve support bundles.
 a|
 Syslog
 a|
@@ -225,3 +225,4 @@ a|
 a|
 Used to listen on this port for messages received from ONTAP (cloud agent). The communication through this port supports encryption provided by TLS or SSL.
 |===
+// 2024-11-8, OTHERDOC87

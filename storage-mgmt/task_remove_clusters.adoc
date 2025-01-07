@@ -11,7 +11,7 @@ summary: "You can remove a cluster from Unified Manager by using the Cluster Set
 [.lead]
 You can remove a cluster from Unified Manager by using the Cluster Setup page. For example, you can remove a cluster if cluster discovery fails, or when you want to decommission a storage system.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role or the Storage Administrator role.
 

@@ -11,7 +11,7 @@ summary: "From the Health: All Aggregates view, you can monitor your inventory o
 [.lead]
 From the Health: All Aggregates view, you can monitor your inventory of aggregates. The Capacity: All Aggregates view enables you to view information about the capacity and utilization of aggregates in all clusters.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 
