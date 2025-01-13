@@ -31,7 +31,7 @@ entries:
         url: "/config/task_add_alerts.html"
     - title: Changing the local user password
       url: "/config/task_change_local_user_password.html"
-    - title: Setting the session inactivity timeout
+    - title: Set the session inactivity timeout
       url: "/config/task_set_session_inactivity_timeout.html"
     - title: Set the session timeout through CLI
       url: "/config/task_set_session_timeout_CLI.html"     
