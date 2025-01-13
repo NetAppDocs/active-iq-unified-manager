@@ -22,4 +22,4 @@ The session timeout setting affects all logged in user sessions.
 
 . Log in to the Unified Manager CLI by entering the `um cli login` command. Use a valid username and password for authentication.
 . Enter the `um option set max.session.timeout.value=<in mins>` to modify the session timeout value.
-// 2025-01-14, OTHERDOC 101
+// 2025-01-15, OTHERDOC 101
