@@ -46,6 +46,8 @@ You must shut down a running instance of Unified Manager before upgrading any th
 
 Installation of Unified Manager on a Linux system can be performed by the root user or by non-root users by using the `sudo` command.
 
+Additionally, the default Unified Manager installation includes the umadmin user in the sudoers files (`ocum_sudoers` and `ocie_sudoers`) in the `/etc/sudoers.d/` directory. If you remove this content from your environment because of security policies, or because of some security monitoring tool, you must add it back. You need to preserve the sudoers configuration because some Unified Manager operations require these sudo privileges.
+
 == Installation requirements
 
 The best practices for installing Red Hat Enterprise Linux and the associated repositories on your system are listed below. Systems installed or configured differently, or deployed off premise (in the cloud), might require additional steps, and Unified Manager might not run properly in such deployments.
