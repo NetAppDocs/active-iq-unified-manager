@@ -11,7 +11,7 @@ summary: "You can specify the number of months an event is retained in the Unifi
 [.lead]
 You can specify the number of months an event is retained in the Unified Manager server before it is automatically deleted.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

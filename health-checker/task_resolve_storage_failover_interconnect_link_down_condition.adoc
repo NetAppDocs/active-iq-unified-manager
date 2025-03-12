@@ -11,7 +11,7 @@ summary: "This workflow provides an example of how you might scan for, evaluate,
 [.lead]
 This workflow provides an example of how you might scan for, evaluate, and resolve downed storage failover interconnect link conditions. In this scenario, you are an administrator using Unified Manager to scan for storage failover risks before starting an ONTAP version upgrade on your nodes.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

@@ -11,7 +11,7 @@ summary: "You can view a list of all the volumes and storage VMs and their curre
 [.lead]
 You can view a list of all volumes and storage VMs (SVMs) and their current anti-ransomware status so you can determine whether the data on your volumes and SVMs are adequately protected from ransomware attacks.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

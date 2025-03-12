@@ -23,7 +23,7 @@ Any
 a|
 VMware snapshot of the Unified Manager virtual appliance
 .2+|
-Red Hat Enterprise Linux or CentOS Linux
+Red Hat Enterprise Linux 
 a|
 Small
 a|
@@ -44,3 +44,4 @@ a|
 NetApp Snapshot of Unified Manager database with iSCSI protocol
 |===
 These different methods are described in the sections that follow.
+// 2024-11-8, OTHERDOC87

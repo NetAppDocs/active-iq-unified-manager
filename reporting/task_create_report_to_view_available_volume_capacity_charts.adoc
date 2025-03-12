@@ -11,7 +11,7 @@ summary: "You can create a report to analyze available volume capacity in an Exc
 [.lead]
 You can create a report to analyze available volume capacity in an Excel chart.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 

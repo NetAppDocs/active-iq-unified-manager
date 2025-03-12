@@ -19,13 +19,14 @@ This task might fail if the system does not have the internet connectivity. Refe
 ====
 .Steps
 
-. Download the appropriate MySQL repository for your installation. For Red Hat Enterprise Linux 7, download it from:
+. Download the appropriate MySQL repository for your installation. For version 8, download it from:
 +
-`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+`
+`wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm`
 +
-For version 8, download it from:
+For version 9, download it from:
 +
-`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`
+`wget http://repo.mysql.com/yum/mysql-8.0-community/el/9/x86_64/mysql80-community-release-el9-1.noarch.rpm`
+
 . Configure the MySQL repository:
 +
 `yum install mysql80-community-release-<version>.noarch.rpm`
@@ -49,3 +50,5 @@ for example:
 rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 ----
 ** On a system that does not have internet connectivity, update your MySQL repo file and disable `gpgcheck` by marking `gpgcheck=0`.
+
+// 15-November-2024 OTHERDOC-81

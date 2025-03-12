@@ -33,6 +33,6 @@ Protection events notify you of incidents or risks involving SnapMirror relation
 
 * *Security*
 +
-Security events notify you of how secure your ONTAP clusters, storage virtual machines (SVMs), and volumes are based on parameters defined in the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9].
+Security events notify you of how secure your ONTAP clusters, storage virtual machines (SVMs), and volumes are based on parameters defined in the https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf[NetApp Security Hardening Guide for ONTAP 9^].
 +
 Additionally, this area includes upgrade events that are reported from the Active IQ platform.

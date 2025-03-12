@@ -11,7 +11,7 @@ summary: "By default, Unified Manager stores event data and performance data for
 [.lead]
 By default, Unified Manager stores event data and performance data for 6 months for all monitored clusters. After this time, older data is automatically deleted to make room for new data. This default timeframe works well for most configurations, but very large configurations with many clusters and nodes may need to reduce the retention period so that Unified Manager operates optimally.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

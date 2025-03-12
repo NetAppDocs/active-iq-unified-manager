@@ -1,6 +1,6 @@
 indexpage:
   title: Active IQ Unified Manager Documentation
-  lead: Active IQ Unified Manager (Unified Manager, and formerly OnCommand Unified Manager) enables you to monitor and manage the health and performance of your ONTAP storage systems from a single interface. This documentation library includes information for version 9.14.
+  lead: Active IQ Unified Manager (Unified Manager, and formerly OnCommand Unified Manager) enables you to monitor and manage the health and performance of your ONTAP storage systems from a single interface. This documentation library includes information for version 9.16.
   summary:  Documentation for Active IQ Unified Manager
   keywords: aiqum docs, um docs, unified manager, active iq, oncommand, storage, windows, linux,  vmware vsphere, vapp, configure
   tiles:
@@ -110,3 +110,7 @@ indexpage:
           url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
         - title: Documentation for Active IQ Unified Manager 9.9 or earlier
           url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791
+        - title: Unified Manager Management Information Base (MIB)
+          url: https://mysupport.netapp.com/site/tools/tool-eula/aiqum-mib        
+        - title: Unified Manager database schema      
+          url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791        

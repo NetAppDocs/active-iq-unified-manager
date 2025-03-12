@@ -11,7 +11,7 @@ summary: "You can compare the HTTPS certificate details to the retrieved certifi
 [.lead]
 You can compare the HTTPS certificate details to the retrieved certificate in your browser to ensure that your browser's encrypted connection to Unified Manager is not being intercepted.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

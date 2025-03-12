@@ -11,7 +11,7 @@ summary: "You can create a report to display the version of ONTAP software that 
 [.lead]
 You can create a report to display the version of ONTAP software that is installed on all cluster nodes so that you can see which nodes you should upgrade.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 

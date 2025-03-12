@@ -11,7 +11,7 @@ summary: "After you have quiesced a relationship to stop scheduled transfers fro
 [.lead]
 After you have quiesced a relationship to stop scheduled transfers from occurring, you can use *Resume* on the Volume / Health details page to reenable scheduled transfers so that data on the source or primary volume is protected. Transfers resume from a checkpoint, if one exists, at the next scheduled transfer interval.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up Workflow Automation.

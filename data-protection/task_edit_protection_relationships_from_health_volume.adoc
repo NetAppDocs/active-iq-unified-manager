@@ -11,7 +11,7 @@ summary: "You can edit existing protection relationships to change the current m
 [.lead]
 You can edit existing protection relationships to change the current maximum transfer rate, protection policy, or protection schedule. You might edit a relationship to decrease the bandwidth used for transfers, or to increase the frequency of scheduled transfers because data is changing often.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have installed and configured Workflow Automation.

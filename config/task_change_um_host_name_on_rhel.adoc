@@ -1,17 +1,17 @@
 ---
-permalink: config/task_change_um_host_name_on_rhel_or_centos.html
+permalink: config/task_change_um_host_name_on_rhel.html
 sidebar: sidebar
 keywords: change, unified manager, host name, linux systems
-summary: "At some point, you might want to change the host name of the Red Hat Enterprise Linux or CentOS machine on which you have installed Unified Manager. For example, you might want to rename the host to more easily identify your Unified Manager servers by type, workgroup, or monitored cluster group when you list your Linux machines."
+summary: "At some point, you might want to change the host name of the Red Hat Enterprise Linux machine on which you have installed Unified Manager. For example, you might want to rename the host to more easily identify your Unified Manager servers by type, workgroup, or monitored cluster group when you list your Linux machines."
 ---
 = Changing the Unified Manager host name on Linux systems
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-At some point, you might want to change the host name of the Red Hat Enterprise Linux or CentOS machine on which you have installed Unified Manager. For example, you might want to rename the host to more easily identify your Unified Manager servers by type, workgroup, or monitored cluster group when you list your Linux machines.
+At some point, you might want to change the host name of the Red Hat Enterprise Linux machine on which you have installed Unified Manager. For example, you might want to rename the host to more easily identify your Unified Manager servers by type, workgroup, or monitored cluster group when you list your Linux machines.
 
-*What you'll need*
+.Before you begin
 
 You must have root user access to the Linux system on which Unified Manager is installed.
 
@@ -42,7 +42,7 @@ If you change the host name in Unified Manager, you must manually update the hos
 
 . Restart the network service:
 +
-`service network restart`
+`systemctl restart NetworkManager.service`
 
 . After the service is restarted, verify whether the new host name is able to ping itself:
 +
@@ -55,3 +55,5 @@ This command should return the same IP address that was set earlier for the orig
 . After you complete and verify your host name change, restart Unified Manager by entering the following command:
 +
 `systemctl start mysqld ocie ocieau`
+
+// 15-November-2024 OTHERDOC-81

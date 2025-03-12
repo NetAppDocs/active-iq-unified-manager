@@ -11,7 +11,7 @@ summary: "You can view the details of the storage pool to monitor the storage po
 [.lead]
 You can view the details of the storage pool to monitor the storage pool health, total and available cache, and used and available allocations.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

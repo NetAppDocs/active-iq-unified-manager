@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: inactivity, timeout
 summary: "You can specify the inactivity timeout value for Unified Manager so that the session is terminated automatically after a certain period of time. By default the timeout is set to 4,320 minutes (72 hours)."
 ---
-= Setting the session inactivity timeout
+= Set the session inactivity timeout
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can specify the inactivity timeout value for Unified Manager so that the session is terminated automatically after a certain period of time. By default the timeout is set to 4,320 minutes (72 hours).
+You can specify the inactivity timeout value for Unified Manager so that the session is terminated automatically after a certain period of inactivity. By default the timeout is set to 4,320 minutes (72 hours).
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 
@@ -39,3 +39,4 @@ Set a specific number of minutes as the time out value
 a|
 In the *Inactivity Timeout* panel, move the slider button to the right (on), specify the inactivity timeout value in minutes, and click *Apply*.
 |===
+// 2025-01-13, OTHERDOC 101

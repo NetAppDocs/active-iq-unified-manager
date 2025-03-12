@@ -11,7 +11,7 @@ summary: "You can generate a report that contains a complete list of cluster and
 [.lead]
 You can generate a report that contains a complete list of cluster and node information; such as hardware model numbers and serial numbers, disk types and counts, installed licenses, and more. This report is helpful for contract renewal within secure sites ("`dark`" sites) that are not connected to the NetAppActive IQ platform.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

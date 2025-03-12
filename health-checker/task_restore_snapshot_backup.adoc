@@ -11,7 +11,7 @@ summary: "If data loss or data corruption occurs, you can restore Unified Manage
 [.lead]
 If data loss or data corruption occurs, you can restore Unified Manager to the previous stable state with minimum loss of data. You can restore the Unified Manager Snapshot database to a local or remote operating system by using the Unified Manager maintenance console.
 
-*What you'll need*
+.Before you begin
 
 * You must have the root user credentials for the Linux host and administrative privileges for Windows host machine on which Unified Manager is installed.
 * You must have a user ID and password authorized to log in to the maintenance console of the Unified Manager server.

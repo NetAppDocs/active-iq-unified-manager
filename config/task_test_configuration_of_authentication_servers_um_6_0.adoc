@@ -11,7 +11,7 @@ summary: "You can validate the configuration of your authentication servers to e
 [.lead]
 You can validate the configuration of your authentication servers to ensure that the management server is able to communicate with them. You can validate the configuration by searching for a remote user or remote group from your authentication servers, and authenticating them using the configured settings.
 
-*What you'll need*
+.Before you begin
 
 * You must have enabled remote authentication, and configured your authentication service so that the Unified Manager server can authenticate the remote user or remote group.
 * You must have added your authentication servers so that the management server can search for the remote user or remote group from these servers and authenticate them.

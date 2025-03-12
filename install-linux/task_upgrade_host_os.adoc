@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html
+permalink: install-linux/task_upgrade_host_os.html
 sidebar: sidebar
 keywords: upgrade, host OS, red hat enterprise, linux 7.x, 8.x
 summary: "If you previously installed Unified Manager on a Red Hat Enterprise Linux 7.x system and need to upgrade to Red Hat Enterprise Linux 8.x, you must follow one of the procedures listed in this topic. In both cases you must create a backup of Unified Manager on the Red Hat Enterprise Linux 7.x system, and then restore the backup onto a Red Hat Enterprise Linux 8.x system."
@@ -9,7 +9,7 @@ summary: "If you previously installed Unified Manager on a Red Hat Enterprise Li
 :imagesdir: ../media/
 
 [.lead]
-If you previously installed Unified Manager on a Red Hat Enterprise Linux 7.x system and need to upgrade to Red Hat Enterprise Linux 8.x, you must follow one of the procedures listed in this topic. In both cases you must create a backup of Unified Manager on the Red Hat Enterprise Linux 7.x system, and then restore the backup onto a Red Hat Enterprise Linux 8.x system. Note that the supported versions of Red Hat Enterprise Linux are from 8.0 to 8.7.
+If you previously installed Unified Manager on a Red Hat Enterprise Linux 7.x system and need to upgrade to Red Hat Enterprise Linux 8.x, you must follow one of the procedures listed in this topic. In both cases you must create a backup of Unified Manager on the Red Hat Enterprise Linux 7.x system, and then restore the backup onto a Red Hat Enterprise Linux 8.x system. Note that the supported versions of Red Hat Enterprise Linux are from 8.0 to 8.10.
 
 The difference between the two options listed below is that in one case you are performing the Unified Manager restore onto a new 8.x server, and in the other case you are performing the restore operation onto the same server.
 
@@ -21,11 +21,11 @@ Follow these steps if you have a spare system on which you can install Red Hat E
 
 . Install and configure a new server with Red Hat Enterprise Linux 8.x software.
 +
-See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Linux software and installation requirements].
+See link:reference_red_hat_software_and_installation_requirements.html[Linux software and installation requirements].
 
 . On the Red Hat Enterprise Linux 8.x system, install the same version of Unified Manager software that you have on the existing Red Hat Enterprise Linux 7.x system.
 +
-See link:concept_install_unified_manager_on_rhel_or_centos.html[Installing Unified Manager on Linux].
+See link:concept_install_unified_manager_on_rhel.html[Installing Unified Manager on Linux].
 +
 Do not launch the UI or configure any clusters, users, or authentication settings when the installation is complete. The backup file populates this information during the restore process.
 
@@ -47,11 +47,11 @@ Follow these steps if you do not have a spare system on which you can install Re
 . Remove the Red Hat Enterprise Linux 7.x image from the system and completely wipe the system.
 . Install and configure Red Hat Enterprise Linux 8.x software on the same system.
 +
-See link:reference_red_hat_and_centos_software_and_installation_requirements.html[Linux software and installation requirements].
+See link:reference_red_hat_software_and_installation_requirements.html[Linux software and installation requirements].
 
 . On the Red Hat Enterprise Linux 8.x system, install the same version of Unified Manager software that you had on the Red Hat Enterprise Linux 7.x system.
 +
-See link:concept_install_unified_manager_on_rhel_or_centos.html[Installing Unified Manager on Linux].
+See link:concept_install_unified_manager_on_rhel.html[Installing Unified Manager on Linux].
 +
 Do not launch the UI or configure any clusters, users, or authentication settings when the installation is complete. The backup file populates this information during the restore process.
 
@@ -60,3 +60,6 @@ Do not launch the UI or configure any clusters, users, or authentication setting
 +
 `um backup restore -f /opt/netapp/data/ocum-backup/<backup_file_name>`
 . Enter the IP address or URL into your web browser to start the Unified Manager web UI, and then log in to the system.
+
+// 15-November-2024 OTHERDOC-81
+// 2024 AUG 12, CAIQUM-6284

@@ -11,7 +11,7 @@ summary: "When Active IQ Unified Manager is installed for the first time, a defa
 [.lead]
 When Active IQ Unified Manager is installed for the first time, a default HTTPS certificate is installed. You might generate a new HTTPS security certificate that replaces the existing certificate.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

@@ -51,7 +51,7 @@ The Security panel presents the high-level security status for all clusters or a
 
 You can click the bar charts of the compliant and non-compliant clusters, storage VMS, encrypted and unencrypted volumes, and volume anti-ransomware status to go to the respective pages and view the security details of the filtered clusters, storage VMs, and volumes.
 
-Compliance is based on the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9]. Click the right-arrow at the top of the panel to view security details for all clusters on the Security page. For information, see
+Compliance is based on the https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf[NetApp Security Hardening Guide for ONTAP 9^]. Click the right-arrow at the top of the panel to view security details for all clusters on the Security page. For information, see
 link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html[Viewing detailed security status for clusters and Storage VMs].
 
 == Data Protection panel

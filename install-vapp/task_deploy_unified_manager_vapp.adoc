@@ -11,7 +11,7 @@ summary: "Deploying Unified Manager includes downloading software, deploying the
 [.lead]
 Deploying Unified Manager includes downloading software, deploying the virtual appliance, creating a maintenance user name and password, and performing the initial setup in the web UI.
 
-*What you'll need*
+.Before you begin
 
 * You should verify and complete the system requirements for deployment.
 +

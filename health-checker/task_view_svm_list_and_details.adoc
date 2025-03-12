@@ -11,7 +11,7 @@ summary: "From the Health: All Storage VMs view, you can monitor your inventory 
 [.lead]
 From the Health: All Storage VMs view, you can monitor your inventory of storage virtual machines (SVMs). You can use the Storage VM / Health details page to view detailed information about SVMs that are monitored.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

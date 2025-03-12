@@ -11,7 +11,7 @@ summary: "You can delete custom annotations and their values when they are no lo
 [.lead]
 You can delete custom annotations and their values when they are no longer required.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * The annotation values must not be used in other annotations or group rules.

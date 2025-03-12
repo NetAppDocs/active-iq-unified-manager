@@ -11,7 +11,7 @@ summary: "You can create a SnapVault relationship using the Volume / Health deta
 [.lead]
 You can create a SnapVault relationship using the Volume / Health details page so that data backups are enabled for protection purposes on volumes.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up Workflow Automation to perform this task.

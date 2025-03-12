@@ -11,7 +11,7 @@ summary: "You can use the Health: All Volumes view to create SnapVault relations
 [.lead]
 You can use the Health: All Volumes view to create SnapVault relationships for one or more volumes on the same Storage VM to enable data backups for protection purposes.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Application Administrator or Storage Administrator role.
 * You must have set up Workflow Automation.

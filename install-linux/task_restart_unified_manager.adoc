@@ -11,9 +11,9 @@ summary: "You might have to restart Unified Manager after making configuration c
 [.lead]
 You might have to restart Unified Manager after making configuration changes.
 
-*What you'll need*
+.Before you begin
 
-You must have root user access to the Red Hat Enterprise Linux or CentOS server on which Unified Manager is installed.
+You must have root user access to the Red Hat Enterprise Linux server on which Unified Manager is installed.
 
 .Steps
 
@@ -37,3 +37,4 @@ You must have root user access to the Red Hat Enterprise Linux or CentOS server 
 ====
 `mysqld` is a daemon program required to start and stop the MySQL server.
 ====
+// 2024-11-8, OTHERDOC87

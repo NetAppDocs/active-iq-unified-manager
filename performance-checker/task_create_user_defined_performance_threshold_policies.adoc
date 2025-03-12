@@ -11,7 +11,7 @@ summary: "You create performance threshold policies for storage objects so that 
 [.lead]
 You create performance threshold policies for storage objects so that notifications are sent when a performance counter exceeds a specific value. The event notification identifies that the cluster is experiencing a performance issue.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator role.
 

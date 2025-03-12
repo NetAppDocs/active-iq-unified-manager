@@ -31,8 +31,10 @@ entries:
         url: "/config/task_add_alerts.html"
     - title: Changing the local user password
       url: "/config/task_change_local_user_password.html"
-    - title: Setting the session inactivity timeout
+    - title: Set the session inactivity timeout
       url: "/config/task_set_session_inactivity_timeout.html"
+    - title: Set the session timeout through CLI
+      url: "/config/task_set_session_timeout_CLI.html"     
     - title: Changing the Unified Manager host name
       url: "/config/concept_change_unified_manager_host_name.html"
       entries:
@@ -44,7 +46,7 @@ entries:
         - title: Restarting the Unified Manager virtual machine
           url: "/config/task_restart_unified_manager_virtual_machine.html"
       - title: Changing the Unified Manager host name on Linux systems
-        url: "/config/task_change_um_host_name_on_rhel_or_centos.html"
+        url: "/config/task_change_um_host_name_on_rhel.html"
     - title: Enabling and disabling policy-based storage management
       url: "/config/task_enable_and_disable_policy_based_storage_management.html"
   - title: Configuring Unified Manager backup
@@ -57,7 +59,7 @@ entries:
     - title: Enabling API Gateway
       url: "/config/concept_api_gateway.html"
     - title: Specifying inactivity timeout
-      url: "/config/concept_inactivity_timeout.html"
+      url: "/config/concept_inactivity_timeout.html"    
     - title: Enabling Active IQ portal events
       url: "/config/concept_active_iq_platform_events.html"
     - title: Enabling and disabling security settings for compliance

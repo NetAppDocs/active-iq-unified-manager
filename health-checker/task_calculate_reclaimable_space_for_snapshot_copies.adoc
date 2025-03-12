@@ -11,7 +11,7 @@ summary: "You can calculate the amount of disk space that can be reclaimed if on
 [.lead]
 You can calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted.
 
-*What you'll need*
+.Before you begin
 
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * The volume must be online.

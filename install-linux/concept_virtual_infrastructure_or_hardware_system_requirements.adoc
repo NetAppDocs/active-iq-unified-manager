@@ -46,7 +46,7 @@ Unified Manager can be installed on systems with a small amount of memory, but t
 
 Additionally, there is a limit to the number of nodes that a single instance of Unified Manager can monitor before you install a second instance of Unified Manager. For more information, see the _Best Practices Guide_.
 
-http://www.netapp.com/us/media/tr-4621.pdf[Technical Report 4621: Unified Manager Best Practices Guide]
+https://www.netapp.com/pdf.html?item=/media/13504-tr4621pdf.pdf[Technical Report 4621: Unified Manager Best Practices Guide^]
 
 Memory-page swapping negatively impacts the performance of the system and the management application. Competing for CPU resources that are unavailable because of overall host utilization can degrade performance.
 

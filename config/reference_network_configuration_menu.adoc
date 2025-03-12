@@ -13,7 +13,7 @@ The Network Configuration menu enables you to manage the network settings. You s
 
 [NOTE]
 ====
-This menu is not available if Unified Manager is installed on Red Hat Enterprise Linux, CentOS, or on Microsoft Windows.
+This menu is not available if Unified Manager is installed on Red Hat Enterprise Linux or on Microsoft Windows.
 ====
 
 The following menu choices are available.
@@ -85,3 +85,4 @@ Takes you back to the *Main Menu*.
 * *Exit*
 +
 Exits the maintenance console.
+// 2024-11-8, OTHERDOC87

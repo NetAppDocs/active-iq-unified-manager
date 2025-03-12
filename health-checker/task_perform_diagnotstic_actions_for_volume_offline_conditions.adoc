@@ -11,7 +11,7 @@ summary: "After navigating to the Volume / Health details page of a volume repor
 [.lead]
 After navigating to the Volume / Health details page of a volume reported to be offline, you can search for additional information helpful to diagnosing the volume offline condition.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

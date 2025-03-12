@@ -11,7 +11,7 @@ summary: "You can view a list of all the volumes and their current encryption st
 [.lead]
 You can view a list of all the volumes and their current encryption status so you can determine whether the data on your volumes is adequately protected from being accessed by unauthorized users.
 
-*What you'll need*
+.Before you begin
 
 You must have the Operator, Application Administrator, or Storage Administrator role.
 

@@ -11,7 +11,7 @@ summary: "You can use the Create Resource Pool dialog box to group aggregates fo
 [.lead]
 You can use the Create Resource Pool dialog box to group aggregates for provisioning purposes.
 
-*What you'll need*
+.Before you begin
 
 You must have the Application Administrator or Storage Administrator role.
 
