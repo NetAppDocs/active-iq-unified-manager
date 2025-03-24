@@ -46,6 +46,8 @@ You must shut down a running instance of Unified Manager before upgrading any th
 
 Installation of Unified Manager on a Linux system can be performed by the root user or by non-root users by using the `sudo` command.
 
+Additionally, the default Unified Manager installation includes the umadmin user (default maintenance user) and the jboss user in the sudoers files (`ocum_sudoers` and `ocie_sudoers`) in the `/etc/sudoers.d/` directory. If you remove this content from your environment because of security policies, or because of a security monitoring tool, you must add it back. You need to preserve the sudoers configuration because some Unified Manager operations require these sudo privileges.
+
 == Installation requirements
 
 The best practices for installing Red Hat Enterprise Linux and the associated repositories on your system are listed below. Systems installed or configured differently, or deployed off premise (in the cloud), might require additional steps, and Unified Manager might not run properly in such deployments.
@@ -92,6 +94,7 @@ Contact your IT department before running the commands to see if your security p
 THP (Transparent Huge Pages) should be disabled on Red Hat systems. When enabled, in some cases it can cause Unified Manager to be shut down when certain processes consume too much memory and are terminated.
 ====
 
+// 13-March-2025 OTHERDOC-111
 // 15-November-2024 OTHERDOC-81
 // 2024-8-11, jira OTHERDOC-87
 // 2024 AUG 12, CAIQUM-6284
