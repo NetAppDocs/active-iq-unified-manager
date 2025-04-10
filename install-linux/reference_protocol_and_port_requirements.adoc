@@ -108,14 +108,6 @@ a|
 56443
 a|
 Used to listen on this port for messages received from ONTAP (cloud agent).The communication over this port supports encryption provided by TLS or SSL.
-a|
-AMQP QPID broker
-a|
-HTTP
-a|
-9000
-a|
-Used to launch the AMQP management UI interface on this page.
 |===
 
 [NOTE]
