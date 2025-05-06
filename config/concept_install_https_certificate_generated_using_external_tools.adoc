@@ -108,4 +108,6 @@ Proc-Type: 4,ENCRYPTED
 ----
 
 If the certificate installation fails, see the knowledge base (KB) article: 
-https://kb.netapp.com/mgmt/AIQUM/IQUM_fails_to_install_externally_generated_certificate[ActiveIQ Unified Manager fails to install an externally generated certificate^]
+https://kb.netapp.com/mgmt/AIQUM/AIQUM_fails_to_install_externally_generated_certificate[ActiveIQ Unified Manager fails to install an externally generated certificate^]
+
+// OTHERDOC-111, 04-APR-2025
