@@ -70,6 +70,8 @@ If the MySQL repository is not configured on your system, you must manually down
 +
 See link:task_manually_configure_mysql_repository.html[Manually configuring the MySQL repository].
 
+* You must install only one version of Java on your Unified Manager host; otherwise, the system may not be able to determine which version to use. See https://kb.netapp.com/data-mgmt/AIQUM/AIQUM_Kbs/Active_IQ_Unified_Manager_installation_fails_due_to_multiple_Java_versions[Active IQ Unified Manager installation fails due to multiple Java versions].
+
 If your system does not have internet access, and the repositories are not mirrored from an internet-connected system to the unconnected system, you should follow the installation instructions to determine the external software dependencies of your system. Then you can download the required software to the internet-connected system, and copy the `.rpm` files to the system on which you plan to install Unified Manager. To download the artifacts and packages, you must use the `yum install` command. You must ensure that the two systems are running the same operating system version and that the subscription license is for the appropriate Red Hat Enterprise Linux.
 
 [NOTE]
@@ -94,6 +96,7 @@ Contact your IT department before running the commands to see if your security p
 THP (Transparent Huge Pages) should be disabled on Red Hat systems. When enabled, in some cases it can cause Unified Manager to be shut down when certain processes consume too much memory and are terminated.
 ====
 
+// 8-May-2025 OTHERDOC-111
 // 13-March-2025 OTHERDOC-111
 // 15-November-2024 OTHERDOC-81
 // 2024-8-11, jira OTHERDOC-87
