@@ -224,5 +224,15 @@ a|
 56443
 a|
 Used to listen on this port for messages received from ONTAP (cloud agent). The communication through this port supports encryption provided by TLS or SSL.
+a|
+Syslog
+a|
+UDP
+a|
+514
+a|
+Used by Unified Manager to send audit logs to a remote syslog server.
+
 |===
 // 2024-11-8, OTHERDOC87
+// 2025-5-8, OTHERDOC-111
