@@ -165,5 +165,15 @@ a|
 123/UDP
 a|
 Used to synchronize the time on the Unified Manager server with an external NTP time server. (VMware systems only)
+a|
+Syslog
+a|
+UDP
+a|
+514
+a|
+Used by Unified Manager to send audit logs to a remote syslog server.
+
 |===
 // 2024-11-8, OTHERDOC87
+// 2025-5-8, OTHERDOC-111
