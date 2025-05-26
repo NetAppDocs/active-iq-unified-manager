@@ -35,11 +35,11 @@ The Red Hat Enterprise Linux system might have all the required versions of the 
 |===
 | Required software and minimum version| Command to verify software and version
 a|
-OpenJDK version 11.0.23
+OpenJDK version 11.0.25
 a|
 `java -version`
 a|
-MySQL 8.0.37 Community Edition
+MySQL 8.4.4 Community Edition
 a|
 `rpm -qa \| grep -i mysql`
 a|
@@ -48,7 +48,7 @@ a|
 `rpm -qa \| grep p7zip`
 |===
 
-. If the installed version of MySQL is earlier than MySQL 8.0.37 Community Edition, enter the following command to uninstall it:
+. If the installed version of MySQL is earlier than MySQL 8.4.4 Community Edition, enter the following command to uninstall it:
 +
 `rpm -e <mysql_package_name>`
 +
@@ -142,3 +142,4 @@ Access the web UI to change the default password of the umadmin user, and perfor
 
 // 15-November-2024 OTHERDOC-81
 // 2024-11-8, OTHERDOC87
+// 2025-5-26, OTHERDOC 127
