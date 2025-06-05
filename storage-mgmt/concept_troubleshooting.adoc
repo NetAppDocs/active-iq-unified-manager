@@ -11,19 +11,3 @@ summary: "Troubleshooting information helps you to identify and resolve issues y
 [.lead]
 Troubleshooting information helps you to identify and resolve issues you encounter when using Unified Manager.
 
-== NetApp Manageability SDK log rotation issue on Windows systems
-
-After you add an ONTAPI API based cluster to Unified Manager on a Windows operating system, the `nmsdk.log` file size increases and exceeds the 10 MB size limit. Once the size limit is exceeded, log rotation fails.
-
-The `nmsdk.log` file is located here:
-`C:\ProgramData\NetApp\OnCommandAppData\ocie\nmsdk\logs`
-
-=== Corrective action
-
-Follow these steps to resolve the log rotation issue: 
-
-. Stop Unified Manager.
-. When you are installing the Windows operating system, install Logrotate version 0.0.0.18. For more information, see the link:https://www.netapp.com/pdf.html?item=/media/78941-tr-4945.pdf[Security hardening guide for NetApp Manageability SDK technical report].
-. Start Unified Manager.
-
-// 2025-6-4, OTHERDOC 127 
