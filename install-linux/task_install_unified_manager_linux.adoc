@@ -105,7 +105,7 @@ This command installs the .rpm packages, all other necessary supporting software
 +
 If the installation fails with the GPG NOKEY error , use `rpm --import` to import the keys from a URL:
 +
-`rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
 +
 
 [NOTE]
@@ -142,4 +142,4 @@ Access the web UI to change the default password of the umadmin user, and perfor
 
 // 15-November-2024 OTHERDOC-81
 // 2024-11-8, OTHERDOC87
-// 2025-5-26, OTHERDOC 127
+// 2025-6-9, OTHERDOC 127
