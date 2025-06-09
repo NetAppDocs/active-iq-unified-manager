@@ -18,6 +18,6 @@ This problem can happen if log rotation does not occur.
 *Corrective action*
 
  .. Stop Unified Manager.
- .. When you are installing Unified Manager on Windows, install Logrotate version 0.0.0.18. For more information, see the link:https://www.netapp.com/pdf.html?item=/media/78941-tr-4945.pdf[Security hardening guide for NetApp Manageability SDK technical report].
+ .. When you are installing Unified Manager on Windows, install Logrotate version 0.0.0.18. For more information, see the link:https://www.netapp.com/pdf.html?item=/media/78941-tr-4945.pdf[Security hardening guide for NetApp Manageability SDK technical report^].
  .. Start Unified Manager.
-// 2025-6-5, OTHERDOC 127
+// 2025-6-9, OTHERDOC 127

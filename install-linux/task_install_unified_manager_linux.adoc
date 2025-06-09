@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager
 summary: "You can install Unified Manager on a physical or virtual Red Hat Enterprise Linux platform."
 ---
-= Installing Unified Manager
+= Install Unified Manager
 :icons: font
 :imagesdir: ../media/
 
