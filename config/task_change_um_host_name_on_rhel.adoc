@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, unified manager, host name, linux systems
 summary: "At some point, you might want to change the host name of the Red Hat Enterprise Linux machine on which you have installed Unified Manager. For example, you might want to rename the host to more easily identify your Unified Manager servers by type, workgroup, or monitored cluster group when you list your Linux machines."
 ---
-= Changing the Unified Manager host name on Linux systems
+= Change the Unified Manager host name on Linux systems
 :icons: font
 :imagesdir: ../media/
 
@@ -57,3 +57,4 @@ This command should return the same IP address that was set earlier for the orig
 `systemctl start mysqld ocie ocieau`
 
 // 15-November-2024 OTHERDOC-81
+// 2025-6-10, ONTAPDOC-133

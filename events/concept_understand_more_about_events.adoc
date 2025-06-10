@@ -4,9 +4,10 @@ sidebar: sidebar
 keywords: understand, more, events
 summary: "Understanding the concepts about events helps you to manage your clusters and cluster objects efficiently and to define alerts appropriately."
 ---
-= Understanding more about events
+= Understand more about events
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Understanding the concepts about events helps you to manage your clusters and cluster objects efficiently and to define alerts appropriately.
+// 2025-6-10, ONTAPDOC-133

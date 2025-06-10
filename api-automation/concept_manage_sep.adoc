@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policy
 summary: "You can view, create, modify, and delete Storage Efficiency Policies by using the storage provider APIs."
 ---
-= Managing Storage Efficiency Policies by using APIs
+= Manage Storage Efficiency Policies by using APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -79,3 +79,4 @@ PATCH
 a|
 `/storage-provider/storage-efficiency-policies/\{key}`
 |===
+// 2025-6-10, ONTAPDOC-133

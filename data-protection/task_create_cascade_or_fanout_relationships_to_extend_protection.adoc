@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, cascade fanout, relationships, extend protection, existing protection relationship
 summary: "You can extend protection from an existing relationship by creating either a fanout from the source volume or a cascade from the destination volume of an existing relationship. You might do this when you need to copy data from one site to many sites or to provide additional protection by creating more backups."
 ---
-= Creating cascade or fanout relationships to extend protection from an existing protection relationship
+= Create cascade or fanout relationships to extend protection from an existing protection relationship
 :icons: font
 :imagesdir: ../media/
 
@@ -38,3 +38,4 @@ This can be achieved from the unified relationship / Volume Relationship and Vol
 +
 
 . Complete the information as indicated in the *Configure Protection* dialog box.
+// 2025-6-10, ONTAPDOC-133

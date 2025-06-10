@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, suggested, remedial actions, volume
 summary: "After receiving a “Volume Space Full” error event, you review the suggested remedial actions on the Event details page and decide to perform one of the suggested actions."
 ---
-= Performing suggested remedial actions for a full volume
+= Perform suggested remedial actions for a full volume
 :icons: font
 :imagesdir: ../media/
 
@@ -39,3 +39,4 @@ You decide to resize the volume.
 *Related information*
 
 link:../events/reference_event_details_page.html[Event details page]
+// 2025-6-10, ONTAPDOC-133

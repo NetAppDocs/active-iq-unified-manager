@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reorder, group actions
 summary: "You can change the order of the group actions that are to be applied to the storage objects in a group. Group actions are applied to storage objects sequentially based on their rank. The lowest rank is assigned to the group action that you configured last. You can change the rank of the group action depending on your requirements."
 ---
-= Reordering group actions
+= Reorder group actions
 :icons: font
 :imagesdir: ../media/
 
@@ -22,3 +22,4 @@ You can select either a single row or multiple rows, and then perform multiple d
 . In the *Group Actions* tab, click *Reorder*.
 . In the *Reorder Group Actions* dialog box, drag and drop the rows to rearrange the sequence of group actions as required.
 . Click *Save*.
+// 2025-6-10, ONTAPDOC-133

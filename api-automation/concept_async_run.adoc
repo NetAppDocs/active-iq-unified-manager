@@ -17,7 +17,7 @@ Some of the API calls, particularly those that are used for adding or modifying 
 
 After making an API call that runs asynchronously, the HTTP response code 202 indicates the request has been successfully validated and accepted, but not yet completed. The request is processed as a background task which continues to run after the initial HTTP response to the client. The response includes the Job object anchoring the request, including its unique identifier.
 
-== Querying the Job object associated with an API request
+== Query the Job object associated with an API request
 
 The Job object returned in the HTTP response contains several properties. You can query the state property to determine if the request completed successfully. A Job object can be in one of the following states:
 
@@ -40,3 +40,4 @@ You can use the following high-level procedure to complete an asynchronous API c
 . Extract the identifier for the Job object from the response body.
 . Within a loop, wait for the Job object to reach the terminal state `NORMAL, ERROR,` or `PARTIAL_FAILURES.`
 . Verify the terminal state of the Job and retrieve the Job result.
+// 2025-6-10, ONTAPDOC-133

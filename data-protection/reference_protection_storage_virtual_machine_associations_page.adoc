@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: svm, association, page
 summary: "The Storage VM association page enables you to view existing storage VM associations between source and destination storage VMs."
 ---
-= Understanding Storage VM associations
+= Understand Storage VM associations
 :icons: font
 :imagesdir: ../media/
 
@@ -82,3 +82,4 @@ A warning dialog box is displayed.
 . Click *Yes* to continue.
 +
 The selected storage VM association is removed from the list.
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, volume, health details page
 summary: "You can create a SnapVault relationship using the Volume / Health details page so that data backups are enabled for protection purposes on volumes."
 ---
-= Creating a SnapVault protection relationship from the Volume / Health details page
+= Create a SnapVault protection relationship from the Volume / Health details page
 :icons: font
 :imagesdir: ../media/
 
@@ -42,3 +42,4 @@ The Job details page is displayed.
 . Click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
 +
 When the job tasks are complete, the new relationships are displayed in the Volume / Health details page topology view.
+// 2025-6-10, ONTAPDOC-133

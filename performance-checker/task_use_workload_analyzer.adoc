@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer
 summary: "There are many ways to start the workload analyzer from the user interface. Here we describe launching the tool from the left-navigation pane."
 ---
-= Using the workload analyzer
+= Use the workload analyzer
 :icons: font
 :imagesdir: ../media/
 
@@ -20,3 +20,4 @@ The Workload Analysis page is displayed.
 . Select the time range if you want to view statistics for longer than the default 2 hours and click *Apply*.
 . View the Summary area to see the events that have occurred during the timeframe.
 . View the performance and capacity charts to see when any of the metrics are abnormal and see if any events align with the abnormal entry.
+// 2025-6-10, ONTAPDOC-133

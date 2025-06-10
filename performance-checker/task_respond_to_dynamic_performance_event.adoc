@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, qos, policy, group, throttling
 summary: "You can use Unified Manager to investigate a performance event caused by a Quality of Service (QoS) policy group throttling workload throughput (MB/s). The throttling increased the response times (latency) of volume workloads in the policy group. You can use the event information to determine whether new limits on the policy groups are needed to stop the throttling."
 ---
-= Responding to a dynamic performance event caused by QoS policy group throttling
+= Respond to a dynamic performance event caused by QoS policy group throttling
 :icons: font
 :imagesdir: ../media/
 
@@ -57,3 +57,4 @@ The Reads/writes/other chart is displayed.
 . Compare the *Reads/writes/other* chart to the *Latency* chart.
 +
 The read and write requests are the same, but the throttling has stopped and the latency has decreased.
+// 2025-6-10, ONTAPDOC-133

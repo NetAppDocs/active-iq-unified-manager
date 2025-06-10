@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, saml, authentication, settings
 summary: "After you have configured remote authentication settings, you can enable Security Assertion Markup Language (SAML) authentication so that remote users are authenticated by a secure identity provider (IdP) before they can access the Unified Manager web UI."
 ---
-= Managing SAML authentication settings
+= Manage SAML authentication settings
 :icons: font
 :imagesdir: ../media/
 
@@ -12,3 +12,4 @@ summary: "After you have configured remote authentication settings, you can enab
 After you have configured remote authentication settings, you can enable Security Assertion Markup Language (SAML) authentication so that remote users are authenticated by a secure identity provider (IdP) before they can access the Unified Manager web UI.
 
 Note that only remote users will have access to the Unified Manager graphical user interface after SAML authentication has been enabled. Local users and Maintenance users will not be able to access the UI. This configuration does not impact users who access the maintenance console.
+// 2025-6-10, ONTAPDOC-133

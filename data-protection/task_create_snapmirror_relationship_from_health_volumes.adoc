@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship, health, volumes view
 summary: "Using the Health: All Volumes view enables you to create several SnapMirror protection relationships at one time by selecting more than one volume on the same storage VM."
 ---
-= Creating a SnapMirror protection relationship from the Health: All Volumes view
+= Create a SnapMirror protection relationship from the Health: All Volumes view
 :icons: font
 :imagesdir: ../media/
 
@@ -52,3 +52,4 @@ Depending on the destination SVM you specified during configuration or on the op
 * If you specified a destination SVM that runs under the same or a newer version of ONTAP compared to that of the source volume, a block-replication-based SnapMirror relationship is the default result.
 * If you specified a destination SVM that runs under the same or a newer version of ONTAP compared to that of the source volume, but you enabled version-flexible replication in the Advanced settings, a SnapMirror relationship with version-flexible replication is the result.
 * If you specified a destination SVM that runs under an earlier version of ONTAP than that of the source volume, and the earlier version supports version-flexible replication, a SnapMirror relationship with version-flexible replication is the automatic result.
+// 2025-6-10, ONTAPDOC-133

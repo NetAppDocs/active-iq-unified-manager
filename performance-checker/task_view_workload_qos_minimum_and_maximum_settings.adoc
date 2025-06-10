@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workload, qos, minimum, maximum, settings, performance, explorer
 summary: "You can view the ONTAP-defined quality of service (QoS) policy settings on a volume or LUN in the Performance Explorer charts. A throughput maximum setting limits the impact of competing workloads on system resources. A throughput minimum setting ensures that a critical workload meets minimum throughput targets regardless of demand by competing workloads."
 ---
-= Viewing workload QoS minimum and maximum settings in the Performance Explorer
+= View workload QoS minimum and maximum settings in the Performance Explorer
 :icons: font
 :imagesdir: ../media/
 
@@ -51,3 +51,4 @@ The dashed, horizontal line indicates the maximum or minimum throughput value se
 If you notice that certain volumes or LUNs have very high IOPS or MB/s and are stressing system resources, you can use System Manager or the ONTAP CLI to adjust the QoS settings so that these workloads do not affect the performance of other workloads.
 
 For more information on adjusting QoS settings, see http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html[Performance management overview]
+// 2025-6-10, ONTAPDOC-133

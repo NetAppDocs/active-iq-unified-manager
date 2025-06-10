@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: openjdk, jre, linux, upgrade
 summary: "You can upgrade to a newer version of OpenJDK on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities."
 ---
-= Upgrading OpenJDK on Linux
+= Upgrade OpenJDK on Linux
 :icons: font
 :imagesdir: ../media/
 
@@ -32,3 +32,4 @@ You can update OpenJDK releases within release families. For example, you can up
 `systemctl start ocie`
 +
 `systemctl start ocieau`
+// 2025-6-10, ONTAPDOC-133

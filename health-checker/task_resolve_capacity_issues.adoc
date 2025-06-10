@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, capacity issues
 summary: "This workflow provides an example of how you can resolve a capacity issue. In this scenario, you are an administrator or operator and you access the Unified Manager Dashboard page to see if any of the monitored storage objects have capacity issues. You want to determine the possible cause of and resolution to the problem."
 ---
-= Resolving capacity issues
+= Resolve capacity issues
 :icons: font
 :imagesdir: ../media/
 
@@ -34,3 +34,4 @@ The Event details page for the error is displayed.
 *Related information*
 
 link:../events/reference_event_details_page.html[Event details page]
+// 2025-6-10, ONTAPDOC-133

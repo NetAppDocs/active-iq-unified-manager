@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, efficiency, settings
 summary: "You can configure destination efficiency settings such as deduplication, compression, autogrow, and space guarantee on a protection destination using the Advanced Destination Settings dialog box. You use these settings when you want to maximize space utilization on a destination or secondary volume."
 ---
-= Configuring destination efficiency settings
+= Configure destination efficiency settings
 :icons: font
 :imagesdir: ../media/
 
@@ -26,3 +26,4 @@ The Advanced Destination Settings dialog box is opened.
 
 . Enable or disable the efficiency settings for deduplication, compression, autogrow, and space guarantee, as required.
 . Click *Apply* to save your selections and return to the *Configure Protection* dialog box.
+// 2025-6-10, ONTAPDOC-133

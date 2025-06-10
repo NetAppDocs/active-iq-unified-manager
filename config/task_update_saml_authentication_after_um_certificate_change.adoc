@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: update, saml, authentication, settings, unified manager, security, certificate, change
 summary: "Any change to the HTTPS security certificate installed on the Unified Manager server requires that you update the SAML authentication configuration settings. The certificate is updated if you rename the host system, assign a new IP address for the host system, or manually change the security certificate for the system."
 ---
-= Updating SAML authentication settings after Unified Manager security certificate change
+= Update SAML authentication settings after Unified Manager security certificate change
 :icons: font
 :imagesdir: ../media/
 
@@ -52,3 +52,4 @@ a|
 |===
 
 . Log in to Unified Manager and verify that SAML authentication works as expected through your IdP.
+// 2025-6-10, ONTAPDOC-133

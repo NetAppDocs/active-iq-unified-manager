@@ -4,21 +4,21 @@ sidebar: sidebar
 keywords: MS Visual C++, python, uninstall, uninstalling, 9.16
 summary: "How to uninstall third party products including Python and Microsoft Visual C++."
 ---
-= Uninstalling third party products
+= Uninstall third party products
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 After upgrading Unified Manager, you can uninstall third party products, such as Python or Microsoft Visual C++ 2013. This is optional. 
 
-== Uninstalling Python
+== Uninstall Python
 
 .Steps
 . From the *Control Panel* select *Programs* > *Programs and Features*.
 . Select Python from the list of programs.
 . Select *Uninstall this program*. Uninstall any version of Python except for 3.12. Ensure you retain Python version 3.12.
 
-== Uninstalling Microsoft Visual C++ 2013
+== Uninstall Microsoft Visual C++ 2013
 
 .Steps
 
@@ -26,3 +26,4 @@ After upgrading Unified Manager, you can uninstall third party products, such as
 . Select *Microsoft Visual C++ 2013* from the list of programs.
 . Select *Uninstall this program*. 
 // 2024-10-21,OTHERDOC87
+// 2025-6-10, ONTAPDOC-133

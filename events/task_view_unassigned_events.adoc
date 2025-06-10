@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, unassigned, events
 summary: "You can view unassigned events and then assign each of them to a user who can resolve them."
 ---
-= Viewing unassigned events
+= View unassigned events
 :icons: font
 :imagesdir: ../media/
 
@@ -21,3 +21,4 @@ You must have the Operator, Application Administrator, or Storage Administrator 
 By default, New and Acknowledged events are displayed on the Event Management inventory page.
 
 . From the *Filters* pane, select the *Unassigned* filter option in the *Assigned To* area.
+// 2025-6-10, ONTAPDOC-133

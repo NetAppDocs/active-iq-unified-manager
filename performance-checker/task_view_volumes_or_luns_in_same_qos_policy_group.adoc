@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volumes, luns, same. qos, policy, group
 summary: "You can display a list of the volumes and LUNs that have been assigned to the same QoS policy group."
 ---
-= Viewing volumes or LUNs that are in the same QoS policy group
+= View volumes or LUNs that are in the same QoS policy group
 :icons: font
 :imagesdir: ../media/
 
@@ -25,3 +25,4 @@ The Performance: Traditional QoS Policy Groups view is displayed by default.
 . Click the Volumes or the LUNs link to view the objects using this QoS policy.
 +
 The Performance inventory page for Volumes or LUNs is displayed with the sorted list of objects that are using the QoS policy.
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, root, object
 summary: "The root object is the baseline against which other object comparisons are made. This enables you to view and compare the data from other objects to the root object, providing performance data analysis that helps you to troubleshoot and improve object performance."
 ---
-= Understanding the root object
+= Understand the root object
 :icons: font
 :imagesdir: ../media/
 
@@ -19,3 +19,4 @@ You cannot change the root object; it is always set to the object page you are v
 ====
 Events and Thresholds are displayed only for root objects.
 ====
+// 2025-6-10, ONTAPDOC-133

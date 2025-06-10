@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, resource, pools
 summary: "You can edit an existing resource pool when you want to change the resource pool name and the description."
 ---
-= Editing resource pools
+= Edit resource pools
 :icons: font
 :imagesdir: ../media/
 
@@ -29,3 +29,4 @@ The Edit Resource Pool window is displayed.
 . Click *Save*.
 +
 The new name and description are displayed in the resource pool list.
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, unwanted, events
 summary: "All events are enabled by default. You can disable events globally to prevent the generation of notifications for events that are not important in your environment. You can enable events that are disabled when you want to resume receiving notifications for them."
 ---
-= Disabling unwanted events
+= Disable unwanted events
 :icons: font
 :imagesdir: ../media/
 
@@ -45,3 +45,4 @@ a|
 
 +
 |===
+// 2025-6-10, ONTAPDOC-133

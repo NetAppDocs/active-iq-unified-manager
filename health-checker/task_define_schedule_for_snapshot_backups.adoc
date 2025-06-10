@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: define, backup, schedule, linux, windows, snapshot copy, copies
 summary: "You can configure the schedule at which Unified Manager Snapshot copies are created by using the Unified Manager UI."
 ---
-= Defining a backup schedule for Linux and Windows
+= Define a backup schedule for Linux and Windows
 :icons: font
 :imagesdir: ../media/
 
@@ -46,3 +46,4 @@ You can add capacity to the volume using ONTAP System Manager or the ONTAP CLI s
 You can delete older snapshots using ONTAP System Manager or the ONTAP CLI so that there is always room for new Snapshot copies.
 
 You configure alerts in the Alert Setup page.
+// 2025-6-10, ONTAPDOC-133

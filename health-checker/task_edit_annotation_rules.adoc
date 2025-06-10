@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, annotation rules
 summary: "You can edit annotation rules to modify the condition groups and conditions within the condition group to add annotations to or remove annotations from storage objects."
 ---
-= Editing annotation rules
+= Edit annotation rules
 :icons: font
 :imagesdir: ../media/
 
@@ -25,3 +25,4 @@ Annotations are dissociated from storage objects when you edit the associated an
 You cannot change the target object type for an annotation rule.
 
 . Click *Save*.
+// 2025-6-10, ONTAPDOC-133

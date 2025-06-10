@@ -14,7 +14,7 @@ If you are planning to mount `/opt/netapp` or `/opt/netapp/data` on an NAS or SA
 If you are planning to mount `/opt/netapp` or `/opt/netapp/data` from anywhere other than the root file system, and you have SELinux enabled in your environment, you should set the correct context for the mounted directories.
 For the applicable scenario in your environment, follow these steps for setting and confirming the correct SELinux context.
 
-== Configuring the SELinux context when `/opt/netapp/data` is mounted
+== Configure the SELinux context when `/opt/netapp/data` is mounted
 
 If you have mounted `/opt/netapp/data` in your system and SELinux is set to `Enforcing`, ensure that the SELinux context type for `/opt/netapp/data` is set to `mysqld_db_t`, which is the default context element for the location of the database files.
 
@@ -52,7 +52,7 @@ A sample output:
 drwxr-xr-x. mysql root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/data/
 ----
 
-== Configuring the SELinux context when `/opt/netapp` is mounted, and `/opt/netapp/data/` is also mounted separately
+== Configure the SELinux context when `/opt/netapp` is mounted, and `/opt/netapp/data/` is also mounted separately
 
 In this scenario, at first, you should set the context for `/opt/netapp/data/` as described in the previous section. After setting the correct context for `/opt/netapp/data/`, ensure that the parent directory `/opt/netapp` does not have the SELinux context set to `file_t`.
 
@@ -92,7 +92,7 @@ A sample output
 drwxr-xr-x. mysql root unconfined_u:object_r:usr_t:s0 /opt/netapp
 ----
 
-== Configuring the SELinux context when `/opt/netapp` is mounted, and `/opt/netapp/data/` is not mounted separately
+== Configure the SELinux context when `/opt/netapp` is mounted, and `/opt/netapp/data/` is not mounted separately
 
 If you have mounted  `/opt/netapp` in your system and SELinux is set to `Enforcing`, ensure that the SELinux context type for `/opt/netapp` is set to `mysqld_db_t`, which is the default context element for the location of the database files.
 
@@ -129,3 +129,4 @@ A sample output:
 drwxr-xr-x. mysql root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/
 ----
 ---
+// 2025-6-10, ONTAPDOC-133

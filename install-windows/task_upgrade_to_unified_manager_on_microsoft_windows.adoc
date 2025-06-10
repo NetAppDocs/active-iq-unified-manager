@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager
 summary: "You can upgrade Unified Manager by downloading and running the installation file on the Windows platform."
 ---
-= Upgrading Unified Manager
+= Upgrade Unified Manager
 :icons: font
 :imagesdir: ../media/
 
@@ -77,3 +77,4 @@ To perform a silent upgrade of Unified Manager, run the following command:
 
 // 15-November-2024 OTHERDOC-81
 // 2024-10-24, OTHERDOC-89
+// 2025-6-10, ONTAPDOC-133

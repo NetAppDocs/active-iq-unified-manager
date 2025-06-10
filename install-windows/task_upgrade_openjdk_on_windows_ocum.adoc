@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: openjdk, jre, upgrade
 summary: "You can upgrade to a newer version of OpenJDK on the Windows server on which Unified Manager is installed to obtain fixes for security vulnerabilities."
 ---
-= Upgrading OpenJDK
+= Upgrade OpenJDK
 :icons: font
 :imagesdir: ../media/
 
@@ -36,3 +36,4 @@ For example, download `jdk-11.0.18_windows-x64_bin.zip from https://www.oracle.c
 . Start the Unified Manager services by using the Windows Services console:
  ** NetApp Active IQ Management Server Service (Oncommandsvc)
  ** NetApp Active IQ Acquisition Service (Ocie-au)
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, panels, dashboard
 summary: "The Unified Manager Dashboard provides a few panels that display high-level performance status for all the clusters that are being monitored in your environment. You can choose to view status for all clusters or for an individual cluster."
 ---
-= Understanding performance panels on the Dashboard
+= Understand performance panels on the Dashboard
 :icons: font
 :imagesdir: ../media/
 
@@ -35,3 +35,4 @@ When workload active management is enabled, this panel displays the total number
 When viewing all clusters, you can choose to view clusters sorted by highest IOPS or throughput (MB/s).
 +
 When viewing a single cluster, you can choose to view workloads on that cluster sorted by highest IOPS or throughput (MB/s).
+// 2025-6-10, ONTAPDOC-133

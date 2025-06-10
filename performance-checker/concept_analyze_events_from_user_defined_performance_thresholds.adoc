@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, user-defined, performance, thresholds
 summary: "Events generated from user-defined thresholds indicate that a performance counter for a certain storage object, for example, an aggregate or volume, has crossed the threshold you defined in the policy. This indicates that the cluster object is experiencing a performance issue."
 ---
-= Analyzing events from user-defined performance thresholds
+= Analyze events from user-defined performance thresholds
 :icons: font
 :imagesdir: ../media/
 
@@ -12,3 +12,4 @@ summary: "Events generated from user-defined thresholds indicate that a performa
 Events generated from user-defined thresholds indicate that a performance counter for a certain storage object, for example, an aggregate or volume, has crossed the threshold you defined in the policy. This indicates that the cluster object is experiencing a performance issue.
 
 You use the Event details page to analyze the performance event and take corrective action, if necessary, to return performance back to normal.
+// 2025-6-10, ONTAPDOC-133

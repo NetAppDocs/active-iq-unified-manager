@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: smb, cifs, view, shares, details
 summary: "You can view details about all SMB/CIFS shares, such as the share name, junction path, containing objects, security settings, and export policies defined for the share. Use the Health: All SMB Shares view to see all SMB shares on all monitored clusters, and use the Storage VM / Health details page to view all SMB shares on a specific storage virtual machine (SVM)."
 ---
-= Viewing details about SMB/CIFS shares
+= View details about SMB/CIFS shares
 :icons: font
 :imagesdir: ../media/
 
@@ -45,3 +45,4 @@ a|
 |===
 
 For more information, see link:../api-automation/concept_provision_file_share.html[Provisioning CIFS and NFS file shares by using APIs].
+// 2025-6-10, ONTAPDOC-133

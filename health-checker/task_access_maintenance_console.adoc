@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, maintenance, console
 summary: "If the Unified Manager user interface is not in operation, or if you need to perform functions that are not available in the user interface, you can access the maintenance console to manage your Unified Manager system."
 ---
-= Accessing the maintenance console
+= Access the maintenance console
 :icons: font
 :imagesdir: ../media/
 
@@ -54,3 +54,4 @@ a|
 +
 |===
 The Unified Manager maintenance console menu is displayed.
+// 2025-6-10, ONTAPDOC-133

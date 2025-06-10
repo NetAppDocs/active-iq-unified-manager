@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, HTTPS, certificate, generated from external tools
 summary: "You can install certificates that are self signed or CA signed and are generated using an external tool like OpenSSL, BoringSSL, LetsEncrypt."
 ---
-= Installing a HTTPS certificate generated using external tools
+= Install a HTTPS certificate generated using external tools
 :icons: font
 :imagesdir: ../media/
 
@@ -111,3 +111,4 @@ If the certificate installation fails, see the knowledge base (KB) article:
 https://kb.netapp.com/mgmt/AIQUM/AIQUM_fails_to_install_externally_generated_certificate[ActiveIQ Unified Manager fails to install an externally generated certificate^]
 
 // OTHERDOC-111, 04-APR-2025
+// 2025-6-10, ONTAPDOC-133

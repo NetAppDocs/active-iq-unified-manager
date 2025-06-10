@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, custom, umadmin, user, maintenance group
 summary: "If you created a custom home directory to define your own umadmin user and maintenance account prior to installing Unified Manager, you should remove these items after you have uninstalled Unified Manager."
 ---
-= Removing the custom umadmin user and maintenance group
+= Remove the custom umadmin user and maintenance group
 :icons: font
 :imagesdir: ../media/
 
@@ -22,3 +22,4 @@ The standard Unified Manager uninstallation does not remove a custom-defined uma
 . Delete the maintenance group:
 +
 `groupdel maintenance`
+// 2025-6-10, ONTAPDOC-133

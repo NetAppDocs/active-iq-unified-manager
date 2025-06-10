@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, aggregate, health, threshold values
 summary: "You can configure global health threshold values for all aggregates to track any threshold breach. Appropriate events are generated for threshold breaches and you can take preventive measures based on these events. You can configure the global values based on the best practice settings for thresholds that apply to all monitored aggregates."
 ---
-= Configuring global aggregate health threshold values
+= Configure global aggregate health threshold values
 :icons: font
 :imagesdir: ../media/
 

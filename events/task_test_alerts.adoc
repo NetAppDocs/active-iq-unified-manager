@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, alerts
 summary: "You can test an alert to verify that you have configured it correctly. When an event is triggered, an alert is generated, and an alert email is sent to the configured recipients. You can verify whether the notification is sent and whether your script is executed by using the test alert."
 ---
-= Testing alerts
+= Test alerts
 :icons: font
 :imagesdir: ../media/
 
@@ -25,3 +25,4 @@ The Unified Manager server can use these settings to send notifications to users
 . In the *Alert Setup* page, select the alert that you want to test, and then click *Test*.
 +
 A test alert email is sent to the email addresses that you specified while creating the alert.
+// 2025-6-10, ONTAPDOC-133

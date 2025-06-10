@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, scripts
 summary: "You can use scripts to automatically modify or update multiple storage objects in Unified Manager. The script is associated with an alert. When an event triggers an alert, the script is executed. You can upload custom scripts and test their execution when an alert is generated."
 ---
-= Managing scripts
+= Manage scripts
 :icons: font
 :imagesdir: ../media/
 
@@ -16,3 +16,4 @@ The ability to upload scripts to Unified Manager and run them is enabled by defa
 *Related information*
 
 link:../config/task_enable_and_disable_ability_to_upload_scripts.html[Enabling and disabling the ability to upload scripts]
+// 2025-6-10, ONTAPDOC-133

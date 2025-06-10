@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scan, resolve, storage, failover, interconnect link, conditions
 summary: "This workflow provides an example of how you might scan for, evaluate, and resolve downed storage failover interconnect link conditions. In this scenario, you are an administrator using Unified Manager to scan for storage failover risks before starting an ONTAP version upgrade on your nodes."
 ---
-= Scanning for and resolving storage failover interconnect link down conditions
+= Scan for and resolve storage failover interconnect link down conditions
 :icons: font
 :imagesdir: ../media/
 
@@ -43,3 +43,4 @@ The Event details page for that event is displayed.
 link:../events/reference_event_details_page.html[Event details page]
 
 link:../config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]
+// 2025-6-10, ONTAPDOC-133

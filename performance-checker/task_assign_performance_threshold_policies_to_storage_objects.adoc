@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, performance, threshold, policies, storage, objects
 summary: "You assign a user-defined performance threshold policy to a storage object so that Unified Manager reports an event if the value of the performance counter exceeds the policy setting."
 ---
-= Assigning performance threshold policies to storage objects
+= Assign performance threshold policies to storage objects
 :icons: font
 :imagesdir: ../media/
 
@@ -60,3 +60,4 @@ The Assign Performance Threshold Policy page is displayed, showing a list of thr
 A success message at the top of the page confirms that the threshold policy was assigned to the object or objects, and provides a link to the Alerting page so that you can configure alert settings for this object and policy.
 
 If you want to have alerts sent over email, or as an SNMP trap, to notify you that a particular performance event has been generated, you must configure the alert settings in the Alert Setup page.
+// 2025-6-10, ONTAPDOC-133

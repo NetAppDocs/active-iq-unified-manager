@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managing, performance, performance, capacity, available, iops, information
 summary: "Performance capacity indicates how much throughput you can get out of a resource without surpassing the useful performance of that resource. When viewed using existing performance counters, performance capacity is the point at which you get the maximum utilization from a node or aggregate before latency becomes an issue."
 ---
-= Managing performance using performance capacity and available IOPS information
+= Manage performance using performance capacity and available IOPS information
 :icons: font
 :imagesdir: ../media/
 
@@ -20,3 +20,4 @@ Monitoring the performance capacity information has the following benefits:
 * Assists with workflow provisioning and balancing.
 * Helps you prevent overloading a node or pushing its resources beyond the optimal point, thus reducing the need to troubleshoot.
 * Helps you determine with greater precision where additional storage equipment might be needed.
+// 2025-6-10, ONTAPDOC-133

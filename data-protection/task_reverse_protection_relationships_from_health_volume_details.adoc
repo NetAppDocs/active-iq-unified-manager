@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reverse, protection, relationships volume, health details page
 summary: "When a disaster disables the source volume in your protection relationship, you can use the destination volume to serve data by converting it to read/write while you repair or replace the source. When the source is again available to receive data, you can use the reverse resynchronization operation to establish the relationship in the reverse direction, synchronizing the data on the source with the data on the read/write destination."
 ---
-= Reversing protection relationships from the Volume / Health details page
+= Reverse protection relationships from the Volume / Health details page
 :icons: font
 :imagesdir: ../media/
 
@@ -43,3 +43,4 @@ A filtered list of jobs is displayed.
 .  *Optional:* Click the *Back* arrow on your browser to return to the *Volume / Health* details page.
 +
 The reverse resynchronization operation is finished when all job tasks are completed successfully.
+// 2025-6-10, ONTAPDOC-133

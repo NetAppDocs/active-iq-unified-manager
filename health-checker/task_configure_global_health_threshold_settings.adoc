@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global health, threshold settings
 summary: "You can configure global health threshold conditions for capacity, growth, Snapshot reserve, quotas, and inodes to monitor your aggregate, volume, and qtree size effectively. You can also edit the settings for generating events for exceeding lag thresholds."
 ---
-= Configuring global health threshold settings
+= Configure global health threshold settings
 :icons: font
 :imagesdir: ../media/
 
@@ -30,3 +30,4 @@ You can edit the health threshold settings for capacity for all qtrees to track 
 * For information, see link:task_configure_lag_threshold_settings_for_unmanaged_protection.html[Editing lag health threshold settings for unmanaged protection relationships].
 +
 You can increase or decrease the warning or error lag time percentage so that events are generated at intervals that are more appropriate to your needs.
+// 2025-6-10, ONTAPDOC-133

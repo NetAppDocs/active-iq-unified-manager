@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: calculate, reclaimable space, snapshot copies
 summary: "You can calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted."
 ---
-= Calculating reclaimable space for Snapshot copies
+= Calculate reclaimable space for Snapshot copies
 :icons: font
 :imagesdir: ../media/
 
@@ -34,3 +34,4 @@ The number of Snapshot copies is a link that displays the list of Snapshot copie
 The reclaimable space (in percentage, and KB, MB, GB, and so on) on the volume is displayed.
 
 . To recalculate the reclaimable space, select the required Snapshot copies and click *Recalculate*.
+// 2025-6-10, ONTAPDOC-133

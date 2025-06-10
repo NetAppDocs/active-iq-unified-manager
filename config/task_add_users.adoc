@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, users
 summary: "You can add local users or database users by using the Users page. You can also add remote users or groups that belong to an authentication server. You can assign roles to these users and, based on the privileges of the roles, users can manage the storage objects and data with Unified Manager, or view the data in a database."
 ---
-= Adding users
+= Add users
 :icons: font
 :imagesdir: ../media/
 
@@ -32,3 +32,4 @@ When entering the required user information, you must specify an email address t
 . Click *Add*.
 
 // 15-November-2024 OTHERDOC-81
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: slo, storage efficiency policy, storage workloads
 summary: "The Policy-based storage management option allows storage management based on service level objectives (SLOs). This option is enabled by default."
 ---
-= Enabling policy-based storage management
+= Enable policy-based storage management
 :icons: font
 :imagesdir: ../media/
 
@@ -26,3 +26,4 @@ You can use the screens to create Performance Service Levels and Storage Efficie
 After activating this feature, you can run the Unified Manager REST APIs to perform some of these functions from *Menu Bar* > *Help button* > *API Documentation* > *storage-provider* category. Alternatively, you can enter the host name or IP address and the URL to access the REST API page in the format +https://<hostname>/docs/api/+
 
 For more information about the APIs, see link:../api-automation/concept_get_started_with_um_apis.html[Getting started with Active IQ Unified Manager REST APIs].
+// 2025-6-10, ONTAPDOC-133

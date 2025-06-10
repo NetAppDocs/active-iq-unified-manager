@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager, virtual, appliance
 summary: "You can upgrade the Unified Manager virtual appliance"
 ---
-= Upgrading the Unified Manager virtual appliance
+= Upgrade the Unified Manager virtual appliance
 :icons: font
 :imagesdir: ../media/
 
@@ -66,3 +66,4 @@ You are automatically logged out of the maintenance console.
 You can launch the web UI on a new window on a supported web browser and log in to use the upgraded version of Unified Manager. Note that you need to wait for the discovery process to finish before performing any task in the UI.
 
 // 15-November-2024 OTHERDOC-81
+// 2025-6-10, ONTAPDOC-133

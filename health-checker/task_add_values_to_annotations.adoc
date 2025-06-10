@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, values, annotations
 summary: "You can add values to annotations, and then associate storage objects with a particular annotation name-value pair. Adding values to annotations helps you to manage storage objects more effectively."
 ---
-= Adding values to annotations
+= Add values to annotations
 :icons: font
 :imagesdir: ../media/
 
@@ -25,3 +25,4 @@ You cannot add values to predefined annotations.
 The value that you specify must be unique for the selected annotation.
 
 . Click *Add*.
+// 2025-6-10, ONTAPDOC-133

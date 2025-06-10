@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, group rules
 summary: "You can edit group rules to modify the condition groups and the conditions within a condition group to add or remove storage objects to or from a specific group."
 ---
-= Editing group rules
+= Edit group rules
 :icons: font
 :imagesdir: ../media/
 
@@ -26,3 +26,4 @@ You cannot change the target object type for a group rule.
 ====
 
 . Click *Save*.
+// 2025-6-10, ONTAPDOC-133

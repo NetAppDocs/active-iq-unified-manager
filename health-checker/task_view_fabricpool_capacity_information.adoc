@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, fabricPool, cloud tier, mirror tier, capacity, information
 summary: "You can view FabricPool capacity information for clusters, aggregates, and volumes on the Capacity and Performance inventory and details pages for these objects. These pages also display FabricPool mirror information when a mirror tier has been configured."
 ---
-= Viewing FabricPool capacity information
+= View FabricPool capacity information
 :icons: font
 :imagesdir: ../media/
 
@@ -62,3 +62,4 @@ The display shows the name of the FabricPool tiering policy assigned to the volu
 . In the *Workload Analysis* page you can select "`Cloud Tier View`" in the *Capacity Trend* area to see the capacity being used in the local Performance Tier and in the Cloud Tier over the previous month.
 
 For more information on FabricPool aggregates, see https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html[Disks and aggregates overview].
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, aggregate list, details
 summary: "From the Health: All Aggregates view, you can monitor your inventory of aggregates. The Capacity: All Aggregates view enables you to view information about the capacity and utilization of aggregates in all clusters."
 ---
-= Viewing the aggregate list and details
+= View the aggregate list and details
 :icons: font
 :imagesdir: ../media/
 
@@ -32,3 +32,4 @@ You can also view the complete details by clicking *View Details* in the minimal
 * link:../health-checker/reference_health_aggregate_details_page.html[Aggregate / Health details page]
 * link:../performance-checker/performance-view-all.html#performance-all-aggregates-view[Performance: All Aggregates view]
 * link:../reporting/concept_customize_aggregate_capacity_reports.html[Customizing aggregate capacity reports]
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, authentication
 summary: "You can enable remote authentication so that the Unified Manager server can communicate with your authentication servers. The users of the authentication server can access the Unified Manager graphical interface to manage storage objects and data."
 ---
-= Enabling remote authentication
+= Enable remote authentication
 :icons: font
 :imagesdir: ../media/
 
@@ -64,3 +64,4 @@ If you select the Use Secure Connection option for the authentication server, th
 
 . *Optional:* Add authentication servers, and test the authentication.
 . Click *Save*.
+// 2025-6-10, ONTAPDOC-133

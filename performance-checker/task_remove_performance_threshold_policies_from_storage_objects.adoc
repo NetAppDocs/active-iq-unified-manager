@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, performance, threshold, policies, storage, objects
 summary: "You can remove a user-defined performance threshold policy from a storage object when you no longer want Unified Manager to monitor the value of the performance counter."
 ---
-= Removing performance threshold policies from storage objects
+= Remove performance threshold policies from storage objects
 :icons: font
 :imagesdir: ../media/
 
@@ -46,3 +46,4 @@ The Clear Threshold Policy page displays, showing a list of threshold policies t
 . Select the threshold policy you want to remove from the objects and click *Clear Policy*.
 +
 When you select a threshold policy, the details of the policy display so that you can confirm that you have selected the appropriate policy.
+// 2025-6-10, ONTAPDOC-133

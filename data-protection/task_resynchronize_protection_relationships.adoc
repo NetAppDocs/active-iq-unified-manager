@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resynchronize, protection, relationships, volume, relationships page
 summary: "From the Volume Relationships page, you can resynchronize a relationship either to recover from an event that disabled your source volume or when you want to change the current source to a different volume."
 ---
-= Resynchronizing protection relationships from the Volume Relationships page
+= Resynchronize protection relationships from the Volume Relationships page
 :icons: font
 :imagesdir: ../media/
 
@@ -44,3 +44,4 @@ A filtered list of jobs is displayed.
 .  *Optional:* Click the *Back* arrow on your browser to return to the *Volume Relationships* page.
 +
 The resynchronization operation is finished when all job tasks successfully finish.
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, resource pools, inventory
 summary: "You can use the Resource Pools page to view the resource pool inventory and to monitor the remaining capacity for each resource pool."
 ---
-= Viewing resource pools inventory
+= View resource pools inventory
 :icons: font
 :imagesdir: ../media/
 
@@ -20,3 +20,4 @@ You must have the Application Administrator or Storage Administrator role.
 . In the left navigation pane, click *Protection* > *Resource Pools*.
 +
 The resource pool inventory is displayed.
+// 2025-6-10, ONTAPDOC-133

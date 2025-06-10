@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, cifs, nfs, file, shares
 summary: "You can provision CIFS shares and NFS file shares on your Storage Virtual Machines (SVMs) by using the provisioning APIs provided as a part of Active IQ Unified Manager. This provisioning workflow details the steps for retrieving the keys of the SVMs, Performance Service Levels, and Storage Efficiency Policies before creating the file shares."
 ---
-= Provisioning CIFS and NFS file shares by using APIs
+= Provision CIFS and NFS file shares by using APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -394,3 +394,4 @@ You can see that the POST method of `/storage-provider/file-shares` internally i
     }
 }
 ----
+// 2025-6-10, ONTAPDOC-133

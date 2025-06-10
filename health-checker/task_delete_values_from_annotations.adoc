@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, values, annotations
 summary: "You can delete values associated with custom annotations when that value no longer applies to the annotation."
 ---
-= Deleting values from annotations
+= Delete values from annotations
 :icons: font
 :imagesdir: ../media/
 
@@ -25,3 +25,4 @@ You cannot delete values from predefined annotations.
 . In the *Warning* dialog box, click *Yes*.
 +
 The value is deleted and no longer displayed in the list of values for the selected annotation.
+// 2025-6-10, ONTAPDOC-133

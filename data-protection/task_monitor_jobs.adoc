@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, jobs
 summary: "You can use the Jobs page to monitor job status and to view job properties such as storage service type, state, submitted time, and completed time to determine whether or not a job has successfully completed."
 ---
-= Monitoring jobs
+= Monitor jobs
 :icons: font
 :imagesdir: ../media/
 
@@ -25,3 +25,4 @@ The Jobs page is displayed.
 . Click on a job name to view details about that particular job.
 +
 The Job details page is displayed.
+// 2025-6-10, ONTAPDOC-133

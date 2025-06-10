@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, configure, conditions, annotation rules
 summary: "You can configure one or more conditions to create annotation rules that Unified Manager applies on the storage objects. The storage objects that satisfy the annotation rule are annotated with the value specified in the rule."
 ---
-= Configuring conditions for annotation rules
+= Configure conditions for annotation rules
 :icons: font
 :imagesdir: ../media/
 
@@ -37,3 +37,4 @@ Perform the following steps in the Add Annotation Rule dialog box to configure t
 . Select *Contains* as the operator.
 . Enter the value as `svm_data`.
 . Click *Add*.
+// 2025-6-10, ONTAPDOC-133

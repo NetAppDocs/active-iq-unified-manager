@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, groups
 summary: "You can delete a group from Unified Manager when the group is no longer required."
 ---
-= Deleting groups
+= Delete groups
 :icons: font
 :imagesdir: ../media/
 
@@ -22,3 +22,4 @@ You can delete a group from Unified Manager when the group is no longer required
 . In the *Warning* dialog box, confirm the deletion by clicking *Yes*.
 +
 Deleting a group does not delete the group actions that are associated with the group. However, these group actions will be unmapped after the group is deleted.
+// 2025-6-10, ONTAPDOC-133

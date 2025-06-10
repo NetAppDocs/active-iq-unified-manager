@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active iq, unified manager
 summary: "Active IQ Unified Manager provides a set of APIs to manage your storage resources on the supported storage systems through a RESTful web service interface for any third-party integration."
 ---
-= Getting started with Active IQ Unified Manager REST APIs
+= Get started with Active IQ Unified Manager REST APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -15,3 +15,4 @@ In these topics, you will find information about Unified Manager APIs, sample wo
 
 See link:https://docs.netapp.com/us-en/netapp-automation/api/aiqum.html[Active IQ Unified Manager^] for additional resources and details about the benefits of the Active IQ Unified Manager REST API.
 // 2024-10-02, jira OTHERDOC62
+// 2025-6-10, ONTAPDOC-133

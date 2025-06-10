@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, host, node
 summary: "You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host node is down and that storage failover to its HA pair partner is unsuccessful."
 ---
-= Determining if a volume is offline because its host node is down
+= Determine if a volume is offline because its host node is down
 :icons: font
 :imagesdir: ../media/
 
@@ -41,3 +41,4 @@ The Cluster Nodes column is added to the volumes inventory and displays the name
 The Nodes tab on the Cluster / Health details page displays the state of the HA pair of nodes to which the hosting node belongs. The state of the hosting node and the success of any cluster failover operation is indicated in the display.
 
 After you confirm that the volume offline condition exists because its host node is down and storage failover to the HA pair partner has failed, contact the appropriate administrator or operator to manually restart the down node and fix the storage failover problem.
+// 2025-6-10, ONTAPDOC-133

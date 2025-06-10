@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manually configure mysql repository, mysql key, keys update
 summary: "If the system on which you are installing Unified Manager does not have access to the MySQL Community Edition repository, then you must manually download and configure the repository for a successful installation."
 ---
-= Manually configuring the MySQL repository
+= Manually configure the MySQL repository
 :icons: font
 :imagesdir: ../media/
 
@@ -52,3 +52,4 @@ rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 ** On a system that does not have internet connectivity, update your MySQL repo file and disable `gpgcheck` by marking `gpgcheck=0`.
 
 // 15-November-2024 OTHERDOC-81
+// 2025-6-10, ONTAPDOC-133

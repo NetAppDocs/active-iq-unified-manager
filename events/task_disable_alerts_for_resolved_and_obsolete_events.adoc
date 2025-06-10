@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, disable, alerts, resolved, obsolete, events
 summary: "For all events that you have configured to send alerts, an alert message is sent when those events transition through all available states: New, Acknowledged, Resolved, and Obsolete. If you do not want to receive alerts for events as they move into the Resolved and Obsolete states, you can configure a global setting to suppress those alerts."
 ---
-= Enabling and Disabling alerts for Resolved and Obsolete events
+= Enable and disable alerts for Resolved and Obsolete events
 :icons: font
 :imagesdir: ../media/
 
@@ -34,3 +34,4 @@ Start sending alerts as events are resolved or obsoleted
 a|
 Move the slider control to the right
 |===
+// 2025-6-10, ONTAPDOC-133

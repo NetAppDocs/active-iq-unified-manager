@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, logging, audit, logs
 summary: "You can select the Enable Remote Logging checkbox on the Configure Audit Logs dialog box to enable remote audit logging. You can use this feature to transfer audit logs to a remote Syslog server. This will enable you to manage your audit logs when there are space constraints."
 ---
-= Enabling remote logging of audit logs
+= Enable remote logging of audit logs
 :icons: font
 :imagesdir: ../media/
 
@@ -43,3 +43,4 @@ You will be redirected to the Audit Logs page.
 ====
 The *Connection Timeout* value can affect the configuration. If the configuration takes longer time to respond than the defined value, it can lead to configuration failure due to a connection error. To establish a successful connection, increase the *Connection Timeout* value, and try the configuration again.
 ====
+// 2025-6-10, ONTAPDOC-133

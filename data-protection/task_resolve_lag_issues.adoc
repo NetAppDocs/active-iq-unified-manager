@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, lag, issues
 summary: "This workflow provides an example of how you might resolve a lag issue. In this scenario, you are an administrator or operator accessing the Unified Manager Dashboard page to see if there are any problems with your protection relationships and, if they exist, to find solutions."
 ---
-= Resolving lag issues
+= Resolve lag issues
 :icons: font
 :imagesdir: ../media/
 
@@ -49,3 +49,4 @@ As you select each volume, the protection information in the Summary, Topology, 
 In this scenario, you note that the SnapMirror policy is DPDefault, and the SnapMirror schedule updates hourly at five minutes after the hour. You realize that all of the volumes in the relationship are attempting to complete a SnapMirror transfer at the same time.
 
 . To resolve the lag issue, you modify the schedules for two of the cascaded volumes so that each destination begins a SnapMirror transfer after its source has completed a transfer.
+// 2025-6-10, ONTAPDOC-133

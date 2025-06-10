@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, threshold, policies
 summary: "You can view all of the currently defined performance threshold policies from the Performance Thresholds page."
 ---
-= Viewing performance threshold policies
+= View performance threshold policies
 :icons: font
 :imagesdir: ../media/
 
@@ -19,3 +19,4 @@ You can hover your cursor over the Policy Name and the Condition name to see the
 . In the left navigation pane, select *Event Thresholds* > *Performance*.
 +
 The Performance Thresholds page is displayed.
+// 2025-6-10, ONTAPDOC-133

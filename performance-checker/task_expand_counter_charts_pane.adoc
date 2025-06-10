@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, counter, charts, pane
 summary: "You can expand the Counter Charts pane so that the charts are larger and more readable."
 ---
-= Expanding the Counter Charts pane
+= Expand the Counter Charts pane
 :icons: font
 :imagesdir: ../media/
 
@@ -28,3 +28,4 @@ Reduce the Counter Charts pane to the right half of the page
 a|
 Click the *>* button
 |===
+// 2025-6-10, ONTAPDOC-133

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: view, events, system, details
 summary: "The events API enables you to retrieve the events that are generated for the monitored clusters in your data center."
 ---
-= Managing events and alerts by using APIs
+= ManagE events and alerts by using APIs
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 The `events`, `alerts`, and `scripts` APIs under the `management-server` category enable you to manage the events, alerts, and the scripts associated with the alerts in your Active IQ Unified Manager environment.
 
-== Viewing and modifying events
+== View and modify events
 Unified Manager receives the events that are generated on ONTAP for the clusters monitored and managed by Unified Manager. By using these APIs, you can view the events generated for your clusters, and resolve and update them.
 
 By running the `GET` method for the `/management-server/events` API, you can query the events in your data center, including historical data. Use the inbuilt filters, such as name, impact level, impact area, severity, state, resource name, and resource type, to view specific events. The resource type and area parameters return information about the storage object on which the event has occurred, and the impact area returns the information about the issue for which the event is raised, such as availability, capacity, configuration, security, protection, and performance.
@@ -42,7 +42,7 @@ a|
 Run this API to assign an event or change the state to acknowledged or resolved. You can also use this method to assign the event to yourself or another user. It is a synchronous operation.
 |===
 
-== Managing alerts
+== ManagE alerts
 
 Events are automatically and continuously generated. Unified Manager generates an alert only when an event meets certain filter criteria. You can select the events for which alerts should be generated. By using the `/management-server/alerts` API, you can configure alerts to send notifications automatically when specific events or events of certain severity types occur.
 
@@ -83,7 +83,7 @@ You can delete an alert when the alert is no longer required.
 [NOTE]
 While selecting a resource for adding an alert, note that selecting a cluster as the resource does not automatically select the storage objects within that cluster. For example, if you create an alert for all the critical events for all clusters, you will receive alerts only for cluster critical events. You will not receive alerts for critical events on nodes, aggregates, and so forth.
 
-== Managing scripts
+== ManagE scripts
 
 By using the `/management-server/scripts` API, you can also associate an alert with a script that is executed when an alert is triggered.
 You can use scripts to automatically modify or update multiple storage objects in Unified Manager. The script is associated with an alert. When an event triggers an alert, the script is executed. You can upload custom scripts and test their execution when an alert is  generated. You can associate an alert with your script so that the script is executed when an alert is raised for an event in Unified Manager.

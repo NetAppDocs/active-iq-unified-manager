@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, different, aggregate
 summary: "You can use Unified Manager to help identify an aggregate that is less busy than the aggregate where your workloads currently reside, and then you can move selected volumes or LUNs to that aggregate. Moving high performing workloads to a less busy aggregate, or an aggregate with flash storage enabled, allows the workload to perform more efficiently."
 ---
-= Moving workloads to a different aggregate
+= Move workloads to a different aggregate
 :icons: font
 :imagesdir: ../media/
 
@@ -58,3 +58,4 @@ A list of FlexVol volumes and FlexGroup constituent volumes on this aggregate ar
 You can perform the move operation by using ONTAP System Manager, OnCommand Workflow Automation, ONTAP commands, or a combination of these tools.
 
 After a few days, check to see whether you are receiving the same type of events from this node or aggregate.
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager
 summary: "You can install Unified Manager on a physical or virtual Red Hat Enterprise Linux platform."
 ---
-= Installing Unified Manager
+= Install Unified Manager
 :icons: font
 :imagesdir: ../media/
 
@@ -142,3 +142,4 @@ Access the web UI to change the default password of the umadmin user, and perfor
 
 // 15-November-2024 OTHERDOC-81
 // 2024-11-8, OTHERDOC87
+// 2025-6-10, ONTAPDOC-133

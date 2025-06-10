@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, authentication, servers
 summary: "You can delete an authentication server if you want to prevent the Unified Manager server from communicating with the authentication server. For example, if you want to change an authentication server that the management server is communicating with, you can delete the authentication server and add a new authentication server."
 ---
-= Deleting authentication servers
+= Delete authentication servers
 :icons: font
 :imagesdir: ../media/
 
@@ -24,3 +24,4 @@ When you delete an authentication server, remote users or groups of the authenti
 . Click *Yes* to confirm the delete request.
 +
 If the *Use Secure Connection* option is enabled, then the certificates associated with the authentication server are deleted along with the authentication server.
+// 2025-6-10, ONTAPDOC-133

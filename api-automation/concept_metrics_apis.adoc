@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, metrics
 summary: "Active IQ Unified Manager provides you with a set of APIs under the /datacenter category that enable you to view the performance data of your clusters and storage objects in a data center. These APIs retrieve the performance data of the different storage objects, such as clusters, nodes, LUNs, volumes, aggregates, and storage VMs."
 ---
-= Viewing performance metrics by using APIs
+= View performance metrics by using APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -327,3 +327,4 @@ Retrieves the high-level performance metrics for all the network IP interfaces i
 
 
 |===
+// 2025-6-10, ONTAPDOC-133

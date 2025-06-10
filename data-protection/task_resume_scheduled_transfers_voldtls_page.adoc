@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resume schedule, transfers, quiesce, relationship,  volume, health details page
 summary: "After you have quiesced a relationship to stop scheduled transfers from occurring, you can use Resume on the Volume / Health details page to reenable scheduled transfers so that data on the source or primary volume is protected. Transfers resume from a checkpoint, if one exists, at the next scheduled transfer interval."
 ---
-= Resuming scheduled transfers on a quiesced relationship from the Volume / Health details page
+= Resume scheduled transfers on a quiesced relationship from the Volume / Health details page
 :icons: font
 :imagesdir: ../media/
 
@@ -30,3 +30,4 @@ You are returned to the Volume / Health details page.
 . In the *Job* details page, click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
 +
 After the jobs are complete, data transfers are resumed at the next scheduled transfer interval.
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, group actions
 summary: "You can delete a group action from Unified Manager when the group action is no longer required."
 ---
-= Deleting group actions
+= Delete group actions
 :icons: font
 :imagesdir: ../media/
 
@@ -21,3 +21,4 @@ When you delete the group action for the volume health threshold, global thresho
 . In the left navigation pane, click *Storage Management* > *Groups*.
 . In the *Group Actions* tab, select the group action that you want to delete, and then click *Delete*.
 . In the *Warning* dialog box, confirm the deletion by clicking *Yes*.
+// 2025-6-10, ONTAPDOC-133

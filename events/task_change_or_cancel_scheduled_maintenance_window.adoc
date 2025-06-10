@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, cancel, scheduled, maintenance, window
 summary: "If you have configured a Unified Manager maintenance window to occur in the future, you can change the start and end times or cancel the maintenance window from occurring."
 ---
-= Changing or canceling a scheduled maintenance window
+= Change or cancel a scheduled maintenance window
 :icons: font
 :imagesdir: ../media/
 
@@ -47,3 +47,4 @@ Cancel an active maintenance window
 a|
 Select the slider button and move it to the left.
 |===
+// 2025-6-10, ONTAPDOC-133

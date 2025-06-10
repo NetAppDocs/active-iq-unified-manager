@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, lag, threshold settings, unmanaged, protection, relationships
 summary: "You can edit the global default lag warning and error health threshold settings for unmanaged protection relationships so that events are generated at intervals that are appropriate to your needs."
 ---
-= Configuring lag threshold settings for unmanaged protection relationships
+= Configure lag threshold settings for unmanaged protection relationships
 :icons: font
 :imagesdir: ../media/
 
@@ -28,3 +28,4 @@ The settings described in this task are applied globally to all unmanaged protec
 *Related information*
 
 link:../config/task_add_users.html[Adding users]
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, protection relationships
 summary: "From the Relationship: All Relationships view, and from the Volume Relationships page, you can view the status of existing volume SnapMirror and SnapVault relationships. You can also examine details about protection relationships, including transfer and lag status, source and destination details, schedule and policy information, and so on."
 ---
-= Viewing volume protection relationships
+= View volume protection relationships
 :icons: font
 :imagesdir: ../media/
 
@@ -34,3 +34,4 @@ The Relationship: All Relationships view is displayed.
 ====
 The volume transfer views display information for volumes in asynchronous relationships only - volumes in synchronous relationships are not shown.
 ====
+// 2025-6-10, ONTAPDOC-133

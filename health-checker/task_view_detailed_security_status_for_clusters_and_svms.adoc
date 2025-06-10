@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster security status, svm security status, volume encryption status, compliance, security hardening, encryption, anti-ransomware, certificate expiry, clusters page, storage VMs page, System Manager
 summary: "The Security page shows high-level security status for all clusters and storage VMs. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance."
 ---
-= Viewing security status for clusters and Storage VMs
+= View security status for clusters and Storage VMs
 :icons: font
 :imagesdir: ../media/
 
@@ -60,3 +60,4 @@ You can have a default view of the storage VMs' security compliance by checking 
 You can click the image:icon_kabob.gif[kabob icon] more options button and choose to view the security details on the *Security* page of Unified Manager or on System Manager. You should have valid credentials for viewing the details on System Manager.
 
 For anti-ransomware security details for volumes and storage VMs, see link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html[Viewing the anti-ransomware status of all volumes and Storage VMs].
+// 2025-6-10, ONTAPDOC-133

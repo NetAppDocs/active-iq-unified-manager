@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set, protection, relationships, unified manager
 summary: "There are several steps that you must perform to use Unified Manager and OnCommand Workflow Automation to set up SnapMirror and SnapVault relationships to protect your data."
 ---
-= Setting up protection relationships in Unified Manager
+= Set up protection relationships in Unified Manager
 :icons: font
 :imagesdir: ../media/
 
@@ -28,3 +28,4 @@ There are several steps that you must perform to use Unified Manager and OnComma
  ** link:task_create_snapvault_policy_to_maximize_transfer_efficiency.html[Create a SnapVault policy].
  ** link:task_create_snapmirror_policy_to_maximize_transfer_efficiency.html[Create a SnapMirror policy].
 . link:task_create_snapmirror_and_snapvault_schedules.html[Create a SnapMirror or SnapVault schedule].
+// 2025-6-10, ONTAPDOC-133

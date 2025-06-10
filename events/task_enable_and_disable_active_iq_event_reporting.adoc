@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, disable, active iq, event, report
 summary: "Active IQ platform events are generated and displayed in the Unified Manager user interface by default. If you find that these events are too “noisy”, or that you do not want to view these events in Unified Manager, then you can disable these events from being generated. You can enable them at a later time if you want to resume receiving these notifications."
 ---
-= Enabling and disabling Active IQ event reporting
+= Enable and disable Active IQ event reporting
 :icons: font
 :imagesdir: ../media/
 
@@ -35,3 +35,4 @@ Enable Active IQ platform events
 a|
 In the *Active IQ Portal Events* panel, move the slider button to the right.
 |===
+// 2025-6-10, ONTAPDOC-133

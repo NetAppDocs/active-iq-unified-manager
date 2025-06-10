@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, aggregates, resource pools
 summary: "You can remove aggregates from an existing resource pool: for example, when you want to use an aggregate for some other purpose."
 ---
-= Removing aggregates from resource pools
+= Remove aggregates from resource pools
 :icons: font
 :imagesdir: ../media/
 
@@ -35,3 +35,4 @@ A warning dialog box is displayed.
 . Click *Yes* to continue.
 +
 The selected aggregates are removed from the Members pane.
+// 2025-6-10, ONTAPDOC-133

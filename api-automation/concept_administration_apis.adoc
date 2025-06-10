@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, administrative, tasks
 summary: "You can use the APIs under the administration category to modify backup settings, verify the backup file information and cluster certificates, and also manage ONTAP clusters as Active IQ Unified Manager datasources."
 ---
-= Performing administrative tasks by using APIs
+= Perform administrative tasks by using APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -80,3 +80,4 @@ You can also add a new cluster to Unified Manager as a datasource. For adding a 
 For modifying and deleting a cluster managed as a datasource by Unified Manager, use the ONTAP cluster key.
 
 |===
+// 2025-6-10, ONTAPDOC-133

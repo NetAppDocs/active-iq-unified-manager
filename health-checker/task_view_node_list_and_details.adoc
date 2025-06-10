@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node list, details
 summary: "You can use the Health: All Nodes view to view the list of nodes in your clusters. You can use the Cluster / Health details page to view detailed information about nodes that are part of the cluster that is monitored."
 ---
-= Viewing the node list and details
+= View the node list and details
 :icons: font
 :imagesdir: ../media/
 
@@ -43,3 +43,4 @@ For more information, see:
 * link:../performance-checker/performance-view-all.html#performance-all-nodes-view[Performance: All Nodes view]
 * link:../performance-checker/concept_view_node_and_aggregate_available_iops_values.html[Viewing node and aggregate available IOPS values]
 * link:../performance-checker/concept_view_node_and_aggregate_performance_capacity_used_values.html[Viewing node and aggregate performance capacity used values]
+// 2025-6-10, ONTAPDOC-133

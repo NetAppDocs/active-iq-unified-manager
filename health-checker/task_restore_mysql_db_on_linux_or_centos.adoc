@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, linux system, mysql, database, backup
 summary: "If data loss or data corruption occurs, you can restore Unified Manager to the previous stable state with minimum loss of data. You can restore the Unified Manager database to a local or remote Red Hat Enterprise Linux system by using the Unified Manager maintenance console."
 ---
-= Restoring a MySQL database backup on a Linux system
+= Restore a MySQL database backup on a Linux system
 :icons: font
 :imagesdir: ../media/
 
@@ -50,3 +50,4 @@ After you restore the backup, if the OnCommand Workflow Automation server does n
 
 // 15-November-2024 OTHERDOC-81
 // 2024-11-8, OTHERDOC87
+// 2025-6-10, ONTAPDOC-133

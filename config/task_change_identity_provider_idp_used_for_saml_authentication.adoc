@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, identity, provider, used, saml, authentication
 summary: "You can change the identity provider (IdP) that Unified Manager uses to authenticate remote users."
 ---
-= Changing the identity provider used for SAML authentication
+= Change the identity provider used for SAML authentication
 :icons: font
 :imagesdir: ../media/
 
@@ -35,3 +35,4 @@ A message box displays to confirm that you want to change the configuration.
 Access the new IdP and enter the Unified Manager server URI and metadata to complete the configuration.
 
 The next time authorized remote users attempt to access the Unified Manager graphical interface they will enter their credentials in the new IdP login page instead of the old IdP login page.
+// 2025-6-10, ONTAPDOC-133

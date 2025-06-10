@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, counter, charts, focus, shorter, period, time
 summary: "You can use your mouse to reduce the time range to focus on a specific period of time in the Counter Chart pane or in the Counter Charts Zoom View window. This enables you to see a more granular and microscopic view of any part of the timeline of performance data, events, and thresholds."
 ---
-= Changing the Counter Charts focus to a shorter period of time
+= Change the Counter Charts focus to a shorter period of time
 :icons: font
 :imagesdir: ../media/
 
@@ -27,3 +27,4 @@ The counter values for the time period you select fills the counter chart.
 . To return to the original period of time as set in the *Time Range* selector, click the *Reset Chart Zoom* button.
 +
 The counter chart displays in its original state.
+// 2025-6-10, ONTAPDOC-133

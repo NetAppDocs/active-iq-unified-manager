@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, unified manager, virtual, appliance, host name
 summary: "The network host is assigned a name when the Unified Manager virtual appliance is first deployed. You can change the host name after deployment. If you change the host name, you must also regenerate the HTTPS certificate."
 ---
-= Changing the Unified Manager virtual appliance host name
+= Change the Unified Manager virtual appliance host name
 :icons: font
 :imagesdir: ../media/
 
@@ -34,3 +34,4 @@ If you want to use the new host name to access the Unified Manager web UI, you m
 . xref:task_restart_unified_manager_virtual_machine.adoc[Restart the Unified Manager virtual machine]
 +
 After you regenerate the HTTPS certificate, you must restart the Unified Manager virtual machine.
+// 2025-6-10, ONTAPDOC-133

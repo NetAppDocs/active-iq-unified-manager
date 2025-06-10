@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, unified manager, send, alert, notifications
 summary: "You can configure Unified Manager to send notifications that alert you about events in your environment. Before notifications can be sent, you must configure several other Unified Manager options."
 ---
-= Configuring Unified Manager to send alert notifications
+= Configure Unified Manager to send alert notifications
 :icons: font
 :imagesdir: ../media/
 
@@ -38,3 +38,4 @@ You can add several different types of local or remote users and assign specific
 . link:task_add_alerts.html[Add alerts].
 +
 After you have added the email address for sending notifications, added users to receive the notifications, configured your network settings, and configured SMTP and SNMP options needed for your environment, then you can assign alerts.
+// 2025-6-10, ONTAPDOC-133

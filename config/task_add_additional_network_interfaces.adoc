@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, network, interfaces
 summary: "You can add new network interfaces if you need to separate network traffic."
 ---
-= Adding network interfaces
+= Add network interfaces
 :icons: font
 :imagesdir: ../media/
 
@@ -46,3 +46,4 @@ After entering the network settings, you automatically return to the *Network Co
 You must commit the changes to add the network interface.
 
 // 15-November-2024 OTHERDOC-81
+// 2025-6-10, ONTAPDOC-133

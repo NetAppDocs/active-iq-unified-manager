@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, capacity, counter charts, identify, issues
 summary: "You can view performance capacity used charts for nodes and aggregates on the Performance Explorer page. This enables you to view detailed performance capacity data for the selected nodes and aggregates for a specific timeframe."
 ---
-= Viewing performance capacity counter charts to identify issues
+= View performance capacity counter charts to identify issues
 :icons: font
 :imagesdir: ../media/
 
@@ -29,3 +29,4 @@ image::../media/headroom_counter_charts.gif[A UI screenshot that shows the break
 . If you want to view either chart in a full size format, click *Zoom View*.
 +
 In this manner you can open multiple counter charts in a separate windows to compare performance capacity used values with IOPS or MBps values over the same timeframe.
+// 2025-6-10, ONTAPDOC-133

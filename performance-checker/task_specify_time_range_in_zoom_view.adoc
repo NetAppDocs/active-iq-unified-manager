@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, time range, zoom view
 summary: "The Time Range control in the Counter Charts Zoom View window enables you to specify a date and time range for the selected chart. This enables you to quickly locate specific data based on either a preset time range or your own custom time range."
 ---
-= Specifying the time range in Zoom View
+= Specify the time range in Zoom View
 :icons: font
 :imagesdir: ../media/
 
@@ -25,3 +25,4 @@ image::../media/time_range_selector.gif[A UI screenshot that shows Time Range pa
 . To select a custom time range, click the *Time* control below the *From* calendar and select the start time. To specify the end time, click the *Time* control below the *To* calendar on the right and select the end time. The *Custom Range* button at the right of the Time Range panel is highlighted, indicating that you have selected a custom time range.
 . Optionally, you can specify the start and end times when selecting a predefined date range. Select the predefined date range as previously described, then select the start and end times as previously described. The selected dates are highlighted in the calendars, your specified start and end times display in the *Time* controls, and the *Custom Range* button is highlighted.
 . After selecting the date and time range, click *Apply Range*. The performance statistics for that time range display in the charts and in the Events timeline.
+// 2025-6-10, ONTAPDOC-133

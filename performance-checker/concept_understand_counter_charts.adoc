@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, counter, charts
 summary: "Charts in the Counter Charts pane enable you to view and compare performance data for the root object and for objects you have added from the correlated objects grid. This can help you understand performance trends and isolate and resolve performance issues."
 ---
-= Understanding counter charts
+= Understand counter charts
 :icons: font
 :imagesdir: ../media/
 
@@ -37,3 +37,4 @@ If you want to investigate a specific period of time within a chart, you can use
 ====
 Occasionally, gaps in the trend lines display. Gaps mean that either Unified Manager failed to collect performance data from the storage system or that Unified Manager might have been down.
 ====
+// 2025-6-10, ONTAPDOC-133

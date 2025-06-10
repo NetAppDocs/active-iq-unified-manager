@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, authentication servers
 summary: "You can add authentication servers and enable remote authentication on the management server so that remote users within the authentication server can access Unified Manager."
 ---
-= Adding authentication servers
+= Add authentication servers
 :icons: font
 :imagesdir: ../media/
 
@@ -61,3 +61,4 @@ The authentication server that you added is displayed in the Servers area.
 . Perform a test authentication to confirm that you can authenticate users in the authentication server that you added.
 
 // 15-November-2024 OTHERDOC-81
+// 2025-6-10, ONTAPDOC-133

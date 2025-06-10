@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads
 summary: "Modifying storage workloads consists of updating LUNs or file shares with missing parameters, or changing the existing parameters."
 ---
-= Modifying storage workloads by using APIs
+= Modify storage workloads by using APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -18,7 +18,7 @@ This workflow takes the example of updating Performance Service Levels for LUNs 
 The workflow assumes that the LUN or file share has been provisioned with Performance Service Levels.
 ====
 
-== Modifying file shares
+== Modify file shares
 
 While modifying a file share, you can update the following parameters:
 
@@ -155,7 +155,7 @@ View the details of the file share in the output.
         }
 ----
 
-== Updating LUNs
+== Update LUNs
 
 While updating a LUN, you can modify the following parameters:
 
@@ -281,3 +281,4 @@ View the details of the LUN in the output. You can see that the Performance Serv
                 "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
             }
 ----
+// 2025-6-10, ONTAPDOC-133

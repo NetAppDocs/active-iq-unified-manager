@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: log in, ui, unified manager
 summary: "You can log in to the Unified Manager UI using a supported web browser."
 ---
-= Logging in to the UI
+= Log in to the UI
 :icons: font
 :imagesdir: ../media/
 
@@ -38,3 +38,4 @@ The Dashboard page is displayed.
 ====
 If the Unified Manager server is not initialized, a new browser window displays the first experience wizard. You must enter an initial email recipient to which email alerts will be sent, the SMTP server that will handle email communications, and whether AutoSupport is enabled to send information about your Unified Manager installation to technical support. The Unified Manager UI appears after you complete this information.
 ====
+// 2025-6-10, ONTAPDOC-133

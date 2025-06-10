@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configuring, connection, unified manager, server, external, data, provider
 summary: "Unified Manager can send cluster performance data to an external server. You can specify the type of statistical data that is sent, and the interval at which data is sent."
 ---
-= Configuring a connection from a Unified Manager server to an external data provider
+= Configure a connection from a Unified Manager server to an external data provider
 :icons: font
 :imagesdir: ../media/
 
@@ -92,3 +92,4 @@ a|
 . Type `*x*` to exit the maintenance console.
 
 After you have configured the connection, the selected performance data is sent to the destination server at the time interval you specified. It takes a few minutes before the metrics start to appear in the external tool. You might need to refresh your browser to see the new metrics in the metric hierarchy.
+// 2025-6-10, ONTAPDOC-133

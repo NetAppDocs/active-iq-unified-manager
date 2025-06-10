@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quiesce, protection, relationship, volume, health details page
 summary: "You can quiesce a protection relationship to temporarily prevent data transfers from occurring. You might quiesce a relationship when you want to create a Snapshot copy of a SnapMirror destination volume that contains a database, and you want to ensure that its contents are stable during the Snapshot copy."
 ---
-= Quiescing a protection relationship from the Volume / Health details page
+= Quiesce a protection relationship from the Volume / Health details page
 :icons: font
 :imagesdir: ../media/
 
@@ -34,3 +34,4 @@ The status of the quiesce job is displayed at the top of the Volume / Health det
 .  *Optional:* Click the Back arrow on your browser to return to the *Volume / Health* details page.
 +
 The quiesce job is finished when all job tasks are successfully completed.
+// 2025-6-10, ONTAPDOC-133

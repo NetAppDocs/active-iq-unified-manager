@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, health, volumes view
 summary: "You can use the Health: All Volumes view to create SnapVault relationships for one or more volumes on the same Storage VM to enable data backups for protection purposes."
 ---
-= Creating a SnapVault protection relationship from the Health: All Volumes view
+= Create a SnapVault protection relationship from the Health: All Volumes view
 :icons: font
 :imagesdir: ../media/
 
@@ -49,3 +49,4 @@ If you are creating only one protection relationship, the Job details page is di
   ... Click a job in the jobs list.
   ... Click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
   ... Use the *Back* button to return to the filtered list and view another job.
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, windows, mysql, database, backup
 summary: "In case of data loss or data corruption, you can use the restore feature to restore Unified Manager to the previous stable state with minimal loss. You can restore the Unified Manager MySQL database to a local Windows system or a remote Windows system by using the Unified Manager maintenance console."
 ---
-= Restoring a MySQL database backup on Windows
+= Restore a MySQL database backup on Windows
 :icons: font
 :imagesdir: ../media/
 
@@ -46,3 +46,4 @@ After you restore the backup, if the OnCommand Workflow Automation server does n
 
 . On the Workflow Automation server, change the IP address of the Unified Manager server to point to the latest machine.
 . On the Unified Manager server, reset the database password if the acquisition fails in step 1.
+// 2025-6-10, ONTAPDOC-133

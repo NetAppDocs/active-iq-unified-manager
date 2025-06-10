@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, ONTAP, APIs, proxy, access
 summary: "The gateway APIs provide you with the advantage of using the Active IQ Unified Manager credentials to run ONTAP REST APIs and managing storage objects. These APIs are available when the API Gateway feature is enabled from the Unified Manager web UI."
 ---
-= Accessing ONTAP APIs through proxy access
+= Access ONTAP APIs through proxy access
 :icons: font
 :imagesdir: ../media/
 
@@ -64,7 +64,7 @@ The `OPTIONS` method determines whether a resource is available. This operation 
 
 |===
 
-== Understanding the API Gateway tunneling
+== Understand the API Gateway tunneling
 
 The gateway APIs enable you to manage ONTAP objects through Unified Manager. Unified Manager manages the clusters and authentication details and redirects the requests to the ONTAP REST endpoint. The gateway API transforms the URL and Hypermedia as the Engine of Application State (HATEOAS) links in the header and response body with the API gateway base URL. The gateway API acts as the proxy base URL to which you append the ONTAP REST URL and execute the required ONTAP REST endpoint.
 
@@ -96,7 +96,7 @@ curl -X GET "https://<hostname>/api/gateways/1cd8a442-86d1-11e0-ae1c-98765678901
 
 The API returns the list of storage volumes in that cluster. The response format is the same as you receive when you run the same API from ONTAP. The status codes returned are the ONTAP REST status codes.
 
-== Setting API scope
+== Set API scope
 
 All APIs have a context set within the scope of the cluster. APIs that operate on the basis of storage VMs also have the cluster as the scope, that is, the API operations are performed on a particular storage VM within a managed cluster. When you run the `/gateways/\{uuid}/\{path}` API, ensure that you enter the cluster UUID (Unified Manager datasource UUID) for the cluster on which you run the operation. For setting the context to a particular storage VM within that cluster, enter the storage VM key as the X-Dot-SVM-UUID parameter or the storage VM name as the X-Dot-SVM-Name parameter. The parameter is added as the filter in the string header and the operation is run within the scope of that storage VM inside that cluster.
 
@@ -109,3 +109,4 @@ curl -X GET "https://<hostname>/api/gateways/e4f33f90-f75f-11e8-9ed9-00a098e3215
 
 For more information about using ONTAP REST APIs, see 
 https://docs.netapp.com/us-en/ontap-automation/index.html[ONTAP REST API Automation]
+// 2025-6-10, ONTAPDOC-133

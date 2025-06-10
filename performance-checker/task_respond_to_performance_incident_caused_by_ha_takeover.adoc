@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, ha, takeover
 summary: "You can use Unified Manager to investigate a performance event caused by high data processing on a cluster node that is in a high-availability (HA) pair. You can also use Unified Manager to check the health of the nodes to see whether any recent health events detected on the nodes contributed to the performance event."
 ---
-= Responding to a dynamic performance event caused by HA takeover
+= Respond to a dynamic performance event caused by HA takeover
 :icons: font
 :imagesdir: ../media/
 
@@ -40,3 +40,4 @@ At the time of the HA takeover, there was a spike in data processing from the in
 . After the HA giveback is complete, after the next configuration discovery in Unified Manager (approximately 15 minutes), find the event and workload that triggered by the HA takeover in the *Event Management* inventory page.
 +
 The event triggered by the HA takeover now has a state of obsolete, which indicates that the event is resolved. The latency at the data processing component has decreased, which has decreased the total latency. The node that the selected volume is now using for data processing has resolved the event.
+// 2025-6-10, ONTAPDOC-133
