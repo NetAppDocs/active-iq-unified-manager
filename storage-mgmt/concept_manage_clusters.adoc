@@ -4,9 +4,10 @@ sidebar: sidebar
 keywords: manage, clusters
 summary: "You can manage the ONTAP clusters by using Unified Manager to monitor, add, edit, and remove clusters."
 ---
-= Managing clusters
+= Manage clusters
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can manage the ONTAP clusters by using Unified Manager to monitor, add, edit, and remove clusters.
+// 2025-6-11, ONTAPDOC-133

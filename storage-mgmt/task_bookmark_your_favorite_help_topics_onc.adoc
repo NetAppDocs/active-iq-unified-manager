@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: bookmark, favorite, help topics
 summary: "In the Help Favorites tab, you can bookmark Help topics that you use frequently. Help bookmarks provide fast access to your favorite topics."
 ---
-= Bookmarking your favorite Help topics
+= Bookmark your favorite Help topics
 :icons: font
 :imagesdir: ../media/
 
@@ -14,3 +14,4 @@ In the Help Favorites tab, you can bookmark Help topics that you use frequently.
 .Steps
 . Navigate to the Help topic that you want to add as a favorite.
 . Click *Favorites*, and then click *Add*.
+// 2025-6-11, ONTAPDOC-133

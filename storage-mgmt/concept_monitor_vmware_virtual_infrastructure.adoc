@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, vmware, virtual, infrastructure, not, supported
 summary: "Active IQ Unified Manager provides visibility into the virtual machines (VMs) in your virtual infrastructure, and enables monitoring and troubleshooting storage and performance issues in your virtual environment. You can use this feature to determine any latency issues in your storage environment or when there is a reported performance event on your vCenter Server." 
 ---
-= Monitoring VMware virtual infrastructure
+= Monitor VMware virtual infrastructure
 :icons: font
 :imagesdir: ../media/
 
@@ -51,3 +51,4 @@ Example: Suppose cluster A has datastore A. Datastore A is exported via data LIF
 * Only iSCSI virtual disks are supported. Virtual disks of NVMe and SATA types are not supported.
 * The views do not allow you to generate reports for analysing the performance of the various components.
 * For the storage virtual machine (storage VM) disaster recovery (DR) setup that is supported for only virtual infrastructure on Unified Manager, the configuration has to be manually changed in vCenter Server to point to the active LUNs in switchover and switchback scenarios. Without a manual intervention, their datastores become inaccessible.
+// 2025-6-11, ONTAPDOC-133

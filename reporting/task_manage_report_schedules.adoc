@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'You can manage your report schedules from the Report Schedules page. You can view, modify, or delete existing schedules.'
 ---
-= Managing report schedules
+= Manage report schedules
 :icons: font
 :imagesdir: ../media/
 
@@ -50,3 +50,4 @@ a|
 
 +
 |===
+// 2025-6-11, ONTAPDOC-133

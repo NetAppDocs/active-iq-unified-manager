@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, nodes, running, older versions, ONTAP
 summary: "You can create a report to display the version of ONTAP software that is installed on all cluster nodes so that you can see which nodes you should upgrade."
 ---
-= Creating a report to view nodes running older versions of ONTAP
+= Create a report to view nodes running older versions of ONTAP
 :icons: font
 :imagesdir: ../media/
 
@@ -31,3 +31,4 @@ Use the following steps to create a custom view that displays nodes running olde
 The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
 
 Based on the results shown in the report, you might want to upgrade nodes running older versions of ONTAP.
+// 2025-6-11, ONTAPDOC-133

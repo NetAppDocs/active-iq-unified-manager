@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policies, guidelines, create, custom
 summary: "A Storage Efficiency Policy (SEP) enables you to define the storage efficiency characteristics of a workload. You can assign an SEP to a workload when initially creating the workload, or afterwards by editing the workload."
 ---
-= Managing Storage Efficiency Policies
+= Manage Storage Efficiency Policies
 :icons: font
 :imagesdir: ../media/
 
@@ -67,3 +67,4 @@ Number of storage workloads that have been assigned the SEP
 If the existing SEPs do not meet policy requirements for your storage workloads, you can create a custom SEP. However, it is recommended that you attempt to use the system-defined SEPs for your storage workloads, and only create custom SEPs if necessary.
 
 You can view the SEP assigned to workloads in the All Workloads page and in the Volume / Health details page. You can view the cluster-level data reduction ratio (without Snapshot copies) based on these storage efficiencies in the Capacity panel on the Dashboard and in the Capacity: All Clusters view.
+// 2025-6-11, ONTAPDOC-133

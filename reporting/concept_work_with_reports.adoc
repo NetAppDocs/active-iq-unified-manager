@@ -4,9 +4,10 @@ sidebar: sidebar
 keywords: work, reports
 summary: "Learn how to find and customize inventory page views into shareable scheduled reports."
 ---
-= Working with reports
+= Work with reports
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Learn how to find and customize inventory page views into shareable scheduled reports.
+// 2025-6-10, ONTAPDOC-133

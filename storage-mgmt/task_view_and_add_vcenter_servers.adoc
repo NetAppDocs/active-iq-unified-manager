@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, add, vcenter, server
 summary: "For viewing and troubleshooting the performance of the virtual machines (VMs), the associated vCenter Servers must be added on your Active IQ Unified Manager instance."
 ---
-= Viewing and adding vCenter Server
+= View and add vCenter Server
 :icons: font
 :imagesdir: ../media/
 
@@ -77,3 +77,4 @@ For polling vCenter Server configuration data, Unified Manager follows the same 
 *Related information*
 
 link:../performance-checker/concept_cluster_configuration_and_performance_data_collection_activity.html[Cluster configuration and performance data collection activity]
+// 2025-6-11, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, total, available, capacity, charts
 summary: "You can create a report to analyze storage total and committed capacity in an Excel chart format."
 ---
-= Creating a report to show aggregate total versus available capacity charts
+= Create a report to show aggregate total versus available capacity charts
 :icons: font
 :imagesdir: ../media/
 

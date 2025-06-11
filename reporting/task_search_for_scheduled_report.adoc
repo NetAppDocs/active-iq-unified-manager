@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, schedule, report
 summary: "You can search for scheduled reports by name, view name, object type, or recipients."
 ---
-= Searching for a scheduled report
+= Search for a scheduled report
 :icons: font
 :imagesdir: ../media/
 
@@ -36,3 +36,4 @@ Type "PDF", "CSV", or "XLSX".
 |===
 
 . You can click a column heading to sort reports in ascending or descending order by that column, such as schedule name or format.
+// 2025-6-11, ONTAPDOC-133

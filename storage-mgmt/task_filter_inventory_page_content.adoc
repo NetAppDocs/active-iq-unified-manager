@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filter, inventory, page, content, example
 summary: "You can filter inventory page data in Unified Manager to quickly locate data based on specific criteria. You can use filtering to narrow the contents of the Unified Manager pages to show only the results in which you are interested. This provides a very efficient method of displaying only the data in which you are interested."
 ---
-= Filtering inventory page content
+= Filter inventory page content
 :icons: font
 :imagesdir: ../media/
 
@@ -50,3 +50,4 @@ The illustration shows the Filtering panel with three filters. The *+Add Filter*
 image::../media/opm_filtering_panel_draft_3.gif[A UI screenshot that shows filtering panel with three filters.]
 
 After clicking *Apply Filter*, the Filtering panel closes, applies your filters, and shows the number of filters applied (image:../media/opm_filters_applied.gif[]).
+// 2025-6-11, ONTAPDOC-133

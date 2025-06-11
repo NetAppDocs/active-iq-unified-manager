@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, rules, generate, email, addresses
 summary: "You can create rules to specify the email address based on the user quota associated with clusters, storage virtual machines (SVMs), volumes, qtrees, users, or user groups. A notification is sent to the specified email address when there is a quota breach."
 ---
-= Creating rules to generate email addresses
+= Create rules to generate email addresses
 :icons: font
 :imagesdir: ../media/
 
@@ -35,3 +35,4 @@ An error message is displayed if the syntax of the rule is incorrect. You must c
 
 . Click *Save*.
 . Verify that the email address you created is displayed in the *User and Group Quotas* tab of the Storage *VM / Health* details page.
+// 2025-6-11, ONTAPDOC-133

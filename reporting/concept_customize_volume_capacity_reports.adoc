@@ -4,9 +4,10 @@ sidebar: sidebar
 keywords: customize, volume, capacity reports
 summary: "These sample custom reports are used to help you identify and respond to potential problems related to volume capacity and performance."
 ---
-= Customizing volume capacity reports
+= Customize volume capacity reports
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 These sample custom reports are used to help you identify and respond to potential problems related to volume capacity and performance.
+// 2025-6-10, ONTAPDOC-133

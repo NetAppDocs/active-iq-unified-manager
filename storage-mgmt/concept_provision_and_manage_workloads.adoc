@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, manage, workloads
 summary: "The active management feature of Active IQ Unified Manager provides Performance Service Levels, Storage Efficiency Policies, and storage provider APIs for provisioning, monitoring, and managing storage workloads in a data center."
 ---
-= Provisioning and managing workloads
+= Provision and manage workloads
 :icons: font
 :imagesdir: ../media/
 
@@ -40,3 +40,4 @@ You can perform the following functions by using these options:
 *Related information*
 
 link:../config/concept_policy_based_storage_management.html[Policy-based storage management]
+// 2025-6-11, ONTAPDOC-133

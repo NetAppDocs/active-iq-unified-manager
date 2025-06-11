@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, unified manager, help
 summary: "The Help includes information about all features included in Active IQ Unified Manager. You can use the table of contents, the index, or the search tool to find information about the features and how to use them."
 ---
-= Using the Unified Manager Help
+= Use the Unified Manager Help
 :icons: font
 :imagesdir: ../media/
 
@@ -22,3 +22,4 @@ You can find more detailed information by expanding any portion of the Table of 
 
 * To search the Help contents, click the *Search* tab in the navigation pane, type the word or series of words you want to find, and click *Go!*
 * To print Help topics, click the printer icon.
+// 2025-6-11, ONTAPDOC-133

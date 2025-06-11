@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, luns
 summary: "You can create LUNs that support CIFS/SMB and NFS protocols, on an existing cluster and Storage Virtual Machine (storage VM) from the Provision Workload page."
 ---
-= Provisioning LUNs
+= Provision LUNs
 :icons: font
 :imagesdir: ../media/
 
@@ -54,3 +54,4 @@ If you want to create a new igroup, select the *Create a new initiator group* bu
 . Click *Save*.
 +
 The LUN is added to the list of storage workloads.
+// 2025-6-11, ONTAPDOC-133

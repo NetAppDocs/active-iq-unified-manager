@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, default, export, policy
 summary: "You can create a report to find volumes that are using the default export policy."
 ---
-= Creating a report to view volumes that are using the default export policy
+= Create a report to view volumes that are using the default export policy
 :icons: font
 :imagesdir: ../media/
 
@@ -32,3 +32,4 @@ Use the following steps to create a custom view for volumes that are using the d
 The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
 
 Based on the results shown in the report, you might want to configure a custom export policy.
+// 2025-6-11, ONTAPDOC-133

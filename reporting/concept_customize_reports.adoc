@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, reports
 summary: "There are many ways you can customize views so that you can create a report that contains all the information you need to manage your ONTAP clusters."
 ---
-= Customizing reports
+= Customize reports
 :icons: font
 :imagesdir: ../media/
 
@@ -21,3 +21,4 @@ For more information on customizing reports using Excel, see _Sample Microsoft E
 ====
 You must have the Application Administrator or Storage Administrator role to manage reports.
 ====
+// 2025-6-10, ONTAPDOC-133

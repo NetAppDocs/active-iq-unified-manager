@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration
 summary: "You can view the configuration and performance metrics of the datastores hosted in a MetroCluster configuration or storage virtual machine (storage VM) disaster recovery (SVM DR) setup."
 ---
-= Viewing virtual infrastructure in a disaster recovery setup
+= View virtual infrastructure in a disaster recovery setup
 :icons: font
 :imagesdir: ../media/
 
@@ -15,7 +15,7 @@ On Unified Manager, you can view the NAS volumes or LUNs in a MetroCluster confi
 
 You can also view the NAS volumes or LUNs in a storage VM disaster recovery configuration that are mapped to the datastores in vCenter Server.
 
-== Viewing datastores in MetroCluster configuration
+== View datastores in MetroCluster configuration
 
 Note the following prerequisites before viewing datastores in a MetroCluster configuration:
 
@@ -33,7 +33,7 @@ Follow these steps for viewing datastores:
 . In case of a disaster, and a consecutive switchover to the secondary site, the datastore link points to the performance metrics of the volume or LUN in the secondary cluster. This is reflected after the next cycle of clusters and vServer discovery (acquisition) is complete.
 . After a successful switchback, the datastore link again reflects the performance metrics of the volume or LUN in the primary cluster. This is reflected after the next cycle of clusters and vServer discovery is complete.
 
-== Viewing datastores in storage VM disaster recovery configuration
+== View datastores in storage VM disaster recovery configuration
 
 Note the following prerequisites before viewing datastores in a storage VM disaster recovery configuration:
 
@@ -65,3 +65,4 @@ Follow these steps for viewing datastores:
  ** Unless Automatic Switch Over (ASO) is enabled, if the primary cluster goes down, the secondary cluster cannot be discovered, and the topology continues to point to the volume or LUN in the primary cluster.
 * For a storage VM disaster recovery configuration, note the following limitation:
  ** A configuration with Site Recovery Manager (SRM) or Storage Replication Adapter (SRA) enabled for a SAN storage environment is not supported.
+// 2025-6-11, ONTAPDOC-133

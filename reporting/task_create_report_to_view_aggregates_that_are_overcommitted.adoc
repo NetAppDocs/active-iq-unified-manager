@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, overcommitted
 summary: "You can create a report to analyze storage capacity and use of aggregates, and to view aggregates that are overcommitted."
 ---
-= Creating a report to view aggregates that are overcommitted
+= Create a report to view aggregates that are overcommitted
 :icons: font
 :imagesdir: ../media/
 
@@ -34,3 +34,4 @@ Use the following steps to create a custom view that displays aggregates that ar
 The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
 
 Based on the results shown in the report, you might want to add some more capacity to aggregates, or move some data from certain aggregates.
+// 2025-6-11, ONTAPDOC-133

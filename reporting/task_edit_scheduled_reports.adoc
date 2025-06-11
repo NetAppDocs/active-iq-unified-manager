@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: editing, schedule, reports
 summary: "After reports are scheduled, you can edit them on the Report Schedules page."
 ---
-= Editing scheduled reports
+= Edit scheduled reports
 :icons: font
 :imagesdir: ../media/
 
@@ -30,3 +30,4 @@ If you have the appropriate permissions you can alter any report and its schedul
 . Click *Edit*.
 . You can change the *Schedule Name*, *Recipient* list, *Frequency*, and *Format* for the report schedule.
 . When done, click the check mark to save your changes.
+// 2025-6-11, ONTAPDOC-133

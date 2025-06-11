@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add cluster
 summary: "You can add a cluster to Active IQ Unified Manager so that you can monitor the cluster. This includes the ability to obtain cluster information such as the health, capacity, performance, and configuration of the cluster so that you can find and resolve any issues that might occur."
 ---
-= Adding clusters 
+= Add clusters 
 :icons: font
 :imagesdir: ../media/
 
@@ -86,3 +86,4 @@ link:../config/task_add_users.html[Adding users]
 link:../health-checker/task_view_cluster_list_and_details.html[Viewing the cluster list and details]
 
 link:../config/task_install_ca_signed_and_returned_https_certificate.html#example-certificate-chain[Installing a CA signed and returned HTTPS certificate]
+// 2025-6-11, ONTAPDOC-133

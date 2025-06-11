@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, capacity, cluster, model
 summary: "You can create a report to analyze storage capacity and utilization of clusters based on storage system model."
 ---
-= Creating a report to view capacity by cluster model
+= Create a report to view capacity by cluster model
 :icons: font
 :imagesdir: ../media/
 
@@ -32,3 +32,4 @@ Use the following steps to create a custom view that displays capacity by cluste
 The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
 
 Based on the results shown in the report, you might want to add more capacity to certain clusters, or upgrade older cluster models.
+// 2025-6-11, ONTAPDOC-133

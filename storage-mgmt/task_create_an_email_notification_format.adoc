@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, email, notification, format, user, group, quotas
 summary: "You can create a notification format for the emails that are sent to a user or a user group when there is a quota-related issue (soft limit breached or hard limit reached)."
 ---
-= Creating an email notification format for user and user group quotas
+= Create an email notification format for user and user group quotas
 :icons: font
 :imagesdir: ../media/
 
@@ -23,3 +23,4 @@ You must have the Application Administrator or Storage Administrator role.
 . Click *Close* to close the preview window.
 . Modify the content of the email notification, if required.
 . Click *Save*.
+// 2025-6-11, ONTAPDOC-133

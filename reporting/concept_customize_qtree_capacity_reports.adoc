@@ -4,9 +4,10 @@ sidebar: sidebar
 keywords: customize, qtree, capacity, reports
 summary: "These sample custom reports are used to help you identify and respond to potential problems related to Qtree capacity."
 ---
-= Customizing Qtree capacity reports
+= Customize Qtree capacity reports
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 These sample custom reports are used to help you identify and respond to potential problems related to Qtree capacity.
+// 2025-6-10, ONTAPDOC-133

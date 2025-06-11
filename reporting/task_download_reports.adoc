@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, reports
 summary: "You can download reports and save the data to a local or network drive as a comma-separated values (CSV) file, a Microsoft Excel (.XLSX) file, or a PDF file. You can open CSV and XLSX files with spreadsheet applications, such as Microsoft Excel, and PDF files with readers such as Adobe Acrobat."
 ---
-= Downloading reports
+= Download reports
 :icons: font
 :imagesdir: ../media/
 
@@ -31,3 +31,4 @@ Download Excel
 a|
 Save the report as a Microsoft Excel (XLSX) file.
 |===
+// 2025-6-11, ONTAPDOC-133
