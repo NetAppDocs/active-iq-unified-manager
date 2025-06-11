@@ -24,4 +24,4 @@ You can select either a single row or multiple rows and perform many drag-and-dr
 . Click *Save*.
 +
 You must save the changes for the reorder to be displayed.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

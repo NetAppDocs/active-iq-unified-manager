@@ -32,4 +32,4 @@ View the performance information for the All SAN Array cluster.
 . On the *Cluster / Performance Explorer* page, select *Nodes on this Cluster* from the *View and Compare* menu.
 +
 You can compare the performance statistics of both nodes on this cluster to make sure the load is almost identical on both nodes. If there are large discrepancies between the two nodes you can add the second node to the charts and compare the values over a longer timeframe to identify any configuration issues.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

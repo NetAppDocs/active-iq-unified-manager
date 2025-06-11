@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, system, details
 summary: "The events API enables you to retrieve the events that are generated for the monitored clusters in your data center."
 ---
-= ManagE events and alerts by using APIs
+= Manage events and alerts by using APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -42,7 +42,7 @@ a|
 Run this API to assign an event or change the state to acknowledged or resolved. You can also use this method to assign the event to yourself or another user. It is a synchronous operation.
 |===
 
-== ManagE alerts
+== Manage alerts
 
 Events are automatically and continuously generated. Unified Manager generates an alert only when an event meets certain filter criteria. You can select the events for which alerts should be generated. By using the `/management-server/alerts` API, you can configure alerts to send notifications automatically when specific events or events of certain severity types occur.
 
@@ -83,7 +83,7 @@ You can delete an alert when the alert is no longer required.
 [NOTE]
 While selecting a resource for adding an alert, note that selecting a cluster as the resource does not automatically select the storage objects within that cluster. For example, if you create an alert for all the critical events for all clusters, you will receive alerts only for cluster critical events. You will not receive alerts for critical events on nodes, aggregates, and so forth.
 
-== ManagE scripts
+== Manage scripts
 
 By using the `/management-server/scripts` API, you can also associate an alert with a script that is executed when an alert is triggered.
 You can use scripts to automatically modify or update multiple storage objects in Unified Manager. The script is associated with an alert. When an event triggers an alert, the script is executed. You can upload custom scripts and test their execution when an alert is  generated. You can associate an alert with your script so that the script is executed when an alert is raised for an event in Unified Manager.
@@ -112,3 +112,4 @@ Use this API to add a description for the script and upload the script file asso
 a|
 
 |===
+// 2025-6-11, ONTAPDOC-133

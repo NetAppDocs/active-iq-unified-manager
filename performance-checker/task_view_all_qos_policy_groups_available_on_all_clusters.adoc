@@ -19,4 +19,4 @@ The Performance: Traditional QoS Policy Groups view is displayed by default.
 . View the detailed configuration settings for each available traditional QoS policy group.
 . Click the expand button (image:../media/chevron_down.gif[]) next to the QoS Policy Group name to view more details about the policy group.
 . In the View menu, select one of the additional options to view all the adaptive QoS policy groups or to view all the QoS policy groups that were created using Unified Manager Performance Service Levels.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -22,4 +22,4 @@ Resource pools can contain aggregates from different clusters, but the same aggr
 . In the left navigation pane, click *Protection* > *Resource Pools*.
 . In the *Resource Pools page*, click *Create*.
 . Follow the instructions in the *Create Resource Pool* dialog box to provide a name and description and to add aggregates as members to the resource pool you want to create.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -23,4 +23,4 @@ By default, New and Acknowledged events are displayed on the Event Management in
 . From the View menu, select *Active security events*.
 +
 The page displays all New and Acknowledged Security events that have been generated in the past 7 days.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -24,4 +24,4 @@ You must have a user ID and password authorized to log in to the maintenance con
 The actions that are performed are displayed which are, stop the services, break the symlink, move the data from storage to directory, and then start the services again.
 +
 After the backup method is modified, the backup mechanism is changed from Snapshot copy to default MySQL backup. This change appears in the Database Backup section of the General settings.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

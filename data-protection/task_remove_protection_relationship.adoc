@@ -25,4 +25,4 @@ The Remove Relationship dialog box is displayed.
 . Click *Continue* to remove the relationship.
 +
 The relationship is removed from the Volume Relationships page.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -55,4 +55,4 @@ a|
 Click the remove all object's button (*X*) at the top of the Comparing pane.    All selected objects and their data are removed, leaving only the root object.
 
 |===
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

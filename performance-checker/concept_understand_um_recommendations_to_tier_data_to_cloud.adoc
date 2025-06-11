@@ -50,4 +50,4 @@ The cloud recommendations you will see are:
 To move a volume, or to change the volume tiering policy or the aggregate inactive data reporting settings, use ONTAP System Manager, the ONTAP CLI commands, or a combination of these tools.
 
 If you are logged in to Unified Manager with the Application Administrator or Storage Administrator role, the *Configure Volume* link is available in the cloud recommendation when you hover your cursor over the word *Tier*. Click this button to open the Volumes page in System Manager to make the recommended change.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

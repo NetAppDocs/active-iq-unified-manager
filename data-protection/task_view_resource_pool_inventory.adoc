@@ -20,4 +20,4 @@ You must have the Application Administrator or Storage Administrator role.
 . In the left navigation pane, click *Protection* > *Resource Pools*.
 +
 The resource pool inventory is displayed.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

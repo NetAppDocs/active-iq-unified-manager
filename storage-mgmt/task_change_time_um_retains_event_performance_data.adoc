@@ -34,4 +34,4 @@ You should reduce the retention period only if you are running out of space or i
 
 . In the left navigation pane, click *Policies* > *Data Retention*.
 . In the *Data Retention* page, select the slider tool in the Event Retention or Performance Data Retention area and move it to the number of months that data should be retained, and click *Save*.
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -39,4 +39,4 @@ The details page for the event displays.
 ====
 You can also display the details page for an event by clicking the event name link from the Performance Explorer page and from an alert email.
 ====
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

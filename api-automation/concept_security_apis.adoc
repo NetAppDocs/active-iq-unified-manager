@@ -49,4 +49,4 @@ a|
 The GET method enables you to retrieve all the details of a user, such as the name, email address, role, authorization type. The PATCH method enables you to update the details. The DELETE method enables you to remove the user.
 
 |===
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

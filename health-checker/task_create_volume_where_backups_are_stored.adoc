@@ -37,4 +37,4 @@ Use the command du -sh /opt/netapp/data/ to check the current size.
  ** The performance service level should be set to a policy with high IOPS and low latency, such as "`Extreme`"
 
 For detailed steps to create the NFS volume, see https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode[How to configure NFSv4 in ONTAP 9] and the http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-nfsv3-cg/home.html[ONTAP 9 NFS Configuration Express Guide].
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -91,4 +91,4 @@ Only for a MetroCluster over IP configuration, you can have view the cluster top
 * For information about *Relationship: Last 1 month Transfer Status* view, see link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html[Relationship: Last 1 month Transfer Status view].
 * For information about *Relationship: Last 1 month Transfer Rate* view, see link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html[Relationship: Last 1 month Transfer Rate view].
 * For information about *Relationship: All Relationships* view, see link:../data-protection/reference_relationship_all_relationships_view.html[Relationship: All Relationships view].
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

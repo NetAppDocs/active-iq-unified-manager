@@ -92,4 +92,4 @@ a|
 . Type `*x*` to exit the maintenance console.
 
 After you have configured the connection, the selected performance data is sent to the destination server at the time interval you specified. It takes a few minutes before the metrics start to appear in the external tool. You might need to refresh your browser to see the new metrics in the metric hierarchy.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -35,4 +35,4 @@ An error message is displayed if the syntax of the rule is incorrect. You must c
 
 . Click *Save*.
 . Verify that the email address you created is displayed in the *User and Group Quotas* tab of the Storage *VM / Health* details page.
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -57,4 +57,4 @@ The Reads/writes/other chart is displayed.
 . Compare the *Reads/writes/other* chart to the *Latency* chart.
 +
 The read and write requests are the same, but the throttling has stopped and the latency has decreased.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

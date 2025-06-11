@@ -23,4 +23,4 @@ Events are generated for a qtree only when a Qtree quota or a Default quota has 
 . In the left navigation pane, click *Event Thresholds* > *Qtree*.
 . Configure the appropriate capacity threshold values.
 . Click *Save*.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

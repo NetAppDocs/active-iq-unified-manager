@@ -22,4 +22,4 @@ You can find more detailed information by expanding any portion of the Table of 
 
 * To search the Help contents, click the *Search* tab in the navigation pane, type the word or series of words you want to find, and click *Go!*
 * To print Help topics, click the printer icon.
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

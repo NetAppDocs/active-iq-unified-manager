@@ -44,4 +44,4 @@ Follow the steps in the VMware topic:
 
 https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1004071[Increasing the size of a disk partition]
 |===
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

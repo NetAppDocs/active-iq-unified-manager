@@ -25,4 +25,4 @@ You cannot delete values from predefined annotations.
 . In the *Warning* dialog box, click *Yes*.
 +
 The value is deleted and no longer displayed in the list of values for the selected annotation.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

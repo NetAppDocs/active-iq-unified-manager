@@ -46,4 +46,4 @@ The Clear Threshold Policy page displays, showing a list of threshold policies t
 . Select the threshold policy you want to remove from the objects and click *Clear Policy*.
 +
 When you select a threshold policy, the details of the policy display so that you can confirm that you have selected the appropriate policy.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

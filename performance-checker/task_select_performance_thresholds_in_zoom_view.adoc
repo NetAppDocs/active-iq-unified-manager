@@ -19,4 +19,4 @@ Only one policy at a time can be applied to the object in the Counter Charts Zoo
 . Select or deselect the image:../media/eye_icon.gif[eye icon] that is associated with a policy.
 +
 The selected threshold is applied to the Counter Charts Zoom View. Critical thresholds are displayed as a red line; warning thresholds are displayed as a yellow line.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

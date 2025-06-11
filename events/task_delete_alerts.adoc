@@ -20,4 +20,4 @@ You must have the Application Administrator role.
 . In the left navigation pane, click *Storage Management* > *Alert Setup*.
 . On the *Alert Setup* page, select the alerts that you want to delete, and click *Delete*.
 . Click *Yes* to confirm the delete request.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

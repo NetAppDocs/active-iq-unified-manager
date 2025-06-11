@@ -29,4 +29,4 @@ The Create SnapMirror Policy dialog box is displayed.
 . Click *Create*.
 +
 The new policy is displayed in the SnapMirror Policy drop-down list.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

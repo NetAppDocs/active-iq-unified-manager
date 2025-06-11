@@ -42,4 +42,4 @@ A filtered list of jobs related to this operation is displayed.
 .  *Optional:* Click the *Back* arrow on your browser to return to the *Volume Relationships* page.
 +
 The reverse resynchronization operation is finished when all job tasks successfully complete.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

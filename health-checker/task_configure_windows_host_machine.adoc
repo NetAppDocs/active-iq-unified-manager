@@ -26,4 +26,4 @@ If you are trying to start the iSCSI initiator on a fresh installation of Window
 . Discover both the LIFs.
 . Discover the LUN configured in the Windows machine as a device.
 . Configure the discovered LUN as a new volume drive in Windows.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

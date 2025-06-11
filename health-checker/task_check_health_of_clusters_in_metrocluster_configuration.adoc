@@ -61,4 +61,4 @@ If you cannot see the reported MetroCluster events, you can use the Search bar t
 +
 . Next to the relevant MetroCluster event, click the name of the cluster. The Clusters page is displayed with the details of that cluster. 
 For information about determining health issues, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitor connectivity issues in MetroCluster over IP configuration].
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

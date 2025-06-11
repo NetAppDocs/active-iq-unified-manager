@@ -24,4 +24,4 @@ Viewing the certificate enables you to verify the content of a regenerated certi
 The HTTPS certificate is displayed at the top of the page
 
 If you need to view more detailed information about the security certificate than what is displayed on the HTTPS Certificate page, you can view the connection certificate in your browser.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

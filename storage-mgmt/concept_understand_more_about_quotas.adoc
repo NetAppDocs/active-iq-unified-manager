@@ -10,4 +10,4 @@ summary: "Understanding the concepts about quotas helps you to manage your user 
 
 [.lead]
 Understanding the concepts about quotas helps you to manage your user quotas and user group quotas efficiently.
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

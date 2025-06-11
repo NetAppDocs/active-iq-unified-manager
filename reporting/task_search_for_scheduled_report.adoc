@@ -36,4 +36,4 @@ Type "PDF", "CSV", or "XLSX".
 |===
 
 . You can click a column heading to sort reports in ascending or descending order by that column, such as schedule name or format.
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

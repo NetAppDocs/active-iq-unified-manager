@@ -21,4 +21,4 @@ When a group rule is deleted, the associated storage objects will be removed fro
 . In the left navigation pane, click *Storage Management* > *Groups*.
 . In the *Group Rules* tab, select the group rule that you want to delete, and then click *Delete*.
 . In the *Warning* dialog box, confirm the deletion by clicking *Yes*.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -33,4 +33,4 @@ This excludes the alert from being generated for volume "vol1" on SVM "vs1-dr".
 . Click *Events* and select the event or events that you want to apply to the volume or volumes.
 . Click *Actions* and then select the name of the user who will receive the alert email in the *Alert these users* field.
 . Configure any other options on this page for issuing SNMP traps and executing a script, and then click *Save*.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

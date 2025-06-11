@@ -14,4 +14,4 @@ You can view the list of annotations that are dynamically associated with cluste
 .Steps
 . In the left navigation pane, click *Storage Management* > *Annotations*.
 . In the *Annotations* tab, click the annotation name to view the associated details.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -23,4 +23,4 @@ You must have the Operator, Application Administrator, or Storage Administrator 
 The hardware inventory report is downloaded as a .csv file with complete information as of the current date.
 
 . Provide this information to your NetApp support contact for contract renewal.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

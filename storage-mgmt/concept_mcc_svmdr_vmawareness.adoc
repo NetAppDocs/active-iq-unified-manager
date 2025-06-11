@@ -65,4 +65,4 @@ Follow these steps for viewing datastores:
  ** Unless Automatic Switch Over (ASO) is enabled, if the primary cluster goes down, the secondary cluster cannot be discovered, and the topology continues to point to the volume or LUN in the primary cluster.
 * For a storage VM disaster recovery configuration, note the following limitation:
  ** A configuration with Site Recovery Manager (SRM) or Storage Replication Adapter (SRA) enabled for a SAN storage environment is not supported.
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -19,4 +19,4 @@ image::../media/show_hide_3.png[A UI screenshot that shows how to add or remove 
 
 . On the inventory page, drag columns to rearrange them in the order you want in your report.
 . Name the unsaved view to save your changes.
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -26,4 +26,4 @@ The Break Relationship dialog box is displayed.
 . In the *Volume Relationships* page, verify in the *Relationship State* column that the relationship is broken.
 +
 The Relationship State column is hidden by default, so you might need to select it in the show/hide column list image:../media/icon_columnshowhide_sm_onc.gif[].
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

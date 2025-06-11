@@ -74,4 +74,4 @@ You can configure an alert to repeatedly send notifications to the recipients fo
 
 . In the Select Script to Execute menu, select *Test* script.
 . Click *Save*.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

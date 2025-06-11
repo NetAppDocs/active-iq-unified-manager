@@ -30,4 +30,4 @@ You can edit the health threshold settings for capacity for all qtrees to track 
 * For information, see link:task_configure_lag_threshold_settings_for_unmanaged_protection.html[Editing lag health threshold settings for unmanaged protection relationships].
 +
 You can increase or decrease the warning or error lag time percentage so that events are generated at intervals that are more appropriate to your needs.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

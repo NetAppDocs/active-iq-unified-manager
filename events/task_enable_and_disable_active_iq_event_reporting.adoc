@@ -35,4 +35,4 @@ Enable Active IQ platform events
 a|
 In the *Active IQ Portal Events* panel, move the slider button to the right.
 |===
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

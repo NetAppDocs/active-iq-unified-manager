@@ -51,4 +51,4 @@ Depending on the destination SVM you specified during configuration or on the op
 * If you specified a destination SVM that runs under the same or a newer version of ONTAP compared to that of the source volume, a block-replication-based SnapMirror relationship is the default result.
 * If you specified a destination SVM that runs under the same or a newer version of ONTAP compared to that of the source volume, but you enabled version-flexible replication in the Advanced settings, a SnapMirror relationship with version-flexible replication is the result.
 * If you specified a destination SVM that runs under an earlier version of ONTAP, or a version that is higher than that of the source volume and the earlier version supports version-flexible replication, a SnapMirror relationship with version-flexible replication is the automatic result.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

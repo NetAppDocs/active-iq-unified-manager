@@ -56,4 +56,4 @@ Enable policy-based storage management
 a|
 In the *Policy-based storage management* panel, move the slider button to the right.
 |===
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

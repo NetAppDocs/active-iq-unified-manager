@@ -29,4 +29,4 @@ image::../media/headroom_counter_charts.gif[A UI screenshot that shows the break
 . If you want to view either chart in a full size format, click *Zoom View*.
 +
 In this manner you can open multiple counter charts in a separate windows to compare performance capacity used values with IOPS or MBps values over the same timeframe.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

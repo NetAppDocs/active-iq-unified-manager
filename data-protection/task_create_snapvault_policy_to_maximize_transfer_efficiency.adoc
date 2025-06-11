@@ -30,4 +30,4 @@ The SnapVault tab is displayed.
 . Click *Create*.
 +
 The new policy is displayed in the Create Policy drop-down list.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

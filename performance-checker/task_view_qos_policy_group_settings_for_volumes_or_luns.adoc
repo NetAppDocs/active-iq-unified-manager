@@ -26,4 +26,4 @@ The corresponding Quality of Service page is displayed depending on whether it i
 
 . View the detailed configuration settings for the QoS policy group.
 . Click the expand button (image:../media/chevron_down.gif[]) next to the QoS Policy Group name to view more details about the policy group.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

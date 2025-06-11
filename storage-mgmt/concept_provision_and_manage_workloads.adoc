@@ -40,4 +40,4 @@ You can perform the following functions by using these options:
 *Related information*
 
 link:../config/concept_policy_based_storage_management.html[Policy-based storage management]
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

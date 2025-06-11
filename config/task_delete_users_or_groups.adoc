@@ -24,4 +24,4 @@ If you are deleting local users or remote users, the events that are assigned to
 . In the left navigation pane, click *General* > *Users*.
 . In the Users page, select the users or groups that you want to delete, and then click *Delete*.
 . Click *Yes* to confirm the deletion.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -12,4 +12,4 @@ summary: "This feature enables your organization to display any information, suc
 Adding a login banner enables your organization to display any information, such as, who is permitted access to the system and the terms and conditions of use during login and logout.
 
 Any user, such as storage operators or administrators can view this login banner pop-up during login, logout, and session timeout.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

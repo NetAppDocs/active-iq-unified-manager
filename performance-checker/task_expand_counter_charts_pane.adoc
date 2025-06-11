@@ -28,4 +28,4 @@ Reduce the Counter Charts pane to the right half of the page
 a|
 Click the *>* button
 |===
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -26,4 +26,4 @@ You cannot change the target object type for a group rule.
 ====
 
 . Click *Save*.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

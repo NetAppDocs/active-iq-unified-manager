@@ -39,4 +39,4 @@ The list of Snapshot copies is displayed.
 The number of Snapshot copies is a link that displays the list of Snapshot copies.
 
 . In the *Snapshot Copies* view, select the Snapshot copies you want to delete, and then click *Delete Selected*.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

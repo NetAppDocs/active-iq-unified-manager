@@ -25,4 +25,4 @@ Before removing vCenter Servers, ensure the following:
 . In the left navigation pane, click *VMWARE>vCenter*.
 . On the vCenters page, select the vCenter Server that you want to remove and click *Remove*.
 . In the *Remove vCenter* message dialog, click *OK* to confirm the remove request.
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

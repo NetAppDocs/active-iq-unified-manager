@@ -41,4 +41,4 @@ If the status of the SVM root volume is (Online), then the original volume offli
 The Nodes tab on the Cluster / Health details page displays the state of the HA pair of nodes to which the SVM root volume's hosting node belongs. The state of the node is indicated in the display.
 
 After you confirm that the volume offline condition is caused by that volume's host SVM offline condition, which itself is caused by the node that hosts the root volume of that SVM being down, contact the appropriate administrator or operator to manually restart the down node.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

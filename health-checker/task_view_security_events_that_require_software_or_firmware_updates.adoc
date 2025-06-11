@@ -25,4 +25,4 @@ By default, all Active (New and Acknowledged) events are displayed on the Event 
 . From the View menu, select *Upgrade events*.
 +
 The page displays all active upgrade security events.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -12,4 +12,4 @@ summary: "You can enable authentication using either LDAP or Active Directory on
 You can enable authentication using either LDAP or Active Directory on the Unified Manager server and configure it to work with your servers to authenticate remote users.
 
 For enabling remote authentication, setting up authentication services, and adding authentication severs, see the previous section on *Configuring Unified Manager to send alert notifications*.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

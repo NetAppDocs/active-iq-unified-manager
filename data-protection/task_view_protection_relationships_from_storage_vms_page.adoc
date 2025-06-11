@@ -23,4 +23,4 @@ You can also examine details of the protection relationships, including transfer
 . From the *VIEW* menu, select *Relationship* > *All Relationships*.
 +
 The Relationship: All Relationships view is displayed with all the configured storage VMs.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

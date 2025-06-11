@@ -32,4 +32,4 @@ The Cluster / Health details page is displayed.
 If the disks in the broken state caused the offline state of the host aggregate, the name of the aggregate is displayed in the Impacted Aggregate column.
 
 After confirming that the volume offline condition is caused by broken RAID disks and the consequent offline host aggregate, contact the appropriate administrator or operator to manually replace the broken disks and put the aggregate back online.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

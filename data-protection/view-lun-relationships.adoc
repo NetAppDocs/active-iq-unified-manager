@@ -34,4 +34,4 @@ You can view the LUN details, such as the LUN name, volume, storage VM hosting t
 Clicking the partner LUN enables you to view its configuration details on the SAN tab of the Storage VM Details page for the storage VM on which the partner LUN is hosted. Information such as the initiators and initiator groups and other aspects of the partner LUN is displayed.
 
 You can perform the standard grid-level functions of sorting, filtering, generating and uploading reports for the protected LUNs in your environment.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

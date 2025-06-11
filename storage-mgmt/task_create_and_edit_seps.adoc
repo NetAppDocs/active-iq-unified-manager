@@ -47,4 +47,4 @@ The page to add or edit a Storage Efficiency Policy is displayed.
 . Customize the Storage Efficiency Policy by specifying the storage efficiency characteristics, and then click *Submit* to save the Storage Efficiency Policy.
 
 You can apply the new or changed Storage Efficiency Policy to workloads (LUNs, NFS File Shares, CIFS Shares) from the Workloads page or when provisioning a new workload.
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

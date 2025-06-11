@@ -33,4 +33,4 @@ Because no resources are selected, the alert is applied to all clusters, aggrega
 . Click *Actions* and then select the name of the user who will receive the alert email in the *Alert these users* field.
 . Configure any other options on this page for issuing SNMP taps and executing a script.
 . Click *Save*.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

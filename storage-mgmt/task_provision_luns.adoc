@@ -54,4 +54,4 @@ If you want to create a new igroup, select the *Create a new initiator group* bu
 . Click *Save*.
 +
 The LUN is added to the list of storage workloads.
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

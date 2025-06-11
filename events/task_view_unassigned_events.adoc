@@ -21,4 +21,4 @@ You must have the Operator, Application Administrator, or Storage Administrator 
 By default, New and Acknowledged events are displayed on the Event Management inventory page.
 
 . From the *Filters* pane, select the *Unassigned* filter option in the *Assigned To* area.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

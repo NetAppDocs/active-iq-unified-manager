@@ -26,4 +26,4 @@ The Advanced Destination Settings dialog box is opened.
 
 . Enable or disable the efficiency settings for deduplication, compression, autogrow, and space guarantee, as required.
 . Click *Apply* to save your selections and return to the *Configure Protection* dialog box.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

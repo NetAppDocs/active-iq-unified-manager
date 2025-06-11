@@ -41,4 +41,4 @@ When the reversed relationship is no longer required, you should remove that rel
 . link:task_resynchronize_protection_relationships_voldtls.html[Resynchronize the relationship].
 +
 Use the resynchronize operation to synchronize data from the source to the destination and to reestablish the original relationship.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

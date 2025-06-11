@@ -21,4 +21,4 @@ When you delete the group action for the volume health threshold, global thresho
 . In the left navigation pane, click *Storage Management* > *Groups*.
 . In the *Group Actions* tab, select the group action that you want to delete, and then click *Delete*.
 . In the *Warning* dialog box, confirm the deletion by clicking *Yes*.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

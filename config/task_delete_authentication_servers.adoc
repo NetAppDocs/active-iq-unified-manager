@@ -24,4 +24,4 @@ When you delete an authentication server, remote users or groups of the authenti
 . Click *Yes* to confirm the delete request.
 +
 If the *Use Secure Connection* option is enabled, then the certificates associated with the authentication server are deleted along with the authentication server.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

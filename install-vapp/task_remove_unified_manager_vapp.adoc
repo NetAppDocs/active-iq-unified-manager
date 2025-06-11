@@ -24,4 +24,4 @@ You can uninstall Unified Manager by removing the virtual machine (VM) on which 
 . Select the VM that you want to remove, and click the *Summary* tab.
 . If the VM is running, click *Power* > *Shut Down Guest*.
 . Right-click the VM that you want to remove, and click *Delete from Disk*.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

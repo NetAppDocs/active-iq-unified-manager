@@ -29,4 +29,4 @@ The Edit Resource Pool window is displayed.
 . Click *Save*.
 +
 The new name and description are displayed in the resource pool list.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

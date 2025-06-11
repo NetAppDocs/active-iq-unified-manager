@@ -25,4 +25,4 @@ The Unified Manager server can use these settings to send notifications to users
 . In the *Alert Setup* page, select the alert that you want to test, and then click *Test*.
 +
 A test alert email is sent to the email addresses that you specified while creating the alert.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

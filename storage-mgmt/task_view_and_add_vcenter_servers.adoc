@@ -77,4 +77,4 @@ For polling vCenter Server configuration data, Unified Manager follows the same 
 *Related information*
 
 link:../performance-checker/concept_cluster_configuration_and_performance_data_collection_activity.html[Cluster configuration and performance data collection activity]
-// 2025-6-11, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -33,4 +33,4 @@ This step removes all the associated NetApp RPM packages. It does not remove the
 
 After this operation is complete, the software is removed. All the data from the `/opt/netapp/data` directory is moved to the `/opt/netapp/data/BACKUP` folder after uninstallation. Uninstalling Unified Manager removes the Java and MySQL packages also, unless the packages are required and used by any other application on the system. However, MySQL data is not deleted.
 // 2024-11-8, OTHERDOC87
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

@@ -36,4 +36,4 @@ A message displays to confirm that you want to disable SAML authentication and r
 The next time remote users attempt to access the Unified Manager graphical interface they will enter their credentials in the Unified Manager login page instead of the IdP login page.
 
 If required, access your IdP and delete the Unified Manager server URL and metadata.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133

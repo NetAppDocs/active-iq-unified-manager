@@ -36,4 +36,4 @@ The Unified Manager maintenance console prompts are displayed.
 . Type the number for the new polling interval that you want to set, and then press Enter.
 
 If you changed the Unified Manager collection interval to 10 or 15 minutes, and you have a current connection to an external data provider (such as Graphite), you must change the data provider transmit interval so that it is equal to, or greater, than the Unified Manager collection interval.
-// 2025-6-10, ONTAPDOC-133
+// 2025-6-11, OTHERDOC-133
