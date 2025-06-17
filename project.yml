@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.16
+  name: Active IQ Unified Manager 
   internal:
     pdf_enabled: true
   prod:
