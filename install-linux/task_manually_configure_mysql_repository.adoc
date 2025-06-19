@@ -52,6 +52,5 @@ rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
 ** On a system that does not have internet connectivity, update your MySQL repo file and disable `gpgcheck` by marking `gpgcheck=0`.
 
 // 15-November-2024 OTHERDOC-81
-// 2025-6-11, OTHERDOC-133
 // 9-June-2025 OTHERDOC- 127
 
