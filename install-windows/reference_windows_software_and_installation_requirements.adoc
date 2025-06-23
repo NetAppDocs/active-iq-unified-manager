@@ -55,7 +55,7 @@ If MySQL is pre-installed, you should ensure that:
 
 * It is using the default port.
 * The sample databases are not installed.
-* The service name is "`MYSQL8`".
+* The service name is "`MYSQL84`".
 
 Unified Manager is deployed on a WildFly web server. WildFly 26.1.3 is bundled and configured with Unified Manager.
 
@@ -83,3 +83,4 @@ You should shut down a running instance of Unified Manager before upgrading any 
 // 15-November-2024 OTHERDOC-81
 // 14-November-2024 OTHERDOC-81
 // 2025-5-26, OTHERDOC 127
+// 2025-6-17, OTHERDOC135

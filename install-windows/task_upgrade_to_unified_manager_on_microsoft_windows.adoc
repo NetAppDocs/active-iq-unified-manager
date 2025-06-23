@@ -61,7 +61,7 @@ This setup will perform an upgrade of Unified Manager. Do you want to continue?
 ----
 
 . Click *Yes*, and then click *Next*.
-. Enter the MySQL8 root password that was set during installation, and then click *Next*.
+. Enter the MySQL84 root password that was set during installation, and then click *Next*.
 . Launch the web UI on a new window on a supported web browser and log in to use the upgraded version of Unified Manager.
 . If you have an active anti-virus software installed on your Windows system, make sure to manually exclude the following paths from anti-virus scan after your upgrade is complete:
 
@@ -78,3 +78,4 @@ To perform a silent upgrade of Unified Manager, run the following command:
 // 15-November-2024 OTHERDOC-81
 // 2024-10-24, OTHERDOC-89
 // 2025-5-26, OTHERDOC 127
+// 2025-6-17, OTHERDOC 135
