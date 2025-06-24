@@ -24,7 +24,7 @@ For MetroCluster over IP configurations, the data replication status is displaye
 * *Storage* > *Clusters* > *Protection: MetroCluster* view
 * *Protection* > *Relationships* > *Relationship: MetroCluster* view
 
-For information, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip[Monitor connectivity issues in MetroCluster over IP].
+For information, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip-configuration[Monitor connectivity issues in MetroCluster over IP].
 
 
 == View replication for MetroCluster over FC configurations
@@ -47,3 +47,4 @@ You can use the information displayed in the Cluster / Health details page to re
 *Related information*
 
 link:../health-checker/reference_health_cluster_details_page.html[Cluster / Health details page]
+// 2025-24-6, OTHERDOC 133

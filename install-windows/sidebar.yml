@@ -19,34 +19,34 @@ entries:
       url: "/install-windows/concept_browser_and_platform_requirements.html"
     - title: Protocol and port requirements
       url: "/install-windows/reference_protocol_and_port_requirements.html"
-    - title: Completing the worksheet
+    - title: Complete the worksheet
       url: "/install-windows/reference_complete_worksheet_um.html"
-  - title: Installing, upgrading, and removing Unified Manager software
+  - title: Install, upgrade, and remove Unified Manager software
     url: "/install-windows/concept_install_upgrade_and_remove_unified_manager_software.html"
     entries:
     - title: Overview of the installation process
       url: "/install-windows/concept_overview_of_installation_process_on_windows.html"
-    - title: Installing Unified Manager on Windows
+    - title: Install Unified Manager on Windows
       url: "/install-windows/concept_install_unified_manager_windows.html"
       entries:
-      - title: Installing Unified Manager
+      - title: Install Unified Manager
         url: "/install-windows/task_install_unified_manager_on_windows.html"
-      - title: Performing an unattended installation of Unified Manager
+      - title: Perform an unattended installation of Unified Manager
         url: "/install-windows/task_unattended_installation_of_unified_manager.html"
-    - title: Changing the JBoss password 
+    - title: Change the JBoss password 
       url: "/install-windows/task_change_jboss_password_on_windows.html"
     - title: Supported upgrade path for Unified Manager versions
       url: "/include/upgrade-path.html" 
-    - title: Upgrading Unified Manager
+    - title: Upgrade Unified Manager
       url: "/install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html"
-    - title: Upgrading third-party products
+    - title: Upgrade third-party products
       url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
       entries:
-      - title: Upgrading OpenJDK
+      - title: Upgrade OpenJDK
         url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
-    - title: Uninstalling third party products
+    - title: Uninstall third party products
       url: "/install-windows/task_uninstall_third_party_products.html"
-    - title: Restarting Unified Manager
+    - title: Restart Unified Manager
       url: "/install-windows/task_restart_unified_manager_win.html"
-    - title: Uninstalling Unified Manager
+    - title: Uninstall Unified Manager
       url: "/install-windows/task_uninstall_unified_manager_win.html"
