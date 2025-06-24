@@ -29,7 +29,7 @@ Starting with Unified Manager 9.5, OpenJDK is provided in the installation packa
 Ensure that Microsoft .NET 4.5.2 or greater is installed on your system before starting the upgrade.
 ====
 
-* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.0.37, the Unified Manager upgrade process automatically upgrades MySQL to 8.0.37. You must not run a standalone upgrade of an earlier version of MySQL to 8.0.37.
+* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.4.4, the Unified Manager upgrade process automatically upgrades MySQL to 8.4.4. You must not run a standalone upgrade of an earlier version of MySQL to 8.4.4.
 * All clusters are supported, except for ASA r2 Systems.
 * You should have Windows administrator privileges. Ensure that your user name does not begin with an exclamation mark "`!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`!`".
 * You should have valid credentials to log in to the NetApp Support Site.
@@ -61,7 +61,7 @@ This setup will perform an upgrade of Unified Manager. Do you want to continue?
 ----
 
 . Click *Yes*, and then click *Next*.
-. Enter the MySQL8 root password that was set during installation, and then click *Next*.
+. Enter the MySQL84 root password that was set during installation, and then click *Next*.
 . Launch the web UI on a new window on a supported web browser and log in to use the upgraded version of Unified Manager.
 . If you have an active anti-virus software installed on your Windows system, make sure to manually exclude the following paths from anti-virus scan after your upgrade is complete:
 
@@ -78,3 +78,5 @@ To perform a silent upgrade of Unified Manager, run the following command:
 // 15-November-2024 OTHERDOC-81
 // 2024-10-24, OTHERDOC-89
 // 2025-6-11, OTHERDOC-133
+// 2025-5-26, OTHERDOC 127
+// 2025-6-17, OTHERDOC 135

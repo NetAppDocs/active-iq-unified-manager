@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, problem, perform, corrective actions, failed, protection job
 summary: "You review the job failure error message in the Cause field on the Event details page and determine that the job failed because of a Snapshot copy error. You then proceed to the Volume / Health details page to gather more information."
 ---
-= Identify the problem and performing corrective actions for a failed protection job
+= Identify the problem and perform corrective actions for a failed protection job
 :icons: font
 :imagesdir: ../media/
 
