@@ -48,7 +48,7 @@ If you move the pointer over the icon, you can view detailed information about t
 
 If you discover connectivity issues in your MetroCluster configuration, you must log in to System Manager or access the ONTAP CLI to resolve the issues.
 
-For more information about determining cluster health, see link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determining-cluster-health-in-metrocluster-over-fc-configuration[Determining cluster health in MetroCluster over FC configuration].
+For more information about determining cluster health, see link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determine-cluster-health-in-metrocluster-over-fc-configuration[Determine cluster health in MetroCluster over FC configuration].
 
 == Monitor connectivity issues in MetroCluster over IP configuration
 
@@ -87,8 +87,8 @@ Only for a MetroCluster over IP configuration, you can have view the cluster top
 *Related information*
 
 * link:../health-checker/reference_health_cluster_details_page.html[Cluster / Health details page]
-* For information about *Relationship:MetroCluster* view, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitoring MetroCluster configurations].
+* For information about *Relationship:MetroCluster* view, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitor MetroCluster configurations].
 * For information about *Relationship: Last 1 month Transfer Status* view, see link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html[Relationship: Last 1 month Transfer Status view].
 * For information about *Relationship: Last 1 month Transfer Rate* view, see link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html[Relationship: Last 1 month Transfer Rate view].
 * For information about *Relationship: All Relationships* view, see link:../data-protection/reference_relationship_all_relationships_view.html[Relationship: All Relationships view].
-// 2025-6-11, OTHERDOC-133
+// 2025-6-24, OTHERDOC-133
