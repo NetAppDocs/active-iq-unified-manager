@@ -1,7 +1,7 @@
 section: config
 title: Perform configuration and administrative tasks
 entries:
-  - title: Configuring Active IQ Unified Manager
+  - title: Configure Active IQ Unified Manager
     url: "/config/concept_configure_unified_manager.html"
     entries:
     - title: Overview of the configuration sequence
@@ -66,7 +66,7 @@ entries:
       url: "/config/concept_security_dashboard.html"
     - title: Enable and disable scripts upload
       url: "/config/task_enable_and_disable_ability_to_upload_scripts.html"
-    - title: Add login banner
+    - title: Add a login banner
       url: "/config/concept_login_banner.html"
   - title: Use the maintenance console
     url: "/config/task_use_maintenance_console.html"

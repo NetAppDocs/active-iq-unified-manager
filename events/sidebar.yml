@@ -159,7 +159,7 @@ entries:
       url: "/events/concept_what_alerts_are.html"
     - title: What information is contained in an alert email
       url: "/events/concept_what_information_is_contained_in_an_alert_email.html"
-    - title: Adding alerts
+    - title: Add alerts
       url: "/events/task_add_alerts.html"
       entries:
       - title: Guidelines for adding alerts

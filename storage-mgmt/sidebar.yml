@@ -118,7 +118,7 @@ entries:
     entries:
     - title: What quota limits are
       url: "/storage-mgmt/concept_what_quota_limits_are.html"
-    - title: Viewing user and user group quotas
+    - title: View user and user group quotas
       url: "/storage-mgmt/task_view_user_and_user_group_quotas.html"
     - title: Create rules to generate email addresses
       url: "/storage-mgmt/task_create_rules_to_generate_email_addresses.html"
@@ -142,7 +142,7 @@ entries:
         url: "/storage-mgmt/reference_email_notification_format_page.html"
       - title: Rules to Generate User and Group Quota Email Address page
         url: "/storage-mgmt/reference_rules_to_generate_user_and_group_quota.html"
-  - title: Troubleshooting
+  - title: Troubleshoot
     url: "/storage-mgmt/concept_troubleshooting.html"
     entries:
     - title: Add disk space to the Unified Manager database directory

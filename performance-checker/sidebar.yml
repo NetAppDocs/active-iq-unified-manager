@@ -145,7 +145,7 @@ entries:
       url: "/performance-checker/concept_how_storage_qos_can_control_workload_throughput.html"
     - title: View all QoS policy groups available on all clusters
       url: "/performance-checker/task_view_all_qos_policy_groups_available_on_all_clusters.html"
-    - title: Vieg volumes or LUNs that are in the same QoS policy group
+    - title: View volumes or LUNs that are in the same QoS policy group
       url: "/performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html"
     - title: View the QoS policy group settings applied to specific volumes or
         LUNs

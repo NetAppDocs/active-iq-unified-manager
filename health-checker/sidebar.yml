@@ -55,7 +55,7 @@ entries:
   - title: Common Unified Manager health workflows and tasks
     url: "/health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html"
     entries:
-    - title: Monitor and troubleshooting data availability
+    - title: Monitor and troubleshoot data availability
       url: "/health-checker/concept_monitor_and_troubleshoot_data_availability.html"
       entries:
       - title: Scan for and resolve storage failover interconnect link down
@@ -89,7 +89,7 @@ entries:
       entries:
       - title: What storage capacity health thresholds are
         url: "/health-checker/concept_what_storage_capacity_health_thresholds_are.html"
-      - title: Configuring global health threshold settings
+      - title: Configure global health threshold settings
         url: "/health-checker/task_configure_global_health_threshold_settings.html"
         entries:
         - title: Configure global aggregate health threshold values
