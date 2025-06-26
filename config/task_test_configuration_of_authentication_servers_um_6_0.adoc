@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, configuration, authentication servers
 summary: "You can validate the configuration of your authentication servers to ensure that the management server is able to communicate with them. You can validate the configuration by searching for a remote user or remote group from your authentication servers, and authenticating them using the configured settings."
 ---
-= Testing the configuration of authentication servers
+= Test the configuration of authentication servers
 :icons: font
 :imagesdir: ../media/
 
@@ -26,3 +26,4 @@ If the authentication service is set to Active Directory, and if you are validat
 . In the Test User dialog box, specify the user name and password of the remote user or the user name of the remote group, and then click *Test*.
 +
 If you are authenticating a remote group, you must not enter the password.
+// 2025-6-11, OTHERDOC-133

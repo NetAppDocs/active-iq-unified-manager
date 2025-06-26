@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, replication
 summary: "You can monitor and diagnose the overall health condition of the logical connections while mirroring the data. You can identify the issues or any risk that interrupts mirroring of cluster components such as aggregates, nodes, and storage virtual machines."
 ---
-= Monitoring MetroCluster replication
+= Monitor MetroCluster replication
 :icons: font
 :imagesdir: ../media/
 
@@ -17,17 +17,17 @@ Unified Manager uses system health alerts to monitor the status of the component
 
 Both the local and remote cluster in the MetroCluster configuration must be added to Unified Manager
 
-== Viewing replication for MetroCluster over IP configurations
+== View replication for MetroCluster over IP configurations
 
 For MetroCluster over IP configurations, the data replication status is displayed in the topology peek view for a cluster protected by MetroCluster over IP from the following views from the Unified Manager left navigation pane:
 
 * *Storage* > *Clusters* > *Protection: MetroCluster* view
 * *Protection* > *Relationships* > *Relationship: MetroCluster* view
 
-For information, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip[Monitor connectivity issues in MetroCluster over IP].
+For information, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip-configuration[Monitor connectivity issues in MetroCluster over IP].
 
 
-== Viewing replication for MetroCluster over FC configurations
+== View replication for MetroCluster over FC configurations
 Follow these steps to determine any issues in the data replication for MetroCluster over FC configuration.
 
 .Steps
@@ -47,3 +47,4 @@ You can use the information displayed in the Cluster / Health details page to re
 *Related information*
 
 link:../health-checker/reference_health_cluster_details_page.html[Cluster / Health details page]
+// 2025-24-6, OTHERDOC 133

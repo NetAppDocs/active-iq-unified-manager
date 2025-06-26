@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, users, groups
 summary: "You can delete one or more users from the management server database to prevent specific users from accessing Unified Manager. You can also delete groups so that all the users in the group can no longer access the management server."
 ---
-= Deleting users or groups
+= Delete users or groups
 :icons: font
 :imagesdir: ../media/
 
@@ -24,3 +24,4 @@ If you are deleting local users or remote users, the events that are assigned to
 . In the left navigation pane, click *General* > *Users*.
 . In the Users page, select the users or groups that you want to delete, and then click *Delete*.
 . Click *Yes* to confirm the deletion.
+// 2025-6-11, OTHERDOC-133

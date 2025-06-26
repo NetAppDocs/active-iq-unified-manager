@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, unified manager, recommendations, tier, data, cloud
 summary: "The Performance: All Volumes view displays information related to the size of the user data stored on the volume that is inactive (cold). In some cases, Unified Manager identifies certain volumes that would benefit by tiering the inactive data to the cloud tier (cloud provider or StorageGRID) of a FabricPool-enabled aggregate."
 ---
-= Understanding the Unified Manager recommendations to tier data to the cloud
+= Understand the Unified Manager recommendations to tier data to the cloud
 :icons: font
 :imagesdir: ../media/
 
@@ -50,3 +50,4 @@ The cloud recommendations you will see are:
 To move a volume, or to change the volume tiering policy or the aggregate inactive data reporting settings, use ONTAP System Manager, the ONTAP CLI commands, or a combination of these tools.
 
 If you are logged in to Unified Manager with the Application Administrator or Storage Administrator role, the *Configure Volume* link is available in the cloud recommendation when you hover your cursor over the word *Tier*. Click this button to open the Volumes page in System Manager to make the recommended change.
+// 2025-6-11, OTHERDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, reaching, full capacity
 summary: "You can create a report to find the aggregates that are reaching full capacity so that you can add more capacity or move workloads to other aggregates."
 ---
-= Creating a report to view aggregates reaching full capacity
+= Create a report to view aggregates reaching full capacity
 :icons: font
 :imagesdir: ../media/
 

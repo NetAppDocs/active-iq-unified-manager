@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager
 summary: "You might have to restart Unified Manager after making configuration changes."
 ---
-= Restarting Unified Manager
+= Restart Unified Manager
 :icons: font
 :imagesdir: ../media/
 
@@ -38,3 +38,4 @@ You must have root user access to the Red Hat Enterprise Linux server on which U
 `mysqld` is a daemon program required to start and stop the MySQL server.
 ====
 // 2024-11-8, OTHERDOC87
+// 2025-6-11, OTHERDOC-133

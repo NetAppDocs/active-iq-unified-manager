@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, disk, failure
 summary: "You can use Unified Manager to investigate a performance event caused by workloads overutilizing an aggregate. You can also use Unified Manager to check the health of the aggregate to see if recent health events detected on the aggregate contributed to the performance event."
 ---
-= Responding to a dynamic performance event caused by a disk failure
+= Respond to a dynamic performance event caused by a disk failure
 :icons: font
 :imagesdir: ../media/
 
@@ -42,3 +42,4 @@ In the Event Timeline, a red dot (image:../media/opm_incident_icon_png.gif[Perfo
 . Compare the data in this chart to the data at the time of the event in the *Latency* chart.
 +
 At the time of the event, the Aggregate Utilization shows a high amount of read and write activity, caused by the RAID reconstruction processes, which increased the latency of the selected volume. A few hours after the event occurred, both the reads and writes and the latency have decreased, confirming that the aggregate is no longer in contention.
+// 2025-6-11, OTHERDOC-133

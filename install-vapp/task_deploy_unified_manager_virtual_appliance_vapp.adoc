@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deploy, unified manager, virtual appliance
 summary: "After downloading the installation file, you deploy Unified Manager as a virtual appliance. Use the vSphere Web Client to deploy the virtual appliance on an ESXi server. When you deploy the virtual appliance, a virtual machine is created."
 ---
-= Deploying the Unified Manager virtual appliance
+= Deploy the Unified Manager virtual appliance
 :icons: font
 :imagesdir: ../media/
 
@@ -106,3 +106,4 @@ The maintenance user name should start with a letter from a-z, followed by any c
 The VM console displays the URL for the Unified Manager web UI.
 
 You can access the web UI to perform the initial setup of Unified Manager, as described in the link:../config/concept_configure_unified_manager.html[Configuring Active IQ Unified Manager].
+// 2025-6-11, OTHERDOC-133

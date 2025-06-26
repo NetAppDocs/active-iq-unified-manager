@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, ontap, volumes, gateway, api
 summary: "The gateway APIs act as a gateway to invoke ONTAP APIs to query information about your ONTAP storage objects and take remedial measures to address the reported issues."
 ---
-= Troubleshooting ONTAP volumes by using gateway APIs
+= Troubleshoot ONTAP volumes by using gateway APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -155,3 +155,4 @@ ONTAP API: `/storage/volumes/\{uuid}`
 
 |===
 The output displays an increased volume size of 120 GB.
+// 2025-6-11, OTHERDOC-133

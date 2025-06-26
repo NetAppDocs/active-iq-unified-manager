@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, qtree, health, threshold, settings
 summary: "You can edit the health threshold settings for qtree capacity for one or more qtrees. When a threshold is crossed, alerts are generated and you receive notifications. These notifications help you to take preventive measures based on the event generated."
 ---
-= Editing individual qtree health threshold settings
+= Edit individual qtree health threshold settings
 :icons: font
 :imagesdir: ../media/
 
@@ -26,3 +26,4 @@ Based on changes to the threshold values, events are generated or obsoleted in t
 ====
 You can also set individual qtree thresholds from the Qtrees tab on the Storage VM / Health details page.
 ====
+// 2025-6-11, OTHERDOC-133

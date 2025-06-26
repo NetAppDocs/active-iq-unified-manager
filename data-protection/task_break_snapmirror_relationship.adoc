@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: break, snapmirror, relationship, volume, relationship page
 summary: "You can break a protection relationship to stop data transfers between a source volume and a destination volume in a SnapMirror relationship. You might break a relationship when you want to migrate data, for disaster recovery, or for application testing. The destination volume is changed to a read/write volume. You cannot break a SnapVault relationship."
 ---
-= Breaking a SnapMirror relationship from the Volume Relationships page
+= Break a SnapMirror relationship from the Volume Relationships page
 :icons: font
 :imagesdir: ../media/
 
@@ -26,3 +26,4 @@ The Break Relationship dialog box is displayed.
 . In the *Volume Relationships* page, verify in the *Relationship State* column that the relationship is broken.
 +
 The Relationship State column is hidden by default, so you might need to select it in the show/hide column list image:../media/icon_columnshowhide_sm_onc.gif[].
+// 2025-6-11, OTHERDOC-133

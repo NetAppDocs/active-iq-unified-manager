@@ -4,9 +4,10 @@ sidebar: sidebar
 keywords: manage, alerts
 summary: "You can configure alerts to send notification automatically when specific events or events of certain severity types occur. You can also associate an alert with a script that is executed when an alert is triggered."
 ---
-= Managing alerts
+= Manage alerts
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can configure alerts to send notification automatically when specific events or events of certain severity types occur. You can also associate an alert with a script that is executed when an alert is triggered.
+// 2025-6-11, OTHERDOC-133

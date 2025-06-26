@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retry, failed, protection job
 summary: "After you have taken measures to fix a failed protection job, you can use Retry to run the job again. Retrying a job creates a new job using the original job ID."
 ---
-= Retrying a failed protection job
+= Retry a failed protection job
 :icons: font
 :imagesdir: ../media/
 
@@ -27,3 +27,4 @@ The *Retry* button is enabled.
 . Click *Retry*.
 +
 The job is restarted.
+// 2025-6-11, OTHERDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, policy,  maximize, transfer, efficiency
 summary: "You can create a new SnapVault policy to set the priority for a SnapVault transfer. You use policies to maximize the efficiency of transfers from the primary to the secondary in a protection relationship."
 ---
-= Creating a SnapVault policy to maximize transfer efficiency
+= Create a SnapVault policy to maximize transfer efficiency
 :icons: font
 :imagesdir: ../media/
 
@@ -30,3 +30,4 @@ The SnapVault tab is displayed.
 . Click *Create*.
 +
 The new policy is displayed in the Create Policy drop-down list.
+// 2025-6-11, OTHERDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, virtual, machines, view, summary, topology, expand
 summary: "For any latency issue on the virtual machine (VM) applications, you might need to monitor the VMs to analyze and troubleshoot the cause. The VMs are available when their vCenter Server and the ONTAP clusters hosting the VM storage are added to Unified Manager."
 ---
-= Monitoring virtual machines
+= Monitor virtual machines
 :icons: font
 :imagesdir: ../media/
 
@@ -22,7 +22,7 @@ From this page, you can also view the detailed topology of a VM, displaying the 
 
 You can determine the I/O path and component-level latencies from a topological aspect and identify whether storage is the cause of the performance issue. The summary view of the topology displays the I/O path, and highlights the component that has IOPS and latency issues for you to decide on the troubleshooting steps. You can also have an expanded view of the topology that depicts each component separately along with latency of that component. You can select a component to determine the I/O path highlighted through the layers.
 
-== Viewing summary topology
+== View summary topology
 
 To determine performance issues by viewing the VMs in a summary topology:
 
@@ -43,7 +43,7 @@ vCenter Servers allow special characters (such as %, &, *, $, #, @, !, \, /, :, 
 . Click the down arrow beside the VM to see the summary view of the topology of the components across the compute, network, and storage layers. The node that has latency issues is highlighted. The summary view displays the worst latency of the components. For example, if a VM has more than one virtual disk, this view displays the virtual disk that has the worst latency among all the virtual disks.
 . To analyze the latency and throughput of the datastore over a period of time, click the *Workload Analyzer* button on top of the datastore object icon. You go to the Workload Analysis page, where you can select a time range and view the performance charts of the datastore. For more information about workload analyzer, see _Troubleshooting workloads using the workload analyzer_.
 
-== Viewing expanded topology
+== View expanded topology
 
 You can drill down to each component separately by viewing the expanded topology of the VM.
 
@@ -59,3 +59,4 @@ Metrics are not reported for VMDKs. In the topology, only the VMDK names are dis
 *Related information*
 
 link:../performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html[Troubleshooting workloads using the workload Analyzer]
+// 2025-6-11, OTHERDOC-133

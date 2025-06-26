@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, policy, maximize, transfer, efficiency
 summary: "You can create a SnapMirror policy to specify the SnapMirror transfer priority for protection relationships. SnapMirror policies enable you to maximize transfer efficiency from the source to the destination by assigning priorities so that lower-priority transfers are scheduled to run after normal-priority transfers."
 ---
-= Creating a SnapMirror policy to maximize transfer efficiency
+= Create a SnapMirror policy to maximize transfer efficiency
 :icons: font
 :imagesdir: ../media/
 
@@ -29,3 +29,4 @@ The Create SnapMirror Policy dialog box is displayed.
 . Click *Create*.
 +
 The new policy is displayed in the SnapMirror Policy drop-down list.
+// 2025-6-11, OTHERDOC-133

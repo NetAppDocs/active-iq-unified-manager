@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, backup, location, windows, snapshot copy, copies
 summary: "You should configure the volume for storing Snapshot copies after backing up Unified Manager on Windows."
 ---
-= Configuring backup location for Windows
+= Configure backup location for Windows
 :icons: font
 :imagesdir: ../media/
 

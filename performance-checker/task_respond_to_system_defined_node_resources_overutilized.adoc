@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, resources, overutilized, performance, events
 summary: "Unified Manager generates node resources overutilized warning events when a single node is operating above the bounds of its operational efficiency, and therefore potentially affecting workload latencies. These system-defined events provide the opportunity to correct potential performance issues before many workloads are affected by latency."
 ---
-= Responding to node resources overutilized performance events
+= Respond to node resources overutilized performance events
 :icons: font
 :imagesdir: ../media/
 
@@ -38,3 +38,4 @@ You can view which workloads have QoS policies applied, and which do not, by mov
 . Under the *Suggested Actions* section, review the suggestions and determine which actions you should perform to avoid an increase in latency for the workload.
 +
 If required, click the *Help* button to view more details about the suggested actions you can perform to try and resolve the performance event.
+// 2025-6-11, OTHERDOC-133

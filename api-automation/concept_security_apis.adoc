@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, user
 summary: "You can use the APIs in the security category to control user access to selected cluster objects in Active IQ Unified Manager. You can add local users or database users. You can also add remote users or groups that belong to an authentication server. Based on the privileges of the roles that you assign to the users, they can manage the storage objects or view the data in Unified Manager."
 ---
-= Managing users by using APIs
+= Manage users by using APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -49,3 +49,4 @@ a|
 The GET method enables you to retrieve all the details of a user, such as the name, email address, role, authorization type. The PATCH method enables you to update the details. The DELETE method enables you to remove the user.
 
 |===
+// 2025-6-11, OTHERDOC-133

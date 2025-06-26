@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, snapvault, schedules
 summary: "You can create basic or advanced SnapMirror and SnapVault schedules to enable automatic data protection transfers on a source or primary volume so that transfers take place more frequently or less frequently, depending on how often the data changes on your volumes."
 ---
-= Creating SnapMirror and SnapVault schedules
+= Create SnapMirror and SnapVault schedules
 :icons: font
 :imagesdir: ../media/
 
@@ -35,3 +35,4 @@ Select if you want to create a cron-style schedule.
 . Click *Create*.
 +
 The new schedule is displayed in the SnapMirror Schedule or SnapVault Schedule drop-down list.
+// 2025-6-11, OTHERDOC-133

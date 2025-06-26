@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, snapshot copy, copies, linux, operate, system, configure, backup
 summary: "If your Active IQ Unified Manager is installed on a Linux machine, then you can decide to configure your backup and restore using NetApp Snapshots."
 ---
-= Configuring backup on Linux
+= Configure backup on Linux
 :icons: font
 :imagesdir: ../media/
 
@@ -25,3 +25,4 @@ For example, if you created a backup on Unified Manager 9.16, the backup can be 
 * If there is any change in the Snapshot configuration, it might cause the snapshot to be invalid.
 
 ====
+// 2025-6-10, ONTAPDOC-133

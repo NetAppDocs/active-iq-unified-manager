@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: export, storage, data, reports
 summary: "You can export storage data in a variety of output formats and then use the exported data to build reports. For example, if there are 10 critical events that have not been resolved, you can export the data from the Event Management inventory page to create a report, and then send the report to admins who can resolve the issues."
 ---
-= Exporting storage data as reports
+= Export storage data as reports
 :icons: font
 :imagesdir: ../media/
 
@@ -56,3 +56,4 @@ The file is downloaded.
 link:[Health/Clusters inventory page]
 
 link:../reporting/task_schedule_report.html[Scheduling a report]
+// 2025-6-11, OTHERDOC-133

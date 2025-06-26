@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster authentication status, user authentication, manage, clusters
 summary: "The Security page displays the types of authentication being used to authenticate users on each cluster, and the number of users who are accessing the cluster using each type. This enables you to verify that user authentication is being performed securely as defined by your organization."
 ---
-= Viewing how user authentication is being managed on all clusters
+= View how user authentication is being managed on all clusters
 :icons: font
 :imagesdir: ../media/
 
@@ -19,3 +19,4 @@ The Security page displays the types of authentication being used to authenticat
 . View the *Cluster Security* card to view the authentication mechanisms being used to authenticate users on each cluster.
 
 If there are some users accessing the system using an insecure method, or using a method that is not recommended by NetApp, you can disable the method.
+// 2025-6-11, OTHERDOC-133

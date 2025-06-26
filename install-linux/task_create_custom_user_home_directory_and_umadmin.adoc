@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, custom, user, home, directory, umadmin, password, prior, installation
 summary: "You can create a custom home directory and define your own umadmin user password prior to installing Unified Manager. This task is optional, but some sites might need the flexibility to override Unified Manager installation default settings."
 ---
-= Creating a custom user home directory and umadmin password prior to installation
+= Create a custom user home directory and umadmin password prior to installation
 :icons: font
 :imagesdir: ../media/
 
@@ -52,3 +52,4 @@ The system prompts you to enter a new password string for the umadmin user.
 
 After you have installed Unified Manager you must specify the umadmin user login shell.
 // 2024-11-8, OTHERDOC87
+// 2025-6-11, OTHERDOC-133

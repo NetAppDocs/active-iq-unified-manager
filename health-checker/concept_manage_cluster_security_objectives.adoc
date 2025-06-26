@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, security, manage, objectives
 summary: "Unified Manager provides a dashboard that identifies how secure your ONTAP clusters, storage virtual machines (SVMs), and volumes are based on recommendations defined in the NetApp Security Hardening Guide for ONTAP 9."
 ---
-= Managing cluster security objectives
+= Manage cluster security objectives
 :icons: font
 :imagesdir: ../media/
 
@@ -18,3 +18,4 @@ See the https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf[NetApp S
 In addition to reporting security status, Unified Manager also generates security events for any cluster or SVM that has security violations. You can track these issues in the Event Management inventory page and you can configure alerts for these events so that your storage administrator is notified when new security events occur.
 
 For more information, see link:../health-checker/concept_what_security_criteria_is_being_evaluated.html[What security criteria are being evaluated].
+// 2025-6-10, ONTAPDOC-133
