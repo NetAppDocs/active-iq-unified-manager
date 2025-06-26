@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, specific, security events
 summary: "All events are enabled by default. You can disable specific events to prevent the generation of notifications for those events that are not important in your environment. You can enable events that are disabled if you want to resume receiving notifications for them."
 ---
-= Disabling specific security events
+= Disable specific security events
 :icons: font
 :imagesdir: ../media/
 
@@ -43,3 +43,4 @@ a|
 
 +
 |===
+// 2025-6-11, OTHERDOC-133

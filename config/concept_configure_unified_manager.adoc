@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, active iq unified manager
 summary: "After installing Active IQ Unified Manager (formerly OnCommand Unified Manager) you must complete the initial setup (also called the first experience wizard) to access the web UI. Then you can perform additional configuration tasks, such as adding clusters, configuring remote authentication, adding users, and adding alerts."
 ---
-= Configuring Active IQ Unified Manager
+= Configure Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
@@ -12,3 +12,4 @@ summary: "After installing Active IQ Unified Manager (formerly OnCommand Unified
 After installing Active IQ Unified Manager (formerly OnCommand Unified Manager) you must complete the initial setup (also called the first experience wizard) to access the web UI. Then you can perform additional configuration tasks, such as adding clusters, configuring remote authentication, adding users, and adding alerts.
 
 Some of the procedures described in this manual are required to complete the initial setup of your Unified Manager instance. Other procedures are recommended configuration settings that are helpful to set up on your new instance, or that are good to know about before you start the regular monitoring of your ONTAP systems.
+// 2025-6-11, OTHERDOC-133

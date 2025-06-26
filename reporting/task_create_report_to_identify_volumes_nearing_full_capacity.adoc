@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off
 summary: "You can create a report that contains the list of volumes that are approaching full capacity with the Snapshot Autodelete feature disabled. The results can help identify volumes where you might want to configure Snapshot Autodelete."
 ---
-= Creating a report to identify volumes nearing full capacity that have Snapshot Autodelete turned off
+= Create a report to identify volumes nearing full capacity that have Snapshot Autodelete turned off
 :icons: font
 :imagesdir: ../media/
 

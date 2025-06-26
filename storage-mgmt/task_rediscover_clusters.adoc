@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rediscover clusters,
 summary: "You can manually rediscover a cluster from the Cluster Setup page in order to obtain the latest information about the health, monitoring status, and performance status of the cluster."
 ---
-= Rediscovering clusters
+= Rediscover clusters
 :icons: font
 :imagesdir: ../media/
 
@@ -25,3 +25,4 @@ Unified Manager rediscovers the selected cluster and displays the latest health 
 *Related information*
 
 link:../health-checker/task_view_cluster_list_and_details.html[Viewing the cluster list and details]
+// 2025-6-11, OTHERDOC-133

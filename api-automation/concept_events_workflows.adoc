@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, issues, storage, objects, events
 summary: "When a storage object in your data center crosses a threshold, you get a notification about that event. Using this notification, you can analyze the issue and take corrective action by using the events APIs."
 ---
-= Determining issues in storage objects using event APIs
+= Determine issues in storage objects using event APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -37,3 +37,4 @@ a|
 
 . View the output and analyze the issues in the specific volumes.
 . Perform the necessary actions by using the Unified Manager REST APIs or web UI to resolve the issues.
+// 2025-6-11, OTHERDOC-133

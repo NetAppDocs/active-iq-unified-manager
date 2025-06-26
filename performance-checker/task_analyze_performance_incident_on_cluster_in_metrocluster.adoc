@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, dynamic, performance, event, cluster, metrocluster, configuration
 summary: "You can use Unified Manager to analyze the cluster in a MetroCluster configuration on which a performance event was detected. You can identify the cluster name, event detection time, and the bully and victim workloads involved."
 ---
-= Analyzing a dynamic performance event on a cluster in a MetroCluster configuration
+= Analyze a dynamic performance event on a cluster in a MetroCluster configuration
 :icons: font
 :imagesdir: ../media/
 
@@ -41,3 +41,4 @@ The presence of bully workloads indicates that the event might have been caused 
 This chart displays, at a high-level, the write throughput (MB/s) pattern for the workloads. You can review the write MB/s pattern to identify abnormal throughput, which might indicate that a workload is over-utilizing the MetroCluster resources.
 +
 If no bully workloads are involved in the event, the event might have been caused by a health issue with the link between the clusters or a performance issue on the partner cluster. You can use Unified Manager to check the health of both clusters in a MetroCluster configuration. You can also use Unified Manager to check for and analyze performance events on the partner cluster.
+// 2025-6-11, OTHERDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, health, clusters, metrocluster, configuration
 summary: "You can use Unified Manager to check the operational health of clusters, and their components, in a MetroCluster configuration. If the clusters were involved in a performance event detected by Unified Manager, the health status can help you determine whether a hardware or software issue contributed to the event."
 ---
-= Checking the health of clusters in a MetroCluster configuration
+= Check the health of clusters in a MetroCluster configuration
 :icons: font
 :imagesdir: ../media/
 
@@ -17,7 +17,7 @@ You can use Active IQ Unified Manager (Unified Manager) to check the operational
 * You must have analyzed a performance event for a MetroCluster configuration and obtained the name of the cluster involved.
 * Both clusters in the MetroCluster configuration over FC and IP must be monitored by the same instance of Unified Manager.
 
-== Determining cluster health in MetroCluster over FC configuration
+== Determine cluster health in MetroCluster over FC configuration
 
 Follow these steps for determining cluster health in a MetroCluster over FC configuration.
 
@@ -46,7 +46,7 @@ image::../media/opm_um_mcc_replication_tab_png.gif[Unified Manager MetroCluster 
 +
 In this example, if the NVRAM icon on the local or partner cluster is yellow or red, a health issue with the NVRAM might have caused the performance event. If there are no red or yellow icons on the page, a performance issue on the partner cluster might have caused the performance event.
 
-== Determining cluster health in MetroCluster over IP configuration
+== Determine cluster health in MetroCluster over IP configuration
 
 Follow these steps for determining cluster health in a MetroCluster over IP configuration.
 
@@ -61,3 +61,4 @@ If you cannot see the reported MetroCluster events, you can use the Search bar t
 +
 . Next to the relevant MetroCluster event, click the name of the cluster. The Clusters page is displayed with the details of that cluster. 
 For information about determining health issues, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitor connectivity issues in MetroCluster over IP configuration].
+// 2025-6-11, OTHERDOC-133

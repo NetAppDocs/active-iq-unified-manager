@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: object, inventory, performance, pages
 summary: "You can search strings on Object Inventory Performance pages. Use the Search field located at the top right of the page to quickly locate data based on either object name or policy name. This enables you to quickly locate specific objects and their associated data, or to quickly locate policies and view associated policy object data."
 ---
-= Searching on Object Inventory Performance pages
+= Search on Object Inventory Performance pages
 :icons: font
 :imagesdir: ../media/
 
@@ -27,3 +27,4 @@ a|
 All or part of the policy name into the *Search* field, and click *Search*.    The objects assigned to the policy for which you searched are displayed.
 
 |===
+// 2025-6-11, OTHERDOC-133

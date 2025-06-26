@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, alerts
 summary: "You can view the list of alerts that is created for various events from the Alert Setup page. You can also view alert properties such as the alert description, notification method and frequency, events that trigger the alert, email recipients of the alerts, and affected resources such as clusters, aggregates, and volumes."
 ---
-= Viewing alerts
+= View alerts
 :icons: font
 :imagesdir: ../media/
 

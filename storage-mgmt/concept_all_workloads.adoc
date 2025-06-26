@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workloads, add, provision, storage, filter, analyze, performance, capacity, criteria
 summary: "The All Workloads view displays the list of all the workloads available on the clusters in a data center."
 ---
-= Viewing workloads
+= View workloads
 :icons: font
 :imagesdir: ../media/
 
@@ -54,3 +54,4 @@ The *Analyze Workload* button on the *IOPS Analysis* pop-up takes you to the Wor
 You can view performance information about a workload to help with troubleshooting by clicking the bar chart icon in the *Performance View* column. To view performance and capacity charts on the Workload Analysis page to analyze the object, click the *Analyze Workload* button.
 
 For more information, see link:../performance-checker/reference_what_data_does_workload_analyzer_display.html[What data does the workload analyzer display].
+// 2025-6-11, OTHERDOC-133

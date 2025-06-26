@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, provision, disk, volume, thin-provisioning
 summary: "When a volume is not thin provisioned it takes up the full amount of space on the disk as defined when the volume was created. Identifying volumes that have thin provisioning disabled helps you decide whether you want to enable thin-provisioning on certain volumes."
 ---
-= Creating a report to identify space used by volumes with thin provisioning disabled
+= Create a report to identify space used by volumes with thin provisioning disabled
 :icons: font
 :imagesdir: ../media/
 

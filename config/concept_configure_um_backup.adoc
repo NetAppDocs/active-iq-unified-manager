@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, unified manager, backup
 summary: "You can configure the backup capability on Unified Manager through a set of configuration steps to be performed on the host systems and the through maintenance console."
 ---
-= Configuring Unified Manager backup
+= Configure Unified Manager backup
 :icons: font
 :imagesdir: ../media/
 
@@ -12,3 +12,4 @@ summary: "You can configure the backup capability on Unified Manager through a s
 You can configure the backup capability on Unified Manager through a set of configuration steps to be performed on the host systems and the through maintenance console.
 
 For information about the configuration steps, see link:..//health-checker/concept_manage_backup_and_restore_operations.html[Managing backup and restore operations].
+// 2025-6-11, OTHERDOC-133

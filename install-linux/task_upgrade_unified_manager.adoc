@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager
 summary: "You can upgrade Unified Manager by downloading and running the installation file on the Linux platform."
 ---
-= Upgrading Unified Manager
+= Upgrade Unified Manager
 :icons: font
 :imagesdir: ../media/
 
@@ -111,4 +111,6 @@ This process completes the Unified Manager upgrade process. Enter the specified 
 
 // 15-November-2024 OTHERDOC-81
 // 2024-11-8, OTHERDOC87
+// 2025-6-11, OTHERDOC-133
 // 2025-5-26, OTHERDOC 127
+

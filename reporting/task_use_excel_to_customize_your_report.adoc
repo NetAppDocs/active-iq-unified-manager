@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: excel, customize, report
 summary: "After you have saved the view, you can download it in Excel Workbook format (.xlsx). When you open the Excel file, you can use advanced Excel features to customize your report."
 ---
-= Using Excel to customize your report
+= Use Excel to customize your report
 :icons: font
 :imagesdir: ../media/
 

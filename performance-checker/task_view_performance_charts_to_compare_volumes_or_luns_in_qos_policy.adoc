@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group
 summary: "You can view the volumes and LUNs that are in the same QoS policy groups and then compare the performance on a single IOPS, MB/s, or IOPS/TB chart to identify any issues."
 ---
-= Viewing performance charts to compare volumes or LUNs that are in the same QoS policy group
+= View performance charts to compare volumes or LUNs that are in the same QoS policy group
 :icons: font
 :imagesdir: ../media/
 
@@ -30,3 +30,4 @@ The other volumes that share the same QoS policy are listed in the table below.
 . Click the *Add* button to add those volumes to the charts so that you can compare the IOPS, MB/s, IOPS/TB, and other performance counters for all the selected volumes in the charts.
 +
 You can change the time range to view the performance over different time intervals other than the default of 72 hours.
+// 2025-6-11, OTHERDOC-133

@@ -12,7 +12,7 @@ summary: "The Active IQ Unified Manager APIs enable you to manage and provision 
 [.lead]
 The Active IQ Unified Manager APIs enable you to manage and provision storage objects in your environment. You can also access the Unified Manager web UI to perform some of these functions.
 
-== Constructing a URL to directly access REST APIs
+== Construct a URL to directly access REST APIs
 
 You can access the REST APIs directly through a programming language, such as Python, C#, C{pp}, JavaScript, and so forth. Enter the host name or IP address and the URL to access the REST APIs in the format
 
@@ -23,7 +23,7 @@ You can access the REST APIs directly through a programming language, such as Py
 The default port is 443. You can configure the port as required by your environment.
 ====
 
-== Accessing the online API documentation page
+== Access the online API documentation page
 
 You can access the _API Documentation_ reference content page that is packaged along with the product to display the API documentation, as well as to manually issue an API call (on the interface, for example, Swagger). You can access this documentation on clicking the *Menu Bar* > *Help button* > *API Documentation*
 
@@ -60,3 +60,4 @@ Unified Manager enables you to invoke ONTAP REST APIs through the APIs under the
 * *security*
 +
 This category contains APIs for managing Unified Manager users.
+// 2025-6-11, OTHERDOC-133

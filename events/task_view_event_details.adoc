@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, details
 summary: "You can view details about an event that is triggered by Unified Manager to take corrective action. For example, if there is a health event Volume Offline, you can click that event to view the details and perform corrective actions."
 ---
-= Viewing events and event details
+= View events and event details
 :icons: font
 :imagesdir: ../media/
 

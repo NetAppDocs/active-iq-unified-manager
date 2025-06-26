@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, aggregate, health, threshold, settings
 summary: "You can edit the health threshold settings for aggregate capacity, growth, and Snapshot copies of one or more aggregates. When a threshold is crossed, alerts are generated and you receive notifications. These notifications help you to take preventive measures based on the event generated."
 ---
-= Editing individual aggregate health threshold settings
+= Edit individual aggregate health threshold settings
 :icons: font
 :imagesdir: ../media/
 
@@ -28,3 +28,4 @@ When Autogrow is enabled on volumes that reside on the aggregate, the aggregate 
 *Related information*
 
 link:../config/task_add_users.html[Adding users]
+// 2025-6-11, OTHERDOC-133

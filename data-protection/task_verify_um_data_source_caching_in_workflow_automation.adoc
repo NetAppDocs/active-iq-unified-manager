@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, unified manager, data source, cache, workflow automation
 summary: "You can determine whether Unified Manager data source caching is working correctly by checking if data source acquisition is successful in Workflow Automation. You might do this when you integrate Workflow Automation with Unified Manager to ensure that Workflow Automation functionality is available after the integration."
 ---
-= Verifying Unified Manager data source caching in Workflow Automation
+= Verify Unified Manager data source caching in Workflow Automation
 :icons: font
 :imagesdir: ../media/
 
@@ -22,3 +22,4 @@ You must be assigned either the Administrator role or the Architect role in Work
 . Verify that the acquisition succeeds without errors.
 +
 Acquisition errors must be resolved for Workflow Automation integration with Unified Manager to succeed.
+// 2025-6-11, OTHERDOC-133

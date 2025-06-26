@@ -4,9 +4,10 @@ sidebar: sidebar
 keywords: manage, health, thresholds
 summary: "You can configure global health threshold values for all the aggregates, volumes, and qtrees to track any health threshold breaches."
 ---
-= Managing health thresholds
+= Manage health thresholds
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can configure global health threshold values for all the aggregates, volumes, and qtrees to track any health threshold breaches.
+// 2025-6-10, ONTAPDOC-133

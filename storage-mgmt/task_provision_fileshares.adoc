@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, file, share, volumes
 summary: "You can create file share volumes that support CIFS/SMB and NFS protocols, on an existing cluster and Storage Virtual Machine (storage VM) from the Provision Workload page."
 ---
-= Provisioning file share volumes
+= Provision file share volumes
 :icons: font
 :imagesdir: ../media/
 
@@ -54,3 +54,4 @@ On adding the host IP address, an internal check runs for matching the host deta
 . Click *Save*.
 +
 The workload is added to the list of storage workloads.
+// 2025-6-11, OTHERDOC-133

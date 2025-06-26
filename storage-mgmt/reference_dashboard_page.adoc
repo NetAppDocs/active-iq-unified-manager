@@ -22,7 +22,7 @@ Some of the panels listed below appear on the dashboard based on your configurat
 
 == Management Actions panel
 There are certain issues that Unified Manager can diagnose thoroughly and provide a single resolution. When available, those resolutions are displayed in this panel with a *Fix It* or *Fix All* button. You can fix these issues immediately from Unified Manager instead of having to use ONTAP System Manager or the ONTAP CLI. For viewing all the issues, click on
-See link:concept_fix_ontap_issues_directly_from_unified_manager.html[Fixing ONTAP issues directly from Unified Manager] for more information.
+See link:concept_fix_ontap_issues_directly_from_unified_manager.html[Fix ONTAP issues directly from Unified Manager] for more information.
 
 == Capacity panel
 When viewing all clusters, this panel displays the physical used capacity (after applying storage efficiency savings) and physical available capacity (not including potential storage efficiency savings) for each cluster, the number of days until the disks are projected to be full, and the data reduction ratio (without Snapshot copies) based on configured ONTAP storage efficiency settings. It also lists the used capacity for any configured cloud tiers. Clicking the bar chart takes you to the Aggregates inventory page for that cluster. Clicking the "Days To Full" text displays a message that identifies the aggregate with the least number of capacity days remaining; click the aggregate name to see more details.
@@ -91,8 +91,8 @@ link:../events/reference_description_of_event_severity_types.html[Description of
 
 link:../performance-checker/concept_sources_of_performance_events.html[Sources of performance events]
 
-link:../health-checker/concept_manage_cluster_security_objectives.html[Managing cluster security objectives]
+link:../health-checker/concept_manage_cluster_security_objectives.html[Manage cluster security objectives]
 
-link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html[Monitoring cluster performance from the Performance Cluster Landing page]
+link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html[Monitor cluster performance from the Performance Cluster Landing page]
 
-link:../performance-checker/concept_monitor_performance_using_object_performance.html[Monitoring performance using the Performance Inventory pages]
+link:../performance-checker/concept_monitor_performance_using_object_performance.html[Monitor performance using the Performance Inventory pages]

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, performance, service, Levels
 summary: "When the system-defined Performance Service Levels do not match your workload requirements, you can create your own Performance Service Levels that are optimized for your workloads."
 ---
-= Creating and editing Performance Service Levels
+= Create and editing Performance Service Levels
 :icons: font
 :imagesdir: ../media/
 
@@ -46,3 +46,4 @@ The page to add or edit a Performance Service Level is displayed.
 . Customize the Performance Service Level by specifying the performance objectives, and then click *Submit* to save the Performance Service Level.
 
 You can apply the new or changed Performance Service Level to workloads (LUNs, NFS File Shares, CIFS Shares) from the Workloads page or when provisioning a new workload.
+// 2025-6-11, OTHERDOC-133

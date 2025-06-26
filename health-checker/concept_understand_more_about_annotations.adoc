@@ -4,9 +4,10 @@ sidebar: sidebar
 keywords: understand, annotations
 summary: "Understanding the concepts about annotations helps you to manage the events related to the storage objects in your environment."
 ---
-= Understanding more about annotations
+= Understand more about annotations
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Understanding the concepts about annotations helps you to manage the events related to the storage objects in your environment.
+// 2025-6-10, ONTAPDOC-133

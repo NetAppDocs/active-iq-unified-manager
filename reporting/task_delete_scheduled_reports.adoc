@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, reports
 summary: "After reports are scheduled, you can delete them from the Report Schedules page."
 ---
-= Deleting scheduled reports
+= Delete scheduled reports
 :icons: font
 :imagesdir: ../media/
 
@@ -36,3 +36,4 @@ The scheduled report is removed from the list and will no longer be generated an
 ====
 If you delete a custom view from the inventory page, any custom Excel files or scheduled reports that use that view are also deleted.
 ====
+// 2025-6-11, OTHERDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyzing, dynamic, performance, event, remote, cluster, metrocluster, configuration
 summary: "You can use Unified Manager to analyze dynamic performance events on a remote cluster in a MetroCluster configuration. The analysis helps you determine whether an event on the remote cluster caused an event on its partner cluster."
 ---
-= Analyzing a dynamic performance event for a remote cluster on a MetroCluster configuration
+= Analyze a dynamic performance event for a remote cluster on a MetroCluster configuration
 :icons: font
 :imagesdir: ../media/
 
@@ -30,3 +30,4 @@ If there are no events for the selected cluster over the last hour, this indicat
 If these events involve bully workloads causing contention on the data processing component, one or more of these bullies might have caused the event on the local cluster. You can click the event to analyze it and review the suggested actions for resolving it on the Event details page.
 +
 If these events do not involve bully workloads, they did not cause the performance event on the local cluster.
+// 2025-6-11, OTHERDOC-133
