@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage vm list, details
 summary: "From the Health: All Storage VMs view, you can monitor your inventory of storage virtual machines (SVMs). You can use the Storage VM / Health details page to view detailed information about SVMs that are monitored."
 ---
-= Viewing the Storage VM list and details
+= View the Storage VM list and details
 :icons: font
 :imagesdir: ../media/
 
@@ -33,3 +33,4 @@ You can also view the complete details by clicking *View Details* in the minimal
 * link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html#view-security-details-of-all-volumes-with-anti-ransomware-detection[Security: Anti-ransomware view]
 * link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html[Viewing security status for clusters and Storage VMs]
 * link:../data-protection/reference_relationship_all_relationships_view.html[Relationship: All Relationships view]
+// 2025-6-11, OTHERDOC-133

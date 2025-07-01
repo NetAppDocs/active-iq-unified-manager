@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, performance, capacity, used, values
 summary: "You can monitor the performance capacity used values for all nodes or for all aggregates in a cluster, or you can view details for a single node or aggregate."
 ---
-= Viewing node and aggregate performance capacity used values
+= View node and aggregate performance capacity used values
 :icons: font
 :imagesdir: ../media/
 
@@ -15,7 +15,7 @@ Performance capacity used values appear in the Dashboard, Performance Inventory 
 
 image::../media/node_inventory_used_headroom.gif[A UI screenshot of the Performance: All Aggregates page, which provides the information of the performance capacity used value for all aggregates.]
 
-Monitoring the performance capacity used counter enables you to identify the following:
+Monitor the performance capacity used counter enables you to identify the following:
 
 * Whether any nodes or aggregates on any clusters have a high performance capacity used value
 * Whether any nodes or aggregates on any clusters have active performance capacity used events
@@ -23,3 +23,4 @@ Monitoring the performance capacity used counter enables you to identify the fol
 * Latency and utilization counter values in conjunction with nodes or aggregates that have high performance capacity used values
 * How the performance capacity used values for nodes in an HA pair will be affected if one of the nodes fails
 * The busiest volumes and LUNs on an aggregate that has a high performance capacity used value
+// 2025-6-11, OTHERDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, host, system, resource, events
 summary: "Unified Manager includes a service that monitors resource issues on the host system on which Unified Manager is installed. Issues such as lack of available disk space or lack of memory on the host system may trigger management station events that are displayed as banner messages across the top of the UI."
 ---
-= Managing host system resource events
+= Manage host system resource events
 :icons: font
 :imagesdir: ../media/
 
@@ -34,3 +34,4 @@ a|
 
 +
 |===
+// 2025-6-11, OTHERDOC-133

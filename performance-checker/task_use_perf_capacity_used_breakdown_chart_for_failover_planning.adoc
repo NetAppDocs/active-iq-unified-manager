@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used, breakdown, chart, failover, planning
 summary: "The detailed Performance Capacity Used - Breakdown chart shows the performance capacity used for the Primary node and the Partner node. It also shows the amount of free performance capacity on the Estimated Takeover node. This information helps you determine whether you might have a performance issue if the partner node fails."
 ---
-= Using the Performance Capacity Used Breakdown chart for failover planning
+= Use the Performance Capacity Used Breakdown chart for failover planning
 :icons: font
 :imagesdir: ../media/
 
@@ -38,3 +38,4 @@ The Perf. Capacity Free percentage is the performance capacity available on the 
 . Consider taking corrective actions to avoid a low performance capacity free percentage.
 +
 If you plan to initiate a failover for node maintenance, choose a time to fail the partner node when the performance capacity free percentage is not at 0.
+// 2025-6-11, OTHERDOC-133

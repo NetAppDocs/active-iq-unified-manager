@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, details, nfs shares
 summary: "You can view details about all NFS shares, such as its status, the path associated with the volume (FlexGroup volumes or FlexVol volumes), access levels of clients to the NFS shares, and the export policy defined for the volumes that are exported. Use the Health: All NFS Shares view to see all NFS shares on all monitored clusters, and use the Storage VM / Health details page to view all NFS shares on a specific storage virtual machine (SVM)."
 ---
-= Viewing details about NFS shares
+= View details about NFS shares
 :icons: font
 :imagesdir: ../media/
 
@@ -39,3 +39,4 @@ a|
 |===
 
 For more information, see link:../storage-mgmt/task_provision_fileshares.html[Provisioning file share volumes] and link:../api-automation/concept_provision_file_share.html[Provisioning CIFS and NFS file shares by using APIs].
+// 2025-6-11, OTHERDOC-133

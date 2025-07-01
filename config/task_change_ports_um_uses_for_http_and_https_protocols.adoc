@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, ports, unified manager, uses, http, https, protocols
 summary: "The default ports that Unified Manager uses for HTTP and HTTPS protocols can be changed after installation if required for security. The default ports are 80 for HTTP and 443 for HTTPS."
 ---
-= Changing the ports Unified Manager uses for HTTP and HTTPS protocols
+= Change the ports Unified Manager uses for HTTP and HTTPS protocols
 :icons: font
 :imagesdir: ../media/
 
@@ -38,3 +38,4 @@ You are prompted whether you want to change the ports and restart Unified Manage
 . Exit out of the maintenance console.
 
 After this change, users must include the new port number in the URL to access the Unified Manager web UI, for example +https://host.company.com:1234+, +https://12.13.14.15:1122+, or +https://[2001:db8:0:1]:2123+.
+// 2025-6-11, OTHERDOC-133

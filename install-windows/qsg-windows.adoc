@@ -27,7 +27,7 @@ Unified Manager is supported on 64 bits Windows operating system for the followi
 
 For detailed system requirements, see the link:../install-windows/concept_requirements_for_installing_unified_manager.html[Requirements for installing Unified Manager] and link:http://mysupport.netapp.com/matrix[Interoperability Matrix^].
 
-== Installing Active IQ Unified Manager
+== Install Active IQ Unified Manager
 
 === Download the installer
 .	Download the `ActiveIQUnifiedManager-<version>.exe` installation package.

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, lun
 summary: "You can use the /storage-provider/luns API to view, add, modify, and delete the LUNs in your data center environment."
 ---
-= Managing LUNs by using APIs
+= Manage LUNs by using APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -86,3 +86,4 @@ PATCH
 a|
 `/storage-provider/luns/\{key}`
 |===
+// 2025-6-11, OTHERDOC-133

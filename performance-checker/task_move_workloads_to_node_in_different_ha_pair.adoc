@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, node, different, ha pair
 summary: "You can use Unified Manager to help identify an aggregate on a node in a different high-availability (HA) pair that has more free performance capacity than the HA pair where your workloads are currently running. Then you can move selected volumes to aggregates on the new HA pair."
 ---
-= Moving workloads to a node in a different HA pair
+= Move workloads to a node in a different HA pair
 :icons: font
 :imagesdir: ../media/
 
@@ -76,3 +76,4 @@ This provides a list of potential volumes that you might want to move.
 You can perform the move operation by using ONTAP System Manager, OnCommand Workflow Automation, ONTAP commands, or a combination of these tools.
 
 After a few days, you can check whether you are receiving the same type of events from this node or aggregate.
+// 2025-6-11, OTHERDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: generate, upload, support bundle
 summary: "You can generate a support bundle, containing diagnostic information, so that you can send it to technical support for troubleshooting help. You can also upload the support bundle to NetApp from the maintenance console."
 ---
-= Generating and uploading a support bundle
+= Generate and upload a support bundle
 :icons: font
 :imagesdir: ../media/
 
@@ -76,3 +76,4 @@ The generated support bundle resides in the /support directory on VMware systems
 *Related information*
 
 link:../config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]
+// 2025-6-11, OTHERDOC-133

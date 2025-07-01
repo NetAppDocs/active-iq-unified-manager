@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, unified manager, rest, apis
 summary: "Active IQ Unified Manager provides you with REST APIs to view the information about monitoring and managing your storage environment. APIs also allow provisioning and managing storage objects based on policies."
 ---
-= Using Unified Manager REST APIs
+= Use Unified Manager REST APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -14,3 +14,4 @@ Active IQ Unified Manager provides you with REST APIs to view the information ab
 You can also execute ONTAP APIs on all ONTAP-managed clusters by using the API gateway supported by Unified Manager.
 
 For information about Unified Manager REST APIs, see link:../api-automation/concept_get_started_with_um_apis.html[Getting started with Active IQ Unified Manager REST APIs].
+// 2025-6-11, OTHERDOC-133

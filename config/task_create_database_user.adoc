@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, database, user
 summary: "To support a connection between Workflow Automation and Unified Manager, or to access database views, you must first create a database user with the Integration Schema or Report Schema role in the Unified Manager web UI."
 ---
-= Creating a database user
+= Create a database user
 :icons: font
 :imagesdir: ../media/
 
@@ -39,3 +39,4 @@ Report Schema
 |===
 
 . Click *Add*.
+// 2025-6-11, OTHERDOC-133

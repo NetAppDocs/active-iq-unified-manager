@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, charts, display
 summary: "The Choose charts drop-down list enables you to select the types of performance counter charts to display in the Counter Charts pane. This enables you to view specific data and counters, based on your performance requirements."
 ---
-= Selecting performance charts to display
+= Select performance charts to display
 :icons: font
 :imagesdir: ../media/
 
@@ -32,3 +32,4 @@ a|
 Click *Unselect All*
 |===
 Your chart selections are displayed in the Counter Charts pane. Note that as you add charts, the new charts are inserted into the Counter Charts pane to match the order of the charts listed in the Choose charts drop-down list. Selecting additional charts might require additional scrolling.
+// 2025-6-11, OTHERDOC-133

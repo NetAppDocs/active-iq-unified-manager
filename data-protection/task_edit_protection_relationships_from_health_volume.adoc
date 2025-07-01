@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, protection, relationships, volume, health details page
 summary: "You can edit existing protection relationships to change the current maximum transfer rate, protection policy, or protection schedule. You might edit a relationship to decrease the bandwidth used for transfers, or to increase the frequency of scheduled transfers because data is changing often."
 ---
-= Editing protection relationships from the Volume / Health details page
+= Edit protection relationships from the Volume / Health details page
 :icons: font
 :imagesdir: ../media/
 
@@ -31,3 +31,4 @@ The *Edit Relationship* dialog box is displayed.
 . Click *Apply*.
 +
 The changes are applied to the selected relationships.
+// 2025-6-11, OTHERDOC-133

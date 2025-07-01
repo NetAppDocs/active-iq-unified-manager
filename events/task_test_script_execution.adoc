@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, script, execution
 summary: "You can verify that your script is executed correctly when an alert is generated for a storage object."
 ---
-= Testing script execution
+= Test script execution
 :icons: font
 :imagesdir: ../media/
 
@@ -46,3 +46,4 @@ a|
 . In the *Alert Setup* page, select the alert that you added or modified, and then click *Test*.
 +
 The script is executed with the "-test" argument, and a notification alert is sent to the email addresses that were specified when the alert was created.
+// 2025-6-11, OTHERDOC-133

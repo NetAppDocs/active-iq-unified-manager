@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, dynamic, performance, thresholds
 summary: "Events generated from dynamic thresholds indicate that the actual response time (latency) for a workload is too high, or too low, compared to the expected response time range. You use the Event details page to analyze the performance event and take corrective action, if necessary, to return performance back to normal."
 ---
-= Analyzing events from dynamic performance thresholds
+= Analyze events from dynamic performance thresholds
 :icons: font
 :imagesdir: ../media/
 
@@ -15,3 +15,4 @@ Events generated from dynamic thresholds indicate that the actual response time 
 ====
 Dynamic performance thresholds are not enabled on Cloud Volumes ONTAP, ONTAP Edge, or ONTAP Select systems.
 ====
+// 2025-6-11, OTHERDOC-133

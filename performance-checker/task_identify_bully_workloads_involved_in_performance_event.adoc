@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, bully workloads, dynamic, performance, event
 summary: "In Unified Manager, you can identify which workloads have the highest deviation in usage for a cluster component in contention. Identifying these workloads helps you understand why certain volumes on the cluster have slow response times (latency)."
 ---
-= Identifying bully workloads involved in a dynamic performance event
+= Identify bully workloads involved in a dynamic performance event
 :icons: font
 :imagesdir: ../media/
 
@@ -22,3 +22,4 @@ The Event details page displays a list of the user-defined and system-defined wo
 . Display the Event details page to view information about the event.
 . In the Workload Latency and Workload Activity charts, select *Bully Workloads*.
 . Hover your cursor over the charts to view the top user-defined bully workloads that are affecting the component.
+// 2025-6-11, OTHERDOC-133

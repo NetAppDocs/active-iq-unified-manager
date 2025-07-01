@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, event, notification, settings
 summary: "You can configure Unified Manager to send alert notifications when an event is generated or when an event is assigned to a user. You can configure the SMTP server that is used to send the alert, and you can set various notification mechanisms—for example, alert notifications can be sent as emails or SNMP traps."
 ---
-= Configuring event notification settings
+= Configure event notification settings
 :icons: font
 :imagesdir: ../media/
 
@@ -39,4 +39,4 @@ You must have the Application Administrator or Storage Administrator role.
 . If you have selected the *Use STARTTLS* or *Use SSL* option, a certificate page displays after you click the *Save* button. Verify the certificate details and accept the certificate to save the notification settings.
 +
 You can click the *View Certificate Details* button to view the certificate details. If the existing certificate is expired, uncheck the *Use STARTTLS* or *Use SSL* box, save the notification settings, and again check the *Use STARTTLS* or *Use SSL* box to view a new certificate.
-
+// 2025-6-11, OTHERDOC-133

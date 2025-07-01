@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager
 summary: "You can upgrade to Unified Manager on VMware vSphere"
 ---
-= Upgrading Unified Manager
+= Upgrade Unified Manager
 :icons: font
 :imagesdir: ../media/
 
@@ -20,3 +20,4 @@ If Unified Manager is paired with an instance of OnCommand Workflow Automation, 
 . Follow the steps in link:task_download_unified_manager_iso_image_vapp.html[Download the Unified Manager ISO image].
 . Additionally, follow the steps described in link:task_upgrade_unified_manager_virtual_appliance_vapp.html[Upgrade Unified Manager].
 // 2024-11-12, OTHERDOC81
+// 2025-6-11, OTHERDOC-133

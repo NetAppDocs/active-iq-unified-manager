@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts, security events
 summary: "You can configure alerts for individual security events just like any other events received by Unified Manager. Additionally, if you want to treat all security events alike and have email sent to the same person, you can create a single alert to notify you when any security events are triggered."
 ---
-= Adding alerts for security events
+= Add alerts for security events
 :icons: font
 :imagesdir: ../media/
 
@@ -28,3 +28,4 @@ The example below shows how to create an alert for the "`Telnet Protocol Enabled
 . Click *Actions* and then select the name of the user who will receive the alert email in the *Alert these users* field.
 . Configure any other options on this page for notification frequency, issuing SNMP taps, and executing a script.
 . Click *Save*.
+// 2025-6-11, OTHERDOC-133

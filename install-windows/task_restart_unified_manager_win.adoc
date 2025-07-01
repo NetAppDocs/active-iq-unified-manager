@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager
 summary: "You might have to restart Unified Manager after making configuration changes."
 ---
-= Restarting Unified Manager
+= Restart Unified Manager
 :icons: font
 :imagesdir: ../media/
 
@@ -54,3 +54,4 @@ a|
  .. NetApp Active IQ Acquisition Service (Ocie-au)
 +
 |===
+// 2025-6-11, OTHERDOC-133

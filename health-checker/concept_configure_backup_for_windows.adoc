@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, windows, netapp, snapshot copy, copies, configure, backup
 summary: "Active IQ Unified Manager supports backup and restore using NetApp Snapshots on Windows operating system with the help of LUN using iSCSI protocol."
 ---
-= Configuring backup on Windows
+= Configure backup on Windows
 :icons: font
 :imagesdir: ../media/
 
@@ -17,3 +17,4 @@ Before you configure Unified Manager for creating Snapshot copies, you should pe
 
 * Configure ONTAP cluster
 * Configure Windows host machine
+// 2025-6-10, ONTAPDOC-133

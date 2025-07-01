@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, clusters
 summary: "You can modify the settings of an existing cluster, such as the host name or IP address, user name, password, and port, by using the Edit Cluster dialog box."
 ---
-= Editing clusters
+= Edit clusters
 :icons: font
 :imagesdir: ../media/
 
@@ -37,3 +37,4 @@ Starting with Unified Manager 9.7, clusters can be added using HTTPS only.
 link:../config/task_add_users.html[Adding users]
 
 link:../health-checker/task_view_cluster_list_and_details.html[Viewing the cluster list and details]
+// 2025-6-11, OTHERDOC-133

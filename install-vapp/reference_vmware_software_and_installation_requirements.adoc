@@ -19,7 +19,7 @@ The following versions of VMware ESXi are supported:
 
 [NOTE]
 ====
-Unified Manager OVA on VMware vSphere systems runs Debian OS 11 (bullseye) internally. For information about the versions of the virtual machine hardware that the supported versions of ESXi servers can support, refer to the VMware documentation.
+Unified Manager OVA on VMware vSphere systems runs Debian OS 12 (bookworm) internally. For information about the versions of the virtual machine hardware that the supported versions of ESXi servers can support, refer to the VMware documentation.
 ====
 //BURT 1473910
 
@@ -43,3 +43,4 @@ If deployment fails using your High Availability-enabled environment because of 
 
 [NOTE]
 While installing or upgrading Unified Manager, the required third-party software and security patches are automatically installed or upgraded on a VMware vSphere system. Because the Unified Manager installation and upgrade processes control these components, you should not attempt a standalone install or upgrade of any third-party component.
+// 2025-5-26, OTHERDOC 127

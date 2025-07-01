@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user-defined, performance, threshold, events
 summary: "You can use Unified Manager to investigate performance events caused by a performance counter crossing a user-defined warning or critical threshold. You can also use Unified Manager to check the health of the cluster component to see whether recent health events detected on the component contributed to the performance event."
 ---
-= Responding to user-defined performance threshold events
+= Respond to user-defined performance threshold events
 :icons: font
 :imagesdir: ../media/
 
@@ -41,3 +41,4 @@ Click the cluster name to display the Cluster Summary page.
 a|
 This page enables you to view the details for the cluster on which this object resides to see whether other performance issues have occurred around the same time.
 |===
+// 2025-6-11, OTHERDOC-133

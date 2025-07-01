@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, relationships, version-flexible, replication, backup, option
 summary: "You can create a SnapMirror relationship with version-flexible replication and backup option capability. Backup option capability enables you to implement SnapMirror protection and also retain multiple versions of backup copies at the destination location."
 ---
-= Creating SnapMirror relationships with version-flexible replication with backup option
+= Create SnapMirror relationships with version-flexible replication with backup option
 :icons: font
 :imagesdir: ../media/
 
@@ -44,3 +44,4 @@ The jobs tasks and details are displayed in the Job details page.
 . When the job tasks are complete, click *Back* on your browser to return to the *Volume / Health* details page.
 +
 The new relationship is displayed in the Volume / Health details page topology view.
+// 2025-6-11, OTHERDOC-133

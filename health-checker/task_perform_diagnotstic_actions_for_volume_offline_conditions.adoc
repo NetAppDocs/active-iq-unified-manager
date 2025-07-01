@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, diagnostic actions, volume, offline, conditions
 summary: "After navigating to the Volume / Health details page of a volume reported to be offline, you can search for additional information helpful to diagnosing the volume offline condition."
 ---
-= Performing diagnostic actions for volume offline conditions
+= Perform diagnostic actions for volume offline conditions
 :icons: font
 :imagesdir: ../media/
 
@@ -34,3 +34,4 @@ See link:task_determine_if_volume_is_offline_because_of_broken_disks.html[Determ
 *Related information*
 
 link:../config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]
+// 2025-6-11, OTHERDOC-133

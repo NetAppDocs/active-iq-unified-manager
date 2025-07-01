@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage vm, view protection status
 summary: "You can use the Storage VMs page of the Inventory to view all the storage VMs in Active IQ Unified Manager and filter the storage VMs based on their protection status."
 ---
-= Viewing Storage VMs based on protection status
+= View Storage VMs based on protection status
 :icons: font
 :imagesdir: ../media/
 
@@ -52,3 +52,4 @@ You cannot view both the protected and unprotected storage VMs at the same time.
 . Click *Apply Filter*.
 +
 The Unsaved view displays all the storage VMs that are either protected or unprotected by storage VM disaster recovery based on your filter selections.
+// 2025-6-11, OTHERDOC-133

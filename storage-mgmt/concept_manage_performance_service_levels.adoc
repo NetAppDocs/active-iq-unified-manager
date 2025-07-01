@@ -29,15 +29,15 @@ Unified Manager also offers three Performance Service Levels for database applic
 ** Extreme for Database Shared Data
 ** Extreme for Database Data
 
-* *User-defined*: If the predefined Performance Service Levels do not meet your requirements, then you can create new PSLs to meet your needs. For information, see link:../storage-mgmt/task_create_and_edit_psls.html[Creating and editing Performance Service Levels].
+* *User-defined*: If the predefined Performance Service Levels do not meet your requirements, then you can create new PSLs to meet your needs. For information, see link:../storage-mgmt/task_create_and_edit_psls.html[Create and edit Performance Service Levels].
 * *Beyond Extreme*: The Beyond Extreme PSLs are the system-recommended PSLs that are suggested for workloads that demand IOPs higher than Extreme. The workloads are internally analyzed based on their IOPS, capacity, and latency, and a Beyond Extreme PSL is recommended for each of these workloads on the *Storage > Workloads > All Workloads* screen. You can apply the PSLs to the workloads to ensure an optimum performance.
 +
 The IOPs parameters for the workloads are dynamically generated, depending on the workload behavior, and appended to the name of the Beyond Extreme PSL in the format `Beyond Extreme <number-(peak IOPS/TB)> <number(expected IOPS/TB)>`. For example, if the system determines a workload to have the peak and expected IOPs as `106345` and `37929` respectively, the Beyond Extreme PSL that is generated for the workload is named as `Beyond Extreme 106345 37929`. Though these PSLs are recommended by the system, when you assign them to workloads, these PSLs are labeled as `User-defined` in type.
 
-== Managing workloads by assigning PSLs
+== Manage workloads by assigning PSLs
 You can access PSLs from the *Policies* > *Performance Service Levels* page and by using the storage provider APIs. Managing storage workloads by assigning PSLs to them is convenient as you do not have to individually manage the storage workloads. Any modifications can also be managed by reassigning another PSL rather than managing them individually. Unified Manager helps you to assign PSLs on your workloads based on internal assessment and recommendations.
 
-For information on assigning system-recommended PSLs to workloads, see link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assigning-system-recommended-psls-to-workloads[Assigning system-recommended PSLs to workloads]
+For information on assigning system-recommended PSLs to workloads, see link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assign-system-recommended-psls-to-workloads[Assign system-recommended PSLs to workloads]
 
 The Performance Service Levels page lists the available PSL policies and enables you to add, edit, and delete them.
 
@@ -219,3 +219,4 @@ a|
 a|
 2000
 |===
+// 2025-06-24, Jira OTHERDOC 133

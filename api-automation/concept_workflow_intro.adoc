@@ -13,7 +13,7 @@ The common workflows provide client application developers with examples of how 
 
 The workflows describe some of the commonly used storage management use cases along with sample codes for you to use. Each of the tasks is described using a workflow process consisting of one or more API calls.
 
-== Understanding the API calls used in the workflows
+== Understand the API calls used in the workflows
 
 You can view the online documentation page from your Unified Manager instance that includes the details of every REST API call. This document does not repeat the details of the online documentation. Each API call used in the workflow samples in this document includes only the information you need to locate the call on the documentation page. After locating a specific API call, you can review the complete details of the call, including the input parameters, output formats, HTTP status codes, and request processing type.
 
