@@ -50,6 +50,7 @@ Certificate-based authentication is not enabled automatically for a cluster, if 
 
 * A single instance of Unified Manager can support a specific number of nodes. If you need to monitor an environment that exceeds the supported node count, you must install an additional instance of Unified Manager to monitor some of the clusters. To view the list of supported node count, see the https://www.netapp.com/media/13504-tr4621.pdf[Unified Manager Best Practices Guide^]. 
 
+* Starting with ONTAP 9.14.1, you can configure a Cloud Agent to support on-premise management applications using HTTP/REST API integration instead of AMQP and message brokers.Cloud Agent enables scheduled and on-demand bulk data collections through manifest registration, with collected data made available as downloadable files from the `/spi/endpoint`.
 
 .Steps
 
@@ -87,3 +88,4 @@ link:../health-checker/task_view_cluster_list_and_details.html[Viewing the clust
 
 link:../config/task_install_ca_signed_and_returned_https_certificate.html#example-certificate-chain[Installing a CA signed and returned HTTPS certificate]
 // 2025-6-11, ONTAPDOC-133
+// 2025-7-2, ONTAPDOC-125
