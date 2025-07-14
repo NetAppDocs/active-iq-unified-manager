@@ -20,8 +20,9 @@ For example, if your installed version is Unified Manager 9.9 and you want to up
 .Sample upgrade path: 
 
 . Upgrade 9.11 -> 9.13
-. Upgrade 9.13 -> 9.14
+. Upgrade 9.13 -> 9.14 
+. Upgrade 9.13 -> 9.16
 . Upgrade 9.14 -> 9.16
 
 For more information on the upgrade path matrix, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions[knowledge base (KB) article].
-
+// 2025-7-10, OTHERDOC 107
