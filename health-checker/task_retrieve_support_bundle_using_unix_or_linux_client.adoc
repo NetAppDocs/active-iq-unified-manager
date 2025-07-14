@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retrieve, support bundle, unix, linux, client
 summary: "If you are a UNIX or Linux user, you can retrieve the support bundle from your vApp by using the command-line interface (CLI) on your Linux client server. You can use either SCP or SFTP to retrieve the support bundle."
 ---
-= Retrieving the support bundle using a UNIX or Linux client
+= Retrieve the support bundle using a UNIX or Linux client
 :icons: font
 :imagesdir: ../media/
 
@@ -59,3 +59,4 @@ Connected to 10.228.212.69.
 Fetching /support/support_bundle_20130216_145359.7z to ./support_bundle_20130216_145359.7z
 /support/support_bundle_20160216_145359.7z
 ----
+// 2025-6-11, OTHERDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, volume, offline issues
 summary: "This workflow provides an example of how you might evaluate and resolve a volume offline event that Unified Manager might display in the Event Management inventory page. In this scenario, you are an administrator using Unified Manager to troubleshoot one or more volume offline events."
 ---
-= Resolving volume offline issues
+= Resolve volume offline issues
 :icons: font
 :imagesdir: ../media/
 
@@ -41,3 +41,4 @@ In this example, the information in the Cause field informs you only that the vo
  ** Click the source of the event, in this case the volume that is reported offline, to get more information about that volume.
  ** Assign the event to an administrator.
  ** Acknowledge the event or, if appropriate, mark it as resolved.
+// 2025-6-11, OTHERDOC-133

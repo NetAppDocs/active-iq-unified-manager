@@ -76,6 +76,38 @@ a|
 9443
 a|
 Used to access realtime REST API-based EMS events from authenticated ONTAP systems.
+a|
+MySQL database
+a|
+MySQL
+a|
+3306
+a|
+Used to enable OnCommand Workflow Automation and OnCommand API Services access to Unified Manager.
+a|
+AMQP QPID broker
+a|
+TCP/IP
+a|
+56072
+a|
+Used for internal message communication.
+a|
+AMQP QPID broker
+a|
+WebSocket over TCP
+a|
+56080
+a|
+Used to listen on this port for messages received from ONTAP (cloud agent).
+a|
+AMQP QPID broker
+a|
+WebSocket over TCP
+a|
+56443
+a|
+Used to listen on this port for messages received from ONTAP (cloud agent). The communication over this port supports encryption provided by TLS or SSL.
 |===
 
 [NOTE]
@@ -175,5 +207,6 @@ a|
 Used by Unified Manager to send audit logs to a remote syslog server.
 
 |===
+// 2025-3-21, OTHERDOC111
 // 2024-11-8, OTHERDOC87
 // 2025-5-8, OTHERDOC-111

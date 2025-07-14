@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, imbalance, performance, events
 summary: "Unified Manager generates cluster imbalance warning events when one node in a cluster is operating at a much higher load than other nodes, and therefore potentially affecting workload latencies. These system-defined events provide the opportunity to correct potential performance issues before many workloads are affected by latency."
 ---
-= Responding to cluster imbalance performance events
+= Respond to cluster imbalance performance events
 :icons: font
 :imagesdir: ../media/
 
@@ -51,3 +51,4 @@ For example, the message "`The performance capacity used counter indicates a loa
 You can perform the move operation by using ONTAP System Manager, OnCommand Workflow Automation, ONTAP commands, or a combination of these tools.
 
 After a few days, check to see whether you are receiving the same cluster imbalance event from this cluster.
+// 2025-6-11, OTHERDOC-133

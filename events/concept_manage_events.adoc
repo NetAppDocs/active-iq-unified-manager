@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, events
 summary: "Events help you to identify issues in the clusters that are monitored."
 ---
-= Managing events
+= Manage events
 :icons: font
 :imagesdir: ../media/
 

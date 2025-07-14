@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, manage, clusters, dashboard
 summary: "The dashboard provides cumulative at-a-glance information about the current health of your monitored ONTAP systems. The dashboard provides “panels” that enable you to assess the overall capacity, performance, and security health of the clusters you are monitoring."
 ---
-= Monitoring and managing clusters from the dashboard
+= Monitor and manage clusters from the dashboard
 :icons: font
 :imagesdir: ../media/
 
@@ -55,3 +55,4 @@ Usage Overview
 a|
 Displays clusters sorted by highest IOPS, highest throughput (MBps), or highest used physical capacity.
 |===
+// 2025-6-11, OTHERDOC-133

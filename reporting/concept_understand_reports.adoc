@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, reports
 summary: "Reports display detailed information about storage, network, quality of service, and protection relationships, helping you to identify and solve potential problems before they occur."
 ---
-= Understanding reports
+= Understand reports
 :icons: font
 :imagesdir: ../media/
 
@@ -21,3 +21,4 @@ You must have the Application Administrator or Storage Administrator role to man
 ====
 
 You can download reports as comma-separated values (CSV), Excel, or PDF files.
+// 2025-6-11, OTHERDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, annotation rules
 summary: "You can create annotation rules that Unified Manager uses to dynamically annotate storage objects such as volumes, clusters, or storage virtual machines (SVMs)."
 ---
-= Creating annotation rules
+= Create annotation rules
 :icons: font
 :imagesdir: ../media/
 
@@ -69,3 +69,4 @@ Perform the following steps in the Add Annotation Rule dialog box to create an a
 . Click *Add condition*.
 . Repeat steps 8 through 10 by selecting *data-priority* as the operand in step 8, *Is* as the operator in step 9, and *mission-critical* as the value in step 10.
 . Click *Add*.
+// 2025-6-11, OTHERDOC-133

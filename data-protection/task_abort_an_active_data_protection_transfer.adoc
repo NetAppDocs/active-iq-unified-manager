@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, active data protection, transfer, volume relationships page, SnapMirror active sync
 summary: "You can abort an active data protection transfer when you want to stop a SnapMirror replication that is in progress. You can also clear the restart checkpoint for transfers subsequent to the baseline transfer. You might abort a transfer when it conflicts with another operation, such as a volume move."
 ---
-= Aborting an active data protection transfer from the Volume Relationships page
+= Abort an active data protection transfer from the Volume Relationships page
 :icons: font
 :imagesdir: ../media/
 

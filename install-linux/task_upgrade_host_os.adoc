@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, host OS, red hat enterprise, linux 7.x, 8.x
 summary: "If you previously installed Unified Manager on a Red Hat Enterprise Linux 7.x system and need to upgrade to Red Hat Enterprise Linux 8.x, you must follow one of the procedures listed in this topic. In both cases you must create a backup of Unified Manager on the Red Hat Enterprise Linux 7.x system, and then restore the backup onto a Red Hat Enterprise Linux 8.x system."
 ---
-= Upgrading the host OS from Red Hat Enterprise Linux 7.x to 8.x
+= Upgrade the host OS from Red Hat Enterprise Linux 7.x to 8.x
 :icons: font
 :imagesdir: ../media/
 
@@ -63,3 +63,4 @@ Do not launch the UI or configure any clusters, users, or authentication setting
 
 // 15-November-2024 OTHERDOC-81
 // 2024 AUG 12, CAIQUM-6284
+// 2025-6-11, OTHERDOC-133

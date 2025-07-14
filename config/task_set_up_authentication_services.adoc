@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, authentication, services
 summary: "Authentication services enable the authentication of remote users or remote groups in an authentication server before providing them access to Unified Manager. You can authenticate users by using predefined authentication services (such as Active Directory or OpenLDAP), or by configuring your own authentication mechanism."
 ---
-= Setting up authentication services
+= Set up authentication services
 :icons: font
 :imagesdir: ../media/
 
@@ -63,3 +63,4 @@ If you want to modify the authentication service, you must delete any existing a
 ====
 
 . Click *Save*.
+// 2025-6-11, OTHERDOC-133

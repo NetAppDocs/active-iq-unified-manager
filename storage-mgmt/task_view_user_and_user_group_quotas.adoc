@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, user, user, group, quotas
 summary: "The Storage VM / Health details page displays information about the user and user group quotas that are configured on the SVM. You can view the name of the user or user group, limits set on the disks and files, used disk and file space, and email address for notification."
 ---
-= Viewing user and user group quotas
+= View user and user group quotas
 :icons: font
 :imagesdir: ../media/
 
@@ -23,3 +23,4 @@ You must have the Operator, Application Administrator, or Storage Administrator 
 *Related information*
 
 link:../config/task_add_users.html[Adding users]
+// 2025-6-11, OTHERDOC-133

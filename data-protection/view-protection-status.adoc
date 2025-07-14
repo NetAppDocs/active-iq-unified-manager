@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume relationship, protection status, dashboard protection card, protection widget, lag, relationship health, healthy relationship, lag threshold, relationship event, source cluster, snapmirror, snapshot
 summary: "The Data Protection page presents a holistic view of the data protection details for all the protected volumes in your data center."
 ---
-= Viewing volume protection status
+= View volume protection status
 :icons: font
 :imagesdir: ../media/
 
@@ -73,3 +73,4 @@ Clicking the events on this page takes you to the Event details page. You can cl
 == View clusters protected by MetroCluster configuration
 
 The *MetroCluster Protection* panel on the *Data Protection* page displays the number of clusters protected or not protected by MetroCluster over FC or IP configuration at your site. Clicking the bar charts on this panel takes you to the Clusters page where the cluster details are filtered based on the protected or unprotected clusters. For information about monitoring your MetroCluster configuration, see link:../storage-mgmt/task_monitor_metrocluster_configurations.html[Monitoring MetroCluster configurations].
+// 2025-6-11, OTHERDOC-133

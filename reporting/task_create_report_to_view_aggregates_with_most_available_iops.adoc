@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, available, IOPS
 summary: "This report shows which aggregates have the most available IOPS per aggregate type on which you can provision new workloads."
 ---
-= Creating a report to view aggregates that have the most available IOPS
+= Create a report to view aggregates that have the most available IOPS
 :icons: font
 :imagesdir: ../media/
 
@@ -69,3 +69,4 @@ Select the *XLSX* format for the report.
 The report is sent immediately as a test. After that, the report generates and is sent by email to the recipients listed using the specified frequency.
 
 Based on the results shown in the report, you might want to provision new workloads on the aggregates that have the greatest available IOPS.
+// 2025-6-11, OTHERDOC-133

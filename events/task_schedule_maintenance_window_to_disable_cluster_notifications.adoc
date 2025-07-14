@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, maintenance, window, disable, cluster, event, notifications
 summary: "If you have a planned downtime for a cluster, for example, to upgrade the cluster or to move one of the nodes, you can suppress the events and alerts that would normally be generated during that timeframe by scheduling a Unified Manager maintenance window."
 ---
-= Scheduling a maintenance window to disable cluster event notifications
+= Schedule a maintenance window to disable cluster event notifications
 :icons: font
 :imagesdir: ../media/
 
@@ -30,3 +30,4 @@ The calendar window is displayed.
 The message "Scheduled" appears next to the slider button.
 
 When the start time is reached the cluster goes into maintenance mode and an "Object Maintenance Window Started" event is generated.
+// 2025-6-11, OTHERDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, resource, pool, members
 summary: "A resource pool consists of a number of member aggregates. You can add aggregates to existing resource pools to increase the amount of space available for secondary volume provisioning."
 ---
-= Adding resource pool members
+= Add resource pool members
 :icons: font
 :imagesdir: ../media/
 

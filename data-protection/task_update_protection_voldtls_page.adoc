@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, health details page
 summary: "You can perform a first-time baseline transfer on a new protection relationship, or update a relationship if it is already initialized and you want to perform a manual, unscheduled incremental update to transfer data immediately."
 ---
-= Initializing or updating protection relationships from the Volume / Health details page
+= Initialize or update protection relationships from the Volume / Health details page
 :icons: font
 :imagesdir: ../media/
 
@@ -53,3 +53,4 @@ A filtered list of jobs is displayed.
 . *Optional:* Click the Back arrow on your browser to return to the *Volume / Health* details page.
 +
 The initialization or update operation is finished when all job tasks successfully complete.
+// 2025-6-11, OTHERDOC-133

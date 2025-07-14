@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager, virtual, machine
 summary: "You can restart the Unified Manager virtual machine (VM) from the maintenance console. You should restart the VM after generating a new security certificate, or if there is a problem with the VM."
 ---
-= Restarting the Unified Manager virtual machine
+= Restart the Unified Manager virtual machine
 :icons: font
 :imagesdir: ../media/
 
@@ -26,3 +26,4 @@ You can also restart the virtual machine from vSphere by using the VMware *Resta
 *Related information*
 
 https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html[VMware vSphere PowerCLI Cmdlets Reference: Restart-VMGuest]
+// 2025-6-11, OTHERDOC-133

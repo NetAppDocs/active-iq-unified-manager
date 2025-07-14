@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, volume, health, threshold values
 summary: "You can configure the global health threshold values for all volumes to track any threshold breach. Appropriate events are generated for health threshold breaches, and you can take preventive measures based on these events. You can configure the global values based on the best practice settings for thresholds that apply to all monitored volumes."
 ---
-= Configuring global volume health threshold values
+= Configure global volume health threshold values
 :icons: font
 :imagesdir: ../media/
 
@@ -32,3 +32,4 @@ The default value of 1000 Snapshot copies is applicable only to FlexVol volumes 
 *Related information*
 
 link:../config/task_add_users.html[Adding users]
+// 2025-6-11, OTHERDOC-133

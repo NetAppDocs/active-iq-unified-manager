@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filter, data, object, inventory, performance, pages
 summary: "You can filter data in the Object Inventory Performance pages to quickly locate data based on specific criteria. You can use filtering to narrow the contents of the Object Inventory Performance pages to show only the results you have specified. This provides a very efficient method of displaying only the performance data in which you are interested."
 ---
-= Filtering data in the Object Inventory Performance pages
+= Filter data in the Object Inventory Performance pages
 :icons: font
 :imagesdir: ../media/
 
@@ -50,3 +50,4 @@ The illustration shows the Filtering panel with three filters. The *+Add Filter*
 image::../media/opm_filtering_panel_draft_3.gif[A UI screenshot that shows Filtering panel with three filters.]
 
 After clicking *Apply Filter*, the Filtering panel closes, applies your filters, and shows the number of filters applied (image:../media/opm_filters_applied.gif[]).
+// 2025-6-11, OTHERDOC-133

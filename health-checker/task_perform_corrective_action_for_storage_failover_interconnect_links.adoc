@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, corrective action, storage failover, interconnect links
 summary: "When you display the Event details page of a storage failover-related event, you can review the summary information of the page to determine the urgency of the event, possible cause of the issue, and possible resolution to the issue."
 ---
-= Performing corrective action for storage failover interconnect links down
+= Perform corrective action for storage failover interconnect links down
 :icons: font
 :imagesdir: ../media/
 
@@ -56,3 +56,4 @@ Using the node location information in the HA Details, request or personally com
 link:../events/reference_event_details_page.html[Event details page]
 
 link:../config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]
+// 2025-6-11, OTHERDOC-133

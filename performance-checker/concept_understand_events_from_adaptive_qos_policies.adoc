@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, adaptive, qos, policies, defined, block, size
 summary: "Adaptive QoS policy groups automatically scale a throughput ceiling or floor based on the volume size, maintaining the ratio of IOPS to TBs as the size of the volume changes. Starting with ONTAP 9.5 you can specify the block size in the QoS policy to effectively apply a MB/s threshold at the same time."
 ---
-= Understanding events from adaptive QoS policies that have a defined block size
+= Understand events from adaptive QoS policies that have a defined block size
 :icons: font
 :imagesdir: ../media/
 
@@ -54,3 +54,4 @@ If the volume is using 2TB of the available space, and the IOPS is 4,000, and th
 For this reason, when an event is triggered based on a MB/s breach for an adaptive QoS policy that includes the block size, a MB/s chart is displayed in the System Diagnosis section of the Event details page. If the event is triggered based on an IOPS breach for the adaptive QoS policy, an IOPS chart is displayed in the System Diagnosis section. If a breach occurs for both IOPS and MB/s you will receive two events.
 
 For more information on adjusting QoS settings, see https://docs.netapp.com/us-en/ontap/performance-admin/index.html[Performance management overview].
+// 2025-6-11, OTHERDOC-133

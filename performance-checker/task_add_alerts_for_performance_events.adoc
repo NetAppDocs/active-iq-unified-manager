@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts, performance, events
 summary: "You can configure alerts for individual performance events just like any other events received by Unified Manager. Additionally, if you want to treat all performance events alike and have email sent to the same person, you can create a single alert to notify you when any critical or warning performance events are triggered."
 ---
-= Adding alerts for performance events
+= Add alerts for performance events
 :icons: font
 :imagesdir: ../media/
 
@@ -33,3 +33,4 @@ Because no resources are selected, the alert is applied to all clusters, aggrega
 . Click *Actions* and then select the name of the user who will receive the alert email in the *Alert these users* field.
 . Configure any other options on this page for issuing SNMP taps and executing a script.
 . Click *Save*.
+// 2025-6-11, OTHERDOC-133

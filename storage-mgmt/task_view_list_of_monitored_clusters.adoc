@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, list, monitored, clusters
 summary: "You can use the Cluster Setup page to view your inventory of clusters. You can view details about the clusters, such as their name or IP address and communication status."
 ---
-= Viewing the list of monitored clusters
+= View the list of monitored clusters
 :icons: font
 :imagesdir: ../media/
 
@@ -20,3 +20,4 @@ You must have the Operator, Application Administrator, or Storage Administrator 
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
 +
 All the clusters in your storage environment managed by Unified Manager are displayed.The list of clusters is sorted by the collection state severity level column. You can click a column header to sort the clusters by different columns.
+// 2025-6-11, OTHERDOC-133

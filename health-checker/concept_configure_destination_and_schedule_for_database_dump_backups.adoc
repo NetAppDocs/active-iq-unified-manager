@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies
 summary: "You can configure the Unified Manager database dump backup settings to set the database backup path, retention count, and backup schedule. You can enable daily or weekly scheduled backups. By default, scheduled backups are disabled, but you should set a backup schedule."
 ---
-= Configuring the destination and schedule for database dump backups
+= Configure the destination and schedule for database dump backups
 :icons: font
 :imagesdir: ../media/
 
@@ -45,3 +45,4 @@ The default value for retention count is 10; you can use 0 for creating unlimite
 . Click *Apply*.
 
 Database dump backup files are created based on the schedule. You can see the available backup files in the Database Backup page.
+// 2025-6-10, ONTAPDOC-133

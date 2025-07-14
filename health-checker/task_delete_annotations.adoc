@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, annotations
 summary: "You can delete custom annotations and their values when they are no longer required."
 ---
-= Deleting annotations
+= Delete annotations
 :icons: font
 :imagesdir: ../media/
 
@@ -24,3 +24,4 @@ The details of the selected annotation are displayed.
 
 . Click *Actions* > *Delete* to delete the selected annotation and its value.
 . In the warning dialog box, click *Yes* to confirm the deletion.
+// 2025-6-11, OTHERDOC-133

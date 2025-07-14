@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, protection, relationship, failover, failback
 summary: "When a source volume in your protection relationship is disabled because of a hardware failure or a disaster, you can use the protection relationship features in Unified Manager to make the protection destination read/write accessible and fail over to that volume until the source is online again; then, you can fail back to the original source when it is available to serve data."
 ---
-= Performing a protection relationship failover and failback
+= Perform a protection relationship failover and failback
 :icons: font
 :imagesdir: ../media/
 
@@ -41,3 +41,4 @@ When the reversed relationship is no longer required, you should remove that rel
 . link:task_resynchronize_protection_relationships_voldtls.html[Resynchronize the relationship].
 +
 Use the resynchronize operation to synchronize data from the source to the destination and to reestablish the original relationship.
+// 2025-6-11, OTHERDOC-133
