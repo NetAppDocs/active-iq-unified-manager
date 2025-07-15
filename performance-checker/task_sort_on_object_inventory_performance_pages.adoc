@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, object, inventory, performance, pages
 summary: "You can sort all data on Object Inventory Performance pages by any column in ascending or descending order. This enables you to quickly locate object inventory data, which is helpful when examining performance or beginning a troubleshooting process."
 ---
-= Sorting on the Object Inventory Performance pages
+= Sort on the Object Inventory Performance pages
 :icons: font
 :imagesdir: ../media/
 
@@ -17,3 +17,4 @@ The selected column for sorting is indicated by a highlighted column heading nam
 . You can click a column name to toggle the sort order of the column in ascending or descending order.
 +
 The Object Inventory Performance page contents are sorted in ascending or descending order, based on the selected column.
+// 2025-6-11, OTHERDOC-133

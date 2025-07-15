@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, qtree, health, threshold values
 summary: "You can configure the global health threshold values for all qtrees to track any threshold breach. Appropriate events are generated for health threshold breaches, and you can take preventive measures based on these events. You can configure the global values based on the best practice settings for thresholds that apply to all monitored qtrees."
 ---
-= Configuring global qtree health threshold values
+= Configure global qtree health threshold values
 :icons: font
 :imagesdir: ../media/
 
@@ -23,3 +23,4 @@ Events are generated for a qtree only when a Qtree quota or a Default quota has 
 . In the left navigation pane, click *Event Thresholds* > *Qtree*.
 . Configure the appropriate capacity threshold values.
 . Click *Save*.
+// 2025-6-11, OTHERDOC-133

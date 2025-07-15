@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, svm, iops, traffic, protocol
 summary: "You can view detailed IOPS information for an SVM by using the Performance/SVM Explorer page. The IOPS - Total counter chart shows total IOPS usage on the SVM, and the IOPS - Breakdown counter chart is useful for determining the impact of read, write, and other IOPS on the SVM."
 ---
-= Viewing SVM IOPS traffic by protocol
+= View SVM IOPS traffic by protocol
 :icons: font
 :imagesdir: ../media/
 
@@ -31,3 +31,4 @@ The IOPS advanced protocol comparative chart is displayed. You can restrict the 
 . To view the specific values, move your cursor into the chart area of either chart to see the popup window.
 
 //OTHERDOC-60 10 june 2024
+// 2025-6-11, OTHERDOC-133

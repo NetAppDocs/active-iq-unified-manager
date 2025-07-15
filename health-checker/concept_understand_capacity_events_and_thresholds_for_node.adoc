@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, thresholds, node, root, aggregates
 summary: "You can monitor the node root aggregate by using Unified Manager. The best practice is to thickly provision the root volume in the root aggregate to prevent the node from halting."
 ---
-= Understanding events and thresholds for node root aggregates
+= Understand events and thresholds for node root aggregates
 :icons: font
 :imagesdir: ../media/
 
@@ -16,3 +16,4 @@ By default, capacity and performance events are not generated for root aggregate
 You can take appropriate actions to prevent the node from halting by using either ONTAP System Manager or the ONTAP CLI.
 
 NOTE: The functionality of monitoring node root aggregates is not available, if clusters run ONTAP 9.14.1 version or later.
+// 2025-6-10, ONTAPDOC-133

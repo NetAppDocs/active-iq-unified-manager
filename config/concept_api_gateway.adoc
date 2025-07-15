@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: api gateway
 summary: "The API Gateway feature allows Active IQ Unified Manager to be a single control plane from which you can manage multiple ONTAP clusters, without logging in to them individually."
 ---
-= Enabling API Gateway
+= Enable API Gateway
 :icons: font
 :imagesdir: ../media/
 
@@ -18,3 +18,4 @@ Unified Manager REST APIs are different from the ONTAP REST APIs, and not all th
 After enabling this feature, you can execute the Unified Manager REST APIs from *Menu Bar* > *Help button* > *API Documentation* > *gateway* category. Alternatively, you can enter the host name or IP address and the URL to access the REST API page in the format `https://<hostname>/docs/api/`
 
 For more information about the APIs, see link:../api-automation/concept_get_started_with_um_apis.html[Getting started with Active IQ Unified Manager REST APIs].
+// 2025-6-11, OTHERDOC-133

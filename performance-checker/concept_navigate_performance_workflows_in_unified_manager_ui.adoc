@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: navigating, performance, workflows, unified manager, gui
 summary: "The Unified Manager interface provides many pages for the collection and display of performance information. You use the left navigation panel to navigate to pages in the GUI, and you use tabs and links on the pages to view and configure information."
 ---
-= Navigating performance workflows in the Unified Manager GUI
+= Navigate performance workflows in the Unified Manager GUI
 :icons: font
 :imagesdir: ../media/
 
@@ -18,3 +18,4 @@ You use all of the following pages to monitor and troubleshoot cluster performan
 * storage object details pages (including the performance explorer)
 * configuration and setup pages
 * events pages
+// 2025-6-11, OTHERDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, imported, reports
 summary: "You can schedule existing reports that were created and imported in an earlier release of Unified Manager."
 ---
-= Scheduling imported .rptdesign reports
+= Schedule imported .rptdesign reports
 :icons: font
 :imagesdir: ../media/
 
@@ -34,3 +34,4 @@ image::../media/importedreport1.png[A UI screenshot that shows the SQL query use
 ====
 You can also delete any unwanted reports from the more icon image:../media/more_icon.gif[].
 ====
+// 2025-6-11, OTHERDOC-133

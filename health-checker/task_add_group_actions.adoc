@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, group, actions
 summary: "You can configure group actions that you want to apply to storage objects in a group. Configuring actions for a group enables you to save time, because you do not have to add these actions to each object individually."
 ---
-= Adding group actions
+= Add group actions
 :icons: font
 :imagesdir: ../media/
 
@@ -26,3 +26,4 @@ The dialog box expands, enabling you to configure the selected action type with 
 
 . Enter appropriate values for the required parameters to configure a group action.
 . Click *Add*.
+// 2025-6-11, OTHERDOC-133

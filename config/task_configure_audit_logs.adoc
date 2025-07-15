@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, audit logs
 summary: "You can use the Configure button in the Audit Logs section to configure rolling policy for Audit Log files and to also enable remote logging for the Audit Logs."
 ---
-= Configuring audit logs
+= Configure audit logs
 :icons: font
 :imagesdir: ../media/
 
@@ -19,3 +19,4 @@ You can set the values in the *MAX FILE SIZE* and *AUDIT LOG RETENTION DAYS* as 
 . Enter values in the *MAX FILE SIZE*, *TOTAL AUDIT LOG SIZE*, and *AUDIT LOG RETENTION DAYS*.
 +
 If you want to enable remote logging, then you should select the *Enable Remote Logging*.
+/// 2025-6-11, OTHERDOC-133

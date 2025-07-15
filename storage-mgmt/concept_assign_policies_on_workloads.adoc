@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls
 summary: "You can assign Storage Efficiency Policies (SEPs) and Performance Service Levels (PSLs) to storage workloads from the All Workloads page by using the different navigation options."
 ---
-= Assigning policies to workloads
+= Assign policies to workloads
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can assign Storage Efficiency Policies (SEPs) and Performance Service Levels (PSLs) to storage workloads from the All Workloads page by using the different navigation options.
 
-== Assigning policies to a single workload
+== Assign policies to a single workload
 
 You can assign either a PSL or an SEP or both, to a single workload. Follow these steps:
 
@@ -28,7 +28,7 @@ The *Assigned Performance Service Level* and *Storage Efficiency Policy* fields 
 You can also select a workload and click *More Actions* to assign the policies.
 ====
 
-== Assigning policies to multiple storage workloads
+== Assign policies to multiple storage workloads
 
 You can assign a PSL or an SEP to multiple storage workloads together. Follow these steps:
 
@@ -42,7 +42,7 @@ You can assign a PSL or an SEP to multiple storage workloads together. Follow th
 Applying policies on workloads in bulk might take some time depending on the number of workloads selected. You can click the *Run in background* button and continue with other tasks while the operation runs in the background. When the bulk assignment is complete, you can view the completion status. If you are applying a PSL on multiple workloads, you cannot trigger another request when the previous job of bulk assignment is running.
 ====
 
-== Assigning system-recommended PSLs to workloads
+== Assign system-recommended PSLs to workloads
 
 You can assign system-recommended PSLs to those storage workloads in a data center that have no PSLs assigned, or the assigned PSLs do not match the system recommendation. To use this functionality, click the *Assign System Recommended PSLs* button. You do not have to select specific workloads.
 
@@ -54,3 +54,4 @@ There are special keywords that Unified Manager looks for in the workload name t
 ====
 
 Also see the knowledge base (KB) article https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Performance_Service_Level'_is_not_adaptive_to_a_highly_variable_workload[ActiveIQ Unified Manager 'Assign System Recommended Performance Service Level' is not adaptive to a highly variable workload]
+// 2025-6-11, OTHERDOC-133

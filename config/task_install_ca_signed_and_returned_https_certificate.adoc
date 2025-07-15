@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, ca signed, returned, https, certificate
 summary: "You can upload and install a security certificate after a Certificate Authority has signed and returned it. The file that you upload and install must be a signed version of the existing self-signed certificate. A CA-signed certificate helps prevent man-in-the middle attacks and provides better security protection than a self-signed certificate."
 ---
-= Installing a CA signed and returned HTTPS certificate
+= Install a CA signed and returned HTTPS certificate
 :icons: font
 :imagesdir: ../media/
 
@@ -53,3 +53,4 @@ The following example shows how the certificate chain file might appear:
 <*Root signing certificate*>
 -----END CERTIFICATE-----
 ----
+// 2025-6-11, OTHERDOC-133

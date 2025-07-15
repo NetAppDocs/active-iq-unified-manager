@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, available, iops, values
 summary: "You can monitor the available IOPS values for all nodes or for all aggregates in a cluster, or you can view details for a single node or aggregate."
 ---
-= Viewing node and aggregate available IOPS values
+= View node and aggregate available IOPS values
 :icons: font
 :imagesdir: ../media/
 
@@ -15,8 +15,9 @@ Available IOPS values appear in the Performance Inventory pages and in the Perfo
 
 image::../media/available_iops_zoom.gif[A UI screenshot that shows how you can view a node in the Node/Performance Explorer page and select the “Available IOPS” from the list.]
 
-Monitoring the available IOPS counter enables you to identify:
+Monitor the available IOPS counter enables you to identify:
 
 * The nodes or aggregates that have the greatest available IOPS values to help determine where future workloads can be deployed.
 * The nodes or aggregates that have the smallest available IOPS values to identify the resources you should monitor for potential future performance issues.
 * The busiest volumes and LUNs on an aggregate that has a small available IOPS value.
+// 2025-6-11, OTHERDOC-133

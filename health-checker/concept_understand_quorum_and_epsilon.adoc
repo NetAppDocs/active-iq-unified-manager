@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, quorum, epsilon
 summary: "Quorum and epsilon are important measures of cluster health and function that together indicate how clusters address potential communications and connectivity challenges."
 ---
-= Understanding quorum and epsilon
+= Understand quorum and epsilon
 :icons: font
 :imagesdir: ../media/
 
@@ -26,3 +26,4 @@ Taking a node offline can affect the ability of the cluster to remain in quorum.
 In general, assuming reliable connectivity among the nodes of the cluster, a larger cluster is more stable than a smaller cluster. The quorum requirement of a simple majority of half the nodes plus epsilon is easier to maintain in a cluster of 24 nodes than in a cluster of two nodes.
 
 A two-node cluster presents some unique challenges for maintaining quorum. Two-node clusters use cluster HA, in which neither node holds epsilon; instead, both nodes are continuously polled to ensure that if one node fails, the other has full read-write access to data, as well as access to logical interfaces and management functions.
+// 2025-6-10, ONTAPDOC-133

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, data, volume, health details page
 summary: "You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Volume / Health details page."
 ---
-= Restoring data using the Volume and Volume / Health details pages
+= Restore data using the Volume and Volume / Health details pages
 :icons: font
 :imagesdir: ../media/
 
@@ -49,3 +49,4 @@ The restore process begins. A job is created at the backend to complete the rest
 ====
 If a restore operation fails between Cloud Volumes ONTAP HA clusters with an NDMP error, you may need to add an explicit AWS route in the destination cluster so that the destination can communicate with the source system's cluster management LIF. You perform this configuration step by using BlueXP.
 ====
+// 2025-6-11, OTHERDOC-133

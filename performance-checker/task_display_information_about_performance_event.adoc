@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, information, performance, events
 summary: "You can use the Event Management inventory page to view a list of all the performance events on the clusters being monitored by Unified Manager. By viewing this information you can determine the most critical events and then drill down to detailed information to determine the cause of the event."
 ---
-= Displaying information about performance events
+= Display information about performance events
 :icons: font
 :imagesdir: ../media/
 
@@ -39,3 +39,4 @@ The details page for the event displays.
 ====
 You can also display the details page for an event by clicking the event name link from the Performance Explorer page and from an alert email.
 ====
+// 2025-6-11, OTHERDOC-133

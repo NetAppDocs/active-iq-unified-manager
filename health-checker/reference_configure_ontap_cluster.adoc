@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, snapshot copy, copies, backup, windows, configure, ontap, cluster
 summary: "You need to perform few pre-configuration steps on ONTAP clusters before you can back up and restore Active IQ Unified Manager using Snapshot copy on Windows systems."
 ---
-= Configuring ONTAP cluster
+= Configure ONTAP cluster
 :icons: font
 :imagesdir: ../media/
 
@@ -31,3 +31,4 @@ In a scenario when the LUN is created on System Manager, unmapping the LUN might
 . Configure a port set.
 . Integrate the igroup with the portset.
 . Map the LUN to the igroup.
+// 2025-6-10, ONTAPDOC-133

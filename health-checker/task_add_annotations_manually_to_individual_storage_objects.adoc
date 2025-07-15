@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, annotations, manually, individual, storage objects
 summary: "You can manually annotate selected volumes, clusters, and SVMs without using annotation rules. You can annotate a single storage object or multiple storage objects, and specify the required name-value pair combination for the annotation."
 ---
-= Adding annotations manually to individual storage objects
+= Add annotations manually to individual storage objects
 :icons: font
 :imagesdir: ../media/
 
@@ -47,3 +47,4 @@ a|
 
 . Click *Annotate* and select a name-value pair.
 . Click *Apply*.
+// 2025-6-11, OTHERDOC-133

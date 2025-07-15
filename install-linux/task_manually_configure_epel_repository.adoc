@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manually, configure, epel repository
 summary: "If the system on which you are installing Unified Manager does not have access to the Extra Packages for Enterprise Linux (EPEL) repository, then you must manually download and configure the repository for a successful installation."
 ---
-= Manually configuring the EPEL repository
+= Manually configure the EPEL repository
 :icons: font
 :imagesdir: ../media/
 

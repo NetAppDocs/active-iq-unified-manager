@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: script upload, enable, disable
 summary: "The ability to upload scripts to Unified Manager and run them is enabled by default. If your organization does not want to allow this activity because of security reasons, you can disable this functionality."
 ---
-= Enabling and disabling scripts upload
+= Enable and disable scripts upload
 :icons: font
 :imagesdir: ../media/
 
@@ -32,3 +32,4 @@ Enable scripts
 a|
 In the *Script Upload* panel, move the slider button to the right.
 |===
+// 2025-6-11, OTHERDOC-133

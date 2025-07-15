@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, initial, setup, unified manager web ui
 summary: "To use Unified Manager, you must first configure the initial setup options, including the NTP server, the maintenance user email address, the SMTP server host, and adding ONTAP clusters."
 ---
-= Performing the initial setup of the Unified Manager web UI
+= Perform the initial setup of the Unified Manager web UI
 :icons: font
 :imagesdir: ../media/
 
@@ -50,3 +50,4 @@ This step is optional. You can add clusters later in the web UI from *Storage Ma
 
 The Getting Started page closes and the Unified Manager Dashboard page is displayed.
 // 2024-11-8, OTHERDOC87
+// 2025-6-11, OTHERDOC-133

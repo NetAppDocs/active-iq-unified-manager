@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, relationship, version-flexible, replication
 summary: "You can create a SnapMirror relationship with version-flexible replication. Version-flexible replication enables you to implement SnapMirror protection even if source and destination volumes run under different versions of ONTAP."
 ---
-= Creating a SnapMirror relationship with version-flexible replication
+= Create a SnapMirror relationship with version-flexible replication
 :icons: font
 :imagesdir: ../media/
 
@@ -44,3 +44,4 @@ The jobs tasks and details are displayed in the Job details page.
 . When the job tasks are complete, click *Back* on your browser to return to the *Volume / Health* details page.
 +
 The new relationship is displayed in the Volume / Health details page topology view.
+// 2025-6-11, OTHERDOC-133

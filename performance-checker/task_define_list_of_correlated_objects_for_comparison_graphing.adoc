@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: defining, list, correlated, objects, comparison, graphing
 summary: "You can define a list of correlated objects for data and performance comparison in the Counter Chart pane. For example, if your storage virtual machine (SVM) is experiencing a performance issue, you can compare all volumes in the SVM to identify which volume might be causing the issue."
 ---
-= Defining the list of correlated objects for comparison graphing
+= Define the list of correlated objects for comparison graphing
 :icons: font
 :imagesdir: ../media/
 
@@ -55,3 +55,4 @@ a|
 Click the remove all object's button (*X*) at the top of the Comparing pane.    All selected objects and their data are removed, leaving only the root object.
 
 |===
+// 2025-6-11, OTHERDOC-133
