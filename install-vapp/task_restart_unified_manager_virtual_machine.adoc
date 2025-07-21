@@ -25,5 +25,6 @@ You can also restart the virtual machine from vSphere by using the VMware *Resta
 
 *Related information*
 
-https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html[VMware vSphere PowerCLI Cmdlets Reference: Restart-VMGuest]
+https://developer.broadcom.com/powercli/latest/vmware.vimautomation.core/commands/restart-vmguest/[VMware vSphere PowerCLI Cmdlets Reference: Restart-VMGuest]
 // 2025-6-11, OTHERDOC-133
+// 2025-21-7, GitHub issue 59
