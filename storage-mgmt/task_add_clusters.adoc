@@ -26,7 +26,7 @@ This account must have the _admin_ role with Application access set to _ontapi_,
 //BURT 1452466
 
 ** You must know the port number to connect to the cluster using the HTTPS protocol (typically port 443).
-** The cluster must be running ONTAP version 9.1 software or greater.
+** The cluster must be running ONTAP version 9.9 software or greater.
 ** You must have adequate space on the Unified Manager server. You are prevented from adding a cluster to the server when greater than 90% of space is already consumed.
 ** You have the required certificates:
 +
@@ -87,3 +87,4 @@ link:../health-checker/task_view_cluster_list_and_details.html[Viewing the clust
 link:../config/task_install_ca_signed_and_returned_https_certificate.html#example-certificate-chain[Installing a CA signed and returned HTTPS certificate]
 // 2025-6-11, ONTAPDOC-133
 // 2025-7-2, ONTAPDOC-125
+// 2025-7-23, ONTAPDOC-136
