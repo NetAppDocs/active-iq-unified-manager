@@ -66,8 +66,8 @@ After all the objects for a new cluster are discovered, Unified Manager starts t
 
 [NOTE]
 ====
-* Because the collection of 15 days of performance data is CPU intensive, it is suggested that you stagger the addition of new clusters so that data continuity collection polls are not running on too many clusters at the same time. Additionally, if you restart Unified Manager during the data continuity collection period, the collection will be halted and you will see gaps in the performance charts for the missing timeframe.
-* When adding an ONTAP cluster with version 9.14.1 or later, communication occurs through the cloud agent feature. ONTAP automatically creates an internal service account user with read-only privileges (for example, clus-agent-xxxx). Do not delete this `clus-agent` user from the ONTAP clusters, or Unified Manager will stop collecting data from those clusters.
+* The collection of 15 days of performance data is CPU intensive. NetApp recommends that you stagger the addition of new clusters so that data continuity collection polls are not running on too many clusters at the same time. Additionally, if you restart Unified Manager during the data continuity collection period, the collection is halted, and you will see gaps in the performance charts for the missing timeframe.
+* When you add an ONTAP cluster with version 9.14.1 or later, communication occurs through the cloud agent feature. ONTAP automatically creates an internal service account user with read-only privileges (for example, clus-agent-xxxx). Do not delete this `clus-agent` user from the ONTAP clusters. Unified Manager stops collecting data from those clusters if the `clus-agent` user is deleted.
 ====
 
 [TIP]
