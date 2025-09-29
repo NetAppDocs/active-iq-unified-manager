@@ -35,7 +35,7 @@ The Red Hat Enterprise Linux system might have all the required versions of the 
 |===
 | Required software and minimum version| Command to verify software and version
 a|
-OpenJDK version 11.0.25
+OpenJDK version 17.0.14+6
 a|
 `java -version`
 a|
@@ -144,3 +144,4 @@ Access the web UI to change the default password of the umadmin user, and perfor
 // 2024-11-8, OTHERDOC87
 // 2025-6-24, OTHERDOC-133
 // 2025-6-9, OTHERDOC 127
+// 2025-9-29, OTHERDOC 152

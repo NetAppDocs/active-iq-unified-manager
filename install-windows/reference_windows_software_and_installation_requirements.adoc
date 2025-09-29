@@ -42,8 +42,8 @@ The following third-party packages are bundled with Unified Manager. If these th
 
 * Microsoft Visual C{pp} Redistributable Packages for Visual Studio 2015 version 14.26.28720.3
 * MySQL Community Edition version 8.4.4
-* Python 3.12.4
-* OpenJDK version 11.0.25
+* Python 3.13.3
+* OpenJDK version 17.0.14+6
 * 7-zip version 23.01 or later
 
 [NOTE]

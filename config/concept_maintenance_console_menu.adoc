@@ -19,6 +19,7 @@ Depending on the operating system on which you have installed Unified Manager, t
 
 . Support/Diagnostics
 . Reset Server Certificate
+. Regenerate Client Certificate
 . External Data Provider
 . Backup Restore
 . Performance Polling Interval Configuration
@@ -29,3 +30,4 @@ Depending on the operating system on which you have installed Unified Manager, t
 . Exit
 
 You select the number from the list for accessing the specific menu option. For example, for backup and restore, you select _4_.
+// 2025-9-29, OTHERDOC 152
