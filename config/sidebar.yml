@@ -101,9 +101,7 @@ entries:
     - title: Add network interfaces
       url: "/config/task_add_additional_network_interfaces.html"
     - title: Add disk space to the Unified Manager database directory
-      url: "/config/concept_add_disk_space_to_um_database_directory.html"
-    - title: Regenerate the client certificate
-      url: "/config/task_regenerate_client_certificate.html"      
+      url: "/config/concept_add_disk_space_to_um_database_directory.html"      
       entries:
       - title: Add space to the data directory of the Linux host
         url: "/config/task_add_space_to_data_directory_of_um_linux_host.html"
@@ -111,6 +109,8 @@ entries:
         url: "/config/task_add_space_to_data_disk_of_vmware_virtual_machine.html"
       - title: Add space to the logical drive of the Microsoft Windows server
         url: "/config/task_add_space_to_data_disk_of_windows_server.html"
+    - title: Regenerate the client certificate
+      url: "/config/task_regenerate_client_certificate.html"         
   - title: Manage user access
     url: "/config/concept_manage_user_access.html"
     entries:

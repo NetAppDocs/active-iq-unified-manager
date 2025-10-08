@@ -9,7 +9,7 @@ summary: ""
 :imagesdir: ../media/
 
 [.lead]
-You can regenerate the client certificates for Unified Manager using the maintainance console. This generates the certificate in the cluster with an extended validity of 5 years.
+You can use the maintenance console to regenerate your Unified Manager client certificate. Your certificate, which is generated in the cluster, has an extended validity period of 5 years.
 
 .Before you begin
 You must have the required privileges to perform this operation.
@@ -21,6 +21,6 @@ You must have the required privileges to perform this operation.
 . If the system prompts for authentication, enter the required credentials.
 . Select *Confirm Regeneration* and press *Enter*.
 . After the certificate is regenerated, restart the Unified Manager service to apply the changes.
-. You can verify the updated certificate by logging into ONTAP and checking the client certificate status. and updated validity. How do I check the client cert status in ONTAP ? 
+. To verify the updated certificate log into ONTAP. View the *client certificate* status and the *validity* status. 
 
 // 2025-7-10, OTHERDOC 152
