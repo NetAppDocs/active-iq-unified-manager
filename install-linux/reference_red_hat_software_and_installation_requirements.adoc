@@ -34,7 +34,7 @@ The following third-party packages are required, but not included with Unified M
 
 * MySQL Community Edition version 8.4.4 (from the MySQL repository) 
 * OpenJDK version 17.0.14+6 (from the Red Hat Extra Enterprise Linux Server repository)
-* Python 3.9.x (from the Red Hat Extra Enterprise Linux Server repository)
+* Python 3.12 (from the Red Hat Extra Enterprise Linux Server repository)
 * p7zip version 16.02 or later (from the Red Hat Extra Packages for Enterprise Linux repository)
 
 [NOTE]

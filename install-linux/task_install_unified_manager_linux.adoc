@@ -35,6 +35,10 @@ The Red Hat Enterprise Linux system might have all the required versions of the 
 |===
 | Required software and minimum version| Command to verify software and version
 a|
+Python
+a|
+?
+a|
 OpenJDK version 17.0.14+6
 a|
 `java -version`

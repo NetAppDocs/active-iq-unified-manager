@@ -1,7 +1,7 @@
 ---
 permalink: install-windows/task_uninstall_third_party_products.html
 sidebar: sidebar
-keywords: MS Visual C++, python, uninstall, uninstalling, 9.16
+keywords: MS Visual C++, python, uninstall, uninstalling, 9.18
 summary: "How to uninstall third party products including Python and Microsoft Visual C++."
 ---
 = Uninstall third party products
