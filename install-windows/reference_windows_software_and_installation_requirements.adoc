@@ -44,7 +44,7 @@ The following third-party packages are bundled with Unified Manager. If these th
 * MySQL Community Edition version 8.4.4
 * Python 3.13.3
 * OpenJDK version 17.0.14+6
-* 7-zip version 23.01 or later
+* 7-zip version 24.09 or later
 
 [NOTE]
 ====

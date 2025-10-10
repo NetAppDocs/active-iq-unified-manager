@@ -35,10 +35,6 @@ The Red Hat Enterprise Linux system might have all the required versions of the 
 |===
 | Required software and minimum version| Command to verify software and version
 a|
-Python
-a|
-?
-a|
 OpenJDK version 17.0.14+6
 a|
 `java -version`
@@ -76,7 +72,7 @@ The required `.rpm` modules for Unified Manager are unzipped to the target direc
 +
 The pre-installation script checks that the system has a valid Red Hat Enterprise Linux subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues prior to installing Unified Manager.
 +
-For Red Hat Enterprise Linux 8 system, if you have internal repositories with JDK 11 - OpenJDK, p7zip, and other software packages provided by the AppStream repository, you must disable your AppStream repository and install MySQL Community Server. Run the following command:
+For a Red Hat Enterprise Linux 8 system, if you have internal repositories with JDK 17 - OpenJDK, p7zip, and other software packages provided by the AppStream repository, you must disable your AppStream repository and install MySQL Community Server. Run the following command:
 +
 ----
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
