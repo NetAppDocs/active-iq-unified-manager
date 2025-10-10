@@ -22,7 +22,7 @@ You can update OpenJDK releases within release families. For example, you can up
 . Log in as the admin user on the Unified Manager host machine.
 . Download the appropriate version of OpenJDK (64-bit) from the OpenJDK site to the target system.
 +
-For example, download `jdk-11.0.18_windows-x64_bin.zip from https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html`.
+For example, download `jdk-17.0.15_windows-x64_bin.zip from https://www.oracle.com/java/technologies/javase/jdk17-0-13-later-archive-downloads.html`.
 +
 [NOTE]
  An Oracle account is required to download the file. If you do not have an Oracle account, go to link:https://login.oracle.com/mysso/signon.jsp?request_id=007[Oracle account sign in] page to create one. 
@@ -37,3 +37,4 @@ For example, download `jdk-11.0.18_windows-x64_bin.zip from https://www.oracle.c
  ** NetApp Active IQ Management Server Service (Oncommandsvc)
  ** NetApp Active IQ Acquisition Service (Ocie-au)
 // 2025-6-11, OTHERDOC-133
+// 2025-10-10, OTHERDOC -152
