@@ -16,14 +16,12 @@ You can restart the Unified Manager virtual machine (VM) from the maintenance co
 * The virtual appliance should be powered on.
 * You should be logged in to the Unified Manager maintenance console as the maintenance user.
 
-You can also restart the virtual machine from vSphere by using the VMware *Restart Guest* option.
+You can also restart the virtual machine from vSphere by using the VMware *Restart Guest* option. Refer to https://developer.broadcom.com/powercli/latest/vmware.vimautomation.core/commands/restart-vmguest/[the Restart-VMGuest cmdlet in Broadcom's VMware vSphere PowerCLI CMDLET reference.^]
 
 .Steps
 
 . In the maintenance console, select *System Configuration* > *Reboot Virtual Machine*.
 . Start the Unified Manager web UI from your browser, and log in.
 
-*Related information*
-
-https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html[VMware vSphere PowerCLI Cmdlets Reference: Restart-VMGuest]
 // 2025-6-11, OTHERDOC-133
+// 2025-21-7, GitHub issue 59
