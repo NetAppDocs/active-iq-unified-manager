@@ -16,7 +16,7 @@ After upgrading Unified Manager, you can uninstall third party products, such as
 .Steps
 . From the *Control Panel* select *Programs* > *Programs and Features*.
 . Select Python from the list of programs.
-. Select *Uninstall this program*. Uninstall any version of Python except for 3.13.3. Ensure you retain Python version 3.13.3.
+. Select *Uninstall this program*. Uninstall any version of Python except for 3.13.3. Ensure that you retain Python version 3.13.3.
 
 == Uninstall Microsoft Visual C++ 2013
 
