@@ -2,14 +2,14 @@
 permalink: config/task_regenerate_client_certificate.html
 sidebar: sidebar
 keywords: client certificate, regenerate, validity, maintenance console
-summary: ""
+summary: "You can use the maintenance console to regenerate your Unified Manager client certificate."
 ---
 = Regenerate the client certificate
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the maintenance console to regenerate your Unified Manager client certificate. Your certificate has an extended validity period of 5 years.
+You can use the maintenance console to regenerate your Unified Manager client certificate. Your certificate has an extended validity period of five years.
 
 .Before you begin
 You must have the required privileges to perform this operation.
