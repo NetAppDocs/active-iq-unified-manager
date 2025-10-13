@@ -23,4 +23,4 @@ You must have the required privileges to perform this operation.
 . After the certificate is regenerated, restart the Unified Manager service to apply the changes.
 . To verify the updated certificate log into ONTAP. View the client certificate status and the validity status. 
 
-// 2025-7-10, OTHERDOC 152
+// 2025-7-13, OTHERDOC 152

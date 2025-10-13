@@ -14,4 +14,4 @@ Provides a summary of new features, limitations, and known issues for Active IQ 
 
 For more information, see the https://library.netapp.com/ecm/ecm_download_file/ECMLP3362664[Active IQ Unified Manager Release Notes].
 // 2024-12-11, OTHERDOC-79
-// 2025-9-29, OTHERDOC 152, OTHERDOC 154
+// 2025-10-13, OTHERDOC 152, OTHERDOC 154
