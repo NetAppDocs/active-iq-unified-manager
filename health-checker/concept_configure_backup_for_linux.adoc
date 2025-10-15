@@ -20,9 +20,10 @@ Before beginning a backup operation, Unified Manager performs an integrity check
 
 * You can restore a Snapshot copy only on the same version of Active IQ Unified Manager.
 +
-For example, if you created a backup on Unified Manager 9.16, the backup can be restored only on Unified Manager 9.16 systems.
+For example, if you created a backup on Unified Manager 9.18, the backup can be restored only on Unified Manager 9.18 systems.
 
 * If there is any change in the Snapshot configuration, it might cause the snapshot to be invalid.
 
 ====
 // 2025-6-10, ONTAPDOC-133
+// 2025-7-10, OTHERDOC 152
