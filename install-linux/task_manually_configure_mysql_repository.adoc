@@ -31,7 +31,7 @@ For version 9, download it from:
 +
 `yum install mysql84-community-release-.noarch.rpm`
 
-For Red Hat Enterprise Linux 8 system, if you have internal repositories with java-11-openjdk, p7zip, and other software packages provided by the AppStream repository, you must disable your AppStream repository and install MySQL Community Server. Run the following command:
+For a Red Hat Enterprise Linux 8 system, if you have internal repositories with java-17-openjdk, p7zip, and other software packages provided by the AppStream repository, you must disable your AppStream repository and install MySQL Community Server. Run the following command:
 
 ----
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
@@ -53,4 +53,4 @@ rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
 
 // 15-November-2024 OTHERDOC-81
 // 9-June-2025 OTHERDOC- 127
-
+// 10 October 2025, OTHERDOC 152
