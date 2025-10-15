@@ -9,7 +9,7 @@ summary: "You can upgrade Unified Manager by downloading and running the install
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade Unified Manager 9.13 or 9.14 to 9.16 by downloading and running the installation file on the Windows platform.
+You can upgrade Unified Manager 9.14 or 9.16 to 9.18 by downloading and running the installation file on the Windows platform.
 
 .Before you begin
 
@@ -80,3 +80,4 @@ To perform a silent upgrade of Unified Manager, run the following command:
 // 2025-6-11, OTHERDOC-133
 // 2025-5-26, OTHERDOC 127
 // 2025-6-17, OTHERDOC 135
+// 2025-9-29, OTHERDOC 152
