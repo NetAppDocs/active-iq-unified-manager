@@ -29,5 +29,6 @@ Depending on the operating system on which you have installed Unified Manager, t
 . Control access to MySQL port 3306
 . Exit
 
-You select the number from the list for accessing the specific menu option. For example, for backup and restore, you select _4_.
+You select the number from the list for accessing the specific menu option. For example, for backup and restore, you select _5_.
 // 2025-9-29, OTHERDOC 152
+// 2025-10-23, OTHERDOC 162
