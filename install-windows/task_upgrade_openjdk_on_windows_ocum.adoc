@@ -25,7 +25,7 @@ You can update OpenJDK releases within release families. For example, you can up
 For example, download the `jdk-17.0.15_windows-x64_bin.zip` file from link:https://www.oracle.com/java/technologies/javase/jdk17-0-13-later-archive-downloads.html[the Oracle Java SE 17 Archive Downloads page^].
 +
 [NOTE]
- An Oracle account is required to download the file. If you do not have an Oracle account, go to link:https://signon.oracle.com/signin[Oracle account sign in] page to create one. 
+ An Oracle account is required to download the file. If you do not have an Oracle account, go to link:https://signon.oracle.com/signin[the Oracle account sign in page] to create one. 
 
 
 . Use the Windows Services console to stop the following Unified Manager services:
