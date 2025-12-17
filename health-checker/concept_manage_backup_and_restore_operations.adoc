@@ -48,12 +48,13 @@ These different methods are described in the sections that follow.
 [NOTE]
 ====
 You cannot perform a restore operation in any of the following scenarios:
+
 * You are using an LDAP account.
 * You are logged in as a domain user.
 * Your account is configured for SAML authentication.
-* You are using the NDMP protocol. 
+* You are using the NDMP protocol.
 
 For more details, see the Knowledge Base article https://kb.netapp.com/on-prem/ontap/DP/NDMP/NDMP-KBs/How_to_configure_NDMP_authentication_in_the_SVM-scope_previously_known_as_Vserver-scope_mode[How to configure NDMP authentication in 'SVM-scope' mode]
 ====
 // 2024-11-8, OTHERDOC87
-// 2025-12-15, OTHERDOC 174
+// 2025-12-17, OTHERDOC 174
