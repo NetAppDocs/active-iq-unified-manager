@@ -45,8 +45,8 @@ NetApp Snapshot of Unified Manager database with iSCSI protocol
 |===
 These different methods are described in the sections that follow.
 
-[NOTE]
-====
+== Limitations to restore operations
+
 You cannot perform a restore operation in any of the following scenarios:
 
 * You are using an LDAP account.
