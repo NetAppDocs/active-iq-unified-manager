@@ -1,0 +1,43 @@
+---
+permalink: install-linux/task_manually_configure_7-zip_repository.html
+sidebar: sidebar
+keywords: manually, configure, 7-zip repository
+summary: "If the system on which you are installing Unified Manager does not have access to the ..."
+---
+= Configure the 7-zip repository
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To successfully install Unified Manager on a Red Hat Enterprise Linux system, your system must be set up with access to the 7-zip repository. The 7-zip repository provides access to the required third-party utilities that must be installed on your system. 
+If network access is available and the 7-zip domain is unblocked by a firewall, the 7-zip repository downloads automatically. Alternatively, you can download 
+the 7-zip repository by using a bundled script or manually. NetApp recommends the automatic download method.
+
+== Download the 7-zip repository automatically
+
+.Step
+* Ensure the following URL is unblocked in your firewall to allow Unified Manager to download 7‑zip during an installation or upgrade process:
+`https://7-zip.org/a/7z2301-linux-x64.tar.xz`
+ 
+== Download the 7-zip repository using a bundled script
+
+.Step
+* Run the `install7zip.sh` script included in the Unified Manager zip file.
+
+== Download the 7-zip repository manually
+
+Ensure you download the 7-zip repository only from the official website. Follow these steps to download it manually:
+
+.Steps
+* Download the 7‑Zip package (23.01) from the official site: `https://7-zip.org/a/7z2301-linux-x64.tar.xz`.
+* Copy the file to the RHEL system: `7z2301-linux-x64.tar.xz`. More detail here on where we copy file to.
+* Extract the archive: `sudo tar -xf 7z2301-linux-x64.tar.xz`.
+* Move 7zz to /usr/bin/:`sudo cp 7zz /usr/bin/`. more detail ?
+* Set executable permissions: `sudo chmod 755 /usr/bin/7zz`.
+* Verify availability: `which 7zz or 7zz --help`. Availability of what ?
+* Validate the checksum if your policy requires it. Type of policy? Correct place for this step? Optional steps at the end or put somewhere else?
+* Keep 7zz permissions restricted to 755. Avoid world‑writable locations. Correct place for this step ? 
+
+Add a verification step. How do I know if I have successfully downloaded it manually? 
+// 2025-01-08, OTHERDOC-181
+

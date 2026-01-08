@@ -18,5 +18,5 @@ You can set the values in the *MAX FILE SIZE* and *AUDIT LOG RETENTION DAYS* as 
 . Click *Audit Logs* > > *Configure*.
 . Enter values in the *MAX FILE SIZE*, *TOTAL AUDIT LOG SIZE*, and *AUDIT LOG RETENTION DAYS*.
 +
-If you want to enable remote logging, then you should select the *Enable Remote Logging*.
-/// 2025-6-11, OTHERDOC-133
+If you want to enable remote logging, then you should select *Enable Remote Logging*.
+// 2025-6-11, OTHERDOC-133
