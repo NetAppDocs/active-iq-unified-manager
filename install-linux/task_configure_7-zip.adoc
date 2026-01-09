@@ -1,0 +1,43 @@
+---
+permalink: install-linux/task_configure_7-zip.html
+sidebar: sidebar
+keywords: manually, configure, 7-zip, RHEL, Linux
+summary: "If the system on which you are installing Unified Manager does not have access to the ..."
+---
+= Configure the 7-zip software package
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To successfully install Unified Manager on a Red Hat Enterprise Linux (RHEL) system, your system must be set up with access to the 7-zip package. 7-zip provides access to the required third-party utilities that must be installed on your system. 
+If network access is available and the 7-zip domain is unblocked by a firewall, 7-zip downloads automatically. Alternatively, you can download 7-zip by using a bundled script or manually. NetApp recommends the automatic download method.
+
+== Download the 7-zip package automatically
+
+.Step
+* Ensure the following URL is unblocked in your firewall to allow Unified Manager to download 7‑zip during an installation or upgrade process:
+`https://7-zip.org/a/7z2301-linux-x64.tar.xz`
+ 
+== Download the 7-zip package using a bundled script
+
+.Step
+* Run the `install7zip.sh` script included in the Unified Manager zip file.
+
+== Download the 7-zip manually
+
+Ensure you download the 7-zip only from the official website. Follow these steps to download it manually:
+
+.Steps
+* Download the 7‑Zip package (23.01) from the official site: `https://7-zip.org/a/7z2301-linux-x64.tar.xz`.
+* Copy the file to the your RHEL VM by running the following command: `7z2301-linux-x64.tar.xz`. 
+* Extract the archive by running the following command: `sudo tar -xf 7z2301-linux-x64.tar.xz`.
+* Move the `7zz` file to the /usr/bin/ directory ? by running the following command:`sudo cp 7zz /usr/bin/`. more detail ?
+* Set executable permissions by running the following command: `sudo chmod 755 /usr/bin/7zz`.
+* Verify the package has successfully downloaded to your system by running the following command: `which 7zz or 7zz --help`.
+optional steps for security: 
+* Validate the checksum if your policy requires it. Type of policy? 
+* Keep 7zz permissions restricted to 755. Avoid world‑writable locations. Correct place for this step ? 
+
+ 
+// 2025-01-08, OTHERDOC-181
+
