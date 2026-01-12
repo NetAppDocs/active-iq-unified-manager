@@ -4,10 +4,11 @@ sidebar: sidebar
 keywords: set up, required, software, repositories
 summary: "The system must have access to certain repositories so that the installation program can access and install all required software dependencies."
 ---
-= Set up required software repositories
+= Set up required software 
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The system must have access to certain repositories so that the installation program can access and install all required software dependencies.
+The system must have access to certain repositories and packages so that the installation program can access and install all required software dependencies.
 // 2025-6-10, ONTAPDOC-133
+// 2025-01-08, OTHERDOC-181
