@@ -26,7 +26,7 @@ entries:
     entries:
     - title: Overview of the installation process
       url: "/install-linux/concept_overview_of_installation_process_on_red_hat.html"
-    - title: Set up required software repositories
+    - title: Set up required software 
       url: "/install-linux/concept_set_up_required_software_repositories_um.html"
       entries:
       - title: Manually configure the EPEL repository
