@@ -9,23 +9,25 @@ summary: "To successfully install Unified Manager on a Red Hat Enterprise Linux 
 :imagesdir: ../media/
 
 [.lead]
-To successfully install Unified Manager on a Red Hat Enterprise Linux RHEL system, your system must be set up with access to the 7-zip software package. 7-zip provides access to the required third-party utilities that must be installed on your system. 
-If network access is available and the 7-zip domain is unblocked by a firewall, 7-zip downloads automatically to your system. Alternatively, you can download 7-zip manually or by using a bundled script. NetApp recommends the automatic download method.
+To successfully install Unified Manager on a Red Hat Enterprise Linux system, your system must be set up with access to the 7-zip software package. If network access is available and the 7-zip URL is unblocked by a firewall, 7-zip downloads automatically to your system during an installation or upgrade process. NetApp recommends the automatic download method.
 
-== Download the 7-zip package automatically
-
-.Step
-. Ensure the following URL is unblocked in your firewall to allow Unified Manager to automatically download 7‑zip during an installation or upgrade process:
+Ensure the following URL is unblocked in your firewall to allow Unified Manager to automatically download the 7‑zip software package: 
 `https://7-zip.org/a/7z2301-linux-x64.tar.xz`
- 
-== Download the 7-zip package using a bundled script
+
+Alternatively, you can pre-install 7-zip.
+
+== Pre-install the 7-zip package
+
+You can pre-install 7-zip by downloading it manually or by using a bundled script.  Choose from one of the following two methods:
+
+=== Download using a bundled script
 
 .Step
 . Run the `install7zip.sh` script that is included in the Unified Manager zip file.
 
-== Download the 7-zip package manually
+=== Download manually
 
-Ensure you download the 7-zip package only from the official website. Follow these steps to download it manually:
+Ensure you download the 7-zip package only from the official website.
 
 .Steps
 . Download the 7‑zip package (version 23.01) from the official site: 
@@ -66,16 +68,14 @@ or
 +
 [source,CLI]
 ----
-7zz --help
+7zz -version
 ----
 +
-*Optional*
+or
 +
-The following two steps provide additional security:
-
-. Validate the checksum if your policy requires it.
-. Keep 7zz permissions restricted to 755, and avoid world‑writable locations. 
-
- 
+[source,CLI]
+----
+7zz --help
+----
 // 2025-01-08, OTHERDOC-181
 
