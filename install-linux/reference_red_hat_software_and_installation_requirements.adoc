@@ -32,10 +32,10 @@ Unified Manager is deployed on a WildFly web server. WildFly 26.1.3 is bundled a
 
 The following third-party packages are required, but not included with Unified Manager. These packages are automatically installed by the `yum` installer during installation, provided you have configured the repositories as mentioned in the following sections.
 
-* MySQL Community Edition version 8.4.4 (from the MySQL repository) 
+* MySQL Community Edition version 8.4.7 (from the MySQL repository) 
 * OpenJDK version 17.0.14+6 (from the Red Hat Extra Enterprise Linux Server repository)
-* Python 3.12 (from the Red Hat Extra Enterprise Linux Server repository)
-* 7zip version 7z2301-linux-x64. For more information view link:task_configure_7-zip-package.html[Configure 7-zip package].
+* Python 3.13.3 (from the Red Hat Extra Enterprise Linux Server repository)
+* 7zip version 7z2301-linux-x64. For more information view link:task_configure_7_zip_package.html[Configure the 7-zip software package].
 
 [NOTE]
 ====
@@ -103,4 +103,4 @@ THP (Transparent Huge Pages) should be disabled on Red Hat systems. When enabled
 // 2024 AUG 12, CAIQUM-6284
 // 2025-5-26, OTHERDOC 127
 // 2025-9-29, OTHERDOC 152
-// 2025-01-08, OTHERDOC 181
+// 2025-01-13, OTHERDOC 181

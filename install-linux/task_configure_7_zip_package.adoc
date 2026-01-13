@@ -9,53 +9,53 @@ summary: "To successfully install Unified Manager on a Red Hat Enterprise Linux 
 :imagesdir: ../media/
 
 [.lead]
-To successfully install Unified Manager on a Red Hat Enterprise Linux (RHEL) system, your system must be set up with access to the 7-zip software package. 7-zip provides access to the required third-party utilities that must be installed on your system. 
+To successfully install Unified Manager on a Red Hat Enterprise Linux RHEL system, your system must be set up with access to the 7-zip software package. 7-zip provides access to the required third-party utilities that must be installed on your system. 
 If network access is available and the 7-zip domain is unblocked by a firewall, 7-zip downloads automatically to your system. Alternatively, you can download 7-zip manually or by using a bundled script. NetApp recommends the automatic download method.
 
 == Download the 7-zip package automatically
 
 .Step
-* Ensure the following URL is unblocked in your firewall to allow Unified Manager to automatically download 7‑zip during an installation or upgrade process:
+. Ensure the following URL is unblocked in your firewall to allow Unified Manager to automatically download 7‑zip during an installation or upgrade process:
 `https://7-zip.org/a/7z2301-linux-x64.tar.xz`
  
 == Download the 7-zip package using a bundled script
 
 .Step
-* Run the `install7zip.sh` script that is included in the Unified Manager zip file.
+. Run the `install7zip.sh` script that is included in the Unified Manager zip file.
 
 == Download the 7-zip package manually
 
 Ensure you download the 7-zip package only from the official website. Follow these steps to download it manually:
 
 .Steps
-* Download the 7‑zip package (version 23.01) from the official site: 
+. Download the 7‑zip package (version 23.01) from the official site: 
 +
 `https://7-zip.org/a/7z2301-linux-x64.tar.xz`
-* Copy the file to your RHEL virtual machine by running the following command:
+. Copy the file to your RHEL virtual machine by running the following command:
 +
 [source,CLI]
 ----
 7z2301-linux-x64.tar.xz 
 ----
-* Extract the archive by running the following command:
+. Extract the archive by running the following command:
 +
 [source,CLI]
 ----
 sudo tar -xf 7z2301-linux-x64.tar.xz
 ----
-* Move the `7zz` file to the `/usr/bin/` directory by running the following command:
+. Move the `7zz` file to the `/usr/bin/` directory by running the following command:
 +
 [source,CLI]
 ----
 sudo cp 7zz /usr/bin/
 ----
-* Set executable permissions by running the following command:
+. Set executable permissions by running the following command:
 +
 [source,CLI]
 ----
 sudo chmod 755 /usr/bin/7zz
 ----
-* Verify that the 7-zip package has successfully downloaded to your system by running either of the following commands:
+. Verify that the 7-zip package has successfully downloaded to your system by running either of the following commands:
 +
 [source,CLI]
 ----
@@ -73,8 +73,8 @@ or
 +
 The following two steps provide additional security:
 
-* Validate the checksum if your policy requires it.
-* Keep 7zz permissions restricted to 755, and avoid world‑writable locations. 
+. Validate the checksum if your policy requires it.
+. Keep 7zz permissions restricted to 755, and avoid world‑writable locations. 
 
  
 // 2025-01-08, OTHERDOC-181

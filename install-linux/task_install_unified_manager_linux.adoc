@@ -45,7 +45,7 @@ a|
 a|
 7-zip
 a|
-`rpm -qa \| grep 7-zip`
+`7zz -version`
 |===
 
 . If the installed version of MySQL is earlier than MySQL 8.4.7 Community Edition, enter the following command to uninstall it:
@@ -145,4 +145,4 @@ Access the web UI to change the default password of the umadmin user, and perfor
 // 2025-6-24, OTHERDOC-133
 // 2025-6-9, OTHERDOC 127
 // 2025-9-29, OTHERDOC 152
-// 2025-01-08, OTHERDOC 181
+// 2025-01-13, OTHERDOC 181
