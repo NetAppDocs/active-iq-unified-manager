@@ -57,25 +57,15 @@ sudo cp 7zz /usr/bin/
 ----
 sudo chmod 755 /usr/bin/7zz
 ----
-. Verify that the 7-zip package has successfully downloaded to your system by running either of the following commands:
-+
-[source,CLI]
-----
-which 7zz
-----
-+
-or
-+
+
+== Verify the installation
+
+Verify that the 7-zip package has been successfully installed on your system by running the following command:
+
 [source,CLI]
 ----
 7zz -version
 ----
-+
-or
-+
-[source,CLI]
-----
-7zz --help
-----
+
 // 2025-01-08, OTHERDOC-181
 
