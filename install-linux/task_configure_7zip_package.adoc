@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/task_configure_7-zip_package.html
+permalink: install-linux/task_configure_7zip_package.html
 sidebar: sidebar
 keywords: manually, configure, 7-zip package, RHEL, Linux, bundled script
 summary: "To successfully install Unified Manager on a Red Hat Enterprise Linux (RHEL) system, your system must be set up with access to the 7-zip package. 7-zip provides access to the required third-party utilities that must be installed on your system. "

@@ -34,7 +34,7 @@ entries:
       - title: Manually configure the MySQL repository
         url: "/install-linux/task_manually_configure_mysql_repository.html"
       - title: Configure the 7-zip software package
-        url: "/install-linux/task_configure_7-zip_package.html"
+        url: "/install-linux/task_configure_7zip_package.html"
     - title: SELinux requirements on NFS or CIFS share
       url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
     - title: Install Unified Manager on Linux systems
