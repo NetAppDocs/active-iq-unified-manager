@@ -2,16 +2,16 @@
 permalink: install-linux/task_configure_7zip_package.html
 sidebar: sidebar
 keywords: manually, configure, 7-zip package, RHEL, Linux, bundled script
-summary: "To successfully install Unified Manager on a Red Hat Enterprise Linux (RHEL) system, your system must be set up with access to the 7-zip package. 7-zip provides access to the required third-party utilities that must be installed on your system. "
+summary: "To successfully install Unified Manager on a Red Hat Enterprise Linux (RHEL) system, your system must be set up with access to the 7-zip package."
 ---
-= Configure the 7-zip software package
+= Configure the 7-zip software package for Unified Manager
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 To successfully install Unified Manager on a Red Hat Enterprise Linux system, your system must be set up with access to the 7-zip software package. If network access is available and the 7-zip URL is unblocked by a firewall, 7-zip downloads automatically to your system during an installation or upgrade process. NetApp recommends the automatic download method.
 
-Ensure the following URL is unblocked in your firewall to allow Unified Manager to automatically download the 7‑zip software package: 
+Ensure the following URL is unblocked in your firewall to allow Unified Manager to automatically download the 7-zip software package: 
 `https://7-zip.org/a/7z2301-linux-x64.tar.xz`
 
 Alternatively, you can pre-install 7-zip.
@@ -30,7 +30,7 @@ You can pre-install 7-zip by downloading it manually or by using a bundled scrip
 Ensure you download the 7-zip package only from the official website.
 
 .Steps
-. Download the 7‑zip package (version 23.01) from the official site: 
+. Download the 7-zip package (version 23.01) from the official site: 
 +
 `https://7-zip.org/a/7z2301-linux-x64.tar.xz`
 . Copy the file to your RHEL virtual machine by running the following command:
