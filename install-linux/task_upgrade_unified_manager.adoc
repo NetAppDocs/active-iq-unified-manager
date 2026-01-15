@@ -23,10 +23,13 @@ See link:reference_red_hat_software_and_installation_requirements.html[Linux sof
 +
 See link:task_upgrade_openjdk_on_linux_ocum.html[Upgrading JRE on Linux].
 +
+* You must install or upgrade to the correct version of 7-zip prior to upgrading Unified Manager. 
+See link:task_configure_7zip_package.html[Configure the 7-zip software package]. 
++
 * To avoid data loss, you must have created a backup of the Unified Manager database in case there is an issue during the upgrade. NetApp recommends that you move the backup file from the `/opt/netapp/data` directory to an external location.
 * During upgrade, you may be prompted to confirm whether you want to keep the previous, default settings for retaining performance data for 13 months or to change it to 6 months. On confirming, the historical performance data is purged after 6 months.
 * You should have completed any running operations, because Unified Manager is unavailable during the upgrade process.
-* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.4.4, the Unified Manager upgrade process automatically upgrades MySQL to 8.4.4.
+* MySQL Community Edition is automatically upgraded during Unified Manager upgrade. If the installed version of MySQL on your system is earlier than 8.4.7, the Unified Manager upgrade process automatically upgrades MySQL to 8.4.7.
 
 .Steps
 
@@ -111,6 +114,7 @@ This process completes the Unified Manager upgrade process. Enter the specified 
 
 // 15-November-2024 OTHERDOC-81
 // 2024-11-8, OTHERDOC87
-// 2025-6-11, OTHERDOC-133
-// 2025-5-26, OTHERDOC 127
-// 2025-9-29, OTHERDOC 152
+// 2025-06-11, OTHERDOC-133
+// 2025-05-26, OTHERDOC 127
+// 2025-09-29, OTHERDOC 152
+// 2025-01-13, OTHERDOC-181

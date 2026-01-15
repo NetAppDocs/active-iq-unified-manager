@@ -1,0 +1,71 @@
+---
+permalink: install-linux/task_configure_7zip_package.html
+sidebar: sidebar
+keywords: manually, configure, 7-zip package, RHEL, Linux, bundled script
+summary: "To successfully install Unified Manager on a Red Hat Enterprise Linux (RHEL) system, your system must be set up with access to the 7-zip package."
+---
+= Configure the 7-zip software package for Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To successfully install Unified Manager on a Red Hat Enterprise Linux system, your system must be set up with access to the 7-zip software package. If network access is available and the 7-zip URL is unblocked by a firewall, 7-zip downloads automatically to your system during an installation or upgrade process. NetApp recommends the automatic download method.
+
+Ensure the following URL is unblocked in your firewall to allow Unified Manager to automatically download the 7-zip software package: 
+`https://7-zip.org/a/7z2301-linux-x64.tar.xz`
+
+Alternatively, you can pre-install 7-zip.
+
+== Pre-install the 7-zip package
+
+You can pre-install 7-zip by downloading it manually or by using a bundled script.  Choose from one of the following two methods:
+
+=== Download using a bundled script
+
+.Step
+. Run the `install7zip.sh` script that is included in the Unified Manager zip file.
+
+=== Download manually
+
+Ensure you download the 7-zip package only from the official website.
+
+.Steps
+. Download the 7-zip package (version 23.01) from the official site: 
++
+`https://7-zip.org/a/7z2301-linux-x64.tar.xz`
+. Copy the file to your RHEL virtual machine:
++
+[source,CLI]
+----
+7z2301-linux-x64.tar.xz 
+----
+. Extract the archive:
++
+[source,CLI]
+----
+sudo tar -xf 7z2301-linux-x64.tar.xz
+----
+. Move the `7zz` file to the `/usr/bin/` directory:
++
+[source,CLI]
+----
+sudo cp 7zz /usr/bin/
+----
+. Set executable permissions:
++
+[source,CLI]
+----
+sudo chmod 755 /usr/bin/7zz
+----
+
+== Verify the installation
+
+Verify that the 7-zip package has been successfully installed on your system:
+
+[source,CLI]
+----
+7zz -version
+----
+
+// 2025-01-08, OTHERDOC-181
+
