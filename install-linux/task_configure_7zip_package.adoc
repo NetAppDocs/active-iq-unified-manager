@@ -33,25 +33,25 @@ Ensure you download the 7-zip package only from the official website.
 . Download the 7-zip package (version 23.01) from the official site: 
 +
 `https://7-zip.org/a/7z2301-linux-x64.tar.xz`
-. Copy the file to your RHEL virtual machine by running the following command:
+. Copy the file to your RHEL virtual machine:
 +
 [source,CLI]
 ----
 7z2301-linux-x64.tar.xz 
 ----
-. Extract the archive by running the following command:
+. Extract the archive:
 +
 [source,CLI]
 ----
 sudo tar -xf 7z2301-linux-x64.tar.xz
 ----
-. Move the `7zz` file to the `/usr/bin/` directory by running the following command:
+. Move the `7zz` file to the `/usr/bin/` directory:
 +
 [source,CLI]
 ----
 sudo cp 7zz /usr/bin/
 ----
-. Set executable permissions by running the following command:
+. Set executable permissions:
 +
 [source,CLI]
 ----
