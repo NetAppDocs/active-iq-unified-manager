@@ -17,6 +17,7 @@ You can configure alerts to notify you when a particular event is generated. You
 * You must know the resources and events for which you want to trigger the alert, and the user names or email addresses of the users that you want to notify.
 * If you want to have a script execute based on the event, you must have added the script to Unified Manager by using the Scripts page.
 * You must have the Application Administrator or Storage Administrator role.
+* Please note that if you add a Storage Virtual Machine (SVM) or a cluster to an alert's resources, child objects are not added automatically. For example, if you add a cluster to an alert's resources, the alert does not automatically add the nodes or LUNs.
 
 You can create an alert directly from the Event details page after receiving an event in addition to creating an alert from the Alert Setup page, as described here.
 
@@ -74,3 +75,4 @@ You can configure an alert to repeatedly send notifications to the recipients fo
 . In the Select Script to Execute menu, select *Test* script.
 . Click *Save*.
 // 2025-6-11, OTHERDOC-133
+// 2025-12-9, OTHERDOC 176

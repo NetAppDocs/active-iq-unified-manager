@@ -19,7 +19,7 @@ The following table displays the values that are recommended for memory, CPU, an
 a|
 RAM
 a|
-12 GB (minimum requirement 8 GB)
+12 GB 
 a|
 Processors
 a|
@@ -44,9 +44,7 @@ For separately mounted `/opt` and `/var/log` directories, ensure that `/opt` has
 |===
 Unified Manager can be installed on systems with a small amount of memory, but the recommended 12 GB of RAM ensures that enough memory is available for optimal performance, and so that the system can accommodate additional clusters and storage objects as your configuration grows. You should not set any memory limits on the VM where Unified Manager is deployed, and should not enable any features (for example, ballooning) that hinder the software from utilizing the allocated memory on the system.
 
-Additionally, there is a limit to the number of nodes that a single instance of Unified Manager can monitor before you install a second instance of Unified Manager. For more information, see the _Best Practices Guide_.
-
-https://www.netapp.com/pdf.html?item=/media/13504-tr4621pdf.pdf[Technical Report 4621: Unified Manager Best Practices Guide^]
+Additionally, there is a limit to the number of nodes that a single instance of Unified Manager can monitor before you install a second instance of Unified Manager. For node limits, CPU, and memory recommendations, see the https://www.netapp.com/pdf.html?item=/media/13504-tr4621pdf.pdf[Unified Manager Best Practices Guide^].
 
 Memory-page swapping negatively impacts the performance of the system and the management application. Competing for CPU resources that are unavailable because of overall host utilization can degrade performance.
 
@@ -65,3 +63,4 @@ The physical system or virtual system on which you install Unified Manager shoul
 You can use the host name (or the host IP address) to access the product web UI. If you configured a static IP address for your network during deployment, then you designated a name for the network host. If you configured the network using DHCP, you should obtain the host name from the DNS.
 
 If you plan to allow users to access Unified Manager by using the short name instead of using the fully qualified domain name (FQDN) or IP address, then your network configuration has to resolve this short name to a valid FQDN.
+// 2025-12-9, OTHERDOC 175
