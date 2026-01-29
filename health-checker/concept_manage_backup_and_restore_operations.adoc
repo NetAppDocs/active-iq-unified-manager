@@ -44,5 +44,4 @@ a|
 NetApp Snapshot of Unified Manager database with iSCSI protocol
 |===
 These different methods are described in the sections that follow.
-
 // 2024-11-8, OTHERDOC87
