@@ -19,7 +19,7 @@ You must have the Application Administrator or Storage Administrator role.
 Note the following points:
 
 * You can't restore a directory or a volume from a Snapshot copy in any of the following scenarios:
-** The `Yes, preserve all snapshot copies` option is selected.
+** The *Yes, preserve all snapshot copies* option is selected.
 ** You are using an LDAP account to monitor the cluster.
 ** You are logged in as a domain user.
 ** Your account is configured for SAML authentication.
