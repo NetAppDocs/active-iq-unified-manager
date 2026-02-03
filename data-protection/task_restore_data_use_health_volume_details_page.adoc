@@ -18,14 +18,14 @@ You must have the Application Administrator or Storage Administrator role.
 [NOTE]
 Note the following points:
 
-* You can't restore a directory or a volume from a Snapshot copy in any of the following scenarios:
+* You can't restore a directory or a volume from a snapshot in any of the following scenarios:
 ** The *Yes, preserve all snapshot copies* option is selected.
 ** You are using an LDAP account to monitor the cluster.
 ** You are logged in as a domain user.
 ** Your account is configured for SAML authentication.
 ** You are using the NDMP protocol.
 +
-For more details, see the Knowledge Base article https://kb.netapp.com/on-prem/ontap/DP/NDMP/NDMP-KBs/How_to_configure_NDMP_authentication_in_the_SVM-scope_previously_known_as_Vserver-scope_mode[How to configure NDMP authentication in 'SVM-scope' mode].
+For more details, see the Knowledge Base article https://kb.netapp.com/on-prem/ontap/DP/NDMP/NDMP-KBs/How_to_configure_NDMP_authentication_in_the_SVM-scope_previously_known_as_Vserver-scope_mode[How to configure NDMP authentication in 'SVM-scope' mode^].
 * You can't restore NTFS file streams.
 * The restore option is not available when:
 ** The volume ID is unknown: for example, when you have an intercluster relationship and the destination cluster has not yet been discovered.
@@ -59,4 +59,4 @@ If a restore operation fails between Cloud Volumes ONTAP HA clusters with an NDM
 ====
 // 2025-6-11, OTHERDOC-133
 // 2025-9-1, BLUEXPDOC-806
-// 2026-01-21, OTHERDOC 174
+// 2026-01-21, OTHERDOC-174
