@@ -78,7 +78,7 @@ The following are some important fields in the Performance: All Aggregates view.
 ** HDD (FabricPool). Combines HDDs and a cloud tier
 ** VMDisk (SDS). Virtual disks within a virtual machine
 ** VMDisk (FabricPool). Combines virtual disks and a cloud tier
-** LUN (FlexArray)
+** LUN 
 * Inactive Data Reporting: Whether the inactive data reporting capability is enabled or disabled on this aggregate. When enabled, volumes on this aggregate display the amount of cold data in the Performance: All Volumes view. The value in this field is "N/A" when the version of ONTAP does not support inactive data reporting.
 * Threshold Policy: The user-defined performance threshold policy, or policies, that are active on this storage object. You can position your cursor over policy names containing an ellipsis (...) to view the full policy name or the list of assigned policy names. The Assign Performance Threshold Policy and Clear Performance Threshold Policy buttons remain disabled until you select one or more objects by clicking the check boxes located at the far left.
 See the following links for more information:
@@ -190,3 +190,4 @@ and LUNs. You can click the number to navigate to a page that provides more deta
 
 For more information see the topics under link:..//performance-checker/concept_manage_performance_using_qos_policy_group_information.html[Managing performance using QoS policy group information].
 // 2025-6-11, OTHERDOC-133
+// 2026-04-20, GH issue 93
