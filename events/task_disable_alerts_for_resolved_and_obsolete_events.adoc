@@ -9,7 +9,7 @@ summary: "For all events that you have configured to send alerts, an alert messa
 :imagesdir: ../media/
 
 [.lead]
-For all events that you have configured to send alerts, an alert message is sent when those events transition through all available states: New, Acknowledged, Resolved, and Obsolete. If you do not want to receive alerts for events as they move into the Resolved and Obsolete states, you can configure a global setting to suppress those alerts.
+For all events that you have configured to send alerts, an alert message is sent when those events transition through all available states: New, Resolved, and Obsolete. If you do not want to receive alerts for events as they move into the Resolved and Obsolete states, you can configure a global setting to suppress those alerts.
 
 .Before you begin
 
@@ -35,3 +35,4 @@ a|
 Move the slider control to the right
 |===
 // 2025-6-11, OTHERDOC-133
+// 2026-04-20, GH issue 85
