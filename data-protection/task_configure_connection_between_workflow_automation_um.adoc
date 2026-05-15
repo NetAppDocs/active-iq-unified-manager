@@ -17,7 +17,7 @@ You can configure a secure connection between OnCommand Workflow Automation (WFA
 +
 [NOTE]
 ====
-The "`WFA pack for managing Clustered Data ONTAP`" is included in WFA 5.1.1P6 so there is no need to download this pack from the NetAppStorage Automation Store and install it separately onto your WFA server as was required in the past. https://automationstore.netapp.com/pack-list.shtml[WFA pack for managing ONTAP]
+The "`WFA pack for managing Clustered Data ONTAP`" is included in WFA 5.1.1P6 so there is no need to download this pack from the NetAppStorage Automation Store and install it separately onto your WFA server as was required in the past. https://mysupport.netapp.com/site/products/all/details/ocwfa/downloads-tab[WFA download]
 
 ====
 
