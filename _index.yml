@@ -6,11 +6,11 @@ indexpage:
   tiles:
     - title: Get started
       links:
-        - title: Product Overview
+        - title: Product Overview 
           url: /storage-mgmt/concept_introduction_to_unified_manager.html
         - title: Release Notes
-          url: reference_release_notes.html
-        - title: Quick start install for VMware vSphere
+          url: reference_release_notes.html 
+        - title: Quick start install for VMware vSphere 
           url: /install-vapp/qsg-vapp.html
         - title: Quick start install for Linux
           url: /install-linux/qsg-linux.html
@@ -113,4 +113,4 @@ indexpage:
         - title: Unified Manager Management Information Base (MIB)
           url: https://mysupport.netapp.com/site/tools/tool-eula/aiqum-mib        
         - title: Unified Manager database schema      
-          url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791        
+          url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791
