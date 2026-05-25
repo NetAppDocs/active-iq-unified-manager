@@ -22,7 +22,7 @@ When using the host name, it must resolve to the cluster management IP address f
 
 ** You must have the user name and password to access the cluster.
 +
-This account must have the _admin_ role with Application access set to _ontapi_, _console_, and _http_.
+This account must have the _admin_ role with Application access set to _ontapi_, _amqp_, _console_, and _http_.
 //BURT 1452466
 
 ** You must know the port number to connect to the cluster using the HTTPS protocol (typically port 443).
@@ -90,3 +90,4 @@ link:../config/task_install_ca_signed_and_returned_https_certificate.html#exampl
 // 2025-7-2, ONTAPDOC-125
 // 2025-7-23, OTHERDOC-147
 // 2025-8-20, OTHERDOC-149
+// 2025-25-5, OTHERDOC-224
