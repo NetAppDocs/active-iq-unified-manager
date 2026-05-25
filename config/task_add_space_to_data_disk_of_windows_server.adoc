@@ -30,19 +30,19 @@ On a physical server, add capacity to the logical drive on which the Unified Man
 a|
 Follow the steps in the Microsoft topic:
 
-https://technet.microsoft.com/en-us/library/cc771473(v=ws.11).aspx[Extend a Basic Volume]
+https://technet.microsoft.com/en-us/library/cc771473(v=ws.11).aspx[Extend a Basic Volume^]
 a|
 On a physical server, add a hard disk drive.
 a|
 Follow the steps in the Microsoft topic:
 
-https://msdn.microsoft.com/en-us/library/dd163551.aspx[Adding Hard Disk Drives]
+https://msdn.microsoft.com/en-us/library/dd163551.aspx[Adding Hard Disk Drives^]
 a|
 On a virtual machine, increase the size of a disk partition.
 a|
 Follow the steps in the VMware topic:
 
-https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1004071[Increasing the size of a disk partition]
+https://knowledge.broadcom.com/external/article/323136/increasing-the-size-of-a-virtual-disk-pa.html[Increasing the size of a disk partition^]
 |===
 
 // 15-November-2024 OTHERDOC-81
