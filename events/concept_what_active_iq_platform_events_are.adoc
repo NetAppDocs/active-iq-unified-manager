@@ -20,4 +20,4 @@ These Active IQ events do not overlap with existing Unified Manager events, and 
 For more information about enabling platform events, see link:../config/concept_active_iq_platform_events.html[Enabling Active IQ portal events].
 For more information about uploading rules file, see link:../events/task_upload_new_active_iq_rules_file.html[Uploading a new Active IQ rules file].
 
-NetApp Active IQ is a cloud based service that provides predictive analytics and proactive support to optimize storage system operations across the NetApp hybrid cloud. See https://www.netapp.com/us/products/data-infrastructure-management/active-iq.aspx[NetApp Active IQ] for more information.
+NetApp Active IQ is a cloud based service that provides predictive analytics and proactive support to optimize storage system operations across the NetApp hybrid cloud. See https://docs.netapp.com/us-en/active-iq/index.html[NetApp Active IQ^] for more information.
