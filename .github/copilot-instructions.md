@@ -1,14 +1,14 @@
 ## Copilot instructions for Active IQ Unified Manager documentation
 
 ### Repository overview
-Product: Active IQ Unified Manager (AIQUM), formerly OnCommand Unified Manager
+Product: Active IQ Unified Manager, formerly OnCommand Unified Manager
 
-Active IQ Unified Manager enables you to monitor and manage the health, performance, and data protection of ONTAP storage systems from a single web-based interface. It supports installation on VMware vSphere (virtual appliance), Red Hat Enterprise Linux, and Windows Server platforms.
+Active IQ Unified Manager enables you to monitor and manage the health, performance, and data protection of ONTAP storage systems from a single web-based interface. You can deploy Unified Manager on a Linux server, on a Windows server, or as a virtual appliance on a VMware host.
 
 ### Repository structure
-- `install-vapp/` – Installation, upgrade, and requirements for deploying Unified Manager as a VMware vSphere virtual appliance (OVA)
-- `install-linux/` – Installation, upgrade, and requirements for deploying Unified Manager on Red Hat Enterprise Linux
-- `install-windows/` – Installation, upgrade, and requirements for deploying Unified Manager on Windows Server
+- `install-vapp/` – Installation, upgrade, and requirements for deploying Unified Manager on a VMware vSphere system
+- `install-linux/` – Installation, upgrade, and requirements for deploying Unified Manager on Linux systems
+- `install-windows/` – Installation, upgrade, and requirements for deploying Unified Manager on Windows systems
 - `config/` – Initial setup, authentication (LDAP, SAML, Active Directory), role-based access control, certificates, maintenance console, and feature settings
 - `storage-mgmt/` – Core storage management topics: cluster discovery, workload provisioning, Performance Service Levels (PSLs), Storage Efficiency Policies (SEPs), quota management, MetroCluster monitoring, and VMware virtual infrastructure monitoring
 - `health-checker/` – Cluster and storage object health monitoring, health thresholds, annotations, groups, AutoSupport, and backup/restore
@@ -48,7 +48,7 @@ Active IQ Unified Manager enables you to monitor and manage the health, performa
 - *ODBC* – Open Database Connectivity interface allowing direct query access to the Unified Manager MySQL database for custom reporting and integrations
 
 **Naming conventions and terminology:**
-- The product is referred to as *Active IQ Unified Manager*, *Unified Manager*, or *AIQUM*; the former name *OnCommand Unified Manager* may appear in historical context
+- The product is referred to as *Active IQ Unified Manager* or *Unified Manager*; the former name *OnCommand Unified Manager* may appear in historical context
 - File naming follows the AsciiDoc convention: `concept_`, `task_`, or `reference_` prefix followed by a descriptive snake_case name (e.g., `concept_introduction_to_unified_manager.adoc`, `task_set_up_protection_relationships_in_unified_manager.adoc`)
 - Capacity units use binary (IEC) notation: KiB, MiB, GiB, TiB, PiB; throughput uses decimal notation: Kbps, Mbps, Gbps, Tbps
 - *PSL* = Performance Service Level; *SEP* = Storage Efficiency Policy; *SLO* = Service Level Objective; *WFA* = Workflow Automation; *ASUP* = AutoSupport
