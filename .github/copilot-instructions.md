@@ -1,7 +1,7 @@
 ## Copilot instructions for Active IQ Unified Manager documentation
 
 ### Repository overview
-Product: Active IQ Unified Manager, formerly OnCommand Unified Manager
+Product: Active IQ Unified Manager
 
 Active IQ Unified Manager enables you to monitor and manage the health, performance, and data protection of ONTAP storage systems from a single web-based interface. You can deploy Unified Manager on a Linux server, on a Windows server, or as a virtual appliance on a VMware host.
 
@@ -26,7 +26,7 @@ Active IQ Unified Manager enables you to monitor and manage the health, performa
 
 **Architecture and components:**
 - *Unified Manager server* – Central management server that collects data from ONTAP clusters via periodic API queries and a data collection engine; hosts the web UI and REST API endpoint
-- *ONTAP clusters* – Managed storage systems added as data sources to Unified Manager; Unified Manager communicates with them using ONTAP REST APIs and ZAPI
+- *ONTAP clusters* – Managed storage systems added as data sources to Unified Manager; Unified Manager communicates with them using ONTAP REST APIs and API's
 - *Active IQ platform* – Cloud-based NetApp platform that sends risk and advisory events to Unified Manager for display and remediation
 - *OnCommand Workflow Automation (WFA)* – Optional integration for executing automated protection workflows triggered from Unified Manager
 - *Maintenance console* – Command-line interface available on the Unified Manager host for administrative tasks such as network configuration, database management, and diagnostics
@@ -44,11 +44,11 @@ Active IQ Unified Manager enables you to monitor and manage the health, performa
 - *SnapMirror* – ONTAP replication technology for asynchronous or synchronous volume-level data protection; monitored and managed via Unified Manager
 - *SnapVault* – ONTAP disk-to-disk backup technology for secondary storage; monitored via Unified Manager
 - *MetroCluster* – ONTAP high-availability configuration with synchronous mirroring across sites; Unified Manager provides dedicated monitoring pages and event handling for MetroCluster configurations
-- *Storage VM (SVM)* – ONTAP logical storage container (also referred to as Vserver); Unified Manager monitors SVM-level health, performance, and disaster recovery relationships
+- *Storage Virtual Machine (SVM)* – ONTAP logical storage container; Unified Manager monitors SVM-level health, performance, and disaster recovery relationships
 - *ODBC* – Open Database Connectivity interface allowing direct query access to the Unified Manager MySQL database for custom reporting and integrations
 
 **Naming conventions and terminology:**
-- The product is referred to as *Active IQ Unified Manager* or *Unified Manager*; the former name *OnCommand Unified Manager* may appear in historical context
+- The product is referred to as *Active IQ Unified Manager* or *Unified Manager*
 - File naming follows the AsciiDoc convention: `concept_`, `task_`, or `reference_` prefix followed by a descriptive snake_case name (e.g., `concept_introduction_to_unified_manager.adoc`, `task_set_up_protection_relationships_in_unified_manager.adoc`)
 - Capacity units use binary (IEC) notation: KiB, MiB, GiB, TiB, PiB; throughput uses decimal notation: Kbps, Mbps, Gbps, Tbps
 - *PSL* = Performance Service Level; *SEP* = Storage Efficiency Policy; *SLO* = Service Level Objective; *WFA* = Workflow Automation; *ASUP* = AutoSupport
