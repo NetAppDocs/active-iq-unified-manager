@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, administrative, tasks
 summary: "You can use the APIs under the administration category to modify backup settings, verify the backup file information and cluster certificates, and also manage ONTAP clusters as Active IQ Unified Manager datasources."
 ---
-= Perform administrative tasks by using APIs
+= Administration APIs in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

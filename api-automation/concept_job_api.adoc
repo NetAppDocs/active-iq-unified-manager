@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, view
 summary: "You can use the jobs API under the management-server category to view the execution details of asynchronous operations."
 ---
-= View Jobs and system details
+= View jobs and system details by using APIs in Unified Manager
 :icons: font
 :imagesdir: ../media/
 
