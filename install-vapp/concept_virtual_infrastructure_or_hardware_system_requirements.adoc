@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: virtual, infrastructure, hardware, system, requirements, virtual appliance
 summary: "Installing Unified Manager on virtual infrastructure or a physical system should meet the minimum requirements for memory, CPU, and disk space."
 ---
-= Virtual infrastructure and hardware system requirements
+= Virtual infrastructure and hardware requirements for Unified Manager
 :icons: font
 :imagesdir: ../media/
 
