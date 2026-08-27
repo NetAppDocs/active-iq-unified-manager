@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, different, aggregate
 summary: "You can use Unified Manager to help identify an aggregate that is less busy than the aggregate where your workloads currently reside, and then you can move selected volumes or LUNs to that aggregate. Moving high performing workloads to a less busy aggregate, or an aggregate with flash storage enabled, allows the workload to perform more efficiently."
 ---
-= Move workloads to a different aggregate
+= Move workloads to a different aggregate in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

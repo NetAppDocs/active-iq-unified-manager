@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, root, object
 summary: "The root object is the baseline against which other object comparisons are made. This enables you to view and compare the data from other objects to the root object, providing performance data analysis that helps you to troubleshoot and improve object performance."
 ---
-= Understand the root object
+= Root objects in Unified Manager performance monitoring
 :icons: font
 :imagesdir: ../media/
 

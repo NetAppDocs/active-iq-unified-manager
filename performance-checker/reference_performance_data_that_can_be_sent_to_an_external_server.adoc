@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, data, external, server
 summary: "Unified Manager collects a variety of performance data from all the clusters that it is monitoring. You can send specific groups of data to an external server."
 ---
-= Performance data that can be sent to an external server
+= Performance data sent to an external server from Unified Manager
 :icons: font
 :imagesdir: ../media/
 

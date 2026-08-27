@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, banner, messages, descriptions
 summary: "Unified Manager may display banner messages on the Notifications page (from the Notification bell) to alert you to status issues for a particular cluster."
 ---
-= Performance banner messages and descriptions
+= Performance banner messages and descriptions in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

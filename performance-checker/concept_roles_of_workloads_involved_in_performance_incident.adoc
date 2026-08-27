@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: roles, workloads, involved, performance, event
 summary: "Unified Manager uses roles to identify the involvement of a workload in a performance event. The roles include victims, bullies, and sharks. A user-defined workload can be a victim, bully, and shark at the same time."
 ---
-= Roles of workloads involved in a performance event
+= Workload roles in Unified Manager performance events
 :icons: font
 :imagesdir: ../media/
 
