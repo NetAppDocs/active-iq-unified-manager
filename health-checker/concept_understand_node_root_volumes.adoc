@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, node, root, volumes
 summary: "You can monitor the node root volume using Unified Manager. The best practice is that the node root volume should have sufficient capacity to prevent the node from going down."
 ---
-= Understand node root volumes
+= Node root volumes in Unified Manager
 :icons: font
 :imagesdir: ../media/
 
