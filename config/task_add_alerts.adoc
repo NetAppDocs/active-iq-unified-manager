@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts
 summary: "You can configure alerts to notify you when a particular event is generated. You can configure alerts for a single resource, for a group of resources, or for events of a particular severity type. You can specify the frequency with which you want to be notified and associate a script to the alert."
 ---
-= Add alerts
+= Add alerts in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

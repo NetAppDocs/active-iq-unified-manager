@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, network, interfaces
 summary: "You can add new network interfaces if you need to separate network traffic."
 ---
-= Add network interfaces
+= Add network interfaces to Unified Manager
 :icons: font
 :imagesdir: ../media/
 

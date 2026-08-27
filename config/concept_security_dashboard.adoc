@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security compliance settings, security feature settings, ONTAP hardening guide, AutoSupport settings, authentication settings
 summary: "you can enable or disable the security parameters for compliance monitoring on Unified Manager."
 ---
-= Enable and disable security settings for compliance
+= Enable and disable security settings for compliance in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

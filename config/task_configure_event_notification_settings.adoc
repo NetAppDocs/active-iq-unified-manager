@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, event, notification, settings
 summary: "You can configure Unified Manager to send alert notifications when an event is generated or when an event is assigned to a user. You can configure the SMTP server that is used to send the alert, and you can set various notification mechanisms—for example, alert notifications can be sent as emails or SNMP traps."
 ---
-= Configure event notification settings
+= Configure event notification settings in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

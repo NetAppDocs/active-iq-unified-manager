@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: additional menu, options
 summary: "The following menu options enable you to perform various administrative tasks on the Unified Manager server."
 ---
-= Additional menu options
+= Additional maintenance console menu options in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

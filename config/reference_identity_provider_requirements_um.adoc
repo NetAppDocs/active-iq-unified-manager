@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identity, provider, requirements
 summary: "When configuring Unified Manager to use an identity provider (IdP) to perform SAML authentication for all remote users, you need to be aware of some required configuration settings so that the connection to Unified Manager is successful."
 ---
-= Identity provider requirements
+= Identity provider requirements for Unified Manager
 :icons: font
 :imagesdir: ../media/
 

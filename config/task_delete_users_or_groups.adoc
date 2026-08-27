@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, users, groups
 summary: "You can delete one or more users from the management server database to prevent specific users from accessing Unified Manager. You can also delete groups so that all the users in the group can no longer access the management server."
 ---
-= Delete users or groups
+= Delete users or groups in Unified Manager
 :icons: font
 :imagesdir: ../media/
 
