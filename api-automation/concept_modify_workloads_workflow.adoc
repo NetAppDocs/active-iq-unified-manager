@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads
 summary: "Modifying storage workloads consists of updating LUNs or file shares with missing parameters, or changing the existing parameters."
 ---
-= Modify storage workloads by using APIs in Unified Manager
+= Modify storage workloads by using APIs in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
