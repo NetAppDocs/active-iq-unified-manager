@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, email, notification, format, user, group, quotas
 summary: "You can create a notification format for the emails that are sent to a user or a user group when there is a quota-related issue (soft limit breached or hard limit reached)."
 ---
-= Create an email notification format for user and user group quotas
+= Create a quota email notification format in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

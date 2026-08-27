@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: windows, log rotation issue, Netapp Manageability SDK
 summary: "Troubleshooting: follow these steps to resolve the log rotation issue"
 ---
-= NetApp Manageability SDK log rotation issue on Windows systems
+= Resolve a NetApp Manageability SDK log rotation issue in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

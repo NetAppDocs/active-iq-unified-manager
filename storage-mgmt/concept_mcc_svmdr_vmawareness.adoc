@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration
 summary: "You can view the configuration and performance metrics of the datastores hosted in a MetroCluster configuration or storage virtual machine (storage VM) disaster recovery (SVM DR) setup."
 ---
-= View virtual infrastructure in a disaster recovery setup
+= Virtual infrastructure visibility in a disaster recovery setup with Unified Manager
 :icons: font
 :imagesdir: ../media/
 
