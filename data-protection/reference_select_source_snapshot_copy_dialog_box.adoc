@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, source, snapshot, copy, dialog box
 summary: "You use the Select Source Snapshot Copy dialog box to select a specific Snapshot copy to transfer data between protection relationships, or you select the default behavior, which varies depending on whether you are initializing, updating, or resynchronizing a relationship, and whether the relationship is a SnapMirror or SnapVault."
 ---
-= Select Source Snapshot Copy dialog box
+= Select source Snapshot copy dialog box in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

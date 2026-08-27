@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship, health, volumes view
 summary: "Using the Health: All Volumes view enables you to create several SnapMirror protection relationships at one time by selecting more than one volume on the same storage VM."
 ---
-= Create a SnapMirror protection relationship from the Health: All Volumes view
+= Create a SnapMirror relationship from the Health all volumes view in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

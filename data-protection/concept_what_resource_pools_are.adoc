@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resource pools
 summary: "Resource pools are groups of aggregates that are created by a storage administrator using Unified Manager to provide provisioning to partner applications for backup management."
 ---
-= What resource pools are
+= Learn about resource pools in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resume, schedule, transfers, quiesce, relationship, volume relationships page
 summary: "After you have quiesced a relationship to stop scheduled transfers from occurring, you can use Resume to re-enable scheduled transfers so that data on the source or primary volume is protected. Transfers resume from a checkpoint, if one exists, at the next scheduled transfer interval."
 ---
-= Resume scheduled transfers on a quiesced relationship from the Volume Relationships page
+= Resume transfers on a quiesced relationship from Volume Relationships in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

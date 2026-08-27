@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: LUN, SnapMirror active sync, Consistency Group, CG
 summary: "Unified view of LUNs protected by SnapMirror active sync."
 ---
-= Monitor LUNs in a Consistency Group relationship
+= Monitor Consistency Group LUN relationships in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

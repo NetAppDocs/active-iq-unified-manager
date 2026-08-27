@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aggregates, dialog box
 summary: "You can use the Aggregates dialog box to select the aggregates that you want to add to your resource pool."
 ---
-= Aggregates dialog box
+= Aggregates dialog box in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

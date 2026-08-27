@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retry, failed, protection job
 summary: "After you have taken measures to fix a failed protection job, you can use Retry to run the job again. Retrying a job creates a new job using the original job ID."
 ---
-= Retry a failed protection job
+= Retry a failed protection job in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

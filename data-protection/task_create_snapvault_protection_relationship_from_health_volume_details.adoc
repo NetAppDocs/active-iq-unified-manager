@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, volume, health details page
 summary: "You can create a SnapVault relationship using the Volume / Health details page so that data backups are enabled for protection purposes on volumes."
 ---
-= Create a SnapVault protection relationship from the Volume / Health details page
+= Create a SnapVault protection relationship from the Volume Health details page in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

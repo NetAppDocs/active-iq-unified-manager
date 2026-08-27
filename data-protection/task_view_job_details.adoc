@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, job, details
 summary: "After you start a job, you can track its progress from the Job details page and monitor the associated tasks for possible errors."
 ---
-= View job details
+= View job details in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

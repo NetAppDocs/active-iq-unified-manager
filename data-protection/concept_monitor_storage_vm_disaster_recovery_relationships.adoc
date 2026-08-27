@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disaster recovery, monitor, storage vm protection, relationships
 summary: "Active IQ Unified Manager supports monitoring of storage VM disaster recovery relationships which provides disaster recovery at the granularity of a storage VM level. The storage VM disaster recovery enables the recovery of data present in the constituent volumes of the storage VM and the recovery of storage VM configuration."
 ---
-= Monitor Storage VM Disaster Recovery protection relationships
+= Learn about storage VM disaster recovery relationships in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
