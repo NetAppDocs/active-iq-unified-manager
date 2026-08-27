@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reporting, quick, start
 summary: "Create a sample custom report to experience exploring views and scheduling reports. This quick start report finds a list of volumes that you might want to move to the cloud tier because there is a fair amount of inactive (cold) data. You will open the Performance: All Volumes view, customize the view using filters and columns, save the custom view as a report, and schedule the report to share once a week."
 ---
-= Reporting quick start
+= Quick start for reporting in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
