@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: lun, events, impact area, availability, capacity, configuration, performance
 summary: "LUN events provide you with information about the status of your LUNs, so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= LUN events
+= LUN events in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

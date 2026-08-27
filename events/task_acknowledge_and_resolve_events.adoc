@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: acknowledge, resolve, events
 summary: "You should acknowledge an event before you start working on the issue that generated the event so that you do not continue to receive repeat alert notifications. After you take corrective action for a particular event, you should mark the event as resolved."
 ---
-= Acknowledge and resolve events
+= Acknowledge and resolve events in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

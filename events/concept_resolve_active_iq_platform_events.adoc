@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active iq, resolve, events
 summary: "Active IQ platform incidents and risks are similar to other Unified Manager events because they can be assigned to other users for resolution and they have the same available states. However, when you resolve these types of events using the Fix It button you can verify the resolution within hours."
 ---
-= Resolve Active IQ platform events
+= How Unified Manager resolves Active IQ platform events
 :icons: font
 :imagesdir: ../media/
 

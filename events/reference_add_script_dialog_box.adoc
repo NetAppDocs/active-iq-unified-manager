@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, script, dialog, box
 summary: "The Add Script dialog box enables you to add scripts to Unified Manager. You can configure alerts with your scripts to automatically resolve events that are generated for storage objects."
 ---
-= Add Script dialog box
+= Add Script dialog box in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

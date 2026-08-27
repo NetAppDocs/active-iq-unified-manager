@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: network, interface, (lif) events, impact area, availability, configuration, performance
 summary: "Network interface events provide information about the status of your network interface (LIFs), so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Network interface (LIF) events
+= Network interface events in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

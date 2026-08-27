@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, events, specific, users
 summary: "You can assign unassigned events to yourself or to other users, including remote users. You can reassign assigned events to another user, if required. For example, when frequent issues occur on a storage object, you can assign the events for these issues to the user who manages that object."
 ---
-= Assign events to specific users
+= Assign events to specific users in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, severity, types
 summary: "Each event is associated with a severity type to help you prioritize the events that require immediate corrective action."
 ---
-= Description of event severity types
+= Event severity types in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

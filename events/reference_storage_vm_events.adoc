@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, vm events, impact area, availability, configuration, performance, security
 summary: "Storage VM events provide you with information about the status of your storage VMs (SVMs) so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Storage VM events
+= Storage VM events in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

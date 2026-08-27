@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, chart, details
 summary: "For dynamic performance events, the System Diagnosis section of the Event details page lists the top workloads with the highest latency or usage of the cluster component that is in contention. The performance statistics are based on the time the performance event was detected up to the last time the event was analyzed. The charts also display historical performance statistics for the cluster component that is in contention."
 ---
-= Dynamic performance event chart details
+= Dynamic performance event chart details in Unified Manager
 :icons: font
 :imagesdir: ../media/
 
