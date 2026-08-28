@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, user, interface
 summary: "The Unified Manager user interface mainly consists of a dashboard that provides an at-a-glance view of the objects that are monitored. The user interface also provides access to viewing all the cluster objects."
 ---
-= Understand the user interface
+= Learn about the Active IQ Unified Manager user interface
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, performance, statistics, collection, interval
 summary: "The default collection interval for performance statistics is 5 minutes. You can change this interval to 10 or 15 minutes if you find that collections from large clusters are not finishing within the default time. This setting affects the collection of statistics from all clusters that this instance of Unified Manager is monitoring."
 ---
-= Change the performance statistics collection interval
+= Change the performance statistics collection interval in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

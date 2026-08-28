@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policies, guidelines, create, custom
 summary: "A Storage Efficiency Policy (SEP) enables you to define the storage efficiency characteristics of a workload. You can assign an SEP to a workload when initially creating the workload, or afterwards by editing the workload."
 ---
-= Manage Storage Efficiency Policies
+= Storage Efficiency Policies in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

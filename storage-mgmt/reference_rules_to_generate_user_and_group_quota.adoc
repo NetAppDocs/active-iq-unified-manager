@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rules, generate, user, group, quota, email, address, page, area, define, add comments, syntax, command buttons
 summary: "The Rules to Generate User and Group Quota Email Address page enables you to create rules to specify email addresses based on the user quota associated with clusters, SVMs, volumes, qtrees, users, or user groups. A notification is sent to the specified email address when a quota is breached."
 ---
-= Rules to Generate User and Group Quota Email Address page
+= Quota email address rules in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

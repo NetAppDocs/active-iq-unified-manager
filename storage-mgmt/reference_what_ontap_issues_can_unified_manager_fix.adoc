@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ontap issues, fix it action, automatic remediation feature, remediation events, fix-it messages, fix-it events
 summary: "This table describes the ONTAP issues that Unified Manager can resolve directly from the Unified Manager user interface by clicking the Fix It or Fix All button."
 ---
-= What issues can Unified Manager fix
+= ONTAP issues that Unified Manager can fix
 :icons: font
 :imagesdir: ../media/
 

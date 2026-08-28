@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: bookmark, favorite, help topics
 summary: "In the Help Favorites tab, you can bookmark Help topics that you use frequently. Help bookmarks provide fast access to your favorite topics."
 ---
-= Bookmark your favorite Help topics
+= Bookmark your favorite Help topics in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

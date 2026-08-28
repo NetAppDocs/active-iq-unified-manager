@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dashboard page,
 summary: "The Dashboard page has “panels” that display the high level capacity, performance, and security health of the clusters you are monitoring. This page also provides a Management Actions panel that lists fixes that Unified Manager can make to resolve certain events."
 ---
-= Dashboard page
+= Unified Manager Dashboard page
 :icons: font
 :imagesdir: ../media/
 
