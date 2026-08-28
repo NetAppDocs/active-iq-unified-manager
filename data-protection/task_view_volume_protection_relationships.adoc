@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, protection relationships
 summary: "From the Relationship: All Relationships view, and from the Volume Relationships page, you can view the status of existing volume SnapMirror and SnapVault relationships. You can also examine details about protection relationships, including transfer and lag status, source and destination details, schedule and policy information, and so on."
 ---
-= View volume protection relationships in Unified Manager
+= View volume protection relationships in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

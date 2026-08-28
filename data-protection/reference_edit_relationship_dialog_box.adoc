@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, relationship, dialog box
 summary: "You can edit an existing protection relationship to change the maximum transfer rate, the protection policy, or the protection schedule."
 ---
-= Edit relationship dialog box in Unified Manager
+= Edit relationship dialog box in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

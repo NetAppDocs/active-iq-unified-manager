@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, protection, relationships, volume, relationships, page
 summary: "You can edit existing protection relationships to change the maximum transfer rate, the protection policy, or the protection schedule. You might edit a relationship to decrease the bandwidth used for transfers, or to increase the frequency of scheduled transfers because data is changing often."
 ---
-= Edit protection relationships from the Volume Relationships page in Unified Manager
+= Edit protection relationships from the Volume Relationships page in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

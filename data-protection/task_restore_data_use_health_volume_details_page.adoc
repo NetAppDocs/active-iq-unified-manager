@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, data, volume, health details page, console
 summary: "You can restore overwritten or deleted files, directories, or an entire volume from a Snapshot copy by using the restore feature on the Volume / Health details page."
 ---
-= Restore data using Volume and Volume / Health details pages in Unified Manager
+= Restore data using Volume and Volume / Health details pages in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, cascade fanout, relationships, extend protection, existing protection relationship
 summary: "You can extend protection from an existing relationship by creating either a fanout from the source volume or a cascade from the destination volume of an existing relationship. You might do this when you need to copy data from one site to many sites or to provide additional protection by creating more backups."
 ---
-= Extend protection using cascade or fanout relationships in Unified Manager
+= Extend protection using cascade or fanout relationships in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

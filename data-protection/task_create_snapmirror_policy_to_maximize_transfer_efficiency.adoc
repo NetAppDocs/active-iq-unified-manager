@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, policy, maximize, transfer, efficiency
 summary: "You can create a SnapMirror policy to specify the SnapMirror transfer priority for protection relationships. SnapMirror policies enable you to maximize transfer efficiency from the source to the destination by assigning priorities so that lower-priority transfers are scheduled to run after normal-priority transfers."
 ---
-= Create a SnapMirror policy to maximize transfer efficiency in Unified Manager
+= Create a SnapMirror policy to maximize transfer efficiency in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

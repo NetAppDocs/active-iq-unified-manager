@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reverse, resync, dialog box
 summary: "When you have a protection relationship that is broken because the source volume is disabled and the destination is made a read/write volume, reverse resynchronization enables you to reverse the direction of the relationship so that the destination becomes the new source and the source becomes the new destination."
 ---
-= Reverse resync dialog box in Unified Manager
+= Reverse resync dialog box in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

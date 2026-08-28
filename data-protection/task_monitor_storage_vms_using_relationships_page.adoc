@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: relationships page, monitor, storage, vm
 summary: "You can monitor your storage VM disaster recovery relationships from the Relationships page in the PROTECTION section of the INVENTORY. By default, the Relationships page lists only the top-level relationships as the constituent relationships filter is applied."
 ---
-= Monitor storage VMs using the Relationships page in Unified Manager
+= Monitor storage VMs using the Relationships page in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

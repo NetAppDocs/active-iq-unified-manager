@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, policy, dialog box
 summary: "The Create SnapMirror Policy dialog box enables you to create a policy to set the priority for SnapMirror transfers. You use policies to maximize the efficiency of transfers from the source to the destination."
 ---
-= Create SnapMirror policy dialog box in Unified Manager
+= Create SnapMirror policy dialog box in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

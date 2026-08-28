@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: creating, resource, pools
 summary: "You can use the Create Resource Pool dialog box to group aggregates for provisioning purposes."
 ---
-= Create resource pools in Unified Manager
+= Create resource pools in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
