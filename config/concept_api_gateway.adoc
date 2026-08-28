@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: api gateway
 summary: "The API Gateway feature allows Active IQ Unified Manager to be a single control plane from which you can manage multiple ONTAP clusters, without logging in to them individually."
 ---
-= Learn about the API Gateway feature in Unified Manager
+= Learn about the API Gateway feature in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
