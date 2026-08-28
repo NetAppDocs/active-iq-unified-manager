@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, quotas
 summary: "You can use user and group quotas to limit the amount of disk space or the number of files that a user or a user group can use. You can view user and user group quota information, such as the disk and file usage and the various limits set on disks."
 ---
-= User and group quotas in Unified Manager
+= User and group quotas in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

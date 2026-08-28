@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, latency, cluster, component
 summary: "You can view detailed latency information for a volume by using the Volume Performance Explorer page. The Latency - Total counter chart shows total latency on the volume, and the Latency - Breakdown counter chart is useful for determining the impact of read and write latency on the volume."
 ---
-= View volume latency by cluster component in Unified Manager
+= View volume latency by cluster component in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

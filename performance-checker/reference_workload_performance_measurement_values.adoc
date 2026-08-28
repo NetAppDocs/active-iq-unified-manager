@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload, performance, measurement, values
 summary: "Unified Manager measures the performance of workloads on a cluster based on historical and expected statistical values, which form the latency forecast of values for the workloads. It compares the actual workload statistical values to the latency forecast to determine when workload performance is too high or too low. A workload that is not performing as expected triggers a dynamic performance event to notify you."
 ---
-= Workload performance measurement values in Unified Manager
+= Workload performance measurement values in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

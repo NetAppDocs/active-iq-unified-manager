@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: latency, forecast, performance, analysis
 summary: "Unified Manager uses the latency forecast to represent the typical I/O latency (response time) activity for your monitored workloads. It alerts you when the actual latency for a workload is above the upper bounds of the latency forecast, which triggers a dynamic performance event, so that you can analyze the performance issue and take corrective action for resolving it."
 ---
-= How Unified Manager uses the latency forecast in performance analysis
+= How Active IQ Unified Manager uses the latency forecast in performance analysis
 :icons: font
 :imagesdir: ../media/
 

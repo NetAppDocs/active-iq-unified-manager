@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, alerts
 summary: "You can edit alert properties such as the resource with which the alert is associated, events, recipients, notification options, notification frequency, and associated scripts."
 ---
-= Edit alerts in Unified Manager
+= Edit alerts in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

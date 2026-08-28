@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, event, retention, settings
 summary: "You can specify the number of months an event is retained in the Unified Manager server before it is automatically deleted."
 ---
-= Configure event retention settings in Unified Manager
+= Configure event retention settings in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

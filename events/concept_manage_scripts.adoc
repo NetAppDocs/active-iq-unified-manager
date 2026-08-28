@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, scripts
 summary: "You can use scripts to automatically modify or update multiple storage objects in Unified Manager. The script is associated with an alert. When an event triggers an alert, the script is executed. You can upload custom scripts and test their execution when an alert is generated."
 ---
-= Learn about scripts in Unified Manager
+= Learn about scripts in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

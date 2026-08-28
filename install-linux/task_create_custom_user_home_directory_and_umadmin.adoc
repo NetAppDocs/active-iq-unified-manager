@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, custom, user, home, directory, umadmin, password, prior, installation
 summary: "You can create a custom home directory and define your own umadmin user password prior to installing Unified Manager. This task is optional, but some sites might need the flexibility to override Unified Manager installation default settings."
 ---
-= Create a custom home directory and umadmin password for Unified Manager
+= Create a custom home directory and umadmin password for Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

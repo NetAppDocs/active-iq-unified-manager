@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: all san, array, performance, clusters
 summary: "You can use the Performance: All Clusters view to display the performance status of your All SAN Array clusters."
 ---
-= View the performance for All SAN Array clusters in Unified Manager
+= View the performance for All SAN Array clusters in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

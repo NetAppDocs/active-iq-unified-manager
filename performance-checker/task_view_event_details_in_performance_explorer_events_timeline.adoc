@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, event, details, timeline
 summary: "You can view all events and their related details in the Events Timeline pane of Performance Explorer. This is a quick and efficient method of viewing all the health and performance events that occurred on the root object during a specified time range, which can be helpful when troubleshooting performance issues."
 ---
-= View event details in the Unified Manager Events Timeline
+= View event details in the Active IQ Unified Manager Events Timeline
 :icons: font
 :imagesdir: ../media/
 

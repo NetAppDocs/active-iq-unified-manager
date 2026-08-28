@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, unified manager, upgrade file
 summary: "Before upgrading Unified Manager, download the Unified Manager upgrade file from the NetApp Support Site."
 ---
-= Download the Unified Manager upgrade file
+= Download the Active IQ Unified Manager upgrade file
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: apply, filter, reduce, list, correlated, objects, grid
 summary: "Filtering enables you to display a smaller, more well-defined subset of objects in the grid. For example, if you have 25 volumes in the grid, filtering enables you to view only those volumes that have throughput less than 90 MBps, or latency greater than 1 ms/op."
 ---
-= Filtering correlated objects in the Unified Manager grid
+= Filtering correlated objects in the Active IQ Unified Manager grid
 :icons: font
 :imagesdir: ../media/
 

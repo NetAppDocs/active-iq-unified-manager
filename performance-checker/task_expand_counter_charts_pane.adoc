@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, counter, charts, pane
 summary: "You can expand the Counter Charts pane so that the charts are larger and more readable."
 ---
-= Expand the Unified Manager Counter Charts pane
+= Expand the Active IQ Unified Manager Counter Charts pane
 :icons: font
 :imagesdir: ../media/
 

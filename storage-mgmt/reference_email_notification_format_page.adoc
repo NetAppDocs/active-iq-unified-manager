@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: email, notification, format, page
 summary: "The Email Notification Format page displays the rules of the email that is sent to a user or a user group when there is a quota-related issue (soft limit breached or hard limit reached)."
 ---
-= Unified Manager Email Notification Format page
+= Active IQ Unified Manager Email Notification Format page
 :icons: font
 :imagesdir: ../media/
 

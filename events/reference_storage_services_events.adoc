@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, services, events, impact area, configuration, protection
 summary: "Storage services events provide you with information about the creation and subscription of storage services so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Storage services events in Unified Manager
+= Storage services events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

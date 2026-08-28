@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, volume, health, thresholds, groups
 summary: "You can configure group-level volume health thresholds for capacity, Snapshot copies, qtree quotas, growth, and inodes."
 ---
-= Configure volume health thresholds for groups in Unified Manager
+= Configure volume health thresholds for groups in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

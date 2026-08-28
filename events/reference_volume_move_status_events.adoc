@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, move, status, events, impact area, capacity
 summary: "Volume move status events tell you about the status of your volume move so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Volume move status events in Unified Manager
+= Volume move status events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

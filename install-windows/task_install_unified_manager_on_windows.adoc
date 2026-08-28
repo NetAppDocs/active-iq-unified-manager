@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager
 summary: "You can install Unified Manager to monitor and troubleshoot data storage capacity, availability, performance, and protection issues."
 ---
-= Install Unified Manager on Windows
+= Install Active IQ Unified Manager on Windows
 :icons: font
 :imagesdir: ../media/
 

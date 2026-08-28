@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, active, events, notification, bell
 summary: "The notification bell in the menu bar provides a fast way to view the most important active events that Unified Manager is tracking."
 ---
-= View active events from the notification bell in Unified Manager
+= View active events from the notification bell in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

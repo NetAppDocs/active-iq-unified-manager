@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, scripts
 summary: "You can delete a script from Unified Manager when the script is no longer required or valid."
 ---
-= Delete Unified Manager scripts
+= Delete Active IQ Unified Manager scripts
 :icons: font
 :imagesdir: ../media/
 

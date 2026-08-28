@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, capacity, health, thresholds
 summary: "A storage capacity health threshold is the point at which the Unified Manager server generates events to report any capacity problem with storage objects. You can configure alerts to send notification whenever such events occurs."
 ---
-= Learn about storage capacity health thresholds in Unified Manager
+= Learn about storage capacity health thresholds in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, script, execution
 summary: "You can verify that your script is executed correctly when an alert is generated for a storage object."
 ---
-= Test script execution in Unified Manager
+= Test script execution in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

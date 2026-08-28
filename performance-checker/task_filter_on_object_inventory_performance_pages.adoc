@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filter, data, object, inventory, performance, pages
 summary: "You can filter data in the Object Inventory Performance pages to quickly locate data based on specific criteria. You can use filtering to narrow the contents of the Object Inventory Performance pages to show only the results you have specified. This provides a very efficient method of displaying only the performance data in which you are interested."
 ---
-= Filter data on Object Inventory Performance pages in Unified Manager
+= Filter data on Object Inventory Performance pages in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

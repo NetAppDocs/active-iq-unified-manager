@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, charts, display, data
 summary: "The workload analyzer page displays information about any current events that could be affecting the workload, recommendations to potentially fix the issue causing the event, and charts for analyzing performance and capacity history."
 ---
-= Workload analyzer data in Unified Manager
+= Workload analyzer data in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

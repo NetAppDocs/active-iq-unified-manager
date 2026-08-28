@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix, ontap, issues, directly, unified manager, fix it, fix-it, remediation
 summary: 'You can fix certain ONTAP issues directly from the Unified Manager user interface instead of having to use ONTAP System Manager or the ONTAP CLI. The “Management Actions” option provides fixes to a number of ONTAP issues that have triggered Unified Manager events.'
 ---
-= How Unified Manager helps you fix ONTAP issues directly
+= How Active IQ Unified Manager helps you fix ONTAP issues directly
 :icons: font
 :imagesdir: ../media/
 

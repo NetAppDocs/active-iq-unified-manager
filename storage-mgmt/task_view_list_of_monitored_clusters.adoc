@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, list, monitored, clusters
 summary: "You can use the Cluster Setup page to view your inventory of clusters. You can view details about the clusters, such as their name or IP address and communication status."
 ---
-= View the list of clusters monitored by Unified Manager
+= View the list of clusters monitored by Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

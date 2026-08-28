@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, switch, events, impact area, availability
 summary: "MetroCluster switch events provide you with information about the status of the MetroCluster switches so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= MetroCluster switch events in Unified Manager
+= MetroCluster switch events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, lag, threshold settings, unmanaged, protection, relationships
 summary: "You can edit the global default lag warning and error health threshold settings for unmanaged protection relationships so that events are generated at intervals that are appropriate to your needs."
 ---
-= Configure Unified Manager lag thresholds for unmanaged protection relationships
+= Configure Active IQ Unified Manager lag thresholds for unmanaged protection relationships
 :icons: font
 :imagesdir: ../media/
 

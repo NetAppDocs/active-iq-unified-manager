@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, counters, tracked, thresholds
 summary: "Some common performance counters, such as IOPS and MB/s, can have thresholds set for all storage objects. There are other counters that can have thresholds set for only certain storage objects."
 ---
-= Performance counters tracked using thresholds in Unified Manager
+= Performance counters tracked using thresholds in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

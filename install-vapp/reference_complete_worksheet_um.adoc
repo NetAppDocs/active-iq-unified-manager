@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: complete, worksheet, installation, information, unified manager
 summary: "Before you install and configure Unified Manager, you should have specific information about your environment readily available. You can record the information in the worksheet."
 ---
-= Unified Manager installation worksheet
+= Active IQ Unified Manager installation worksheet
 :icons: font
 :imagesdir: ../media/
 

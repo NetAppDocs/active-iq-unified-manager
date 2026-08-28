@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, thresholds
 summary: "Performance threshold policies enable you to determine the point at which Unified Manager generates an event to inform system administrators about issues that could be impacting workload performance. These threshold policies are known as user-defined performance thresholds."
 ---
-= Performance thresholds in Unified Manager
+= Performance thresholds in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

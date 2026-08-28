@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user, not, found
 summary: "Troubleshooting: User not found"
 ---
-= User not found error in Unified Manager
+= User not found error in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

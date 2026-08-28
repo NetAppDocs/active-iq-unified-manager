@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, breached
 summary: "When a counter value exceeds its defined performance threshold value for the amount of time specified in the duration, the threshold is breached and an event is reported."
 ---
-= How Unified Manager responds to a breached performance threshold policy
+= How Active IQ Unified Manager responds to a breached performance threshold policy
 :icons: font
 :imagesdir: ../media/
 

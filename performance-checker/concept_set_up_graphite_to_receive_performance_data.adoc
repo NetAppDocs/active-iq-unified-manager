@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  setting, graphite, receive, performance, data, unified manager
 summary: "Graphite is an open software tool for gathering and graphing performance data from computer systems. Your Graphite server and software must be configured correctly to receive statistical data from Unified Manager."
 ---
-= Set up Graphite to receive performance data from Unified Manager
+= Set up Graphite to receive performance data from Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

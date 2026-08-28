@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, different, node
 summary: "You can use Unified Manager to help identify an aggregate on a different node that is less busy than the node on which your workloads are currently running, and then you can move selected volumes to that aggregate. Moving high-performing workloads to an aggregate on a less busy node allows the workloads on both nodes to perform more efficiently."
 ---
-= Move workloads to a different node in Unified Manager
+= Move workloads to a different node in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

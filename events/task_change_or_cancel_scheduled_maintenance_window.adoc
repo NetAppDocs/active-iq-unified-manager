@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, cancel, scheduled, maintenance, window
 summary: "If you have configured a Unified Manager maintenance window to occur in the future, you can change the start and end times or cancel the maintenance window from occurring."
 ---
-= Change or cancel a scheduled maintenance window in Unified Manager
+= Change or cancel a scheduled maintenance window in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

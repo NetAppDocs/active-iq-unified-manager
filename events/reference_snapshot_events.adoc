@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: snapshot, events, impact area, availability
 summary: "Snapshot events provide information about the status of snapshots which enables you to monitor the snapshots for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity."
 ---
-= Snapshot events in Unified Manager
+= Snapshot events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

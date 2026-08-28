@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, configure, conditions, annotation rules
 summary: "You can configure one or more conditions to create annotation rules that Unified Manager applies on the storage objects. The storage objects that satisfy the annotation rule are annotated with the value specified in the rule."
 ---
-= Configure conditions for annotation rules in Unified Manager
+= Configure conditions for annotation rules in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

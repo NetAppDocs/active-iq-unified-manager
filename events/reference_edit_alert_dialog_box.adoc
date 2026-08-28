@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, alert, dialog box, name, resources, events, actions
 summary: "You can edit alert properties such as the resource with which the alert is associated, events, script, and notification options."
 ---
-= Edit Alert dialog box in Unified Manager
+= Edit Alert dialog box in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

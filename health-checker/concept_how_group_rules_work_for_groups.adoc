@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: group rules, work, groups
 summary: "A group rule is a criterion that you define to enable storage objects (volumes, clusters, or SVMs) to be included in a specific group. You can use condition groups or conditions for defining group rule for a group."
 ---
-= How group rules work for groups in Unified Manager
+= How group rules work for groups in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

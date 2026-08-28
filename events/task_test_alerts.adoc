@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, alerts
 summary: "You can test an alert to verify that you have configured it correctly. When an event is triggered, an alert is generated, and an alert email is sent to the configured recipients. You can verify whether the notification is sent and whether your script is executed by using the test alert."
 ---
-= Test alerts in Unified Manager
+= Test alerts in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

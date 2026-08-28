@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disks, reallocate, data
 summary: "You can add disks to an aggregate to increase the storage capacity and the performance of that aggregate. After adding the disks, you will see an improvement in read performance only after reallocating the data across the disks you added."
 ---
-= How adding disks affects data reallocation in Unified Manager
+= How adding disks affects data reallocation in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

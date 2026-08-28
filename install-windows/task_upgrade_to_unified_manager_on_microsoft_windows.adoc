@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager
 summary: "You can upgrade Unified Manager by downloading and running the installation file on the Windows platform."
 ---
-= Upgrade Unified Manager on Windows
+= Upgrade Active IQ Unified Manager on Windows
 :icons: font
 :imagesdir: ../media/
 

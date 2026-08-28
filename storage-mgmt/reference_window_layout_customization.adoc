@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: window, layout, customization
 summary: "Active IQ Unified Manager enables you to customize the layout of information on the storage and network object pages. By customizing the windows, you can control which data is viewable and how the data is displayed."
 ---
-= Window layout customization in Unified Manager
+= Window layout customization in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

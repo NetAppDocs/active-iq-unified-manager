@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, performance, events, pane, counter
 summary: "The Cluster performance events pane displays performance statistics and all active events for the cluster. This is most helpful when monitoring your clusters and all cluster-related performance and events."
 ---
-= Cluster performance events pane in Unified Manager
+= Cluster performance events pane in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

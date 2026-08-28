@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, when, event, received
 summary: "When Unified Manager receives an event, it is displayed in the Dashboard page, in the Event Management inventory page, in the Summary and Explorer tabs of the Cluster/Performance page, and in the object-specific inventory page (for example, the Volumes/Health inventory page)."
 ---
-= How Unified Manager handles a received event
+= How Active IQ Unified Manager handles a received event
 :icons: font
 :imagesdir: ../media/
 

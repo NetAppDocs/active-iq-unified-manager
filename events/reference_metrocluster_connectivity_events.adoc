@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, connectivity, events, impact area, availability
 summary: "Connectivity events provide you with information about the connectivity between the components of a cluster and between clusters in a MetroCluster configuration so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= MetroCluster connectivity events in Unified Manager
+= MetroCluster connectivity events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scripts, work, alerts
 summary: "You can associate an alert with your script so that the script is executed when an alert is raised for an event in Unified Manager. You can use the scripts to resolve issues with storage objects or identify which storage objects are generating the events."
 ---
-= How scripts work with alerts in Unified Manager
+= How scripts work with alerts in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

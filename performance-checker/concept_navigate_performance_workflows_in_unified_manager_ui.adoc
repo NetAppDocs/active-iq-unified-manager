@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: navigating, performance, workflows, unified manager, gui
 summary: "The Unified Manager interface provides many pages for the collection and display of performance information. You use the left navigation panel to navigate to pages in the GUI, and you use tabs and links on the pages to view and configure information."
 ---
-= Performance workflow navigation in the Unified Manager GUI
+= Performance workflow navigation in the Active IQ Unified Manager GUI
 :icons: font
 :imagesdir: ../media/
 

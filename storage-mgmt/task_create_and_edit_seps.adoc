@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, storage, efficiency, policies
 summary: "When the system-defined Storage Efficiency Policies do not match your workload requirements, you can create your own Storage Efficiency Policies that are optimized for your workloads."
 ---
-= Create and edit Storage Efficiency Policies in Unified Manager
+= Create and edit Storage Efficiency Policies in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

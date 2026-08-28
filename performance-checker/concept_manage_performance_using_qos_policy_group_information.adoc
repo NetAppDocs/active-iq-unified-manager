@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managing, performance, qos, policy, group, information
 summary: "Unified Manager enables you to view the quality of service (QoS) policy groups that are available on all the clusters you are monitoring. The policies may have been defined using ONTAP software (System Manager or the ONTAP CLI) or by Unified Manager Performance Service Level policies. Unified Manager also displays which volumes and LUNs have a QoS policy group assigned."
 ---
-= QoS policy group information in Unified Manager
+= QoS policy group information in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

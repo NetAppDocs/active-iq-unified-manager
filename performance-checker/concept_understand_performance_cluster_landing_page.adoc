@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, cluster, landing page
 summary: "The Performance Cluster Landing page provides a high-level performance overview of a selected cluster, with an emphasis on the performance status of the top 10 objects within the cluster. Performance issues are displayed at the top of the page, in the All Events on this Cluster panel."
 ---
-= Understand the Performance Cluster Landing page in Unified Manager
+= Understand the Performance Cluster Landing page in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

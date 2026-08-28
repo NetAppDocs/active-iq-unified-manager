@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: port, events, impact area, availability, performance
 summary: "Port events provide you with status about cluster ports so that you can monitor changes or problems on the port, like whether the port is down."
 ---
-= Port events in Unified Manager
+= Port events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
