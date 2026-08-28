@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: annotations
 summary: "An annotation is a text string (the name) that is assigned to another text string (the value). Each annotation name-value pair can be dynamically associated with storage objects using annotation rules. When you associate storage objects with predefined annotations, you can filter and view the events that are related to them. You can apply annotations to clusters, volumes, and storage virtual machines (SVMs)."
 ---
-= What annotations are
+= Learn about annotations in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

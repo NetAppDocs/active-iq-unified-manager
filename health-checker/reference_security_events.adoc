@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security events
 summary: "Security events provide you with information about the security status of ONTAP clusters, storage virtual machines (SVMs), and volumes based on parameters defined in the NetApp Security Hardening Guide for ONTAP 9. These events notify you of potential issues so that you can evaluate their severity and fix the issue if necessary."
 ---
-= Security events
+= Security events in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

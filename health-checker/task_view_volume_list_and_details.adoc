@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume list, details
 summary: "From the Health: All Volumes view, you can monitor your inventory of volumes. The Capacity: All Volumes view enables you to view information about the capacity and utilization of volumes in a cluster."
 ---
-= View the volume list and details
+= View the volume list and details in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

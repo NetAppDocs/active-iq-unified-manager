@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: group
 summary: "A group is a dynamic collection of heterogeneous storage objects (clusters, SVMs, or volumes). You can create groups in Unified Manager to easily manage a set of storage objects. The members in a group might change, depending on the storage objects that are monitored by Unified Manager at a point in time."
 ---
-= What a group is
+= Learn about groups in Unified Manager
 :icons: font
 :imagesdir: ../media/
 
