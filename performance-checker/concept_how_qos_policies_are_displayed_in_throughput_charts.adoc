@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: different, types, qos, policies, display, throughput, charts
 summary: "You can view the ONTAP-defined quality of service (QoS) policy settings that have been applied to a volume or LUN in the Performance Explorer and Workload Analysis IOPS, IOPS/TB, and MB/s charts. The information displayed in the charts is different depending on the type of QoS policy that has been applied to the workload."
 ---
-= How different types of QoS policies are displayed in the throughput charts
+= How Unified Manager displays QoS policies in throughput charts
 :icons: font
 :imagesdir: ../media/
 

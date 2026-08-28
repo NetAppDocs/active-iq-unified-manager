@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, qos, policy, group, settings, applied, specific, volumes, luns
 summary: "You can view the QoS policy groups that have been applied to your volumes and LUNs, and you can link to the Performance/QoS Policy Groups view to display the detailed configuration settings for each QoS policy."
 ---
-= View the QoS policy group settings applied to specific volumes or LUNs
+= View QoS policy group settings for volumes or LUNs in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

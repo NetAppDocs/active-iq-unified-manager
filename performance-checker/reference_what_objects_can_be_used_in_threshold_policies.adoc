@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: objects, counters, combination, threshold, policies
 summary: "Only some performance counters can be used together in combination policies. When primary and secondary performance counters are specified, both performance counters must exceed their maximum limits before an event is generated."
 ---
-= What objects and counters can be used in combination threshold policies
+= Combination threshold policy objects and counters in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

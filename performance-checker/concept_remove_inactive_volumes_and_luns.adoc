@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  remove, inactive, volumes, luns
 summary: "When aggregate free space has been identified as an issue, you can search for unused volumes and LUNs and delete them from the aggregate. This can help to alleviate the low disk space issue."
 ---
-= Remove inactive volumes and LUNs
+= Remove inactive volumes and LUNs in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

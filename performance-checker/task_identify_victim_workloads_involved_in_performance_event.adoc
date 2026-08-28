@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, victim workloads, dynamic, performance, event
 summary: "In Unified Manager, you can identify which volume workloads have the highest deviation in response time (latency) caused by a storage component in contention. Identifying these workloads helps you understand why the client applications accessing them have been performing slower than usual."
 ---
-= Identify victim workloads involved in a dynamic performance event
+= Identify victim workloads in a Unified Manager dynamic performance event
 :icons: font
 :imagesdir: ../media/
 

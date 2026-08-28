@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolving, performance, events
 summary: "You can use the suggested actions to try and resolve performance events on your own. The first three suggestions are always displayed, and the actions under the fourth suggestion are specific to the type of event displayed."
 ---
-= Resolve performance events
+= Resolve performance events in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

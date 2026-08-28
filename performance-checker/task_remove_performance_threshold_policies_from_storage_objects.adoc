@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, performance, threshold, policies, storage, objects
 summary: "You can remove a user-defined performance threshold policy from a storage object when you no longer want Unified Manager to monitor the value of the performance counter."
 ---
-= Remove performance threshold policies from storage objects
+= Remove performance threshold policies from Unified Manager storage objects
 :icons: font
 :imagesdir: ../media/
 

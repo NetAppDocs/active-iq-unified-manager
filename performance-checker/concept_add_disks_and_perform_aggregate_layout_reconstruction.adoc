@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disks, perform, aggregate, layout, reconstruction
 summary: "You can add disks to an aggregate to increase the storage capacity and the performance of that aggregate. After adding the disks, you only see an improvement in performance after reconstructing the aggregate."
 ---
-= Add disks and perform aggregate layout reconstruction
+= How adding disks affects aggregate layout in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
