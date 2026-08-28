@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unknown, authentication, error
 summary: "Troubleshooting: Unknown authentication error"
 ---
-= Unknown authentication error
+= Unknown authentication error in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

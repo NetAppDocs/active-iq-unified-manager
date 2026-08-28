@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workloads, add, provision, storage, filter, analyze, performance, capacity, criteria
 summary: "The All Workloads view displays the list of all the workloads available on the clusters in a data center."
 ---
-= View workloads
+= Workloads view in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

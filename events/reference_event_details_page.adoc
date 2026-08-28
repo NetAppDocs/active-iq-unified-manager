@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, details, page
 summary: "From the Event details page, you can view the details of a selected event, such as the event severity, impact level, impact area, and event source. You can also view additional information about possible remediations to resolve the issue."
 ---
-= Event details page
+= Event details page in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

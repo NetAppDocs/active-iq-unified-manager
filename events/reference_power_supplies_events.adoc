@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: power, supplies, events, impact area, availability
 summary: "Power supplies events provide you with information about the status of your hardware so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Power supplies events
+= Power supplies events in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

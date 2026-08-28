@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enabling, flash cache, node, improve, workload, performance
 summary: "You can improve workload performance by enabling Flash Cache™ intelligent data caching on each node in the cluster."
 ---
-= How enabling Flash Cache on a node can improve workload performance
+= How enabling Flash Cache on a node improves workload performance
 :icons: font
 :imagesdir: ../media/
 

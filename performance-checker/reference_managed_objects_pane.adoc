@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managed, objects, pane
 summary: "The Managed Objects pane in the Performance Summary tab provides a top-level overview of the storage object types and counts for the cluster. This pane enables you to track the status of the objects in each cluster."
 ---
-= Managed Objects pane
+= Managed Objects pane in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

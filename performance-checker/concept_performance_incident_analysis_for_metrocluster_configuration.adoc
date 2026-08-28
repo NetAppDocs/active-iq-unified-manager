@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, analysis, metrocluster, configuration
 summary: "You can use Unified Manager to analyze a performance event for a MetroCluster configuration. You can identify the workloads involved in the event and review the suggested actions for resolving it."
 ---
-= Performance event analysis for a MetroCluster configuration
+= How Unified Manager analyzes MetroCluster performance events
 :icons: font
 :imagesdir: ../media/
 

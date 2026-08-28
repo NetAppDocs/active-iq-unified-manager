@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rediscover clusters,
 summary: "You can manually rediscover a cluster from the Cluster Setup page in order to obtain the latest information about the health, monitoring status, and performance status of the cluster."
 ---
-= Rediscover clusters
+= Rediscover clusters in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

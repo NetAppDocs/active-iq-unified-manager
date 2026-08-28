@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volumes, luns, same. qos, policy, group
 summary: "You can display a list of the volumes and LUNs that have been assigned to the same QoS policy group."
 ---
-= View volumes or LUNs that are in the same QoS policy group
+= View volumes or LUNs within the same QoS policy group in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

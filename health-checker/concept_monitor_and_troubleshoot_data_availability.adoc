@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, troubleshoot, data availability
 summary: "Unified Manager monitors the reliability with which authorized users can access your stored data, alerts you to conditions that block or impede that access, and enables you to diagnose those conditions and assign and track their resolution."
 ---
-= Monitor and troubleshoot data availability
+= Monitoring and troubleshooting data availability in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: alert, setup, page, command buttons, list view, details area
 summary: "The Alert Setup page displays a list of alerts and provides information about the alert name, status, notification method, and notification frequency. You can also add, edit, remove, enable, or disable alerts from this page."
 ---
-= Alert Setup page
+= Alert Setup page in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

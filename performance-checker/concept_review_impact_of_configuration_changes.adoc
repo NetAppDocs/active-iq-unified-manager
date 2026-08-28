@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: review, impact, configuration, changes, workload, performance
 summary: "Configuration changes on the cluster, such as a failed disk, HA failover, or a moved volume, could negatively impact volume performance and cause increased latency."
 ---
-= Review the impact of configuration changes on workload performance
+= How configuration changes affect workload performance in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

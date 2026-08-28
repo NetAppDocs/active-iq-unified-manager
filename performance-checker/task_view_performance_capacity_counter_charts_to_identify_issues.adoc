@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, capacity, counter charts, identify, issues
 summary: "You can view performance capacity used charts for nodes and aggregates on the Performance Explorer page. This enables you to view detailed performance capacity data for the selected nodes and aggregates for a specific timeframe."
 ---
-= View performance capacity counter charts to identify issues
+= View performance capacity counter charts in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

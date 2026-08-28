@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, management, inventory, page, filter, components, xommand buttons, list
 summary: "The Event Management inventory page enables you to view a list of current events and their properties. You can perform tasks such as acknowledging, resolving, and assigning events. You can also add an alert for specific events."
 ---
-= Event Management inventory page
+= Event Management inventory page in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

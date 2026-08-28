@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, oncommand, workflow, automation, setup, unified manager
 summary: "You can remove the OnCommand Workflow Automation setup from Unified Manager when you no longer want to use Workflow Automation."
 ---
-= Remove OnCommand Workflow Automation setup from Unified Manager
+= Remove OnCommand Workflow Automation setup from Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

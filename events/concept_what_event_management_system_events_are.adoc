@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event management, system,
 summary: "The Event Management System (EMS) collects event data from different parts of the ONTAP kernel and provides event forwarding mechanisms. These ONTAP events can be reported as EMS events in Unified Manager. Centralized monitoring and management eases configuration of critical EMS events and alert notifications based on these EMS events."
 ---
-= What Event Management System events are
+= Learn about Event Management System events in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system-defined, performance, threshold, policies, cluster, node. aggregate, qos
 summary: "Unified Manager provides some standard threshold policies that monitor cluster performance and generate events automatically. These policies are enabled by default, and they generate warning or information events when the monitored performance thresholds are breached."
 ---
-= Types of system-defined performance threshold policies
+= System-defined performance threshold policies in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

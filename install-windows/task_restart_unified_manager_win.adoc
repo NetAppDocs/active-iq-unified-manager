@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager
 summary: "You might have to restart Unified Manager after making configuration changes."
 ---
-= Restart Unified Manager
+= Restart Unified Manager on Windows
 :icons: font
 :imagesdir: ../media/
 

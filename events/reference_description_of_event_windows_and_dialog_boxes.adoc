@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, windows, dialog boxes
 summary: "Events notify you about any issues in your environment. You can use the Event Management inventory page and Event details page to monitor all the events. You can use the Notification Setup Options dialog box to configure notification. You can use the Event Setup page to disable or enable events."
 ---
-= Description of event windows and dialog boxes
+= Event windows and dialog boxes in Unified Manager
 :icons: font
 :imagesdir: ../media/
 
