@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, identity, provider, used, saml, authentication
 summary: "You can change the identity provider (IdP) that Unified Manager uses to authenticate remote users."
 ---
-= Change the SAML authentication identity provider in Unified Manager
+= Change the SAML authentication identity provider in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
