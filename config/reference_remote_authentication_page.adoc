@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remote authentication, page
 summary: "You can use the Remote Authentication page to configure Unified Manager to communicate with your authentication server to authenticate remote users who attempt to log into the Unified Manager web UI."
 ---
-= Remote Authentication page in Unified Manager
+= Remote Authentication page in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
