@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, configuration, authentication servers
 summary: "You can validate the configuration of your authentication servers to ensure that the management server is able to communicate with them. You can validate the configuration by searching for a remote user or remote group from your authentication servers, and authenticating them using the configured settings."
 ---
-= Test the configuration of authentication servers in Unified Manager
+= Test the configuration of authentication servers in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
