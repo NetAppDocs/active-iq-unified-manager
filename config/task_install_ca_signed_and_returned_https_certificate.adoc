@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, ca signed, returned, https, certificate
 summary: "You can upload and install a security certificate after a Certificate Authority has signed and returned it. The file that you upload and install must be a signed version of the existing self-signed certificate. A CA-signed certificate helps prevent man-in-the middle attacks and provides better security protection than a self-signed certificate."
 ---
-= Install a CA-signed HTTPS certificate in Unified Manager
+= Install a CA-signed HTTPS certificate in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
