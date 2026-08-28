@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disk, space, unified manager, database, directory
 summary: "The Unified Manager database directory contains all of the health and performance data collected from ONTAP systems. Some circumstances may require that you increase the size of the database directory."
 ---
-= Adding disk space to the Unified Manager database directory
+= Add disk space to the Active IQ Unified Manager database directory
 :icons: font
 :imagesdir: ../media/
 
