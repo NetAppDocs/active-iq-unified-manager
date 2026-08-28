@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, logging, audit, logs
 summary: "You can select the Enable Remote Logging checkbox on the Configure Audit Logs dialog box to enable remote audit logging. You can use this feature to transfer audit logs to a remote Syslog server. This will enable you to manage your audit logs when there are space constraints."
 ---
-= Enable remote logging of audit logs in Unified Manager
+= Enable remote logging of audit logs in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
