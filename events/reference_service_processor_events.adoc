@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: service, processor, events, impact area, availability
 summary: "Service processor events provide you with information about the status of your processor so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Service processor events
+= Service processor events in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

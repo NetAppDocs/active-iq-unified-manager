@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  flash, card, events, impact area, availability
 summary: "Flash card events provide you with information about the status of the flash cards installed on nodes in your data center so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Flash card events
+= Flash card events in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

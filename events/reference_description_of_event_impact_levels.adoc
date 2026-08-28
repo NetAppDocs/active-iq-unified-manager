@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, impact, levels
 summary: "Each event is associated with an impact level (Incident, Risk, Event, or Upgrade) to help you prioritize the events that require immediate corrective action."
 ---
-= Description of event impact levels
+= Event impact levels in Unified Manager
 :icons: font
 :imagesdir: ../media/
 
