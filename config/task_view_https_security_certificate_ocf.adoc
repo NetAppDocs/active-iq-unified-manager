@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, https, security, certificate
 summary: "You can compare the HTTPS certificate details to the retrieved certificate in your browser to ensure that your browser’s encrypted connection to Unified Manager is not being intercepted."
 ---
-= View the Unified Manager HTTPS security certificate
+= View the Active IQ Unified Manager HTTPS security certificate
 :icons: font
 :imagesdir: ../media/
 
