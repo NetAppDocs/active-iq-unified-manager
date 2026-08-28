@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, authentication, services
 summary: "Authentication services enable the authentication of remote users or remote groups in an authentication server before providing them access to Unified Manager. You can authenticate users by using predefined authentication services (such as Active Directory or OpenLDAP), or by configuring your own authentication mechanism."
 ---
-= Set up authentication services in Unified Manager
+= Set up authentication services in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
