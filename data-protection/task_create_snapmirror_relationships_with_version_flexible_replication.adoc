@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, relationships, version-flexible, replication, backup, option
 summary: "You can create a SnapMirror relationship with version-flexible replication and backup option capability. Backup option capability enables you to implement SnapMirror protection and also retain multiple versions of backup copies at the destination location."
 ---
-= Create SnapMirror relationships with version-flexible replication with backup option
+= Enable backup option for version-flexible SnapMirror relationships in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

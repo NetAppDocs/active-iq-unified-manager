@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resource, pools, page
 summary: "The Resource Pools page displays existing resource pools and their members, and enables you to create, monitor, and manage resource pools for provisioning purposes."
 ---
-= Resource Pools page
+= Resource pools page in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
