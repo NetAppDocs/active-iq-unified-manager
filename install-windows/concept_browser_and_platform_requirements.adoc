@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported, browsers
 summary: "To access the Unified Manager web UI, use a supported browser."
 ---
-= Supported browsers
+= Supported browsers for Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

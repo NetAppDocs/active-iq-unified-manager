@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: snapvault, relationship, events, impact area, protection
 summary: "SnapVault relationship events provide you with information about the status of your SnapVault relationships so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= SnapVault relationship events
+= SnapVault relationship events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

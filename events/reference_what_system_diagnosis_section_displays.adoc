@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, diagnosis, section, displays
 summary: "The System Diagnosis section of the Event details page provides information that can help you diagnose issues that may have been responsible for the event."
 ---
-= What the System Diagnosis section displays
+= System Diagnosis section in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

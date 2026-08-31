@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: log in, ui, unified manager
 summary: "You can log in to the Unified Manager UI using a supported web browser."
 ---
-= Log in to the UI
+= Log in to the Active IQ Unified Manager UI
 :icons: font
 :imagesdir: ../media/
 

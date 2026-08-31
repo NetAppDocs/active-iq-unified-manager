@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, counter charts, zoom, view
 summary: "The Counter Charts Zoom View provides a finer level of detail for the selected counter chart and its associated timeline. This magnifies the counter chart data, enabling you to have a sharper view into performance events and their underlying causes."
 ---
-= Display the Counter Charts Zoom View
+= Display the Active IQ Unified Manager Counter Charts zoom view
 :icons: font
 :imagesdir: ../media/
 

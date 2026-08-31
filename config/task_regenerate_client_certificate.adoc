@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: client certificate, regenerate, validity, maintenance console
 summary: "You can use the maintenance console to regenerate your Unified Manager client certificate."
 ---
-= Regenerate the Unified Manager client certificate
+= Regenerate the Active IQ Unified Manager client certificate
 :icons: font
 :imagesdir: ../media/
 

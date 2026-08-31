@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: windows, software, installation, requirements, system, active iq unified manager
 summary: "For the successful installation of Unified Manager on Windows, you should ensure that the system on which Unified Manager is being installed meets the software requirements."
 ---
-= Windows software and installation requirements
+= Windows software and installation requirements for Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 :pp: {plus}{plus}

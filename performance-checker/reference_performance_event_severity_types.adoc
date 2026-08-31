@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, severity, types
 summary: "Each performance event is associated with a severity type to help you prioritize the events that require immediate corrective action."
 ---
-= Performance event severity types
+= Performance event severity types in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

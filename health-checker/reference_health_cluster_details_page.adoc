@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, health details page
 summary: "The Cluster / Health details page provides detailed information about a selected cluster, such as health, capacity, and configuration details. You can also view information about the network interfaces (LIFs), nodes, disks, related devices, and related alerts for the cluster."
 ---
-= Cluster / Health details page
+= Cluster / Health details page in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

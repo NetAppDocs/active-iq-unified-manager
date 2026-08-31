@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: network configuration menu
 summary: "The Network Configuration menu enables you to manage the network settings. You should use this menu when the Unified Manager user interface is not available."
 ---
-= Network Configuration menu
+= Active IQ Unified Manager Network Configuration menu
 :icons: font
 :imagesdir: ../media/
 

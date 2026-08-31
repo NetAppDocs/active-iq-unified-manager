@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage vm, viewing protection relationships
 summary: "Using the Storage VMs page, you can view the status of existing storage VMs’ disaster recovery relationships."
 ---
-= View protection relationships from Storage VMs page
+= View protection relationships from storage VMs in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

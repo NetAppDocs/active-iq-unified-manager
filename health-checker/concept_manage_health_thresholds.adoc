@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, health, thresholds
 summary: "You can configure global health threshold values for all the aggregates, volumes, and qtrees to track any health threshold breaches."
 ---
-= Manage health thresholds
+= Managing health thresholds in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
