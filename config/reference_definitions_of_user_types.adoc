@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: definitions, user types
 summary: "A user type specifies the kind of account the user holds and includes remote users, remote groups, local users, database users, and maintenance users. Each of these types has its own role, which is assigned by a user with the role of Administrator."
 ---
-= Definitions of user types
+= Definitions of user types in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

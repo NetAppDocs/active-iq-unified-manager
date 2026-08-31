@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: protection, events, impact area, protection
 summary: "Protection events tell you if a job has failed or been aborted so that you can monitor for problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Protection events
+= Protection events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

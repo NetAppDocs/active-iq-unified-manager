@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: nvme, namespace, events, impact area, availability, performance
 summary: "NVMe Namespace events provide you with information about the status of your namespaces, so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= NVMe Namespace events
+= NVMe namespace events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

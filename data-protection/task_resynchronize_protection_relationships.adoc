@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resynchronize, protection, relationships, volume, relationships page
 summary: "From the Volume Relationships page, you can resynchronize a relationship either to recover from an event that disabled your source volume or when you want to change the current source to a different volume."
 ---
-= Resynchronize protection relationships from the Volume Relationships page
+= Resynchronize protection relationships from Volume Relationships in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

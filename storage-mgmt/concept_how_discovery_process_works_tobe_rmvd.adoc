@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: discovery, process, works
 summary: "After you have added the cluster to Unified Manager, the server discovers the cluster objects and adds them to its database. Understanding how the discovery process works helps you to manage your organization’s clusters and their objects."
 ---
-= How the discovery process works
+= How the cluster discovery process works in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

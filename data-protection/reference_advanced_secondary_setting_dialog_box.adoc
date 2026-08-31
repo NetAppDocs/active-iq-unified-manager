@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: advanced, secondary, settings, dialog box
 summary: "You can use the Advanced Secondary Settings dialog box to enable version-flexible replication, multiple copy backup, and space-related settings on a secondary volume. You might use the Advanced Secondary Settings dialog box when you want to change enable or disable the current settings."
 ---
-= Advanced Secondary Settings dialog box
+= Advanced secondary settings dialog box in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

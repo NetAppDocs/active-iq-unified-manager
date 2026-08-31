@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, system-defined, performance, thresholds
 summary: "Events generated from system-defined performance thresholds indicate that a performance counter, or set of performance counters, for a certain storage object has crossed the threshold from a system-defined policy. This indicates that the storage object, for example, an aggregate or node, is experiencing a performance issue."
 ---
-= Analyze events from system-defined performance thresholds
+= Events from system-defined performance thresholds in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

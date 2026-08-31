@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quiesce, protection, relationship, volume, health details page
 summary: "You can quiesce a protection relationship to temporarily prevent data transfers from occurring. You might quiesce a relationship when you want to create a Snapshot copy of a SnapMirror destination volume that contains a database, and you want to ensure that its contents are stable during the Snapshot copy."
 ---
-= Quiesce a protection relationship from the Volume / Health details page
+= Quiesce a protection relationship from Volume / Health details in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

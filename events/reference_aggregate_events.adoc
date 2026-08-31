@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aggregate events, impact, area, availability, capacity, configuration, performance
 summary: "Aggregate events provide you with information about the status of aggregates so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Aggregate events
+= Aggregate events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

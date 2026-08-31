@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix, issues, use, unified manager, automatic, remediations
 summary: "There are certain events that Unified Manager can diagnose thoroughly and provide a single resolution using the Fix It button. When available, those resolutions are displayed in the Dashboard , from the Event details page, and from the Workload Analysis selection on the left-navigation menu."
 ---
-= Fix issues using Unified Manager automatic remediation
+= Fix issues using Active IQ Unified Manager automatic remediation
 :icons: font
 :imagesdir: ../media/
 

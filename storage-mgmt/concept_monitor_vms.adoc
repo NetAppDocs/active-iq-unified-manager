@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, virtual, machines, view, summary, topology, expand
 summary: "For any latency issue on the virtual machine (VM) applications, you might need to monitor the VMs to analyze and troubleshoot the cause. The VMs are available when their vCenter Server and the ONTAP clusters hosting the VM storage are added to Unified Manager."
 ---
-= Monitor virtual machines
+= How Active IQ Unified Manager monitors virtual machines
 :icons: font
 :imagesdir: ../media/
 

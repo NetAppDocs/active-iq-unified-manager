@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, more, events
 summary: "Understanding the concepts about events helps you to manage your clusters and cluster objects efficiently and to define alerts appropriately."
 ---
-= Understand more about events
+= Learn about events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

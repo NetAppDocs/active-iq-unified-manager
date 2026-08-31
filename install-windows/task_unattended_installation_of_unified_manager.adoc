@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, unattended, installation, unified manager
 summary: "You can install Unified Manager without user intervention by using the command-line interface. You can complete the unattended installation by passing the parameters in key-value pairs."
 ---
-= Perform an unattended installation of Unified Manager
+= Perform an unattended installation of Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

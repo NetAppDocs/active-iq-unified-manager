@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, clusters
 summary: "You can modify the settings of an existing cluster, such as the host name or IP address, user name, password, and port, by using the Edit Cluster dialog box."
 ---
-= Edit clusters
+= Edit cluster settings in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
