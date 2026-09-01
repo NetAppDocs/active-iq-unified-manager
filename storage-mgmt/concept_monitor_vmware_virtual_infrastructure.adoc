@@ -30,13 +30,13 @@ These objects are represented in a VM topology view.
 
 *VMware virtualization on ONTAP*
 
-image::../media/vm_deployment.gif[]
+image::../media/vm_deployment.gif["A diagram that shows VMware hosts, VMs, datastores, VMDKs, IP network, and storage connections"]
 
 *User workflow*
 
 The following diagram displays a typical use case of using the VM topology view:
 
-image::../media/vm_workflow.gif[]
+image::../media/vm_workflow.gif["A diagram that shows a workflow for locating VM application latency across compute, network, and storage layers"]
 
 == What is not supported
 

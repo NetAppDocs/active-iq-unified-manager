@@ -13,4 +13,4 @@ The installation workflow describes the tasks that you must perform before you c
 
 These sections describe each of the items shown in the workflow below.
 
-image::../media/overall_um_install_flow.png[]
+image::../media/overall_um_install_flow.png["A diagram that shows Unified Manager installation, initial setup, and administrative settings workflows"]
