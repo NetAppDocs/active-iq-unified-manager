@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scripts, page, command, buttons, list, view
 summary: "The Scripts page enables you to add your custom scripts to Unified Manager. You can associate these scripts with alerts to enable automatic reconfiguration of storage objects."
 ---
-= Scripts page in Active IQ Unified Manager
+= Scripts page
 :icons: font
 :imagesdir: ../media/
 

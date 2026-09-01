@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, deployment, process
 summary: "The deployment workflow describes the tasks that you must perform before you can use Unified Manager."
 ---
-= Learn about the Active IQ Unified Manager deployment process
+= Overview of the deployment process
 :icons: font
 :imagesdir: ../media/
 

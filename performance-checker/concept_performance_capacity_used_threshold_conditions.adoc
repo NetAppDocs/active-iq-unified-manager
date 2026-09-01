@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, threshold, conditions
 summary: "You can create user-defined performance threshold policies so that events are triggered when the performance capacity used value for a node or aggregate exceeds the defined performance capacity used threshold setting."
 ---
-= Performance capacity used threshold conditions in Active IQ Unified Manager
+= Performance capacity used performance threshold conditions
 :icons: font
 :imagesdir: ../media/
 

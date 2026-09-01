@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, workloads, monitored, unified manager
 summary: "You can use Unified Manager to monitor the performance of two types of workloads: user-defined and system-defined."
 ---
-= Types of workloads monitored by Active IQ Unified Manager
+= Types of workloads monitored by Unified Manager
 :icons: font
 :imagesdir: ../media/
 

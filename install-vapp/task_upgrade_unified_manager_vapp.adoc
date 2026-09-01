@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager
 summary: "You can upgrade to Unified Manager on VMware vSphere"
 ---
-= Active IQ Unified Manager virtual appliance upgrade workflow
+= Upgrade Unified Manager
 :icons: font
 :imagesdir: ../media/
 

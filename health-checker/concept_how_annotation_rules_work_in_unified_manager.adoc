@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: annotation rules, work, unified manager
 summary: "An annotation rule is a criterion that you define to annotate storage objects (volumes, clusters, or storage virtual machines (SVMs)). You can use either condition groups or conditions for defining annotation rules."
 ---
-= How annotation rules work in Active IQ Unified Manager
+= How annotation rules work in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, health details page
 summary: "You can perform a first-time baseline transfer on a new protection relationship, or update a relationship if it is already initialized and you want to perform a manual, unscheduled incremental update to transfer data immediately."
 ---
-= Initialize or update protection relationships from Volume Health details in Active IQ Unified Manager
+= Initialize or update protection relationships from the Volume / Health details page
 :icons: font
 :imagesdir: ../media/
 

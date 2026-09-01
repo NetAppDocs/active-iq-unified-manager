@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: windows, log rotation issue, Netapp Manageability SDK
 summary: "Troubleshooting: follow these steps to resolve the log rotation issue"
 ---
-= Resolve a NetApp Manageability SDK log rotation issue in Active IQ Unified Manager
+= NetApp Manageability SDK log rotation issue on Windows systems
 :icons: font
 :imagesdir: ../media/
 

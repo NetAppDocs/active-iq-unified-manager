@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, health, volumes view
 summary: "You can use the Health: All Volumes view to create SnapVault relationships for one or more volumes on the same Storage VM to enable data backups for protection purposes."
 ---
-= Create a SnapVault relationship from the Health all volumes view in Active IQ Unified Manager
+= Create a SnapVault protection relationship from the Health: All Volumes view
 :icons: font
 :imagesdir: ../media/
 

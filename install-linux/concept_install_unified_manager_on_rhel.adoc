@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager, linux systems
 summary: "It is important that you understand that the sequence of steps to download and install Unified Manager varies according to your installation scenario."
 ---
-= Installation sequence for Active IQ Unified Manager on Linux systems
+= Install Unified Manager on Linux systems
 :icons: font
 :imagesdir: ../media/
 

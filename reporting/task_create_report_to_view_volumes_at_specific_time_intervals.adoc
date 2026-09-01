@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfer, trends, specific, time intervals
 summary: "You can create a report that displays volume transfer trends at specific time intervals."
 ---
-= Create a report to view volume transfer trends at time intervals
+= Create a report to view volume transfer trends at specific time intervals
 :icons: font
 :imagesdir: ../media/
 

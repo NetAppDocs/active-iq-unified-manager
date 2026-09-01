@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: viewing, qos, policy, groups, available, clusters
 summary: "You can display a list of all the QoS policy groups available on the clusters that Unified Manager is monitoring. This includes traditional QoS policies, adaptive QoS policies, and QoS policies managed by Unified Manager Performance Service Level policies."
 ---
-= View QoS policy groups available on all clusters in Active IQ Unified Manager
+= View all QoS policy groups available on all clusters
 :icons: font
 :imagesdir: ../media/
 

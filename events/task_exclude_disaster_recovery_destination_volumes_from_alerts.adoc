@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: exclude, disaster, recovery, destination, volumes, generate, alerts
 summary: "When configuring volume alerts you can specify a string in the Alert dialog box that identifies a volume or group of volumes. If you have configured disaster recovery for SVMs, however, the source and destination volumes have the same name, so you will receive alerts for both volumes."
 ---
-= Exclude disaster recovery volumes from alerts in Active IQ Unified Manager
+= Exclude disaster recovery destination volumes from generating alerts
 :icons: font
 :imagesdir: ../media/
 

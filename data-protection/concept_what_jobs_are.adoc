@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs
 summary: "A job is a series of tasks that you can monitor using Unified Manager. Viewing jobs and their associated tasks enables you to determine if they have completed successfully."
 ---
-= Learn about jobs in Active IQ Unified Manager
+= What jobs are
 :icons: font
 :imagesdir: ../media/
 

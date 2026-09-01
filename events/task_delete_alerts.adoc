@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, alerts
 summary: "You can delete an alert when it is no longer required. For example, you can delete an alert that was created for a particular resource when that resource is no longer monitored by Unified Manager."
 ---
-= Delete alerts in Active IQ Unified Manager
+= Delete alerts
 :icons: font
 :imagesdir: ../media/
 

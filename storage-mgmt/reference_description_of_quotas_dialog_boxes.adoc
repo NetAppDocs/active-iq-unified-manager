@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, quotas, dialog, boxes
 summary: "You can use the appropriate option in the User and Group Quotas tab in the Health: All Storage VMs view to configure the format of the email notification that is sent when a quota-related issue occurs and to configure rules to specify email addresses based on the user quota."
 ---
-= Quotas dialog boxes in Active IQ Unified Manager
+= Description of quotas dialog boxes
 :icons: font
 :imagesdir: ../media/
 

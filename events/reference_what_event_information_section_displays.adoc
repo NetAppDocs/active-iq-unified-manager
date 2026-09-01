@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, information, section, displays
 summary: "You use the Event Information section on the Event details page to view the details about a selected event, such as the event severity, impact level, impact area, and event source."
 ---
-= Event Information section fields in Active IQ Unified Manager
+= What the Event Information section displays
 :icons: font
 :imagesdir: ../media/
 

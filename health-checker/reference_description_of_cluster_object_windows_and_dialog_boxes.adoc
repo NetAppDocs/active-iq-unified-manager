@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, cluster, object, windows, dialog boxes
 summary: "You can view all your clusters and cluster objects from the respective storage object page. You can also view the details from the corresponding storage object details page. You can now launch System Manager user interface from the following STORAGE and PROTECTION sections of the INVENTORY."
 ---
-= Cluster object windows and dialog boxes in Active IQ Unified Manager
+= Description of cluster object windows and dialog boxes
 :icons: font
 :imagesdir: ../media/
 
