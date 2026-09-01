@@ -6,7 +6,7 @@ summary: "Provides a summary of new features, limitations, and known issues for 
 ---
 = Release notes
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 
