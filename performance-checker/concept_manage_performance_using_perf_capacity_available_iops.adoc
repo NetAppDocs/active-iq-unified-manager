@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managing, performance, performance, capacity, available, iops, information
 summary: "Performance capacity indicates how much throughput you can get out of a resource without surpassing the useful performance of that resource. When viewed using existing performance counters, performance capacity is the point at which you get the maximum utilization from a node or aggregate before latency becomes an issue."
 ---
-= Performance capacity and available IOPS in Active IQ Unified Manager
+= Manage performance using performance capacity and available IOPS information
 :icons: font
 :imagesdir: ../media/
 

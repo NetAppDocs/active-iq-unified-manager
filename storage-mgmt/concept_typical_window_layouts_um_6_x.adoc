@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: typical, window, layouts, object, list, details
 summary: "Understanding the typical window layouts helps you to navigate and use Active IQ Unified Manager effectively. Most Unified Manager windows are similar to one of two general layouts: object list or details. The recommended display setting is at least 1280 by 1024 pixels."
 ---
-= Typical window layouts in Active IQ Unified Manager
+= Typical window layouts
 :icons: font
 :imagesdir: ../media/
 

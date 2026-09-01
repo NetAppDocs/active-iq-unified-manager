@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, database, restore
 summary: "A MySQL database restore is the process of restoring an existing Unified Manager backup file to the same or a different Unified Manager server. You perform the restore operation from the Unified Manager maintenance console."
 ---
-= Learn about database restore in Active IQ Unified Manager
+= What a database restore is
 :icons: font
 :imagesdir: ../media/
 

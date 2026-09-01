@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, maintenance, window
 summary: "You define a Unified Manager maintenance window to suppress events and alerts for a specific timeframe when you have scheduled cluster maintenance and you do not want to receive a flood of unwanted notifications."
 ---
-= Learn about Active IQ Unified Manager maintenance windows
+= What a Unified Manager maintenance window is
 :icons: font
 :imagesdir: ../media/
 

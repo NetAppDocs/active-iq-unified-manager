@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, policy, dialog box
 summary: "The Create SnapVault Policy dialog box enables you to create a policy to set the priority for SnapVault transfers. You use policies to maximize the efficiency of transfers from the primary to the secondary volume."
 ---
-= Create SnapVault policy dialog box in Active IQ Unified Manager
+= Create SnapVault Policy dialog box
 :icons: font
 :imagesdir: ../media/
 

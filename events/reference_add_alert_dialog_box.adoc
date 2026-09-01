@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alert, dialog, box, name, resources, events, actions, command buttons
 summary: "You can create alerts to notify you when a particular event is generated, so that you can address the issue quickly and thereby minimize impact to your environment. You can create alerts for a single resource or a set of resources, and for events of a particular severity type. You can also specify the notification method and frequency of the alerts."
 ---
-= Add Alert dialog box in Active IQ Unified Manager
+= Add Alert dialog box
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, panels, dashboard
 summary: "The Unified Manager Dashboard provides a few panels that display high-level performance status for all the clusters that are being monitored in your environment. You can choose to view status for all clusters or for an individual cluster."
 ---
-= Performance panels on the Active IQ Unified Manager Dashboard
+= Understand performance panels on the Dashboard
 :icons: font
 :imagesdir: ../media/
 

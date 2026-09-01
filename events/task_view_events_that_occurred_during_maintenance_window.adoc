@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, occurred, maintenance, window
 summary: "If necessary, you can view the events that were generated for all storage objects during a Unified Manager maintenance window. Most events will appear in the Obsolete state once the maintenance window has completed and all system resources are back up and running."
 ---
-= View events from a maintenance window in Active IQ Unified Manager
+= View events that occurred during a maintenance window
 :icons: font
 :imagesdir: ../media/
 

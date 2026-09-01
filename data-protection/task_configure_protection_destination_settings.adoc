@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, efficiency, settings
 summary: "You can configure destination efficiency settings such as deduplication, compression, autogrow, and space guarantee on a protection destination using the Advanced Destination Settings dialog box. You use these settings when you want to maximize space utilization on a destination or secondary volume."
 ---
-= Configure destination efficiency settings in Active IQ Unified Manager
+= Configure destination efficiency settings
 :icons: font
 :imagesdir: ../media/
 

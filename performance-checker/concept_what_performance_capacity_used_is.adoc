@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used
 summary: "The performance capacity used counter helps you to identify whether the performance of a node or an aggregate is reaching a point where the performance might degrade if the workloads increase. It can also show you if a node or aggregate is currently being overused during specific periods of time. Performance capacity used is similar to utilization, but the former provides more insight about the available performance capabilities in a physical resource for a specific workload."
 ---
-= Performance capacity used in Active IQ Unified Manager
+= What performance capacity used is
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: review, impact, configuration, changes, workload, performance
 summary: "Configuration changes on the cluster, such as a failed disk, HA failover, or a moved volume, could negatively impact volume performance and cause increased latency."
 ---
-= How configuration changes affect workload performance in Active IQ Unified Manager
+= Review the impact of configuration changes on workload performance
 :icons: font
 :imagesdir: ../media/
 

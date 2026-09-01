@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deploy, unified manager
 summary: "Deploying Unified Manager includes downloading software, deploying the virtual appliance, creating a maintenance user name and password, and performing the initial setup in the web UI."
 ---
-= Active IQ Unified Manager virtual appliance deployment workflow
+= Deploy Unified Manager
 :icons: font
 :imagesdir: ../media/
 

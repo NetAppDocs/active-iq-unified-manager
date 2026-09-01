@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, length, time, unified manager, retains, event, performance, data
 summary: "By default, Unified Manager stores event data and performance data for 6 months for all monitored clusters. After this time, older data is automatically deleted to make room for new data. This default timeframe works well for most configurations, but very large configurations with many clusters and nodes may need to reduce the retention period so that Unified Manager operates optimally."
 ---
-= Change the length of time Active IQ Unified Manager retains event and performance data
+= Change the length of time Unified Manager retains event and performance data
 :icons: font
 :imagesdir: ../media/
 

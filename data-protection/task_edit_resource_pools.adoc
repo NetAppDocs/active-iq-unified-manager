@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, resource, pools
 summary: "You can edit an existing resource pool when you want to change the resource pool name and the description."
 ---
-= Edit resource pools in Active IQ Unified Manager
+= Edit resource pools
 :icons: font
 :imagesdir: ../media/
 

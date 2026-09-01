@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, events, impact area, availability, capacity, configuration, performance, security
 summary: "Node events provide you with information about node status so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Node events in Active IQ Unified Manager
+= Node events
 :icons: font
 :imagesdir: ../media/
 

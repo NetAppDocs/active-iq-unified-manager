@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group
 summary: "You can view the volumes and LUNs that are in the same QoS policy groups and then compare the performance on a single IOPS, MB/s, or IOPS/TB chart to identify any issues."
 ---
-= Compare volumes or LUNs within the same QoS policy group in Active IQ Unified Manager
+= View performance charts to compare volumes or LUNs that are in the same QoS policy group
 :icons: font
 :imagesdir: ../media/
 

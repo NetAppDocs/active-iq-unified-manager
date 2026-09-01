@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: introduction, active iq unified manager
 summary: "Active IQ Unified Manager (formerly OnCommand Unified Manager) enables you to monitor and manage the health and performance of your ONTAP storage systems from a single interface. You can deploy Unified Manager on a Linux server, on a Windows server, or as a virtual appliance on a VMware host."
 ---
-= Learn about Active IQ Unified Manager
+= Introduction to Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, user-defined, performance, thresholds
 summary: "Events generated from user-defined thresholds indicate that a performance counter for a certain storage object, for example, an aggregate or volume, has crossed the threshold you defined in the policy. This indicates that the cluster object is experiencing a performance issue."
 ---
-= Events from user-defined performance thresholds in Active IQ Unified Manager
+= Analyze events from user-defined performance thresholds
 :icons: font
 :imagesdir: ../media/
 

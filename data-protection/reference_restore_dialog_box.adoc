@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, dialog box
 summary: "You can use the Restore dialog box to restore data to a volume from a specific Snapshot copy."
 ---
-= Restore dialog box in Active IQ Unified Manager
+= Restore dialog box
 :icons: font
 :imagesdir: ../media/
 

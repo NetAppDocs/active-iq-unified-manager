@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: what, maintenance, user does, installation, unified manager
 summary: "The maintenance user is created during the installation of Unified Manager on a Red Hat Enterprise Linux system. The maintenance user name is the “umadmin” user. The maintenance user has the Application Administrator role in the web UI, and that user can create subsequent users and assign them roles."
 ---
-= Learn about the maintenance user in Active IQ Unified Manager
+= What the maintenance user does
 :icons: font
 :imagesdir: ../media/
 

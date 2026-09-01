@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, unified manager, send, alert, notifications
 summary: "You can configure Unified Manager to send notifications that alert you about events in your environment. Before notifications can be sent, you must configure several other Unified Manager options."
 ---
-= Configure Active IQ Unified Manager to send alert notifications
+= Configure Unified Manager to send alert notifications
 :icons: font
 :imagesdir: ../media/
 

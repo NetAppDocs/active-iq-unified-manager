@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: setting, connection, between, unified manager, server, external, data, provider
 summary: "A connection between a Unified Manager server and an external data provider enables you to send cluster performance data to an external server so that storage managers can chart the performance metrics using third-party software."
 ---
-= Connection between Active IQ Unified Manager and an external data provider
+= Set up a connection between a Unified Manager server and an external data provider
 :icons: font
 :imagesdir: ../media/
 

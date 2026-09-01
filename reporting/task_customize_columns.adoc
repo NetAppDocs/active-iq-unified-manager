@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, columns
 summary: "Use Show/Hide to choose the columns you want to use in your report. Drag the columns on the inventory page to rearrange them."
 ---
-= Customize columns in a report
+= Customize columns
 :icons: font
 :imagesdir: ../media/
 

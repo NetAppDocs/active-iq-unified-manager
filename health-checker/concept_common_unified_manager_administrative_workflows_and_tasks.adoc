@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Common, unified, manager, health, workflows, tasks
 summary: "Some common administrative workflows and tasks associated with Unified Manager include selecting the storage clusters that are to be monitored; diagnosing conditions that adversely affect data availability, capacity, and protection; restoring lost data; configuring and managing volumes; and bundling and sending diagnostic data to technical support (when necessary)."
 ---
-= Common Active IQ Unified Manager health workflows and tasks
+= Common Unified Manager health workflows and tasks
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: openjdk, jre, upgrade
 summary: "You can upgrade to a newer version of OpenJDK on the Windows server on which Unified Manager is installed to obtain fixes for security vulnerabilities."
 ---
-= Upgrade OpenJDK on Windows for Active IQ Unified Manager
+= Upgrade OpenJDK
 :icons: font
 :imagesdir: ../media/
 

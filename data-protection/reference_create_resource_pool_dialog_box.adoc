@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, resource pool, dialog box
 summary: "You can use the Create Resource Pool dialog box to name and describe a new resource pool and to add aggregates to and delete aggregates from that resource pool."
 ---
-= Create resource pool dialog box in Active IQ Unified Manager
+= Create Resource Pool dialog box
 :icons: font
 :imagesdir: ../media/
 

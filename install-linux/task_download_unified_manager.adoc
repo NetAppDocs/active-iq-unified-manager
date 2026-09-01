@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, Unified Manager
 summary: "You must download the Unified Manager `.zip` file from the NetApp Support Site to install Unified Manager."
 ---
-= Download Active IQ Unified Manager
+= Download Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, initial, setup, unified manager web ui
 summary: "To use Unified Manager, you must first configure the initial setup options, including the NTP server, the maintenance user email address, the SMTP server host, and adding ONTAP clusters."
 ---
-= Perform the initial setup of the Active IQ Unified Manager web UI
+= Perform the initial setup of the Unified Manager web UI
 :icons: font
 :imagesdir: ../media/
 

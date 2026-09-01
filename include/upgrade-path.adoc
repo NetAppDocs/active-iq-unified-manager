@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported upgrade path, upgrade path, n-2, which versions can be upgraded
 summary: "Supported upgrade path"
 ---
-= Supported upgrade path for Active IQ Unified Manager versions
+= Supported upgrade path for Unified Manager versions
 :icons: font
 :imagesdir: ../media/
 

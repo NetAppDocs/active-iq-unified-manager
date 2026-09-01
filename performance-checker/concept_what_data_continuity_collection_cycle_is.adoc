@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data, continuity, collection, cycle
 summary: "A data continuity collection cycle retrieves performance data outside of the real-time cluster performance collection cycle that runs, by default, every five minutes. Data continuity collections enable Unified Manager to fill in gaps of statistical data that occur when it was unable to collect real-time data."
 ---
-= How Active IQ Unified Manager performs data continuity collection cycles
+= What a data continuity collection cycle is
 :icons: font
 :imagesdir: ../media/
 
