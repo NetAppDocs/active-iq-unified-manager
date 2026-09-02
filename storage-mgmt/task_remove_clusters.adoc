@@ -19,6 +19,11 @@ This task removes the selected cluster from Unified Manager. After a cluster is 
 
 Removing a cluster also deletes all its storage objects, historical data, storage services, and all associated events from Unified Manager. These changes are reflected on the inventory pages and the details pages after the next data collection cycle.
 
+[NOTE]
+====
+You must remove a cluster from Unified Manager before decommissioning it. If the cluster is already offline or unreachable when you attempt to remove it, Unified Manager cannot communicate with the cluster to remove the application record and configured EMS subscriptions. This will cause the removal process to fail.
+====
+
 .Steps
 
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
