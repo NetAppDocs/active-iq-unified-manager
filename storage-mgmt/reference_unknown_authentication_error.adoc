@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unknown, authentication, error
 summary: "Troubleshooting: Unknown authentication error"
 ---
-= Unknown authentication error in Active IQ Unified Manager
+= Unknown authentication error
 :icons: font
 :imagesdir: ../media/
 

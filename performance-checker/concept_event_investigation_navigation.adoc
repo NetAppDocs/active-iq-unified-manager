@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, investigation, navigation
 summary: "The Unified Manager event detail pages provide you with an in-depth look at any performance event. This is beneficial when investigating performance events, when troubleshooting, and when fine-tuning system performance."
 ---
-= Event investigation navigation in Active IQ Unified Manager
+= Event investigation navigation
 :icons: font
 :imagesdir: ../media/
 

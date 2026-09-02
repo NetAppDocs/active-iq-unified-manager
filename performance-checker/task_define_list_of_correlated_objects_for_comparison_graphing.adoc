@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: defining, list, correlated, objects, comparison, graphing
 summary: "You can define a list of correlated objects for data and performance comparison in the Counter Chart pane. For example, if your storage virtual machine (SVM) is experiencing a performance issue, you can compare all volumes in the SVM to identify which volume might be causing the issue."
 ---
-= Define correlated objects for comparison graphing in Active IQ Unified Manager
+= Define the list of correlated objects for comparison graphing
 :icons: font
 :imagesdir: ../media/
 

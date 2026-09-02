@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager
 summary: "You might have to restart Unified Manager after making configuration changes."
 ---
-= Restart Active IQ Unified Manager
+= Restart Unified Manager
 :icons: font
 :imagesdir: ../media/
 

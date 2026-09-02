@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: information, contained, alert, email
 summary: "Unified Manager alert emails provide the type of event, the severity of the event, the name of the policy or threshold that was breached to cause the event, and a description of the event. The email message also provides a hyperlink for each event that enables you to view the details page for the event in the UI."
 ---
-= Information contained in a Active IQ Unified Manager alert email
+= What information is contained in an alert email
 :icons: font
 :imagesdir: ../media/
 

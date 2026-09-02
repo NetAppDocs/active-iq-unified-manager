@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, ports, unified manager, uses, http, https, protocols
 summary: "The default ports that Unified Manager uses for HTTP and HTTPS protocols can be changed after installation if required for security. The default ports are 80 for HTTP and 443 for HTTPS."
 ---
-= Change the ports Active IQ Unified Manager uses for HTTP and HTTPS protocols
+= Change the ports Unified Manager uses for HTTP and HTTPS protocols
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, available, IOPS
 summary: "This report shows which aggregates have the most available IOPS per aggregate type on which you can provision new workloads."
 ---
-= Create a report to view aggregates with the most available IOPS
+= Create a report to view aggregates that have the most available IOPS
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user, group, quota, events, impact area, capacity
 summary: "User and group quota events provide you with information about the capacity of the user and user group quota as well as the file and disk limits so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= User and group quota events in Active IQ Unified Manager
+= User and group quota events
 :icons: font
 :imagesdir: ../media/
 

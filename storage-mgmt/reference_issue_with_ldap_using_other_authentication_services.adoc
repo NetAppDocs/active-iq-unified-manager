@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: issue, addi, ldap, use, other, authentication, services
 summary: "Troubleshooting: Issue with adding LDAP using Other authentication services "
 ---
-= LDAP issue with Other authentication service in Active IQ Unified Manager
+= Issue with adding LDAP using Other authentication services
 :icons: font
 :imagesdir: ../media/
 

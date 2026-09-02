@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: MS Visual C++, python, uninstall, uninstalling, 9.18
 summary: "How to uninstall third party products including Python and Microsoft Visual C++."
 ---
-= Uninstall third-party products for Active IQ Unified Manager
+= Uninstall third party products
 :icons: font
 :imagesdir: ../media/
 

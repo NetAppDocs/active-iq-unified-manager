@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, quota, process
 summary: "Quotas can be soft or hard. Soft quotas cause ONTAP to send a notification when specified limits are exceeded, and hard quotas prevent a write operation from succeeding when specified limits are exceeded."
 ---
-= Learn about the Active IQ Unified Manager quota process
+= Overview of the quota process
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set, protection, relationships, unified manager
 summary: "There are several steps that you must perform to use Unified Manager and OnCommand Workflow Automation to set up SnapMirror and SnapVault relationships to protect your data."
 ---
-= Set up protection relationships in Active IQ Unified Manager
+= Set up protection relationships in Unified Manager
 :icons: font
 :imagesdir: ../media/
 

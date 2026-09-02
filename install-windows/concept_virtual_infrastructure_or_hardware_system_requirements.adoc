@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: virtual infrastructure, hardware, system, requirements, host, connectivity, backups
 summary: "Installing Unified Manager on virtual infrastructure or a physical system should meet the minimum requirements for memory, CPU, and disk space."
 ---
-= Virtual infrastructure and hardware requirements for Active IQ Unified Manager
+= Virtual infrastructure and hardware system requirements
 :icons: font
 :imagesdir: ../media/
 

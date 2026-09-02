@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, storage, objects
 summary: "To quickly access a specific object, you can use the Search all Storage Objects field at the top of the menu bar. This method of global search across all objects enables you to quickly locate specific objects by type. Search results are sorted by storage object type and you can filter them further by object using the drop-down menu."
 ---
-= Search for storage objects in Active IQ Unified Manager
+= Search for storage objects
 :icons: font
 :imagesdir: ../media/
 

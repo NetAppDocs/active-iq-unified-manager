@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, information, performance, events
 summary: "You can use the Event Management inventory page to view a list of all the performance events on the clusters being monitored by Unified Manager. By viewing this information you can determine the most critical events and then drill down to detailed information to determine the cause of the event."
 ---
-= Display information about performance events in Active IQ Unified Manager
+= Display information about performance events
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, interfaces, used, manage, storage, system, performance, web ui, maintenance, console
 summary: "There are two user interfaces that Active IQ Unified Manager provides for monitoring and troubleshooting data storage performance issues: the web user interface and the maintenance console."
 ---
-= Active IQ Unified Manager interfaces used to manage storage system performance
+= Unified Manager interfaces used to manage storage system performance
 :icons: font
 :imagesdir: ../media/
 

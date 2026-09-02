@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls
 summary: "You can assign Storage Efficiency Policies (SEPs) and Performance Service Levels (PSLs) to storage workloads from the All Workloads page by using the different navigation options."
 ---
-= Assign policies to workloads in Active IQ Unified Manager
+= Assign policies to workloads
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, events
 summary: "Events help you to identify issues in the clusters that are monitored."
 ---
-= Learn about events in Active IQ Unified Manager
+= Manage events
 :icons: font
 :imagesdir: ../media/
 

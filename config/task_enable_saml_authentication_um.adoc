@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, saml, authentication
 summary: "You can enable Security Assertion Markup Language (SAML) authentication so that remote users are authenticated by a secure identity provider (IdP) before they can access the Unified Manager web UI."
 ---
-= Enable SAML authentication in Active IQ Unified Manager
+= Enable SAML authentication
 :icons: font
 :imagesdir: ../media/
 

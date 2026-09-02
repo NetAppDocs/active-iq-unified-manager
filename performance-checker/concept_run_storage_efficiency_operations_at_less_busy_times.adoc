@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: run, storage, efficiency, operations, less, busy, times
 summary: "You can modify the policy or schedule that handles storage efficiency operations to run when the impacted volume workloads are less busy."
 ---
-= Scheduling storage efficiency operations during less busy times
+= Run storage efficiency operations at less busy times
 :icons: font
 :imagesdir: ../media/
 

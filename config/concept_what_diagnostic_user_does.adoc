@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: diagnostic, user, capabilities
 summary: "The purpose of diagnostic access is to enable technical support to assist you in troubleshooting, and you should only use it when directed by technical support."
 ---
-= Diagnostic user capabilities in Active IQ Unified Manager
+= Diagnostic user capabilities
 :icons: font
 :imagesdir: ../media/
 

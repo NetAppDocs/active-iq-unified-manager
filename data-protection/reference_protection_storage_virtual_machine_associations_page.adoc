@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: svm, association, page
 summary: "The Storage VM association page enables you to view existing storage VM associations between source and destination storage VMs."
 ---
-= Storage VM associations page in Active IQ Unified Manager
+= Understand Storage VM associations
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance view
 summary: all storage objects performance view
 ---
-= View Performance inventory pages for all storage objects in Active IQ Unified Manager
+= View Performance inventory pages for all storage objects
 :icons: font
 :imagesdir: ../media/
 

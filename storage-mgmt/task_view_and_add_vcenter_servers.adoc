@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, add, vcenter, server
 summary: "For viewing and troubleshooting the performance of the virtual machines (VMs), the associated vCenter Servers must be added on your Active IQ Unified Manager instance."
 ---
-= View and add vCenter Servers in Active IQ Unified Manager
+= View and add vCenter Server
 :icons: font
 :imagesdir: ../media/
 

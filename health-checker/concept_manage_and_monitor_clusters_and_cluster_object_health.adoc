@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, monitor, clusters, cluster object, health
 summary: "Unified Manager uses periodic API queries and a data collection engine to collect data from the clusters. By adding clusters to the Unified Manager database, you can monitor and manage these clusters for any availability and capacity risks."
 ---
-= Managing and monitoring clusters and cluster object health in Active IQ Unified Manager
+= Managing and monitoring clusters and cluster object health
 :icons: font
 :imagesdir: ../media/
 

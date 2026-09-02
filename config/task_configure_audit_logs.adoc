@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, audit logs
 summary: "You can use the Configure button in the Audit Logs section to configure rolling policy for Audit Log files and to also enable remote logging for the Audit Logs."
 ---
-= Configure Active IQ Unified Manager audit logs
+= Configure Unified Manager audit logs
 :icons: font
 :imagesdir: ../media/
 

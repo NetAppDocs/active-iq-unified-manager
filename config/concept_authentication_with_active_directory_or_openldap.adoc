@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: authentication, active directory, openldap
 summary: "You can enable remote authentication on the management server and configure the management server to communicate with your authentication servers so that users within the authentication servers can access Unified Manager."
 ---
-= Authentication with Active Directory or OpenLDAP in Active IQ Unified Manager
+= Authentication with Active Directory or OpenLDAP
 :icons: font
 :imagesdir: ../media/
 

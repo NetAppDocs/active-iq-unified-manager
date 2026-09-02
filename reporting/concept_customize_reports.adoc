@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, reports
 summary: "There are many ways you can customize views so that you can create a report that contains all the information you need to manage your ONTAP clusters."
 ---
-= Customizing reports
+= Customize reports
 :icons: font
 :imagesdir: ../media/
 

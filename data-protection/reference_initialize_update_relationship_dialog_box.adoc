@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, dialog box
 summary: "The Initialize/Update dialog box enables you to perform a first-time baseline transfer on a new protection relationship, or to update a relationship if it is already initialized and you want to perform a manual, unscheduled, incremental update."
 ---
-= Initialize/Update dialog box in Active IQ Unified Manager
+= Initialize/Update dialog box
 :icons: font
 :imagesdir: ../media/
 

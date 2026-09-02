@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, configuration, verification
 summary: "You can prevent performance issues for mirrored workloads in a MetroCluster configuration by ensuring that the MetroCluster configuration is set up correctly. You can also improve workload performance by changing the configuration or upgrading software or hardware components."
 ---
-= MetroCluster configuration verification in Active IQ Unified Manager
+= MetroCluster configuration verification
 :icons: font
 :imagesdir: ../media/
 

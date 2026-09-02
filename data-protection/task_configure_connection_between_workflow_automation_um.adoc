@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, connection, workflow, automation, unified manager
 summary: "You can configure a secure connection between OnCommand Workflow Automation (WFA) and Unified Manager. Connecting to Workflow Automation enables you to use protection features such as SnapMirror and SnapVault configuration workflows, as well as commands for managing SnapMirror relationships."
 ---
-= Configure a connection between Workflow Automation and Active IQ Unified Manager
+= Configure a connection between Workflow Automation and Unified Manager
 :icons: font
 :imagesdir: ../media/
 

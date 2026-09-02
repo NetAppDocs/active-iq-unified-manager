@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, unified manager, virtual, appliance, host name
 summary: "The network host is assigned a name when the Unified Manager virtual appliance is first deployed. You can change the host name after deployment. If you change the host name, you must also regenerate the HTTPS certificate."
 ---
-= Change the Active IQ Unified Manager virtual appliance host name
+= Change the Unified Manager virtual appliance host name
 :icons: font
 :imagesdir: ../media/
 

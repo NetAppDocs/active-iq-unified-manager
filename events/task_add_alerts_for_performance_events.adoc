@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts, performance, events
 summary: "You can configure alerts for individual performance events just like any other events received by Unified Manager. Additionally, if you want to treat all performance events alike and have email sent to the same person, you can create a single alert to notify you when any critical or warning performance events are triggered."
 ---
-= Add alerts for performance events in Active IQ Unified Manager
+= Add alerts for performance events
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, events, alerts
 summary: "Performance events are notifications that Unified Manager generates automatically when a predefined condition occurs, or when a performance counter value crosses a threshold. Events help you identify performance issues in the clusters that are monitored."
 ---
-= Understand performance events and alerts in Active IQ Unified Manager
+= Understand performance events and alerts
 :icons: font
 :imagesdir: ../media/
 
