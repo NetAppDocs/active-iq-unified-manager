@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, migrate, virtual, appliance, linux system
 summary: "You can restore a Unified Manager MySQL database dump backup from a virtual appliance to a Red Hat Enterprise Linux system if you want to change the host operating system on which Unified Manager is running."
 ---
-= Migrate a Active IQ Unified Manager virtual appliance to a Linux system
+= Migrate an Active IQ Unified Manager virtual appliance to a Linux system
 :icons: font
 :imagesdir: ../media/
 
