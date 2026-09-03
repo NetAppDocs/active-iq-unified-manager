@@ -11,4 +11,4 @@ summary: "Decision tree that describes the report workflow."
 [.lead]
 Decision tree that describes the report workflow.
 
-image::../media/reports_view_workflow.png[]
+image::../media/reports_view_workflow.png["A diagram that shows a decision tree workflow for viewing, customizing, uploading, and downloading reports"]
