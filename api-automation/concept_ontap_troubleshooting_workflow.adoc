@@ -29,7 +29,7 @@ https://docs.netapp.com/us-en/ontap-automation/index.html[ONTAP Automation docum
 
 The following diagram illustrates each step in the workflow for troubleshooting the issue of ONTAP volume capacity use.
 
-image::../media/api_gateway_ontap_workflow.gif[]
+image::../media/api_gateway_ontap_workflow.gif["A diagram that shows Unified Manager and ONTAP API steps for troubleshooting volume capacity alerts"]
 
 The workflow covers the invocation points of both the Unified Manager and ONTAP REST APIs.
 

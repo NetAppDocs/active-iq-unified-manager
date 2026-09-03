@@ -11,4 +11,4 @@ summary: "The deployment workflow describes the tasks that you must perform befo
 [.lead]
 The deployment workflow describes the tasks that you must perform before you can use Unified Manager.
 
-image::../media/deployment_sequence_oc_6_0.gif[]
+image::../media/deployment_sequence_oc_6_0.gif["A diagram that shows Unified Manager deployment prerequisites, appliance deployment, and initial configuration steps"]
