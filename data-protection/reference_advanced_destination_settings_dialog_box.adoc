@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: advanced, destination, settings, dialog box
 summary: "You can use the Advanced Destination Settings dialog box to enable space guarantee settings on a destination volume. You might select advanced settings when space guarantee is disabled on the source, but you want it enabled on the destination. The settings for deduplication, compression, and autogrow in a SnapMirror relationship are inherited from the source volume and cannot be changed."
 ---
-= Advanced Destination Settings dialog box
+= Advanced destination settings dialog box in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fans, events, impact, area, availability
 summary: "Fans events provide you with information about the status fans on nodes in your data center so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Fans events
+= Fans events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

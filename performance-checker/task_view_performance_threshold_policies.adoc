@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, threshold, policies
 summary: "You can view all of the currently defined performance threshold policies from the Performance Thresholds page."
 ---
-= View performance threshold policies
+= View performance threshold policies in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

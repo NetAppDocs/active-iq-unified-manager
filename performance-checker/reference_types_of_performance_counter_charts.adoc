@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, performance, counter, charts
 summary: "There are standard performance charts that display the counter values for the selected storage object. Each of the Breakdown counter charts display the total values separated out into read, write, and other categories. Furthermore, some Breakdown counter charts display additional detail when the chart is displayed in Zoom view."
 ---
-= Types of performance counter charts
+= Types of performance counter charts in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

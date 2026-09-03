@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, counter, charts, focus, shorter, period, time
 summary: "You can use your mouse to reduce the time range to focus on a specific period of time in the Counter Chart pane or in the Counter Charts Zoom View window. This enables you to see a more granular and microscopic view of any part of the timeline of performance data, events, and thresholds."
 ---
-= Change the Counter Charts focus to a shorter period of time
+= Change the Active IQ Unified Manager Counter Charts focus to a shorter period
 :icons: font
 :imagesdir: ../media/
 

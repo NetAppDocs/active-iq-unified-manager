@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policy
 summary: "You can view, create, modify, and delete Storage Efficiency Policies by using the storage provider APIs."
 ---
-= Manage Storage Efficiency Policies by using APIs
+= Manage Storage Efficiency Policies by using APIs in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

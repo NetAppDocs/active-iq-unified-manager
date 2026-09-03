@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, protection, dialog box
 summary: "You can use the Configure Protection dialog box to create SnapMirror and SnapVault relationships for all read, write, and data protection volumes on clusters to ensure that the data on a source volume or primary volume is replicated."
 ---
-= Configure Protection dialog box
+= Configure protection dialog box in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, efficiency
 summary: "Storage efficiency enables you to store the maximum amount of data for the lowest cost and accommodates rapid data growth while consuming less space. NetApp strategy for storage efficiency is based on the built-in foundation of storage virtualization and unified storage provided by its core ONTAP operating system and Write Anywhere File Layout (WAFL) file system."
 ---
-= What storage efficiency is
+= Storage efficiency in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

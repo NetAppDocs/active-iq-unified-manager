@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, setup, page, command, buttons, list, view
 summary: "The Event Setup page displays the list of events that are disabled, and provides information such as the associated object type and severity of the event. You can also perform tasks such as disabling or enabling events globally."
 ---
-= Event Setup page
+= Event Setup page in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

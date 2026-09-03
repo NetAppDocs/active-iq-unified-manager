@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, netapp manageability sdk log rotation issue, windows, logrotate
 summary: "Troubleshooting information helps you to identify and resolve issues you encounter when using Unified Manager."
 ---
-= Troubleshoot
+= Troubleshoot Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

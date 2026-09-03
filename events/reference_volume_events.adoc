@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, events, impact area, availability, capacity, configuration, performance
 summary: "Volume events provide information about the status of volumes which enables you to monitor for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity."
 ---
-= Volume events
+= Volume events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

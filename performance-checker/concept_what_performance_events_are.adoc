@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, events
 summary: "Performance events are incidents related to workload performance on a cluster. They help you identify workloads with slow response times. Together with health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times."
 ---
-= What performance events are
+= Performance events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

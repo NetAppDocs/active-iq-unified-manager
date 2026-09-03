@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: audience, api, rest
 summary: "This section is intended for developers creating applications that interface with the Active IQ Unified Manager software through REST APIs."
 ---
-= Audience for this content
+= Audience for Active IQ Unified Manager REST APIs
 :icons: font
 :imagesdir: ../media/
 

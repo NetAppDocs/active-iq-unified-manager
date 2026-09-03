@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, view, report, relationship
 summary: "Views and inventory pages become reports when you download or schedule them."
 ---
-= Understand the view and report relationship
+= The view and report relationship
 :icons: font
 :imagesdir: ../media/
 

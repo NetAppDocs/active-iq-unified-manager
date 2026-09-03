@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: uninstall, unified manager
 summary: "You can uninstall Unified Manager by using the Programs and Features wizard, or by performing an unattended uninstallation from the command-line interface."
 ---
-= Uninstall Unified Manager
+= Uninstall Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 :pp: {plus}{plus}

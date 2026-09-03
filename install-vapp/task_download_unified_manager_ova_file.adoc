@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, unified manager, installation, file
 summary: "Download the Unified Manager installation file from the NetApp Support Site to deploy Unified Manager as a virtual appliance."
 ---
-= Download the Unified Manager installation file
+= Download the Active IQ Unified Manager installation file
 :icons: font
 :imagesdir: ../media/
 

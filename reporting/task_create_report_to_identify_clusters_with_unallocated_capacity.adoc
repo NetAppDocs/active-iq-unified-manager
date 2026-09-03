@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: clusters, unallocated, LUN, capacity, indentify, additional, workloads
 summary: "You can create a report to find the clusters with the most unallocated LUN capacity, greater than .5 TB, to help identify where you can add additional workloads."
 ---
-= Create a report to identify clusters with the most unallocated LUN capacity
+= Identify clusters with unallocated LUN capacity
 :icons: font
 :imagesdir: ../media/
 

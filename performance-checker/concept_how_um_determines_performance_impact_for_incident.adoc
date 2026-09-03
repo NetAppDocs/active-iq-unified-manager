@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, determines, performance, impact, event
 summary: "Unified Manager uses the deviation in activity, utilization, write throughput, cluster component usage, or I/O latency (response time) for a workload to determine the level of impact to workload performance. This information determines the role of each workload in the event and how they are ranked on the Event details page."
 ---
-= How Unified Manager determines the performance impact for an event
+= How Active IQ Unified Manager determines the performance impact for an event
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data center manager, upgrade, third-party products
 summary: "You can upgrade third-party products, such as JRE, on Unified Manager when installed on Linux systems."
 ---
-= Upgrade third-party products post Unified Manager installation
+= Third-party product upgrades for Active IQ Unified Manager on Linux
 :icons: font
 :imagesdir: ../media/
 

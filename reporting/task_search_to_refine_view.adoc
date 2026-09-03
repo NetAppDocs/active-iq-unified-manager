@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, refine, view
 summary: "After you have the view you want, you can further refine the results using the Search field to focus on the results that you want to include in the report."
 ---
-= Using search to refine your view
+= Search to refine your view
 :icons: font
 :imagesdir: ../media/
 

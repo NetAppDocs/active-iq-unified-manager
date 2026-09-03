@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: autosupport, messages, support bundles, technical support
 summary: "The AutoSupport page enables you to send predefined and on-demand AutoSupport messages to your technical support team to ensure a correct operation of your environment, and to assist you in maintaining the integrity of your environment. AutoSupport is enabled by default and it should not be disabled, for you to receive the benefits of NetAppActive IQ."
 ---
-= Send AutoSupport messages and support bundles to technical support
+= Send AutoSupport messages and support bundles in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

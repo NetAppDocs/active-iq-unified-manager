@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, performance, threshold, policies, storage, objects
 summary: "You assign a user-defined performance threshold policy to a storage object so that Unified Manager reports an event if the value of the performance counter exceeds the policy setting."
 ---
-= Assign performance threshold policies to storage objects
+= Assign performance threshold policies to Active IQ Unified Manager storage objects
 :icons: font
 :imagesdir: ../media/
 

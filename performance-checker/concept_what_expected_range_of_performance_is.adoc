@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expected, range, performance, latency, forecast, formed
 summary: "The latency forecast is a prediction of what the upper and lower performance values are expected to be at a specific time. For the workload latency, the upper values form the performance threshold. When the actual value crosses the performance threshold, Unified Manager triggers a dynamic performance event."
 ---
-= What the expected range of performance is
+= How Active IQ Unified Manager calculates the expected range of performance
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, unassigned, events
 summary: "You can view unassigned events and then assign each of them to a user who can resolve them."
 ---
-= View unassigned events
+= View unassigned events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

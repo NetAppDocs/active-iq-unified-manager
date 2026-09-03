@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user-defined, performance, threshold, policies, work
 summary: "You set performance threshold policies on storage objects (for example, on aggregates and volumes) so that an event can be sent to the storage administrator to inform the administrator that the cluster is experiencing a performance issue."
 ---
-= How user-defined performance threshold policies work
+= How Active IQ Unified Manager uses user-defined performance threshold policies
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, performance, capacity, used, values
 summary: "You can monitor the performance capacity used values for all nodes or for all aggregates in a cluster, or you can view details for a single node or aggregate."
 ---
-= View node and aggregate performance capacity used values
+= Node and aggregate performance capacity used values in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

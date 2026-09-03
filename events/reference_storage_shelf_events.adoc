@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, shelf, events, impact area, availability
 summary: "Storage shelf events tell you if your storage shelf has abnormal so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Storage shelf events
+= Storage shelf events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

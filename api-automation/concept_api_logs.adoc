@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: logs, troubleshooting
 summary: "System logs enable you to analyze the causes of failure and troubleshooting issues that may arise while running the APIs."
 ---
-= Logs for troubleshooting
+= API logs for troubleshooting in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

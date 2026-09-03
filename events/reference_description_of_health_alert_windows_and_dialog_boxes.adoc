@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, alert, windows, dialog boxes
 summary: "You should configure alerts to receive notifications about events by using the Add Alert dialog box. You can also view the list of alerts from the Alert Setup page."
 ---
-= Description of alert windows and dialog boxes
+= Alert windows and dialog boxes in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

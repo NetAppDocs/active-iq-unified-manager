@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policies, object, moved
 summary: "Because performance threshold policies are assigned to storage objects, if you move an object, all assigned threshold policies remain attached to the object after the move is completed. For example, if you move a volume or LUN to a different aggregate, the threshold policies are still active for the volume or LUN on the new aggregate."
 ---
-= What happens to performance threshold policies when an object is moved
+= How Active IQ Unified Manager handles threshold policies when an object moves
 :icons: font
 :imagesdir: ../media/
 

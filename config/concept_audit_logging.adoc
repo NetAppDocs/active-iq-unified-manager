@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: audit, logging
 summary: "You can detect whether the audit logs have been compromised with using Audit Logs. All the activities performed by a user are monitored and logged in the Audit Logs. The audits are performed for all user interface and publicly exposed APIs’ functionalities of Active IQ Unified Manager."
 ---
-= Audit Logging
+= Audit logging in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

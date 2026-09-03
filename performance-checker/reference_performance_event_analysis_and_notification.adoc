@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  performance, event, analysis, notification
 summary: "Performance events notify you about I/O performance issues on a workload caused by contention on a cluster component. Unified Manager analyzes the event to identify all workloads involved, the component in contention, and whether the event is still an issue that you might need to resolve."
 ---
-= Performance event analysis and notification
+= How Active IQ Unified Manager analyzes and notifies you of performance events
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: prioritize, storage, object, events, annotations
 summary: "You can create and apply annotation rules to storage objects so that you can identify and filter those objects based on the type of annotation applied and its priority."
 ---
-= Prioritize storage object events using annotations
+= Storage object prioritization using annotations
 :icons: font
 :imagesdir: ../media/
 

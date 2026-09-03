@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, performance, events
 summary: "You can analyze performance events to identify when they were detected, whether they are active (new or acknowledged) or obsolete, the workloads and cluster components involved, and the options for resolving the events on your own."
 ---
-= Analyze performance events
+= Analyzing performance events in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

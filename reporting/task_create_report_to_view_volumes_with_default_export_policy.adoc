@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, default, export, policy
 summary: "You can create a report to find volumes that are using the default export policy."
 ---
-= Create a report to view volumes that are using the default export policy
+= Create a report to view volumes using the default export policy
 :icons: font
 :imagesdir: ../media/
 
