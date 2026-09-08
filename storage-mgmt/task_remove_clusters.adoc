@@ -21,7 +21,7 @@ Removing a cluster also deletes all its storage objects, historical data, storag
 
 [NOTE]
 ====
-You must remove a cluster from Unified Manager before decommissioning it. If the cluster is already offline or unreachable when you attempt to remove it, Unified Manager cannot communicate with the cluster to remove the application record and configured EMS subscriptions. This will cause the removal process to fail.
+You must remove a cluster from Unified Manager before decommissioning it. If the cluster is already offline or unreachable when you attempt to remove it, Unified Manager cannot communicate with the cluster to remove the application record and configured EMS subscriptions. This will cause the removal process to fail or become unresponsive before completion.
 ====
 
 .Steps
