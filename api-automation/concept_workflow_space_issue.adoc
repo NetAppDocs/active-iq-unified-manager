@@ -17,7 +17,7 @@ One method to determine any lack of space in your aggregates is to verify whethe
 
 The following flowchart illustrates the process of retrieving information about volumes with autosize-mode enabled:
 
-image::../media/space_utilization.gif[]
+image::../media/space_utilization.gif["A flowchart for identifying overutilized autosize-mode enabled volumes in cluster aggregates"]
 
 This flow assumes that the clusters have already been created in ONTAP and added to Unified Manager.
 

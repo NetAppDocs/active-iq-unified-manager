@@ -20,7 +20,7 @@ A database dump backup consists of a single file in the backup directory and one
 
 The first time you generate a database backup a single file is created in the backup directory and a full backup file is created in the database repository directory. The next time you generate a backup a single file is created in the backup directory and an incremental backup file is created in the database repository directory that contains the differences from the full backup file. This process continues as you create additional backups, up to the maximum retention setting, as shown in the following figure.
 
-image::../media/database_backup.gif[]
+image::../media/database_backup.gif["A diagram that shows three backup directory files pointing to full and incremental files in the database repository"]
 
 [NOTE]
 ====
