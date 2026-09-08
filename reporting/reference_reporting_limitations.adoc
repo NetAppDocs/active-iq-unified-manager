@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reporting, limitations
 summary: "There are some limitations with the new Active IQ Unified Manager reporting functionality of which you should be aware."
 ---
-= Reporting limitations
+= Report limitations in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filtering, data
 summary: "Filter the data to make sure the results match your report requirements. Filtering enables you to display only the data in which you are interested."
 ---
-= Filter data
+= Filter data in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

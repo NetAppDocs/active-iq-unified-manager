@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, capacity, table, chart
 summary: "You can create a report to analyze capacity in an Excel file by using summed totals and the clustered column chart format."
 ---
-= Create a report to show an aggregate capacity table and chart
+= Create a report to show an aggregate capacity table and chart in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
