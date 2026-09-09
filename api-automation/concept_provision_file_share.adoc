@@ -13,7 +13,7 @@ You can provision CIFS shares and NFS file shares on your Storage Virtual Machin
 
 The following diagram illustrates each step in a file share provisioning workflow. It includes provisioning both CIFS shares and NFS file shares.
 
-image::../media/create_fileshares.gif[]
+image::../media/create_fileshares.gif["A diagram that shows a CIFS and NFS file share provisioning workflow, from SVM setup through share creation"]
 
 [NOTE]
 ====

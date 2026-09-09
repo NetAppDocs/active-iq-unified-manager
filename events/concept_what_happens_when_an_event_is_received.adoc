@@ -22,4 +22,4 @@ Depending on how you configure settings in the Alert Setup page, you can notify 
 
 This workflow is shown in the following diagram.
 
-image::../media/um_perf_threshold_event_flow.gif[]
+image::../media/um_perf_threshold_event_flow.gif["A diagram that shows threshold event processing from counter collection to email notification"]

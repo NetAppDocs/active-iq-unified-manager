@@ -13,7 +13,7 @@ When a storage object in your data center crosses a threshold, you get a notific
 
 This workflow takes the example of a volume as the resource object. You can use the `events` APIs to retrieve the list of events related to a volume, analyze the critical issues for that volume, and then take corrective actions to rectify the issue.
 
-image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[]
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif["A flowchart showing volume event analysis from listing events through corrective action to end"]
 
 Follow these steps to determine the issues in your volume before taking remedial steps.
 
