@@ -15,8 +15,8 @@ Not every window contains every element in the following diagrams.
 
 == Object list window layout
 
-image::../media/object_list.png[]
+image::../media/object_list.png["A screenshot of the Active IQ Unified Manager object list window with labeled navigation, search, filter, and report controls"]
 
 == Object details window layout
 
-image::../media/object_details.gif[]
+image::../media/object_details.gif["A screenshot that shows an Active IQ Unified Manager volume details window with tabs, capacity details, related objects, history, and events"]
