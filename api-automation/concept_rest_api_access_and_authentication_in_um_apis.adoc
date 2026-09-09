@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rest api, access, authentication, active iq, unified, manager
 summary: "The Active IQ Unified Manager REST API is accessible by using any web browser or programming platform that can issue HTTP requests. Unified Manager supports basic HTTP authentication mechanism. Before you call the Unified Manager REST API, you must authenticate a user."
 ---
-= REST API access and authentication in Active IQ Unified Manager
+= Access and authenticate REST APIs in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
