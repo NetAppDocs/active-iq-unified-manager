@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, volume, performance, reports
 summary: "These sample custom reports are used to help you identify and respond to potential problems related to volume performance."
 ---
-= Customizing volume performance reports
+= Customize volume performance reports
 :icons: font
 :imagesdir: ../media/
 

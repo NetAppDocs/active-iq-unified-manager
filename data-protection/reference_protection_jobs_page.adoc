@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, page
 summary: "The Jobs page enables you to view the current status and other information about all partner application protection jobs that are currently running, as well as jobs that have completed. You can use this information to see which jobs are still running and whether a job has succeeded or failed."
 ---
-= Protection jobs page in Active IQ Unified Manager
+= Jobs page
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, anti-ransomware status, volumes, storage VMs, SVMs
 summary: "You can view a list of all the volumes and storage VMs and their current anti-ransomware status so you can determine whether the data on your volumes is adequately protected from ransomware attacks."
 ---
-= View the anti-ransomware status of all volumes and storage VMs
+= Viewing the anti-ransomware status of all volumes and storage VMs
 :icons: font
 :imagesdir: ../media/
 

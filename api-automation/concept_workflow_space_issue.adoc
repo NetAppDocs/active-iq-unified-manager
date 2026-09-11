@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, space, issue, aggregate
 summary: "You can use the data center APIs in Active IQ Unified Manager to monitor the availability and utilization of space in your volumes. You can determine space issues in your volume and identify storage resources that are overutilized or underutilized."
 ---
-= Determine space issues in aggregates by using Active IQ Unified Manager APIs
+= Determine space issues in aggregates by using APIs
 :icons: font
 :imagesdir: ../media/
 
@@ -17,7 +17,7 @@ One method to determine any lack of space in your aggregates is to verify whethe
 
 The following flowchart illustrates the process of retrieving information about volumes with autosize-mode enabled:
 
-image::../media/space_utilization.gif[]
+image::../media/space_utilization.gif["A flowchart for identifying overutilized autosize-mode enabled volumes in cluster aggregates"]
 
 This flow assumes that the clusters have already been created in ONTAP and added to Unified Manager.
 

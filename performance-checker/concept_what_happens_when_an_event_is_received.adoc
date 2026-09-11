@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, event, received
 summary: "When Unified Manager receives an event, it is displayed in the Dashboard page, in the Event Management inventory page, in the Summary and Explorer tabs of the Cluster/Performance page, and in the object-specific inventory page (for example, the Volumes/Health inventory page)."
 ---
-= How Active IQ Unified Manager handles a received event
+= What happens when an event is received
 :icons: font
 :imagesdir: ../media/
 
@@ -22,4 +22,4 @@ Depending on how you configure settings in the Alert Setup page, you can notify 
 
 This workflow is shown in the following diagram.
 
-image::../media/um_perf_threshold_event_flow.gif[]
+image::../media/um_perf_threshold_event_flow.gif["A diagram that shows threshold event processing from counter collection to email notification"]

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, security, manage, objectives
 summary: "Unified Manager provides a dashboard that identifies how secure your ONTAP clusters, storage virtual machines (SVMs), and volumes are based on recommendations defined in the NetApp Security Hardening Guide for ONTAP 9."
 ---
-= Managing cluster security objectives in Active IQ Unified Manager
+= Manage cluster security objectives
 :icons: font
 :imagesdir: ../media/
 

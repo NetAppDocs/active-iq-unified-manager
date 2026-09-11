@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, server, does
 summary: "The Unified Manager server infrastructure consists of a data collection unit, a database, and an application server. It provides infrastructure services such as discovery, monitoring, role-based access control (RBAC), auditing, and logging."
 ---
-= How the Active IQ Unified Manager server works
+= What the Unified Manager server does
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, impact, levels
 summary: "Each event is associated with an impact level (Incident, Risk, Event, or Upgrade) to help you prioritize the events that require immediate corrective action."
 ---
-= Event impact levels in Active IQ Unified Manager
+= Description of event impact levels
 :icons: font
 :imagesdir: ../media/
 

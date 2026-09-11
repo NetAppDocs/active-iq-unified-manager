@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix it,fix all
 summary: 'The Management Actions page provides you with the Fix It or Fix All button to fix issues that Unified Manager has been notified about through an event.'
 ---
-= Fix It and Fix All button options in Active IQ Unified Manager
+= What options do I have when I see the Fix It or Fix All button
 :icons: font
 :imagesdir: ../media/
 

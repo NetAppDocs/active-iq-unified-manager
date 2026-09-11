@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, unified manager, web ui
 summary: "After you have installed Unified Manager, you can access the web UI to set up Unified Manager so that you can begin monitoring your ONTAP systems."
 ---
-= Access the Active IQ Unified Manager web UI
+= Access the Unified Manager web UI
 :icons: font
 :imagesdir: ../media/
 

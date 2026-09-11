@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, impact, areas
 summary: "Events are categorized into six impact areas (availability, capacity, configuration, performance, protection, and security) to enable you to concentrate on the types of events for which you are responsible."
 ---
-= Event impact areas in Active IQ Unified Manager
+= Description of event impact areas
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, unified manager, virtual, appliance, snapshot copy, copies
 summary: "The backup and restore model for Unified Manager when installed on a virtual appliance is to capture and restore an image of the full virtual application."
 ---
-= Backup and restore for Active IQ Unified Manager on a virtual appliance
+= Backup and restore for Unified Manager on virtual appliance
 :icons: font
 :imagesdir: ../media/
 

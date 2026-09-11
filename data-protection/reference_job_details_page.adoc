@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: job, details, page
 summary: "The Job details page enables you to view status and other information about specific protection job tasks that are running, that are queued, or that have completed. You can use this information to monitor protection job progress and to troubleshoot job failures."
 ---
-= Job details page in Active IQ Unified Manager
+= Job details page
 :icons: font
 :imagesdir: ../media/
 

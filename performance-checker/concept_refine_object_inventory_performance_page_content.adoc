@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: refining, performance, inventory, page, contents
 summary: "The inventory pages for performance objects contain tools to help you refine object inventory data content, enabling you to locate specific data quickly and easily."
 ---
-= Tools for refining performance inventory page content
+= Refining Performance inventory page contents
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, failover, settings, events, impact area, availability
 summary: "Storage failover (SFO) settings events provide you with information about whether your storage failover is disabled or not configured so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Storage failover settings events in Active IQ Unified Manager
+= Storage failover settings events
 :icons: font
 :imagesdir: ../media/
 

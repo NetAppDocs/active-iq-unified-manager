@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, unified manager
 summary: "You can stop and uninstall Unified Manager from the Red Hat Enterprise Linux host with a single command."
 ---
-= Remove Active IQ Unified Manager
+= Remove Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud tier
 summary: "You can create a report that contains the list of volumes that currently reside on FabricPool aggregates, that have a cloud recommendation of Tier, and that have a large amount of cold data. This report can help you decide if you should change the tiering policy for certain volumes to “auto” or “all” to offload more cold (inactive) data to the cloud tier."
 ---
-= Identify volumes that should move data to the cloud tier
+= Create a report to identify volumes on FabricPool aggregates that should move data to the cloud tier
 :icons: font
 :imagesdir: ../media/
 

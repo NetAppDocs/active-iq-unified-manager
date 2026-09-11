@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upload, new, active iq AIQ rules, rules file, CA secure rules, config advisor rules
 summary: "Unified Manager checks for a new Active IQ rules file automatically and downloads a new file when there are newer rules. However, in sites with no external network access, you need to upload the rules file manually."
 ---
-= Upload a new Active IQ rules file in Active IQ Unified Manager
+= Upload a new Active IQ rules file
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship,  volume, health details page
 summary: "You can use the Volume / Health details page to create a SnapMirror relationship so that data replication is enabled for protection purposes. SnapMirror replication enables you to restore data from the destination volume in the event of data loss on the source."
 ---
-= Create a SnapMirror relationship from the Volume Health details page in Active IQ Unified Manager
+= Create a SnapMirror protection relationship from the Volume / Health details page
 :icons: font
 :imagesdir: ../media/
 

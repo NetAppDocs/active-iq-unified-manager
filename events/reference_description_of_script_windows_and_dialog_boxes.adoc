@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, script, windows, dialog boxes
 summary: "The Scripts page enables you to add scripts to Unified Manager."
 ---
-= Script windows and dialog boxes in Active IQ Unified Manager
+= Description of script windows and dialog boxes
 :icons: font
 :imagesdir: ../media/
 

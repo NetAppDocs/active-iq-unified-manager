@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: qtree, events, impact area, capacity
 summary: "Qtree events provide you with information about the qtree capacity and the file and disk limits so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
-= Qtree events in Active IQ Unified Manager
+= Qtree events
 :icons: font
 :imagesdir: ../media/
 

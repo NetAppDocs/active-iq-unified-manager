@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, corrective action, storage failover, interconnect links
 summary: "When you display the Event details page of a storage failover-related event, you can review the summary information of the page to determine the urgency of the event, possible cause of the issue, and possible resolution to the issue."
 ---
-= Perform corrective action for a storage failover interconnect link failure
+= Perform corrective action for storage failover interconnect links down
 :icons: font
 :imagesdir: ../media/
 

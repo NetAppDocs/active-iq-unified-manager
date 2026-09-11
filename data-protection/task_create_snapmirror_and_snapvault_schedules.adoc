@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, snapvault, schedules
 summary: "You can create basic or advanced SnapMirror and SnapVault schedules to enable automatic data protection transfers on a source or primary volume so that transfers take place more frequently or less frequently, depending on how often the data changes on your volumes."
 ---
-= Create SnapMirror and SnapVault schedules in Active IQ Unified Manager
+= Create SnapMirror and SnapVault schedules
 :icons: font
 :imagesdir: ../media/
 

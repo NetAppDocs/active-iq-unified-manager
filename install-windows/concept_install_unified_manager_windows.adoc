@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager, windows
 summary: "It is important that you understand the sequence of steps to download and install Unified Manager on Windows."
 ---
-= Active IQ Unified Manager installation process on Windows
+= Install Unified Manager on Windows
 :icons: font
 :imagesdir: ../media/
 

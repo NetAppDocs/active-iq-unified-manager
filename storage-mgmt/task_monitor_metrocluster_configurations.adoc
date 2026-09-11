@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, configurations
 summary: "You can monitor connectivity issues in your MetroCluster configuration. The details include the status of the components and connectivity within a cluster and the connectivity status between the clusters in the MetroCluster configuration."
 ---
-= Monitor MetroCluster configurations in Active IQ Unified Manager
+= Monitor MetroCluster configurations
 :icons: font
 :imagesdir: ../media/
 

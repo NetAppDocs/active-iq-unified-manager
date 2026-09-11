@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: browse, directories, dialog box
 summary: "You can use the Browse Directories dialog box when you want to restore data to a directory on a cluster and SVM that is different from the original source. The original source cluster and volume are selected by default."
 ---
-= Browse directories dialog box in Active IQ Unified Manager
+= Browse Directories dialog box
 :icons: font
 :imagesdir: ../media/
 

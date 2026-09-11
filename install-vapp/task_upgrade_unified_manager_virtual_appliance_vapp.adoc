@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager, virtual, appliance
 summary: "You can upgrade the Unified Manager virtual appliance"
 ---
-= Upgrade the Active IQ Unified Manager virtual appliance
+= Upgrade the Unified Manager virtual appliance
 :icons: font
 :imagesdir: ../media/
 

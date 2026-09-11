@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, vmware, virtual, infrastructure, not, supported
 summary: "Active IQ Unified Manager provides visibility into the virtual machines (VMs) in your virtual infrastructure, and enables monitoring and troubleshooting storage and performance issues in your virtual environment. You can use this feature to determine any latency issues in your storage environment or when there is a reported performance event on your vCenter Server." 
 ---
-= How Active IQ Unified Manager monitors VMware virtual infrastructure
+= Monitor VMware virtual infrastructure
 :icons: font
 :imagesdir: ../media/
 
@@ -30,13 +30,13 @@ These objects are represented in a VM topology view.
 
 *VMware virtualization on ONTAP*
 
-image::../media/vm_deployment.gif[]
+image::../media/vm_deployment.gif["A diagram that shows VMware hosts, VMs, datastores, VMDKs, IP network, and storage connections"]
 
 *User workflow*
 
 The following diagram displays a typical use case of using the VM topology view:
 
-image::../media/vm_workflow.gif[]
+image::../media/vm_workflow.gif["A diagram that shows a workflow for locating VM application latency across compute, network, and storage layers"]
 
 == What is not supported
 

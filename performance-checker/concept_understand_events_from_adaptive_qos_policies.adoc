@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, adaptive, qos, policies, defined, block, size
 summary: "Adaptive QoS policy groups automatically scale a throughput ceiling or floor based on the volume size, maintaining the ratio of IOPS to TBs as the size of the volume changes. Starting with ONTAP 9.5 you can specify the block size in the QoS policy to effectively apply a MB/s threshold at the same time."
 ---
-= Understand adaptive QoS events with a defined block size in Active IQ Unified Manager
+= Understand events from adaptive QoS policies that have a defined block size
 :icons: font
 :imagesdir: ../media/
 

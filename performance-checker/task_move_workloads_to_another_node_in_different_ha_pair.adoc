@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, another, node, different, ha pair
 summary: "You can use Unified Manager to help identify an aggregate on a node in a different HA pair that is less busy than the HA pair where your workloads are currently running. Then you can move selected volumes to aggregates on the new HA pair. Moving high-performing workloads to an aggregate on a less busy node allows workloads on both nodes to perform more efficiently."
 ---
-= Move workloads to another node in a different HA pair with Active IQ Unified Manager
+= Move workloads to another node in a different HA pair
 :icons: font
 :imagesdir: ../media/
 

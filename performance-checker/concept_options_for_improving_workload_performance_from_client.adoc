@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: options, improving, workload, performance, client-side
 summary: "You can check your client workloads, such as applications or databases, that are sending I/O to volumes involved in a performance event to determine if a client-side change might correct the event."
 ---
-= Client-side options for improving workload performance in Active IQ Unified Manager
+= Options for improving workload performance from the client-side
 :icons: font
 :imagesdir: ../media/
 

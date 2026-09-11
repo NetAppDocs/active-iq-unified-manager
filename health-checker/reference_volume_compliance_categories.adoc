@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, encryption, compliance, categories
 summary: "This table describes the volume encryption parameters that Unified Manager evaluates to determine whether the data on your volumes is adequately protected from being accessed by unauthorized users."
 ---
-= Volume compliance categories in Active IQ Unified Manager
+= Volume compliance categories
 :icons: font
 :imagesdir: ../media/
 

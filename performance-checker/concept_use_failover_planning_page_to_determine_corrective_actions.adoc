@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, failover, planning page, determine, corrective, actions
 summary: "Based on the information that is displayed in the Performance/Node Failover Planning page, you can take actions to ensure that a failover does not cause the performance of an HA pair to drop below an acceptable level."
 ---
-= Corrective actions from the Node Failover Planning page in Active IQ Unified Manager
+= Use the Node Failover Planning page to determine corrective actions
 :icons: font
 :imagesdir: ../media/
 
