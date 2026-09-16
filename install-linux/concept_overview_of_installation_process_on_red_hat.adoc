@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, installation process
 summary: "The installation workflow describes the tasks that you must perform before you can use Unified Manager."
 ---
-= View the installation workflow for Active IQ Unified Manager on Red Hat Enterprise Linux
+= Understand the installation sequence for Active IQ Unified Manager on Red Hat Enterprise Linux
 :icons: font
 :imagesdir: ../media/
 

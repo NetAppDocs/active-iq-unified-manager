@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sample, microsoft, excel, reports
 summary: "These sample Microsoft Excel reports are intended to introduce reporting options available using Excel advanced features."
 ---
-= Sample Microsoft Excel reports in Active IQ Unified Manager
+= Undestand sample Microsoft Excel reports in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

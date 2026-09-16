@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: report, workflow
 summary: "Decision tree that describes the report workflow."
 ---
-= Report workflows in Active IQ Unified Manager
+= Understand report workflows in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
