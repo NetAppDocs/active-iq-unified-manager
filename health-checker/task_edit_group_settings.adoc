@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, groups
 summary: "You can edit the name and description of a group that you created in Unified Manager."
 ---
-= Edit groups
+= Edit groups in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

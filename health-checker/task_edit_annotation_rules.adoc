@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, annotation rules
 summary: "You can edit annotation rules to modify the condition groups and conditions within the condition group to add annotations to or remove annotations from storage objects."
 ---
-= Edit annotation rules
+= Edit annotation rules in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

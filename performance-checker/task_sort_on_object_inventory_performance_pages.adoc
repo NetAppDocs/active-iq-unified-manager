@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, object, inventory, performance, pages
 summary: "You can sort all data on Object Inventory Performance pages by any column in ascending or descending order. This enables you to quickly locate object inventory data, which is helpful when examining performance or beginning a troubleshooting process."
 ---
-= Sort on the Object Inventory Performance pages
+= Sort data on the Object Inventory Performance pages in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

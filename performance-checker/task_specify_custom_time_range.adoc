@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, custom, time range
 summary: "The Performance Explorer page enables you to specify the date and time range for your performance data. Specifying a custom time range provides greater flexibility than using predefined time ranges when refining cluster object data."
 ---
-= Specify a custom time range
+= Specify a custom time range in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

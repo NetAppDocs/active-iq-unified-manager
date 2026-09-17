@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, group actions
 summary: "You can delete a group action from Unified Manager when the group action is no longer required."
 ---
-= Delete group actions
+= Delete group actions in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

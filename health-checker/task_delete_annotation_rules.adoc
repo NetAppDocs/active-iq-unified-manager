@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, annotation rules
 summary: "You can delete annotation rules from Active IQ Unified Manager when the rules are no longer required."
 ---
-= Delete annotation rules
+= Delete annotation rules in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

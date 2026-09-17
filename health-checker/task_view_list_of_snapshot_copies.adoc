@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, list, Snapshot copies
 summary: "You can view the list of Snapshot copies for a selected volume. You can use the list of Snapshot copies to calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted, and you can delete the Snapshot copies if required."
 ---
-= View the list of Snapshot copies
+= View the list of Snapshot copies in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

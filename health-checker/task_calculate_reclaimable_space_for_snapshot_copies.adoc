@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: calculate, reclaimable space, snapshot copies
 summary: "You can calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted."
 ---
-= Calculate reclaimable space for Snapshot copies
+= Calculate reclaimable space for Snapshot copies in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retrieve, support bundle, unix, linux, client
 summary: "If you are a UNIX or Linux user, you can retrieve the support bundle from your vApp by using the command-line interface (CLI) on your Linux client server. You can use either SCP or SFTP to retrieve the support bundle."
 ---
-= Retrieve the support bundle using a UNIX or Linux client
+= Retrieve the support bundle using a UNIX or Linux client in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

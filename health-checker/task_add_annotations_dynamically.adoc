@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, annotations, dynamically
 summary: "When you create custom annotations, Unified Manager dynamically associates clusters, storage virtual machines (SVMs), and volumes with the annotations by using rules. These rules automatically assign the annotations to storage objects."
 ---
-= Add annotations dynamically
+= Add annotations dynamically in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
