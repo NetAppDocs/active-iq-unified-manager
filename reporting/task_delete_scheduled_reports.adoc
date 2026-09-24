@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, reports
 summary: "After reports are scheduled, you can delete them from the Report Schedules page."
 ---
-= Delete scheduled reports
+= Delete scheduled reports in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

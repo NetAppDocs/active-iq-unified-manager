@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade events, view, security events, software, firmware updates
 summary: "There are certain security events that have an impact area of “Upgrade”. These events are reported from the Active IQ platform, and they identify issues where the resolution requires you to upgrade ONTAP software, node firmware, or operating system software (for security advisories)."
 ---
-= View security events that may require software or firmware updates
+= View security events that might require software or firmware updates in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

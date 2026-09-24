@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, destination location, snapshot copies, copy
 summary: "You should configure the destination location for Active IQ Unified Manager Snapshot copies on a volume that you have already configured in one of your ONTAP clusters. You should use maintenance console to define the location."
 ---
-= Specify the destination location for Snapshot copies
+= Specify the destination location for Snapshot copies in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, aggregate, health, threshold, settings
 summary: "You can edit the health threshold settings for aggregate capacity, growth, and Snapshot copies of one or more aggregates. When a threshold is crossed, alerts are generated and you receive notifications. These notifications help you to take preventive measures based on the event generated."
 ---
-= Edit individual aggregate health threshold settings
+= Edit individual aggregate health threshold settings in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

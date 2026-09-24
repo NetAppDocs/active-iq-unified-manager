@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: generate, upload, support bundle
 summary: "You can generate a support bundle, containing diagnostic information, so that you can send it to technical support for troubleshooting help. You can also upload the support bundle to NetApp from the maintenance console."
 ---
-= Generate and upload a support bundle
+= Generate and upload a support bundle from Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

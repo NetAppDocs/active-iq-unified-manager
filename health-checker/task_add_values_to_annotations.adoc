@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, values, annotations
 summary: "You can add values to annotations, and then associate storage objects with a particular annotation name-value pair. Adding values to annotations helps you to manage storage objects more effectively."
 ---
-= Add values to annotations
+= Add values to annotations in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'You can manage your report schedules from the Report Schedules page. You can view, modify, or delete existing schedules.'
 ---
-= Manage report schedules
+= Manage report schedules in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

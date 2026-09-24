@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster security status, svm security status, volume encryption status, compliance, security hardening, encryption, anti-ransomware, certificate expiry, clusters page, storage VMs page, System Manager
 summary: "The Security page shows high-level security status for all clusters and storage VMs. The detailed cluster status includes cluster compliance, SVM compliance, and volume encryption compliance."
 ---
-= View security status for clusters and Storage VMs
+= View security status for clusters and Storage VMs in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

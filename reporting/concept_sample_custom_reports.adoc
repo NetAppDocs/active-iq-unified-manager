@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sample, custom, reports
 summary: "These sample custom reports are commonly used to help you identify potential problems and respond to potential issues before problems occur."
 ---
-= Sample custom reports
+= Understand sample custom reports in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

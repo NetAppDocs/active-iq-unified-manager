@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: editing, schedule, reports
 summary: "After reports are scheduled, you can edit them on the Report Schedules page."
 ---
-= Edit scheduled reports
+= Edit scheduled reports in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

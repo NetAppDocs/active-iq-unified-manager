@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, fabricPool, cloud tier, mirror tier, capacity, information
 summary: "You can view FabricPool capacity information for clusters, aggregates, and volumes on the Capacity and Performance inventory and details pages for these objects. These pages also display FabricPool mirror information when a mirror tier has been configured."
 ---
-= View FabricPool capacity information
+= View FabricPool capacity information in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

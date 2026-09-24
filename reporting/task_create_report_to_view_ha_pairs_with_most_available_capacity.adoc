@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, HA pairs, available, capacity
 summary: "You can create a report to find the high availability (HA) pairs with the most capacity to provision new volumes and LUNs."
 ---
-= Create a report to view HA pairs with the most available capacity
+= Create a report to view HA pairs with the most available capacity in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

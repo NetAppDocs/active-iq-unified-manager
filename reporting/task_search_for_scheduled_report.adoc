@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, schedule, report
 summary: "You can search for scheduled reports by name, view name, object type, or recipients."
 ---
-= Search for a scheduled report
+= Search for a scheduled report in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

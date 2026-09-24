@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, group rules
 summary: "You can edit group rules to modify the condition groups and the conditions within a condition group to add or remove storage objects to or from a specific group."
 ---
-= Edit group rules
+= Edit group rules in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

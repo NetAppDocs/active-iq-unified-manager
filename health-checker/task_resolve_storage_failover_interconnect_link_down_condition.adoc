@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scan, resolve, storage, failover, interconnect link, conditions
 summary: "This workflow provides an example of how you might scan for, evaluate, and resolve downed storage failover interconnect link conditions. In this scenario, you are an administrator using Unified Manager to scan for storage failover risks before starting an ONTAP version upgrade on your nodes."
 ---
-= Scan for and resolve storage failover interconnect link down conditions
+= Scan for and resolve storage failover interconnect link down conditions in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used, breakdown, chart, failover, planning
 summary: "The detailed Performance Capacity Used - Breakdown chart shows the performance capacity used for the Primary node and the Partner node. It also shows the amount of free performance capacity on the Estimated Takeover node. This information helps you determine whether you might have a performance issue if the partner node fails."
 ---
-= Use the Performance Capacity Used Breakdown chart for failover planning
+= Use the Performance Capacity Used Breakdown chart for failover planning in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

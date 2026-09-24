@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: report, schedule
 summary: "After you have a view or Excel file that you want to schedule for regular generation and distribution, you can schedule the report."
 ---
-= Schedule a report
+= Schedule a report in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

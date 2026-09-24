@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reorder, group actions
 summary: "You can change the order of the group actions that are to be applied to the storage objects in a group. Group actions are applied to storage objects sequentially based on their rank. The lowest rank is assigned to the group action that you configured last. You can change the rank of the group action depending on your requirements."
 ---
-= Reorder group actions
+= Reorder group actions in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

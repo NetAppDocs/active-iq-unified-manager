@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, time range, zoom view
 summary: "The Time Range control in the Counter Charts Zoom View window enables you to specify a date and time range for the selected chart. This enables you to quickly locate specific data based on either a preset time range or your own custom time range."
 ---
-= Specify the time range in Zoom View
+= Specify the time range in Zoom View in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

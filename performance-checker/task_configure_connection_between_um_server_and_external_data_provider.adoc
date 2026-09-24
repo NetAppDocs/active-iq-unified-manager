@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configuring, connection, unified manager, server, external, data, provider
 summary: "Unified Manager can send cluster performance data to an external server. You can specify the type of statistical data that is sent, and the interval at which data is sent."
 ---
-= Configure a connection from a Unified Manager server to an external data provider
+= Configure a connection between Active IQ Unified Manager and an external data provider
 :icons: font
 :imagesdir: ../media/
 

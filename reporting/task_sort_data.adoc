@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, data
 summary: "To sort the results, click a column and indicate ascending or descending order. Sorting data prioritizes the information you need for the report."
 ---
-= Sort data
+= Sort data in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

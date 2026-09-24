@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, health, clusters, metrocluster, configuration
 summary: "You can use Unified Manager to check the operational health of clusters, and their components, in a MetroCluster configuration. If the clusters were involved in a performance event detected by Unified Manager, the health status can help you determine whether a hardware or software issue contributed to the event."
 ---
-= Check the health of clusters in a MetroCluster configuration
+= Check the health of clusters in a MetroCluster configuration in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

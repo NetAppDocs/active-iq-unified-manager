@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: counter, charts, zoom, view
 summary: "The Counter Charts provide a Zoom View that enables you to zoom in on performance details over your specified time period. This enables you to see performance details and events with much higher granularity, which is beneficial when troubleshooting performance issues."
 ---
-= Counter Charts Zoom View
+= Learn about the zoom view in Counter Charts in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
@@ -17,3 +17,4 @@ When displayed in Zoom View, some of the breakdown charts provide additional inf
 ====
 For system-defined performance threshold policies, only the "`Node resources over-utilized`" and "`QoS throughput limit breached`" policies are available from the *Policies* list. The other system-defined threshold policies are not available at this time.
 ====
+// 2026-9-2, GH issue 137

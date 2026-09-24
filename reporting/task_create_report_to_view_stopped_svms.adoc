@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, stopped, storage VMs
 summary: "You can create a report to display a list of all stopped SVMs."
 ---
-= Create a report to view stopped storage VMs
+= Create a report to view stopped storage VMs in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
