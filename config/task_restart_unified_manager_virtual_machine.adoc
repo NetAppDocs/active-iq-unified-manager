@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager, virtual, machine
 summary: "You can restart the virtual machine from the maintenance console of Unified Manager. You must restart after generating a new security certificate or if there is a problem with the virtual machine."
 ---
-= Restart the Unified Manager virtual machine
+= Restart the Active IQ Unified Manager virtual machine
 :icons: font
 :imagesdir: ../media/
 

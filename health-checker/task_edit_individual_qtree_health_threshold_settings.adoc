@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, qtree, health, threshold, settings
 summary: "You can edit the health threshold settings for qtree capacity for one or more qtrees. When a threshold is crossed, alerts are generated and you receive notifications. These notifications help you to take preventive measures based on the event generated."
 ---
-= Edit individual qtree health threshold settings
+= Edit individual qtree health threshold settings in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

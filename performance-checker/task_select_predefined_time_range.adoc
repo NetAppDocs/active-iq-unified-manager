@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, predefined, time, range
 summary: "Selecting a predefined time range is a quick and efficient way for you to customize and focus data output when viewing cluster object performance data. When selecting a predefined time range, data for up to 13 months is available."
 ---
-= Select a predefined time range
+= Select a predefined time range in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, group rules
 summary: "You can delete a group rule from Active IQ Unified Manager when the group rule is no longer required."
 ---
-= Delete group rules
+= Delete group rules in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, host, node
 summary: "You can use the Unified Manager web UI to confirm or eliminate the possibility that a volume is offline because its host node is down and that storage failover to its HA pair partner is unsuccessful."
 ---
-= Determine if a volume is offline because its host node is down
+= Determine if a volume is offline because its host node is down in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

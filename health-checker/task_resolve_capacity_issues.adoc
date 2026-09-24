@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, capacity issues
 summary: "This workflow provides an example of how you can resolve a capacity issue. In this scenario, you are an administrator or operator and you access the Unified Manager Dashboard page to see if any of the monitored storage objects have capacity issues. You want to determine the possible cause of and resolution to the problem."
 ---
-= Resolve capacity issues
+= Resolve capacity issues in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

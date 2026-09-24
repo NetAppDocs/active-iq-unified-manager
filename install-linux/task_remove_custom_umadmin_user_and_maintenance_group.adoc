@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, custom, umadmin, user, maintenance group
 summary: "If you created a custom home directory to define your own umadmin user and maintenance account prior to installing Unified Manager, you should remove these items after you have uninstalled Unified Manager."
 ---
-= Remove the custom umadmin user and maintenance group
+= Remove the custom umadmin user and maintenance group for Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

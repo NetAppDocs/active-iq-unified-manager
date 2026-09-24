@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, reports
 summary: "This table provides a comprehensive list of the views and inventory pages that are available as reports that you can customize, download, and schedule."
 ---
-= Types of reports
+= Learn about types of reports in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

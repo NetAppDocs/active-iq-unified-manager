@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, user, roles, capabilities
 summary: "Based on your assigned user role, you can determine which operations you can perform in Unified Manager."
 ---
-= Unified Manager user roles and capabilities
+= Learn about user roles and capabilities in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

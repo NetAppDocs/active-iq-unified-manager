@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, charts, display
 summary: "The Choose charts drop-down list enables you to select the types of performance counter charts to display in the Counter Charts pane. This enables you to view specific data and counters, based on your performance requirements."
 ---
-= Select performance charts to display
+= Select performance charts to display in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

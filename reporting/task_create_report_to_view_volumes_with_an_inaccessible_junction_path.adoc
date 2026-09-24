@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, inaccessible, mount, path
 summary: "You can create a report to find volumes that have an inaccessible mount path."
 ---
-= Create a report to view volumes that have an inaccessible mount path
+= Create a report to view volumes that have an inaccessible mount path in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

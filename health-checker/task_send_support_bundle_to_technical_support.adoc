@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support bundle, technical support
 summary: "When an issue requires more detailed diagnosis and troubleshooting information than an AutoSupport message provides, you can send a support bundle to technical support."
 ---
-= Send a support bundle to technical support
+= Send a support bundle to technical support from Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

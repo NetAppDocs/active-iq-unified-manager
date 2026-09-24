@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filter, inventory, page, content, example
 summary: "You can filter inventory page data in Unified Manager to quickly locate data based on specific criteria. You can use filtering to narrow the contents of the Unified Manager pages to show only the results in which you are interested. This provides a very efficient method of displaying only the data in which you are interested."
 ---
-= Filter inventory page content
+= Filter inventory page content in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

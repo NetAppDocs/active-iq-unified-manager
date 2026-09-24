@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: guidelines, adding, alerts
 summary: "You can add alerts based on a resource, such as a cluster, node, aggregate, or volume, and events of a particular severity type. As a best practice, you can add an alert for any of your critical objects after you have added the cluster to which the object belongs."
 ---
-= Guidelines for adding alerts
+= Guidelines for adding alerts in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

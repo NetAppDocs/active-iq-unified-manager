@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, protection, job failure
 summary: "This workflow provides an example of how you might identify and resolve a protection job failure from the Unified Manager dashboard."
 ---
-= Resolve a protection job failure
+= Resolve a protection job failure in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

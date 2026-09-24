@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, volume, offline issues
 summary: "This workflow provides an example of how you might evaluate and resolve a volume offline event that Unified Manager might display in the Event Management inventory page. In this scenario, you are an administrator using Unified Manager to troubleshoot one or more volume offline events."
 ---
-= Resolve volume offline issues
+= Resolve volume offline issues in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

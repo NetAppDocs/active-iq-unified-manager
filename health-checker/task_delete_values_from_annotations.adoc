@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, values, annotations
 summary: "You can delete values associated with custom annotations when that value no longer applies to the annotation."
 ---
-= Delete values from annotations
+= Delete values from annotations in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster list, details
 summary: "You can use the Health: All Clusters view to view your inventory of clusters. The Capacity: All Clusters view enables you to view summarized information about storage capacity and utilization in all clusters."
 ---
-= View the cluster list and details
+= View the cluster list and details in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

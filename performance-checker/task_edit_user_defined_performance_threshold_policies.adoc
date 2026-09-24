@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user-defined, performance, threshold, policies
 summary: "You can edit the threshold settings for existing performance threshold policies. This can be useful if you find that you are receiving too many or too few alerts for certain threshold conditions."
 ---
-= Edit user-defined performance threshold policies
+= Edit user-defined performance threshold policies in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

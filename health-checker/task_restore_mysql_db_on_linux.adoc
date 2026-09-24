@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, linux system, mysql, database, backup
 summary: "If data loss or data corruption occurs, you can restore Unified Manager to the previous stable state with minimum loss of data. You can restore the Unified Manager database to a local or remote Red Hat Enterprise Linux system by using the Unified Manager maintenance console."
 ---
-= Restore a MySQL database backup on a Linux system
+= Restore a MySQL database backup on a Linux system in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

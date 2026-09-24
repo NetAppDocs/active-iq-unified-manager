@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, protection, relationship, failover, failback
 summary: "When a source volume in your protection relationship is disabled because of a hardware failure or a disaster, you can use the protection relationship features in Unified Manager to make the protection destination read/write accessible and fail over to that volume until the source is online again; then, you can fail back to the original source when it is available to serve data."
 ---
-= Perform a protection relationship failover and failback
+= Perform a protection relationship failover and failback in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

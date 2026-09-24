@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, more, quotas
 summary: "Understanding the concepts about quotas helps you to manage your user quotas and user group quotas efficiently."
 ---
-= Understand more about quotas
+= Learn about quotas in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

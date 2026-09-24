@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, snapshot copies
 summary: "You can delete a Snapshot copy to conserve space or to free disk space, or you can delete the Snapshot copy if it is no longer required."
 ---
-= Delete Snapshot copies
+= Delete Snapshot copies in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

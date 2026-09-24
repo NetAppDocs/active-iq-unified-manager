@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, issues, storage, objects, events
 summary: "When a storage object in your data center crosses a threshold, you get a notification about that event. Using this notification, you can analyze the issue and take corrective action by using the events APIs."
 ---
-= Determine issues in storage objects using event APIs
+= Determine storage object issues using Active IQ Unified Manager event APIs
 :icons: font
 :imagesdir: ../media/
 

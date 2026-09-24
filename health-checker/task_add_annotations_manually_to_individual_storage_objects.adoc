@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, annotations, manually, individual, storage objects
 summary: "You can manually annotate selected volumes, clusters, and SVMs without using annotation rules. You can annotate a single storage object or multiple storage objects, and specify the required name-value pair combination for the annotation."
 ---
-= Add annotations manually to individual storage objects
+= Add annotations manually to individual storage objects in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

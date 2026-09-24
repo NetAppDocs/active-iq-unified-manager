@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: about, quotas
 summary: "Quotas provide a way to restrict or track the disk space and number of files used by a user, group, or qtree. You specify quotas using the /etc/quotas file. Quotas are applied to a specific volume or qtree."
 ---
-= About quotas
+= Learn about quotas in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

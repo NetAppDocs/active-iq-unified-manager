@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, annotations
 summary: "You can delete custom annotations and their values when they are no longer required."
 ---
-= Delete annotations
+= Delete annotations in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

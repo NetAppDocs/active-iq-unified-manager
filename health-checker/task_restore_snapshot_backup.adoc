@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, unified manager, snapshot copy, copies,
 summary: "If data loss or data corruption occurs, you can restore Unified Manager to the previous stable state with minimum loss of data. You can restore the Unified Manager Snapshot database to a local or remote operating system by using the Unified Manager maintenance console."
 ---
-= Restore Unified Manager by using Snapshot copies
+= Restore Active IQ Unified Manager by using Snapshot copies
 :icons: font
 :imagesdir: ../media/
 

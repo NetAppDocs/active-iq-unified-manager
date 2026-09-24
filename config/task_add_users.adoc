@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, users
 summary: "You can add local users or database users by using the Users page. You can also add remote users or groups that belong to an authentication server. You can assign roles to these users and, based on the privileges of the roles, users can manage the storage objects and data with Unified Manager, or view the data in a database."
 ---
-= Add users
+= Add users in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

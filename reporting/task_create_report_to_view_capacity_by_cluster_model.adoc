@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, capacity, cluster, model
 summary: "You can create a report to analyze storage capacity and utilization of clusters based on storage system model."
 ---
-= Create a report to view capacity by cluster model
+= Create a report to view capacity by cluster model in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

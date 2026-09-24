@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node list, details
 summary: "You can use the Health: All Nodes view to view the list of nodes in your clusters. You can use the Cluster / Health details page to view detailed information about nodes that are part of the cluster that is monitored."
 ---
-= View the node list and details
+= View the node list and details in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

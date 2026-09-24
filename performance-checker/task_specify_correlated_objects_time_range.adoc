@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, time range, correlated objects
 summary: "The Time Range selector on the Performance Explorer page enables you to specify the time range for object data comparison. Specifying a time range refines the contents of the Performance Explorer pages to show only the object data within the time range you have specified."
 ---
-= Specify a time range for correlated objects
+= Specify a time range for correlated objects in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

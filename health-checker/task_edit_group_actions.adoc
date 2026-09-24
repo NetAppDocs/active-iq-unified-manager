@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, group actions
 summary: "You can edit the group action parameters that you configured in Unified Manager, such as the group action name, description, associated group name, and parameters of the action type."
 ---
-= Edit group actions
+= Edit group actions in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, all san array, health and capacity, clusters
 summary: "You can use the Cluster inventory pages to display the health and capacity status of your All SAN Array clusters."
 ---
-= View the health and capacity status of All SAN Array clusters
+= View the health and capacity status of All SAN Array clusters in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 

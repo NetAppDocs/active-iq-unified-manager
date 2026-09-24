@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: work, reports
 summary: "Learn how to find and customize inventory page views into shareable scheduled reports."
 ---
-= Work with reports
+= Work with reports in Active IQ Unified Manager
 :icons: font
 :imagesdir: ../media/
 
