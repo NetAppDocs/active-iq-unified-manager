@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_cluster_connectivity_status_definitions.html
 sidebar: sidebar
 keywords: cluster, connectivity, status, definitions
-summary: "Understand the connectivity statuses between clusters in a MetroCluster configuration: Optimal, Impacted, or Down."
+summary: "Understand the connectivity statuses between clusters in a MetroCluster configuration, such as Optimal, Impacted, or Down."
 ---
 = Understand cluster connectivity in a MetroCluster over FC configuration in Active IQ Unified Manager
 :icons: font

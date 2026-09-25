@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_details_about_nfs_shares.html
 sidebar: sidebar
 keywords: view, details, nfs shares
-summary: "View details about NFS shares, such as status, volume path, client access levels, and export policy, using the Health: All NFS Shares view."
+summary: "View details about NFS shares, such as status, volume path, client access levels, and export policy, using the All NFS Shares view on the Health page."
 ---
 = View details about NFS shares in Active IQ Unified Manager
 :icons: font

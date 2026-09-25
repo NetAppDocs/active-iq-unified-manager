@@ -2,7 +2,7 @@
 permalink: performance-checker/task_view_performance_status_of_all_san_array_clusters.html
 sidebar: sidebar
 keywords: all san, array, performance, clusters
-summary: "Use the Performance: All Clusters view to display the performance status of your All SAN Array clusters."
+summary: "Use the All Clusters view on the Performance page to display the performance status of your All SAN Array clusters."
 ---
 = View the performance for All SAN Array clusters in Active IQ Unified Manager
 :icons: font

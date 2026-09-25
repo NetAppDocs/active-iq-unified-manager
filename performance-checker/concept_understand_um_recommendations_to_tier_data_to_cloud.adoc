@@ -2,7 +2,7 @@
 permalink: performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html
 sidebar: sidebar
 keywords: understand, unified manager, recommendations, tier, data, cloud
-summary: "The Performance: All Volumes view shows inactive (cold) data size and identifies volumes that would benefit from tiering to a FabricPool cloud tier."
+summary: "The All Volumes view on the Performance page shows inactive (cold) data size and identifies volumes that would benefit from tiering to a FabricPool cloud tier."
 ---
 = Review Active IQ Unified Manager recommendations for tiering data to the cloud
 :icons: font

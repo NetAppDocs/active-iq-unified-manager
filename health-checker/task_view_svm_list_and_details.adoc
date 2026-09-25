@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_svm_list_and_details.html
 sidebar: sidebar
 keywords: view, storage vm list, details
-summary: "Use the Health: All Storage VMs view to monitor your SVM inventory and the Storage VM / Health details page for detailed SVM information."
+summary: "Use the All Storage VMs view on the Health page to monitor your SVM inventory and the Storage VM Health details page for detailed SVM information."
 ---
 = View the Storage VM list and details in Active IQ Unified Manager
 :icons: font
