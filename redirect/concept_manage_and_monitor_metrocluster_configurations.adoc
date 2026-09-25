@@ -1,0 +1,6 @@
+---
+permalink: storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html
+redirect:  active-iq-unified-manager/storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html
+---
+
+// Redirect added, GH-198 (Invalid sidebar structure fix)
