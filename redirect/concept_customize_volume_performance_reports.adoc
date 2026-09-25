@@ -1,0 +1,6 @@
+---
+permalink: reporting/concept_customize_volume_performance_reports.html
+redirect:  active-iq-unified-manager/reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html
+---
+
+// Redirect added, OTHERDOC (Invalid sidebar structure fix)

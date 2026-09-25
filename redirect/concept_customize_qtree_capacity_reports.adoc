@@ -1,0 +1,6 @@
+---
+permalink: reporting/concept_customize_qtree_capacity_reports.html
+redirect:  active-iq-unified-manager/reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html
+---
+
+// Redirect added, OTHERDOC (Invalid sidebar structure fix)

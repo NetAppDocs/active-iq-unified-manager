@@ -1,0 +1,6 @@
+---
+permalink: reporting/concept_customize_cluster_storage_reports.html
+redirect:  active-iq-unified-manager/reporting/task_create_report_to_view_capacity_by_cluster_model.html
+---
+
+// Redirect added, OTHERDOC (Invalid sidebar structure fix)

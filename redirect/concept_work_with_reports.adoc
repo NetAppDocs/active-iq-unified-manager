@@ -1,0 +1,6 @@
+---
+permalink: reporting/concept_work_with_reports.html
+redirect:  active-iq-unified-manager/reporting/concept_report_work_flow.html
+---
+
+// Redirect added, OTHERDOC (Invalid sidebar structure fix)
