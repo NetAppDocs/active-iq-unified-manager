@@ -2,13 +2,13 @@ section: data-protection
 title: Protect and restore data
 entries:
   - title: Create and troubleshoot protection relationships
-    url: "/data-protection/concept_create_and_monitor_protection_relationships.html"
     entries:
     - title: Types of SnapMirror protection
       url: "/data-protection/concept_types_of_snapmirror_protection.html"
     - title: Set up protection relationships in Unified Manager
-      url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
       entries:
+      - title: Learn about setting up protection relationships
+        url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
       - title: Configure a connection between Workflow Automation and Unified Manager
         url: "/data-protection/task_configure_connection_between_workflow_automation_um.html"
       - title: Verify Unified Manager data source caching in Workflow Automation
@@ -18,8 +18,9 @@ entries:
       - title: Remove OnCommand Workflow Automation setup from Unified Manager
         url: "/data-protection/task_remove_workflow_automation.html"
     - title: Perform a protection relationship failover and failback
-      url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
       entries:
+      - title: Learn about failover and failback
+        url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
       - title: Break a SnapMirror relationship from the Volume health details
           page
         url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
@@ -33,16 +34,18 @@ entries:
           page
         url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
     - title: Resolve a protection job failure
-      url: "/data-protection/task_resolve_protection_job_failure.html"
       entries:
+      - title: Learn how to resolve a protection job failure
+        url: "/data-protection/task_resolve_protection_job_failure.html"
       - title: Identify the problem and performing corrective actions for a failed
           protection job
         url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
     - title: Resolve lag issues
       url: "/data-protection/task_resolve_lag_issues.html"
   - title: Manage and monitor protection relationships
-    url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
     entries:
+    - title: Learn about managing and monitoring protection relationships
+      url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
     - title: View volume protection status
       url: "/data-protection/view-protection-status.html"
     - title: View volume protection relationships
@@ -130,8 +133,9 @@ entries:
     - title: Delete resource pools
       url: "/data-protection/task_delete_resource_pools.html"
     - title: Monitor Storage VM Disaster Recovery protection relationships
-      url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
       entries:
+      - title: Learn about storage VM disaster recovery relationships
+        url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
       - title: Monitor Storage VMs using Relationships page
         url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
       - title: View protection relationships from Storage VMs page
@@ -153,7 +157,6 @@ entries:
     - title: Retry a failed protection job
       url: "/data-protection/task_retry_failed_protection_job.html"
     - title: Description of Protection relationships windows and dialog boxes
-      url: "/data-protection/reference_description_of_protection_relationships_window.html"
       entries:
       - title: Resource Pools page
         url: "/data-protection/reference_resource_pools_page.html"
