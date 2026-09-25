@@ -131,8 +131,6 @@ entries:
       url: "/config/task_view_users.html"
     - title: Delete users or groups
       url: "/config/task_delete_users_or_groups.html"
-    - title: What RBAC is
-      url: "/config/concept_what_rbac_is.html"
     - title: What role-based access control does
       url: "/config/concept_what_role_based_access_control_does.html"
     - title: Definitions of user types

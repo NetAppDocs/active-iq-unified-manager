@@ -1,0 +1,4 @@
+---
+permalink: health-checker/task_configure_windows_host_machine.html
+redirect: concept_configure_backup_for_windows.html
+---

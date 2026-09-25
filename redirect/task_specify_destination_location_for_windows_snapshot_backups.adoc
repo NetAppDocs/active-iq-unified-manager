@@ -1,0 +1,4 @@
+---
+permalink: health-checker/task_specify_destination_location_for_windows_snapshot_backups.html
+redirect: concept_configure_backup_for_windows.html
+---
