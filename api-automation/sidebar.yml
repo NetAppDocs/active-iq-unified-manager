@@ -45,7 +45,6 @@ entries:
     - title: Manage events and alerts
       url: "/api-automation/concept_events_api.html"
     - title: Manage workloads
-      url: "/api-automation/concept_manage_storage_workloads.html"
       entries:
       - title: View storage workloads
         url: "/api-automation/concept_view_workloads.html"
