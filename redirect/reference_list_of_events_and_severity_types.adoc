@@ -1,0 +1,6 @@
+---
+permalink: events/reference_list_of_events_and_severity_types.html
+redirect:  active-iq-unified-manager/events/reference_aggregate_events.html
+---
+
+// Redirect added, OTHERDOC (Invalid sidebar structure fix)
