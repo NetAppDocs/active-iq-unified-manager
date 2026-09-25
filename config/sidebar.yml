@@ -2,8 +2,9 @@ section: config
 title: Perform configuration and administrative tasks
 entries:
   - title: Configure Active IQ Unified Manager
-    url: "/config/concept_configure_unified_manager.html"
     entries:
+    - title: Learn about configuring Active IQ Unified Manager
+      url: "/config/concept_configure_unified_manager.html"
     - title: Overview of the configuration sequence
       url: "/config/concept_overview_of_configuration_sequence.html"
     - title: Access the Unified Manager web UI
@@ -13,8 +14,9 @@ entries:
     - title: Add clusters
       url: "/config/task_add_clusters.html"
     - title: Configure Unified Manager to send alert notifications
-      url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
       entries:
+      - title: Configure Active IQ Unified Manager to send alert notifications
+        url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
       - title: Configure event notification settings
         url: "/config/task_configure_event_notification_settings.html"
       - title: Enable remote authentication
@@ -36,11 +38,13 @@ entries:
     - title: Set the session timeout through CLI
       url: "/config/task_set_session_timeout_CLI.html"     
     - title: Change the Unified Manager host name
-      url: "/config/concept_change_unified_manager_host_name.html"
       entries:
+      - title: Change the Active IQ Unified Manager host name
+        url: "/config/concept_change_unified_manager_host_name.html"
       - title: Change the Unified Manager virtual appliance host name
-        url: "/config/task_change_unified_manager_host_name_on_vmware.html"
         entries:
+        - title: Change the Active IQ Unified Manager virtual appliance host name
+          url: "/config/task_change_unified_manager_host_name_on_vmware.html"
         - title: Generate an HTTPS security certificate
           url: "/config/task_generate_an_https_security_certificate_ocf.html"
         - title: Restart the Unified Manager virtual machine
@@ -52,8 +56,9 @@ entries:
   - title: Configure Unified Manager backup
     url: "/config/concept_configure_um_backup.html"
   - title: Manage feature settings
-    url: "/config/concept_manage_feature_settings.html"
     entries:
+    - title: Learn about feature settings in Active IQ Unified Manager
+      url: "/config/concept_manage_feature_settings.html"
     - title: Enable policy-based storage management
       url: "/config/concept_policy_based_storage_management.html"
     - title: Enable API Gateway
@@ -69,7 +74,6 @@ entries:
     - title: Add a login banner
       url: "/config/concept_login_banner.html"
   - title: Use the maintenance console
-    url: "/config/task_use_maintenance_console.html"
     entries:
     - title: What functionality the maintenance console provides
       url: "/config/concept_what_functionality_maintenance_console_provides.html"
@@ -82,8 +86,9 @@ entries:
     - title: Access the maintenance console using the vSphere VM console
       url: "/config/task_access_maintenance_console_using_vsphere.html"
     - title: Maintenance console menus
-      url: "/config/concept_maintenance_console_menu.html"
       entries:
+      - title: Learn about maintenance console menus in Active IQ Unified Manager
+        url: "/config/concept_maintenance_console_menu.html"
       - title: Network Configuration menu
         url: "/config/reference_network_configuration_menu.html"
       - title: System Configuration menu
@@ -103,8 +108,9 @@ entries:
     - title: Regenerate the client certificate
       url: "/config/task_regenerate_client_certificate.html"        
     - title: Add disk space to the Unified Manager database directory
-      url: "/config/concept_add_disk_space_to_um_database_directory.html"      
       entries:
+      - title: Add disk space to the Active IQ Unified Manager database directory
+        url: "/config/concept_add_disk_space_to_um_database_directory.html"
       - title: Add space to the data directory of the Linux host
         url: "/config/task_add_space_to_data_directory_of_um_linux_host.html"
       - title: Add space to the data disk of the VMware virtual machine
@@ -112,11 +118,11 @@ entries:
       - title: Add space to the logical drive of the Microsoft Windows server
         url: "/config/task_add_space_to_data_disk_of_windows_server.html"
   - title: Manage user access
-    url: "/config/concept_manage_user_access.html"
     entries:
     - title: Add users
-      url: "/config/task_add_users.html"
       entries:
+      - title: Add users in Active IQ Unified Manager
+        url: "/config/task_add_users.html"
       - title: Create a database user
         url: "/config/task_create_database_user.html"
     - title: Edit the user settings
@@ -136,8 +142,9 @@ entries:
     - title: Unified Manager user roles and capabilities
       url: "/config/reference_unified_manager_roles_and_capabilities.html"
   - title: Manage SAML authentication settings
-    url: "/config/concept_manage_saml_authentication_settings_um.html"
     entries:
+    - title: Enable SAML authentication in Active IQ Unified Manager
+      url: "/config/concept_manage_saml_authentication_settings_um.html"
     - title: Identity provider requirements
       url: "/config/reference_identity_provider_requirements_um.html"
     - title: Enable SAML authentication
@@ -154,7 +161,6 @@ entries:
     - title: SAML Authentication page
       url: "/config/reference_saml_authentication_page_um.html"
   - title: Manage authentication
-    url: "/config/concept_manage_authentication.html"
     entries:
     - title: Edit authentication servers
       url: "/config/task_edit_authentication_servers.html"
@@ -163,8 +169,9 @@ entries:
     - title: Authentication with Active Directory or OpenLDAP
       url: "/config/concept_authentication_with_active_directory_or_openldap.html"
     - title: Audit Logging
-      url: "/config/concept_audit_logging.html"
       entries:
+      - title: Learn about audit logs in Active IQ Unified Manager
+        url: "/config/concept_audit_logging.html"
       - title: Configure audit logs
         url: "/config/task_configure_audit_logs.html"
       - title: Enable remote logging of audit logs
@@ -172,7 +179,6 @@ entries:
     - title: Remote Authentication page
       url: "/config/reference_remote_authentication_page.html"
   - title: Manage security certificates
-    url: "/config/concept_manage_security_certificates_ocf.html"
     entries:
     - title: View the HTTPS security certificate
       url: "/config/task_view_https_security_certificate_ocf.html"
@@ -183,7 +189,6 @@ entries:
     - title: Install a HTTPS certificate generated using external tools
       url: "/config/concept_install_https_certificate_generated_using_external_tools.html"
     - title: Page descriptions for certificate management
-      url: "/config/concept_page_descriptions_for_certificate_management.html"
       entries:
       - title: HTTPS Certificate page
         url: "/config/reference_https_dialog_box_ocf.html"
