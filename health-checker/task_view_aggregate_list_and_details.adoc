@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_aggregate_list_and_details.html
 sidebar: sidebar
 keywords: view, aggregate list, details
-summary: "From the Health: All Aggregates view, you can monitor your inventory of aggregates. The Capacity: All Aggregates view enables you to view information about the capacity and utilization of aggregates in all clusters."
+summary: "Use the Health: All Aggregates view to monitor your aggregate inventory, and the Capacity: All Aggregates view for capacity and utilization details."
 ---
 = View the aggregate list and details in Active IQ Unified Manager
 :icons: font

@@ -2,7 +2,7 @@
 permalink: storage-mgmt/task_resolve_windows_log_rotation_issue.html
 sidebar: sidebar
 keywords: windows, log rotation issue, Netapp Manageability SDK
-summary: "Troubleshooting: follow these steps to resolve the log rotation issue"
+summary: "Follow these steps to resolve the Windows log rotation issue."
 ---
 = Resolve a NetApp Manageability SDK log rotation issue in Active IQ Unified Manager
 :icons: font

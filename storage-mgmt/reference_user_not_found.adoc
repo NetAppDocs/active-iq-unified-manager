@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_user_not_found.html
 sidebar: sidebar
 keywords: user, not, found
-summary: "Troubleshooting: User not found"
+summary: "Troubleshoot a user not found error."
 ---
 = Resolve a User not found error in Active IQ Unified Manager
 :icons: font
