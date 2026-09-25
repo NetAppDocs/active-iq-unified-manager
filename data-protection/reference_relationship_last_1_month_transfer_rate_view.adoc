@@ -2,7 +2,7 @@
 permalink: data-protection/reference_relationship_last_1_month_transfer_rate_view.html
 sidebar: sidebar
 keywords: relationship, 1 month, transfer rate, view
-summary: "The Relationship: Last 1 month Transfer Rate view shows daily data transfer volume and transfer time for volumes in asynchronous relationships."
+summary: "The Last 1 month Transfer Rate view on the Relationship page shows daily data transfer volume and transfer time for volumes in asynchronous relationships."
 ---
 = Display the Relationship: Last 1 month Transfer Rate view in Active IQ Unified Manager
 :icons: font

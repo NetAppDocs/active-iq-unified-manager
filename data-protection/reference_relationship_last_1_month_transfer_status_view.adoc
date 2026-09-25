@@ -2,7 +2,7 @@
 permalink: data-protection/reference_relationship_last_1_month_transfer_status_view.html
 sidebar: sidebar
 keywords: relationship, 1 month, transfer status, view
-summary: "The Relationship: Last 1 month Transfer Status view shows transfer trends and success or failure status for asynchronous relationships."
+summary: "The Last 1 month Transfer Status view on the Relationship page shows transfer trends and success or failure status for asynchronous relationships."
 ---
 = Display the Last 1 month Transfer Status view in Active IQ Unified Manager
 :icons: font

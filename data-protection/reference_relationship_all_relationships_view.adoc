@@ -2,7 +2,7 @@
 permalink: data-protection/reference_relationship_all_relationships_view.html
 sidebar: sidebar
 keywords: volume, relationships, metrocluster
-summary: "The Relationship: All Relationships view displays information about protection relationships on the storage system."
+summary: "The All Relationships view on the Relationship page displays information about protection relationships on the storage system."
 ---
 = Display the Relationship: All relationships view in Active IQ Unified Manager
 :icons: font
