@@ -1,0 +1,6 @@
+---
+permalink: health-checker/concept_prioritize_storage_objects_using_annotations.html
+redirect:  active-iq-unified-manager/health-checker/concept_understand_more_about_annotations.html
+---
+
+// 25-September-2026 GH-186
