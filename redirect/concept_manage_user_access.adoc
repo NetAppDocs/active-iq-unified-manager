@@ -1,0 +1,6 @@
+---
+permalink: config/concept_manage_user_access.html
+redirect:  active-iq-unified-manager/config/task_add_users.html
+---
+
+// 25-September-2026 GH-180

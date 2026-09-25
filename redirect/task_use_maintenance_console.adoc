@@ -1,0 +1,6 @@
+---
+permalink: config/task_use_maintenance_console.html
+redirect:  active-iq-unified-manager/config/concept_what_functionality_maintenance_console_provides.html
+---
+
+// 25-September-2026 GH-180
