@@ -65,7 +65,7 @@ Restores the selected data to a new location:
 
  ** Restore Path
 +
-Specifies an alternate path for restoring the selected data. The path must already exist. You can use the *Browse* button to navigate to the location where you want the data restored, or you can enter the path manually using the format cluster://svm/volume/path.
+Specifies an alternate path for restoring the selected data. The path must already exist. You can use the *Browse* button to navigate to the location where you want the data restored, or you can enter the path manually using the format `cluster://svm/volume/path`.
 
  ** Preserve directory hierarchy
 +

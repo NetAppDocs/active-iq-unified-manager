@@ -1,7 +1,7 @@
 ---
 permalink: events/reference_logical_interface_events.html
 sidebar: sidebar
-keywords: network, interface, (lif) events, impact area, availability, configuration, performance
+keywords: network, interface, lif events, impact area, availability, configuration, performance
 summary: "Network interface events provide information about the status of your network interface (LIFs), so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity."
 ---
 = Network interface events in Active IQ Unified Manager

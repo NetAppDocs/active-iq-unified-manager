@@ -1,0 +1,6 @@
+---
+permalink: events/concept_manage_alerts.html
+redirect:  active-iq-unified-manager/events/concept_what_alerts_are.html
+---
+
+// Redirect added, OTHERDOC (Invalid sidebar structure fix)

@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_unknown_authentication_error.html
 sidebar: sidebar
 keywords: unknown, authentication, error
-summary: "Troubleshooting: Unknown authentication error"
+summary: "Troubleshoot an unknown authentication error."
 ---
 = Resolve an unknown authentication error in Active IQ Unified Manager
 :icons: font

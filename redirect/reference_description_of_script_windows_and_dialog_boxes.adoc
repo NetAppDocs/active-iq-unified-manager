@@ -1,0 +1,6 @@
+---
+permalink: events/reference_description_of_script_windows_and_dialog_boxes.html
+redirect:  active-iq-unified-manager/events/reference_management_scripts_page.html
+---
+
+// Redirect added, OTHERDOC (Invalid sidebar structure fix)

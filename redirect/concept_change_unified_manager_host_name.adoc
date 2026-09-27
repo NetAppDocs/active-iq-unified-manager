@@ -1,0 +1,4 @@
+---
+permalink: config/concept_change_unified_manager_host_name.html
+redirect: config/task_change_unified_manager_host_name_on_vmware.html
+---

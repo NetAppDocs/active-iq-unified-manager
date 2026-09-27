@@ -1,0 +1,6 @@
+---
+permalink: data-protection/reference_description_of_protection_relationships_window.html
+redirect:  active-iq-unified-manager/data-protection/reference_resource_pools_page.html
+---
+
+// 25-September-2026 OTHERDOC-182

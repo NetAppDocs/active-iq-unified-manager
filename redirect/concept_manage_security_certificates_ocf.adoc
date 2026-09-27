@@ -1,0 +1,6 @@
+---
+permalink: config/concept_manage_security_certificates_ocf.html
+redirect:  active-iq-unified-manager/config/task_view_https_security_certificate_ocf.html
+---
+
+// 25-September-2026 GH-180

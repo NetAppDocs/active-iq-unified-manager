@@ -1,0 +1,6 @@
+---
+permalink: events/concept_manage_events.html
+redirect:  active-iq-unified-manager/events/concept_what_active_iq_platform_events_are.html
+---
+
+// Redirect added, OTHERDOC (Invalid sidebar structure fix)

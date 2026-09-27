@@ -1,0 +1,6 @@
+---
+permalink: data-protection/concept_create_and_monitor_protection_relationships.html
+redirect:  active-iq-unified-manager/data-protection/concept_types_of_snapmirror_protection.html
+---
+
+// 25-September-2026 OTHERDOC-182

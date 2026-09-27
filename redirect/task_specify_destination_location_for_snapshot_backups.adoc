@@ -1,0 +1,4 @@
+---
+permalink: health-checker/task_specify_destination_location_for_snapshot_backups.html
+redirect: health-checker/concept_configure_backup_for_linux.html
+---

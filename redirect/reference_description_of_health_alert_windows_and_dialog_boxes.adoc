@@ -1,0 +1,6 @@
+---
+permalink: events/reference_description_of_health_alert_windows_and_dialog_boxes.html
+redirect:  active-iq-unified-manager/events/reference_alert_setup_page.html
+---
+
+// Redirect added, OTHERDOC (Invalid sidebar structure fix)

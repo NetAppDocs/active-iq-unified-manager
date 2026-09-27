@@ -1,0 +1,6 @@
+---
+permalink: health-checker/concept_understand_more_about_annotations.html
+redirect:  active-iq-unified-manager/health-checker/concept_what_annotations_are.html
+---
+
+// 25-September-2026 GH-186

@@ -1,0 +1,6 @@
+---
+permalink: api-automation/concept_manage_storage_workloads.html
+redirect:  active-iq-unified-manager/api-automation/concept_view_workloads.html
+---
+
+// 25-September-2026 GH-178
