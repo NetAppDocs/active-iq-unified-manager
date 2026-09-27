@@ -2,11 +2,13 @@ section: reporting
 title: Generate custom reports
 entries:
   - title: Unified Manager reporting
-    url: "/reporting/concept_unified_manager_reporting.html"
     entries:
+    - title: Learn about Unified Manager reporting
+      url: "/reporting/concept_unified_manager_reporting.html"
     - title: Access points for generating reports
-      url: "/reporting/concept_report_access_points.html"
       entries:
+      - title: Explore ways to access reporting capabilities
+        url: "/reporting/concept_report_access_points.html"
       - title: Unified Manager databases accessible for custom reporting
         url: "/reporting/concept_unified_manager_databases_accessible_for_reporting.html"
       - title: Unified Manager REST APIs that can be used for reporting
@@ -20,7 +22,6 @@ entries:
     - title: Report limitations
       url: "/reporting/reference_reporting_limitations.html"
   - title: Work with reports
-    url: "/reporting/concept_work_with_reports.html"
     entries:
     - title: Report workflow
       url: "/reporting/concept_report_work_flow.html"
@@ -29,8 +30,9 @@ entries:
     - title: Search for a scheduled report
       url: "/reporting/task_search_for_scheduled_report.html"
     - title: Customize reports
-      url: "/reporting/concept_customize_reports.html"
       entries:
+      - title: Learn about customizing reports
+        url: "/reporting/concept_customize_reports.html"
       - title: Customize columns
         url: "/reporting/task_customize_columns.html"
       - title: Filter data
@@ -44,25 +46,28 @@ entries:
     - title: Download reports
       url: "/reporting/task_download_reports.html"
   - title: Schedule reports
-    url: "/reporting/concept_schedule_reports.html"
     entries:
+    - title: Learn about scheduling reports
+      url: "/reporting/concept_schedule_reports.html"
     - title: Schedule a report
-      url: "/reporting/task_schedule_report.html"
       entries:
+      - title: Create a report schedule
+        url: "/reporting/task_schedule_report.html"
       - title: Schedule imported .rptdesign reports
         url: "/reporting/task_schedule_an_imported_report.html"
     - title: Manage report schedules
-      url: "/reporting/task_manage_report_schedules.html"
       entries:
+      - title: View, edit, and delete report schedules
+        url: "/reporting/task_manage_report_schedules.html"
       - title: Edit scheduled reports
         url: "/reporting/task_edit_scheduled_reports.html"
       - title: Delete scheduled reports
         url: "/reporting/task_delete_scheduled_reports.html"
   - title: Sample custom reports
-    url: "/reporting/concept_sample_custom_reports.html"
     entries:
+    - title: Understand sample custom reports
+      url: "/reporting/concept_sample_custom_reports.html"
     - title: Customize cluster storage reports
-      url: "/reporting/concept_customize_cluster_storage_reports.html"
       entries:
       - title: Create a report to view capacity by cluster model
         url: "/reporting/task_create_report_to_view_capacity_by_cluster_model.html"
@@ -74,7 +79,6 @@ entries:
       - title: Create a report to view nodes running older versions of ONTAP
         url: "/reporting/task_create_report_view_nodes_running_older_versions_of_ontap.html"
     - title: Customize aggregate capacity reports
-      url: "/reporting/concept_customize_aggregate_capacity_reports.html"
       entries:
       - title: Create a report to view aggregates reaching full capacity
         url: "/reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html"
@@ -83,7 +87,6 @@ entries:
       - title: Create a report to view aggregates that are overcommitted
         url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"
     - title: Customize volume capacity reports
-      url: "/reporting/concept_customize_volume_capacity_reports.html"
       entries:
       - title: Create a report to identify volumes nearing full capacity that have
           Snapshot Autodelete turned off
@@ -95,28 +98,30 @@ entries:
           should move data to the cloud tier
         url: "/reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html"
     - title: Customize Qtree capacity reports
-      url: "/reporting/concept_customize_qtree_capacity_reports.html"
       entries:
       - title: Create a report to view qtrees that are nearly full
         url: "/reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html"
     - title: Customize NFS share reports
-      url: "/reporting/concept_customize_nfs_share_reports.html"
       entries:
+      - title: Learn about customizing NFS share reports
+        url: "/reporting/concept_customize_nfs_share_reports.html"
       - title: Create a report to view volumes that have an inaccessible mount path
         url: "/reporting/task_create_report_to_view_volumes_with_an_inaccessible_junction_path.html"
       - title: Create a report to view volumes that are using the default export
           policy
         url: "/reporting/task_create_report_to_view_volumes_with_default_export_policy.html"
     - title: Customize storage VM reports
-      url: "/reporting/concept_customize_svm_reports.html"
       entries:
+      - title: Learn about customizing storage VM reports
+        url: "/reporting/concept_customize_svm_reports.html"
       - title: Create a report to view storage VMs reaching the maximum volume limit
         url: "/reporting/task_create_report_to_view_svms_reaching_maximum_volume_limit.html"
       - title: Create a report to view stopped storage VMs
         url: "/reporting/task_create_report_to_view_stopped_svms.html"
     - title: Customize volume relationship reports
-      url: "/reporting/concept_customize_volume_relationship_reports.html"
       entries:
+      - title: Learn about customizing volume relationship reports
+        url: "/reporting/concept_customize_volume_relationship_reports.html"
       - title: Create a report to group volume relationships by source of failure
         url: "/reporting/task_create_report_volume_relationships_source_of_failure.html"
       - title: Create a report to group volume relationships by issue
@@ -130,14 +135,14 @@ entries:
       - title: Create a report to view volume transfers grouped by day
         url: "/reporting/task_create_report_to_view_volume_transfers_grouped_by_day.html"
     - title: Customize volume performance reports
-      url: "/reporting/concept_customize_volume_performance_reports.html"
       entries:
       - title: Create a report to view volumes with a high amount of cold data on
           an aggregate that is not FabricPool-enabled
         url: "/reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html"
   - title: Sample Microsoft Excel reports
-    url: "/reporting/concept_sample_microsoft_excel_reports.html"
     entries:
+    - title: Understand sample Microsoft Excel reports
+      url: "/reporting/concept_sample_microsoft_excel_reports.html"
     - title: Create a report to show an aggregate capacity table and chart
       url: "/reporting/task_create_report_to_view_capacity.html"
     - title: Create a report to show aggregate total versus available capacity charts

@@ -1,0 +1,6 @@
+---
+permalink: storage-mgmt/concept_understand_more_about_quotas.html
+redirect:  active-iq-unified-manager/storage-mgmt/concept_overview_of_quota_process_um_6_1.html
+---
+
+// Redirect added, GH-198 (Invalid sidebar structure fix)

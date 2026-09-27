@@ -1,0 +1,6 @@
+---
+permalink: storage-mgmt/concept_troubleshooting.html
+redirect:  active-iq-unified-manager/storage-mgmt/concept_add_disk_space_to_um_database_directory.html
+---
+
+// Redirect added, GH-198 (Invalid sidebar structure fix)

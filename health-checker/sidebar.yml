@@ -2,18 +2,19 @@ section: health-checker
 title: Monitor and manage cluster health
 entries:
   - title: Introduction to Active IQ Unified Manager health monitoring
-    url: "/health-checker/concept_introduction_to_unified_manager_health_monitoring.html"
     entries:
+    - title: Learn about Active IQ Unified Manager health monitoring
+      url: "/health-checker/concept_introduction_to_unified_manager_health_monitoring.html"
     - title: Unified Manager health monitoring features
       url: "/health-checker/concept_unified_manager_health_monitoring_features.html"
     - title: Unified Manager interfaces used to manage storage system health
       url: "/health-checker/concept_um_interfaces_used_to_manage_storage_system_health.html"
   - title: Manage and monitor clusters and cluster object health
-    url: "/health-checker/concept_manage_and_monitor_clusters_and_cluster_object_health.html"
     entries:
     - title: Understand cluster monitoring
-      url: "/health-checker/concept_understand_cluster_monitoring.html"
       entries:
+      - title: Learn about cluster monitoring
+        url: "/health-checker/concept_understand_cluster_monitoring.html"
       - title: Understand node root volumes
         url: "/health-checker/concept_understand_node_root_volumes.html"
       - title: Understand events and thresholds for node root aggregates
@@ -53,45 +54,49 @@ entries:
     - title: Description of cluster object windows and dialog boxes
       url: "/health-checker/reference_description_of_cluster_object_windows_and_dialog_boxes.html"
   - title: Common Unified Manager health workflows and tasks
-    url: "/health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html"
     entries:
+    - title: Understand common health workflows and tasks
+      url: "/health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html"
     - title: Monitor and troubleshoot data availability
-      url: "/health-checker/concept_monitor_and_troubleshoot_data_availability.html"
       entries:
+      - title: Learn about monitoring and troubleshooting data availability
+        url: "/health-checker/concept_monitor_and_troubleshoot_data_availability.html"
       - title: Scan for and resolve storage failover interconnect link down
           conditions
-        url: "/health-checker/task_resolve_storage_failover_interconnect_link_down_condition.html"
         entries:
+        - title: Resolve storage failover interconnect link down conditions
+          url: "/health-checker/task_resolve_storage_failover_interconnect_link_down_condition.html"
         - title: Perform corrective action for storage failover interconnect links
             down
           url: "/health-checker/task_perform_corrective_action_for_storage_failover_interconnect_links.html"
       - title: Resolve volume offline issues
-        url: "/health-checker/task_resolve_volume_offline_issues.html"
         entries:
-        - title: Perform diagnostic actions for volume offline conditions
+        - title: Learn how to resolve volume offline issues
+          url: "/health-checker/task_resolve_volume_offline_issues.html"
+        - title: Learn how to perform diagnostic actions for volume offline conditions
           url: "/health-checker/task_perform_diagnotstic_actions_for_volume_offline_conditions.html"
-          entries:
-          - title: Determine if a volume is offline because its host node is down
-            url: "/health-checker/task_determine_if_volume_offline_condition_is_by_down_cluster_node.html"
-          - title: Determine if a volume is offline and its SVM is stopped because
+        - title: Determine if a volume is offline because its host node is down
+          url: "/health-checker/task_determine_if_volume_offline_condition_is_by_down_cluster_node.html"
+        - title: Determine if a volume is offline and its SVM is stopped because
               a node is down
-            url: "/health-checker/task_determine_if_volume_is_offline_and_its_svm_is_stopped.html"
-          - title: Determine if a volume is offline because of broken disks in an
+          url: "/health-checker/task_determine_if_volume_is_offline_and_its_svm_is_stopped.html"
+        - title: Determine if a volume is offline because of broken disks in an
               aggregate
-            url: "/health-checker/task_determine_if_volume_is_offline_because_of_broken_disks.html"
+          url: "/health-checker/task_determine_if_volume_is_offline_because_of_broken_disks.html"
     - title: Resolve capacity issues
-      url: "/health-checker/task_resolve_capacity_issues.html"
       entries:
+      - title: Learn how to resolve capacity issues
+        url: "/health-checker/task_resolve_capacity_issues.html"
       - title: Perform suggested remedial actions for a full volume
         url: "/health-checker/task_perform_suggested_remedial_actions_for_full_volume.html"
     - title: Manage health thresholds
-      url: "/health-checker/concept_manage_health_thresholds.html"
       entries:
       - title: What storage capacity health thresholds are
         url: "/health-checker/concept_what_storage_capacity_health_thresholds_are.html"
       - title: Configure global health threshold settings
-        url: "/health-checker/task_configure_global_health_threshold_settings.html"
         entries:
+        - title: Learn how to configure global health threshold settings
+          url: "/health-checker/task_configure_global_health_threshold_settings.html"
         - title: Configure global aggregate health threshold values
           url: "/health-checker/task_configure_global_aggregate_health_threshold_values.html"
         - title: Configure global volume health threshold values
@@ -107,11 +112,13 @@ entries:
       - title: Edit individual qtree health threshold settings
         url: "/health-checker/task_edit_individual_qtree_health_threshold_settings.html"
     - title: Manage cluster security objectives
-      url: "/health-checker/concept_manage_cluster_security_objectives.html"
       entries:
+      - title: Learn about managing cluster security objectives
+        url: "/health-checker/concept_manage_cluster_security_objectives.html"
       - title: What security criteria is being evaluated
-        url: "/health-checker/concept_what_security_criteria_is_being_evaluated.html"
         entries:
+        - title: Understand how Unified Manager evaluates security criteria
+          url: "/health-checker/concept_what_security_criteria_is_being_evaluated.html"
         - title: Cluster compliance categories
           url: "/health-checker/reference_cluster_compliance_categories.html"
         - title: SVM compliance categories
@@ -139,13 +146,15 @@ entries:
       - title: Security events
         url: "/health-checker/reference_security_events.html"
     - title: Manage backup and restore operations
-      url: "/health-checker/concept_manage_backup_and_restore_operations.html"
       entries:
+      - title: Learn about backup and restore operations
+        url: "/health-checker/concept_manage_backup_and_restore_operations.html"
       - title: Backup and restore for Unified Manager on virtual appliance
         url: "/health-checker/concept_backup_and_restore_on_virtual_appliance.html"
       - title: Backup and restore using a MySQL database dump
-        url: "/health-checker/concept_backup_and_restore_using_mysql_database_dump.html"
         entries:
+        - title: Learn about backup and restore using a MySQL database dump
+          url: "/health-checker/concept_backup_and_restore_using_mysql_database_dump.html"
         - title: Configure the destination and schedule for database dump backups
           url: "/health-checker/concept_configure_destination_and_schedule_for_database_dump_backups.html"
         - title: What a database restore is
@@ -155,26 +164,13 @@ entries:
         - title: Restore a MySQL database backup on Windows
           url: "/health-checker/task_restore_mysql_database_backup_on_windows.html"
       - title: Backup and restore using NetApp Snapshots
-        url: "/health-checker/concept_backup_and_restore_using_netapp_snapshots.html"
         entries:
+        - title: Learn about backup and restore using NetApp Snapshots
+          url: "/health-checker/concept_backup_and_restore_using_netapp_snapshots.html"
         - title: Configure backup on Linux
           url: "/health-checker/concept_configure_backup_for_linux.html"
-          entries:
-          - title: Configure Snapshot copy location
-            url: "/health-checker/task_create_volume_where_backups_are_stored.html"
-          - title: Specify the destination location for Snapshot copies
-            url: "/health-checker/task_specify_destination_location_for_snapshot_backups.html"
         - title: Configure backup on Windows
           url: "/health-checker/concept_configure_backup_for_windows.html"
-          entries:
-          - title: Configure backup location for Windows
-            url: "/health-checker/task_configure_backup_location_for_windows_snapshot_backup.html"
-          - title: Configure ONTAP cluster
-            url: "/health-checker/reference_configure_ontap_cluster.html"
-          - title: Configure Windows host machine
-            url: "/health-checker/task_configure_windows_host_machine.html"
-          - title: Specify the destination location for Snapshot copies on Windows
-            url: "/health-checker/task_specify_destination_location_for_windows_snapshot_backups.html"
         - title: Configure backup by Snapshot copy from maintenance console
           url: "/health-checker/task_configure_netapp_snapshot_backup_from_maintenance_console.html"
         - title: Define a backup schedule for Linux and Windows
@@ -188,8 +184,9 @@ entries:
       - title: Migrating a Unified Manager virtual appliance to a Linux system
         url: "/health-checker/task_migrate_um_virtual_appliance_to_rhel_system.html"
     - title: Manage scripts
-      url: "/health-checker/concept_manage_scripts.html"
       entries:
+      - title: Learn about managing scripts
+        url: "/health-checker/concept_manage_scripts.html"
       - title: How scripts work with alerts
         url: "/health-checker/concept_how_scripts_work_with_alerts.html"
       - title: Add scripts
@@ -199,10 +196,8 @@ entries:
       - title: Test script execution
         url: "/health-checker/task_test_script_execution.html"
     - title: Manage and monitor groups
-      url: "/health-checker/concept_manage_and_monitor_groups.html"
       entries:
       - title: Understand groups
-        url: "/health-checker/concept_understand_groups.html"
         entries:
         - title: What a group is
           url: "/health-checker/concept_what_group_is.html"
@@ -233,10 +228,8 @@ entries:
       - title: Reorder group actions
         url: "/health-checker/task_reorder_group_actions.html"
     - title: Prioritize storage object events using annotations
-      url: "/health-checker/concept_prioritize_storage_objects_using_annotations.html"
       entries:
       - title: Understand more about annotations
-        url: "/health-checker/concept_understand_more_about_annotations.html"
         entries:
         - title: What annotations are
           url: "/health-checker/concept_what_annotations_are.html"
@@ -267,8 +260,9 @@ entries:
       - title: Reorder annotation rules
         url: "/health-checker/task_reorder_annotation_rules.html"
     - title: Send a support bundle through web UI and maintenance console
-      url: "/health-checker/task_send_asup_to_technical_support.html"
       entries:
+      - title: Learn about sending a support bundle
+        url: "/health-checker/task_send_asup_to_technical_support.html"
       - title: Send AutoSupport messages and support bundles to technical support
         url: "/health-checker/reference_setup_autosupport_page.html"
       - title: Access the maintenance console
@@ -282,7 +276,6 @@ entries:
       - title: Send a support bundle to technical support
         url: "/health-checker/task_send_support_bundle_to_technical_support.html"
     - title: Tasks and information related to several workflows
-      url: "/health-checker/concept_tasks_and_information_related_to_several_workflows.html"
       entries:
       - title: Cluster components and why they can be in contention
         url: "/health-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"

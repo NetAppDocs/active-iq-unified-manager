@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_details_about_cifs_shares.html
 sidebar: sidebar
 keywords: smb, cifs, view, shares, details
-summary: "You can view details about all SMB/CIFS shares, such as the share name, junction path, containing objects, security settings, and export policies defined for the share. Use the Health: All SMB Shares view to see all SMB shares on all monitored clusters, and use the Storage VM / Health details page to view all SMB shares on a specific storage virtual machine (SVM)."
+summary: "View details about SMB/CIFS shares, such as share name, junction path, security settings, and export policies, using the All SMB Shares view on the Health page."
 ---
 = View details about SMB/CIFS shares in Active IQ Unified Manager
 :icons: font

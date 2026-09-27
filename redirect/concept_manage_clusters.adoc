@@ -1,0 +1,6 @@
+---
+permalink: storage-mgmt/concept_manage_clusters.html
+redirect:  active-iq-unified-manager/storage-mgmt/concept_how_discovery_process_works.html
+---
+
+// Redirect added, GH-198 (Invalid sidebar structure fix)

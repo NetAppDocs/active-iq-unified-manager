@@ -1,0 +1,4 @@
+---
+permalink: install-linux/concept_set_up_required_software_repositories_um.html
+redirect: install-linux/task_manually_configure_epel_repository.html
+---

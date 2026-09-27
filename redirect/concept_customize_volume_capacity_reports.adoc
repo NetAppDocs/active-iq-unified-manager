@@ -1,0 +1,6 @@
+---
+permalink: reporting/concept_customize_volume_capacity_reports.html
+redirect:  active-iq-unified-manager/reporting/task_create_report_to_identify_volumes_nearing_full_capacity.html
+---
+
+// Redirect added, OTHERDOC (Invalid sidebar structure fix)

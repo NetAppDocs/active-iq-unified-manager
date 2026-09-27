@@ -2,13 +2,13 @@ section: events
 title: Manage events and alerts
 entries:
   - title: Manage events
-    url: "/events/concept_manage_events.html"
     entries:
     - title: What Active IQ platform events are
       url: "/events/concept_what_active_iq_platform_events_are.html"
     - title: What Event Management System events are
-      url: "/events/concept_what_event_management_system_events_are.html"
       entries:
+      - title: Learn about Event Management System events
+        url: "/events/concept_what_event_management_system_events_are.html"
       - title: EMS events that are added automatically to Unified Manager
         url: "/events/reference_ems_events_that_are_added_automatically_to_um.html"
       - title: Subscribing to ONTAP EMS events
@@ -38,8 +38,9 @@ entries:
     - title: Configure event retention settings
       url: "/events/task_configure_event_retention_settings.html"
     - title: What a Unified Manager maintenance window is
-      url: "/events/concept_what_um_maintenance_window_is.html"
       entries:
+      - title: Learn about Unified Manager maintenance windows
+        url: "/events/concept_what_um_maintenance_window_is.html"
       - title: Schedule a maintenance window to disable cluster event notifications
         url: "/events/task_schedule_maintenance_window_to_disable_cluster_notifications.html"
       - title: Change or cancel a scheduled maintenance window
@@ -49,7 +50,6 @@ entries:
     - title: Manage host system resource events
       url: "/events/task_manage_host_system_resource_events.html"
     - title: Understand more about events
-      url: "/events/concept_understand_more_about_events.html"
       entries:
       - title: Event state definitions
         url: "/events/concept_event_state_definitions.html"
@@ -66,7 +66,6 @@ entries:
       - title: Configuration changes detected by Unified Manager
         url: "/events/concept_cluster_configuration_changes_detected_by_um.html"
     - title: List of events and severity types
-      url: "/events/reference_list_of_events_and_severity_types.html"
       entries:
       - title: Aggregate events
         url: "/events/reference_aggregate_events.html"
@@ -133,15 +132,15 @@ entries:
       - title: Volume move status events
         url: "/events/reference_volume_move_status_events.html"
     - title: Description of event windows and dialog boxes
-      url: "/events/reference_description_of_event_windows_and_dialog_boxes.html"
       entries:
       - title: Notifications page
         url: "/events/reference_notifications_page.html"
       - title: Event Management inventory page
         url: "/events/reference_event_management_inventory_page.html"
       - title: Event details page
-        url: "/events/reference_event_details_page.html"
         entries:
+        - title: Learn about the Event details page
+          url: "/events/reference_event_details_page.html"
         - title: What the Event Information section displays
           url: "/events/reference_what_event_information_section_displays.html"
         - title: What the Suggested Actions section displays
@@ -153,15 +152,15 @@ entries:
       - title: Disable Events dialog box
         url: "/events/reference_disable_events_dialog_box.html"
   - title: Manage alerts
-    url: "/events/concept_manage_alerts.html"
     entries:
     - title: What alerts are
       url: "/events/concept_what_alerts_are.html"
     - title: What information is contained in an alert email
       url: "/events/concept_what_information_is_contained_in_an_alert_email.html"
     - title: Add alerts
-      url: "/events/task_add_alerts.html"
       entries:
+      - title: Add alerts in Unified Manager
+        url: "/events/task_add_alerts.html"
       - title: Guidelines for adding alerts
         url: "/events/concept_guidelines_for_adding_alerts.html"
     - title: Add alerts for performance events
@@ -179,7 +178,6 @@ entries:
     - title: Delete alerts
       url: "/events/task_delete_alerts.html"
     - title: Description of alert windows and dialog boxes
-      url: "/events/reference_description_of_health_alert_windows_and_dialog_boxes.html"
       entries:
       - title: Alert Setup page
         url: "/events/reference_alert_setup_page.html"
@@ -188,8 +186,9 @@ entries:
       - title: Edit Alert dialog box
         url: "/events/reference_edit_alert_dialog_box.html"
   - title: Manage scripts
-    url: "/events/concept_manage_scripts.html"
     entries:
+    - title: Learn about managing scripts
+      url: "/events/concept_manage_scripts.html"
     - title: How scripts work with alerts
       url: "/events/concept_how_scripts_work_with_alerts.html"
     - title: Add scripts
@@ -201,7 +200,6 @@ entries:
     - title: Supported Unified Manager CLI commands
       url: "/events/reference_supported_unified_manager_cli_commands.html"
     - title: Description of script windows and dialog boxes
-      url: "/events/reference_description_of_script_windows_and_dialog_boxes.html"
       entries:
       - title: Scripts page
         url: "/events/reference_management_scripts_page.html"

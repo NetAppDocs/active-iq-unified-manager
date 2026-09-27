@@ -1,0 +1,6 @@
+---
+permalink: config/concept_manage_authentication.html
+redirect:  active-iq-unified-manager/config/task_edit_authentication_servers.html
+---
+
+// 25-September-2026 GH-180
