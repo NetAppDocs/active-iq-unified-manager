@@ -1,0 +1,4 @@
+---
+permalink: install-windows/concept_install_upgrade_and_remove_unified_manager_software.html
+redirect: install-windows/concept_overview_of_installation_process_on_windows.html
+---

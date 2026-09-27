@@ -25,7 +25,7 @@ See link:reference_red_hat_software_and_installation_requirements.html[Linux sof
 
 . On the Red Hat Enterprise Linux 8.x system, install the same version of Unified Manager software that you have on the existing Red Hat Enterprise Linux 7.x system.
 +
-See link:concept_install_unified_manager_on_rhel.html[Installing Unified Manager on Linux].
+See link:task_install_unified_manager_linux.html[Installing Unified Manager on Linux].
 +
 Do not launch the UI or configure any clusters, users, or authentication settings when the installation is complete. The backup file populates this information during the restore process.
 
@@ -51,7 +51,7 @@ See link:reference_red_hat_software_and_installation_requirements.html[Linux sof
 
 . On the Red Hat Enterprise Linux 8.x system, install the same version of Unified Manager software that you had on the Red Hat Enterprise Linux 7.x system.
 +
-See link:concept_install_unified_manager_on_rhel.html[Installing Unified Manager on Linux].
+See link:task_install_unified_manager_linux.html[Installing Unified Manager on Linux].
 +
 Do not launch the UI or configure any clusters, users, or authentication settings when the installation is complete. The backup file populates this information during the restore process.
 

@@ -13,7 +13,7 @@ entries:
       url: "/config/task_perform_initial_setup_of_unified_manager_web_ui.html"
     - title: Add clusters
       url: "/config/task_add_clusters.html"
-    - title: Configure Unified Manager to send alert notifications
+    - title: Configure notifications
       entries:
       - title: Configure Active IQ Unified Manager to send alert notifications
         url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
@@ -39,16 +39,12 @@ entries:
       url: "/config/task_set_session_timeout_CLI.html"     
     - title: Change the Unified Manager host name
       entries:
-      - title: Change the Active IQ Unified Manager host name
-        url: "/config/concept_change_unified_manager_host_name.html"
-      - title: Change the Unified Manager virtual appliance host name
-        entries:
-        - title: Change the Active IQ Unified Manager virtual appliance host name
-          url: "/config/task_change_unified_manager_host_name_on_vmware.html"
-        - title: Generate an HTTPS security certificate
-          url: "/config/task_generate_an_https_security_certificate_ocf.html"
-        - title: Restart the Unified Manager virtual machine
-          url: "/config/task_restart_unified_manager_virtual_machine.html"
+      - title: Change the Active IQ Unified Manager virtual appliance host name
+        url: "/config/task_change_unified_manager_host_name_on_vmware.html"
+      - title: Generate an HTTPS security certificate
+        url: "/config/task_generate_an_https_security_certificate_ocf.html"
+      - title: Restart the Unified Manager virtual machine
+        url: "/config/task_restart_unified_manager_virtual_machine.html"
       - title: Change the Unified Manager host name on Linux systems
         url: "/config/task_change_um_host_name_on_rhel.html"
     - title: Enable and disable policy-based storage management
@@ -107,7 +103,7 @@ entries:
       url: "/config/task_add_additional_network_interfaces.html"
     - title: Regenerate the client certificate
       url: "/config/task_regenerate_client_certificate.html"        
-    - title: Add disk space to the Unified Manager database directory
+    - title: Add disk space
       entries:
       - title: Add disk space to the Active IQ Unified Manager database directory
         url: "/config/concept_add_disk_space_to_um_database_directory.html"

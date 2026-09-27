@@ -25,14 +25,10 @@ entries:
       url: "/install-windows/reference_complete_worksheet_um.html"
   - title: Install, upgrade, and remove Unified Manager software
     entries:
-    - title: Overview of installing, upgrading, and removing Unified Manager software
-      url: "/install-windows/concept_install_upgrade_and_remove_unified_manager_software.html"
     - title: Overview of the installation process
       url: "/install-windows/concept_overview_of_installation_process_on_windows.html"
     - title: Install Unified Manager on Windows
       entries:
-      - title: Overview of installing Unified Manager on Windows systems
-        url: "/install-windows/concept_install_unified_manager_windows.html"
       - title: Install Unified Manager
         url: "/install-windows/task_install_unified_manager_on_windows.html"
       - title: Perform an unattended installation of Unified Manager

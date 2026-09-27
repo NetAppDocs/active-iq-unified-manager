@@ -1,0 +1,4 @@
+---
+permalink: install-linux/concept_install_unified_manager_on_rhel.html
+redirect: install-linux/task_create_custom_user_home_directory_and_umadmin.html
+---

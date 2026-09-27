@@ -33,7 +33,7 @@ If volume storage capacity issues are displayed in the Dashboard page, storage a
 
 * Configuring, monitoring, and diagnosing protection relationship issues
 +
-After creating and configuring protection relationships, storage administrators can view the potential issues related to protection relationships, the current state of the protection relationships, the current and historical protection job success information about the affected relationships, and troubleshooting advice. See the link:../data-protection/concept_create_and_monitor_protection_relationships.html[Creating, monitoring, and troubleshooting protection relationships] for more information.
+After creating and configuring protection relationships, storage administrators can view the potential issues related to protection relationships, the current state of the protection relationships, the current and historical protection job success information about the affected relationships, and troubleshooting advice. See the link:../data-protection/concept_manage_and_monitor_protection_relationships.html[Learn about managing and monitoring protection relationships] for more information.
 
 * Creating backup files and restoring data from backup files.
 * Associating storage objects with annotations
