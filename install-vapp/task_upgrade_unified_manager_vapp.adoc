@@ -10,7 +10,7 @@ summary: "You can upgrade to Unified Manager on VMware vSphere"
 
 [.lead]
  
-You can upgrade Active IQ Unified Manager to release 9.18 from release 9.14 or 9.16 only.
+You can upgrade Active IQ Unified Manager to release 9.20 from release 9.16 or 9.18 only.
 
 During the upgrade process, Unified Manager is unavailable. You should complete any running operations before upgrading Unified Manager.
 
@@ -29,3 +29,4 @@ If your system was upgraded from Unified Manager 9.7, you cannot upgrade directl
 // 2025-6-11, OTHERDOC-133
 // 2025-9-29, OTHERDOC 152
 // 2026-06-26, OTHERDOC 242
+// 2026-10-19, OTHERDOC 264
