@@ -9,7 +9,7 @@ summary: "You can upgrade Unified Manager by downloading and running the install
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade Unified Manager 9.14 or 9.16 to 9.18 by downloading and running the installation file on the Windows platform.
+You can upgrade Unified Manager 9.16 or 9.18 to 9.20 by downloading and running the installation file on the Windows platform.
 
 .Before you begin
 
