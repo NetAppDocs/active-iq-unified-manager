@@ -18,7 +18,7 @@ If Unified Manager is paired with an instance of OnCommand Workflow Automation, 
 
 [NOTE]
 ====
-If your system was upgraded from Unified Manager 9.7, you cannot upgrade directly from 9.14 to 9.20 because of file system changes in the Debian versions. Instead, follow this recommended upgrade path:
+If you are upgrading from Unified Manager 9.7, you cannot upgrade directly from 9.14 to 9.20 because of file system changes in the Debian versions. If you are running a version that is earlier than the supported versions, your Unified Manager instance will need to be upgraded to one of the supported versions first, and then upgraded to the current version. Follow this recommended upgrade path:
 9.14 -> 9.16P2 -> 9.20
 ====
 
@@ -30,3 +30,4 @@ If your system was upgraded from Unified Manager 9.7, you cannot upgrade directl
 // 2025-9-29, OTHERDOC 152
 // 2026-06-26, OTHERDOC 242
 // 2026-10-19, OTHERDOC 264
+// 2026-11-06, OTHERDOC 275

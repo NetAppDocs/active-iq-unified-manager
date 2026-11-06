@@ -72,7 +72,7 @@ The required `.rpm` modules for Unified Manager are unzipped to the target direc
 +
 The pre-installation script checks that the system has a valid Red Hat Enterprise Linux subscription, and that it has access to the required software repositories. If the script identifies any issues, you must fix the issues prior to installing Unified Manager.
 +
-For a Red Hat Enterprise Linux 9 system, if you have internal repositories with JDK 17 - OpenJDK, 7-zip, and other software packages provided by the AppStream repository, you must disable your AppStream repository and install MySQL Community Server. Run the following command:
+For a Red Hat Enterprise Linux 9 or 8 system, if you have internal repositories with JDK 17 - OpenJDK, 7-zip, and other software packages provided by the AppStream repository, you must disable your AppStream repository and install MySQL Community Server. Run the following command:
 +
 ----
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
@@ -147,3 +147,4 @@ Access the web UI to change the default password of the umadmin user, and perfor
 // 2025-9-29, OTHERDOC 152
 // 2025-01-13, OTHERDOC 181
 // 2026-11-04, OTHERDOC-275
+// 2026-11-06, OTHERDOC 275
