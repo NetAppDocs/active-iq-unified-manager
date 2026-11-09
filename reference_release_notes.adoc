@@ -10,7 +10,7 @@ summary: "Provides a summary of new features, limitations, and known issues for 
 
 [.lead]
 
-Provides a summary of new features, limitations, and known issues for Active IQ Unified Manager 9.20.
+The release notes provide a summary of new features, limitations, and known issues for Active IQ Unified Manager 9.20.
 
 For more information, see the https://library.netapp.com/ecm/ecm_download_file/ECMLP3391669[Active IQ Unified Manager Release Notes].
 // 2024-12-11, OTHERDOC-79

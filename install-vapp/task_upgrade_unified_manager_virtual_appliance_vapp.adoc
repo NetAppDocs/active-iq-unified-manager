@@ -15,8 +15,8 @@ You can upgrade the Active IQ Unified Manager virtual appliance from releases 9.
 
 Ensure the following:
 
-* You have downloaded the upgrade file, the ISO image from the NetApp Support Site.
-* The system on which you are upgrading Unified Manager meet the system and software requirements.
+* You have downloaded the upgrade file and the ISO image from the NetApp Support Site.
+* The system on which you are upgrading Unified Manager meets the system and software requirements.
 +
 See link:concept_virtual_infrastructure_or_hardware_system_requirements.html[Virtual infrastructure requirements].
 +
@@ -68,3 +68,4 @@ You can launch the web UI on a new window on a supported web browser and log in 
 // 15-November-2024 OTHERDOC-81
 // 2025-6-11, OTHERDOC-133
 // 2026-10-19, OTHERDOC 264
+// 2026-11-06, OTHERDOC 275
