@@ -13,7 +13,7 @@ The VMware vSphere system on which you install Unified Manager requires a specif
 
 == Operating system software
 
-The supported operating system is VMware ESXi 9.0.
+The supported operating system is VMware ESXi 9.x or VMware ESXi 8.x.
 
 [NOTE]
 ====

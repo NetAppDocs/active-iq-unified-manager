@@ -13,7 +13,7 @@ You can download the `.tar` file that contains a root certificate, a `README` fi
 
 == System requirements
 
-*	Operating system: VMware ESXi 9.0
+*	Operating system: VMware ESXi 9.x or 8.x
 *	RAM: 12 GB
 *	CPU: 9572 MHz total
 *	Free disk space: 5 GB (thin provisioning), 152 GB (thick provisioning)
