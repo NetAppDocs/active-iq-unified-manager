@@ -15,7 +15,7 @@ Not all versions of Unified Manager can perform an in-place upgrade to later ver
 
 If you are running a version that is earlier than the supported versions, your Unified Manager instance will need to be upgraded to one of the supported versions first, and then upgraded to the current version.
 
-For example, if your installed version is Unified Manager 9.9 and you want to upgrade to Unified Manager 9.14, you follow a sequence of upgrades.
+For example, if your installed version is Unified Manager 9.11 and you want to upgrade to Unified Manager 9.20, you follow a sequence of upgrades.
 
 .Sample upgrade path: 
 
@@ -29,4 +29,4 @@ For more information on the upgrade path matrix, see this https://kb.netapp.com/
 // 2025-7-10, OTHERDOC 107
 // 2025-10-9, OTHERDOC 152
 // 2026-10-19, OTHERDOC 264
-// 2026-11-06, OTHERDOC 275
+// 2026-11-10, OTHERDOC 275

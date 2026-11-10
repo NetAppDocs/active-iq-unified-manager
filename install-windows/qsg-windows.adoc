@@ -17,7 +17,7 @@ You can download the installation package and install Unified Manager to monitor
 ** Microsoft Windows Server 2019 Standard and Datacenter Edition
 ** Microsoft Windows Server 2022 Standard and Datacenter Edition
 +
-Unified Manager is supported on 64-bit Windows operating system for the following languages:
+Unified Manager is supported on 64-bit Windows operating systems for the following languages:
  ** English
  ** Japanese
  ** Simplified Chinese
