@@ -9,7 +9,7 @@ summary: "You can upgrade Unified Manager by downloading and running the install
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade from Unified Manager 9.14 or 9.16 to 9.18 by downloading and running the installation file on the Linux platform.
+You can upgrade from Unified Manager 9.16 or 9.18 to 9.20 by downloading and running the installation file on the Linux platform.
 
 .Before you begin
 
@@ -118,3 +118,5 @@ This process completes the Unified Manager upgrade process. Enter the specified 
 // 2025-05-26, OTHERDOC 127
 // 2025-09-29, OTHERDOC 152
 // 2025-01-13, OTHERDOC-181
+// 2026-10-19, OTHERDOC 264
+// 2026-11-06, OTHERDOC 275

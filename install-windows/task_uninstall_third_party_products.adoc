@@ -1,7 +1,7 @@
 ---
 permalink: install-windows/task_uninstall_third_party_products.html
 sidebar: sidebar
-keywords: MS Visual C, python, uninstall, uninstalling, 9.18
+keywords: MS Visual C, python, uninstall, uninstalling, 9.20
 summary: "Uninstall third-party products, including Python and the Microsoft Visual C 2013 runtime."
 ---
 = Uninstall third-party products in Active IQ Unified Manager
@@ -16,7 +16,7 @@ After upgrading Unified Manager, you can uninstall third party products, such as
 .Steps
 . From the *Control Panel* select *Programs* > *Programs and Features*.
 . Select Python from the list of programs.
-. Select *Uninstall this program*. Uninstall any version of Python except for 3.13.3. Ensure that you retain Python version 3.13.3.
+. Select *Uninstall this program*. Uninstall any version of Python except for 3.14.10. Ensure that you retain Python version 3.14.10.
 
 == Uninstall Microsoft Visual C++ 2013
 
@@ -28,3 +28,5 @@ After upgrading Unified Manager, you can uninstall third party products, such as
 // 2024-10-21,OTHERDOC87
 // 2025-6-11, OTHERDOC-133
 // 2025-10-8, OTHER DOC 152
+// 2026-10-19, OTHERDOC 264
+// 2026-11-02, OTHERDOC 275

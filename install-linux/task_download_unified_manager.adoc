@@ -27,7 +27,7 @@ https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/
 +
 [NOTE]
 ====
-** Ensure that you download the correct version of the installer file for your Red Hat Enterprise Linux system. Based on whether you have Red Hat Enterprise Linux 8 or 9 installed, ensure that you download the appropriate version of the Unified Manager `.zip` file.
+** Ensure that you download the correct version of the installer file for your Red Hat Enterprise Linux system. Based on whether you have Red Hat Enterprise Linux 9 or 8 installed, ensure that you download the appropriate version of the Unified Manager `.zip` file.
 ** NetApp recommends that you download the code signing certificate (`.pem`) and digital signature (`.sig`) along with the `.zip` file. 
 ====
 . Verify the checksum for integrity of the  downloaded software.

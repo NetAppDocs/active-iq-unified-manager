@@ -17,7 +17,7 @@ You can download the installation package and install Unified Manager to monitor
 ** Microsoft Windows Server 2019 Standard and Datacenter Edition
 ** Microsoft Windows Server 2022 Standard and Datacenter Edition
 +
-Unified Manager is supported on 64 bits Windows operating system for the following languages:
+Unified Manager is supported on 64-bit Windows operating systems for the following languages:
  ** English
  ** Japanese
  ** Simplified Chinese
@@ -42,3 +42,4 @@ For installing Unified Manager, ensure that you have Microsoft .NET 4.5.2, or a 
 .	In the Database Connection wizard, enter the MySQL root password.
 .	Follow the remaining prompts to complete the installation.
 .	Click *Finish* at the end of the installation and the Unified Manager web UI is displayed.
+// 2026-11-06, OTHERDOC 275
